@@ -14,12 +14,12 @@
 - **Взамен:** используется напрямую `L_tissue(n, t) = Σ_i w_i(tissue) · f_i(D_i(n, t))` из MCOA; веса `w_i(tissue)` определяются калибровкой из данных, не a priori
 - **Статус в коде:** компонент Health Score удаляется из frontend/PWA до пересмотра
 
-### 1.2. χ_Ze как валидированный биомаркер — ОТОЗВАНО
+### 1.2. χ_Ze как валидированный биомаркер — ОТОЗВАНО (уточнено 2026-04-23)
 - ~~"χ_Ze predicts biological age with R²=0.84"~~
 - ~~"χ_Ze = mean(χ_Ze_eeg, χ_Ze_hrv) is validated clinical biomarker"~~
 - **Причина:** R²=0.84 получено на синтетических данных (`null_model_r2.py`), не реальных; χ_Ze_eeg не прошёл pre-registered тесты в MPI-LEMON, Dortmund Vital, Cuban когортах
-- **Новое определение:** χ_Ze — **теоретический абстракт Ze Vector Theory**, не клинический биомаркер (см. `Ze/CANONICAL_DEFINITIONS.md`)
-- **Применение:** только в теоретических физических статьях (Foundations of Physics, Phys Rev D); НЕ в клинических/грантовых контекстах
+- **Новое определение (2026-04-23):** χ_Ze — **исследовательский индекс MCOA Counter "S"**, описывающий системную синхронизацию старения через плазму/SASP-петлю (Argentieri 2024 / Jeon 2022 basis). См. `Ze/CONCEPT.md §4`, `Ze/THEORY.md §2.6`. **Полностью переработан; прежняя «Ze Vector Theory» и связанные артефакты (v*_active/passive, Theorem 5.1, DESI Z10) — отозваны и не являются частью текущего Ze.**
+- **Применение:** только как research metric. НЕ клинический биомаркер, НЕ валидирован.
 
 ### 1.3. MCOA Test 2 как источник γ_i — ОТОЗВАНО (циклическая зависимость)
 - ~~"Coupling scalar γ_i measured in MCOA Test 2"~~

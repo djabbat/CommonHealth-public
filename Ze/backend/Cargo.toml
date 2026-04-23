@@ -1,24 +1,21 @@
 [package]
 name = "ze_backend"
-version = "0.1.0"
-edition = "2021"
-
-[dependencies]
-axum = { version = "0.7", features = ["macros"] }
-tokio = { version = "1.0", features = ["full"] }
-sqlx = { version = "0.7", features = ["runtime-tokio-native-tls", "postgres", "chrono", "uuid"] }
-serde = { version = "1.0", features = ["derive"] }
-serde_json = "1.0"
-chrono = { version = "0.4", features = ["serde"] }
-uuid = { version = "1.0", features = ["v4", "serde"] }
-tracing = "0.1"
-tracing-subscriber = { version = "0.3", features = ["env-filter"] }
-thiserror = "1.0"
-dotenv = "0.15"
-futures = "0.3"
-tower-http = { version = "0.5", features = ["cors", "trace"] }
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+description = "Ze Theory REST API (axum) — exposes three simulators to Phoenix frontend."
 
 [[bin]]
 name = "ze_backend"
 path = "src/main.rs"
-[workspace]
+
+[dependencies]
+ze_simulator = { path = "../simulator" }
+serde = { workspace = true }
+serde_json = { workspace = true }
+axum = "0.7"
+tokio = { version = "1", features = ["rt-multi-thread", "macros", "net", "signal"] }
+tower-http = { version = "0.5", features = ["cors", "trace"] }
+tracing = "0.1"
+tracing-subscriber = "0.3"

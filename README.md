@@ -19,7 +19,7 @@ CommonHealth is the social and infrastructure layer that wraps the **MCOA (Multi
 | MCOA role | Subproject | Focus |
 |-----------|------------|-------|
 | Counter #1 (Centriolar) | CDATA | Mother-centriole polyglutamylation |
-| Counter "S" (Synchronisation) | Ze | χ_Ze dimensionless synchronization marker |
+| Counter "S" (Synchronisation) | Ze | χ_Ze — systemic coupling via plasma/SASP loop (rewritten 2026-04-23 on Argentieri 2024 / Jeon 2022 basis; see `Ze/CONCEPT.md`) |
 | Measurement layer | BioSense | EEG + HRV + olfaction → counter inputs |
 | Federated infrastructure | FCLC | Privacy-preserving calibration |
 | Developmental prequel | Ontogenesis | Counter-sums for ages 0–25 |
@@ -27,7 +27,7 @@ CommonHealth is the social and infrastructure layer that wraps the **MCOA (Multi
 
 Full theory: `MCOA/CONCEPT.md` · Nature Aging manuscript: `~/Documents/MCOA_NatureAging_submission/`
 
-Every user gets a **Ze·Profile**: a live biological dashboard driven by χ_Ze (Ze complexity index) and D_norm (bridge equation to biological age). Data flows through the FCLC 5-layer privacy pipeline. Scientists recruit real participants. Users become co-authors of longevity studies.
+Every user gets a **Ze·Profile**: a live biological dashboard driven by χ_Ze (systemic synchronization index over plasma/SASP coupling — research metric, see `Ze/CONCEPT.md` §4) and D_norm (bridge equation to biological age). Data flows through the FCLC 5-layer privacy pipeline. Scientists recruit real participants. Users become co-authors of longevity studies.
 
 ---
 

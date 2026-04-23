@@ -22,7 +22,7 @@
 | Counter / Layer | Подпроект | Роль |
 |-----------------|-----------|------|
 | Counter #1 (Centriolar) | **CDATA** | Полиглутамилирование материнской центриоли |
-| Counter "S" (Synchronization) | **Ze** | χ_Ze как dimensionless synchronization marker |
+| Counter "S" (Synchronization) | **Ze** | χ_Ze — сцепление клеточно-автономных счётчиков через плазму/SASP (переработан 2026-04-23 на основе Argentieri 2024 / Jeon 2022; см. `Ze/CONCEPT.md`) |
 | Measurement layer | **BioSense** | EEG + HRV + olfaction → input для counter'ов |
 | Infrastructure | **FCLC** | Federated privacy-preserving learning для калибровки |
 | Developmental prequel | **Ontogenesis** | Counter-sums от 0 до 25 лет (до начала aging) |
@@ -101,9 +101,10 @@ CommonHealth — первая платформа, где сами пациент
          │           │              │
   ┌──────▼───┐ ┌─────▼────┐ ┌──────▼──────┐ ┌────────────┐
   │   FCLC   │ │   CDATA  │ │     Ze      │ │  BioSense  │
-  │Federated │ │Centriolar│ │Ze Vectors   │ │ EEG+HRV+   │
-  │ Learning │ │ Damage   │ │  Theory     │ │ Olfaction  │
-  │  Infra   │ │MCAI/Ze   │ │ χ_Ze, v*    │ │ Hardware   │
+  │Federated │ │Centriolar│ │Plasma/SASP  │ │ EEG+HRV+   │
+  │ Learning │ │ Damage   │ │  loop (MCOA │ │ Olfaction  │
+  │  Infra   │ │MCAI      │ │  Counter S) │ │ Hardware   │
+  │          │ │          │ │ χ_Ze, PAG   │ │            │
   └──────────┘ └──────────┘ └─────────────┘ └────────────┘
 ```
 
@@ -114,9 +115,9 @@ CommonHealth — первая платформа, где сами пациент
 | **CommonHealth** | Центр: социальная сеть, Ze·Profile, Ze·Guide, Lab | `CommonHealth/` |
 | **MCOA** | Мета-теоретический фундамент: Multi-Counter Architecture of Organismal Aging (объединяет CDATA + Ze + BioSense как счётчики/измерительные слои) | `CommonHealth/MCOA/` |
 | **FCLC** | Privacy-инфраструктура, федеративное обучение | `CommonHealth/FCLC/` |
-| **Ze** | Теория χ_Ze, алгоритм биологического возраста (Counter "S" в MCOA) | `CommonHealth/Ze/` |
+| **Ze** | Counter "S" в MCOA. ODE-модель петли плазма/SASP → индекс χ_Ze (синхронизация) и PAG (ProtAgeGap, Argentieri 2024); симулятор на Rust, UI на Phoenix LiveView. Переработан 2026-04-23. | `CommonHealth/Ze/` |
 | **CDATA** | Теория повреждения центриолей, MCAI (Counter #1 в MCOA); R²(MCAI)=0.745 on literature, R²=0.84 synthetic-data claim retracted 2026-04-13 — см. CDATA/CONCEPT.md | `CommonHealth/CDATA/` |
-| **BioSense** | Аппаратный слой: EEG+HRV → χ_Ze сигналы (измерительный слой MCOA) | `CommonHealth/BioSense/` |
+| **BioSense** | Аппаратный слой: EEG+HRV+обоняние как вход в MCOA-counters (прежняя связка «EEG → χ_Ze» устарела — χ_Ze теперь плазменно-системный индекс; см. `Ze/CONCEPT.md §4`) | `CommonHealth/BioSense/` |
 | **Ontogenesis** | Платформа онтогенеза 0–25 лет | `CommonHealth/Ontogenesis/` |
 | **HAP** | Hepato-Affective Primacy Theory (клиническая нейрогепатология) | `CommonHealth/HAP/` |
 

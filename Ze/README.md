@@ -1,59 +1,67 @@
-# Ze: Теория векторов и счётчик синхронизации в MCOA
+# Ze Theory — Entropic-Geometric Theory of Everything
 
-**Ze** — это теоретический и вычислительный подпроект в рамках экосистемы CommonHealth, посвящённый изучению фундаментальных информационных процессов. В основе лежит **Теория Ze-векторов** — интерпретативная рамка для квантовой механики, постулирующая, что любая информационно-обрабатывающая система может быть описана через бинарный поток событий двух типов: *Tension* (T, превышение предсказания) и *Stretch* (S, соответствие предсказанию). Проект служит математическим фундаментом для счётчика "S" (Synchronization) в рамках **Мета-архитектуры CommonHealth (MCOA)**.
+**Статус:** концепция и прототип реализации, **2026-04-23** (переработка на основе `~/Desktop/5.md`).
 
-## Краткое содержание
+Физико-математический TOE-уровневой теории Дж. Ткемаладзе. Симуляторы покрывают три количественных блока: импеданс-ODE, CHSH-деформацию и cheating-autowaves.
 
-Проект развивается по двум взаимосвязанным направлениям:
-1.  **Фундаментальная теория:** Аксиоматическое построение Ze-формализма, вывод пространства-времени Минковского из динамики сети Ze, исследование группы Лоренца как автоморфизмов Ze-счёта.
-2.  **Феноменологическое применение:** Разработка безразмерного индекса **χ_Ze** как меры близости наблюдаемой динамики системы к теоретически оптимальной точке. Важно: после аудита 2026-04-22 χ_Ze **является теоретическим абстрактным конструктом Ze Vector Theory** и не является валидированным клиническим биомаркером.
+## Документы
 
-## Ключевые положения (после канонических поправок)
+- `CONCEPT.md` — конспект Ze Theory.
+- `THEORY.md` — формальные уравнения, привязанные к главам 5.md.
+- `PARAMETERS.md` — значения параметров и сценарии.
+- `EVIDENCE.md` — первоисточники и их роли.
+- `CLAUDE.md` — идентичность подпроекта.
 
-*   **Аксиомы незыблемы:** Ядро теории составляют пять постулатов, определяющих формальную первичность Ze-сетей, дискретное собственное время, цену предсказания и онтологическую природу наблюдения.
-*   **Отозванные утверждения:** Формула Health Score удалена. Утверждение "χ_Ze predicts biological age with R²=0.84" отозвано, так как было получено на синтетических данных. Старая структура EIC (5 рабочих пакетов) заменена на новую, где Ze не является отдельным WP.
-*   **Канонические определения:** Скорость `v` определена как доля синхронных интервалов: `v = N_S / (N − 1) ∈ [0, 1]`. Старые формулы (`v = N_T / (N_T + N_S)`) более не используются.
-*   **Честная оценка:** Теория чётко разделяет доказанные теоремы (например, вывод метрики Минковского) и рабочие гипотезы (например, эмпирические оценки v*), требующие независимой верификации.
+## Стек
 
-## Связь с другими компонентами CommonHealth
+- **Симуляторы:** Rust crate `ze_simulator` — CLI `ze_sim` с режимами `impedance | chsh | autowaves`, JSON-выход.
+- **Backend:** Rust crate `ze_backend` (axum) — REST `/api/impedance`, `/api/chsh`, `/api/autowaves`, `/api/scenarios`. Слушает `127.0.0.1:4001`.
+- **Frontend:** Phoenix LiveView — три вкладки (по одной на модуль симулятора), графики через Chart.js. Слушает `127.0.0.1:4000`.
 
-*   **MCOA:** Ze является реализацией счётчика "S" (Synchronization). Его формализм предоставляет основу для вычисления состояния `D_S(n, t)` в общей MCOA-архитектуре.
-*   **CDATA:** Исследуется гипотетическая связь между собственным временем Ze (`τ_Z`) и функционалом повреждения CDATA (`Φ(D)`). Это одна из центральных открытых проблем.
-*   **FCLC:** Теоретические наработки Ze могут информировать разработку алгоритмов обработки сигналов (например, ЭЭГ) в платформе сбора данных, но без прямых клинических claims.
+## Структура
 
-## Структура документации
+```
+Ze/
+├── CONCEPT.md · THEORY.md · PARAMETERS.md · EVIDENCE.md · CLAUDE.md · README.md
+├── Cargo.toml                       # rust workspace
+├── simulator/                       # crate: 3 симулятора + CLI
+│   ├── Cargo.toml
+│   ├── src/lib.rs                   # модули impedance · chsh · autowaves
+│   └── src/bin/ze_sim.rs
+├── backend/                         # crate: axum REST
+│   ├── Cargo.toml
+│   └── src/main.rs
+└── frontend/                        # Phoenix LiveView
+    ├── mix.exs · config/ · lib/ · assets/
+```
 
-Данный проект документирован через набор из девяти основных файлов, каждый из которых обслуживает определённую цель:
+## Быстрый старт
 
-*   **[THEORY.md](THEORY.md)**: Полное формальное изложение теории: аксиомы, определения, доказанные теоремы и предсказания.
-*   **[EVIDENCE.md](EVIDENCE.md)**: Верифицированные ссылки на литературу, данные внутренних симуляций и, что критически важно, опровергающие свидетельства.
-*   **[OPEN_PROBLEMS.md](OPEN_PROBLEMS.md)**: Детальный список нерешённых научных задач с явными тестами на фальсификацию и приоритетами.
-*   **[PARAMETERS.md](PARAMETERS.md)**: Таблица всех количественных параметров теории с указанием происхождения, единиц измерения и статуса (теоретический/эмпирический).
-*   **[DESIGN.md](DESIGN.md)**: Архитектура кода, дерево файлов и контракты API для вычислительных модулей Ze.
-*   **[AGENTS.md](AGENTS.md)**: Инструкции для LLM-ассистентов (таких как Claude), включая жёсткие правила безопасности и канонические ограничения.
-*   **[JOURNAL.md](JOURNAL.md)**: Хронологический журнал изменений, решений и их обоснований.
-*   **[ROADMAP.md](ROADMAP.md)**: План будущих разработок, приоритеты и зависимости.
+```sh
+# Предусловия: Rust 1.77+, Elixir 1.17+, Phoenix 1.8+.
+cd Ze
+cargo build --release
+cargo test --release -p ze_simulator          # прогон F-тестов
 
-## Как начать
+# CLI:
+./target/release/ze_sim impedance --scenario novelty --horizon 50
+./target/release/ze_sim chsh --h 0.5
+./target/release/ze_sim autowaves --steps 2000
 
-Если вы новый участник проекта:
-1.  Прочтите этот файл (README) для общего понимания.
-2.  Ознакомьтесь с **[AGENTS.md](AGENTS.md)** для понимания правил взаимодействия и ключевых ограничений.
-3.  Для глубокого погружения в науку начните с **[THEORY.md](THEORY.md)** и **[OPEN_PROBLEMS.md](OPEN_PROBLEMS.md)**.
-4.  Для работы с кодом обратитесь к **[DESIGN.md](DESIGN.md)**.
+# Сервер:
+./target/release/ze_backend                   # 127.0.0.1:4001
 
-**Важное предупреждение:** Все документы проекта должны строго соответствовать канону, установленному в **[CORRECTIONS_2026-04-22.md](../CORRECTIONS_2026-04-22.md)**. При любом конфликте приоритет имеет документ с поправками.
+# Frontend (в другом терминале):
+cd frontend
+mix deps.get && mix phx.server                # 127.0.0.1:4000
+```
 
----
+## Предсказания (см. THEORY §3–§4, PARAMETERS §2)
 
----
+- CHSH: сдвиг `S_Ze − S_QM = δ·1.7478`; при параметрах по умолчанию ≈ 0.085 (42σ при 10⁹ совпадений).
+- Autowaves: в окрестности `I_crit` возникают осцилляции между режимами learning / cheating.
+- Impedance: meditation-сценарий даёт монотонно убывающий `𝓘(τ)`, positive `𝒞(τ)`, сходящийся `Φ_Ze`.
 
-## Ze vs BioSense separation (added 2026-04-21)
+## Лицензия и статус
 
-**Ze subproject scope:** Theoretical physics and mathematical framework. Ze Vector Theory and χ_Ze as dimensionless theoretical synchronization markers. Publications target: *Foundations of Physics*, *Physical Review D*, *Journal of Number Theory* (separate theoretical publications track, not clinical).
-
-**BioSense subproject scope:** Raw EEG/HRV data collection engineering (sensor-only, not biomarker claims). Data flows to FCLC for federated analysis.
-
-**Explicit separation:** Ze contains no hardware/wet-lab claims. BioSense contains no theoretical validation of χ_Ze. This separation is documented in `~/Desktop/CommonHealth/Ze/CANONICAL_DEFINITIONS.md` and `~/Desktop/CommonHealth/BioSense/SCOPE_NOTES_2026-04-22.md`.
-
-**Grant stance:** Ze theoretical work runs as separate publications track (not in EIC/Impetus/Wellcome). BioSense will be repositioned as FCLC auxiliary (not standalone medical device).
+Исследовательский прототип. Некоторые предсказания (черные дыры, время внутри горизонта) — гипотетические экстраполяции без экспериментального подтверждения. Квантовый damping-оператор доказан только для специального случая — см. `THEORY.md §5` и `CONCEPT.md §7`.

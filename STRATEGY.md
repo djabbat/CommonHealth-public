@@ -11,7 +11,7 @@
 > **РЕШЕНИЕ 2026-04-17 (Variant C):**
 > EIC Pathfinder подаётся как единая заявка **CommonHealth** (umbrella) с архитектурой:
 > - **WP1 = FCLC** (federated learning infrastructure) — приватность, SecAgg+, DP
-> - **WP2 = Ze** (biomarker computation) — χ_Ze, EEG/HRV
+> - **WP2 = Ze** (biomarker computation) — χ_Ze (plasma/SASP systemic synchronization, rewritten 2026-04-23) + PAG (ProtAgeGap, Argentieri 2024) [historical form: EEG/HRV driver — archived]
 > - **WP3 = CDATA** (biological mechanism) — centriolar damage theory
 > - **WP4 = BioSense** (hardware sensor) — EEG/HRV прототип
 > - **WP5 = Aqtivirebuli** (clinical pilot) — традиционная нутрициология, anemia cohort

@@ -115,7 +115,7 @@ Test 4 is the near-term priority.
 | Subproject | MCOA role |
 |------------|-----------|
 | CDATA | Counter #1 (centriolar polyglutamylation) — specialised instance |
-| Ze | Supplies the dimensionless *χ_Ze* synchronisation counter (Counter "S") |
+| Ze | Counter "S" — dimensionless χ_Ze synchronisation index computed from an ODE model of the plasma/SASP feedback loop (see `Ze/CONCEPT.md` §4, rewritten 2026-04-23 on Argentieri 2024 / Jeon 2022 basis) |
 | BioSense | Measurement layer for *D_autonomic*, *D_neural*, *D_olfactory* |
 | FCLC | Federated calibration of *w_i(tissue)* across clinics |
 | Ontogenesis | Developmental trajectory (0–25 yr) with MCOA counter families |

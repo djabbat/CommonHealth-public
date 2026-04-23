@@ -38,7 +38,7 @@ Blocker summary (cannot be fixed in 21 days before 2026-05-12):
 CommonHealth/           ← этот проект (социальный слой)
 ├── MCOA/               ← Multi-Counter Architecture of Organismal Aging — мета-теория (добавлен 2026-04-21)
 ├── FCLC/               ← федеративное обучение, DP-инфраструктура
-├── Ze/                 ← Ze Vectors Theory, χ_Ze (Counter "S" в MCOA)
+├── Ze/                 ← Counter "S" MCOA: плазма/SASP-петля, χ_Ze и PAG (переработан 2026-04-23; стек: Rust simulator+backend / Phoenix LiveView)
 ├── CDATA/              ← теория повреждения центриолей, MCAI (Counter #2 в MCOA)
 ├── BioSense/           ← EEG+HRV+обоняние (измерительный слой MCOA)
 ├── Ontogenesis/        ← платформа онтогенеза 0–25 лет
