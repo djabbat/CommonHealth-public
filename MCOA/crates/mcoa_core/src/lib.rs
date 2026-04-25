@@ -265,4 +265,67 @@ mod tests {
         // α is ignored because n_star = None
         assert!((d - 0.01).abs() < 1e-12);
     }
+
+    /// Aging_rate per CONCEPT.md formula: weighted sum of normalised counter values.
+    /// Aging_rate = Σ w_i · Counter_i / threshold_i. With unit thresholds, reduces to dot product.
+    #[test]
+    fn aging_rate_is_weighted_sum() {
+        let weights = TissueWeights([0.30, 0.20, 0.20, 0.15, 0.15]);
+        assert!(weights.is_normalised(1e-9));
+        let states = [
+            CounterState { value: 0.5 },  // Telomere
+            CounterState { value: 0.3 },  // Centriolar
+            CounterState { value: 0.6 },  // Mitochondrial
+            CounterState { value: 0.4 },  // Epigenetic
+            CounterState { value: 0.2 },  // Proteostasis
+        ];
+        // Aging_rate = 0.30·0.5 + 0.20·0.3 + 0.20·0.6 + 0.15·0.4 + 0.15·0.2
+        //            = 0.15 + 0.06 + 0.12 + 0.06 + 0.03 = 0.42
+        let aging: f64 = weights.0.iter()
+            .zip(states.iter())
+            .map(|(w, s)| w * s.value)
+            .sum();
+        assert!((aging - 0.42).abs() < 1e-12, "aging_rate={} expected 0.42", aging);
+    }
+
+    /// Coupling matrix Γ — null hypothesis: γ_ij = 0 default per CORRECTIONS-2026-04-22.
+    /// influence() with zero gamma returns 0 regardless of states.
+    #[test]
+    fn null_gamma_yields_zero_influence() {
+        let gamma = Gamma([[0.0; N_COUNTERS]; N_COUNTERS]);
+        let states = [
+            CounterState { value: 0.5 },
+            CounterState { value: 0.3 },
+            CounterState { value: 0.6 },
+            CounterState { value: 0.4 },
+            CounterState { value: 0.2 },
+        ];
+        for &c in &Counter::ALL {
+            let inf = gamma.influence(c, &states);
+            assert!(inf.abs() < 1e-12, "{:?} influence under null gamma should be 0, got {}", c, inf);
+        }
+    }
+
+    /// Identity gamma (γ_ii = 1, off-diagonal = 0): influence equals own value.
+    #[test]
+    fn identity_gamma_yields_self_value() {
+        let mut gamma_arr = [[0.0; N_COUNTERS]; N_COUNTERS];
+        for i in 0..N_COUNTERS {
+            gamma_arr[i][i] = 1.0;
+        }
+        let gamma = Gamma(gamma_arr);
+        let states = [
+            CounterState { value: 0.5 },
+            CounterState { value: 0.3 },
+            CounterState { value: 0.6 },
+            CounterState { value: 0.4 },
+            CounterState { value: 0.2 },
+        ];
+        for (idx, &c) in Counter::ALL.iter().enumerate() {
+            let inf = gamma.influence(c, &states);
+            let expected = states[idx].value;
+            assert!((inf - expected).abs() < 1e-12,
+                "{:?} self-influence: got {} expected {}", c, inf, expected);
+        }
+    }
 }

@@ -1,0 +1,100 @@
+{
+  "db_name": "PostgreSQL",
+  "query": "SELECT id, username, email, email_verified, birth_year, country_code,\n                  orcid_id, degree_verified, is_pro, fclc_node_id, fclc_node_active,\n                  consent_given, consent_at, created_at\n           FROM users WHERE id = $1 AND deleted_at IS NULL",
+  "describe": {
+    "columns": [
+      {
+        "ordinal": 0,
+        "name": "id",
+        "type_info": "Uuid"
+      },
+      {
+        "ordinal": 1,
+        "name": "username",
+        "type_info": "Text"
+      },
+      {
+        "ordinal": 2,
+        "name": "email",
+        "type_info": "Text"
+      },
+      {
+        "ordinal": 3,
+        "name": "email_verified",
+        "type_info": "Bool"
+      },
+      {
+        "ordinal": 4,
+        "name": "birth_year",
+        "type_info": "Int4"
+      },
+      {
+        "ordinal": 5,
+        "name": "country_code",
+        "type_info": "Bpchar"
+      },
+      {
+        "ordinal": 6,
+        "name": "orcid_id",
+        "type_info": "Text"
+      },
+      {
+        "ordinal": 7,
+        "name": "degree_verified",
+        "type_info": "Bool"
+      },
+      {
+        "ordinal": 8,
+        "name": "is_pro",
+        "type_info": "Bool"
+      },
+      {
+        "ordinal": 9,
+        "name": "fclc_node_id",
+        "type_info": "Text"
+      },
+      {
+        "ordinal": 10,
+        "name": "fclc_node_active",
+        "type_info": "Bool"
+      },
+      {
+        "ordinal": 11,
+        "name": "consent_given",
+        "type_info": "Bool"
+      },
+      {
+        "ordinal": 12,
+        "name": "consent_at",
+        "type_info": "Timestamptz"
+      },
+      {
+        "ordinal": 13,
+        "name": "created_at",
+        "type_info": "Timestamptz"
+      }
+    ],
+    "parameters": {
+      "Left": [
+        "Uuid"
+      ]
+    },
+    "nullable": [
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      false,
+      false,
+      true,
+      false,
+      false,
+      true,
+      false
+    ]
+  },
+  "hash": "013203591e2b625480f9c7c848fa49b1f69920e2c0076bb418cf37207067ff65"
+}

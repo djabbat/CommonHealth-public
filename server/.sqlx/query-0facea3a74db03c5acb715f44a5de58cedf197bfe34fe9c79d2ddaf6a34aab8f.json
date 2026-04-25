@@ -1,0 +1,22 @@
+{
+  "db_name": "PostgreSQL",
+  "query": "INSERT INTO ze_guide_logs\n           (id, user_id, session_id, prompt, response, model_used, cited_dois, cited_files, disclaimer_sent, latency_ms)\n           VALUES ($1, $2, $3, $4, $5, $6, $7, $8, true, $9)",
+  "describe": {
+    "columns": [],
+    "parameters": {
+      "Left": [
+        "Uuid",
+        "Uuid",
+        "Uuid",
+        "Text",
+        "Text",
+        "Text",
+        "TextArray",
+        "TextArray",
+        "Int4"
+      ]
+    },
+    "nullable": []
+  },
+  "hash": "0facea3a74db03c5acb715f44a5de58cedf197bfe34fe9c79d2ddaf6a34aab8f"
+}

@@ -1,0 +1,19 @@
+[package]
+name = "biosense_cli"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+description = "BioSense CLI — compute HRV metrics from CSV of RR intervals."
+
+[[bin]]
+name = "biosense"
+path = "src/main.rs"
+
+[dependencies]
+biosense_core = { path = "../biosense-core" }
+biosense_hrv = { path = "../biosense-hrv" }
+serde = { workspace = true }
+serde_json = { workspace = true }
+clap = { workspace = true }
+anyhow = { workspace = true }

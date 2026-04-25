@@ -1,0 +1,15 @@
+{
+  "db_name": "PostgreSQL",
+  "query": "UPDATE posts SET deleted_at = NOW() WHERE id = $1 AND author_id = $2",
+  "describe": {
+    "columns": [],
+    "parameters": {
+      "Left": [
+        "Uuid",
+        "Uuid"
+      ]
+    },
+    "nullable": []
+  },
+  "hash": "30da449a5cdfad54f5b6cda9ae977b6435125a75f2856373b89bb4ac3c1f85cc"
+}

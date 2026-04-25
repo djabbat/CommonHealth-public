@@ -3,6 +3,10 @@ name = "hap_backend"
 version = "0.1.0"
 edition = "2021"
 
+[lib]
+name = "hap_backend"
+path = "src/lib.rs"
+
 [[bin]]
 name = "hap_backend"
 path = "src/main.rs"
@@ -23,5 +27,6 @@ tower-http = { version = "0.5", features = ["cors", "trace"] }
 argon2 = "0.5"
 
 [dev-dependencies]
-sqlx = { version = "0.7", features = ["runtime-tokio-native-tls", "postgres", "migrate", "offline"] }
+# "offline" feature removed in sqlx 0.7 (replaced by SQLX_OFFLINE env var + sqlx-cli prepare).
+sqlx = { version = "0.7", features = ["runtime-tokio-native-tls", "postgres", "migrate"] }
 [workspace]

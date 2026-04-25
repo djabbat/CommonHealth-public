@@ -1,0 +1,19 @@
+{
+  "db_name": "PostgreSQL",
+  "query": "UPDATE users SET\n            username = COALESCE($1, username),\n            birth_year = COALESCE($2, birth_year),\n            country_code = COALESCE($3, country_code),\n            orcid_id = COALESCE($4, orcid_id),\n            fclc_node_id = COALESCE($5, fclc_node_id),\n            fclc_node_active = CASE WHEN $5 IS NOT NULL THEN true ELSE fclc_node_active END\n           WHERE id = $6",
+  "describe": {
+    "columns": [],
+    "parameters": {
+      "Left": [
+        "Text",
+        "Int4",
+        "Bpchar",
+        "Text",
+        "Text",
+        "Uuid"
+      ]
+    },
+    "nullable": []
+  },
+  "hash": "a55b6e08020b7433006fab99f08b962985d33a11a0db95b7453dfaa40e5ea99d"
+}

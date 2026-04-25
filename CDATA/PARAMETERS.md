@@ -52,11 +52,11 @@ Prior versions of PARAMETERS.md listed four parameters (`pi_base`, `pi_0` alt-me
 | **Initial Conditions** | `D_c_0` | D_{c,0} | Начальное повреждение центриоли при рождении | damage | 0.1 | [0.05, 0.15] | Оценка | **Assumed** | <0.001 |
 | | `initial_HSC_pool` | N_HSC,0 | Начальный размер пула HSC | cells | 11,000 | [8,000, 14,000] | Оценка для мыши (донор) | Literature | <0.001 |
 | **Tissue-Specific (ISC)** | `alpha_ISC` | α_ISC | Прирост повреждения (кишечник) | damage/division | 0.035 | [0.028, 0.042] | Масштабирование от HSC по ν | **Scaled** | <0.001 |
-| | `nu_ISC` | ν_ISC | Частота делений ISC | divisions/year | 52 | [40, 65] | мета-анализ данных мыши | Literature | <0.001 |
+| | `nu_ISC` | ν_ISC | Частота делений ISC | divisions/year | **70** (code post-MCMC) / 52 (lit. prior) | [40, 65] lit. prior | мета-анализ данных мыши + Round-7 MCMC | **Fitted** (2026-04-25 reconciliation) | <0.001 |
 | **Tissue-Specific (Muscle)** | `alpha_Sat` | α_Sat | Прирост повреждения (сателлитные клетки) | damage/division | 0.002 | [0.001, 0.004] | Очень низкая частота делений | **Scaled** | <0.001 |
-| | `nu_Sat` | ν_Sat | Частота делений сателлитных клеток | divisions/year | 0.1 | [0.05, 0.2] | Оценка для взрослой мыши | Literature | <0.001 |
+| | `nu_Sat` | ν_Sat (muscle_nu) | Частота делений сателлитных клеток | divisions/year | **4.0** (code post-MCMC active) / 0.1 (lit. prior quiescent) | [0.05, 0.2] lit. prior | оценка взрослой мыши + Round-7 MCMC; код моделирует активную фракцию | **Fitted** (2026-04-25 reconciliation) | <0.001 |
 | **Tissue-Specific (Neural)** | `alpha_NPC` | α_NPC | Прирост повреждения (нейральные прогениторы) | damage/division | 0.020 | [0.015, 0.025] | Royall et al., eLife 2023; калибровка | **Fitted** | <0.001 |
-| | `nu_NPC` | ν_NPC | Частота делений NPC | divisions/year | 4 | [2, 6] | Литература по гиппокампу взрослых | Literature | <0.001 |
+| | `nu_NPC` | ν_NPC (neural_nu) | Частота делений NPC | divisions/year | **2.0** (code post-MCMC) / 4 (lit. prior) | [2, 6] lit. prior | литература по гиппокампу взрослых + Round-7 MCMC | **Fitted** (2026-04-25, в нижнем диапазоне prior) | <0.001 |
 | **Coupling (MCOA)** | `gamma_epi` | γ_epi | Связь с эпигенетическим счётчиком | unitless | **0** | [0, 0.05] | **По умолчанию 0 (CORRECTIONS)** | **Null Hypothesis** | N/A |
 | | `gamma_telo` | γ_telo | Связь с теломерным счётчиком | unitless | **0** | [0, 0.05] | **По умолчанию 0 (CORRECTIONS)** | **Null Hypothesis** | N/A |
 | | `gamma_chip` | γ_chip | Связь с CHIP-счётчиком | unitless | **0** | [0, 0.05] | **По умолчанию 0 (CORRECTIONS)** | **Null Hypothesis** | N/A |

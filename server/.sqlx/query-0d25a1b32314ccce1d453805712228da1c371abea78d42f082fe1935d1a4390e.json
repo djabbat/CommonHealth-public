@@ -1,0 +1,112 @@
+{
+  "db_name": "PostgreSQL",
+  "query": "SELECT id, user_id, recorded_at,\n                  psyche_score, psyche_mood, psyche_stress, psyche_notes,\n                  consciousness_score, consciousness_mindful, consciousness_purpose, consciousness_notes,\n                  social_score, social_support, social_isolation, social_notes,\n                  created_at\n           FROM health_factors\n           WHERE user_id = $1\n             AND recorded_at > NOW() - INTERVAL '30 days'\n           ORDER BY recorded_at DESC",
+  "describe": {
+    "columns": [
+      {
+        "ordinal": 0,
+        "name": "id",
+        "type_info": "Uuid"
+      },
+      {
+        "ordinal": 1,
+        "name": "user_id",
+        "type_info": "Uuid"
+      },
+      {
+        "ordinal": 2,
+        "name": "recorded_at",
+        "type_info": "Timestamptz"
+      },
+      {
+        "ordinal": 3,
+        "name": "psyche_score",
+        "type_info": "Float8"
+      },
+      {
+        "ordinal": 4,
+        "name": "psyche_mood",
+        "type_info": "Text"
+      },
+      {
+        "ordinal": 5,
+        "name": "psyche_stress",
+        "type_info": "Float8"
+      },
+      {
+        "ordinal": 6,
+        "name": "psyche_notes",
+        "type_info": "Text"
+      },
+      {
+        "ordinal": 7,
+        "name": "consciousness_score",
+        "type_info": "Float8"
+      },
+      {
+        "ordinal": 8,
+        "name": "consciousness_mindful",
+        "type_info": "Float8"
+      },
+      {
+        "ordinal": 9,
+        "name": "consciousness_purpose",
+        "type_info": "Float8"
+      },
+      {
+        "ordinal": 10,
+        "name": "consciousness_notes",
+        "type_info": "Text"
+      },
+      {
+        "ordinal": 11,
+        "name": "social_score",
+        "type_info": "Float8"
+      },
+      {
+        "ordinal": 12,
+        "name": "social_support",
+        "type_info": "Float8"
+      },
+      {
+        "ordinal": 13,
+        "name": "social_isolation",
+        "type_info": "Float8"
+      },
+      {
+        "ordinal": 14,
+        "name": "social_notes",
+        "type_info": "Text"
+      },
+      {
+        "ordinal": 15,
+        "name": "created_at",
+        "type_info": "Timestamptz"
+      }
+    ],
+    "parameters": {
+      "Left": [
+        "Uuid"
+      ]
+    },
+    "nullable": [
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false
+    ]
+  },
+  "hash": "0d25a1b32314ccce1d453805712228da1c371abea78d42f082fe1935d1a4390e"
+}

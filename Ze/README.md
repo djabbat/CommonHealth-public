@@ -1,67 +1,41 @@
-# Ze Theory — Entropic-Geometric Theory of Everything
+# Ze Theory
 
-**Статус:** концепция и прототип реализации, **2026-04-23** (переработка на основе `~/Desktop/5.md`).
+Entropic-Geometric Theory of Everything (Tkemaladze).
 
-Физико-математический TOE-уровневой теории Дж. Ткемаладзе. Симуляторы покрывают три количественных блока: импеданс-ODE, CHSH-деформацию и cheating-autowaves.
-
-## Документы
-
-- `CONCEPT.md` — конспект Ze Theory.
-- `THEORY.md` — формальные уравнения, привязанные к главам 5.md.
-- `PARAMETERS.md` — значения параметров и сценарии.
-- `EVIDENCE.md` — первоисточники и их роли.
-- `CLAUDE.md` — идентичность подпроекта.
-
-## Стек
-
-- **Симуляторы:** Rust crate `ze_simulator` — CLI `ze_sim` с режимами `impedance | chsh | autowaves`, JSON-выход.
-- **Backend:** Rust crate `ze_backend` (axum) — REST `/api/impedance`, `/api/chsh`, `/api/autowaves`, `/api/scenarios`. Слушает `127.0.0.1:4001`.
-- **Frontend:** Phoenix LiveView — три вкладки (по одной на модуль симулятора), графики через Chart.js. Слушает `127.0.0.1:4000`.
+**Канон:** `Ze Theory.pdf` (англ.) + `Ze Теория.pdf` (рус.) — 24 главы + 4 приложения.
+**Источник истины проекта:** `CONCEPT.md`.
 
 ## Структура
 
 ```
 Ze/
-├── CONCEPT.md · THEORY.md · PARAMETERS.md · EVIDENCE.md · CLAUDE.md · README.md
-├── Cargo.toml                       # rust workspace
-├── simulator/                       # crate: 3 симулятора + CLI
-│   ├── Cargo.toml
-│   ├── src/lib.rs                   # модули impedance · chsh · autowaves
-│   └── src/bin/ze_sim.rs
-├── backend/                         # crate: axum REST
-│   ├── Cargo.toml
-│   └── src/main.rs
-└── frontend/                        # Phoenix LiveView
-    ├── mix.exs · config/ · lib/ · assets/
+├── Ze Theory.pdf · Ze Теория.pdf   ← канон
+├── CONCEPT.md                       ← мост книга ↔ код
+├── README · CLAUDE · TODO · PARAMETERS · MAP · MEMORY · LINKS · KNOWLEDGE · UPGRADE
+├── Cargo.toml                       ← Rust workspace
+├── simulator/                       ← crate ze_simulator (3 модуля + CLI)
+├── backend/                         ← crate ze_backend (axum REST)
+├── frontend/                        ← Phoenix LiveView
+└── _archive/articles_2026-04-23/    ← старые THEORY/EVIDENCE/PARAMETERS/README
 ```
 
 ## Быстрый старт
 
 ```sh
-# Предусловия: Rust 1.77+, Elixir 1.17+, Phoenix 1.8+.
-cd Ze
 cargo build --release
-cargo test --release -p ze_simulator          # прогон F-тестов
-
-# CLI:
+cargo test --release -p ze_simulator
 ./target/release/ze_sim impedance --scenario novelty --horizon 50
 ./target/release/ze_sim chsh --h 0.5
 ./target/release/ze_sim autowaves --steps 2000
-
-# Сервер:
-./target/release/ze_backend                   # 127.0.0.1:4001
-
-# Frontend (в другом терминале):
-cd frontend
-mix deps.get && mix phx.server                # 127.0.0.1:4000
+./target/release/ze_backend                    # 127.0.0.1:4001
+cd frontend && mix deps.get && mix phx.server  # 127.0.0.1:4000
 ```
 
-## Предсказания (см. THEORY §3–§4, PARAMETERS §2)
+## Что покрывает код (из 24 глав книги)
 
-- CHSH: сдвиг `S_Ze − S_QM = δ·1.7478`; при параметрах по умолчанию ≈ 0.085 (42σ при 10⁹ совпадений).
-- Autowaves: в окрестности `I_crit` возникают осцилляции между режимами learning / cheating.
-- Impedance: meditation-сценарий даёт монотонно убывающий `𝓘(τ)`, positive `𝒞(τ)`, сходящийся `Φ_Ze`.
+✅ гл. 2-5 (impedance ODE) · гл. 7 (CHSH) · гл. 8.4 (quantum damping) · гл. 13/17 (autowaves)
+❌ гл. 9-11 (GR/cosmology/quantum gravity) · гл. 15 (EEG correlates) · гл. 19-21 (lab experiments)
 
-## Лицензия и статус
+Полная карта в `CONCEPT.md §6`.
 
-Исследовательский прототип. Некоторые предсказания (черные дыры, время внутри горизонта) — гипотетические экстраполяции без экспериментального подтверждения. Квантовый damping-оператор доказан только для специального случая — см. `THEORY.md §5` и `CONCEPT.md §7`.
+Private only.

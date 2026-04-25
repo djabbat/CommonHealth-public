@@ -107,8 +107,11 @@ async fn main() -> Result<(), AppError> {
     let addr = SocketAddr::from(([0, 0, 0, 0], config.port));
     tracing::info!("Server listening on {}", addr);
 
-    axum::Server::bind(&addr)
-        .serve(app.into_make_service())
+    // axum 0.7+ uses tokio TcpListener + axum::serve (Server removed)
+    let listener = tokio::net::TcpListener::bind(addr)
+        .await
+        .map_err(|e| AppError::ServerError(e.to_string()))?;
+    axum::serve(listener, app)
         .await
         .map_err(|e| {
             tracing::error!("Server error: {}", e);

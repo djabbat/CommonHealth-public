@@ -1,24 +1,33 @@
-//! Ze Theory simulators — three quantitative blocks from THEORY.md.
+//! Ze Theory simulators — quantitative blocks from `Ze Theory.pdf` (24-chapter monograph).
 //!
-//!   module `impedance` — ODE for I(τ) and derived quantities (Chapter 2–5, 12)
-//!   module `chsh`      — CHSH Ze-deformation (Chapter 7, 19)
-//!   module `autowaves` — 1D reaction-diffusion cheating autowaves (Chapter 17)
+//! Modules map to book chapters:
+//!
+//! | Module       | Book chapters             | Topic                                    |
+//! |--------------|---------------------------|------------------------------------------|
+//! | `impedance`  | §2 §3 §5 §12              | I(τ) ODE; t = ∫I dτ; K, C, Φ_Ze           |
+//! | `hierarchy`  | §5.1–§5.7                 | Universe → Dark E → Energy → K → t → Being |
+//! | `chsh`       | §7 §8.4 §19               | Ze-deformation of Bell + quantum damping  |
+//! | `cosmology`  | §10 (Cosmology of Imp.)   | Ï + 3HÏ + m²I = 3(ä/a)/Λ_Ze (homogeneous) |
+//! | `autowaves`  | §13 §17                   | 1D reaction-diffusion cheating autowaves  |
+//!
+//! Source of truth: `Ze Theory.pdf` / `Ze Теория.pdf` in `~/Desktop/CommonHealth/Ze/`.
 
 use serde::{Deserialize, Serialize};
 
 // ------------------------------------------------------------------
-// 1. Impedance ODE
+// 1. Impedance ODE — Ze Theory.pdf §2, §3, §12
 // ------------------------------------------------------------------
 
 pub mod impedance {
     use super::*;
 
+    /// Ze Theory.pdf §2.3 properties: I ≥ 0, I=0 iff perfect model, dI/dt ≥ 0 on average.
     #[derive(Clone, Debug, Serialize, Deserialize)]
     pub struct Params {
-        pub i0: f64,
-        pub i_max: f64,
-        pub lambda: f64,
-        pub sigma_base: f64,
+        pub i0: f64,         // initial impedance, §2.3 — small
+        pub i_max: f64,      // pure-learning threshold, §18.3
+        pub lambda: f64,     // learning rate
+        pub sigma_base: f64, // baseline sensory drive
         pub scenario: String,
     }
 
@@ -34,7 +43,7 @@ pub mod impedance {
         }
     }
 
-    /// Sensory drive σ(τ) per scenario (see PARAMETERS.md §1).
+    /// Sensory drive σ(τ) per scenario. See PARAMETERS.md §1, Ze Theory.pdf §3.4 (psychological time).
     /// Returns (sigma, lambda_effective).
     pub fn drive(p: &Params, tau: f64) -> (f64, f64) {
         match p.scenario.as_str() {
@@ -49,12 +58,13 @@ pub mod impedance {
         }
     }
 
-    /// dI/dτ = σ − λ·I·(1 − I/I_max).
+    /// dI/dτ = σ − λ·I·(1 − I/I_max) — closed scalar agent-impedance model.
     pub fn deriv(p: &Params, tau: f64, i: f64) -> f64 {
         let (sigma, lam) = drive(p, tau);
         sigma - lam * i * (1.0 - i / p.i_max)
     }
 
+    /// RK4 integrator step.
     pub fn rk4(p: &Params, tau: f64, h: f64, i: f64) -> f64 {
         let k1 = deriv(p, tau, i);
         let k2 = deriv(p, tau + h / 2.0, i + h * k1 / 2.0);
@@ -63,14 +73,15 @@ pub mod impedance {
         i + h / 6.0 * (k1 + 2.0 * k2 + 2.0 * k3 + k4)
     }
 
+    /// Trajectory of all derived quantities (K, C, t_phys, Φ_Ze) per Ze Theory.pdf §5.5–§5.7, §12.2.
     #[derive(Clone, Debug, Default, Serialize, Deserialize)]
     pub struct Trajectory {
         pub tau: Vec<f64>,
         pub i: Vec<f64>,
-        pub k: Vec<f64>,       // K = −I
-        pub t_phys: Vec<f64>,  // ∫ I dτ
-        pub consciousness: Vec<f64>, // −dI/dτ
-        pub phi_ze: f64,       // ∫₀^T I dτ — same as last t_phys
+        pub k: Vec<f64>,            // K = −I  (§5.5)
+        pub t_phys: Vec<f64>,       // t = ∫ I dτ  (§3.1, §5.6)
+        pub consciousness: Vec<f64>, // C = −dI/dτ  (§5.7, §12.1)
+        pub phi_ze: f64,             // Φ_Ze = ∮ I dt  (§12.2)
     }
 
     #[derive(Clone, Debug, Serialize, Deserialize)]
@@ -79,7 +90,7 @@ pub mod impedance {
         pub t_end: f64,
         pub h: f64,
         pub record_every: usize,
-        /// If Some, apply cheating-spike: I ← factor·I at this τ.
+        /// Cheating spike per §13 — at τ apply I ← factor·I (active adaptation of reality).
         pub cheating_spike: Option<(f64, f64)>,
     }
 
@@ -131,7 +142,73 @@ pub mod impedance {
 }
 
 // ------------------------------------------------------------------
-// 2. CHSH Ze-deformation
+// 2. Hierarchy of Generations — Ze Theory.pdf §5
+// ------------------------------------------------------------------
+
+/// Computes derived quantities from the hierarchy chapter:
+/// `Universe → Dark Energy → Energy → Knowledge → Time → Being`.
+///
+/// dim(Z) ∝ t_D (§5.3); E ~ ‖dZ/dt‖ (§5.4); K = −I (§5.5); t = ∫I dτ (§5.6); C = −dI/dτ (§5.7).
+pub mod hierarchy {
+    use super::*;
+
+    #[derive(Clone, Debug, Default, Serialize, Deserialize)]
+    pub struct Snapshot {
+        pub tau: f64,
+        pub dim_z: f64,         // dark energy: dim(Z) growth
+        pub energy: f64,        // E ~ ‖dZ/dt‖
+        pub knowledge: f64,     // K = −I
+        pub time_phys: f64,     // t = ∫ I dτ
+        pub consciousness: f64, // C = −dI/dτ
+    }
+
+    /// Project an `impedance::Trajectory` into the 6-level hierarchy, exposing all derived
+    /// quantities of Ze Theory.pdf §5 in one struct. `dim_z(tau) = dim_z0 + dim_growth_rate · tau`
+    /// is a placeholder slow growth — real cosmological growth is in `cosmology` module.
+    pub fn project(
+        tr: &super::impedance::Trajectory,
+        dim_z0: f64,
+        dim_growth_rate: f64,
+    ) -> Vec<Snapshot> {
+        let n = tr.tau.len();
+        let mut out = Vec::with_capacity(n);
+        for k in 0..n {
+            let tau = tr.tau[k];
+            // E ~ ‖dZ/dt‖ proxy: take |dI/dτ| as scalar measure of state-change rate
+            let energy = if k > 0 {
+                let dt = tau - tr.tau[k - 1];
+                if dt > 0.0 {
+                    (tr.i[k] - tr.i[k - 1]).abs() / dt
+                } else {
+                    0.0
+                }
+            } else {
+                0.0
+            };
+            out.push(Snapshot {
+                tau,
+                dim_z: dim_z0 + dim_growth_rate * tau,
+                energy,
+                knowledge: tr.k[k],
+                time_phys: tr.t_phys[k],
+                consciousness: tr.consciousness[k],
+            });
+        }
+        out
+    }
+
+    /// Invariant K + I = 0 (Ze Theory.pdf §5.5). Returns max abs deviation in trajectory.
+    pub fn check_k_plus_i_zero(tr: &super::impedance::Trajectory) -> f64 {
+        tr.i
+            .iter()
+            .zip(tr.k.iter())
+            .map(|(&i, &k)| (i + k).abs())
+            .fold(0.0_f64, f64::max)
+    }
+}
+
+// ------------------------------------------------------------------
+// 3. CHSH Ze-deformation — Ze Theory.pdf §7, §8.4, §19
 // ------------------------------------------------------------------
 
 pub mod chsh {
@@ -139,9 +216,9 @@ pub mod chsh {
 
     #[derive(Clone, Debug, Serialize, Deserialize)]
     pub struct Params {
-        pub alpha: f64,   // 5.md §19.3 — α ≈ 0.03 for BBO
-        pub delta0: f64,  // Ze deformation amplitude
-        pub h: f64,       // entropy modulator H ∈ [0, 1]
+        pub alpha: f64,  // §19.3 — α ≈ 0.03 for BBO crystal
+        pub delta0: f64, // §7.2 — Ze deformation amplitude
+        pub h: f64,      // §19.4 — entropy modulator H ∈ [0, 1]
     }
 
     impl Default for Params {
@@ -154,25 +231,26 @@ pub mod chsh {
         }
     }
 
-    /// Standard singlet correlation: E(a, b) = −cos(a − b).
+    /// Standard singlet correlation: E(a, b) = −cos(a − b). Ze Theory.pdf §7.1.
     pub fn e_qm(a: f64, b: f64) -> f64 {
         -(a - b).cos()
     }
 
     /// Ze-deformed correlation: E_Ze = E_QM + δ · [cos²(a − b) − 1/3].
+    /// Ze Theory.pdf §7.2; δ = δ₀ · (1 − 2αH) per §8.4.
     pub fn e_ze(p: &Params, a: f64, b: f64) -> f64 {
         let c = (a - b).cos();
         let delta = p.delta0 * (1.0 - 2.0 * p.alpha * p.h);
         e_qm(a, b) + delta * (c * c - 1.0 / 3.0)
     }
 
+    /// Tsirelson bound 2√2.
     pub fn s_qm() -> f64 {
         2.0_f64.sqrt() * 2.0
     }
 
-    /// CHSH with singlet-optimal angles a1=0, a2=π/2, b1=π/4, b2=3π/4
-    /// (makes |S_QM| = 2√2 exactly). In this basis every cos²(a−b)=1/2,
-    /// so the Ze correction is uniform and the shift equals δ/3.
+    /// CHSH at singlet-optimal angles (a₁=0, a₂=π/2, b₁=π/4, b₂=3π/4).
+    /// Maximises |S_QM| but uniform Ze correction → small shift δ/3.
     pub fn s_ze(p: &Params) -> f64 {
         let a1 = 0.0_f64;
         let a2 = std::f64::consts::FRAC_PI_2;
@@ -181,30 +259,26 @@ pub mod chsh {
         (e_ze(p, a1, b1) - e_ze(p, a1, b2) + e_ze(p, a2, b1) + e_ze(p, a2, b2)).abs()
     }
 
-    /// Ze-shift-optimal angles from 5.md §7.4: (0°, 45°, 22.5°, −22.5°).
-    /// CHSH variant used by 5.md: S = E(a1,b1) + E(a1,b2) + E(a2,b1) − E(a2,b2).
-    /// Returns (|S_QM|, |S_Ze|) for those angles. At these angles
-    /// |ΔS_Ze| reaches δ · 1.7478 (maximal), at cost of |S_QM| ≈ 2.389 (< 2√2).
+    /// Ze-shift-optimal angles (Ze Theory.pdf §7.4): (0°, 45°, 22.5°, −22.5°).
+    /// CHSH variant: S = E11 + E12 + E21 − E22.
+    /// Returns (|S_QM|, |S_Ze|). |ΔS_Ze| reaches δ · 1.7478 (max), at cost of |S_QM| ≈ 2.389.
     pub fn s_ze_shift_optimal(p: &Params) -> (f64, f64) {
         let a1 = 0.0_f64;
         let a2 = std::f64::consts::FRAC_PI_4;
         let b1 = std::f64::consts::FRAC_PI_8;
         let b2 = -std::f64::consts::FRAC_PI_8;
         let eze = |a, b| e_ze(p, a, b);
-        let s_qm_abs =
-            (e_qm(a1, b1) + e_qm(a1, b2) + e_qm(a2, b1) - e_qm(a2, b2)).abs();
-        let s_ze_abs =
-            (eze(a1, b1) + eze(a1, b2) + eze(a2, b1) - eze(a2, b2)).abs();
+        let s_qm_abs = (e_qm(a1, b1) + e_qm(a1, b2) + e_qm(a2, b1) - e_qm(a2, b2)).abs();
+        let s_ze_abs = (eze(a1, b1) + eze(a1, b2) + eze(a2, b1) - eze(a2, b2)).abs();
         (s_qm_abs, s_ze_abs)
     }
 
-    /// H-sweep — S(H) for H ∈ [0, 1] at N+1 points.
     #[derive(Clone, Debug, Default, Serialize, Deserialize)]
     pub struct HSweep {
         pub h: Vec<f64>,
         pub s_qm: Vec<f64>,
         pub s_ze: Vec<f64>,
-        pub s_damped: Vec<f64>, // 5.md §8.4: S(H) = 2.828·(1 − 2αH)
+        pub s_damped: Vec<f64>, // §8.4: S(H) = 2.828·(1 − 2αH)
     }
 
     #[derive(Clone, Debug, Serialize, Deserialize)]
@@ -224,8 +298,7 @@ pub mod chsh {
         let shift = s_ze_val - s_qm_val;
         let s_damped_h = s_qm_val * (1.0 - 2.0 * params.alpha * params.h);
 
-        // σ_S for N coincidences: σ_S ≈ sqrt((S²(4 − S²))/(N)) — here use empirical scaling
-        // from §19.4: σ ≈ 0.002 at N = 1e9; N_required = 1e9 · (0.002/(shift/5))²
+        // §19.4: σ_S ≈ 0.002 at N = 1e9 → N_required = 1e9 · (0.002/(shift/5))²
         let target_sigma = shift.abs() / 5.0;
         let n_required = if target_sigma > 0.0 {
             1.0e9 * (0.002_f64 / target_sigma).powi(2)
@@ -233,7 +306,6 @@ pub mod chsh {
             f64::INFINITY
         };
 
-        // Sweep over H.
         let mut sweep = HSweep::default();
         let steps = 51;
         for k in 0..steps {
@@ -258,7 +330,90 @@ pub mod chsh {
 }
 
 // ------------------------------------------------------------------
-// 3. Cheating autowaves — 1D reaction-diffusion
+// 4. Cosmology of Impedance — Ze Theory.pdf §10
+// ------------------------------------------------------------------
+
+/// Homogeneous cosmological solution: Ï + 3H Ï + m_Ze² I = 3 (ä/a) / Λ_Ze (Ze Theory.pdf §10).
+///
+/// Inflation when I > I_crit; bounce instead of singularity at I → I_max (§10.1).
+/// Dark energy current ≈ const → V(I₀) acts as cosmological constant (§10.3).
+pub mod cosmology {
+    use super::*;
+
+    #[derive(Clone, Debug, Serialize, Deserialize)]
+    pub struct Params {
+        pub m_ze: f64,        // mass of Ze field
+        pub lambda_ze: f64,   // Ze scale (Λ_Ze)
+        pub h0: f64,          // H₀ — Hubble parameter (book: 69.2 ± 1.8 km/s/Mpc)
+        pub a_ddot_over_a: f64, // ä/a — second derivative of scale factor
+        pub i0: f64,
+        pub i_dot0: f64,
+        pub i_max: f64,       // bounce threshold, §10.1
+    }
+
+    impl Default for Params {
+        fn default() -> Self {
+            Self {
+                m_ze: 1.0,
+                lambda_ze: 1.0,
+                h0: 0.69,
+                a_ddot_over_a: 0.1,
+                i0: 0.5,
+                i_dot0: 0.0,
+                i_max: 100.0,
+            }
+        }
+    }
+
+    /// d²I/dt² = 3(ä/a)/Λ_Ze − 3H · dI/dt − m_Ze² · I
+    pub fn deriv(p: &Params, _t: f64, i: f64, i_dot: f64) -> f64 {
+        3.0 * p.a_ddot_over_a / p.lambda_ze - 3.0 * p.h0 * i_dot - p.m_ze.powi(2) * i
+    }
+
+    #[derive(Clone, Debug, Default, Serialize, Deserialize)]
+    pub struct Trajectory {
+        pub t: Vec<f64>,
+        pub i: Vec<f64>,
+        pub i_dot: Vec<f64>,
+        pub bounced: bool,
+    }
+
+    /// Velocity-Verlet style integrator for second-order ODE.
+    pub fn simulate(p: &Params, t_end: f64, dt: f64) -> Trajectory {
+        let mut t = 0.0;
+        let mut i = p.i0;
+        let mut i_dot = p.i_dot0;
+        let mut tr = Trajectory::default();
+        let mut bounced = false;
+        while t <= t_end {
+            tr.t.push(t);
+            tr.i.push(i);
+            tr.i_dot.push(i_dot);
+
+            // RK2 (midpoint) for second-order ODE
+            let a1 = deriv(p, t, i, i_dot);
+            let i_mid = i + i_dot * dt / 2.0;
+            let i_dot_mid = i_dot + a1 * dt / 2.0;
+            let a2 = deriv(p, t + dt / 2.0, i_mid, i_dot_mid);
+
+            i += i_dot * dt + 0.5 * a2 * dt * dt;
+            i_dot += a2 * dt;
+
+            // Bounce: clamp at I_max with sign reversal of I_dot (§10.1)
+            if i >= p.i_max {
+                i = p.i_max;
+                i_dot = -i_dot.abs();
+                bounced = true;
+            }
+            t += dt;
+        }
+        tr.bounced = bounced;
+        tr
+    }
+}
+
+// ------------------------------------------------------------------
+// 5. Cheating autowaves — Ze Theory.pdf §13, §17
 // ------------------------------------------------------------------
 
 pub mod autowaves {
@@ -274,7 +429,7 @@ pub mod autowaves {
         pub epsilon: f64,
         pub zeta: f64,
         pub i_crit: f64,
-        pub k_sig: f64, // sigmoid steepness for smoothed indicator
+        pub k_sig: f64, // sigmoid steepness — smoothed indicator [I > I_crit]
         pub n: usize,
         pub dx: f64,
         pub dt: f64,
@@ -335,6 +490,8 @@ pub mod autowaves {
         (i, x, y)
     }
 
+    /// 1D reaction-diffusion per Ze Theory.pdf §17:
+    /// ∂I/∂t = D∇²I + α(1−x)I − βxy ;  ∂x/∂t = γI(1−x) − δx ;  ∂y/∂t = ε·σ_k(I−I_crit) − ζy
     pub fn simulate(params: Params, steps: usize, snapshot_every: usize) -> Run {
         let (mut i, mut x, mut y) = initial(&params);
         let mut i_next = i.clone();
@@ -345,7 +502,6 @@ pub mod autowaves {
         };
 
         for s in 0..=steps {
-            // stats
             let i_mean = i.iter().sum::<f64>() / i.len() as f64;
             let x_mean = x.iter().sum::<f64>() / x.len() as f64;
             let y_mean = y.iter().sum::<f64>() / y.len() as f64;
@@ -367,7 +523,6 @@ pub mod autowaves {
                 break;
             }
 
-            // Periodic Laplacian + reaction for I; local dynamics for x, y.
             let n = params.n;
             for k in 0..n {
                 let kl = (k + n - 1) % n;
@@ -395,7 +550,7 @@ pub mod autowaves {
 }
 
 // ------------------------------------------------------------------
-// tests (F1–F6 from THEORY.md §7)
+// Tests F1–F8 — extended from previous F1–F6
 // ------------------------------------------------------------------
 
 #[cfg(test)]
@@ -421,7 +576,6 @@ mod tests {
         cfg.params.scenario = "novelty".into();
         cfg.t_end = 50.0;
         let tr = impedance::simulate(&cfg);
-        // I should rise between τ = 5 (step) and τ = 10, then start relaxing.
         let idx_5 = tr.tau.iter().position(|&t| t > 5.0).unwrap();
         let idx_10 = tr.tau.iter().position(|&t| t > 10.0).unwrap();
         assert!(tr.i[idx_10] > tr.i[idx_5], "novelty: I should grow after step");
@@ -434,8 +588,6 @@ mod tests {
 
     #[test]
     fn f4a_singlet_optimal_shift_is_minus_delta_over_3() {
-        // Singlet-optimal angles: cos²(a−b)=1/2 everywhere.
-        // Raw S_QM is negative and raw Ze correction positive → |S_Ze| = |S_QM| − δ/3.
         let p = chsh::Params { alpha: 0.0, delta0: 0.3, h: 0.0 };
         let shift = chsh::s_ze(&p) - chsh::s_qm();
         let expected = -0.3 / 3.0;
@@ -448,16 +600,15 @@ mod tests {
 
     #[test]
     fn f4b_shift_optimal_angles_match_book_1_7478() {
-        // 5.md §7.4 claims ΔS = δ · 1.7478 at angles (0°, 45°, 22.5°, −22.5°)
-        // with CHSH variant S = E11 + E12 + E21 − E22.
+        // Ze Theory.pdf §7.4: ΔS = δ · 1.7478 at angles (0°, 45°, 22.5°, −22.5°).
         let p = chsh::Params { alpha: 0.0, delta0: 0.1, h: 0.0 };
         let (s_qm_abs, s_ze_abs) = chsh::s_ze_shift_optimal(&p);
         let shift_mag = (s_ze_abs - s_qm_abs).abs();
         let expected = 0.1 * 1.7478;
         assert!(
             (shift_mag - expected).abs() < 1e-3,
-            "shift-optimal |ΔS|={} (|S_QM|={}, |S_Ze|={}) expected {}",
-            shift_mag, s_qm_abs, s_ze_abs, expected
+            "shift-optimal |ΔS|={} expected {}",
+            shift_mag, expected
         );
     }
 
@@ -490,5 +641,32 @@ mod tests {
                 assert!(v >= 0.0 && v <= 1.0, "y out of [0,1]: {}", v);
             }
         }
+    }
+
+    /// F7: hierarchy invariant K + I = 0 (Ze Theory.pdf §5.5).
+    #[test]
+    fn f7_hierarchy_k_plus_i_invariant() {
+        let cfg = impedance::RunConfig::default();
+        let tr = impedance::simulate(&cfg);
+        let max_dev = hierarchy::check_k_plus_i_zero(&tr);
+        assert!(max_dev < 1e-12, "K+I=0 invariant violated: {}", max_dev);
+    }
+
+    /// F8: cosmological bounce — I должен быть ограничен I_max (Ze Theory.pdf §10.1).
+    #[test]
+    fn f8_cosmology_bounce_at_i_max() {
+        let p = cosmology::Params {
+            m_ze: 0.0,            // нет восстанавливающей силы
+            lambda_ze: 1.0,
+            h0: 0.0,              // нет демпфирования
+            a_ddot_over_a: 1.0,   // постоянное ускорение → I растёт
+            i0: 0.0,
+            i_dot0: 0.0,
+            i_max: 5.0,
+        };
+        let tr = cosmology::simulate(&p, 100.0, 0.01);
+        let max_i = tr.i.iter().cloned().fold(f64::MIN, f64::max);
+        assert!(max_i <= p.i_max + 1e-6, "I exceeded I_max: {}", max_i);
+        assert!(tr.bounced, "Expected bounce at I_max");
     }
 }

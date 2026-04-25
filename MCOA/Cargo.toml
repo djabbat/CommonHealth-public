@@ -6,6 +6,7 @@ members = [
     "crates/mcoa_tests",
     "crates/mcoa_api",
     "crates/mcoa_cli",
+    "crates/mcoa_compare",
 ]
 
 [workspace.package]

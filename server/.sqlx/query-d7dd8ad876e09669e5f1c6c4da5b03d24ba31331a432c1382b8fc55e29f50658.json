@@ -1,0 +1,14 @@
+{
+  "db_name": "PostgreSQL",
+  "query": "UPDATE studies SET enrolled_n = GREATEST(0, enrolled_n - 1) WHERE id = $1",
+  "describe": {
+    "columns": [],
+    "parameters": {
+      "Left": [
+        "Uuid"
+      ]
+    },
+    "nullable": []
+  },
+  "hash": "d7dd8ad876e09669e5f1c6c4da5b03d24ba31331a432c1382b8fc55e29f50658"
+}
