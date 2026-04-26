@@ -1,0 +1,34 @@
+# private version — tracks everything including core .md
+# Only excludes actual secrets + build artefacts + patient data
+
+.credentials.json
+.env
+.aim_env
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+
+# Patients (HIPAA-like)
+Patients/
+*_patient_data*
+
+# Build artefacts (regenerable)
+target/
+_build/
+node_modules/
+deps/
+__pycache__/
+*.pyc
+.mypy_cache/
+
+# Large binaries that slow git
+*.tgz
+*.tar.gz
+*.zip
+*.tiff
+*.iso
+
+# OS
+.DS_Store
+Thumbs.db

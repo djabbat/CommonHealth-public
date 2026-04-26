@@ -1,0 +1,13 @@
+{
+  "counter_name": "Proteostasis",
+  "alpha": 0.27951807228915665,
+  "beta": 0.27951807228915665,
+  "gamma": 0.0,
+  "n_star_divisions": 80.0,
+  "tau_days": 29200.0,
+  "d_critical": 0.6,
+  "fit_rms": 0.04924123064242733,
+  "anchor_count": 4,
+  "source_pmids": "Klaips 2018 PMID 29127110; Hipp 2019 PMID 30733602; Kaushik 2021 PMID 34563704",
+  "method": "linear-lstsq-on-anchors"
+}

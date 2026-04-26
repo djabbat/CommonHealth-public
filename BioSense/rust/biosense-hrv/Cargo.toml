@@ -1,0 +1,17 @@
+[package]
+name = "biosense_hrv"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+description = "BioSense HRV — SDNN, RMSSD, autonomic switching v_HRV → χ_Ze. Rust port of `ze_hrv.py`."
+
+[lib]
+name = "biosense_hrv"
+path = "src/lib.rs"
+
+[dependencies]
+biosense_core = { path = "../biosense-core" }
+serde = { workspace = true }
+serde_json = { workspace = true }
+thiserror = { workspace = true }

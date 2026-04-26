@@ -1,0 +1,13 @@
+{
+  "counter_name": "Telomere",
+  "alpha": 0.5499999999999998,
+  "beta": 6.205058491859669e-17,
+  "gamma": 0.0,
+  "n_star_divisions": 50.0,
+  "tau_days": 32850.0,
+  "d_critical": 0.55,
+  "fit_rms": 1.4332917616497527e-16,
+  "anchor_count": 3,
+  "source_pmids": "Harley 1990 PMID 2342578; Parrinello 2003 PMID 12855956",
+  "method": "linear-lstsq-on-anchors"
+}

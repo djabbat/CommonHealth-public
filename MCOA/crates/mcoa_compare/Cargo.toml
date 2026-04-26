@@ -1,0 +1,26 @@
+[package]
+name = "mcoa_compare"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+description = "MCOA vs CDATA comparison harness. Rust port of scripts/compare_mcoa_cdata.py."
+
+[[bin]]
+name = "mcoa-compare-cdata"
+path = "src/bin/compare_mcoa_cdata.rs"
+
+[[bin]]
+name = "mcoa-compare-all"
+path = "src/bin/compare_all.rs"
+
+[lib]
+name = "mcoa_compare"
+path = "src/lib.rs"
+
+[dependencies]
+serde = { workspace = true }
+csv = { workspace = true }
+clap = { workspace = true }
+chrono = { version = "0.4", default-features = false, features = ["clock"] }
+anyhow = "1"

@@ -1,0 +1,14 @@
+{
+  "db_name": "PostgreSQL",
+  "query": "UPDATE users SET email_verified = true, otp_code = NULL, otp_expires_at = NULL, otp_attempts = 0 WHERE id = $1",
+  "describe": {
+    "columns": [],
+    "parameters": {
+      "Left": [
+        "Uuid"
+      ]
+    },
+    "nullable": []
+  },
+  "hash": "f2681373b3140b54f2532c4f1405899abff22b8e75ac0a386f46c67c5615c7e8"
+}

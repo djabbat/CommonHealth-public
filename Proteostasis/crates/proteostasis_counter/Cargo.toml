@@ -1,0 +1,20 @@
+[package]
+name = "proteostasis_counter"
+version = "0.2.0"
+edition = "2021"
+authors = ["Jaba Tkemaladze <jaba@longevity.ge>"]
+description = "MCOA Counter #5"
+license = "MIT"
+
+[[bin]]
+name = "proteostasis-sim"
+path = "src/main.rs"
+
+[lib]
+name = "proteostasis_counter"
+path = "src/lib.rs"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+thiserror = "1.0"

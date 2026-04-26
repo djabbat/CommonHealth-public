@@ -1,0 +1,70 @@
+{
+  "db_name": "PostgreSQL",
+  "query": "SELECT\n            p.doi_verified, p.code_url, p.data_url, p.rank_penalty, p.created_at,\n            COALESCE(SUM(CASE WHEN r.type = 'support' THEN 1 ELSE 0 END), 0) as support,\n            COALESCE(SUM(CASE WHEN r.type = 'replicate' THEN 1 ELSE 0 END), 0) as replicate,\n            COALESCE(SUM(CASE WHEN r.type = 'challenge' THEN 1 ELSE 0 END), 0) as challenge,\n            COALESCE(SUM(CASE WHEN r.type = 'cite' THEN 1 ELSE 0 END), 0) as cite\n           FROM posts p\n           LEFT JOIN post_reactions r ON r.post_id = p.id\n           WHERE p.id = $1\n           GROUP BY p.id",
+  "describe": {
+    "columns": [
+      {
+        "ordinal": 0,
+        "name": "doi_verified",
+        "type_info": "Bool"
+      },
+      {
+        "ordinal": 1,
+        "name": "code_url",
+        "type_info": "Text"
+      },
+      {
+        "ordinal": 2,
+        "name": "data_url",
+        "type_info": "Text"
+      },
+      {
+        "ordinal": 3,
+        "name": "rank_penalty",
+        "type_info": "Float8"
+      },
+      {
+        "ordinal": 4,
+        "name": "created_at",
+        "type_info": "Timestamptz"
+      },
+      {
+        "ordinal": 5,
+        "name": "support",
+        "type_info": "Int8"
+      },
+      {
+        "ordinal": 6,
+        "name": "replicate",
+        "type_info": "Int8"
+      },
+      {
+        "ordinal": 7,
+        "name": "challenge",
+        "type_info": "Int8"
+      },
+      {
+        "ordinal": 8,
+        "name": "cite",
+        "type_info": "Int8"
+      }
+    ],
+    "parameters": {
+      "Left": [
+        "Uuid"
+      ]
+    },
+    "nullable": [
+      false,
+      true,
+      true,
+      false,
+      false,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "hash": "26719f9761d5050409ed835e49bdbba20ff6a0f32c70692554a89575c388fc3a"
+}

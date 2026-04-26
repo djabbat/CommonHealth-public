@@ -1,0 +1,14 @@
+{
+  "db_name": "PostgreSQL",
+  "query": "UPDATE studies SET enrolled_n = enrolled_n + 1 WHERE id = $1",
+  "describe": {
+    "columns": [],
+    "parameters": {
+      "Left": [
+        "Uuid"
+      ]
+    },
+    "nullable": []
+  },
+  "hash": "6d0432e8c3021e09fb4fe0f7398c050462c77919c6a5c41c2230fa1365d741de"
+}

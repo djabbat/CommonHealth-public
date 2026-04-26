@@ -1,0 +1,34 @@
+{
+  "db_name": "PostgreSQL",
+  "query": "SELECT status, enrolled_n, target_n FROM studies WHERE id = $1",
+  "describe": {
+    "columns": [
+      {
+        "ordinal": 0,
+        "name": "status",
+        "type_info": "Text"
+      },
+      {
+        "ordinal": 1,
+        "name": "enrolled_n",
+        "type_info": "Int4"
+      },
+      {
+        "ordinal": 2,
+        "name": "target_n",
+        "type_info": "Int4"
+      }
+    ],
+    "parameters": {
+      "Left": [
+        "Uuid"
+      ]
+    },
+    "nullable": [
+      true,
+      true,
+      false
+    ]
+  },
+  "hash": "58a54c0db96b946580190e27902728ffcfc6c5b70b395de79cd75ef476f7f716"
+}

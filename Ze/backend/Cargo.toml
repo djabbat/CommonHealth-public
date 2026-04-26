@@ -1,0 +1,21 @@
+[package]
+name = "ze_backend"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+description = "Ze Theory REST API (axum) — exposes three simulators to Phoenix frontend."
+
+[[bin]]
+name = "ze_backend"
+path = "src/main.rs"
+
+[dependencies]
+ze_simulator = { path = "../simulator" }
+serde = { workspace = true }
+serde_json = { workspace = true }
+axum = "0.7"
+tokio = { version = "1", features = ["rt-multi-thread", "macros", "net", "signal"] }
+tower-http = { version = "0.5", features = ["cors", "trace"] }
+tracing = "0.1"
+tracing-subscriber = "0.3"

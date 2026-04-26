@@ -1,0 +1,11 @@
+[package]
+name = "mcoa_tests"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+mcoa_core = { path = "../mcoa_core" }
+mcoa_simulation = { path = "../mcoa_simulation" }
+serde = { workspace = true }

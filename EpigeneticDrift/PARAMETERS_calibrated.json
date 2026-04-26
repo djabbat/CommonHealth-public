@@ -1,0 +1,13 @@
+{
+  "counter_name": "EpigeneticDrift",
+  "alpha": 0.0,
+  "beta": 1.0000000000000002,
+  "gamma": 0.0,
+  "n_star_divisions": 100.0,
+  "tau_days": 36500.0,
+  "d_critical": 0.75,
+  "fit_rms": 1.2719202621569003e-16,
+  "anchor_count": 4,
+  "source_pmids": "Horvath 2013 PMID 24138928; Belsky 2022 PMID 35029144",
+  "method": "linear-lstsq-on-anchors"
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full bg-gray-100">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="csrf-token" content={get_csrf_token()} />
+    <.live_title suffix=" · MCOA Dashboard">
+      <%= assigns[:page_title] || "Multi-Counter Architecture" %>
+    </.live_title>
+    <link phx-track-static rel="stylesheet" href={~p"/assets/app.css"}/>
+    <script defer phx-track-static type="text/javascript" src={~p"/assets/app.js"}></script>
+  </head>
+  <body class="h-full">
+    <nav class="bg-gray-800">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+          <div class="flex items-center">
+            <div class="flex-shrink-0">
+              <a href="/" class="text-white font-bold text-xl">
+                MCOA Dashboard
+              </a>
+            </div>
+            <div class="hidden md:block">
+              <div class="ml-10 flex items-baseline space-x-4">
+                <a
+                  href="/"
+                  class={[
+                    "px-3 py-2 rounded-md text-sm font-medium",
+                    @current_page == :dashboard && "bg-gray-900 text-white",
+                    @current_page != :dashboard && "text-gray-300 hover:bg-gray-700 hover:text-white"
+                  ]}
+                >
+                  Overview
+                </a>
+                <a
+                  href="/counter-registry"
+                  class={[
+                    "px-3 py-2 rounded-md text-sm font-medium",
+                    @current_page == :registry && "bg-gray-900 text-white",
+                    @current_page != :registry && "text-gray-300 hover:bg-gray-700 hover:text-white"
+                  ]}
+                >
+                  Counter Registry
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main class="py-10">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <%= @inner_content %>
+      </div>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-4">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm">
+        <p>MCOA v1.0 · LongevityCommon Aging Science Stack · Data source: <span class="font-mono"><%= Application.get_env(:mcoa_frontend, :backend_url) %></span></p>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+[package]
+name = "telomere_counter"
+version = "0.2.0"
+edition = "2021"
+authors = ["Jaba Tkemaladze <jaba@longevity.ge>"]
+description = "MCOA Counter #2"
+license = "MIT"
+
+[[bin]]
+name = "telomere-sim"
+path = "src/main.rs"
+
+[lib]
+name = "telomere_counter"
+path = "src/lib.rs"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+thiserror = "1.0"

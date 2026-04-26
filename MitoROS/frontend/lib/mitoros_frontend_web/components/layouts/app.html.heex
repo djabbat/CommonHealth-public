@@ -1,0 +1,142 @@
+<.header>
+  <:title>MitoROS Dashboard</:title>
+  <:actions>
+    <.button
+      variant="outline"
+      class="mr-2"
+      phx-click={show_modal("counter-registry-modal")}
+    >
+      Counter Registry
+    </.button>
+    <.button
+      variant="outline"
+      phx-click={show_modal("about-modal")}
+    >
+      About Counter #3
+    </.button>
+  </:actions>
+</.header>
+
+<main class="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+  <div class="mb-8">
+    <.live_component
+      module={MitoROSFrontendWeb.Components.ConnectivityStatus}
+      id="connectivity"
+      backend_url={Application.get_env(:mitoros_frontend, :backend_url)}
+    />
+  </div>
+
+  <%= @inner_content %>
+</main>
+
+<.modal id="counter-registry-modal">
+  <div class="space-y-6">
+    <div>
+      <h3 class="text-xl font-semibold text-zinc-900">MCOA Counter Registry</h3>
+      <p class="mt-2 text-sm text-zinc-600">
+        Multi-Counter Architecture of Aging: formalized damage counters with tissue-specific weights.
+      </p>
+    </div>
+
+    <div class="space-y-4">
+      <%= for counter <- [
+        %{
+          id: 1,
+          name: "Centriolar Instability",
+          description: "Centriole duplication errors and PCM fragmentation",
+          current_value: 0.42,
+          weight: "w₁ = 0.15",
+          couplings: %{3 => 0.0}
+        },
+        %{
+          id: 2,
+          name: "Telomere Shortening",
+          description: "Replicative telomere attrition and uncapping",
+          current_value: 0.67,
+          weight: "w₂ = 0.20",
+          couplings: %{3 => 0.0}
+        },
+        %{
+          id: 3,
+          name: "Mitochondrial ROS & mtDNA Damage",
+          description: "mtDNA lesions and heteroplasmy of pathogenic mutations",
+          current_value: 0.58,
+          weight: "w₃ = 0.25",
+          couplings: %{4 => 0.0}
+        },
+        %{
+          id: 4,
+          name: "Epigenetic Drift",
+          description: "DNA methylation entropy and histone modification loss",
+          current_value: 0.73,
+          weight: "w₄ = 0.18",
+          couplings: %{3 => 0.0}
+        },
+        %{
+          id: 5,
+          name: "Proteostasis Collapse",
+          description: "Protein aggregation and chaperone network failure",
+          current_value: 0.49,
+          weight: "w₅ = 0.22",
+          couplings: %{}
+        }
+      ] do %>
+        <.counter_registry_entry counter={counter} selected={counter.id == 3} />
+      <% end %>
+    </div>
+
+    <div class="rounded-lg bg-zinc-50 p-4">
+      <h4 class="font-semibold text-zinc-900">MCOA Master Equation</h4>
+      <p class="mt-2 font-mono text-sm text-zinc-700">
+        L_tissue(n, t) = Σ_i w_i(tissue) · f_i(D_i(n, t))
+      </p>
+      <p class="mt-2 text-sm text-zinc-600">
+        Counter #3 equation: D₃(n, t) = D₃₀ + α₃·(n/n₃*) + β₃·(t/τ₃) + γ₃·I(other counters)
+      </p>
+      <p class="mt-2 text-xs text-zinc-500">
+        Note: According to CORRECTIONS_2026-04-22 §1.3, all γ_i = 0 by default (null hypothesis of independence).
+      </p>
+    </div>
+  </div>
+</.modal>
+
+<.modal id="about-modal">
+  <div class="space-y-6">
+    <div>
+      <h3 class="text-xl font-semibold text-zinc-900">MitoROS: Counter #3</h3>
+      <p class="mt-2 text-sm text-zinc-600">
+        Mitochondrial ROS and mtDNA Damage as a Quantifiable Counter in a Multi-Counter Architecture of Aging
+      </p>
+    </div>
+
+    <div class="space-y-4">
+      <div>
+        <h4 class="font-medium text-zinc-900">Core Concept</h4>
+        <p class="mt-1 text-sm text-zinc-700">
+          Counter #3 formalizes mitochondrial dysfunction as a composite metric of mtDNA oxidative lesions
+          and pathogenic heteroplasmy. Damage accumulates through both cell divisions (replication errors,
+          segregation drift) and chronological time (ROS-mediated damage).
+        </p>
+      </div>
+
+      <div>
+        <h4 class="font-medium text-zinc-900">Key Features</h4>
+        <ul class="mt-2 list-disc space-y-1 pl-5 text-sm text-zinc-700">
+          <li>Models clonal expansion of mutant mtDNA</li>
+          <li>Incorporates tissue-specific kinetics (mitotic vs post-mitotic)</li>
+          <li>Quantifies interaction with other aging processes via Γ matrix</li>
+          <li>Generates falsifiable predictions for damage trajectories</li>
+        </ul>
+      </div>
+
+      <div class="rounded-lg border border-zinc-200 p-4">
+        <h4 class="font-medium text-zinc-900">Current Implementation</h4>
+        <p class="mt-1 text-sm text-zinc-700">
+          This frontend visualizes simulated data from the MitoROS model. All parameters are based on
+          contemporary meta-analyses of 24 peer-reviewed studies. The backend implements the kinetic
+          equations in Rust for high-performance simulation.
+        </p>
+      </div>
+    </div>
+  </div>
+</.modal>

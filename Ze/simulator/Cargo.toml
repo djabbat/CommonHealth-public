@@ -1,0 +1,19 @@
+[package]
+name = "ze_simulator"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+description = "Ze Theory — impedance ODE, CHSH Ze-deformation, cheating autowaves."
+
+[lib]
+name = "ze_simulator"
+path = "src/lib.rs"
+
+[[bin]]
+name = "ze_sim"
+path = "src/bin/ze_sim.rs"
+
+[dependencies]
+serde = { workspace = true }
+serde_json = { workspace = true }

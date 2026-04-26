@@ -1,0 +1,52 @@
+{
+  "db_name": "PostgreSQL",
+  "query": "SELECT bio_age_est, bio_age_ci_low, bio_age_ci_high, chi_ze_combined, ci_stability, recorded_at\n           FROM ze_samples\n           WHERE user_id = $1 AND is_verified = true\n           ORDER BY recorded_at DESC LIMIT 1",
+  "describe": {
+    "columns": [
+      {
+        "ordinal": 0,
+        "name": "bio_age_est",
+        "type_info": "Float8"
+      },
+      {
+        "ordinal": 1,
+        "name": "bio_age_ci_low",
+        "type_info": "Float8"
+      },
+      {
+        "ordinal": 2,
+        "name": "bio_age_ci_high",
+        "type_info": "Float8"
+      },
+      {
+        "ordinal": 3,
+        "name": "chi_ze_combined",
+        "type_info": "Float8"
+      },
+      {
+        "ordinal": 4,
+        "name": "ci_stability",
+        "type_info": "Text"
+      },
+      {
+        "ordinal": 5,
+        "name": "recorded_at",
+        "type_info": "Timestamptz"
+      }
+    ],
+    "parameters": {
+      "Left": [
+        "Uuid"
+      ]
+    },
+    "nullable": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      false
+    ]
+  },
+  "hash": "f81c8114774043683449ea433b306a9e62dad6ab9c996716e8da2551b654b7a9"
+}

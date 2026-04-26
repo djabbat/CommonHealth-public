@@ -1,0 +1,43 @@
+[package]
+name = "biosense_backend"
+version = "0.1.0"
+edition = "2021"
+authors = ["LongevityCommon Team"]
+description = "BioSense measurement layer backend for MCOA"
+license = "MIT"
+repository = "https://github.com/LongevityCommon/biosense"
+
+[[bin]]
+name = "biosense_backend"
+path = "src/main.rs"
+
+[dependencies]
+axum = { version = "0.7", features = ["macros"] }
+tokio = { version = "1.37", features = ["full"] }
+tower = "0.4"
+tower-http = { version = "0.5", features = ["trace", "cors"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+sqlx = { version = "0.7", features = ["runtime-tokio-native-tls", "postgres", "macros", "chrono", "json"] }
+chrono = { version = "0.4", features = ["serde"] }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+thiserror = "1.0"
+uuid = { version = "1.7", features = ["serde", "v4"] }
+config = "0.14"
+dotenv = "0.15"
+async-trait = "0.1"
+validator = { version = "0.16", features = ["derive"] }
+futures = "0.3"
+
+[dev-dependencies]
+sqlx = { version = "0.7", features = ["runtime-tokio-native-tls", "postgres", "macros", "offline", "migrate"] }
+reqwest = { version = "0.11", features = ["json"] }
+tracing-test = "0.2"
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+strip = true
+[workspace]

@@ -1,0 +1,196 @@
+version: "3.9"
+services:
+  fclc_backend:
+    build: ./FCLC/backend
+    ports:
+      - "3001:3001"
+    environment:
+      DATABASE_URL: postgres://cn:cn@db:5432/fclc_db
+      RUST_LOG: info
+    depends_on: [db]
+  fclc_frontend:
+    build: ./FCLC/frontend
+    ports:
+      - "4001:4001"
+    environment:
+      BACKEND_URL: http://fclc_backend:3001
+      PHX_HOST: localhost
+      PHX_PORT: "4001"
+    depends_on: [fclc_backend]
+  mcoa_backend:
+    build: ./MCOA/backend
+    ports:
+      - "3002:3002"
+    environment:
+      DATABASE_URL: postgres://cn:cn@db:5432/mcoa_db
+      RUST_LOG: info
+    depends_on: [db]
+  mcoa_frontend:
+    build: ./MCOA/frontend
+    ports:
+      - "4002:4002"
+    environment:
+      BACKEND_URL: http://mcoa_backend:3002
+      PHX_HOST: localhost
+      PHX_PORT: "4002"
+    depends_on: [mcoa_backend]
+  cdata_backend:
+    build: ./CDATA/backend
+    ports:
+      - "3003:3003"
+    environment:
+      DATABASE_URL: postgres://cn:cn@db:5432/cdata_db
+      RUST_LOG: info
+    depends_on: [db]
+  cdata_frontend:
+    build: ./CDATA/frontend
+    ports:
+      - "4003:4003"
+    environment:
+      BACKEND_URL: http://cdata_backend:3003
+      PHX_HOST: localhost
+      PHX_PORT: "4003"
+    depends_on: [cdata_backend]
+  biosense_backend:
+    build: ./BioSense/backend
+    ports:
+      - "3004:3004"
+    environment:
+      DATABASE_URL: postgres://cn:cn@db:5432/biosense_db
+      RUST_LOG: info
+    depends_on: [db]
+  biosense_frontend:
+    build: ./BioSense/frontend
+    ports:
+      - "4004:4004"
+    environment:
+      BACKEND_URL: http://biosense_backend:3004
+      PHX_HOST: localhost
+      PHX_PORT: "4004"
+    depends_on: [biosense_backend]
+  telomere_backend:
+    build: ./Telomere/backend
+    ports:
+      - "3005:3005"
+    environment:
+      DATABASE_URL: postgres://cn:cn@db:5432/telomere_db
+      RUST_LOG: info
+    depends_on: [db]
+  telomere_frontend:
+    build: ./Telomere/frontend
+    ports:
+      - "4005:4005"
+    environment:
+      BACKEND_URL: http://telomere_backend:3005
+      PHX_HOST: localhost
+      PHX_PORT: "4005"
+    depends_on: [telomere_backend]
+  mitoros_backend:
+    build: ./MitoROS/backend
+    ports:
+      - "3006:3006"
+    environment:
+      DATABASE_URL: postgres://cn:cn@db:5432/mitoros_db
+      RUST_LOG: info
+    depends_on: [db]
+  mitoros_frontend:
+    build: ./MitoROS/frontend
+    ports:
+      - "4006:4006"
+    environment:
+      BACKEND_URL: http://mitoros_backend:3006
+      PHX_HOST: localhost
+      PHX_PORT: "4006"
+    depends_on: [mitoros_backend]
+  epigeneticdrift_backend:
+    build: ./EpigeneticDrift/backend
+    ports:
+      - "3007:3007"
+    environment:
+      DATABASE_URL: postgres://cn:cn@db:5432/epigeneticdrift_db
+      RUST_LOG: info
+    depends_on: [db]
+  epigeneticdrift_frontend:
+    build: ./EpigeneticDrift/frontend
+    ports:
+      - "4007:4007"
+    environment:
+      BACKEND_URL: http://epigeneticdrift_backend:3007
+      PHX_HOST: localhost
+      PHX_PORT: "4007"
+    depends_on: [epigeneticdrift_backend]
+  proteostasis_backend:
+    build: ./Proteostasis/backend
+    ports:
+      - "3008:3008"
+    environment:
+      DATABASE_URL: postgres://cn:cn@db:5432/proteostasis_db
+      RUST_LOG: info
+    depends_on: [db]
+  proteostasis_frontend:
+    build: ./Proteostasis/frontend
+    ports:
+      - "4008:4008"
+    environment:
+      BACKEND_URL: http://proteostasis_backend:3008
+      PHX_HOST: localhost
+      PHX_PORT: "4008"
+    depends_on: [proteostasis_backend]
+  ze_backend:
+    build: ./Ze/backend
+    ports:
+      - "3009:3009"
+    environment:
+      DATABASE_URL: postgres://cn:cn@db:5432/ze_db
+      RUST_LOG: info
+    depends_on: [db]
+  ze_frontend:
+    build: ./Ze/frontend
+    ports:
+      - "4009:4009"
+    environment:
+      BACKEND_URL: http://ze_backend:3009
+      PHX_HOST: localhost
+      PHX_PORT: "4009"
+    depends_on: [ze_backend]
+  hap_backend:
+    build: ./HAP/backend
+    ports:
+      - "3010:3010"
+    environment:
+      DATABASE_URL: postgres://cn:cn@db:5432/hap_db
+      RUST_LOG: info
+    depends_on: [db]
+  hap_frontend:
+    build: ./HAP/frontend
+    ports:
+      - "4010:4010"
+    environment:
+      BACKEND_URL: http://hap_backend:3010
+      PHX_HOST: localhost
+      PHX_PORT: "4010"
+    depends_on: [hap_backend]
+  ontogenesis_backend:
+    build: ./Ontogenesis/backend
+    ports:
+      - "3011:3011"
+    environment:
+      DATABASE_URL: postgres://cn:cn@db:5432/ontogenesis_db
+      RUST_LOG: info
+    depends_on: [db]
+  ontogenesis_frontend:
+    build: ./Ontogenesis/frontend
+    ports:
+      - "4011:4011"
+    environment:
+      BACKEND_URL: http://ontogenesis_backend:3011
+      PHX_HOST: localhost
+      PHX_PORT: "4011"
+    depends_on: [ontogenesis_backend]
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: cn
+      POSTGRES_PASSWORD: cn
+      POSTGRES_MULTIPLE_DATABASES: fclc_db,mcoa_db,cdata_db,biosense_db,telomere_db,mitoros_db,epigeneticdrift_db,proteostasis_db,ze_db,hap_db,ontogenesis_db
+    ports: ["5432:5432"]

@@ -1,0 +1,70 @@
+{
+  "db_name": "PostgreSQL",
+  "query": "SELECT id, username, email, birth_year, country_code, orcid_id,\n                  consent_given, consent_at, created_at\n           FROM users WHERE id = $1",
+  "describe": {
+    "columns": [
+      {
+        "ordinal": 0,
+        "name": "id",
+        "type_info": "Uuid"
+      },
+      {
+        "ordinal": 1,
+        "name": "username",
+        "type_info": "Text"
+      },
+      {
+        "ordinal": 2,
+        "name": "email",
+        "type_info": "Text"
+      },
+      {
+        "ordinal": 3,
+        "name": "birth_year",
+        "type_info": "Int4"
+      },
+      {
+        "ordinal": 4,
+        "name": "country_code",
+        "type_info": "Bpchar"
+      },
+      {
+        "ordinal": 5,
+        "name": "orcid_id",
+        "type_info": "Text"
+      },
+      {
+        "ordinal": 6,
+        "name": "consent_given",
+        "type_info": "Bool"
+      },
+      {
+        "ordinal": 7,
+        "name": "consent_at",
+        "type_info": "Timestamptz"
+      },
+      {
+        "ordinal": 8,
+        "name": "created_at",
+        "type_info": "Timestamptz"
+      }
+    ],
+    "parameters": {
+      "Left": [
+        "Uuid"
+      ]
+    },
+    "nullable": [
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      false,
+      true,
+      false
+    ]
+  },
+  "hash": "7fdd9f8ac1f5d571328e9127a7e4220ea05f146f37f79130ec6f8f7f9ef4e537"
+}

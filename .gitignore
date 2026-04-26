@@ -1,0 +1,19 @@
+# LongevityCommon — public push exclusions
+docs/
+**/docs/
+CONCEPT.md
+CLAUDE.md
+TODO.md
+PARAMETERS.md
+MAP.md
+MEMORY.md
+LINKS.md
+KNOWLEDGE.md
+UPGRADE.md
+STRATEGY.md
+REMINDER.md
+.aim_env
+Patients/
+target/
+_build/
+node_modules/

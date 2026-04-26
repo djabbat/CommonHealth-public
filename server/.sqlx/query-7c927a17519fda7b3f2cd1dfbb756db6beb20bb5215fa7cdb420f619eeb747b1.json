@@ -1,0 +1,94 @@
+{
+  "db_name": "PostgreSQL",
+  "query": "SELECT recorded_at, psyche_score, psyche_mood, psyche_stress, psyche_notes,\n                  consciousness_score, consciousness_mindful, consciousness_purpose, consciousness_notes,\n                  social_score, social_support, social_isolation, social_notes\n           FROM health_factors WHERE user_id = $1 ORDER BY recorded_at ASC",
+  "describe": {
+    "columns": [
+      {
+        "ordinal": 0,
+        "name": "recorded_at",
+        "type_info": "Timestamptz"
+      },
+      {
+        "ordinal": 1,
+        "name": "psyche_score",
+        "type_info": "Float8"
+      },
+      {
+        "ordinal": 2,
+        "name": "psyche_mood",
+        "type_info": "Text"
+      },
+      {
+        "ordinal": 3,
+        "name": "psyche_stress",
+        "type_info": "Float8"
+      },
+      {
+        "ordinal": 4,
+        "name": "psyche_notes",
+        "type_info": "Text"
+      },
+      {
+        "ordinal": 5,
+        "name": "consciousness_score",
+        "type_info": "Float8"
+      },
+      {
+        "ordinal": 6,
+        "name": "consciousness_mindful",
+        "type_info": "Float8"
+      },
+      {
+        "ordinal": 7,
+        "name": "consciousness_purpose",
+        "type_info": "Float8"
+      },
+      {
+        "ordinal": 8,
+        "name": "consciousness_notes",
+        "type_info": "Text"
+      },
+      {
+        "ordinal": 9,
+        "name": "social_score",
+        "type_info": "Float8"
+      },
+      {
+        "ordinal": 10,
+        "name": "social_support",
+        "type_info": "Float8"
+      },
+      {
+        "ordinal": 11,
+        "name": "social_isolation",
+        "type_info": "Float8"
+      },
+      {
+        "ordinal": 12,
+        "name": "social_notes",
+        "type_info": "Text"
+      }
+    ],
+    "parameters": {
+      "Left": [
+        "Uuid"
+      ]
+    },
+    "nullable": [
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  "hash": "7c927a17519fda7b3f2cd1dfbb756db6beb20bb5215fa7cdb420f619eeb747b1"
+}

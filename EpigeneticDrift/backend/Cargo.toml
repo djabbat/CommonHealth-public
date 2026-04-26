@@ -1,0 +1,33 @@
+[package]
+name = "epigeneticdrift_backend"
+version = "0.1.0"
+edition = "2021"
+authors = ["LongevityCommon Team"]
+description = "Epigenetic Drift Counter backend for MCOA"
+
+[[bin]]
+name = "epigeneticdrift-backend"
+path = "src/main.rs"
+
+[dependencies]
+axum = { version = "0.7", features = ["macros"] }
+tokio = { version = "1.0", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+sqlx = { version = "0.7", features = ["runtime-tokio-native-tls", "postgres", "macros", "chrono", "json"] }
+chrono = { version = "0.4", features = ["serde"] }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+thiserror = "1.0"
+dotenvy = "0.15"
+config = "0.14"
+anyhow = "1.0"
+uuid = { version = "1.0", features = ["v4", "serde"] }
+http = "0.2"
+tower-http = { version = "0.5", features = ["trace", "cors"] }
+
+[dev-dependencies]
+sqlx = { version = "0.7", features = ["runtime-tokio-native-tls", "postgres", "macros", "offline", "migrate"] }
+reqwest = { version = "0.11", features = ["json"] }
+test-log = { version = "0.2", features = ["trace"] }
+[workspace]

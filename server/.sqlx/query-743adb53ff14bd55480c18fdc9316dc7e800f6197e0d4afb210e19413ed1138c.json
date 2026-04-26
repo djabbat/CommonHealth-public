@@ -1,0 +1,23 @@
+{
+  "db_name": "PostgreSQL",
+  "query": "INSERT INTO ze_samples\n               (id, user_id, recorded_at, source, chi_ze_eeg, chi_ze_hrv, chi_ze_combined,\n                fclc_signature, is_verified, raw_payload)\n               VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10)\n               ON CONFLICT DO NOTHING",
+  "describe": {
+    "columns": [],
+    "parameters": {
+      "Left": [
+        "Uuid",
+        "Uuid",
+        "Timestamptz",
+        "Text",
+        "Float8",
+        "Float8",
+        "Float8",
+        "Text",
+        "Bool",
+        "Jsonb"
+      ]
+    },
+    "nullable": []
+  },
+  "hash": "743adb53ff14bd55480c18fdc9316dc7e800f6197e0d4afb210e19413ed1138c"
+}

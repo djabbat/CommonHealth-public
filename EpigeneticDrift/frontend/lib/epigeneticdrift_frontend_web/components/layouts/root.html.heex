@@ -1,0 +1,27 @@
+<.layouts root page_title={@page_title}>
+  <div class="min-h-full">
+    <nav class="bg-gray-800">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+          <div class="flex items-center">
+            <div class="flex-shrink-0">
+              <span class="text-white font-bold text-xl">EpigeneticDrift</span>
+            </div>
+            <div class="hidden md:block">
+              <div class="ml-10 flex items-baseline space-x-4">
+                <.nav_link to="/">Dashboard</.nav_link>
+                <.nav_link to="/counter_registry">Counter Registry</.nav_link>
+                <.nav_link to="/sobol">Sobol Analysis</.nav_link>
+                <.nav_link to="/lineage">HSC Lineage</.nav_link>
+              </div>
+            </div>
+          </div>
+          <div class="text-sm text-gray-300">
+            MCOA Counter #4 · <%= @socket.id %>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <%= @inner_block %>
+  </div>
+</.layouts>

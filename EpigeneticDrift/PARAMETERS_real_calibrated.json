@@ -1,0 +1,16 @@
+{
+  "counter_name": "EpigeneticDrift",
+  "beta_anchor": 1.0000000000000002,
+  "beta_gse40279": 0.6403506097560975,
+  "beta_gse40279_rmse": 0.1473668080734771,
+  "n_samples_gse40279": 656,
+  "age_range_gse40279": [
+    19.0,
+    101.0
+  ],
+  "source_gse40279": "Hannum 2013 PMID 23177740, n=656 whole blood Illumina 450k",
+  "consistency": "both calibrations give \u03b2 in [0.6, 1.0] range, consistent with monotonic time-dominant counter; discrepancy reflects cohort age-distribution bias",
+  "recommended_beta_for_uniform_prior": 1.0000000000000002,
+  "recommended_beta_for_cohort_weighted": 0.6403506097560975,
+  "recalibrate_when": "data from broader age-uniform cohort (e.g. UK Biobank, Lothian Birth Cohort) obtained"
+}

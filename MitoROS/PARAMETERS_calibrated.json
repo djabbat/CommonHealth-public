@@ -1,0 +1,13 @@
+{
+  "counter_name": "MitoROS",
+  "alpha": 0.0,
+  "beta": 0.5,
+  "gamma": 0.0,
+  "n_star_divisions": 100.0,
+  "tau_days": 29200.0,
+  "d_critical": 0.5,
+  "fit_rms": 0.0,
+  "anchor_count": 3,
+  "source_pmids": "Sun/Youle/Finkel 2016 PMID 26942670; Ross 2013 PMID 23965628",
+  "method": "linear-lstsq-on-anchors"
+}

@@ -1,0 +1,17 @@
+[package]
+name = "mcoa_cli"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "mcoa-sim"
+path = "src/main.rs"
+
+[dependencies]
+mcoa_core = { path = "../mcoa_core" }
+mcoa_simulation = { path = "../mcoa_simulation" }
+clap = { workspace = true }
+csv = { workspace = true }
+serde = { workspace = true }

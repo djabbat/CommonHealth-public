@@ -1,0 +1,29 @@
+{
+  "db_name": "PostgreSQL",
+  "query": "SELECT prompt, response FROM ze_guide_logs\n           WHERE user_id = $1 AND session_id = $2\n           ORDER BY created_at ASC LIMIT 6",
+  "describe": {
+    "columns": [
+      {
+        "ordinal": 0,
+        "name": "prompt",
+        "type_info": "Text"
+      },
+      {
+        "ordinal": 1,
+        "name": "response",
+        "type_info": "Text"
+      }
+    ],
+    "parameters": {
+      "Left": [
+        "Uuid",
+        "Uuid"
+      ]
+    },
+    "nullable": [
+      false,
+      false
+    ]
+  },
+  "hash": "c7242f10da0fd5a23ca78c07165a4da7e1c6a9ae3172c63afe672f6c84e4f836"
+}
