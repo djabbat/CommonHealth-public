@@ -18,6 +18,8 @@ Environment="BIOSENSE_BACKEND_URL=http://127.0.0.1:4502"
 Environment="SECRET_KEY_BASE=IVUk0znP5fY4RXntURIZWjhLD-0c9vuSTV_XzKivL9-pXsC012sB7hoOk_29sLej"
 Environment="LONGEVITYCOMMON_VERSION=v5.6"
 Environment="RELEASE_COOKIE=biosense-web-prod-cookie"
+# Pin Erlang distribution port (defence-in-depth; UFW also denies external)
+Environment="ERL_FLAGS=-kernel inet_dist_listen_min 9102 -kernel inet_dist_listen_max 9102"
 
 ExecStart=/opt/biosense-web/bin/biosense_web start
 ExecStop=/opt/biosense-web/bin/biosense_web stop
