@@ -139,6 +139,8 @@ def _build_parser() -> argparse.ArgumentParser:
                     help="validate every yaml case in AIM_EVAL_CASES_DIR")
     g.add_argument("--json", action="store_true",
                     help="emit dashboard as JSON (use with --dashboard)")
+    g.add_argument("--compact", action="store_true",
+                    help="Telegram-friendly 1-line-per-section dashboard")
     g.add_argument("--archive-cases", action="store_true",
                     help="move stale FE1 regression cases to _archived/")
     g.add_argument("--dry-run", action="store_true",
@@ -385,8 +387,13 @@ def _cmd_diag(args) -> int:
         return 0
 
     if getattr(args, "dashboard", False):
-        from AI.ai.dashboard import render, render_json
-        print(render_json() if getattr(args, "json", False) else render())
+        from AI.ai.dashboard import render, render_json, render_compact
+        if getattr(args, "json", False):
+            print(render_json())
+        elif getattr(args, "compact", False):
+            print(render_compact())
+        else:
+            print(render())
         return 0
 
     if getattr(args, "doctor", False):

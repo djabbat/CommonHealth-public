@@ -155,3 +155,62 @@ def test_render_json_records_section_failure(isolated, monkeypatch):
     payload = json.loads(dashboard.render_json())
     assert payload["sections"][0]["ok"] is False
     assert "nope" in payload["sections"][0]["error"]
+
+
+# ── render_compact ──────────────────────────────────────────────
+
+
+def test_render_compact_one_line_per_section(isolated):
+    """Each section reduces to a single ✓/✗ + headline line."""
+    from AI.ai.dashboard import render_compact, sections
+    text = render_compact()
+    body_lines = [l for l in text.splitlines() if l.startswith(("✓ ", "✗ "))]
+    assert len(body_lines) == len(sections())
+
+
+def test_render_compact_strips_emojis(isolated):
+    from AI.ai import dashboard
+    monkeypatch_section = ("x", "Score",
+                            lambda: "💯 AIM/AI health: 80/100 (grade B)\n"
+                                    "  • wiring        :  30")
+    import contextlib
+    with contextlib.ExitStack() as stack:
+        from unittest.mock import patch
+        stack.enter_context(patch.object(dashboard, "_REGISTRY",
+                                            [monkeypatch_section]))
+        text = dashboard.render_compact()
+    # The 💯 prefix should be stripped (re.sub drops non-word leading chars).
+    assert "AIM/AI health: 80/100" in text
+    # And we shouldn't see the heart emoji at the start of the body
+    body_lines = [l for l in text.splitlines() if l.startswith(("✓ ", "✗ "))]
+    assert len(body_lines) == 1
+    assert "💯" not in body_lines[0]
+
+
+def test_render_compact_marks_failures(isolated, monkeypatch):
+    from AI.ai import dashboard
+    def boom():
+        raise RuntimeError("section died")
+    monkeypatch.setattr(dashboard, "_REGISTRY", [
+        ("ok", "Working", lambda: "all good"),
+        ("bad", "Broken", boom),
+    ])
+    text = dashboard.render_compact()
+    assert "✓ Working:" in text
+    assert "✗ Broken:" in text
+
+
+def test_render_compact_short_for_telegram(isolated):
+    """Total render fits comfortably under Telegram's ~4096-char limit."""
+    from AI.ai.dashboard import render_compact
+    text = render_compact()
+    assert len(text) < 2000   # we have ~10 sections × ~120 chars max
+
+
+def test_render_compact_handles_empty_body(isolated, monkeypatch):
+    from AI.ai import dashboard
+    monkeypatch.setattr(dashboard, "_REGISTRY", [
+        ("e", "Empty", lambda: ""),
+    ])
+    text = dashboard.render_compact()
+    assert "(empty)" in text

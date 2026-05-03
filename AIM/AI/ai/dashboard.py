@@ -147,3 +147,24 @@ def render_json() -> str:
             "error": s.error,
         })
     return json.dumps({"sections": payload}, ensure_ascii=False, indent=2)
+
+
+def render_compact() -> str:
+    """Telegram-friendly: 1-3 lines per section. Strips verbose body
+    down to the headline metric per module."""
+    import re
+
+    def first_line(body: str) -> str:
+        for line in body.splitlines():
+            stripped = line.strip()
+            if stripped and not stripped.startswith("#"):
+                # Drop emoji prefix for tighter Telegram rendering
+                return re.sub(r"^[^\w\d]*\s*", "", stripped)[:120]
+        return "(empty)"
+
+    parts = ["📡 AIM/AI compact"]
+    for s in sections():
+        head = first_line(s.body)
+        mark = "✓" if s.ok else "✗"
+        parts.append(f"{mark} {s.title}: {head}")
+    return "\n".join(parts)
