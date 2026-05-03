@@ -37,6 +37,22 @@ dependencies = [
 ]
 
 [[package]]
+name = "aim-ai-dashboard"
+version = "0.1.0"
+dependencies = [
+ "aim-ai-cases",
+ "aim-ai-health",
+ "aim-ai-ledger",
+ "aim-ai-prompt-versions",
+ "aim-ai-regression",
+ "serde",
+ "serde_json",
+ "tempfile",
+ "thiserror 2.0.18",
+ "tracing",
+]
+
+[[package]]
 name = "aim-ai-fix-planner"
 version = "0.1.0"
 dependencies = [
@@ -81,6 +97,18 @@ dependencies = [
 ]
 
 [[package]]
+name = "aim-ai-meta-evaluator"
+version = "0.1.0"
+dependencies = [
+ "once_cell",
+ "regex",
+ "serde",
+ "serde_json",
+ "tempfile",
+ "thiserror 2.0.18",
+]
+
+[[package]]
 name = "aim-ai-prompt-versions"
 version = "0.1.0"
 dependencies = [
@@ -103,6 +131,19 @@ dependencies = [
  "aim-ai-ledger",
  "once_cell",
  "regex",
+ "serde",
+ "serde_json",
+ "tempfile",
+ "thiserror 2.0.18",
+ "tracing",
+]
+
+[[package]]
+name = "aim-ai-stable-run"
+version = "0.1.0"
+dependencies = [
+ "aim-ai-meta-evaluator",
+ "chrono",
  "serde",
  "serde_json",
  "tempfile",

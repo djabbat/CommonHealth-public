@@ -184,3 +184,10 @@ table.updates td { padding: 6px 8px; border-bottom: 1px solid #f4f4f5; }
 .aim-topbar-nav a:hover { background: rgba(255,255,255,0.08); color: #fff; }
 .aim-donate-pill { background: #dc2626 !important; color: #fff !important; font-weight: 600; padding: 6px 14px !important; border-radius: 999px !important; box-shadow: 0 1px 3px rgba(220,38,38,0.4); margin-left: 8px; }
 .aim-donate-pill:hover { background: #b91c1c !important; transform: translateY(-1px); }
+
+/* DashboardLive */
+.section-card.ok { border-left: 3px solid #16a34a; }
+.section-card.stale { border-left: 3px solid #a1a1aa; opacity: 0.85; }
+.section-body { font-family: ui-monospace, monospace; font-size: 12px; white-space: pre-wrap; word-break: break-word; background: #f4f4f5; padding: 10px 12px; border-radius: 4px; margin: 0; max-height: 200px; overflow-y: auto; }
+.section-err { color: #b91c1c; font-size: 11px; margin: 8px 0 0; font-style: italic; }
+[data-theme="dark"] .section-body { background: #15171f; color: #d8dce4; }
