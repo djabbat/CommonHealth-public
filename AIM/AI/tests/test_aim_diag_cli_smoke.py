@@ -72,6 +72,49 @@ _FLAGS = [
 ]
 
 
+# `--backup PATH` and `--restore PATH` need explicit tmp paths to avoid
+# polluting the real AI/artifacts/ directory. Tested separately:
+
+
+def test_smoke_backup_explicit_path(isolated, capsys, tmp_path):
+    from aim_cli import main
+    out_path = tmp_path / "snap.json"
+    rc = main(["diag", "--backup", str(out_path)])
+    out = capsys.readouterr().out
+    assert rc == 0
+    assert "backup written" in out
+    assert out_path.exists()
+
+
+def test_smoke_restore_dry_run(isolated, capsys, tmp_path):
+    """Take a snapshot with one row, then restore --dry-run."""
+    from AI.ai.diagnostic_ledger import record
+    record(model="m", grade="B", n_refs=1, n_with_line=1)
+    from aim_cli import main
+    out_path = tmp_path / "snap.json"
+    main(["diag", "--backup", str(out_path)])
+    capsys.readouterr()  # discard
+    rc = main(["diag", "--restore", str(out_path), "--dry-run"])
+    out = capsys.readouterr().out
+    assert rc == 0
+    assert "would insert" in out
+
+
+def test_smoke_suppress_then_unsuppress(isolated, capsys):
+    """End-to-end: suppress a ref, list shows it, unsuppress, list empty."""
+    from aim_cli import main
+    rc = main(["diag", "--suppress", "agents/x.py:42"])
+    assert rc == 0
+    capsys.readouterr()
+    main(["diag", "--list-suppressions"])
+    listing = capsys.readouterr().out
+    assert "agents/x.py:42" in listing
+    rc = main(["diag", "--unsuppress", "agents/x.py:42"])
+    out = capsys.readouterr().out
+    assert rc == 0
+    assert "unsuppressed" in out
+
+
 @pytest.mark.parametrize("argv,expected_rc,needle", _FLAGS,
                           ids=[" ".join(a) for a, _, _ in _FLAGS])
 def test_diag_flag_smoke(isolated, capsys, argv, expected_rc, needle):

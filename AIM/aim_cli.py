@@ -164,6 +164,8 @@ def _build_parser() -> argparse.ArgumentParser:
                     help="dump all DB state to JSON (default: artifacts/)")
     g.add_argument("--restore", metavar="PATH",
                     help="restore from a backup JSON file")
+    g.add_argument("--validate-findings", action="store_true",
+                    help="auto-validate findings in latest diagnostic")
 
     # passthroughs
     sub.add_parser("memory", help="memory hygiene scan")
@@ -479,6 +481,26 @@ def _cmd_diag(args) -> int:
             print(f"{db}:")
             for t, n in tcounts.items():
                 print(f"  {verb} {n} into {t}")
+        return 0
+
+    if getattr(args, "validate_findings", False):
+        from AI.ai.finding_validator import summary
+        from pathlib import Path as _P
+
+        if args.report:
+            report_path = _P(args.report).expanduser()
+        else:
+            artifacts = _P(__file__).resolve().parent / "AI" / "artifacts"
+            cands = sorted(p for p in artifacts.glob("self_diag_*.md")
+                            if "_request_" not in p.name)
+            if not cands:
+                print("ERROR: no self_diag_*.md in AI/artifacts/")
+                return 2
+            report_path = cands[-1]
+        if not report_path.exists():
+            print(f"ERROR: report not found: {report_path}")
+            return 2
+        print(summary(report_path.read_text(encoding="utf-8")))
         return 0
 
     if getattr(args, "gen_cases", False):
