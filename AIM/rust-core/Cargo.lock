@@ -101,6 +101,8 @@ dependencies = [
  "aim-ai-cases",
  "aim-ai-compliance-promoter",
  "aim-ai-distillation",
+ "aim-ai-doctor",
+ "aim-ai-explainer",
  "aim-ai-gap-detector",
  "aim-ai-health",
  "aim-ai-ledger",

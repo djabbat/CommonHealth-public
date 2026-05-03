@@ -25,6 +25,8 @@ aim-ai-compliance-promoter = { path = "../aim-ai-compliance-promoter" }
 aim-ai-distillation = { path = "../aim-ai-distillation" }
 aim-ai-gap-detector = { path = "../aim-ai-gap-detector" }
 aim-ai-reflexion = { path = "../aim-ai-reflexion" }
+aim-ai-doctor = { path = "../aim-ai-doctor" }
+aim-ai-explainer = { path = "../aim-ai-explainer" }
 
 serde = { workspace = true }
 serde_json = { workspace = true }

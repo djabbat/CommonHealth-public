@@ -32,6 +32,8 @@ pub struct Section {
 pub fn sections() -> Vec<Section> {
     vec![
         score_section(),
+        explainer_section(),
+        wiring_section(),
         safety_section(),
         ledger_section(),
         regression_section(),
@@ -44,6 +46,50 @@ pub fn sections() -> Vec<Section> {
         reflexion_section(),
         cases_section(),
     ]
+}
+
+fn explainer_section() -> Section {
+    let s = (|| -> Result<String, Box<dyn std::error::Error>> {
+        let ledger = aim_ai_ledger::Ledger::open_default()?;
+        let e = aim_ai_explainer::explain(&ledger)?;
+        Ok(aim_ai_explainer::summary(&e))
+    })();
+    section_from("explainer", "Score explainer", s)
+}
+
+fn wiring_section() -> Section {
+    let s = (|| -> Result<String, Box<dyn std::error::Error>> {
+        let cwd = std::env::current_dir().unwrap_or_else(|_| std::path::PathBuf::from("."));
+        let probes = aim_ai_doctor::diagnose(&cwd);
+        let crit: Vec<&aim_ai_doctor::Probe> = probes
+            .iter()
+            .filter(|p| !p.ok && p.severity == aim_ai_doctor::Severity::Crit)
+            .collect();
+        let warn: Vec<&aim_ai_doctor::Probe> = probes
+            .iter()
+            .filter(|p| !p.ok && p.severity == aim_ai_doctor::Severity::Warn)
+            .collect();
+        if crit.is_empty() && warn.is_empty() {
+            return Ok("✅ wiring clean — all probes ok".into());
+        }
+        let mut out: Vec<String> = Vec::new();
+        if !crit.is_empty() {
+            out.push(format!("❌ {} critical probe(s):", crit.len()));
+            for p in crit {
+                let head = p.detail.lines().next().unwrap_or("");
+                out.push(format!("   • {}: {}", p.name, head));
+            }
+        }
+        if !warn.is_empty() {
+            out.push(format!("⚠ {} warning(s):", warn.len()));
+            for p in warn {
+                let head = p.detail.lines().next().unwrap_or("");
+                out.push(format!("   • {}: {}", p.name, head));
+            }
+        }
+        Ok(out.join("\n"))
+    })();
+    section_from("wiring", "Wiring (doctor)", s)
 }
 
 fn safety_section() -> Section {
