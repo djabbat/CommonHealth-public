@@ -47,6 +47,8 @@ members = [
     "crates/aim-citation-guard",
     "crates/aim-deadline-scanner",
     "crates/aim-notify",
+    "crates/aim-hub-client",
+    "crates/aim-hub-auth",
 ]
 # Note: DiffDiagnosis/backend and SSA/backend keep their own workspaces.
 # They are part of the same logical Rust core but compiled independently
