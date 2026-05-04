@@ -943,6 +943,19 @@ dependencies = [
 ]
 
 [[package]]
+name = "aim-project-owner"
+version = "0.1.0"
+dependencies = [
+ "chrono",
+ "serde",
+ "serde_json",
+ "serde_yaml",
+ "tempfile",
+ "thiserror 2.0.18",
+ "tracing",
+]
+
+[[package]]
 name = "aim-prompt-optimizer"
 version = "0.1.0"
 dependencies = [
