@@ -163,6 +163,8 @@ members = [
     "crates/aim-disk-monitor",
     "crates/aim-auto-eval",
     "crates/aim-daily-brief",
+    "crates/aim-weekly-digest",
+    "crates/aim-check-docs-consistency",
 ]
 # Note: DiffDiagnosis/backend and SSA/backend keep their own workspaces.
 # They are part of the same logical Rust core but compiled independently
