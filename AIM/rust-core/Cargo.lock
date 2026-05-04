@@ -1047,6 +1047,18 @@ dependencies = [
 ]
 
 [[package]]
+name = "aim-smart-context"
+version = "0.1.0"
+dependencies = [
+ "chrono",
+ "regex",
+ "serde",
+ "serde_json",
+ "thiserror 2.0.18",
+ "tracing",
+]
+
+[[package]]
 name = "aim-smart-fallback"
 version = "0.1.0"
 dependencies = [
