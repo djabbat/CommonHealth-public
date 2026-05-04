@@ -56,6 +56,7 @@ members = [
     "crates/aim-complexity",
     "crates/aim-prompt-optimizer",
     "crates/aim-ast-verify",
+    "crates/aim-adaptive-limiter",
 ]
 # Note: DiffDiagnosis/backend and SSA/backend keep their own workspaces.
 # They are part of the same logical Rust core but compiled independently
