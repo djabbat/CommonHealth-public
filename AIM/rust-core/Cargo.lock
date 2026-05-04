@@ -766,6 +766,19 @@ dependencies = [
 ]
 
 [[package]]
+name = "aim-prompt-optimizer"
+version = "0.1.0"
+dependencies = [
+ "async-trait",
+ "rand 0.8.6",
+ "serde",
+ "serde_json",
+ "thiserror 2.0.18",
+ "tokio",
+ "tracing",
+]
+
+[[package]]
 name = "aim-rag"
 version = "0.1.0"
 dependencies = [
