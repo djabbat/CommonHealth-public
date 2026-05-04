@@ -116,6 +116,7 @@ members = [
     "crates/aim-metrics",
     "crates/aim-slash-commands",
     "crates/aim-mcp-loader",
+    "crates/aim-chat",
 ]
 # Note: DiffDiagnosis/backend and SSA/backend keep their own workspaces.
 # They are part of the same logical Rust core but compiled independently
