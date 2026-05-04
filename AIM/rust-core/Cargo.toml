@@ -42,6 +42,8 @@ members = [
     "crates/aim-ai-runner",
     "crates/aim-ai-eval-synthesiser",
     "crates/aim-ai-self-modify",
+    "crates/aim-cost-ledger",
+    "crates/aim-worktree",
 ]
 # Note: DiffDiagnosis/backend and SSA/backend keep their own workspaces.
 # They are part of the same logical Rust core but compiled independently

@@ -450,6 +450,17 @@ dependencies = [
 ]
 
 [[package]]
+name = "aim-cost-ledger"
+version = "0.1.0"
+dependencies = [
+ "chrono",
+ "rusqlite",
+ "serde",
+ "tempfile",
+ "thiserror 2.0.18",
+]
+
+[[package]]
 name = "aim-doctor"
 version = "0.1.0"
 dependencies = [
@@ -633,6 +644,19 @@ dependencies = [
  "tower-http",
  "tracing",
  "uuid",
+]
+
+[[package]]
+name = "aim-worktree"
+version = "0.1.0"
+dependencies = [
+ "chrono",
+ "once_cell",
+ "rand 0.8.6",
+ "regex",
+ "serde",
+ "tempfile",
+ "thiserror 2.0.18",
 ]
 
 [[package]]
