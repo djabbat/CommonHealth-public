@@ -8,7 +8,7 @@
 //! `HashMap`-backed graph since the surface area is small (add edge,
 //! weighted-neighbour lookup).
 
-use std::collections::{BTreeMap, BTreeSet, HashMap};
+use std::collections::{BTreeMap, BTreeSet};
 
 use once_cell::sync::Lazy;
 use regex::Regex;

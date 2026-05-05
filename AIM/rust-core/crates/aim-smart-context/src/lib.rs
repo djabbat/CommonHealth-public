@@ -252,7 +252,7 @@ pub fn truncate(
             let soft = soft_truncate(&c.text, remaining * 4);
             c.text = soft;
             c.truncated = true;
-            used += approx_tokens(&c.text);
+            let _ = approx_tokens(&c.text); // remaining budget exhausted
             selected.push(c);
         }
         break;

@@ -9,7 +9,7 @@
 use std::collections::BTreeMap;
 use std::sync::Arc;
 
-use chrono::{DateTime, Datelike, TimeZone, Timelike, Utc, Weekday};
+use chrono::{DateTime, Datelike, Timelike, Utc, Weekday};
 use parking_lot::Mutex;
 use serde::{Deserialize, Serialize};
 use thiserror::Error;
@@ -290,6 +290,7 @@ pub fn handle_request(
 #[cfg(test)]
 mod tests {
     use super::*;
+    use chrono::TimeZone;
     use std::sync::atomic::{AtomicU32, Ordering};
 
     fn ts(y: i32, m: u32, d: u32, h: u32, mi: u32) -> DateTime<Utc> {

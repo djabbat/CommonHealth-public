@@ -8,7 +8,7 @@
 //! checkpoint state machine, and the safe-task-id sanitiser are unit
 //! tested.
 
-use chrono::{DateTime, TimeZone, Utc};
+use chrono::{DateTime, Utc};
 use parking_lot::Mutex;
 use serde::{Deserialize, Serialize};
 use std::collections::BTreeMap;
@@ -266,6 +266,7 @@ impl<'a> ResilientLlm<'a> {
 #[cfg(test)]
 mod tests {
     use super::*;
+    use chrono::TimeZone;
     use std::sync::atomic::{AtomicU32, Ordering};
     use std::sync::Arc;
 

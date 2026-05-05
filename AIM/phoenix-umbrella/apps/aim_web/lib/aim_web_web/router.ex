@@ -21,5 +21,8 @@ defmodule AimWeb.Router do
     live "/cases",    CasesLive,    :index
     live "/cases/:id", CaseLive,    :show
     live "/consult",  ConsultLive,  :index
+    live "/dashboard", DashboardLive, :index
+    live "/drugs",    DrugInteractionsLive, :index
+    live "/settings", SettingsLive,  :index
   end
 end

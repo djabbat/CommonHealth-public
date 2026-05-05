@@ -81,24 +81,24 @@ fn escape_label_value(v: &str) -> String {
 // ── primitive metrics ───────────────────────────────────────────────────────
 
 #[derive(Clone, Debug, Default)]
-struct CounterInner {
+pub struct CounterInner {
     /// label-set → cumulative counter value
     series: BTreeMap<Vec<(String, String)>, f64>,
 }
 
 #[derive(Clone, Debug, Default)]
-struct GaugeInner {
+pub struct GaugeInner {
     series: BTreeMap<Vec<(String, String)>, f64>,
 }
 
 #[derive(Clone, Debug)]
-struct HistogramInner {
+pub struct HistogramInner {
     buckets: Vec<f64>,
     series: BTreeMap<Vec<(String, String)>, HistogramSeries>,
 }
 
 #[derive(Clone, Debug)]
-struct HistogramSeries {
+pub struct HistogramSeries {
     counts: Vec<u64>, // per upper-bucket (+inf appended)
     sum: f64,
     count: u64,

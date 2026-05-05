@@ -122,7 +122,7 @@ fn b64url(input: &[u8]) -> String {
 fn b64url_decode(input: &str) -> Result<Vec<u8>> {
     base64::engine::general_purpose::URL_SAFE_NO_PAD
         .decode(input)
-        .map_err(|e| AuthError::InvalidToken)
+        .map_err(|_e| AuthError::InvalidToken)
 }
 
 const HEADER_HS256: &str = r#"{"alg":"HS256","typ":"JWT"}"#;

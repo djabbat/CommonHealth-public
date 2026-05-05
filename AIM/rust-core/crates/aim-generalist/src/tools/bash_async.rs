@@ -24,7 +24,7 @@ pub struct JobHandle {
 #[derive(Clone, Debug)]
 pub enum JobStatus {
     Running,
-    Done(i32),
+    Done(#[allow(dead_code)] i32),
     Killed,
 }
 

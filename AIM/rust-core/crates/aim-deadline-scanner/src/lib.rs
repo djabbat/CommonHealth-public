@@ -10,7 +10,7 @@
 //! Calendar adapters from the Python predecessor are kept as caller
 //! plug-ins (see [`scan_all_with`]).
 
-use chrono::{Datelike, Duration, NaiveDate};
+use chrono::NaiveDate;
 use serde::{Deserialize, Serialize};
 use std::collections::{BTreeMap, BTreeSet};
 use std::path::{Path, PathBuf};
@@ -387,7 +387,7 @@ pub fn summary(deadlines: &[Deadline], today: NaiveDate) -> String {
 #[cfg(test)]
 mod tests {
     use super::*;
-    use chrono::NaiveDate;
+    use chrono::{Datelike, NaiveDate};
 
     fn date(y: i32, m: u32, d: u32) -> NaiveDate {
         NaiveDate::from_ymd_opt(y, m, d).unwrap()
