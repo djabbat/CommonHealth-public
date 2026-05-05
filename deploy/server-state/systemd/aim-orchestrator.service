@@ -1,0 +1,20 @@
+[Unit]
+Description=AIM Rust orchestrator
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=jaba
+Group=jaba
+WorkingDirectory=/opt/aim
+EnvironmentFile=-/home/jaba/.aim_env
+ExecStart=/opt/aim/bin/aim-llm serve
+Restart=on-failure
+RestartSec=5
+StandardOutput=append:/opt/aim/logs/orchestrator.log
+StandardError=append:/opt/aim/logs/orchestrator.err.log
+LimitNOFILE=65536
+
+[Install]
+WantedBy=multi-user.target

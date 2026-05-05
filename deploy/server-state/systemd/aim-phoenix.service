@@ -1,0 +1,24 @@
+[Unit]
+Description=AIM Phoenix LiveView
+After=network-online.target aim-orchestrator.service
+Wants=aim-orchestrator.service
+
+[Service]
+Type=simple
+User=jaba
+Group=jaba
+WorkingDirectory=/opt/aim/phoenix
+EnvironmentFile=-/home/jaba/.aim_env
+Environment=MIX_ENV=prod
+Environment=PHX_SERVER=true
+Environment=AIM_WEB_PORT=4040
+Environment=AIM_GATEWAY_PORT=4042
+ExecStart=/opt/aim/phoenix/bin/aim_web start
+Restart=on-failure
+RestartSec=5
+StandardOutput=append:/opt/aim/logs/phoenix.log
+StandardError=append:/opt/aim/logs/phoenix.err.log
+LimitNOFILE=65536
+
+[Install]
+WantedBy=multi-user.target
