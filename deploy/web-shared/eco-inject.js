@@ -503,9 +503,7 @@
   function injectSubHero(){
     var spec = SUB_HERO[host];
     if (!spec) return;
-    // Idempotent — only skip if WE already injected one. Native
-    // <section class="hero"> from the page itself (e.g. hive's light
-    // fade) is allowed to coexist below our indigo banner.
+    // Idempotent — only skip if WE already injected one.
     if (document.querySelector(".lc-sub-hero")) return;
     var sec = document.createElement("section");
     sec.className = "lc-sub-hero";
@@ -515,7 +513,16 @@
         '<h1>' + spec.title + '</h1>' +
         '<p>' + spec.desc + '</p>' +
       '</div>';
-    // Insert directly after the eco-bar (which is body's first child).
+    // Order: eco-bar → site own-header → lc-sub-hero → content.
+    // Insert AFTER the page's own <header> if present, otherwise
+    // directly after the eco-bar.
+    var ownHeader = document.querySelector(
+      "header.site-header, header.header, .aim-subnav, header[data-aim-subnav]"
+    );
+    if (ownHeader && ownHeader.parentNode) {
+      ownHeader.parentNode.insertBefore(sec, ownHeader.nextSibling);
+      return;
+    }
     var bar = document.querySelector(".eco-bar-injected");
     if (bar && bar.nextSibling) {
       document.body.insertBefore(sec, bar.nextSibling);
