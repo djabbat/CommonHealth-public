@@ -257,6 +257,20 @@
     "html[data-theme=\"dark\"] header.site-header nav a:hover,html[data-theme=\"dark\"] header.header nav a:hover,html[data-theme=\"dark\"] .aim-subnav nav a:hover{background:#1a2440 !important;color:#88a8ff !important}",
     "html[data-theme=\"dark\"] header.site-header nav a.active,html[data-theme=\"dark\"] header.header nav a.active,html[data-theme=\"dark\"] .aim-subnav nav a.active{background:#4f46e5 !important;color:#fff !important}",
 
+    /* ── Injected own-header (.lc-own-header) — explicit colours so
+     *    site CSS or stale dark-mode rules can't bleed into light. ── */
+    "html .lc-own-header{background:#fff !important;color:#0f172a !important;border-bottom:1px solid #e2e8f0 !important}",
+    "html .lc-own-header .brand{color:#0f172a !important}",
+    "html .lc-own-header nav a{color:#475569 !important}",
+    "html[data-theme=\"dark\"] .lc-own-header{background:#15171f !important;color:#d8dce4 !important;border-bottom-color:#2a2f40 !important}",
+    "html[data-theme=\"dark\"] .lc-own-header .brand{color:#fff !important}",
+    "html[data-theme=\"dark\"] .lc-own-header nav a{color:#cbd5e1 !important}",
+    /* Center nav links in own-header: brand left, nav centered, lang right.
+     * Achieved by giving nav flex:1 + justify-content:center, while the
+     * lang-switcher rule below keeps margin-left:auto for right-pinning. */
+    "html .lc-own-header > .header-inner{display:flex !important;align-items:center !important;gap:1rem !important;flex-wrap:wrap !important}",
+    "html .lc-own-header .header-inner > nav{flex:1 1 auto !important;display:flex !important;justify-content:center !important;gap:0.4rem !important;flex-wrap:wrap !important}",
+
     /* ── Lang switcher inside own-header (right side) ──────────── */
     "html .header-inner .lang-switcher,html .container .lang-switcher,html .aim-subnav-inner .lang-switcher,html header .lang-switcher,html header:not(.eco-bar-injected) .lang-switcher{margin-left:auto !important;display:inline-flex !important;align-items:center !important;gap:0.4rem !important}",
     "html .lang-switcher select{background:#fff !important;color:#0f172a !important;border:1px solid #cbd5e1 !important;border-radius:6px !important;padding:5px 9px !important;font-size:0.875rem !important;font-family:Inter,sans-serif !important;cursor:pointer !important}",
@@ -286,6 +300,18 @@
     "html:not([data-theme=\"dark\"]) .badge.gray{background:#f1f5f9 !important;color:#475569 !important}",
     "html:not([data-theme=\"dark\"]) .badge.warn{background:#fef3c7 !important;color:#92400e !important}",
     "html:not([data-theme=\"dark\"]) .badge.red{background:#fee2e2 !important;color:#991b1b !important}",
+    /* ── Typography parity across themes (v61) ─────────────────────
+     * Light mode rules above set font-size/font-weight/padding INSIDE
+     * the :not([data-theme=dark]) qualifier — meaning dark mode
+     * dropped to subdomain defaults and rendered slightly larger or
+     * smaller. Unconditional re-declarations below lock typography
+     * to the same metrics in both themes; colour/bg stay theme-aware. */
+    "html .card{border-radius:16px !important;padding:1.5rem !important}",
+    "html .card h3{margin:0 0 0.625rem 0 !important;font-size:1.1875rem !important;font-weight:700 !important;letter-spacing:-0.01em !important}",
+    "html .card p{margin:0.625rem 0 !important;font-size:0.9375rem !important;line-height:1.55 !important}",
+    "html .card .role{font-size:0.6875rem !important;text-transform:uppercase !important;letter-spacing:0.08em !important;font-weight:600 !important;margin-bottom:0.5rem !important}",
+    "html .badge{display:inline-flex !important;font-size:0.6875rem !important;font-weight:600 !important;padding:0.1875rem 0.625rem !important;border-radius:999px !important;letter-spacing:0.02em !important}",
+    "html .grid{display:grid !important;grid-template-columns:repeat(auto-fit,minmax(20rem,1fr)) !important;gap:1rem !important}",
     /* ── Subdomain-internal headers normalised to home-style ─────── */
     "html:not([data-theme=\"dark\"]) header:not(.eco-bar-injected),html:not([data-theme=\"dark\"]) .site-header,html:not([data-theme=\"dark\"]) .aim-subnav{background:#fff !important;border-bottom:1px solid #e2e8f0 !important;color:#0f172a !important;font-family:Inter,sans-serif !important}",
     "html:not([data-theme=\"dark\"]) header:not(.eco-bar-injected) a,html:not([data-theme=\"dark\"]) .site-header a,html:not([data-theme=\"dark\"]) .aim-subnav a{color:#475569 !important}",
@@ -548,12 +574,38 @@
       ["#mcai", "MCAI"],
       ["#kaede", "Kaede"],
       ["#references", "References"]
+    ],
+    "drjaba.com": [
+      ["/", "Home"],
+      ["/about/", "About"],
+      ["/services/", "Services"],
+      ["/contact/", "Contact"]
+    ],
+    "www.drjaba.com": [
+      ["/", "Home"],
+      ["/about/", "About"],
+      ["/services/", "Services"],
+      ["/contact/", "Contact"]
+    ],
+    "space.drjaba.com": [
+      ["/", "Space"]
+    ],
+    "ksystem.drjaba.com": [
+      ["/", "kSystem"]
+    ],
+    "spellcheckerka.drjaba.com": [
+      ["/", "SpellChecker"]
     ]
   };
   var INJECTED_BRAND = {
     "longevity.ge": "🌱 GLA",
     "mcoa.longevity.ge": "🧮 MCOA",
-    "cdata.longevity.ge": "🔬 CDATA"
+    "cdata.longevity.ge": "🔬 CDATA",
+    "drjaba.com": "🩺 DrJaba",
+    "www.drjaba.com": "🩺 DrJaba",
+    "space.drjaba.com": "🌌 Space",
+    "ksystem.drjaba.com": "🧠 kSystem",
+    "spellcheckerka.drjaba.com": "🔤 SpellChecker"
   };
 
   function injectOwnHeader(){
@@ -616,6 +668,11 @@
       var all = h.querySelectorAll('*');
       for (var i = 0; i < all.length; i++) {
         var el = all[i];
+        // .btn-primary keeps its own dark-on-white styling — never
+        // override its color/background here, otherwise in dark mode
+        // it shows up as a white blob with invisible white text
+        // (AIM "Open Dashboard" regression, fixed v61).
+        if (el.classList.contains('btn-primary')) continue;
         el.style.setProperty('color', '#fff', 'important');
         // Reset backgrounds for children that may have inherited a dark
         // panel bg from subdomain dark-mode rules. Keep tile-style bg
