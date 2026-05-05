@@ -17,6 +17,16 @@ PREFIX="${PREFIX:-/opt/aim}"
 SERVICE_USER="${SERVICE_USER:-jaba}"
 NGINX_HOST="${NGINX_HOST:-aim.longevity.ge}"
 PHX_PORT="${PHX_PORT:-4000}"
+SKIP_BUILD=0
+
+while [[ $# -gt 0 ]]; do
+  case "$1" in
+    --skip-build) SKIP_BUILD=1; shift ;;
+    --host)       NGINX_HOST="$2"; shift 2 ;;
+    --port)       PHX_PORT="$2"; shift 2 ;;
+    *) shift ;;
+  esac
+done
 
 log() { printf '\033[1;36m[aim-deploy]\033[0m %s\n' "$*"; }
 
@@ -28,23 +38,44 @@ fi
 [[ -d "$REPO_ROOT/AIM/rust-core" ]] || { echo "no checkout at $REPO_ROOT" >&2; exit 1; }
 
 # ── build as service user (so target/ owned correctly) ──────────────────
-log "building Rust + Phoenix as $SERVICE_USER"
-sudo -u "$SERVICE_USER" bash -c "
-  cd '$REPO_ROOT/AIM/rust-core' && cargo build --release --workspace &&
-  cd '$REPO_ROOT/AIM/phoenix-umbrella' &&
-    MIX_ENV=prod mix deps.get --only prod &&
-    MIX_ENV=prod mix compile &&
-    MIX_ENV=prod mix release --overwrite
-"
+if [[ "$SKIP_BUILD" -eq 1 ]]; then
+  log "skipping build (--skip-build); using existing target/ + _build/"
+else
+  log "building Rust + Phoenix as $SERVICE_USER"
+  sudo -u "$SERVICE_USER" -i bash -c "
+    set -e
+    [[ -f \$HOME/.asdf/asdf.sh ]] && source \$HOME/.asdf/asdf.sh
+    [[ -f \$HOME/.cargo/env    ]] && source \$HOME/.cargo/env
+    cd '$REPO_ROOT/AIM/rust-core' && cargo build --release --workspace &&
+    cd '$REPO_ROOT/AIM/phoenix-umbrella' &&
+      MIX_ENV=prod mix deps.get --only prod &&
+      MIX_ENV=prod mix compile &&
+      MIX_ENV=prod mix release --overwrite
+  "
+fi
 
 # ── stage ────────────────────────────────────────────────────────────────
 log "staging into $PREFIX"
 mkdir -p "$PREFIX"/{bin,phoenix,etc,logs}
 chown -R "$SERVICE_USER:$SERVICE_USER" "$PREFIX"
 
+# ── SECRET_KEY_BASE — required by Phoenix in :prod ──────────────────────
+USER_ENV="/home/$SERVICE_USER/.aim_env"
+if ! sudo -u "$SERVICE_USER" grep -q SECRET_KEY_BASE "$USER_ENV" 2>/dev/null; then
+  log "generating SECRET_KEY_BASE in $USER_ENV"
+  SECRET=$(openssl rand -hex 64)
+  sudo -u "$SERVICE_USER" bash -c "echo 'SECRET_KEY_BASE=$SECRET' >> '$USER_ENV' && chmod 600 '$USER_ENV'"
+fi
+
 cp -f "$REPO_ROOT/AIM/rust-core/target/release/aim-llm" "$PREFIX/bin/" 2>/dev/null || true
-PHX_REL="$(find "$REPO_ROOT/AIM/phoenix-umbrella" -maxdepth 6 -type d -name 'rel' | head -1)"
-[[ -d "$PHX_REL" ]] && cp -r "$PHX_REL/." "$PREFIX/phoenix/"
+# The umbrella build produces multiple dirs called `rel` (templates per
+# child app + the actual release under _build/prod/rel/<name>). The
+# release we want lives at _build/prod/rel/aim_web/.
+PHX_REL="$REPO_ROOT/AIM/phoenix-umbrella/_build/prod/rel/aim_web"
+if [[ -d "$PHX_REL" ]]; then
+  rm -rf "$PREFIX/phoenix"
+  cp -r "$PHX_REL" "$PREFIX/phoenix"
+fi
 chown -R "$SERVICE_USER:$SERVICE_USER" "$PREFIX"
 
 # ── system-wide systemd units ────────────────────────────────────────────
@@ -87,7 +118,8 @@ WorkingDirectory=$PREFIX/phoenix
 EnvironmentFile=-/home/$SERVICE_USER/.aim_env
 Environment=MIX_ENV=prod
 Environment=PHX_SERVER=true
-Environment=PORT=$PHX_PORT
+Environment=AIM_WEB_PORT=$PHX_PORT
+Environment=AIM_GATEWAY_PORT=$((PHX_PORT + 2))
 ExecStart=$PREFIX/phoenix/bin/aim_web start
 Restart=on-failure
 RestartSec=5
