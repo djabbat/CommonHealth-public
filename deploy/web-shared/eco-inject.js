@@ -266,12 +266,15 @@
      * Re-assert all hero rules with the same indigo gradient + white
      * text. .hero-stats tiles keep their semi-transparent white look.
      */
-    "html[data-theme=\"dark\"] .hero{background:linear-gradient(135deg,#1e1b4b 0%,#312e81 35%,#4338ca 75%,#6366f1 100%) !important;color:#fff !important}",
-    /* Force every descendant of .hero to white in dark mode — this
-     * defeats the broad `html[data-theme=\"dark\"] section{color:#d8dce4}`
-     * cascade and any inline styles set by subdomain pages. */
-    "html[data-theme=\"dark\"] .hero,html[data-theme=\"dark\"] .hero *{color:#fff !important}",
-    "html[data-theme=\"dark\"] .hero h1,html[data-theme=\"dark\"] .hero h2,html[data-theme=\"dark\"] .hero h3,html[data-theme=\"dark\"] .hero h4,html[data-theme=\"dark\"] .hero .hero-title,html[data-theme=\"dark\"] .hero strong,html[data-theme=\"dark\"] .hero em,html[data-theme=\"dark\"] .hero a{color:#fff !important;background:transparent !important}",
+    /* HERO must stay indigo + white in BOTH themes. Highest specificity
+     * via html.html attribute trick + tag selector chain. !important on
+     * everything so subdomain CSS or our broad dark fallback can't win. */
+    "html .hero,html body .hero{background:linear-gradient(135deg,#1e1b4b 0%,#312e81 35%,#4338ca 75%,#6366f1 100%) !important;color:#fff !important;padding:4rem 2.5rem !important;position:relative !important;overflow:hidden !important}",
+    "html .hero::before,html body .hero::before{content:'' !important;position:absolute !important;top:0 !important;right:0 !important;width:60% !important;height:100% !important;background:radial-gradient(circle at top right,rgba(167,139,250,0.25),transparent 60%) !important;pointer-events:none !important}",
+    "html .hero,html .hero *,html body .hero,html body .hero *{color:#fff !important}",
+    "html .hero h1,html .hero h2,html .hero h3,html .hero h4,html .hero .hero-title,html .hero strong,html .hero em,html .hero a,html body .hero h1{color:#fff !important;background:transparent !important}",
+    "html .hero-pill{background:rgba(255,255,255,0.08) !important;border:1px solid rgba(255,255,255,0.18) !important;color:#fff !important}",
+    "html .hero-stats .s,html .hero-stats .s .k,html .hero-stats .s .v{color:#fff !important;background:rgba(255,255,255,0.07) !important;border-color:rgba(255,255,255,0.10) !important}",
     "html[data-theme=\"dark\"] .hero-pill{background:rgba(255,255,255,0.08) !important;border:1px solid rgba(255,255,255,0.18) !important;color:#fff !important}",
     "html[data-theme=\"dark\"] .hero-stats .s{background:rgba(255,255,255,0.07) !important;border:1px solid rgba(255,255,255,0.10) !important;color:#fff !important}",
     "html[data-theme=\"dark\"] .hero-stats .s .k,html[data-theme=\"dark\"] .hero-stats .s .v{color:#fff !important;background:transparent !important}",
@@ -281,7 +284,22 @@
     /* ── Donate banner (green hero on home) — same treatment ─────── */
     "html[data-theme=\"dark\"] .donate{background:linear-gradient(135deg,#064e3b 0%,#047857 50%,#10b981 100%) !important;color:#fff !important}",
     "html[data-theme=\"dark\"] .donate h2,html[data-theme=\"dark\"] .donate p,html[data-theme=\"dark\"] .donate div,html[data-theme=\"dark\"] .donate .donate-lead,html[data-theme=\"dark\"] .donate-options .opt,html[data-theme=\"dark\"] .donate-options .opt .k,html[data-theme=\"dark\"] .donate-options .opt .v{color:#fff !important;background:transparent !important;border-color:rgba(255,255,255,0.18) !important}",
-    "html[data-theme=\"dark\"] .donate-options .opt{background:rgba(255,255,255,0.10) !important;border:1px solid rgba(255,255,255,0.18) !important}"
+    "html[data-theme=\"dark\"] .donate-options .opt{background:rgba(255,255,255,0.10) !important;border:1px solid rgba(255,255,255,0.18) !important}",
+
+    /* ── Subdomain hero (auto-injected by eco-inject.js) ───────────
+     * Same indigo banner the home page uses, applied at the top of
+     * every page of every subdomain (except aim/home/annals where
+     * the page already has its own). Stays indigo in both themes.
+     */
+    ".lc-sub-hero{background:linear-gradient(135deg,#1e1b4b 0%,#312e81 35%,#4338ca 75%,#6366f1 100%) !important;color:#fff !important;padding:3.5rem 2rem !important;position:relative !important;overflow:hidden !important;font-family:Inter,-apple-system,system-ui,sans-serif !important}",
+    ".lc-sub-hero::before{content:'' !important;position:absolute !important;top:0 !important;right:0 !important;width:60% !important;height:100% !important;background:radial-gradient(circle at top right,rgba(167,139,250,0.25),transparent 60%) !important;pointer-events:none !important}",
+    ".lc-sub-hero-inner{max-width:1100px !important;margin:0 auto !important;padding:0 !important;position:relative !important}",
+    ".lc-sub-hero h1{color:#fff !important;font-size:clamp(2rem,4vw,3rem) !important;font-weight:800 !important;letter-spacing:-0.025em !important;line-height:1.1 !important;margin:0 0 0.6rem 0 !important}",
+    ".lc-sub-hero p{color:#fff !important;opacity:0.92 !important;font-size:clamp(0.95rem,1.3vw,1.0625rem) !important;line-height:1.5 !important;max-width:48rem !important;margin:0 !important}",
+    ".lc-sub-hero .pill{display:inline-flex !important;align-items:center !important;gap:0.5rem !important;background:rgba(255,255,255,0.08) !important;border:1px solid rgba(255,255,255,0.18) !important;padding:0.4rem 0.95rem !important;border-radius:999px !important;font-size:0.7rem !important;font-weight:600 !important;letter-spacing:0.08em !important;text-transform:uppercase !important;margin-bottom:1rem !important;color:#fff !important}",
+    ".lc-sub-hero .pill::before{content:'' !important;width:6px !important;height:6px !important;border-radius:50% !important;background:#34d399 !important;box-shadow:0 0 8px #34d399 !important}",
+    "html[data-theme=\"dark\"] .lc-sub-hero{background:linear-gradient(135deg,#1e1b4b 0%,#312e81 35%,#4338ca 75%,#6366f1 100%) !important;color:#fff !important}",
+    "html[data-theme=\"dark\"] .lc-sub-hero,html[data-theme=\"dark\"] .lc-sub-hero *{color:#fff !important}"
   ].join("\n");
 
   // Inject Inter + JetBrains Mono fonts (idempotent — skip if already present)
@@ -400,18 +418,80 @@
     */
   }
 
+  // Per-subdomain hero content. Skip home (has native hero), aim
+  // (has native Phoenix hero), and any host that already has a .hero
+  // or .lc-sub-hero in the DOM.
+  var SUB_HERO = {
+    "ze.longevity.ge": {
+      pill: "Ze Theory",
+      title: "Entropic-geometric theory of aging",
+      desc: "Single biomarker χ_Ze unifying impedance ODE, CHSH deformation and cheating-autowave dynamics. Live simulator + benchmark suite."
+    },
+    "biosense.longevity.ge": {
+      pill: "BioSense",
+      title: "Wearable biomarker fusion",
+      desc: "EEG + HRV + olfaction layer feeding the Ze biomarker. Open-hardware sensor stack with EU-MDR-class privacy."
+    },
+    "fclc.longevity.ge": {
+      pill: "FCLC",
+      title: "Federated continual learning for clinics",
+      desc: "Privacy-preserving federation over 2 hospital sites. PATE-bounded ε≈0.63 path for cross-cohort training without leaving the node."
+    },
+    "mcoa.longevity.ge": {
+      pill: "MCOA",
+      title: "Multi-counter architecture of organismal aging",
+      desc: "Meta-theoretical framework integrating five counters into a single L_tissue function. Mathematical foundation of the LongevityCommon ecosystem."
+    },
+    "cdata.longevity.ge": {
+      pill: "CDATA",
+      title: "Centriolar damage as the canonical aging counter",
+      desc: "Mitotic centriole age-tagging hypothesis · MCAI-1 ablation paradigm · independently testable via Kaede photoconversion in HSCs."
+    },
+    "hive.longevity.ge": {
+      pill: "Hive",
+      title: "Federated collective intelligence for AIM agents",
+      desc: "Each AIM node ships anonymised wisdom to the Queen. The hive aggregates patterns and beams back validated improvements without ever seeing raw patient data."
+    }
+  };
+
+  function injectSubHero(){
+    var spec = SUB_HERO[host];
+    if (!spec) return;
+    // Skip if the page already has its own hero / branded banner.
+    if (document.querySelector(".hero") || document.querySelector(".lc-sub-hero")) return;
+    var sec = document.createElement("section");
+    sec.className = "lc-sub-hero";
+    sec.innerHTML =
+      '<div class="lc-sub-hero-inner">' +
+        '<div class="pill">' + spec.pill + '</div>' +
+        '<h1>' + spec.title + '</h1>' +
+        '<p>' + spec.desc + '</p>' +
+      '</div>';
+    // Insert directly after the eco-bar (which is body's first child).
+    var bar = document.querySelector(".eco-bar-injected");
+    if (bar && bar.nextSibling) {
+      document.body.insertBefore(sec, bar.nextSibling);
+    } else if (bar) {
+      document.body.appendChild(sec);
+    } else {
+      document.body.insertBefore(sec, document.body.firstChild);
+    }
+  }
+
   function init(){
     document.head.appendChild(style);
     ensureFavicon();
     // Idempotent: a Phoenix template (e.g. AIM) may already have rendered
     // <div class="eco-bar-injected"> server-side. Don't add a second one.
     if (document.querySelector(".eco-bar-injected")) {
+      injectSubHero();
       injectEssence();
       return;
     }
     var div = document.createElement("div");
     div.innerHTML = html;
     document.body.insertBefore(div.firstChild, document.body.firstChild);
+    injectSubHero();
     injectEssence();
     var btn = document.querySelector(".theme-toggle-i");
     function syncIcon(){
