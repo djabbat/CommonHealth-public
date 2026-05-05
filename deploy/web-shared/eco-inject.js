@@ -304,8 +304,11 @@
      */
     /* HERO must stay indigo + white in BOTH themes. Highest specificity
      * via html.html attribute trick + tag selector chain. !important on
-     * everything so subdomain CSS or our broad dark fallback can't win. */
-    "html .hero,html body .hero,html[data-theme=\"dark\"] .hero,html[data-theme=\"dark\"] body .hero,html[data-theme=\"dark\"] body section.hero,html .page-hero,html body .page-hero,html[data-theme=\"dark\"] .page-hero,html[data-theme=\"dark\"] body .page-hero{background:linear-gradient(135deg,#1e1b4b 0%,#312e81 35%,#4338ca 75%,#6366f1 100%) !important;color:#fff !important;padding:3rem 2rem !important;position:relative !important;overflow:hidden !important}",
+     * everything so subdomain CSS or our broad dark fallback can't win.
+     * FCLC's Tailwind <section class="bg-gradient-to-b from-gray-50
+     * to-white"> is also caught via attribute substring selector. */
+    "html .hero,html body .hero,html[data-theme=\"dark\"] .hero,html[data-theme=\"dark\"] body .hero,html[data-theme=\"dark\"] body section.hero,html .page-hero,html body .page-hero,html[data-theme=\"dark\"] .page-hero,html[data-theme=\"dark\"] body .page-hero,html section[class*=\"bg-gradient-to-b\"][class*=\"to-white\"],html[data-theme=\"dark\"] section[class*=\"bg-gradient-to-b\"][class*=\"to-white\"],html[data-theme=\"dark\"] body section[class*=\"bg-gradient-to-b\"][class*=\"to-white\"]{background:linear-gradient(135deg,#1e1b4b 0%,#312e81 35%,#4338ca 75%,#6366f1 100%) !important;color:#fff !important;padding:3rem 2rem !important;position:relative !important;overflow:hidden !important}",
+    "html section[class*=\"bg-gradient-to-b\"][class*=\"to-white\"] *,html[data-theme=\"dark\"] section[class*=\"bg-gradient-to-b\"][class*=\"to-white\"] *{color:#fff !important}",
     "html .page-hero h1,html .page-hero p,html .page-hero a,html .page-hero .breadcrumb,html .page-hero .breadcrumb a,html[data-theme=\"dark\"] .page-hero,html[data-theme=\"dark\"] .page-hero *{color:#fff !important;background:transparent !important}",
     "html .page-hero a{opacity:0.9 !important}",
     "html .page-hero-inner{max-width:1100px !important;margin:0 auto !important;position:relative !important}",
@@ -595,6 +598,18 @@
     // /grants/, AIM, future); skip Hive because we already display:none
     // its native hero.
     if (host === "hive.longevity.ge") return;
+    // FCLC ships its hero as <section class="bg-gradient-to-b
+    // from-gray-50 to-white"> — Tailwind utility classes, no .hero.
+    // Tag it as .hero so the rest of the function (and our CSS rules)
+    // catches it.
+    if (host === "fclc.longevity.ge") {
+      var fclcHero = document.querySelector(
+        'section[class*="bg-gradient-to-b"][class*="to-white"], section[class*="bg-gradient"][class*="from-gray"]'
+      );
+      if (fclcHero && !fclcHero.classList.contains("hero")) {
+        fclcHero.classList.add("hero");
+      }
+    }
     var heroes = document.querySelectorAll('.hero, .page-hero');
     var grad = 'linear-gradient(135deg,#1e1b4b 0%,#312e81 35%,#4338ca 75%,#6366f1 100%)';
     heroes.forEach(function(h){
