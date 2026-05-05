@@ -6,21 +6,28 @@ defmodule AimWeb.Plugs.SecurityHeaders do
   """
   import Plug.Conn
 
-  @csp_dev "default-src 'self'; " <>
-           "script-src 'self' 'unsafe-inline' 'unsafe-eval'; " <>
-           "style-src 'self' 'unsafe-inline'; " <>
-           "img-src 'self' data: blob:; " <>
-           "font-src 'self' data:; " <>
-           "connect-src 'self' ws: wss:; " <>
+  # eco-inject.js is served from the parent domain longevity.ge and
+  # provides the cross-subdomain nav + theme + lang switcher. It must
+  # be allow-listed in script-src; its embedded styles in <style> use
+  # 'unsafe-inline' which is already on. It also loads Google Fonts.
+  @longevity_origin "https://longevity.ge"
+  @gfonts "https://fonts.googleapis.com https://fonts.gstatic.com"
+
+  @csp_dev "default-src 'self' #{@longevity_origin}; " <>
+           "script-src 'self' 'unsafe-inline' 'unsafe-eval' #{@longevity_origin}; " <>
+           "style-src 'self' 'unsafe-inline' #{@gfonts}; " <>
+           "img-src 'self' data: blob: #{@longevity_origin}; " <>
+           "font-src 'self' data: #{@gfonts}; " <>
+           "connect-src 'self' ws: wss: #{@longevity_origin}; " <>
            "object-src 'none'; " <>
            "base-uri 'self'"
 
-  @csp_prod "default-src 'self'; " <>
-            "script-src 'self'; " <>
-            "style-src 'self' 'unsafe-inline'; " <>
-            "img-src 'self' data:; " <>
-            "font-src 'self'; " <>
-            "connect-src 'self' wss:; " <>
+  @csp_prod "default-src 'self' #{@longevity_origin}; " <>
+            "script-src 'self' #{@longevity_origin}; " <>
+            "style-src 'self' 'unsafe-inline' #{@gfonts}; " <>
+            "img-src 'self' data: #{@longevity_origin}; " <>
+            "font-src 'self' #{@gfonts}; " <>
+            "connect-src 'self' wss: #{@longevity_origin}; " <>
             "object-src 'none'; " <>
             "base-uri 'self'; " <>
             "frame-ancestors 'none'"
