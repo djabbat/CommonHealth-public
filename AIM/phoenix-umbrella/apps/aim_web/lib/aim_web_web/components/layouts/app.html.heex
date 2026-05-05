@@ -1,0 +1,20 @@
+<main>
+  <header>
+    <nav>
+      <a href="/"><%= t("nav.home", @locale) %></a>
+      <a href="/chat"><%= t("nav.chat", @locale) %></a>
+      <a href="/intake"><%= t("nav.intake", @locale) %></a>
+      <a href="/cases"><%= t("nav.cases", @locale) %></a>
+      <a href="/consult"><%= t("nav.consult", @locale) %></a>
+    </nav>
+    <form method="get" class="lang-switcher">
+      <label><%= t("lang.label", @locale) %>:</label>
+      <select name="locale" onchange="this.form.submit()">
+        <%= for loc <- AimWeb.I18n.locales() do %>
+          <option value={loc} selected={loc == @locale}><%= AimWeb.I18n.name(loc) %></option>
+        <% end %>
+      </select>
+    </form>
+  </header>
+  <%= @inner_content %>
+</main>

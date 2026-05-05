@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>LongevityCommon · An integrative ecosystem for biomarker-guided aging research</title>
+<meta name="description" content="LongevityCommon: hypothesis-stage research framework for biomarker-guided interventions in aging as Total Chronic Disease. Five interconnected sub-projects: MCOA, CDATA, Ze Theory, BioSense, FCLC.">
+<style>
+  body { margin: 0; font-family: -apple-system, system-ui, "Segoe UI", Roboto, sans-serif; background: #fafafa; color: #18181b; line-height: 1.55; }
+  .eco-bar { position: sticky; top: 0; z-index: 100; background: #18181b; color: white; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+  .eco-inner { max-width: 1100px; margin: 0 auto; padding: 8px 24px; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+  .eco-brand { font-weight: 700; font-size: 14px; letter-spacing: 0.02em; color: white; }
+  .eco-nav { display: flex; gap: 4px; }
+  .eco-nav a { color: #a1a1aa; padding: 4px 10px; border-radius: 4px; font-size: 13px; text-decoration: none; transition: background 0.15s, color 0.15s; }
+  .eco-nav a:hover { background: #27272a; color: white; }
+  .eco-nav a.active { background: #4f46e5; color: white; }
+  .container { max-width: 1100px; margin: 0 auto; padding: 32px 24px; }
+  h1 { font-size: 32px; margin: 0 0 12px 0; letter-spacing: -0.02em; }
+  h2 { font-size: 22px; margin: 32px 0 12px 0; letter-spacing: -0.01em; }
+  h3 { font-size: 18px; margin: 18px 0 8px 0; }
+  .lead { color: #3f3f46; font-size: 17px; margin-bottom: 12px; max-width: 760px; }
+  .badge { display: inline-block; font-size: 11px; padding: 3px 10px; background: #fef3c7; color: #92400e; border-radius: 999px; margin-right: 4px; vertical-align: middle; }
+  .badge.green { background: #dcfce7; color: #166534; }
+  .badge.blue { background: #dbeafe; color: #1e40af; }
+  .badge.red { background: #fee2e2; color: #b91c1c; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 16px; margin-top: 16px; }
+  .card { background: white; border: 1px solid #e4e4e7; border-radius: 12px; padding: 22px; transition: transform 0.15s, box-shadow 0.15s, border-color 0.15s; }
+  .card.link:hover { transform: translateY(-2px); box-shadow: 0 6px 16px rgba(0,0,0,0.06); border-color: #c4b5fd; }
+  .card h3 { margin: 0 0 6px 0; font-size: 18px; }
+  .card .role { font-size: 12px; color: #71717a; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 10px; }
+  .card p { font-size: 14px; color: #3f3f46; margin: 8px 0; }
+  .card a.go { display: inline-block; margin-top: 10px; color: #4f46e5; text-decoration: none; font-weight: 600; font-size: 14px; }
+  .card a.go:hover { text-decoration: underline; }
+  .formula { font-family: ui-monospace, SFMono-Regular, monospace; font-size: 13px; background: #f4f4f5; color: #27272a; padding: 2px 6px; border-radius: 4px; }
+  .footer { color: #71717a; font-size: 12px; text-align: center; padding: 32px 24px; border-top: 1px solid #e4e4e7; margin-top: 48px; line-height: 1.7; }
+  a { color: #4f46e5; }
+  .disclosure { background: #fef3c7; border: 1px solid #f59e0b; color: #78350f; padding: 14px 16px; border-radius: 10px; margin: 24px 0; font-size: 14px; }
+  .disclosure strong { color: #78350f; }
+  .toc { background: #f4f4f5; border-radius: 10px; padding: 14px 18px; margin: 16px 0 24px 0; font-size: 14px; }
+  .toc strong { color: #18181b; }
+  .toc a { margin-right: 12px; }
+  .row-stat { display: flex; gap: 32px; flex-wrap: wrap; margin: 16px 0; }
+  .row-stat .stat .k { font-size: 11px; color: #71717a; text-transform: uppercase; letter-spacing: 0.06em; }
+  .row-stat .stat .v { font-size: 22px; font-weight: 700; color: #18181b; font-family: ui-monospace, monospace; }
+  .meta-row { display: grid; grid-template-columns: max-content 1fr; gap: 6px 14px; margin: 14px 0 16px; padding: 12px 14px; background: #fafafa; border-left: 3px solid #4f46e5; border-radius: 0 4px 4px 0; font-size: 13px; }
+  .meta-row dt { font-weight: 600; color: #52525b; text-transform: uppercase; letter-spacing: 0.04em; font-size: 11px; align-self: center; }
+  .meta-row dd { margin: 0; color: #18181b; }
+  .meta-row dd code { background: #ececec; padding: 1px 6px; border-radius: 3px; font-size: 12px; }
+</style>
+</head>
+<body>
+
+<div class="eco-bar">
+  <div class="eco-inner">
+    <span class="eco-brand">LongevityCommon</span>
+    <nav class="eco-nav">
+      <a href="https://longevity.ge" class="active">Home</a>
+      <a href="https://mcoa.longevity.ge">MCOA</a>
+      <a href="https://cdata.longevity.ge">CDATA</a>
+      <a href="https://ze.longevity.ge">Ze</a>
+      <a href="https://biosense.longevity.ge">BioSense</a>
+      <a href="https://fclc.longevity.ge">FCLC</a>
+      <a href="https://hive.longevity.ge">Hive</a>
+      <a href="https://longevity.ge/rescience/">Annals</a>
+      <a href="https://github.com/djabbat/LongevityCommon" rel="noopener">Source</a>
+    </nav>
+  </div>
+</div>
+
+<div class="container">
+
+  <h1>LongevityCommon</h1>
+  <div class="lead">An integrative ecosystem for biomarker-guided interventions in aging as Total Chronic Disease (ICD-11 XT9T 2018, MG2A 2025). Five interconnected scientific sub-projects unified by a single biomarker χ_Ze and federated learning infrastructure.</div>
+
+  <div class="row-stat">
+    <div class="stat"><div class="k">Sub-projects (core)</div><div class="v">6</div></div>
+    <div class="stat"><div class="k">CONCEPT version</div><div class="v">v5.6</div></div>
+    <div class="stat"><div class="k">Live services</div><div class="v">5</div></div>
+    <div class="stat"><div class="k">Verified PMID/DOI</div><div class="v">30+</div></div>
+  </div>
+
+  <div class="toc">
+    <strong>Quick navigation:</strong>
+    <a href="#mcoa">MCOA</a>
+    <a href="#cdata">CDATA</a>
+    <a href="#ze">Ze Theory</a>
+    <a href="#biosense">BioSense</a>
+    <a href="#fclc">FCLC</a>
+    <a href="#hive">Hive</a>
+    <a href="#aqtivirebuli">Aqtivirebuli</a>
+    <a href="#annals">Annals</a>
+  </div>
+
+  <h2>Sub-projects of the LongevityCommon ecosystem</h2>
+  <p style="color: #52525b;">Each is autonomous (own CONCEPT.md, own simulator/backend where applicable) but shares cross-cutting status and authority order with this umbrella.</p>
+
+  <div class="grid">
+
+    <div class="card" id="mcoa">
+      <div class="role">Theoretical · meta-framework</div>
+      <h3>MCOA — Multi-Counter Architecture of Organismal Aging</h3>
+      <span class="badge blue">submitted Nature Aging</span> <span class="badge">NOT peer-reviewed</span>
+      <dl class="meta-row">
+        <dt>Live at</dt><dd><a href="https://mcoa.longevity.ge">mcoa.longevity.ge</a> · static landing with the full theory, axioms, and falsification protocol</dd>
+        <dt>For</dt><dd>biogerontologists evaluating multi-counter aging models; reviewers of NATAGING-P13741</dd>
+        <dt>Status</dt><dd>Theory complete · awaiting Nature Aging decision · counter-weight calibration pending FCLC v14</dd>
+        <dt>Stack</dt><dd>Rust simulator (<code>MCOA/crates</code>), Python tooling, OMOP-compatible cohort schemas</dd>
+      </dl>
+      <p>Aging formalised as <span class="formula">L_tissue = Σᵢ wᵢ(tissue) · fᵢ(Dᵢ(n,t))</span> — weighted sum of parallel damage-accumulation counters. Each counter has division-linked (αᵢ) and time-linked (βᵢ) kinetics. Tissue weights wᵢ fixed <em>a priori</em> from independent cell-biological knowledge (preserves falsifiability).</p>
+      <p><strong>Axiom M4 (operational falsifiability):</strong> MCOA is falsified if on a pre-registered cohort N ≥ 2000 at α = 0.001, partial r² for all-cause mortality (after age + sex) falls below 0.05 for every counter.</p>
+      <p>Manuscript ID: NATAGING-P13741 (under review).</p>
+    </div>
+
+    <div class="card" id="cdata">
+      <div class="role">Molecular-cellular · counter candidate</div>
+      <h3>CDATA — Centriolar Damage Accumulation Theory of Aging</h3>
+      <span class="badge red">status: INCONCLUSIVE</span>
+      <dl class="meta-row">
+        <dt>Live at</dt><dd><a href="https://cdata.longevity.ge">cdata.longevity.ge</a> · landing with hypothesis, evidence dossier, and Sobol-paradox notebook links</dd>
+        <dt>For</dt><dd>cell biologists working on centriole inheritance, asymmetric stem cell division, polyglutamylation</dd>
+        <dt>Status</dt><dd>Open hypothesis · Cell-DT v3.x sensitivity analysis inconclusive · awaiting GTEx N=948 decomposition (Cell-DT v4.0)</dd>
+        <dt>Stack</dt><dd>Rust simulator (Cell-DT), Python notebooks, GTEx tissue atlas</dd>
+      </dl>
+      <p>Hypothesis: progressive polyglutamylation of mother centriole in stem cells drives cellular aging. Tkemaladze 2023 <a href="https://pubmed.ncbi.nlm.nih.gov/36583780">PMID 36583780</a>.</p>
+      <p>Sobol global sensitivity analysis on synthetic data showed an apparent paradox (R²<sub>no_α</sub>=0.833 > full R²=0.778), but the difference is <strong>NOT statistically significant after nested cross-validation</strong> (p=0.12 after correction). Full S1+S2+ST decomposition on real GTEx N=948 deferred to <em>Cell-DT v4.0</em>.</p>
+      <p>CDATA remains an <em>open, falsifiable hypothesis</em>; provisional Counter #1 candidate, not a confirmed counter.</p>
+    </div>
+
+    <div class="card link" id="ze" onclick="location='https://ze.longevity.ge'">
+      <div class="role">Mathematical · ansatz</div>
+      <h3>Ze Theory</h3>
+      <span class="badge">internal manuscript, NOT peer-reviewed</span>
+      <dl class="meta-row">
+        <dt>Live at</dt><dd><a href="https://ze.longevity.ge">ze.longevity.ge</a> · interactive Phoenix simulator: drag k_λ, observe χ_Ze fixed point convergence in real time</dd>
+        <dt>For</dt><dd>theorists testing the entropic-geometric ansatz; physicists checking the CHSH deformation derivation</dd>
+        <dt>Status</dt><dd>Simulator working · v* = 0.45631 derived analytically · independent biological validation via BioSense pending</dd>
+        <dt>Stack</dt><dd>Elixir/Phoenix LiveView, Rust impedance-ODE solver, JS chart layer</dd>
+      </dl>
+      <p>Entropy-geometric formalism. Central law <span class="formula">dτ_Ze/dt = −α·I(Z)</span> where I(Z) is the Kullback–Leibler divergence between actual and modelled state. <strong>Postulated ansatz</strong> for biological systems (motivated by Burgholzer 2015 + Pearson 2021 — those concern PHYSICAL clocks; biological extension hypothesis-stage).</p>
+      <p>From the ansatz the simulator <em>derives mathematically</em>: a quadratic CHSH deformation <span class="formula">E_Ze = −a·b + δ·[(a·b)² − 1/3]</span>, the LGI-QFI bound from Abboud 2026, and the χ_Ze fixed point <span class="formula">v* = 0.45631</span> at k_λ = 1.</p>
+      <a class="go" href="https://ze.longevity.ge">Open interactive Ze simulator →</a>
+    </div>
+
+    <div class="card link" id="biosense" onclick="location='https://biosense.longevity.ge'">
+      <div class="role">Applied · centerpiece</div>
+      <h3>BioSense</h3>
+      <span class="badge green">v* empirically verified (consistent)</span>
+      <dl class="meta-row">
+        <dt>Live at</dt><dd><a href="https://biosense.longevity.ge">biosense.longevity.ge</a> · Phoenix dashboard: upload sample EEG/HRV, see χ_Ze trajectory, compare to v* fixed point</dd>
+        <dt>For</dt><dd>wearable-device researchers, sleep scientists, exacerbation-prediction clinicians, AoU/UK Biobank reusers</dd>
+        <dt>Status</dt><dd>v* = 0.45631 confirmed on All-of-Us N=500 (95% CI 0.443–0.459) · pre-registered N≥2000 confirmatory trial pending EIC funding</dd>
+        <dt>Stack</dt><dd>Elixir/Phoenix Channels (real-time EEG stream), Python/NumPy χ_Ze estimator, mobile-friendly WebUI</dd>
+      </dl>
+      <p>Wearable platform measuring <strong>χ_Ze biomarker</strong> from EEG + HRV + respiration + sleep. Variational principle <span class="formula">F = E − T·S − λ·I_pred</span>; theoretical fixed point v* = 0.45631 (sensitivity range [0.32, 0.58] for k_λ ∈ [0.5, 2.0]).</p>
+      <p>Empirically tested via swept-v* search on All-of-Us N=500: <span class="formula">v*_optimal = 0.451 (95% CI 0.443–0.459)</span> — consistent with theory.</p>
+      <p><strong>Honest disclosure:</strong> multimodal weights (0.30, 0.30, 0.20, 0.20) are <em>post-hoc</em> pilot fits, not theory-fixed. Confirmatory validation requires pre-registered cohort N ≥ 2000.</p>
+      <a class="go" href="https://biosense.longevity.ge">Open interactive BioSense simulator →</a>
+    </div>
+
+    <div class="card link" id="fclc" onclick="location='https://fclc.longevity.ge'">
+      <div class="role">Infrastructure · privacy</div>
+      <h3>FCLC — Federated Clinical Learning Cooperative</h3>
+      <span class="badge green">v13.4 PASS milestone</span> <span class="badge red">semi-honest only</span>
+      <dl class="meta-row">
+        <dt>Live at</dt><dd><a href="https://fclc.longevity.ge">fclc.longevity.ge</a> · admin dashboard: federation rounds, ε spent, Krum-rejected updates, contribution leaderboard</dd>
+        <dt>For</dt><dd>hospital IT, GDPR officers, clinical AI engineers wanting to participate in MCOA counter-weight calibration without sharing PHI</dd>
+        <dt>Status</dt><dd>v13.4 secure aggregation passing all unit tests · awaiting EU-MS partner clinic to start Round 1 · Active-adversary v14 planned Q1 2027</dd>
+        <dt>Stack</dt><dd>Rust core (SecAgg+, RDP-DP, Krum, Shapley), Axum REST orchestrator, Phoenix admin dashboard, FHIR/OMOP adapters</dd>
+      </dl>
+      <p>Privacy-preserving federated learning for cross-clinic χ_Ze model training without raw patient data transfer. Stack: differential privacy (Mironov 2017 RDP composition, ε ≤ 1.0/round, ε_total ≈ 0.43 at σ=1.5, q=0.013, T=5), k-anonymity (k ≥ 7), Krum Byzantine-robust aggregation (≤ 25% malicious clients), secure aggregation (Bonawitz 2017).</p>
+      <p><strong>Threat model (explicit):</strong> secure ONLY against semi-honest server + Byzantine clients. NOT secure against active server collusion or malicious server. <strong>GDPR Article 9 blocker</strong> until FCLC v14 (active-adversary migration, planned Q1 2027).</p>
+      <a class="go" href="https://fclc.longevity.ge">Open FCLC dashboard →</a>
+    </div>
+
+    <div class="card link" id="hive" onclick="location='https://hive.longevity.ge'">
+      <div class="role">Infrastructure · agent intelligence</div>
+      <h3>Hive — federated AIM agent network</h3>
+      <span class="badge blue">v1 production</span> <span class="badge green">queen up</span>
+      <dl class="meta-row">
+        <dt>Live at</dt><dd><a href="https://hive.longevity.ge">hive.longevity.ge</a> · queen landing with OS-detected install for Linux/macOS/Windows, privacy contract, healthz</dd>
+        <dt>For</dt><dd>AIM users running local nodes who want their workers to share anonymized eval/skill signal and pull cross-worker improvements</dd>
+        <dt>Status</dt><dd>Queen live (FastAPI + SQLite) · workers (bees) opt in via <code>AIM_HIVE_QUEEN_URL</code> · DP-budget + Shapley scoring planned (see <code>AIM/AI/FCLC_BORROW.md</code>)</dd>
+        <dt>Stack</dt><dd>Python AIM core, FastAPI/uvicorn, SQLite WAL, systemd-hardened service, Cloudflare proxied</dd>
+      </dl>
+      <p>Federated collective intelligence for AIM agents, conceptually patterned on FCLC. Workers (bees) accumulate diagnostic runs, reflexion themes, skill usage, eval results locally. Periodically a worker packages an <strong>anonymized signal</strong> — L_PRIVACY filter strips PII (email/phone/path/name/PMID/DOI) — and posts to <code>/v1/hive/contribute</code>. The queen detects cross-worker patterns (compliance drift, theme convergence) and publishes <em>eval-gated</em> skill updates back to <code>/v1/hive/updates</code>. Each worker re-runs three local gates before installing: L_CONSENT (opt-out), signature integrity, L_VERIFIABILITY (re-eval).</p>
+      <p><strong>Each bee is fully functional offline</strong> — Hive participation is opt-in and never required for AIM to work.</p>
+      <a class="go" href="https://hive.longevity.ge">Open AIM Hive →</a>
+    </div>
+
+    <div class="card" id="aqtivirebuli">
+      <div class="role">Clinical · supporting</div>
+      <h3>Aqtivirebuli</h3>
+      <span class="badge">clinical pilot</span>
+      <p>Anemia-management clinical pilot in Tbilisi via partner Shashviashvili. Provides real-patient cohort for χ_Ze validation under EIC Pathfinder Challenges 2026 WP5 (planned).</p>
+    </div>
+
+  </div>
+
+  <h2 id="annals">Dissemination channel</h2>
+  <div class="grid">
+    <div class="card link" onclick="location='https://longevity.ge/rescience/'">
+      <div class="role">Diamond OA journal</div>
+      <h3>Annals of Rejuvenation Science</h3>
+      <p>e-ISSN 3088-439X · OJS · published by Georgia Longevity Alliance · DOAJ submission planned January 2027 (12-mo wait period from first issue).</p>
+      <a class="go" href="https://longevity.ge/rescience/">Open journal →</a>
+    </div>
+  </div>
+
+  <h2>Authority order on conflict</h2>
+  <ol style="font-size: 14px; color: #3f3f46;">
+    <li><strong>LongevityCommon CONCEPT.md (this site)</strong> — cross-cutting status, falsifiability, threat model.</li>
+    <li>Sub-project CONCEPT.md — internal mathematics.</li>
+    <li>Sub-project THEORY.md — formal derivations.</li>
+    <li>Article (~/Desktop/LongevityCommon.md) — full narrative.</li>
+    <li>Code — follows the CONCEPT of its level.</li>
+  </ol>
+
+  <h2>EIC Pathfinder Challenges 2026 — current grant target</h2>
+  <p>This ecosystem is being assembled as a candidate for <strong>EIC Pathfinder Challenges 2026 — Biotechnology for Healthy Ageing (Area #2: biomarker-based tool for responsible deployment of aging interventions)</strong>. Deadline 2026-10-28 17:00 CEST. Up to €4M per project. Consortium minimum: ≥1 EU Member State + ≥2 in different MS/AC. Georgia is an Associated Country to Horizon Europe since 2021.</p>
+
+  <p style="font-size: 14px; color: #71717a;">
+    Confirmed partners: Hartmut Geiger (Ulm, Germany) — Letter of Support 2026-04-23 with €100K Phase B commitment.<br>
+    In progress: UPF Barcelona coordinator role (Joao Gonzalez Ballester); Curie Paris (Carsten Janke).
+  </p>
+
+</div>
+
+<div class="footer">
+  © 2026 Tkemaladze J. · Georgia Longevity Alliance (NGO #404506520, AKTIVNA) · ORCID 0000-0001-8651-7243 · jaba@longevity.ge<br>
+  151 publications (~10 PubMed-indexed) · CONCEPT v5.6 (2026-04-28) ·
+  <a href="https://github.com/djabbat/LongevityCommon" rel="noopener">github.com/djabbat/LongevityCommon</a>
+</div>
+
+<a href="https://hive.longevity.ge" target="_blank" rel="noopener" title="AIM Hive" style="position:fixed;bottom:14px;right:14px;padding:10px 16px;background:#c97f00;color:#fff;border-radius:24px;text-decoration:none;font-weight:600;box-shadow:0 4px 12px rgba(0,0,0,.15);z-index:9999;font-family:-apple-system,sans-serif;font-size:14px;">🐝 Hive</a>
+</body>
+</html>

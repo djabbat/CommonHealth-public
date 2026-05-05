@@ -25,6 +25,13 @@ chroma_db/
 
 # ── Бэкапы ────────────────────────
 backups/
+# Time-stamped agent snapshots created by ad-hoc scripts
+# (agents.bak.YYYYMMDD, agents.bak.YYYYMMDD_HHMMSS). They pollute grep
+# results during self-audit and bloat the working tree; never tracked.
+# If you need a snapshot, use a git branch or `git stash` instead.
+*.bak/
+*.bak.*/
+agents.bak*/
 
 # ── Python ────────────────────────
 __pycache__/
@@ -70,3 +77,6 @@ media/
 USER/
 !USER/README.md
 !USER/.gitkeep
+
+# Phase 3 journal — preview artifact (orchestrator scratch)
+_journal/STAGES.md.preview

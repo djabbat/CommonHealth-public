@@ -81,4 +81,7 @@ exclude = ["tests*", "Patients*", "USER*", "venv*", "media*", "logs*",
 markers = [
     "network: tests that hit live APIs (PubMed, Crossref, etc.)",
 ]
-testpaths = ["tests"]
+# importmode=importlib — avoids `tests.conftest` namespace collision
+# between root tests/ and AI/tests/ (each gets a unique module path).
+testpaths = ["tests", "AI/tests"]
+addopts = "--import-mode=importlib"

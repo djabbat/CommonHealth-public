@@ -6,7 +6,15 @@
 
 Здесь PATIENTS_DIR временно переключается на tests/_runtime_fixtures/
 на всё время сессии. Артефакты тестов больше не попадают в production.
+
+Также (G2 sandbox, 2026-05-02): pytest tmp_path лежит под /tmp, что
+вне дефолтного AIM_GENERALIST_ROOT (~/Desktop). Чтобы существующие
+тесты не падали с ERROR:PERMISSION при write_file/edit_file/apply_patch
+в tmp_path, мы выставляем AIM_GENERALIST_ROOT=/tmp на всё время сессии.
+Тесты, которые специально проверяют sandbox, переопределяют переменную
+через monkeypatch.
 """
+import os
 from pathlib import Path
 import pytest
 
@@ -32,3 +40,15 @@ def _isolate_patients_dir(tmp_path_factory):
     config.PATIENTS_DIR = original
     _kernel.PATIENTS_DIR = original
     _pm.PATIENTS_DIR = original
+
+
+@pytest.fixture(autouse=True, scope="session")
+def _allow_tmp_writes_for_tests():
+    """G2 sandbox: extend AIM_GENERALIST_ROOT to cover /tmp during tests."""
+    prev = os.environ.get("AIM_GENERALIST_ROOT")
+    os.environ["AIM_GENERALIST_ROOT"] = "/tmp"
+    yield
+    if prev is None:
+        os.environ.pop("AIM_GENERALIST_ROOT", None)
+    else:
+        os.environ["AIM_GENERALIST_ROOT"] = prev

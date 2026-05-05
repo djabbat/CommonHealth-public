@@ -70,3 +70,39 @@
 - 𝓘: 0.16 → 0.10 (expected)
 
 ---
+
+## 2026-05-02 23:54:03 — triage by scenario
+
+**Alternatives considered:** 2
+
+-    `mri` (imaging): U=0.757 (𝒞=0.02, Φ_Ze=0.98, Ethics=0.90) — МРТ головы
+- ⭐ `bp_monitor` (test): U=0.773 (𝒞=0.08, Φ_Ze=1.00, Ethics=0.89) — СМАД 24ч
+
+**Decision:** `bp_monitor` — СМАД 24ч
+- 𝓘: 0.16 → 0.13 (expected)
+
+---
+
+## 2026-05-03 00:40:10 — triage by scenario
+
+**Alternatives considered:** 2
+
+-    `mri` (imaging): U=0.761 (𝒞=0.04, Φ_Ze=0.98, Ethics=0.90) — МРТ головы
+- ⭐ `bp_monitor` (test): U=0.783 (𝒞=0.13, Φ_Ze=1.00, Ethics=0.89) — СМАД 24ч
+
+**Decision:** `bp_monitor` — СМАД 24ч
+- 𝓘: 0.21 → 0.13 (expected)
+
+---
+
+## 2026-05-03 01:38:50 — triage by scenario
+
+**Alternatives considered:** 2
+
+-    `mri` (imaging): U=0.759 (𝒞=0.03, Φ_Ze=0.98, Ethics=0.90) — МРТ головы
+- ⭐ `bp_monitor` (test): U=0.777 (𝒞=0.10, Φ_Ze=0.99, Ethics=0.89) — СМАД 24ч
+
+**Decision:** `bp_monitor` — СМАД 24ч
+- 𝓘: 0.16 → 0.13 (expected)
+
+---

@@ -70,3 +70,39 @@
 - 𝓘: 0.26 → 0.16 (expected)
 
 ---
+
+## 2026-05-02 23:52:58 — triage by scenario
+
+**Alternatives considered:** 2
+
+- ⭐ `glucose_ph` (test): U=0.783 (𝒞=0.09, Φ_Ze=0.99, Ethics=0.92) — Глюкоза + газы + кетоны
+- ❌ `wait_morning` (wait): Laws FAIL (L1 inaction harm: impedance=0.50, red_flags=['polyuria, polydipsia, abdominal pain, ketotic breath']) — Утром посмотреть снова
+
+**Decision:** `glucose_ph` — Глюкоза + газы + кетоны
+- 𝓘: 0.26 → 0.16 (expected)
+
+---
+
+## 2026-05-03 00:39:13 — triage by scenario
+
+**Alternatives considered:** 2
+
+- ⭐ `glucose_ph` (test): U=0.779 (𝒞=0.07, Φ_Ze=0.99, Ethics=0.92) — Глюкоза + газы + кетоны
+- ❌ `wait_morning` (wait): Laws FAIL (L1 inaction harm: impedance=0.50, red_flags=['polyuria, polydipsia, abdominal pain, ketotic breath']) — Утром посмотреть снова
+
+**Decision:** `glucose_ph` — Глюкоза + газы + кетоны
+- 𝓘: 0.31 → 0.16 (expected)
+
+---
+
+## 2026-05-03 01:37:25 — triage by scenario
+
+**Alternatives considered:** 2
+
+- ⭐ `glucose_ph` (test): U=0.795 (𝒞=0.15, Φ_Ze=0.99, Ethics=0.92) — Глюкоза + газы + кетоны
+- ❌ `wait_morning` (wait): Laws FAIL (L1 inaction harm: impedance=0.50, red_flags=['polyuria, polydipsia, abdominal pain, ketotic breath']) — Утром посмотреть снова
+
+**Decision:** `glucose_ph` — Глюкоза + газы + кетоны
+- 𝓘: 0.31 → 0.16 (expected)
+
+---

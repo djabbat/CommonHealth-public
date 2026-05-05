@@ -1,0 +1,15 @@
+[package]
+name = "aim-ai-compliance-promoter"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "AIM AI — compliance threshold tuner (CP1). Recommend tighten/loosen of min_compliance based on rolling streaks. Rust port of AI/ai/compliance_promoter.py."
+
+[dependencies]
+aim-ai-ledger = { path = "../aim-ai-ledger" }
+
+serde = { workspace = true }
+thiserror = { workspace = true }
+
+[dev-dependencies]
+tempfile = "3"

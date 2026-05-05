@@ -70,3 +70,39 @@
 - 𝓘: 0.30 → 0.20 (expected)
 
 ---
+
+## 2026-05-02 23:55:14 — triage by scenario
+
+**Alternatives considered:** 2
+
+-    `empiric_ppi` (treatment): U=0.604 (𝒞=0.00, Φ_Ze=0.92, Ethics=0.59) — ИПП empirically
+- ⭐ `egd` (imaging): U=0.761 (𝒞=0.05, Φ_Ze=0.97, Ethics=0.90) — ЭГДС
+
+**Decision:** `egd` — ЭГДС
+- 𝓘: 0.30 → 0.15 (expected)
+
+---
+
+## 2026-05-03 00:41:20 — triage by scenario
+
+**Alternatives considered:** 2
+
+-    `empiric_ppi` (treatment): U=0.607 (𝒞=0.02, Φ_Ze=0.92, Ethics=0.59) — ИПП empirically
+- ⭐ `egd` (imaging): U=0.763 (𝒞=0.06, Φ_Ze=0.97, Ethics=0.90) — ЭГДС
+
+**Decision:** `egd` — ЭГДС
+- 𝓘: 0.40 → 0.20 (expected)
+
+---
+
+## 2026-05-03 01:39:47 — triage by scenario
+
+**Alternatives considered:** 2
+
+-    `empiric_ppi` (treatment): U=0.608 (𝒞=0.01, Φ_Ze=0.92, Ethics=0.59) — ИПП empirically
+- ⭐ `egd` (imaging): U=0.763 (𝒞=0.06, Φ_Ze=0.97, Ethics=0.90) — ЭГДС
+
+**Decision:** `egd` — ЭГДС
+- 𝓘: 0.30 → 0.18 (expected)
+
+---

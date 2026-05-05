@@ -1,0 +1,27 @@
+use serde_json::Value;
+
+/// Best-effort JSON extraction. Tries full string first, then largest balanced `{..}`.
+pub fn extract_json(s: &str) -> Option<Value> {
+    if let Ok(v) = serde_json::from_str::<Value>(s) { return Some(v); }
+    let bytes = s.as_bytes();
+    let mut depth = 0i32;
+    let mut start = None;
+    let mut best: Option<(usize, usize)> = None;
+    for (i, &b) in bytes.iter().enumerate() {
+        match b {
+            b'{' => { if depth == 0 { start = Some(i); } depth += 1; }
+            b'}' => {
+                depth -= 1;
+                if depth == 0 {
+                    if let Some(st) = start {
+                        let cand = (st, i + 1);
+                        if best.is_none_or(|(s2, e2)| (i + 1 - st) > (e2 - s2)) { best = Some(cand); }
+                    }
+                }
+            }
+            _ => {}
+        }
+    }
+    let (st, en) = best?;
+    serde_json::from_str(&s[st..en]).ok()
+}

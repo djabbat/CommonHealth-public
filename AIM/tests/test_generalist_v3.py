@@ -235,10 +235,13 @@ def test_view_file_context_around_regex(tmp_path):
 
 
 def test_sandbox_helper_no_bwrap_returns_plain_shell(monkeypatch):
+    # 2026-05-02 hardening: no-bwrap mode now returns a direct argv list,
+    # not /bin/sh -c …, so subprocess.Popen runs the binary directly with
+    # no shell parsing. This is the more secure default.
     from agents.generalist import _maybe_sandbox
     monkeypatch.delenv("AIM_SANDBOX", raising=False)
     cmd = _maybe_sandbox("echo hi")
-    assert cmd == ["/bin/sh", "-c", "echo hi"]
+    assert cmd == ["echo", "hi"]
 
 
 # ── P2.7: implicit verification ──────────────────────────────────────────

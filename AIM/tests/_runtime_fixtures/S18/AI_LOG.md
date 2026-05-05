@@ -70,3 +70,39 @@
 - 𝓘: 0.36 → 0.24 (expected)
 
 ---
+
+## 2026-05-03 00:04:57 — triage by scenario
+
+**Alternatives considered:** 2
+
+- ⭐ `gl` (treatment): U=0.707 (𝒞=0.01, Φ_Ze=0.93, Ethics=0.82) — Согласно GOLD guideline
+-    `custom` (treatment): U=0.696 (𝒞=0.01, Φ_Ze=0.93, Ethics=0.81) — Custom protocol
+
+**Decision:** `gl` — Согласно GOLD guideline
+- 𝓘: 0.36 → 0.26 (expected)
+
+---
+
+## 2026-05-03 00:51:16 — triage by scenario
+
+**Alternatives considered:** 2
+
+- ⭐ `gl` (treatment): U=0.699 (𝒞=0.00, Φ_Ze=0.92, Ethics=0.82) — Согласно GOLD guideline
+-    `custom` (treatment): U=0.697 (𝒞=0.01, Φ_Ze=0.93, Ethics=0.81) — Custom protocol
+
+**Decision:** `gl` — Согласно GOLD guideline
+- 𝓘: 0.36 → 0.26 (expected)
+
+---
+
+## 2026-05-03 01:50:02 — triage by scenario
+
+**Alternatives considered:** 2
+
+- ⭐ `gl` (treatment): U=0.701 (𝒞=0.00, Φ_Ze=0.93, Ethics=0.82) — Согласно GOLD guideline
+-    `custom` (treatment): U=0.698 (𝒞=0.01, Φ_Ze=0.93, Ethics=0.81) — Custom protocol
+
+**Decision:** `gl` — Согласно GOLD guideline
+- 𝓘: 0.31 → 0.22 (expected)
+
+---

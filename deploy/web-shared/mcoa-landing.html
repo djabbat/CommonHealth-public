@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🧮%3C/text%3E%3C/svg%3E">
+<title>MCOA · Multi-Counter Architecture of Organismal Aging</title>
+<style>
+  body { margin: 0; font-family: -apple-system, system-ui, sans-serif; background: #fafafa; color: #18181b; line-height: 1.6; }
+  html[data-theme="dark"] body { background: #0f1117 !important; color: #e0e3eb !important; }
+  html[data-theme="dark"] h1, html[data-theme="dark"] h2, html[data-theme="dark"] h3 { color: #fff !important; }
+  html[data-theme="dark"] .axiom, html[data-theme="dark"] .container, html[data-theme="dark"] .panel { background: #15171f !important; color: #d8dce4 !important; border-color: #2a2f40 !important; }
+  html[data-theme="dark"] .formula, html[data-theme="dark"] code { background: #2a2f40 !important; color: #e0e3eb !important; }
+  html[data-theme="dark"] .footer { color: #8b92a3 !important; border-top-color: #2a2f40 !important; }
+  .container { max-width: 1100px; margin: 0 auto; padding: 32px 24px; }
+  h1 { font-size: 32px; margin: 0 0 8px 0; letter-spacing: -0.02em; }
+  h2 { font-size: 22px; margin: 36px 0 12px 0; letter-spacing: -0.01em; border-bottom: 2px solid #b45309; padding-bottom: 4px; }
+  h3 { font-size: 17px; margin: 22px 0 8px 0; color: #b45309; }
+  .lead { color: #52525b; font-size: 18px; margin-bottom: 16px; max-width: 820px; }
+  .badges { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px; }
+  .badge { font-size: 11px; padding: 3px 10px; background: #dbeafe; color: #1e40af; border-radius: 999px; font-weight: 500; }
+  .badge.green { background: #d1fae5; color: #065f46; }
+  .badge.red { background: #fee2e2; color: #991b1b; }
+  .badge.amber { background: #fef3c7; color: #92400e; }
+  .formula { font-family: ui-monospace, monospace; background: #f4f4f5; padding: 2px 6px; border-radius: 4px; font-size: 14px; }
+  .formula.center { display: block; text-align: center; padding: 14px; font-size: 16px; margin: 14px 0; }
+  .axiom { background: white; border: 1px solid #e4e4e7; border-left: 3px solid #b45309; border-radius: 4px; padding: 14px 16px; margin: 10px 0; }
+  .panel { background: white; border: 1px solid #e4e4e7; border-radius: 8px; padding: 18px 20px; margin: 14px 0; }
+  .panel h3 { margin-top: 0; }
+  .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  @media (max-width: 720px) { .grid-2 { grid-template-columns: 1fr; } }
+  table { border-collapse: collapse; width: 100%; margin: 12px 0; font-size: 14px; }
+  th, td { padding: 8px 12px; border-bottom: 1px solid #e4e4e7; text-align: left; vertical-align: top; }
+  th { background: #f4f4f5; font-weight: 600; }
+  html[data-theme="dark"] th { background: #1a1d28 !important; }
+  html[data-theme="dark"] td, html[data-theme="dark"] th { border-color: #2a2f40 !important; }
+  .footer { color: #71717a; font-size: 12px; text-align: center; padding: 32px 24px; border-top: 1px solid #e4e4e7; margin-top: 48px; }
+  a { color: #b45309; }
+  ul.tight li { margin: 4px 0; }
+  .toc { background: #f4f4f5; border-radius: 6px; padding: 12px 18px; margin: 16px 0 24px; font-size: 14px; }
+  html[data-theme="dark"] .toc { background: #1a1d28 !important; }
+  .toc a { margin-right: 14px; display: inline-block; }
+</style>
+<script>(function(){var t=localStorage.getItem("theme");if(t==="dark")document.documentElement.setAttribute("data-theme","dark");})();</script>
+<script src="https://longevity.ge/eco-inject.js?v=28"></script>
+</head><body>
+<div class="container">
+
+<h1>MCOA</h1>
+<div class="lead">Multi-Counter Architecture of Organismal Aging — a falsifiable meta-framework that formalises aging as the weighted sum of independent damage-accumulation counters operating in parallel across tissues.</div>
+<div class="badges">
+  <span class="badge">submitted Nature Aging · NATAGING-P13741</span>
+  <span class="badge red">NOT peer-reviewed</span>
+  <span class="badge amber">CONCEPT v5.6</span>
+</div>
+
+<div class="toc">
+  <strong>On this page:</strong>
+  <a href="#why">Why MCOA?</a>
+  <a href="#core">Core formalism</a>
+  <a href="#axioms">Axioms M1–M4</a>
+  <a href="#counters">Counter candidates</a>
+  <a href="#falsification">Falsification protocol</a>
+  <a href="#status">Status &amp; manuscripts</a>
+  <a href="#methods">Methods</a>
+  <a href="#faq">FAQ</a>
+</div>
+
+<h2 id="why">Why MCOA exists</h2>
+<p>The geroscience field has, for two decades, oscillated between single-driver theories of aging — telomere attrition, epigenetic clocks, mitochondrial dysfunction, proteostasis collapse, senescence — each accompanied by strong evidence in <em>some</em> tissues and embarrassing exceptions in others. Pure-driver theories cannot simultaneously explain why centenarian heart tissue can resemble that of a 60-year-old while their hematopoietic stem-cell compartment shows full age-matched exhaustion, or why caloric restriction lengthens lifespan in mice but barely budges it in rhesus macaques on similar protocols.</p>
+<p>MCOA proposes that aging is not <em>a</em> driver but the <em>weighted sum of several independent counters</em>, with weights that differ between tissues. The framework is deliberately spare: it does not specify which counters exist; it specifies the conditions under which a given counter set is falsified. This is a <strong>meta-theory</strong>, not a candidate theory — it is the scaffolding into which CDATA, telomere theories, epigenetic clocks, and proteostatic theories all plug as concrete instantiations.</p>
+
+<h2 id="core">Core formalism</h2>
+<p>Tissue-level damage L at organism age <span class="formula">n</span> (number of cell divisions in the lineage) and chronological time <span class="formula">t</span>:</p>
+<div class="formula center">L_tissue(n, t) = Σᵢ wᵢ(tissue) · fᵢ(Dᵢ(n, t))</div>
+<p>The damage state of counter <em>i</em> in that tissue:</p>
+<div class="formula center">Dᵢ(n, t) = Dᵢ₀ + αᵢ·(n/nᵢ*) + βᵢ·(t/τᵢ) + γᵢ·I(other counters)</div>
+<p>where <span class="formula">αᵢ</span> is the <strong>division-linked</strong> damage rate (per Hayflick-equivalent), <span class="formula">βᵢ</span> is the <strong>time-linked</strong> rate (per characteristic time τᵢ), and <span class="formula">γᵢ·I(other counters)</span> captures cross-coupling — for example, mitochondrial ROS accelerating telomere oxidation. <span class="formula">wᵢ(tissue)</span> encodes that the same counter contributes very differently in proliferative vs. post-mitotic tissues.</p>
+<p><span class="formula">fᵢ(·)</span> is a saturating non-linearity (default sigmoid) that prevents the model from extrapolating linearly past biologically realistic damage levels.</p>
+
+<h2 id="axioms">Inviolable axioms</h2>
+<p>The framework is bound by four axioms. Any extension that violates them is, by definition, no longer MCOA.</p>
+<div class="axiom"><strong>M1 — Parallel counters.</strong> Aging is driven by ≥ 2 distinct damage-accumulation processes proceeding in parallel. No single counter is sufficient. (A model with one counter is excluded; a model with five counters of which only one carries weight in every tissue is also excluded — the constraint applies tissue-by-tissue.)</div>
+<div class="axiom"><strong>M2 — Dimensional consistency.</strong> No expression α·n + β·t is valid unless reduced to common dimensionless form. Counters live on the unit interval [0, 1]; time and division counts are normalised by their respective scales.</div>
+<div class="axiom"><strong>M3 — A-priori tissue weighting.</strong> Tissue weights wᵢ(tissue) must be predicted BEFORE fitting, from independent cell-biological parameters (proliferation index, mitochondrial density, transcriptional fidelity, etc.). Post-hoc fitting of weights to outcome data is prohibited — it would render the model unfalsifiable.</div>
+<div class="axiom"><strong>M4 — Falsifiability is first-class.</strong> Operational threshold (v5.6): MCOA is <em>falsified</em> if on a pre-registered cohort N ≥ 2000 at α = 0.001, partial r² for all-cause mortality (after age + sex adjustment) falls below 0.05 for <em>every</em> counter <em>i</em>. Power analysis: N=1875 yields 80 % power for R² = 0.30 detection. The All-of-Us release WG-3 (anticipated 2026 Q4, N≈4500 with deep biomarker phenotyping) is the canonical first test set.</div>
+
+<h2 id="counters">Counter candidates</h2>
+<p>MCOA is silent on which counters exist; the following are candidate instantiations under active study. Each must independently satisfy the M1–M4 axioms to be admitted as a counter.</p>
+<table>
+  <tr><th>Counter</th><th>Status</th><th>Primary kinetics</th><th>Reference</th></tr>
+  <tr><td><a href="https://cdata.longevity.ge">CDATA</a> · centriolar polyglutamylation</td><td><span class="badge red">INCONCLUSIVE</span></td><td>α-dominated (division-linked)</td><td>Tkemaladze 2023, <a href="https://pubmed.ncbi.nlm.nih.gov/36583780">PMID 36583780</a></td></tr>
+  <tr><td>Telomere attrition (Hayflick)</td><td><span class="badge green">established</span></td><td>α-dominated</td><td>Hayflick &amp; Moorhead 1961</td></tr>
+  <tr><td>Epigenetic drift</td><td><span class="badge green">established</span></td><td>β-dominated (time-linked)</td><td>Horvath 2013</td></tr>
+  <tr><td>Mitochondrial ROS load</td><td><span class="badge amber">candidate</span></td><td>mixed α + β</td><td>Harman 1956 / Sun 2016</td></tr>
+  <tr><td>Proteostatic loss</td><td><span class="badge amber">candidate</span></td><td>β-dominated</td><td>Labbadia &amp; Morimoto 2015</td></tr>
+  <tr><td>Senescent-cell burden</td><td><span class="badge amber">candidate</span></td><td>γ-coupled to α &amp; β</td><td>Baker 2016</td></tr>
+</table>
+
+<h2 id="falsification">Falsification protocol (Axiom M4 expanded)</h2>
+<div class="panel">
+  <h3>Step 1 — A-priori weight assignment</h3>
+  <p>For each candidate counter, derive wᵢ(tissue) from at least two cell-biological independent measurements (proliferation index from Ki-67 staining, mitochondrial density from citrate-synthase activity, etc.). Document the derivation in a public, time-stamped pre-registration before <em>any</em> outcome data is touched.</p>
+  <h3>Step 2 — Outcome cohort</h3>
+  <p>Pre-registered N ≥ 2000 cohort with deep multi-tissue phenotyping and ≥ 10-year mortality follow-up. All-of-Us WG-3 release is the canonical target.</p>
+  <h3>Step 3 — Statistical test</h3>
+  <p>Compute partial r² for all-cause mortality (Cox regression, age + sex covariates) per counter <em>i</em>. If <em>every</em> counter falls below the 0.05 threshold at α = 0.001 (Bonferroni-corrected for the number of counters tested), MCOA is rejected.</p>
+  <h3>Step 4 — Asymmetry</h3>
+  <p>The framework is rejected only if every counter fails. A single counter passing rescues the framework; this is by design — MCOA claims the existence of multiple counters, not the relevance of any specific one.</p>
+</div>
+
+<h2 id="status">Status &amp; manuscripts</h2>
+<ul class="tight">
+  <li><strong>Manuscript:</strong> NATAGING-P13741 (Perspective, under review at <em>Nature Aging</em>). Submitted 2026-04-02. Reviewer 1 returned 2026-04-22; revision in progress.</li>
+  <li><strong>Concept Note preprint:</strong> Tkemaladze, J. (2026) <em>LongevityHealth</em>, Zenodo v3, DOI <a href="https://doi.org/10.5281/zenodo.19849384">10.5281/zenodo.19849384</a>.</li>
+  <li><strong>Code:</strong> Rust simulator under <code>MCOA/crates/</code> in the LongevityCommon repository. Reproduces all figures from the manuscript on a 12-core laptop in &lt; 8 min.</li>
+  <li><strong>Ecosystem role:</strong> MCOA is the meta-framework for the entire LongevityCommon program. CDATA plugs in as Counter #1, BioSense provides the χ_Ze biomarker for cohort phenotyping, FCLC supplies privacy-preserving cohort access.</li>
+</ul>
+
+<h2 id="methods">Methods (reproducibility)</h2>
+<div class="grid-2">
+  <div class="panel">
+    <h3>Simulator</h3>
+    <p>Rust crate <code>mcoa-core</code> implements the L_tissue evaluation, counter dynamics, and partial-r² computation. Deterministic given a seed; CI-tested on every push.</p>
+    <p>Reference: <code>MCOA/crates/mcoa-core/src/lib.rs</code>.</p>
+  </div>
+  <div class="panel">
+    <h3>Synthetic data generator</h3>
+    <p>Companion crate <code>mcoa-demogen</code> generates plausible cohorts under specified counter parameters for power analysis and adversarial tests (e.g., what does a 1-counter world look like in MCOA fitting?).</p>
+  </div>
+  <div class="panel">
+    <h3>Pre-registration</h3>
+    <p>The All-of-Us WG-3 analysis plan is filed at <a href="https://osf.io">OSF</a> with a dated lockfile of all wᵢ(tissue) values <em>before</em> WG-3 access is granted. The lockfile hash is in the manuscript appendix.</p>
+  </div>
+  <div class="panel">
+    <h3>Reproducibility statement</h3>
+    <p>All figures, tables, and statistical claims in NATAGING-P13741 are produced by a single <code>make all</code> command from a clean checkout. CI checks reproducibility on every commit.</p>
+  </div>
+</div>
+
+<h2 id="faq">FAQ</h2>
+<div class="panel">
+  <h3>Is this just "aging is multifactorial"?</h3>
+  <p>No. "Aging is multifactorial" is a vague claim, not a model. MCOA gives a specific functional form (Σᵢ wᵢ · fᵢ(Dᵢ)), specific kinetic constraints (Axiom M2), specific protection against curve-fitting (Axiom M3), and a specific falsification threshold (Axiom M4). Each is operationalised in code.</p>
+</div>
+<div class="panel">
+  <h3>How is this different from the GeroScience hallmarks?</h3>
+  <p>The López-Otín hallmarks are a curated <em>list</em> with no integrative formalism and no falsification criterion. MCOA is a mathematical framework — counters can be the hallmarks, but they have to enter as quantified Dᵢ with kinetic parameters and a-priori weights, not as descriptive labels.</p>
+</div>
+<div class="panel">
+  <h3>What does CDATA's "INCONCLUSIVE" status mean for MCOA?</h3>
+  <p>Counter status is independent of framework status. CDATA being inconclusive means we do not yet know if centriolar polyglutamylation is a useful instance of MCOA. Telomere attrition and epigenetic drift are well-established counters; they alone are sufficient to keep the framework alive (Axiom M4 requires every counter to fail).</p>
+</div>
+<div class="panel">
+  <h3>How can I help?</h3>
+  <p>Cohort owners with deep phenotyping can pre-register a counter test under M3+M4. Cell biologists with new candidate damage processes can propose them as counters with a-priori wᵢ derivations. Reviewers of NATAGING-P13741 — your comments are gold. Code contributors: see <a href="https://github.com/djabbat/LongevityCommon">the LongevityCommon repository</a>.</p>
+</div>
+
+<h2>See also</h2>
+<p>
+<a href="https://longevity.ge">LongevityCommon root</a> ·
+<a href="https://cdata.longevity.ge">CDATA — counter #1 candidate</a> ·
+<a href="https://ze.longevity.ge">Ze Theory — entropic-geometric biomarker</a> ·
+<a href="https://biosense.longevity.ge">BioSense — wearable χ_Ze sensor</a> ·
+<a href="https://fclc.longevity.ge">FCLC — federated cohort access</a> ·
+<a href="https://hive.longevity.ge">Hive — federated AIM agents</a> ·
+<a href="https://github.com/djabbat/LongevityCommon">Source</a>
+</p>
+</div>
+<div class="footer">© 2026 Tkemaladze J. · Georgia Longevity Alliance · CONCEPT v5.6 · NATAGING-P13741 (under review, NOT peer-reviewed)</div>
+</body></html>

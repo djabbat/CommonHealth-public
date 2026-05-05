@@ -76,3 +76,42 @@
 - 𝓘: 0.36 → 0.22 (expected)
 
 ---
+
+## 2026-05-02 23:50:43 — triage by scenario
+
+**Alternatives considered:** 3
+
+- ❌ `wait` (wait): Laws FAIL (L1 inaction harm: impedance=0.50, red_flags=['chest pain radiating to jaw, diaphoresis']) — Наблюдение дома 24ч
+- ⭐ `ecg_tropo` (test): U=0.789 (𝒞=0.12, Φ_Ze=0.99, Ethics=0.92) — ECG + троптин
+-    `aspirin_empiric` (treatment): U=0.609 (𝒞=0.00, Φ_Ze=0.93, Ethics=0.59) — ASA 325 mg empirically
+
+**Decision:** `ecg_tropo` — ECG + троптин
+- 𝓘: 0.26 → 0.19 (expected)
+
+---
+
+## 2026-05-03 00:37:11 — triage by scenario
+
+**Alternatives considered:** 3
+
+- ❌ `wait` (wait): Laws FAIL (L1 inaction harm: impedance=0.50, red_flags=['chest pain radiating to jaw, diaphoresis']) — Наблюдение дома 24ч
+- ⭐ `ecg_tropo` (test): U=0.795 (𝒞=0.15, Φ_Ze=0.99, Ethics=0.92) — ECG + троптин
+-    `aspirin_empiric` (treatment): U=0.612 (𝒞=0.00, Φ_Ze=0.94, Ethics=0.59) — ASA 325 mg empirically
+
+**Decision:** `ecg_tropo` — ECG + троптин
+- 𝓘: 0.26 → 0.22 (expected)
+
+---
+
+## 2026-05-03 01:35:22 — triage by scenario
+
+**Alternatives considered:** 3
+
+- ❌ `wait` (wait): Laws FAIL (L1 inaction harm: impedance=0.50, red_flags=['chest pain radiating to jaw, diaphoresis']) — Наблюдение дома 24ч
+- ⭐ `ecg_tropo` (test): U=0.804 (𝒞=0.20, Φ_Ze=0.99, Ethics=0.92) — ECG + троптин
+-    `aspirin_empiric` (treatment): U=0.615 (𝒞=0.02, Φ_Ze=0.94, Ethics=0.59) — ASA 325 mg empirically
+
+**Decision:** `ecg_tropo` — ECG + троптин
+- 𝓘: 0.36 → 0.19 (expected)
+
+---

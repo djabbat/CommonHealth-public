@@ -76,3 +76,42 @@
 - 𝓘: 0.56 → 0.38 (expected)
 
 ---
+
+## 2026-05-03 00:02:56 — triage by scenario
+
+**Alternatives considered:** 3
+
+-    `dx_guess` (dx): U=0.750 (𝒞=0.12, Φ_Ze=0.99, Ethics=0.82) — Dx guess без обследований
+- ⭐ `clarify` (clarify): U=0.948 (𝒞=1.00, Φ_Ze=1.00, Ethics=0.87) — Уточнить анамнез, запросить labs
+-    `cbc` (test): U=0.777 (𝒞=0.12, Φ_Ze=0.99, Ethics=0.89) — CBC + CMP
+
+**Decision:** `clarify` — Уточнить анамнез, запросить labs
+- 𝓘: 0.51 → 0.40 (expected)
+
+---
+
+## 2026-05-03 00:49:11 — triage by scenario
+
+**Alternatives considered:** 3
+
+-    `dx_guess` (dx): U=0.786 (𝒞=0.30, Φ_Ze=0.99, Ethics=0.82) — Dx guess без обследований
+- ⭐ `clarify` (clarify): U=0.948 (𝒞=1.00, Φ_Ze=1.00, Ethics=0.87) — Уточнить анамнез, запросить labs
+-    `cbc` (test): U=0.777 (𝒞=0.12, Φ_Ze=0.99, Ethics=0.89) — CBC + CMP
+
+**Decision:** `clarify` — Уточнить анамнез, запросить labs
+- 𝓘: 0.51 → 0.38 (expected)
+
+---
+
+## 2026-05-03 01:48:04 — triage by scenario
+
+**Alternatives considered:** 3
+
+-    `dx_guess` (dx): U=0.782 (𝒞=0.28, Φ_Ze=0.99, Ethics=0.82) — Dx guess без обследований
+- ⭐ `clarify` (clarify): U=0.928 (𝒞=0.90, Φ_Ze=1.00, Ethics=0.87) — Уточнить анамнез, запросить labs
+-    `cbc` (test): U=0.809 (𝒞=0.28, Φ_Ze=0.99, Ethics=0.89) — CBC + CMP
+
+**Decision:** `clarify` — Уточнить анамнез, запросить labs
+- 𝓘: 0.46 → 0.42 (expected)
+
+---

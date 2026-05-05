@@ -255,6 +255,12 @@ def evaluate_l_consent(decision: Decision, patient: dict, context: dict) -> tupl
     third parties: send email, post to Telegram channel, push to public git,
     submit form, publish on web. The scoring rubric mirrors host-tool
     confirmations: if context['user_confirmed']=True, pass; otherwise block.
+
+    Interactive prompt (G3, 2026-05-02): when AIM_INTERACTIVE_CONSENT=1 and
+    user_confirmed is not already set, the kernel asks the user via the
+    permission broker (TUI / Telegram) instead of blocking outright. This
+    keeps the strict default for non-interactive callers (cron, daemons,
+    test harnesses) while giving interactive sessions a real prompt.
     """
     public_actions = {"email_send", "git_push_public", "telegram_broadcast",
                       "slack_post", "web_publish", "submit_form",
@@ -263,6 +269,27 @@ def evaluate_l_consent(decision: Decision, patient: dict, context: dict) -> tupl
         return True, "L_CONSENT n/a"
     if context.get("user_confirmed") is True:
         return True, "L_CONSENT confirmed by user"
+    import os as _os
+    if _os.environ.get("AIM_INTERACTIVE_CONSENT") == "1":
+        try:
+            from agents.permission import request as _req
+            scope = (decision.payload.get("scope")
+                     or decision.payload.get("path")
+                     or decision.payload.get("to")
+                     or decision.description
+                     or decision.id)
+            preview = (decision.payload.get("preview")
+                       or decision.payload.get("body")
+                       or decision.payload.get("text")
+                       or "")
+            d = _req(decision.action_type, str(scope), str(preview)[:1000],
+                     blast_radius="external — visible to third party")
+            if d.granted:
+                return True, f"L_CONSENT granted via {d.via}: {d.reason}"
+            return False, f"L_CONSENT denied via {d.via}: {d.reason}"
+        except Exception as e:  # broker import failure → strict fallback
+            return False, (f"L_CONSENT: action='{decision.action_type}' broker "
+                           f"unavailable ({e}); requires user_confirmed=True")
     return False, (f"L_CONSENT: action='{decision.action_type}' has external "
                    "blast radius and requires explicit user confirmation")
 

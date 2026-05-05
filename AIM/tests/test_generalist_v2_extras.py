@@ -79,19 +79,21 @@ def test_action_parser_returns_empty_on_bad_json():
 
 
 def test_bash_async_lifecycle():
+    # 2026-05-02: shell chaining (`&&`, `;`, `|`) is now refused — bash_async
+    # runs argv directly without /bin/sh, so commands must be a single binary.
+    # We chain by submitting two jobs.
     from agents.generalist import (_t_bash_async, _t_bash_status,
-                                    _t_bash_output, _t_bash_kill)
-    out = _t_bash_async("echo hello && sleep 0.3 && echo world")
+                                    _t_bash_output)
+    out = _t_bash_async("echo helloworld")
     assert out.startswith("OK")
     job_id = out.split("=")[1].split()[0]
-    # Should be running (or just finished)
     s = _t_bash_status(job_id)
     assert "running" in s or "exited" in s
     time.sleep(0.6)
     s = _t_bash_status(job_id)
     assert "exited" in s and "rc=0" in s
     o = _t_bash_output(job_id)
-    assert "hello" in o and "world" in o
+    assert "helloworld" in o
 
 
 def test_bash_async_rejects_unwhitelisted():
@@ -101,12 +103,16 @@ def test_bash_async_rejects_unwhitelisted():
 
 
 def test_bash_kill_terminates_long_running():
+    # 2026-05-02: `python -c` is forbidden by per-command policy. Use
+    # `find` walking a large tree instead — it's whitelisted, takes a
+    # while on /, and is killable.
     from agents.generalist import _t_bash_async, _t_bash_kill, _t_bash_status
-    out = _t_bash_async("python3 -c 'import time; time.sleep(30)'")
-    assert out.startswith("OK")
+    out = _t_bash_async("find / -type f -name nothing-matches-this-needle")
+    assert out.startswith("OK"), f"async start failed: {out}"
     job_id = out.split("=")[1].split()[0]
+    time.sleep(0.1)  # let it actually start before killing
     killed = _t_bash_kill(job_id)
-    assert killed.startswith("OK killed")
+    assert killed.startswith("OK killed"), f"kill failed: {killed}"
     s = _t_bash_status(job_id)
     assert "exited" in s
 
