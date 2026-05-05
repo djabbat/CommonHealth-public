@@ -60,6 +60,11 @@ jobs:
 
       - name: Cache cargo
         uses: Swatinem/rust-cache@v2
+        # Cache action has been observed to abort silently on the Windows
+        # runner with this 178-crate workspace, killing the job before
+        # Build Rust runs. Treat the cache as a best-effort speedup —
+        # never gate the build on it.
+        continue-on-error: true
         with:
           workspaces: AIM/rust-core
 
@@ -71,6 +76,7 @@ jobs:
 
       - name: Cache mix deps
         uses: actions/cache@v4
+        continue-on-error: true
         with:
           path: |
             AIM/phoenix-umbrella/deps
