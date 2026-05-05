@@ -1,7 +1,7 @@
-<div class="eco-bar">
-  <div class="eco-inner">
-    <span class="eco-brand">LongevityCommon</span>
-    <nav class="eco-nav">
+<div class="eco-bar-injected">
+  <div class="eco-inner-i">
+    <span class="eco-brand-i">LongevityCommon</span>
+    <nav class="eco-nav-i">
       <a href="https://longevity.ge">Home</a>
       <a href="https://mcoa.longevity.ge">MCOA</a>
       <a href="https://cdata.longevity.ge">CDATA</a>
@@ -12,12 +12,14 @@
       <a href="https://aim.longevity.ge" class="active">AIM</a>
       <a href="https://longevity.ge/rescience/">Annals</a>
       <a href="https://longevity.ge/team/">Team</a>
+      <a href="https://longevity.ge/#donate" class="donate-cta">Donate</a>
+      <a href="https://github.com/djabbat/LongevityCommon" rel="noopener">Source</a>
     </nav>
   </div>
 </div>
-<header class="aim-topbar">
-  <a href="/" class="aim-brand"><span class="logo">⌬</span>AIM</a>
-  <nav class="aim-nav">
+<div class="aim-subnav">
+  <a href="/" class="brand"><span class="logo">⌬</span>AIM</a>
+  <nav>
     <a href="/dashboard"><%= t("home.menu.dashboard", @locale) %></a>
     <a href="/chat"><%= t("nav.chat", @locale) %></a>
     <a href="/intake"><%= t("nav.intake", @locale) %></a>
@@ -32,7 +34,7 @@
       <% end %>
     </select>
   </form>
-</header>
+</div>
 <%= @inner_content %>
 <footer class="aim-footer">
   AIM · 178 Rust crates · 2531 tests · 0 warnings ·
