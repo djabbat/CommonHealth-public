@@ -667,16 +667,17 @@
     });
   }
 
-  // Move every page's own <header> below the lc-sub-hero so every
-  // subdomain follows the same vertical order:
-  //   eco-bar → indigo hero → own-header → content → lang-bar → footer
+  // Move every page's own <header> to sit DIRECTLY below the hero.
+  // Without this AIM's layout-supplied <header class="header"> ends up
+  // at the very bottom of the page (after the cards), which the user
+  // sees as "no own header".
   function relocateOwnHeader(){
     var hero = document.querySelector(".lc-sub-hero, .hero, .page-hero");
     if (!hero || !hero.parentNode) return;
     var ownHeader = document.querySelector("header.site-header, header.header, .aim-subnav");
     if (!ownHeader || ownHeader.classList.contains("lc-own-header")) return;
-    // If already placed after the hero, do nothing.
-    if (hero.compareDocumentPosition(ownHeader) & Node.DOCUMENT_POSITION_FOLLOWING) return;
+    // Already directly under the hero? skip.
+    if (hero.nextSibling === ownHeader) return;
     hero.parentNode.insertBefore(ownHeader, hero.nextSibling);
   }
 
