@@ -752,4 +752,36 @@
   } else {
     init();
   }
+
+  // Phoenix LiveView morphdom may strip our injected DOM nodes on
+  // socket connect / route change. Re-run the JS injectors a few
+  // times after first paint, and watch <body> for child changes.
+  function reapply(){
+    if (typeof injectSubHero === "function") injectSubHero();
+    if (typeof dedupeHiveHero === "function") dedupeHiveHero();
+    if (typeof relocateOwnHeader === "function") relocateOwnHeader();
+    if (typeof injectOwnHeader === "function") injectOwnHeader();
+    if (typeof addLangToOwnHeader === "function") addLangToOwnHeader();
+  }
+  setTimeout(reapply, 400);
+  setTimeout(reapply, 1500);
+  setTimeout(reapply, 4000);
+  if (window.MutationObserver) {
+    var mo = new MutationObserver(function(muts){
+      // Only re-inject if our markers are missing.
+      var headerHasLang = false;
+      var hdrs = document.querySelectorAll("header");
+      for (var i = 0; i < hdrs.length; i++) {
+        if (!hdrs[i].classList.contains("eco-bar-injected") &&
+            hdrs[i].querySelector(".lang-switcher, [data-lc-lang]")) {
+          headerHasLang = true;
+          break;
+        }
+      }
+      if (!headerHasLang) reapply();
+    });
+    if (document.body) {
+      mo.observe(document.body, { childList: true, subtree: false });
+    }
+  }
 })();
