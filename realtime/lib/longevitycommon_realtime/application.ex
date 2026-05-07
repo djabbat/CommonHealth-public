@@ -7,6 +7,9 @@ defmodule LongevityCommonRealtime.Application do
       LongevityCommonRealtime.Repo,
       {Phoenix.PubSub, name: LongevityCommonRealtime.PubSub},
       LongevityCommonRealtimeWeb.Endpoint,
+      # Phase 4.5 (2026-05-08): postgres LISTEN/NOTIFY bridge from
+      # Rust social-server (writes pg_notify) → Phoenix Channel.
+      LongevityCommonRealtime.FeedNotifier,
     ]
 
     opts = [strategy: :one_for_one, name: LongevityCommonRealtime.Supervisor]
