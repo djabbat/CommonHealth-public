@@ -14,7 +14,7 @@ use crate::{
     AppState,
 };
 
-/// Liveness probe. Mounted at both `/health` (legacy) and `/api/health`
+/// Liveness probe (autopull-rebuild test 2026-05-08). Mounted at both `/health` (legacy) and `/api/health`
 /// (so nginx can probe through the standard /api/ prefix).
 async fn health() -> JsonResp<serde_json::Value> {
     JsonResp(serde_json::json!({
