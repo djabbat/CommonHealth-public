@@ -39,12 +39,21 @@ async fn main() {
         )
         .init();
 
+    // Routes are mounted at BOTH `/<name>` (legacy short form) and
+    // `/api/<name>` (matches nginx `biosense.longevity.ge.conf` /api/ →
+    // :4502/api/). Phoenix biosense-web client uses /api/ prefix, the
+    // dropped Docker container `deploy-biosense-backend-1` did the same.
     let app = Router::new()
-        .route("/healthz", get(healthz))
-        .route("/chi_ze", post(chi_ze))
-        .route("/bridge", post(bridge))
-        .route("/exacerbation", post(exacerbation))
-        .route("/api/v_star", get(get_v_star));
+        .route("/healthz",         get(healthz))
+        .route("/api/healthz",     get(healthz))
+        .route("/chi_ze",          post(chi_ze))
+        .route("/api/chi_ze",      post(chi_ze))
+        .route("/bridge",          post(bridge))
+        .route("/api/bridge",      post(bridge))
+        .route("/exacerbation",    post(exacerbation))
+        .route("/api/exacerbation", post(exacerbation))
+        .route("/api/v_star",      get(get_v_star))
+        .route("/v_star",          get(get_v_star));
 
     let port: u16 = std::env::var("PORT")
         .ok()
@@ -79,11 +88,23 @@ async fn get_v_star() -> impl IntoResponse {
     }))
 }
 
+/// Accept both wire-format conventions (Phase 4.4 reconciliation 2026-05-08):
+/// - `v_eeg` / `v_hrv` / `v_resp` / `v_sleep`  — idiomatic Rust (this crate's
+///   original shape).
+/// - `eeg`   / `hrv`   / `resp`   / `sleep`     — what the live Docker
+///   `deploy-biosense-backend-1` container has been receiving from the
+///   Phoenix `biosense-web` client.
+///
+/// `serde(alias)` lets us drop the container without breaking the client.
 #[derive(Deserialize)]
 struct ChiZeRequest {
+    #[serde(alias = "eeg")]
     v_eeg: f64,
+    #[serde(alias = "hrv")]
     v_hrv: f64,
+    #[serde(alias = "resp")]
     v_resp: f64,
+    #[serde(alias = "sleep")]
     v_sleep: f64,
 }
 
@@ -227,6 +248,23 @@ impl IntoResponse for AppError {
 #[cfg(test)]
 mod tests {
     use super::*;
+
+    #[test]
+    fn chi_ze_request_accepts_both_field_conventions() {
+        // Idiomatic v_eeg shape:
+        let v: ChiZeRequest = serde_json::from_str(
+            r#"{"v_eeg":0.45,"v_hrv":0.46,"v_resp":0.44,"v_sleep":0.47}"#,
+        )
+        .unwrap();
+        assert_eq!(v.v_eeg, 0.45);
+        // Legacy `eeg` shape (Docker container compat):
+        let v: ChiZeRequest = serde_json::from_str(
+            r#"{"eeg":0.45,"hrv":0.46,"resp":0.44,"sleep":0.47}"#,
+        )
+        .unwrap();
+        assert_eq!(v.v_eeg, 0.45);
+        assert_eq!(v.v_sleep, 0.47);
+    }
 
     #[test]
     fn chi_ze_single_perfect_match() {

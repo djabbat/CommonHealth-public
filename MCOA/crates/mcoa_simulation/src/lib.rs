@@ -82,11 +82,15 @@ pub fn run(
             step: step_idx,
             n_cumulative: n_cum,
             t_seconds: t_cum,
-            telomere: states[0].value,
-            centriolar: states[1].value,
-            mito: states[2].value,
-            epigenetic: states[3].value,
-            proteostasis: states[4].value,
+            // Counter index ↔ enum mapping (after 2026-05-07 reorder per
+            // user decision: CDATA = #1):
+            //   0 = Centriolar, 1 = Telomere, 2 = Mitochondrial,
+            //   3 = Epigenetic, 4 = Proteostasis.
+            centriolar:   states[Counter::Centriolar    as usize].value,
+            telomere:     states[Counter::Telomere      as usize].value,
+            mito:         states[Counter::Mitochondrial as usize].value,
+            epigenetic:   states[Counter::Epigenetic    as usize].value,
+            proteostasis: states[Counter::Proteostasis  as usize].value,
             tissue_load: tissue_load(&states, tissue),
         });
         if step_idx < n_steps {
