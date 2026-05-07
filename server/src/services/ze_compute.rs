@@ -21,6 +21,10 @@ const K_CALIBRATION_HRV_ONLY: f64 = 0.38;
 /// Research-mode heuristic (EEG-only path); no validated calibration exists.
 const K_CALIBRATION_EEG_ONLY: f64 = 0.42;
 const D_NORM_ALPHA: f64 = 1.2;
+/// Reference chi at which bio_age = chrono_age. Centring point for the
+/// signed damage formula (closed 2026-05-07, O-1). chi above → younger,
+/// chi below → older. Approximate "average healthy adult" χ_Ze.
+const D_NORM_BASELINE: f64 = 0.5;
 const ANOMALY_CONST_DAYS: i64 = 30;
 
 pub fn compute_health_factors(
@@ -139,12 +143,21 @@ pub fn compute_profile(
         _                      => (mean_option(recent.iter().map(|s| s.chi_ze_combined)), K_CALIBRATION_DUAL),
     };
 
-    // Bridge equation: D_norm = D_NORM_ALPHA * (1 - chi_ze_combined)
-    let d_norm = chi_ze_combined.map(|chi| (D_NORM_ALPHA * (1.0 - chi)).clamp(0.0, 1.0));
+    // Bridge equation: signed_damage = D_NORM_ALPHA · (BASELINE − chi).
+    // Centred around D_NORM_BASELINE = 0.5: at that chi, bio_age = chrono.
+    // chi > BASELINE (healthy) → signed_damage < 0 → bio_age < chrono (younger).
+    // chi < BASELINE (damaged) → signed_damage > 0 → bio_age > chrono (older).
+    //
+    // Closed 2026-05-07 (open issue O-1 from server/AUDIT.md): old formula
+    // `(1 - D_norm·K)` clamped D_norm to [0,1] and could only produce
+    // bio_age ≤ chrono, contradicting root CONCEPT "low χ = old".
+    let d_norm = chi_ze_combined.map(|chi| {
+        (D_NORM_ALPHA * (D_NORM_BASELINE - chi)).clamp(-1.0, 1.0)
+    });
 
-    // Bio age point estimate using sensor-appropriate K
+    // Bio age point estimate using sensor-appropriate K.
     let bio_age_est = match (chrono_age, d_norm) {
-        (Some(ca), Some(dn)) => Some(ca * (1.0 - dn * k_calibration)),
+        (Some(ca), Some(dn)) => Some(ca * (1.0 + dn * k_calibration)),
         _ => None,
     };
 
@@ -287,9 +300,15 @@ fn compute_ci(
     // Standard error of the mean chi_ze
     let se_chi = std_chi / (n as f64).sqrt();
 
-    // Jacobian: |∂bio_age/∂chi_ze| = chrono_age * D_NORM_ALPHA * k_calibration
-    // We approximate chrono_age from bio_age_est (close enough for CI propagation)
-    let approx_chrono = est / (1.0 - D_NORM_ALPHA * (1.0 - mean) * k_calibration).max(0.1);
+    // Jacobian: |∂bio_age/∂chi_ze| = chrono_age · D_NORM_ALPHA · k_calibration
+    // (sign of derivative is negative — bio_age decreases as chi rises —
+    // but |·| is what matters for CI half-width).
+    //
+    // Reverse the centred bio_age formula to recover chrono:
+    //   bio_age = chrono · (1 + D_NORM_ALPHA · (BASELINE − mean) · K)
+    //   chrono  = bio_age / (1 + D_NORM_ALPHA · (BASELINE − mean) · K)
+    let approx_chrono = est /
+        (1.0 + D_NORM_ALPHA * (D_NORM_BASELINE - mean) * k_calibration).max(0.1);
     let jacobian = approx_chrono * D_NORM_ALPHA * k_calibration;
 
     let ci_half = (jacobian * se_chi * 1.96).max(0.5); // minimum 0.5y CI

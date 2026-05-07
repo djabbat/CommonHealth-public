@@ -64,10 +64,11 @@ fn test_bio_age_below_chrono_when_chi_high() {
 
 #[test]
 fn test_bio_age_above_chrono_when_chi_low() {
-    // chi_ze = 0.2 → D_norm = 1.2 × 0.8 = 0.96 → bio_age = 40 × (1 − 0.96×0.45) ≈ 22.7
-    // Actually with clamp D_norm = 0.96, bio_age = 40*(1-0.432) = 22.7 — still below chrono
-    // chi_ze = 0.0 → D_norm = 1.2 → clamp → 1.0 → bio_age = 40*(1-1.0*0.45) = 22
-    // Let's use chi = 0.5 as "average" case and verify delta direction
+    // After O-1 fix (2026-05-07, centred formula at BASELINE=0.5):
+    //   chi=0.2 → D_norm = 1.2·(0.5-0.2) = 0.36 → bio_age ≈ 40·1.198 = 47.9
+    //   chi=0.9 → D_norm = 1.2·(0.5-0.9) = -0.48 → bio_age ≈ 40·0.736 = 29.4
+    // Convention (per root CONCEPT): with age χ_Ze decreases →
+    // low χ = old → bio_age > chrono.
     let samples_low: Vec<ZeSample> = (0..5)
         .map(|i| make_sample(Some(0.2), Some(0.2), i, true))
         .collect();
@@ -80,8 +81,18 @@ fn test_bio_age_above_chrono_when_chi_low() {
     let profile_high = ze_compute::compute_profile(uid, "u".into(), Some(1986), None, false, &samples_high, &[], &[]);
 
     assert!(
-        profile_low.bio_age_est < profile_high.bio_age_est,
-        "lower chi_ze should yield lower bio_age estimate"
+        profile_low.bio_age_est > profile_high.bio_age_est,
+        "lower chi_ze should yield HIGHER bio_age estimate (older)"
+    );
+    let bio_low = profile_low.bio_age_est.expect("low-chi profile must yield bio_age");
+    assert!(
+        bio_low > 40.0,
+        "low chi must place bio_age above chrono (40), got {bio_low}"
+    );
+    let bio_high = profile_high.bio_age_est.expect("high-chi profile must yield bio_age");
+    assert!(
+        bio_high < 40.0,
+        "high chi must place bio_age below chrono (40), got {bio_high}"
     );
 }
 
@@ -250,11 +261,6 @@ fn test_cohort_percentile_best_in_cohort() {
 }
 
 #[test]
-#[ignore = "open: bio_age formula direction inverted vs χ_Ze health convention. \
-            Test assumes chi=0.1 → high bio_age (worst), but current formula \
-            D_norm = ALPHA*(1-chi) clamped at 1 yields LOW bio_age for low chi. \
-            Either formula needs sign flip OR the test convention is wrong. \
-            Tracked for Phase 4 review (server/AUDIT.md)."]
 fn test_cohort_percentile_worst_in_cohort() {
     // User bio_age = 55 (high), cohort all have bio_age <= 35 → percentile near 0
     let cohort: Vec<ZeSample> = (0..10)

@@ -167,29 +167,33 @@ Existing config at `/etc/nginx/sites-enabled/app.longevity.ge.conf` — no curre
 
 ## Open issues discovered while restoring CI gate (2026-05-07)
 
-### O-1 — bio_age direction inverted vs χ_Ze health convention
+### O-1 — bio_age direction inverted vs χ_Ze health convention ✅ CLOSED 2026-05-07
 
-`src/services/ze_compute.rs::compute_profile`:
+**Root cause:** `src/services/ze_compute.rs::compute_profile` had:
 ```
-D_norm   = clamp(D_NORM_ALPHA * (1 − chi_ze), 0, 1)
-bio_age  = chrono_age * (1 − D_norm * K)
+D_norm   = clamp(D_NORM_ALPHA · (1 − chi_ze), 0, 1)
+bio_age  = chrono_age · (1 − D_norm · K)
 ```
+The expression `(1 − D_norm·K)` is always ≤ 1, so bio_age was capped at
+chrono — could only be younger, never older. Contradicted root CONCEPT
+("с возрастом χ_Ze уменьшается → low chi = old").
 
-For chrono_age=35:
-- `chi=0.9` (high → healthy by χ_Ze convention) → `D_norm=0.12` → `bio_age≈33.1` (close to chrono).
-- `chi=0.1` (low → unhealthy)                   → `D_norm=1.08→clamp 1.0` → `bio_age≈19.25` (younger).
+**Fix (committed):** centred formula around `D_NORM_BASELINE = 0.5`:
+```
+signed_damage = (D_NORM_ALPHA · (BASELINE − chi)).clamp(-1, 1)
+bio_age       = chrono_age · (1 + signed_damage · K)
+```
+Now:
+- `chi=0.9` (healthy) → `signed_damage = -0.48` → `bio_age ≈ 0.736·chrono` (younger ✓)
+- `chi=0.5` (avg)     → `signed_damage = 0`     → `bio_age = chrono` ✓
+- `chi=0.1` (damaged) → `signed_damage = 0.48`  → `bio_age ≈ 1.264·chrono` (older ✓)
 
-This makes a "low χ_Ze" subject artificially YOUNGER, which contradicts
-root CONCEPT: "С возрастом χ_Ze уменьшается → low chi = old".
+`compute_ci::approx_chrono` reverse-formula updated correspondingly.
+Test `test_cohort_percentile_worst_in_cohort` un-ignored and passes;
+test `test_bio_age_above_chrono_when_chi_low` rewritten with correct
+expectations (low chi → bio_age > chrono).
 
-Test `test_cohort_percentile_worst_in_cohort` was authored against the
-correct direction; it now fails (returns pct=100 for "worst" subject).
-Test marked `#[ignore]` with this rationale; **formula needs review and
-sign correction**, OR the test is wrong — but they can't both be right.
-
-**Action:** decision required from Jaba before Phase 4.3 (Ze·Guide
-references χ_Ze as health metric; backend computing inverted bio_age
-will mislead the chat).
+**Final test gate:** 24/24 pass, 0 ignored.
 
 ### O-2 — feed_ranker `test_full_ranking_order` was tied at penalty=2.0
 
