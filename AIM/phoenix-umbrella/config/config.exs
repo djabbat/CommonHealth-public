@@ -30,6 +30,22 @@ config :aim_memory, AimMemory.Repo,
 
 config :aim_memory, ecto_repos: [AimMemory.Repo]
 
+# AIM_FS Port — set the absolute path of the `aim-fs` Rust binary and the
+# data root.  See AIM/docs/AIM_FS/SPEC.md §10.2.
+config :aim_memory, AimMemory.FS.Port,
+  binary: System.get_env("AIM_FS_BIN") || "aim-fs",
+  root: System.get_env("AIM_FS_ROOT") || Path.expand("~/.aim_fs"),
+  call_timeout: 5_000
+
+# Guided onboarding wizard. Reads YAML templates from `templates_dir` and
+# shells out to `aim-onboard` (Rust binary).
+config :aim_web, AimWebWeb.OnboardLive,
+  binary: System.get_env("AIM_ONBOARD_BIN") || "aim-onboard",
+  templates_dir:
+    System.get_env("AIM_ONBOARD_TEMPLATES_DIR") ||
+      Path.expand("../rust-core/crates/aim-onboarding/templates", __DIR__),
+  aim_root: System.get_env("AIM_FS_ROOT") || Path.expand("~/.aim_fs")
+
 config :phoenix, :json_library, Jason
 config :logger, level: :info
 

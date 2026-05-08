@@ -12,3 +12,9 @@ members = [
     "crates/cell_dt_python",
 ]
 resolver = "2"
+
+[workspace.dependencies]
+# Shared cross-project types — single source of truth for Ze constants and
+# parameter registry (audit P0 #6, 2026-05-08). Use in member crates as:
+#   lc-shared-types.workspace = true
+lc-shared-types = { path = "../shared-types" }

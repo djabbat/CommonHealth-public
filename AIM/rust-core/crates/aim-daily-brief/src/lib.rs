@@ -21,7 +21,13 @@ pub struct BriefSections {
     pub head: Option<String>,
     pub all_briefs: String,
     pub deadlines: String,
+    /// AIM_FS inbox digest (rendered by `aim_fs::render_inbox_block`) — empty
+    /// string when AIM_FS is not yet adopted.  Added 2026-05-08.
+    #[serde(default)]
+    pub aim_fs_inbox: String,
 }
+
+pub mod aim_fs;
 
 pub fn render_brief(today: NaiveDate, sections: &BriefSections) -> String {
     let mut parts: Vec<String> = Vec::new();
@@ -36,6 +42,12 @@ pub fn render_brief(today: NaiveDate, sections: &BriefSections) -> String {
     ));
     parts.push(String::new());
     parts.push(sections.all_briefs.clone());
+    if !sections.aim_fs_inbox.is_empty() {
+        parts.push(String::new());
+        parts.push("———".to_string());
+        parts.push(String::new());
+        parts.push(sections.aim_fs_inbox.clone());
+    }
     parts.push(String::new());
     parts.push("———".to_string());
     parts.push(String::new());
@@ -176,6 +188,7 @@ mod tests {
             head: None,
             all_briefs: "BRIEFS".into(),
             deadlines: "DEADLINES".into(),
+            aim_fs_inbox: String::new(),
         };
         let out = render_brief(d("2026-05-05"), &s);
         assert!(out.contains("☀️ AIM daily brief — 2026-05-05"));
@@ -190,6 +203,7 @@ mod tests {
             head: Some("Heads up: server reboot 14:00".into()),
             all_briefs: "B".into(),
             deadlines: "D".into(),
+            aim_fs_inbox: String::new(),
         };
         let out = render_brief(d("2026-05-05"), &s);
         assert!(out.starts_with("Heads up: server reboot 14:00"));
@@ -201,6 +215,7 @@ mod tests {
             head: Some(String::new()),
             all_briefs: "B".into(),
             deadlines: "D".into(),
+            aim_fs_inbox: String::new(),
         };
         let out = render_brief(d("2026-05-05"), &s);
         assert!(out.starts_with("☀️"));

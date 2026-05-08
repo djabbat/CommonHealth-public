@@ -230,11 +230,30 @@ fn compose(today: NaiveDate) -> Result<BriefSections, String> {
          not yet ported to Rust)"
     );
 
+    // Render AIM_FS inbox digest if the binary is present. Always non-fatal —
+    // the brief should work even before AIM_FS is adopted.
+    let aim_fs_inbox = render_aim_fs_block();
+
     Ok(BriefSections {
         head: None,
         all_briefs,
         deadlines,
+        aim_fs_inbox,
     })
+}
+
+/// Best-effort AIM_FS digest. Returns empty string if the binary or root is
+/// unavailable; callers should not block the brief on this.
+fn render_aim_fs_block() -> String {
+    let binary = std::env::var("AIM_FS_BIN").unwrap_or_else(|_| "aim-fs".to_string());
+    let aim_root = std::env::var("AIM_FS_ROOT").unwrap_or_else(|_| {
+        std::env::var("HOME")
+            .map(|h| format!("{h}/.aim_fs"))
+            .unwrap_or_else(|_| "/var/lib/aim_fs".to_string())
+    });
+    let tenant = std::env::var("AIM_FS_TENANT").unwrap_or_else(|_| "djabbat".to_string());
+    aim_daily_brief::aim_fs::render_inbox_block(&tenant, &binary, &aim_root, 5)
+        .unwrap_or_default()
 }
 
 /// Resolve a path that may be relative ("USER/projects") to a sensible

@@ -14,6 +14,10 @@ name = "server"
 path = "src/main.rs"
 
 [dependencies]
+# Shared cross-project types — single source of truth for Ze constants and
+# parameter registry (audit P0 #6, 2026-05-08).
+lc-shared-types = { path = "../shared-types" }
+
 # Web framework
 axum = { version = "0.7", features = ["macros", "multipart"] }
 tower = { version = "0.4", features = ["limit", "buffer"] }

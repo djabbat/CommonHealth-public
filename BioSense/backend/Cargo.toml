@@ -11,6 +11,10 @@ name = "biosense-backend"
 path = "src/main.rs"
 
 [dependencies]
+# Shared cross-project types — single source of truth for Ze constants
+# (audit P0 #6, 2026-05-08).
+lc-shared-types = { path = "../../shared-types" }
+
 axum = "0.7"
 tokio = { version = "1", features = ["full"] }
 serde = { version = "1", features = ["derive"] }

@@ -1455,6 +1455,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "lc-shared-types"
+version = "0.1.0"
+dependencies = [
+ "serde",
+ "serde_json",
+ "thiserror 1.0.69",
+]
+
+[[package]]
 name = "leb128fmt"
 version = "0.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1536,6 +1545,7 @@ dependencies = [
  "http-body-util",
  "hyper 1.9.0",
  "jsonwebtoken",
+ "lc-shared-types",
  "rand 0.8.5",
  "regex-lite",
  "reqwest",

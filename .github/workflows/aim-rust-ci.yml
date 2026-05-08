@@ -1,0 +1,121 @@
+name: AIM rust-core CI
+
+# PR + push CI for AIM/rust-core/ workspace.
+# Closes audit P0 #5 (no CI coverage for AIM rust crates outside the release workflow).
+# Created 2026-05-08 as part of overnight audit fixes.
+
+on:
+  push:
+    branches: [main, develop]
+    paths:
+      - 'AIM/rust-core/**'
+      - '.github/workflows/aim-rust-ci.yml'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'AIM/rust-core/**'
+      - '.github/workflows/aim-rust-ci.yml'
+  workflow_dispatch:
+
+env:
+  RUST_BACKTRACE: 1
+  CARGO_TERM_COLOR: always
+  RUSTFLAGS: -D warnings
+
+jobs:
+  fmt:
+    name: cargo fmt
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            AIM/rust-core
+            .github
+          sparse-checkout-cone-mode: false
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          components: rustfmt
+      - working-directory: AIM/rust-core
+        run: cargo fmt --all -- --check
+
+  clippy-aim-fs:
+    name: cargo clippy -p aim-fs
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            AIM/rust-core
+            .github
+          sparse-checkout-cone-mode: false
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          components: clippy
+      - uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: AIM/rust-core
+      - working-directory: AIM/rust-core
+        run: cargo clippy -p aim-fs --all-targets -- -D warnings
+
+  test-aim-fs:
+    name: cargo test -p aim-fs
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            AIM/rust-core
+            .github
+          sparse-checkout-cone-mode: false
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: AIM/rust-core
+      - working-directory: AIM/rust-core
+        run: cargo test -p aim-fs --all-targets
+
+  test-aim-kernel:
+    name: cargo test -p aim-kernel
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            AIM/rust-core
+            .github
+          sparse-checkout-cone-mode: false
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: AIM/rust-core
+      - working-directory: AIM/rust-core
+        run: cargo test -p aim-kernel --all-targets
+        continue-on-error: true   # legacy crate, may fail; this is a smoke check
+
+  build-aim-fs-bin:
+    name: build aim-fs port binary
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            AIM/rust-core
+            .github
+          sparse-checkout-cone-mode: false
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: AIM/rust-core
+      - working-directory: AIM/rust-core
+        run: cargo build -p aim-fs --bin aim-fs --release
+      - name: Smoke test the JSON Port
+        working-directory: AIM/rust-core
+        env:
+          AIM_FS_ROOT: /tmp/aim_fs_ci
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/aim_fs_ci
+          out=$(printf '{"op":"ping"}\n' | ./target/release/aim-fs)
+          echo "$out"
+          echo "$out" | grep -q '"pong":true'

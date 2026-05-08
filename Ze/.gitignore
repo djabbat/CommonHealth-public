@@ -31,3 +31,17 @@ Thumbs.db
 docs/
 Articles/
 simulator/data/
+
+# Binary artifacts — audit fix 2026-05-08 (P0 cross-project synthesis #4):
+# .docx/.pdf/.xlsx blob the repo with versioned binaries that don't diff.
+# Source-of-truth markdown lives in Materials/<topic>/*.md (track those only).
+Materials/**/*.docx
+Materials/**/*.pdf
+Materials/**/*.xlsx
+Materials/**/*.pptx
+*.docx
+*.xlsx
+*.pptx
+# .pdf allowed only in Articles/ (already gitignored above) — block elsewhere:
+*.pdf
+!Articles/*.pdf

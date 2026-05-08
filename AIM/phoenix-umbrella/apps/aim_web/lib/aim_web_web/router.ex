@@ -33,6 +33,12 @@ defmodule AimWeb.Router do
     live "/dashboard", DashboardLive, :index
     live "/drugs",    DrugInteractionsLive, :index
     live "/settings", SettingsLive,  :index
+    # AIM_FS approval queue (SPEC v11 ACCEPT 2026-05-08):
+    live "/inbox",            InboxLive,             :index
+    live "/onboard",          OnboardLive,           :index
+    live "/fs/projects",      ProjectsBrowserLive,   :index
+    live "/fs/patients",      PatientsBrowserLive,   :index
+    live "/fs/disputes",      DisputesLive,          :index
     # Phase A/B (HW1, 2026-05-06):
     live "/patients",    PatientLive,    :index
     live "/patients/:id", PatientWorkspaceLive, :show

@@ -25,10 +25,12 @@ use axum::{
 use serde::{Deserialize, Serialize};
 use std::net::SocketAddr;
 
-/// Canonical v*_active in **Python form** for internal computation;
-/// Article form is `2·python − 1 = -0.08738` (root PARAMETERS.md § 1).
-const V_STAR_ACTIVE_PY: f64 = 0.45631;
-const V_STAR_ACTIVE_ARTICLE: f64 = -0.08738;
+/// Canonical v*_active. Sourced from `lc-shared-types` to close cross-project
+/// drift (audit P0 #6, 2026-05-08).  Python form is used for internal
+/// computation; Article form is the canonical inter-subproject value
+/// (root PARAMETERS.md § 1).
+const V_STAR_ACTIVE_PY: f64 = lc_shared_types::ze::V_STAR_ACTIVE_PYTHON;
+const V_STAR_ACTIVE_ARTICLE: f64 = lc_shared_types::ze::V_STAR_ACTIVE_ARTICLE;
 
 #[tokio::main]
 async fn main() {

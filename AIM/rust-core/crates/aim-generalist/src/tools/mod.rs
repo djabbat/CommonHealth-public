@@ -16,6 +16,7 @@ mod http_tool;
 mod llm_tool;
 mod notes_tool;
 mod memory_tools;
+mod aim_fs_tools;
 mod citation_tools;
 mod web_search_tool;
 mod patch_tool;
@@ -76,6 +77,11 @@ impl Registry {
             Box::new(notes_tool::Notes),
             Box::new(memory_tools::MemoryRecall),
             Box::new(memory_tools::MemorySave),
+            // AIM_FS bridge — propose / approve / reject (SPEC §4.x).
+            Box::new(aim_fs_tools::MemorySaveAimFs),
+            Box::new(aim_fs_tools::InboxPendingAimFs),
+            Box::new(aim_fs_tools::InboxApproveAimFs),
+            Box::new(aim_fs_tools::InboxRejectAimFs),
             Box::new(citation_tools::VerifyPmid),
             Box::new(citation_tools::VerifyDoi),
             Box::new(citation_tools::SearchPubmed),

@@ -1,0 +1,38 @@
+# MCOA — .gitignore
+# Created 2026-05-08 as part of audit P0 fixes (cross-project synthesis #4: binary artifacts).
+
+# Rust build artifacts
+target/
+**/target/
+Cargo.lock
+
+# Phoenix/Elixir
+_build/
+deps/
+.elixir_ls/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Binary artifacts (audit P0 #4)
+*.docx
+*.xlsx
+*.pptx
+*.pdf
+results/*.png
+results/*.jpg
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Public-repo rule (если будет публичная зеркалка): только README.md
+# New .md must be added explicitly: git add -f file.md
+# *.md
+# !README.md

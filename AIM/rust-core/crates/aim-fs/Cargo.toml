@@ -1,0 +1,63 @@
+[package]
+name = "aim-fs"
+version = "0.1.0"
+edition = "2021"
+description = "AIM filesystem layer: 3-tier user/projects/auto store with approval queue + SQLite metadata + atomic events"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+serde_yaml = "0.9"
+rusqlite = { version = "0.31", features = ["bundled", "backup"] }
+r2d2 = "0.8"
+r2d2_sqlite = "0.24"
+ulid = "1"
+uuid = { version = "1", features = ["v4", "serde"] }
+sha2 = "0.10"
+hex = "0.4"
+chrono = { version = "0.4", features = ["serde"] }
+thiserror = "1"
+anyhow = "1"
+tokio = { version = "1", features = ["rt-multi-thread", "time", "sync"] }
+tracing = "0.1"
+
+[dev-dependencies]
+tempfile = "3"
+
+# Benchmark binary (compiled with main binaries) needs tempfile too.
+[dependencies.tempfile]
+version = "3"
+
+[lib]
+path = "src/lib.rs"
+
+[[bin]]
+name = "aim-fs"
+path = "src/bin/aim_fs.rs"
+
+[[bin]]
+name = "aim-fs-migrate"
+path = "src/bin/aim_fs_migrate.rs"
+
+[[bin]]
+name = "aim-fs-backup"
+path = "src/bin/aim_fs_backup.rs"
+
+[[bin]]
+name = "aim-fs-restore"
+path = "src/bin/aim_fs_restore.rs"
+
+[[bin]]
+name = "aim-fs-tg"
+path = "src/bin/aim_fs_tg.rs"
+
+[[bin]]
+name = "aim-fs-bench"
+path = "src/bin/aim_fs_bench.rs"
+
+[[bin]]
+name = "aim-fs-replay"
+path = "src/bin/aim_fs_replay.rs"
+
+[dependencies.walkdir]
+version = "2"

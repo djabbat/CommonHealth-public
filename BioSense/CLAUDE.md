@@ -32,7 +32,7 @@ took over. Per memory `feedback_no_docker` rule.
 
 **Код (Python/Rust) — Claude. Всё остальное — DeepSeek API.**
 Примеры: статьи о χ_Ze, peer review, введение/обсуждение, переводы.
-**Ключ:** `~/.aim_env → DEEPSEEK_API_KEY` · **Вход:** `~/Desktop/AIM/llm.py`
+**Ключ:** `~/.aim_env → DEEPSEEK_API_KEY` · **Вход:** `~/Desktop/LongevityCommon/AIM/llm.py`
 **Модели:** `deepseek-chat` (быстро) · `deepseek-reasoner` (научные рассуждения)
 
 ---

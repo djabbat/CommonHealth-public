@@ -29,3 +29,7 @@ axum = "0.7"
 tokio = { version = "1", features = ["full"] }
 tracing = "0.1"
 tracing-subscriber = "0.3"
+
+# Shared cross-project types — single source of truth for Ze constants and
+# parameter registry (audit P0 #6, 2026-05-08).
+lc-shared-types = { path = "../shared-types" }
