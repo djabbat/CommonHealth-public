@@ -119,3 +119,40 @@ jobs:
           out=$(printf '{"op":"ping"}\n' | ./target/release/aim-fs)
           echo "$out"
           echo "$out" | grep -q '"pong":true'
+
+  bench-aim-fs:
+    name: cargo bench-style smoke (aim-fs-bench)
+    runs-on: ubuntu-latest
+    needs: [build-aim-fs-bin]
+    # Allow a regression to PASS the build but flag it loudly in the log —
+    # we don't want a CI machine's noisy GitHub runner to block PRs on
+    # latency variance, but we do want visibility.
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            AIM/rust-core
+            .github
+          sparse-checkout-cone-mode: false
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: AIM/rust-core
+      - working-directory: AIM/rust-core
+        run: cargo build -p aim-fs --bin aim-fs-bench --release
+      - name: Run benchmark (small N for CI)
+        working-directory: AIM/rust-core
+        run: |
+          set -euo pipefail
+          out=$(./target/release/aim-fs-bench --n 200 --concurrency 2)
+          echo "$out"
+          # Extract p95 latency from "p95=NNN" patterns. SPEC budget:
+          #   propose+approve p95 < 500ms (500_000 µs)
+          #   search          p95 < 100ms (100_000 µs)
+          # CI runners are noisy; we log but don't gate.
+          if echo "$out" | grep -E "propose latency.*p95=" | awk -F'p95=' '{print $2}' | awk '{ if ($1 > 500000) exit 1 }'; then
+            echo "✓ propose p95 within budget"
+          else
+            echo "::warning::propose p95 exceeded SPEC budget (500_000 µs)"
+          fi

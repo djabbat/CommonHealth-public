@@ -203,11 +203,19 @@ impl AimFs {
                         outcome.similar_existing = hits
                             .into_iter()
                             .filter(|h| h.score >= DUP_SCORE_THRESHOLD && h.id != outcome.entity_id)
-                            .map(|h| SimilarHit {
-                                id: h.id,
-                                title: h.title,
-                                schema: h.schema,
-                                score: h.score,
+                            .map(|h| {
+                                let suggest = if h.score >= 4_500 {
+                                    "refines".to_string()
+                                } else {
+                                    "references".to_string()
+                                };
+                                SimilarHit {
+                                    id: h.id,
+                                    title: h.title,
+                                    schema: h.schema,
+                                    score: h.score,
+                                    suggest_link_type: suggest,
+                                }
                             })
                             .collect();
                     }
@@ -450,4 +458,8 @@ pub struct SimilarHit {
     pub title: Option<String>,
     pub schema: String,
     pub score: i64,
+    /// Suggested link type for the doctor to add explicitly:
+    ///   `refines`     — score ≥ 4_500 (very strong overlap → likely refinement)
+    ///   `references`  — 2_800 ≤ score < 4_500 (related, worth linking)
+    pub suggest_link_type: String,
 }
