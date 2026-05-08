@@ -186,6 +186,111 @@ impl AimFs {
     }
 }
 
+/// Stats / analytics — entity creation rate per week + top scopes / sources.
+#[derive(Debug, Clone, Serialize, Deserialize)]
+pub struct Stats {
+    pub tenant_id: String,
+    pub total_entities: u32,
+    pub by_schema: Vec<(String, u32)>,
+    pub by_status: Vec<(String, u32)>,
+    pub by_source: Vec<(String, u32)>,
+    pub by_scope: Vec<(String, u32)>,
+    /// (week_iso, total_created) bucketed last 12 weeks.
+    pub creation_per_week: Vec<(String, u32)>,
+    pub events_total: u32,
+    pub avg_approval_latency_ms: Option<f64>,
+}
+
+impl AimFs {
+    pub fn stats(&self, tenant_id: &str) -> Result<Stats> {
+        let conn = self.pool.get()?;
+
+        let total_entities: u32 = conn.query_row(
+            "SELECT COUNT(*) FROM entities WHERE tenant_id = ?1",
+            rusqlite::params![tenant_id],
+            |r| r.get::<_, i64>(0).map(|n| n as u32),
+        )?;
+        let events_total: u32 = conn
+            .query_row(
+                "SELECT COUNT(*) FROM events WHERE tenant_id = ?1",
+                rusqlite::params![tenant_id],
+                |r| r.get::<_, i64>(0).map(|n| n as u32),
+            )
+            .unwrap_or(0);
+
+        fn group_count(
+            conn: &Connection,
+            sql: &str,
+            tenant: &str,
+        ) -> Result<Vec<(String, u32)>> {
+            let mut s = conn.prepare(sql)?;
+            let rows = s
+                .query_map(rusqlite::params![tenant], |r| {
+                    Ok((r.get::<_, String>(0)?, r.get::<_, i64>(1)? as u32))
+                })?
+                .collect::<std::result::Result<Vec<_>, _>>()?;
+            Ok(rows)
+        }
+
+        let by_schema = group_count(
+            &conn,
+            "SELECT schema, COUNT(*) FROM entities WHERE tenant_id=?1 \
+             GROUP BY schema ORDER BY 2 DESC",
+            tenant_id,
+        )?;
+        let by_status = group_count(
+            &conn,
+            "SELECT status, COUNT(*) FROM entities WHERE tenant_id=?1 \
+             GROUP BY status ORDER BY 2 DESC",
+            tenant_id,
+        )?;
+        let by_source = group_count(
+            &conn,
+            "SELECT source, COUNT(*) FROM entities WHERE tenant_id=?1 \
+             GROUP BY source ORDER BY 2 DESC",
+            tenant_id,
+        )?;
+        let by_scope = group_count(
+            &conn,
+            "SELECT scope_project_ids, COUNT(*) FROM entities \
+             WHERE tenant_id=?1 AND scope_project_ids IS NOT NULL \
+             GROUP BY scope_project_ids ORDER BY 2 DESC LIMIT 25",
+            tenant_id,
+        )?;
+
+        // Creation per ISO-week (last 12 weeks).
+        let creation_per_week = group_count(
+            &conn,
+            "SELECT strftime('%Y-W%W', created_at) AS w, COUNT(*) \
+             FROM entities WHERE tenant_id=?1 \
+             GROUP BY w ORDER BY w DESC LIMIT 12",
+            tenant_id,
+        )?;
+
+        // Approval latency: AVG(approve_time - propose_time) for proposals.
+        let avg_approval_latency_ms: Option<f64> = conn
+            .query_row(
+                "SELECT AVG((julianday(updated_at) - julianday(created_at)) * 86400000.0) \
+                 FROM proposals WHERE tenant_id=?1 AND status='approved'",
+                rusqlite::params![tenant_id],
+                |r| r.get::<_, Option<f64>>(0),
+            )
+            .unwrap_or(None);
+
+        Ok(Stats {
+            tenant_id: tenant_id.to_string(),
+            total_entities,
+            by_schema,
+            by_status,
+            by_source,
+            by_scope,
+            creation_per_week,
+            events_total,
+            avg_approval_latency_ms,
+        })
+    }
+}
+
 /// Per-tenant aggregated user profile — derived view, not stored.
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct ProfileView {

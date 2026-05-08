@@ -242,11 +242,20 @@ impl AimFs {
     }
 }
 
-/// Quote each query term so FTS5 treats them literally — prevents accidents
-/// like `:` (column qualifier) or `*` (prefix marker) and the doctor's own
-/// punctuation breaking the parse.
+/// Quote each query term + insert FTS5 `OR` between them.  We pick OR over
+/// the default AND because:
+///   * the query strings come from the doctor's free-form input (chat box)
+///     so multi-token AND would too often miss obvious hits;
+///   * BM25 ranking is robust to noise — common-word hits get low scores
+///     and fall below the caller's threshold;
+///   * we use this same primitive for the `propose()` similarity check
+///     (where catching partial-match dupes is the whole point).
+///
+/// Quoting protects from accidental punctuation (`:`, `*`, …) breaking the
+/// FTS5 parse.
 fn prepare_fts_query(s: &str) -> String {
-    s.split_whitespace()
+    let toks: Vec<String> = s
+        .split_whitespace()
         .filter_map(|tok| {
             let t: String = tok
                 .chars()
@@ -258,8 +267,8 @@ fn prepare_fts_query(s: &str) -> String {
                 Some(format!("\"{}\"", t))
             }
         })
-        .collect::<Vec<_>>()
-        .join(" ")
+        .collect();
+    toks.join(" OR ")
 }
 
 fn count_occurrences(haystack: &str, needle: &str) -> usize {

@@ -170,6 +170,9 @@ defmodule AimMemory.FS do
   def entity_detail(tenant_id, id),
     do: P.call(%{op: "entity_detail", tenant_id: tenant_id, id: id})
 
+  @spec stats(tenant_id) :: {:ok, map()} | {:error, term()}
+  def stats(tenant_id), do: P.call(%{op: "stats", tenant_id: tenant_id})
+
   defp default_policy do
     %{
       auto_approve_user_commands: true,

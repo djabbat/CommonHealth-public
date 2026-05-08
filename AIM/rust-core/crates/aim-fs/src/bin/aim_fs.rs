@@ -100,6 +100,9 @@ enum Cmd {
         tenant_id: String,
         id: String,
     },
+    Stats {
+        tenant_id: String,
+    },
 }
 
 fn default_limit() -> i64 {
@@ -295,6 +298,10 @@ fn dispatch(fs: &AimFs, cmd: Cmd) -> Reply {
             Err(e) => err(e),
         },
         Cmd::EntityDetail { tenant_id, id } => match fs.entity_detail(&tenant_id, &id) {
+            Ok(v) => ok(serde_json::to_value(v).unwrap()),
+            Err(e) => err(e),
+        },
+        Cmd::Stats { tenant_id } => match fs.stats(&tenant_id) {
             Ok(v) => ok(serde_json::to_value(v).unwrap()),
             Err(e) => err(e),
         },

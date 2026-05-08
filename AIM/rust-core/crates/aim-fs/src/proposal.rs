@@ -2,11 +2,18 @@ use crate::entity::create_entity_in_tx;
 use crate::error::{AimFsError, Result};
 use crate::events::log_event_in_tx;
 use crate::links::{add_link_in_tx, find_active_contradictors};
+use crate::search::SearchScope;
 use crate::types::*;
 use crate::AimFs;
 use chrono::Utc;
 use rusqlite::{params, OptionalExtension};
 use ulid::Ulid;
+
+/// Threshold for "may be duplicate" warning. Empirically tuned over the
+/// 358-entity production corpus — 2800 sits between the average BM25 score
+/// for unrelated co-token false-positives (~2700) and a real same-topic hit
+/// (~3100+). Title-on-title hits in feedback_v1 routinely exceed 3000.
+const DUP_SCORE_THRESHOLD: i64 = 2_800;
 
 impl AimFs {
     /// Propose a new entity. Goes through approval queue unless auto-approved.
@@ -163,6 +170,7 @@ impl AimFs {
             proposal_id: proposal_id.clone(),
             auto_approved: auto_approve,
             entity_status: final_status,
+            similar_existing: vec![], // filled below, after commit
         };
 
         // 6. mark idempotency done
@@ -171,6 +179,42 @@ impl AimFs {
         }
 
         tx.commit()?;
+
+        // Post-commit: search for similar existing entities. Read-only, so
+        // no need to be in the BEGIN IMMEDIATE tx.  Only run for schemas where
+        // dupes are common (feedback / fact / user_fact).  Skip when this
+        // entity itself was just-created (it would always match strongly).
+        let mut outcome = outcome;
+        if matches!(
+            outcome.entity_status,
+            EntityStatus::Pending | EntityStatus::Disputed
+        ) && matches!(
+            new.schema.as_str(),
+            "feedback_v1" | "fact_v1" | "user_fact_v1"
+        ) {
+            if let Some(t) = &new.title {
+                if !t.trim().is_empty() {
+                    let scope = SearchScope {
+                        schema: Some(new.schema.clone()),
+                        status: Some("active".into()),
+                        ..Default::default()
+                    };
+                    if let Ok(hits) = self.search(tenant_id, t, &scope, 5) {
+                        outcome.similar_existing = hits
+                            .into_iter()
+                            .filter(|h| h.score >= DUP_SCORE_THRESHOLD && h.id != outcome.entity_id)
+                            .map(|h| SimilarHit {
+                                id: h.id,
+                                title: h.title,
+                                schema: h.schema,
+                                score: h.score,
+                            })
+                            .collect();
+                    }
+                }
+            }
+        }
+
         Ok(outcome)
     }
 
@@ -393,4 +437,17 @@ pub struct ProposeOutcome {
     pub proposal_id: String,
     pub auto_approved: bool,
     pub entity_status: EntityStatus,
+    /// Existing active entities that closely match the new title — may be
+    /// duplicates. Caller decides whether to merge / supersede / proceed.
+    /// Empty when no FTS5 hit crosses [`DUP_SCORE_THRESHOLD`].
+    #[serde(default)]
+    pub similar_existing: Vec<SimilarHit>,
+}
+
+#[derive(Debug, Clone, serde::Serialize, serde::Deserialize)]
+pub struct SimilarHit {
+    pub id: String,
+    pub title: Option<String>,
+    pub schema: String,
+    pub score: i64,
 }
