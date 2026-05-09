@@ -115,16 +115,16 @@ systemd timer на сервере, каждые N минут:
 ## Timeline + sequencing
 
 ```
-Week 1       Week 2       Week 3       Week 4       Week 5       Week 6       Week 7   ...
+Week 1 Week 2 Week 3 Week 4 Week 5 Week 6 Week 7 ...
 └─Phase1──────────────┐
 └─Phase2 (parallel)─┐ │
-                    │ └─Phase3 BioSense──────────┐
-                    │                            │
-                    │                            └─Phase4 social layer (4w)──────────────┐
-                    │                                                                     │
-                    └ ready for Phase4                                                    │
-                                                                                          ▼
-                                                                                       MVP @ app.longevity.ge
+ │ └─Phase3 BioSense──────────┐
+ │ │
+ │ └─Phase4 social layer (4w)──────────────┐
+ │ │
+ └ ready for Phase4 │
+ ▼
+ MVP @ app.longevity.ge
 ```
 
 **Total:** ~7 weeks к полноценному social layer MVP, при условии нормальной нагрузки. Параллельная Phase 2 экономит неделю.

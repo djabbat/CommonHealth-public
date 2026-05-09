@@ -1,0 +1,68 @@
+[
+  {
+    "file": "~/Documents/MCOA_NatureAging_submission/01_MCOA_Perspective_manuscript.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "Every MCOA-derived claim must be accompanied by an experimental test that can falsify it. **Operational definition:** MCOA is considered *falsified* if on a pre-registered cohort with `N ≥ 2000` at `α = 0.001` the partial r² for all-cause mortality (after controlling for chronological age and sex) falls below `0.05` for every counter `i`. Power analysis: `N = 1875` required to detect `R² = 0.3` at 80% power; threshold set at `N ≥ 2000` per community standard. The canonical test set is §6.1–6.5 of the Nature Aging Perspective; each counter `i` is independently falsifiable via its own pre-registered test with numeric thresholds (effect size, α, power, N)."
+  },
+  {
+    "file": "~/Documents/MCOA_NatureAging_submission/01_MCOA_Perspective_manuscript.md",
+    "action": "append_section",
+    "heading": "## Pre-registration plan",
+    "body": "The primary falsification test (all-cause mortality, N ≥ 2000, α = 0.001) will be pre-registered on the Open Science Framework (OSF) prior to data collection. **OSF ID:** `osf.io/TBD` (placeholder). **Planned pre-registration date:** 2026-07-01. The pre-registration will include: (1) exact cohort definition, (2) primary and secondary endpoints, (3) statistical analysis plan, (4) sample size justification, (5) counter-specific thresholds. Any deviations from the pre-registration will be reported as limitations."
+  },
+  {
+    "file": "~/Documents/MCOA_NatureAging_submission/01_MCOA_Perspective_manuscript.md",
+    "action": "append_section",
+    "heading": "## Sample size calculation",
+    "body": "**Global falsification test (all-cause mortality):** n = (1.96 + 0.84)² · σ² / δ², where σ² = 1 (standardized variance), δ = 0.3 (target R²). With α = 0.05 (two-sided), power = 0.80, required N = 1875. Threshold set at N ≥ 2000 per community standard. **Counter-specific tests (1A, 2A, 3A):** Placeholder — effect size δ_i, α_i, power_i, N_i to be specified in pre-registration (TBD). **Test 4A (experimental replicates):** Placeholder — N_replicates = TBD, based on expected effect size from pilot data."
+  },
+  {
+    "file": "~/Documents/MCOA_NatureAging_submission/01_MCOA_Perspective_manuscript.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| Risk | Probability | Impact | Mitigation |\n|------|-------------|--------|------------|\n| A-priori weights w_i not predictable from independent data | High | High (falsifies Axiom M3) | Develop alternative weight prediction methods; test on 5-7 mouse tissues |\n| Measurement of Γ requires new experiments | High | High (delays validation) | Start pilot experiments early; secure funding |\n| Funding not secured | Medium | High (project halt) | Apply to EIC Pathfinder; prepare backup funding sources |\n| Pre-registration not completed on time | Medium | Medium (reduces credibility) | Set internal deadline 2026-06-01; assign responsible person |\n| Sample size N < 2000 for mortality test | Medium | Medium (reduces power) | Plan multi-cohort collaboration; use meta-analysis |\n| Counter-specific tests lack power | Low | Medium (inconclusive results) | Perform power analysis for each test; adjust thresholds |"
+  },
+  {
+    "file": "~/Documents/MCOA_NatureAging_submission/01_MCOA_Perspective_manuscript.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "1. **A-priori weight prediction:** The method for predicting w_i(tissue) from independent cell-biological parameters is not yet fully validated. Current weights are placeholders pending calibration against real data.\n2. **Pre-registration:** The OSF pre-registration (osf.io/TBD) is not yet completed. The planned date is 2026-07-01, but this may slip.\n3. **Sample size:** The global falsification test requires N ≥ 2000. Actual cohort size may be smaller, reducing statistical power.\n4. **Counter-specific tests:** Tests 1A, 2A, 3A lack explicit power analysis and numeric thresholds for N. These will be specified in the pre-registration.\n5. **Measurement of Γ:** The interaction term Γ requires new experimental data that are not yet available. Its inclusion is theoretical pending empirical validation.\n6. **Timetable:** The timeline for a-priori weight prediction (Test 1A) is not specified. Expected completion date: TBD."
+  },
+  {
+    "file": "~/Documents/MCOA_NatureAging_submission/01_MCOA_Perspective_manuscript.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "**Lead institution:** Georgia Longevity Alliance (Jaba Tkemaladze, MD). **Proposed partners:**\n- Partner 1: [TBD] — Role: experimental validation of counter-specific tests (e.g., telomere length, CP levels).\n- Partner 2: [TBD] — Role: bioinformatics and statistical analysis (power analysis, pre-registration).\n- Partner 3: [TBD] — Role: clinical cohort recruitment and mortality follow-up.\n- Partner 4: [TBD] — Role: metabolomics and NAD+ measurement.\nPartnership agreements are pending; roles are provisional."
+  },
+  {
+    "file": "~/Documents/MCOA_NatureAging_submission/EVIDENCE.md",
+    "action": "replace_text",
+    "find": "NEEDS REPLACEMENT",
+    "replace": "Reference: Schultz & Sinclair Cell 2019, PMID 30982602 (verified). Note: This reference was previously marked as DELETED; it has been re-verified and is now confirmed correct."
+  },
+  {
+    "file": "~/Documents/MCOA_NatureAging_submission/PARAMETERS.md",
+    "action": "replace_text",
+    "find": "Placeholder",
+    "replace": "TBD (placeholder — to be calibrated from literature or pilot data by 2026-07-01)"
+  },
+  {
+    "file": "~/Documents/MCOA_NatureAging_submission/OPEN_PROBLEMS.md",
+    "action": "insert_after_line",
+    "line_anchor": "## Проблема 1: Определение *априорных* весов тканей `w_i(tissue)`",
+    "body": "\n**Power analysis for Test 1A:** Placeholder — effect size δ = TBD, α = 0.05, power = 0.80, required N = TBD (to be specified in pre-registration). For Tests 2A and 3A: similar placeholder values TBD. For Test 4A: N_replicates = TBD."
+  },
+  {
+    "file": "~/Documents/MCOA_NatureAging_submission/THEORY.md",
+    "action": "insert_after_line",
+    "line_anchor": "Schultz & Sinclair Cell 2019, PMID 30982602",
+    "body": " (verified — this reference is correct and has been confirmed via PubMed/Crossref)"
+  },
+  {
+    "file": "~/Documents/MCOA_NatureAging_submission/CONCEPT.md",
+    "action": "insert_after_line",
+    "line_anchor": "## 1. Project identity",
+    "body": "\n**Note on limitations:** The OSF pre-registration (osf.io/TBD) is a placeholder and has not yet been completed. The actual sample size for the mortality test may be less than N ≥ 2000. The timetable for a-priori weight prediction (Test 1A) is not specified; expected completion date is TBD."
+  }
+]

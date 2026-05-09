@@ -1,0 +1,38 @@
+[
+  {
+    "file": "/home/user/LongevityCommon/CytogeneticTree/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "The following numeric thresholds are binding for all hypothesis tests in this project. These values supersede any earlier draft values found elsewhere in the document.\n\n| Parameter | Value |\n|-----------|-------|\n| Significance level (α) | 0.001 |\n| Statistical power (1−β) | 0.95 |\n| Effect size (Cohen's d) | 1.2 |\n| Sample size per arm (N) | TBD (see §Sample size calculation) |\n| Test type | Two-sample t-test, two-tailed |\n\n**Decision rule:** The null hypothesis (no difference in proliferation rate between old-centriole and young-centriole lineages) is rejected if and only if the observed p-value < 0.001 and the observed effect size ≥ 1.2. Any deviation from these thresholds must be pre-registered as an amendment."
+  },
+  {
+    "file": "/home/user/LongevityCommon/CytogeneticTree/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Sample size calculation",
+    "body": "Sample size is calculated using the standard formula for a two-sample t-test (two-tailed):\n\nn = (Z_{α/2} + Z_{β})² · 2σ² / δ²\n\nWhere:\n- Z_{α/2} = Z_{0.0005} ≈ 3.29 (for α = 0.001, two-tailed)\n- Z_{β} = Z_{0.05} ≈ 1.645 (for power = 0.95, β = 0.05)\n- σ² = pooled variance (estimated from pilot data: TBD)\n- δ = minimum detectable effect size (d = 1.2)\n\nPlugging in Z-values: (3.29 + 1.645)² = (4.935)² ≈ 24.36\n\nThus: n = 24.36 · 2σ² / δ²\n\nFor a standardized effect size d = δ/σ = 1.2, this simplifies to:\nn = 24.36 · 2 / (1.2)² = 24.36 · 2 / 1.44 ≈ 33.83\n\n**Result:** N = 34 lineages per arm (rounded up). This is the single binding sample size for all primary analyses. All earlier draft values (N=6, N=10, N=15, N=24, N=43) are superseded and should be removed from the document."
+  },
+  {
+    "file": "/home/user/LongevityCommon/CytogeneticTree/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "The following limitations are acknowledged:\n\n1. **Centriole age as a proxy for cellular age:** Centriole age may not perfectly correlate with overall cellular senescence, as other aging mechanisms (telomere attrition, epigenetic drift, mitochondrial dysfunction) operate independently.\n\n2. **RITE labelling efficiency:** The RITE system may not achieve 100% labelling efficiency, leading to incomplete lineage tracing.\n\n3. **In vitro vs. in vivo:** Experiments are performed in cultured cells; results may not fully recapitulate in vivo differentiation dynamics.\n\n4. **Asymmetric division assumption:** The model assumes that centriole inheritance is consistently asymmetric in stem cell divisions; exceptions (symmetric divisions) may complicate tree reconstruction.\n\n5. **Sample size limitation:** The calculated sample size (N=34 per arm) may be insufficient to detect small effect sizes (d < 1.2).\n\n6. **Technical artefacts:** Cell death, failed labelling, and imaging artefacts may reduce usable data.\n\n7. **Generalizability:** Findings in one cell type (e.g., neural stem cells) may not generalize to other tissues.\n\n8. **Reference verification:** One reference (Lee & Luo 1999) remains unverified; the associated claim about MARCM and asymmetric centriole inheritance should be treated as provisional until verification is complete."
+  },
+  {
+    "file": "/home/user/LongevityCommon/CytogeneticTree/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "| Role | Institution / Person | Status |\n|------|---------------------|--------|\n| Principal Investigator | TBD | TBD |\n| Host institution | TBD | TBD |\n| RITE labelling expert | TBD | TBD |\n| Microscopy core facility | TBD | TBD |\n| Bioinformatics / lineage reconstruction | TBD | TBD |\n| Statistical consulting | TBD | TBD |\n| Funding body | LongevityCommon (umbrella) | Confirmed |\n\n**Note:** Specific names and institutions will be added as collaborations are formalized. The current TBD entries are placeholders for the early-stage proposal."
+  },
+  {
+    "file": "/home/user/LongevityCommon/CytogeneticTree/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| # | Risk | Probability (1-5) | Impact (1-5) | Mitigation |\n|---|------|-------------------|--------------|------------|\n| 1 | RITE labelling fails to produce distinguishable fluorescent pulses | 3 | 5 | Pilot test with positive control; use alternative labelling system (e.g., SNAP-tag) as backup |\n| 2 | Centriole inheritance is not consistently asymmetric in target cell type | 2 | 4 | Pre-screen multiple cell types; use only those with validated asymmetric division |\n| 3 | Sample size insufficient to detect effect (underpowered) | 2 | 3 | Use sequential analysis design; increase N if interim analysis shows trend |\n| 4 | Imaging artefacts or phototoxicity reduce data quality | 3 | 3 | Optimize imaging parameters; use light-sheet microscopy if available |\n| 5 | Unverified reference (Lee & Luo 1999) contains fabrication or misattribution | 4 | 5 | Verify reference via PubMed; if unverifiable, remove claim and replace with verified citation |\n| 6 | Inconsistency between CONCEPT.md and PARAMETERS.md statistical parameters | 5 | 4 | Harmonize all parameter files to single set (α=0.001, power=0.95, N=34) before submission |\n| 7 | Pre-registration not completed before data collection | 2 | 5 | Set calendar reminder; complete OSF registration at least 1 week before experiment start |"
+  },
+  {
+    "file": "/home/user/LongevityCommon/CytogeneticTree/PARAMETERS.md",
+    "action": "replace_text",
+    "find": "α=0.05, β=0.20",
+    "replace": "α=0.001, β=0.05 (power=0.95)"
+  }
+]

@@ -126,24 +126,24 @@ docker build -t telomere-backend .
 
 # Run container
 docker run -p 3005:3005 \
-  -e DATABASE_URL=postgres://user:pass@host/telomere_db \
-  telomere-backend
+ -e DATABASE_URL=postgres://user:pass@host/telomere_db \
+ telomere-backend
 ```
 
 ## Architecture
 
 ```
 src/
-├── main.rs           # Application entry point, server setup
-├── config.rs         # Configuration loading
-├── error.rs          # Error types and handling
-├── models.rs         # Data structures and validation
-├── routes.rs         # HTTP route handlers
-├── db.rs             # Database operations
-└── lib.rs            # Library exports
+├── main.rs # Application entry point, server setup
+├── config.rs # Configuration loading
+├── error.rs # Error types and handling
+├── models.rs # Data structures and validation
+├── routes.rs # HTTP route handlers
+├── db.rs # Database operations
+└── lib.rs # Library exports
 
 migrations/
-└── 001_initial.sql   # Database schema
+└── 001_initial.sql # Database schema
 ```
 
 ## Testing

@@ -1,0 +1,32 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "replace_text",
+    "find": "- **σ (pooled SD):** TBD (placeholder; based on PAM-13 SD from Hibbard 2004 PMID 15333167, to be confirmed)",
+    "replace": "- **σ (pooled SD):** TBD (placeholder; to be derived from PAM-13 SD in Hibbard 2004 PMID 15333167 or, if unavailable, from a systematic review of PAM-13 SDs in comparable populations; current placeholder value = 10, pending confirmation)"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "- **Generalisability:** Single-centre design; results may not extend to other healthcare systems or patient populations.\n- **Measurement validity:** PAM-13 is a proprietary instrument; its psychometric properties in the target language/culture are not yet validated.\n- **Attrition risk:** 6-month follow-up may be insufficient to capture long-term activation changes; dropout rate unknown.\n- **Technology dependence:** LLM-based intervention requires digital literacy and internet access; selection bias towards more activated patients.\n- **Blinding:** Patients and clinicians cannot be blinded to group assignment; performance bias possible.\n- **Sample size uncertainty:** σ placeholder (TBD) may underestimate true variability, reducing power.\n- **Secondary outcomes multiplicity:** Bonferroni correction for ≤2 secondary endpoints may still inflate Type I error if exploratory analyses are added post hoc.\n- **Interim analysis:** Futility-only stopping rule may not detect early harm beyond AE rate threshold."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "- **Lead PI:** Name TBD (to be confirmed)\n- **Co-I (Clinical):** Name TBD (to be confirmed)\n- **Co-I (Data management):** Name TBD (to be confirmed)\n- **Tkemaladze, N.** — Clinical coordination (affiliation TBD)\n- **Samanishvili, G.** — Data engineering (affiliation TBD)\n- **Insignia Health** — PAM-13 licensing and support (letter of support: pending)\n- **Fraunhofer IGD** — LLM infrastructure (letter of support: pending)\n- **Tbilisi State University (TSU)** — Biostatistics consulting (letter of support: pending)\n- **University of Copenhagen (UCPH)** — Health economics analysis (letter of support: pending)"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "replace_text",
+    "find": "- **Primary endpoint:** PAM-13 Δ ≥ 5.4 points (MCID)\n- **Significance level:** α = 0.05 (two-sided) for primary analysis; Bonferroni-adjusted α = 0.025 for each of ≤2 secondary endpoints. No other α thresholds (e.g., p < 0.001) are used.\n- **Power:** 0.80\n- **Sample size:** N ≥ 55 per group (see Sample size calculation)\n- **Stopping rule:** Adverse event rate >5% in intervention arm (any AE, assessed monthly by DSMB)\n- **Interim analysis:** Planned at N=100 (50 per group) for futility only (O'Brien-Fleming boundary, α-spending = 0.005). If conditional power <20%, trial will be stopped for futility.\n- **Primary analysis:** Intention-to-treat (ITT); per-protocol sensitivity analysis as secondary",
+    "replace": "- **Primary endpoint:** PAM-13 Δ ≥ 5.4 points (MCID)\n- **Significance level:** α = 0.05 (two-sided) for primary analysis; Bonferroni-adjusted α = 0.025 for each of ≤2 secondary endpoints. No other α thresholds (e.g., p < 0.001) are used.\n- **Power:** 0.80\n- **Sample size:** N ≥ 55 per group (see Sample size calculation)\n- **Stopping rule:** Adverse event rate >5% in intervention arm (any AE, assessed monthly by DSMB)\n- **Interim analysis:** Planned at N=100 (50 per group) for futility only (O'Brien-Fleming boundary, α-spending = 0.005). If conditional power <20%, trial will be stopped for futility.\n- **Primary analysis:** Intention-to-treat (ITT); per-protocol sensitivity analysis as secondary\n- **Consistency note:** All falsifiability thresholds are identical across CONCEPT.md and THEORY.md. Any future updates must be synchronised across both files."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "insert_after_line",
+    "line_anchor": "## Pre-registration plan",
+    "body": "\n- **Consistency note:** The set of secondary outcomes listed here (MMAS-8, EQ-5D-5L, hospitalisations) must match exactly the set in THEORY.md. Currently, THEORY.md includes 'physician time per visit' as an additional secondary outcome; this discrepancy must be resolved before pre-registration."
+  }
+]

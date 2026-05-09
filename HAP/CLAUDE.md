@@ -23,4 +23,4 @@
 
 - CommonHealth CLAUDE.md: `~/Desktop/CommonHealth/CLAUDE.md`
 - DeepSeek API: `~/.aim_env → DEEPSEEK_API_KEY`
-- Самоцитирование: DOI 10.65649/d76f6c48 (HAP Theory, Longevity Horizon 2026)
+- Самоцитирование: (HAP Theory, Longevity Horizon 2026)

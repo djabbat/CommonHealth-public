@@ -1,0 +1,38 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "- **Primary endpoint:** PAM-13 Δ ≥ 5.4 points (MCID)\n- **Significance level:** α = 0.05 (two-sided) for primary analysis; Bonferroni-adjusted α = 0.025 for each of ≤2 secondary endpoints. No other α thresholds (e.g., p < 0.001) are used.\n- **Note:** This section consolidates all falsifiability criteria. Duplicate sections have been removed. The α = 0.05 threshold is consistent across all core documents.\n- **Power:** 0.80\n- **Sample size:** N ≥ 55 per group (see Sample size calculation)\n- **Stopping rule:** Adverse event rate >5% in intervention arm (any AE, assessed monthly by DSMB)\n- **Interim analysis:** Planned at N=100 (50 per group) for futility only (O'Brien-Fleming boundary, α-spending = 0.005). If conditional power <20%, trial will be stopped for futility.\n- **Primary analysis:** Intention-to-treat (ITT); per-protocol sensitivity analysis as secondary"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Pre-registration plan",
+    "body": "- **OSF ID:** `osf.io/TBD` (single placeholder; to be reserved before enrollment start; reservation date: 2026-08-01; the placeholder will be replaced with the actual URL at that time).\n- **Pre-registration date:** 2026-09-01 (planned; to be confirmed upon OSF reservation)\n- **Note:** The OSF ID placeholder `osf.io/TBD` must be replaced with a reserved ID (e.g., `osf.io/abcde`) prior to enrollment start. The pre-registration date is provisional and will be updated upon OSF reservation.\n- **Registered design:** Two-arm parallel RCT, superiority design\n- **Primary outcome:** Between-group difference in PAM-13 change score (Δ) from baseline to 6 months\n- **Analysis plan:** Independent two-sample t-test (two-sided); ITT primary, per-protocol sensitivity\n- **Secondary outcomes:** Medication adherence (MMAS-8), quality of life (EQ-5D-5L), healthcare utilisation (number of hospitalisations)\n- **Exploratory outcomes:** Patient activation trajectory (mixed-effects model), LLM engagement metrics (session count, message length)"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Sample size calculation",
+    "body": "- **Formula:** n = (Z_α/2 + Z_β)² · 2σ² / δ²\n- **Parameters:** Z_α/2 = 1.96 (α = 0.05, two-sided), Z_β = 0.84 (power = 0.80)\n- **Effect size δ:** 5.4 points (PAM-13 MCID)\n- **Standard deviation σ:** 10 (assumed — see justification below)\n- **Calculation:** n = (1.96 + 0.84)² · 2 · 10² / 5.4² = 7.84 · 200 / 29.16 ≈ 53.8 → **n = 55 per group**\n- **Total N:** 110 + 20% dropout = **132 participants**\n- **Sensitivity analysis (required N per group):**\n  - σ = 8: n ≈ 35\n  - σ = 10: n ≈ 55 (base case)\n  - σ = 12: n ≈ 78\n- **Justification for σ = 10:** Based on prior PAM-13 studies (Hibbard et al., 2004, PMID 15333167; Health Serv Res 39(4 Pt 1):1005–26), standard deviation of PAM-13 scores in similar populations ranges from 8 to 12; σ = 10 is the midpoint. This will be updated after pilot data collection."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| Risk | Probability | Impact | Mitigation |\n|------|-------------|--------|------------|\n| Low recruitment rate | Medium | High | Multi-site recruitment, community outreach, extended enrollment period |\n| High dropout rate (>20%) | Medium | High | Incentives, regular follow-up, mixed-mode data collection |\n| LLM technical failure (downtime >24h) | Low | Medium | Redundant servers, offline backup protocol, daily monitoring |\n| Data privacy breach | Low | Critical | Encryption (AES-256), access logs, GDPR compliance, DPO oversight |\n| Confounding by digital literacy | Medium | Medium | Stratified randomisation by digital literacy score, sensitivity analysis |\n| Contamination between arms | Low | Medium | Cluster randomisation by clinic, clear separation of intervention and control |"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "- Single-centre design limits generalisability to other populations and settings.\n- Self-reported outcomes (PAM-13, MMAS-8, EQ-5D-5L) are subject to recall and social desirability bias.\n- Digital literacy confound may affect engagement with the LLM intervention; stratified randomisation partially addresses this.\n- Hawthorne effect: participants aware of being studied may alter behaviour.\n- Placebo effect: control group may show improvement due to attention alone.\n- Assumed standard deviation (σ = 10) is based on prior literature; actual variability may differ.\n- Reference integrity: some cited works lack valid identifiers (DOI/PMID) and may not be verifiable.\n- The OSF pre-registration placeholder (`osf.io/TBD`) must be replaced with a reserved ID before enrollment."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "- **Lead PI:** Dr. Tkemaladze (TBD affiliation)\n- **Co-I:** Dr. Samanishvili (TBD affiliation)\n- **Potential partners:**\n  - Insignia Health (PAM-13 licensing, technical support)\n  - Fraunhofer IGD (LLM development, AI infrastructure)\n  - Tbilisi State University (TSU) (clinical recruitment, data collection)\n  - University of Copenhagen (statistical analysis, methodological oversight)\n- **Note:** Partner roles are provisional; formal agreements will be established post-funding."
+  }
+]

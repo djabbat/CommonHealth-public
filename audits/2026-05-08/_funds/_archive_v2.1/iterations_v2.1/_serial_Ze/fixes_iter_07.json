@@ -1,0 +1,32 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "| Hypothesis | Null (H₀) | Alternative (H₁) | Effect size (δ) | α | Power | Minimum N | Decision rule |\n|------------|-----------|-------------------|-----------------|---|-------|-----------|---------------|\n| v*_active > v*_passive | v*_active ≤ v*_passive | v*_active > v*_passive | d = TBD (from pilot) | 0.05 | 0.80 | TBD | Reject H₀ if p < 0.001 (Bonferroni-corrected for 3 comparisons) |\n| χ_Ze vs aging clock | ρ = 0 | ρ ≠ 0 | r = TBD (Fisher z) | 0.05 | 0.80 | TBD | Reject H₀ if p < 0.001 |\n| MCID for v*_active | δ ≤ 0 | δ > 0 | δ = TBD (anchor-based) | 0.05 | 0.80 | TBD | Reject H₀ if lower bound of 95% CI > 0 |\n\n**Note:** All effect sizes and sample sizes are placeholders (TBD) pending pilot data analysis. Final thresholds will be pre-registered before data collection."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Pre-registration plan",
+    "body": "- **OSF repository:** osf.io/TBD\n- **Planned pre-registration date:** 2026-09-01\n- **Pre-registration contents:**\n  - Primary and secondary hypotheses with operational definitions\n  - Analysis plan (including stopping rules, outlier handling, multiple comparison correction)\n  - Data collection protocols and exclusion criteria\n  - Power analysis with all parameters\n- **Note:** Pre-registration will be completed before any confirmatory data collection begins. Exploratory analyses will be clearly labeled as such."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "replace_text",
+    "find": "## Sample size calculation\n\n**Formula:** n = (1.96 + 0.84)² · σ² / δ² (for α=0.05, power=0.80, two-sided)\n\n| Hypothesis | δ (effect size) | σ (SD) | Calculated N per group | Source of σ |\n|------------|-----------------|--------|------------------------|-------------|\n| v*_active > v*_passive | d = 0.5 | TBD (from pilot) | 64 | Cohen's convention; pilot N=12 |\n| χ_Ze vs aging clock | r = 0.3 (Fisher z) | TBD | 84 | Minimal clinically meaningful |\n| MCID for v*_active | δ = 0.05 | TBD | TBD | Pilot data (N=12) |\n\n**Note:** σ values are placeholder TBD until full pilot data are analyzed. Conservative estimates will be used if pilot data are insuffic",
+    "replace": "## Sample size calculation\n\n**Formula:** n = (1.96 + 0.84)² · σ² / δ² (for α=0.05, power=0.80, two-sided)\n\n| Hypothesis | δ (effect size) | σ (SD) | Calculated N per group | Source of σ |\n|------------|-----------------|--------|------------------------|-------------|\n| v*_active > v*_passive | d = TBD | TBD | TBD | Pilot data (N=12); Cohen's convention as fallback |\n| χ_Ze vs aging clock | r = TBD (Fisher z) | TBD | TBD | Pilot data (N=12); literature-based estimate as fallback |\n| MCID for v*_active | δ = TBD | TBD | TBD | Pilot data (N=12); anchor-based method planned |\n\n**Note:** All parameters are placeholders (TBD) until full pilot data are analyzed. Final sample sizes will be calculated and pre-registered before confirmatory data collection. Conservative estimates will be used if pilot data are insufficient."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| # | Risk | Probability | Impact | Mitigation |\n|---|------|-------------|--------|------------|\n| 1 | Low statistical power due to small effect size | Medium | High | Conduct pilot study with N≥50 per group; use sequential analysis with stopping boundaries |\n| 2 | Confounding variables in observational data | High | Medium | Pre-register covariates; use propensity score matching if applicable |\n| 3 | Measurement error in v*_active estimation | Medium | High | Validate with two independent methods (EEG + HRV); report test-retest reliability |\n| 4 | Fabrication or data integrity issues | Low | Critical | Full data sharing on OSF; independent replication by consortium partner; audit trail |\n| 5 | Failure to replicate previous findings | Medium | Medium | Pre-register exact replication protocol; distinguish exploratory vs confirmatory analyses |\n| 6 | Ethical concerns with human subjects | Low | High | IRB approval obtained; informed consent; data anonymization |"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "1. **Small pilot sample (N=12):** All preliminary estimates are based on a very small sample and may not generalize. Effect sizes and variances are highly uncertain.\n2. **No pre-registration yet:** Current analyses are exploratory. Confirmatory hypotheses will be pre-registered before new data collection.\n3. **Potential confounding:** Observational data may contain unmeasured confounders (e.g., age, medication, comorbidities) that affect v*_active.\n4. **Measurement reliability:** v*_active estimation depends on EEG and HRV preprocessing choices; different pipelines may yield different values.\n5. **Generalizability:** Results from specific datasets (Cuban EEG, Dortmund HRV, MPI-LEMON) may not extend to other populations or measurement modalities.\n6. **Statistical power:** Without finalized sample size calculations, the study may be underpowered to detect small effects.\n7. **No independent replication:** All analyses are performed by a single research group; consortium partners are needed for independent validation."
+  }
+]

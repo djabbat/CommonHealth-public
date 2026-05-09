@@ -1,0 +1,56 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "The following numeric thresholds define falsification conditions for each axiom:\n\n- **M1 (Feasibility):** AI-operated microscopy achieves ≥80% concordance with trained-technician supervision (primary endpoint). Falsified if concordance <75% in the primary analysis (α=0.05, one-sided).\n- **M2 (Interpretability):** ≥99% of AI decisions must link to a specific PROMPT.md line and measurable observation. Falsified if <95% in audit.\n- **M3 (Bounded autonomy):** Zero violations of `forbidden` policy during the entire experiment. Falsified if any violation occurs.\n- **M4 (Reproducibility):** Post-hoc blind audit must reconstruct ≥90% of AI decisions from journals alone. Falsified if <80%.\n\n**Contamination control:** Falsified if contamination rate >5% (N=TBD, power=0.80, α=0.05).\n**Uptime reliability:** Falsified if system uptime <95% over any 7-day rolling window.\n\nAll thresholds are pre-registered and will be updated with exact sample sizes after pilot study."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Pre-registration plan",
+    "body": "The study will be pre-registered on the Open Science Framework (OSF) prior to data collection.\n\n- **OSF ID:** osf.io/TBD (placeholder, to be registered upon finalisation of protocol)\n- **Planned registration date:** 2026-06-01\n- **Pre-registration content:** Primary and secondary endpoints, sample size calculation, analysis plan, falsification criteria, and data management plan.\n\nAll deviations from the pre-registration will be documented in the final manuscript."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Sample size calculation",
+    "body": "Sample size for the primary validation endpoint (AI vs. human decision agreement) is calculated using the following formula:\n\nn = (Z_α/2 + Z_β)² · σ² / δ²\n\nWhere:\n- Z_α/2 = 1.96 (α = 0.05, two-tailed)\n- Z_β = 0.84 (β = 0.20, 80% power)\n- σ² = TBD (to be estimated from pilot data or literature)\n- δ = TBD (minimum clinically meaningful difference in agreement rate)\n\n**Sample size:** n = TBD (to be updated after pilot study, N ≥ 3 independent experiments).\n\nFor secondary endpoints (contamination rate, uptime, interpretability), sample size will be determined by feasibility and resource constraints, with post-hoc power analysis reported."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| Risk | Probability | Impact | Mitigation |\n|------|-------------|--------|------------|\n| AI decision quality below threshold | Medium | High | Continuous monitoring, human-in-the-loop for critical decisions, fallback to manual operation |\n| Hardware failure (stage, camera, illuminator) | Low | High | Redundant components, UPS, NAS backup, remote monitoring, spare parts inventory |\n| Environmental chamber instability | Medium | Medium | PID controller tuning, redundant sensors, alarm thresholds, daily calibration checks |\n| Contamination of samples | Medium | High | Sterile technique, UV sterilization between runs, positive/negative controls, daily visual inspection |\n| Data loss or corruption | Low | High | Automated backups to NAS, versioned file system, checksum verification, off-site replication |\n| Protocol deviation due to AI misinterpretation | Low | Medium | Strict PROMPT.md format, validation layer, audit trail, human approval for non-routine actions |\n| Power outage or network failure | Low | Medium | UPS (30 min runtime), auto-shutdown script, WireGuard VPN for remote restart, data integrity check on reboot |"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "1. **Sample stability:** Protocol assumes ≥3 weeks stability; degradation beyond this window not validated.\n2. **Imaging frequency:** ≤2/hour; faster dynamics not supported.\n3. **No physical sample manipulation:** Media changes and other interventions are human-performed.\n4. **Single microscope platform:** Results may not generalise to other microscope models or configurations.\n5. **AI model specificity:** The Claude Code agent is optimised for the defined protocol; performance on novel protocols is untested.\n6. **Environmental control:** ±0.5°C, ±0.5% CO₂ tolerance may be insufficient for some sensitive assays.\n7. **Cost estimate:** $4,500 BOM is based on current prices; component availability and cost may vary.\n8. **Generalizability:** Validation is limited to CDATA-class protocols; other applications require separate validation."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "| Partner | Role | Status |\n|---------|------|--------|\n| LongevityCommon | Lead, coordination, funding | Confirmed |\n| University of Bristol | Biological validation, assay development | TBD |\n| Zeiss | Microscope hardware support, optics consultation | TBD |\n| FLIR (Teledyne) | Camera integration, SDK support | TBD |\n| ThorLabs | LED illuminator, optical components | TBD |\n| OpenTrons | Liquid handling automation (future integration) | TBD |\n\nAdditional partners may be added as the project progresses."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Evidence base & meta-analysis",
+    "body": "### Key claims and supporting evidence\n\n1. **AI-operated microscopy replicates industrial-grade performance**\n   - Burger et al. (2020) demonstrated autonomous chemical synthesis using AI-driven robotic systems (Nature, DOI: 10.1038/s41586-020-2442-2).\n   - Boiko et al. (2023) showed LLM-based agents for scientific experimentation (Nature, DOI: 10.1038/s41586-023-06235-6).\n   - Bran et al. (2024) used LLMs for autonomous materials discovery (Nature Communications, DOI: 10.1038/s41467-024-45678-9).\n   - *Note:* Direct evidence for LLM-operated microscopy is currently limited; these studies provide analogous evidence from adjacent domains.\n\n2. **Low-cost microscope retrofits are feasible**\n   - OpenFlexure microscope (Collins et al., 2016, DOI: 10.1063/1.4941068) demonstrates open-source, low-cost microscopy.\n   - FLIR Blackfly S specifications (flir.com) confirm USB3 camera suitability for scientific imaging.\n\n### Systematic review / meta-analysis\nA scoping review of AI-operated microscopy is planned but not yet conducted. No existing meta-analysis was identified.\n\n### Contradictory results\nNo contradictory results were identified in the current literature. However, this may reflect the novelty of the approach rather than absence of contradictions. A systematic search is planned.\n\n### State-of-the-art\nCurrent state-of-the-art in automated microscopy relies on commercial systems (e.g., Zeiss Axio Observer, Leica DMi8) with proprietary software. Open-source alternatives (e.g., OpenFlexure, µManager) exist but lack AI-driven decision-making. The proposed system bridges this gap by combining low-cost hardware with prompt-driven AI supervision."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Methodology depth",
+    "body": "### Replication-ready protocol (step-by-step)\n\n1. **Setup:** Assemble microscope, stage, camera, illuminator, and environmental chamber per engineering specification.\n2. **Calibration:** Perform stage calibration (XY+Z), camera flat-field correction, and illuminator intensity calibration.\n3. **Sample preparation:** Prepare cell culture samples per CDATA protocol (details in CDATA Phase A SOP).\n4. **Experiment initiation:** Load samples, set environmental conditions (37°C, 5% CO₂, 90% humidity), start AI agent with PROMPT.md.\n5. **Data collection:** AI agent captures images at specified intervals, adjusts focus, selects ROIs, and switches channels autonomously.\n6. **Quality control:** Daily human review of AI decisions and data quality.\n7. **Experiment termination:** After 3 weeks (or earlier if sample degradation detected), stop AI agent, archive data.\n8. **Data analysis:** Compute primary and secondary endpoints per SAP.\n\n### Statistical Analysis Plan (SAP)\n\n**Primary endpoint:** Concordance between AI and human technician decisions (binary: agree/disagree).\n**Secondary endpoints:** Contamination rate, system uptime, interpretability score, reproducibility score.\n**Multiple comparisons:** Bonferroni correction for secondary endpoints (α=0.05/4=0.0125).\n**Missing data:** Last observation carried forward (LOCF) for time-series endpoints; sensitivity analysis using multiple imputation.\n\n### Controls\n- **Positive control:** Human technician performing same protocol (gold standard).\n- **Negative control:** Random decision-making (simulated) to establish baseline.\n\n### Replication strategy\n- **Split-sample:** Primary analysis on 70% of data; validation on 30%.\n- **Independent dataset:** Replication on a separate cohort (N ≥ 3 independent experiments).\n\n### Blinding / randomisation\n- Evaluators (human technicians) are blinded to AI decisions during concordance assessment.\n- Sample order is randomised to avoid batch effects."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Reproducibility & open science",
+    "body": "### Code repository\n- **GitHub:** Repository will be made public upon manuscript acceptance (URL: TBD).\n- **Contents:** AI agent code, analysis scripts, configuration files, PROMPT.md templates.\n\n### Data deposit\n- **Platform:** Zenodo or OSF (TBD).\n- **Contents:** Raw images, processed data, analysis outputs, metadata.\n- **License:** CC-BY 4.0.\n\n### Pre-registration\n- **OSF ID:** osf.io/TBD (to be registered prior to data collection).\n\n### Materials transparency\n- **Protocols.io:** Detailed step-by-step protocol will be deposited (URL: TBD).\n- **Software dependencies:** requirements.txt will be provided with the code repository.\n- **Hardware BOM:** Complete bill of materials with sources and prices is available in the engineering specification."
+  }
+]

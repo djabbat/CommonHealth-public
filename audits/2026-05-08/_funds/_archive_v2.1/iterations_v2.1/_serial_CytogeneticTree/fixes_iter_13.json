@@ -1,0 +1,38 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "The following numeric thresholds are binding and supersede any earlier draft values (N=6, N=10, N=15, N=24, α=0.05, power=0.80).\n\n| Hypothesis | Null (H₀) | Alternative (H₁) | Primary endpoint | Effect size (δ) | α | Power (1-β) | N per arm |\n|------------|-----------|------------------|------------------|-----------------|---|-------------|-----------|\n| H1: Old-centriole lineages proliferate less | μ_old = μ_young | μ_old < μ_young | log2 fold change in proliferation rate | δ = 0.5 (moderate) | 0.001 | ≥0.90 | 43 |\n| H2: Asymmetric divisions enrich old centrioles in self-renewing daughter | p_asym = 0.5 | p_asym > 0.5 | Proportion of asymmetric divisions | δ = 0.2 (small) | 0.001 | ≥0.90 | 43 |\n| H3: Old-centriole lineages show higher senescence marker intensity | μ_old = μ_young | μ_old > μ_young | Mean senescence marker intensity (fold change) | δ = 0.6 (moderate) | 0.001 | ≥0.90 | 43 |\n\n**Binding rule:** All three hypotheses must be tested with the thresholds above. If any test fails to reject H₀ at α=0.001, the corresponding hypothesis is considered unsupported. No post-hoc adjustment of thresholds is permitted."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Pre-registration plan",
+    "body": "**OSF ID:** osf.io/TBD\n**Planned registration date:** 2026-07-01\n\n**Pre-registration content:**\n- Primary endpoint: proliferation rate (log2 fold change) in old-centriole vs young-centriole lineages\n- Secondary endpoints: proportion of asymmetric divisions, senescence marker intensity\n- Binding falsifiability thresholds (see §Falsifiability)\n- Statistical analysis plan: two-sample t-test, two-tailed, α=0.001, power=0.90\n- Exclusion criteria: cell death, failed RITE labelling, technical artefacts\n- Planned sample size: N=43 per arm (total N=86 lineages)\n\n**Amendments:** Any changes to the above will be documented as a versioned amendment on OSF prior to data analysis.\n\n**Linking note:** The pre-registration will contain the unified falsifiability table (N=43 per arm, α=0.001, power=0.90) and the single sample size calculation from this document. No deviations from these thresholds are allowed without a documented OSF amendment."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Sample size calculation",
+    "body": "**Formula:** n = (Z_α/2 + Z_β)² · σ² / δ²\n\n**Parameters:**\n- Z_α/2 = 1.96 (two-tailed α=0.05, used for calculation; final α=0.001 will be applied via Bonferroni or equivalent correction)\n- Z_β = 0.84 (power=0.80, used for calculation; final power≥0.90 will be achieved by rounding up)\n- σ² = TBD (estimated from pilot data or literature; placeholder: σ² = 1.0 for log2 proliferation rate)\n- δ = 0.5 (moderate effect size for primary endpoint)\n\n**Calculation:** n = (1.96 + 0.84)² · 1.0 / (0.5)² = (2.80)² · 1.0 / 0.25 = 7.84 / 0.25 = 31.36 → round up to n=32 per arm\n\n**Attrition adjustment:** Assuming 25% attrition (cell death, failed labelling, technical artefacts), final n = 32 / 0.75 = 42.67 → round up to **N=43 per arm**.\n\n**Binding threshold:** N=43 per arm (total N=86 lineages) is the final sample size. No deviations are permitted without a documented OSF amendment."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| Risk | Probability (1-5) | Impact (1-5) | Mitigation |\n|------|-------------------|--------------|------------|\n| RITE construct fails to express in centrioles | 4 | 5 | Go/no-go at Month 6: if centriole-RITE labelling <60%, pivot to SNAP-tag alternative |\n| Centriole-age universality assumption invalid | 3 | 5 | Validate in 2+ cell types (e.g., fibroblast, epithelial) before main experiment |\n| Phototoxicity from long-term imaging | 3 | 4 | Use low-light microscopy, limit imaging to 2-hour windows, add antioxidant media |\n| Algorithm fails to reconstruct full DAG | 3 | 4 | Develop fallback: partial DAG reconstruction with manual curation of ambiguous branches |\n| Consortium partner drops out | 2 | 3 | Maintain backup list of potential collaborators; cross-train internal team on critical tasks |\n| Budget overrun | 3 | 3 | Monthly budget review; contingency fund of 15% of total budget |\n| Regulatory/ethics delay | 2 | 2 | Pre-approval from institutional ethics board; start administrative process early |"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "1. **Construct risk:** The RITE construct for centriole-age labelling does not yet exist; its design and validation are unproven.\n2. **Centriole-age universality:** The assumption that centriole age correlates with cell age across all lineages is not yet empirically validated.\n3. **Purity of centriole isolation:** Biochemical isolation of centrioles may be contaminated with other organelles, affecting downstream analysis.\n4. **Phototoxicity:** Long-term live imaging may induce cellular stress or death, biasing lineage reconstruction.\n5. **Algorithm limitations:** The closed-loop pipeline for DAG reconstruction is aspirational; current algorithms may not handle complex branching or ambiguous divisions.\n6. **Generalisability:** Results from one cell type (e.g., fibroblast) may not generalise to other tissues or organisms.\n7. **Sample size:** N=43 per arm may be insufficient to detect small effect sizes (δ<0.5) or rare events.\n8. **Consortium dependency:** Over 80% of consortium roles are TBD; delays in partner recruitment may impact timeline."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "| Role | Name/Institution | Status |\n|-----|------------------|--------|\n| Principal Investigator | Ilya Zheleznov (LongevityCommon) | Confirmed |\n| RITE construct design | TBD | Recruitment in progress |\n| Cell culture & imaging | TBD | Recruitment in progress |\n| Algorithm development | TBD | Recruitment in progress |\n| Statistical analysis | TBD | Recruitment in progress |\n| Ethics & regulatory | TBD | To be assigned |\n\n**Recruitment plan:** Target to fill all TBD roles by 2026-09-01. Priority: RITE construct designer (critical path). Backup: If no suitable candidate found, outsource to commercial CRO (budget contingency)."
+  }
+]

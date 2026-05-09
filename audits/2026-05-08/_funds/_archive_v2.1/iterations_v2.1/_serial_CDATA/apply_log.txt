@@ -1,0 +1,22 @@
+
+## iter 1
+APPENDED: CONCEPT.md :: ## Pre-registration plan
+APPENDED: CONCEPT.md :: ## Sample size calculation
+APPENDED: OPEN_PROBLEMS.md :: ## Risk matrix
+APPENDED: OPEN_PROBLEMS.md :: ## Consortium / partners
+REPLACED: CONCEPT.md :: [REF_NEEDED 2026-05-08]
+
+## iter 2
+APPENDED: CONCEPT.md :: ## Pre-registration Plan
+APPENDED: OPEN_PROBLEMS.md :: ## Sample Size Calculation
+REPLACED: EVIDENCE.md :: [REF_NEEDED 2026-05-08]
+APPENDED: CONCEPT.md :: ## Limitations
+APPENDED: CONCEPT.md :: ## Consortium / Partners
+SKIP missing/outside-LC: ROADMAP.md (tried ['/home/oem/Desktop/LongevityCommon/CDATA/ROADMAP.md', '/home/oem/Desktop/LongevityCommon/ROADMAP.md', '/home/oem/Desktop/LongevityCommon/ROADMAP.md'])
+
+## iter 3
+APPENDED: OPEN_PROBLEMS.md :: ## Pre-registration plan
+REPLACED: EVIDENCE.md :: [PMID_REMOVED 2026-05-08]
+REPLACED: CONCEPT.md :: [PMID_REMOVED 2026-05-08]
+REPLACED: CONCEPT.md :: [pre-print placeholder: DOI TBD]
+APPENDED: PARAMETERS.md :: ## Tissue-specific nu values (post-MCMC posterior)

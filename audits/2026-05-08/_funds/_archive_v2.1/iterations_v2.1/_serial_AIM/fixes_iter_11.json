@@ -1,0 +1,20 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "replace_text",
+    "find": "## Falsifiability\n\n## Falsifiability\n\n- **Primary endpoint:** PAM-13 Δ ≥ 5.4 points (MCID)\n- **Significance level:** α = 0.05 (two-sided) for primary analysis; Bonferroni-adjusted α = 0.025 for each of ≤2 secondary endpoints. No other α thresholds (e.g., p < 0.001) are used.\n- **Power:** 0.80\n- **Sample size:** N ≥ 55 per group (see Sample size calculation)\n- **Stopping rule:** Adverse event rate >5% in intervention arm (any AE, assessed monthly by DSMB)\n- **Interim analysis:** Planned at N=100 (50 per group) for futility only (O'Brien-Fleming boundary, α-spending = 0.005). If conditional power <20%, trial will be stopped for futility.\n- **Primary analysis:** Intention-to-treat (ITT); per-protocol sensitivity analysis as secondary",
+    "replace": "## Falsifiability\n\n- **Primary endpoint:** PAM-13 Δ ≥ 5.4 points (MCID)\n- **Significance level:** α = 0.05 (two-sided) for primary analysis; Bonferroni-adjusted α = 0.025 for each of ≤2 secondary endpoints. No other α thresholds (e.g., p < 0.001) are used.\n- **Power:** 0.80\n- **Sample size:** N ≥ 55 per group (see Sample size calculation)\n- **Stopping rule:** Adverse event rate >5% in intervention arm (any AE, assessed monthly by DSMB)\n- **Interim analysis:** Planned at N=100 (50 per group) for futility only (O'Brien-Fleming boundary, α-spending = 0.005). If conditional power <20%, trial will be stopped for futility.\n- **Primary analysis:** Intention-to-treat (ITT); per-protocol sensitivity analysis as secondary"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "replace_text",
+    "find": "- **OSF ID:** `osf.io/TBD` (single placeholder; to be reserved before enrollment start; reservation date: 2026-08-01; the placeholder will be replaced with the actual URL at that time).",
+    "replace": "- **OSF ID:** `osf.io/TBD` (single placeholder; to be reserved before enrollment start; reservation date: 2026-08-01; the placeholder will be replaced with the actual URL at that time)."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "replace_text",
+    "find": "- **Justification for σ = 10:** Based on prior PAM-13 studies (Hibbard et al., 2005) and pilot data (TBD).sed on Hibbard et al. (2004) PMID 15333167, standard deviation of PAM-13 scores in similar populations ranges from 8 to 12; σ = 10 is the midpoint. = 10 is a conservative estimate based on published PAM-13 SD range (9–11) from Hibbard et al. (2004, PMID 15333167; Health Serv Res 39(4 Pt 1):1005–26). This will be updated after pilot phase (N=20 per group) if observed SD deviates >20% from assumed value.\n- **Note on reference integrity:** The PMID 15333167 is correct for Hibbard et al. (2004). Any occurrence of PMID 15527447 in relation to th",
+    "replace": "- **Justification for σ = 10:** Based on prior PAM-13 studies (Hibbard et al., 2004, PMID 15333167; Health Serv Res 39(4 Pt 1):1005–26), standard deviation of PAM-13 scores in similar populations ranges from 8 to 12; σ = 10 is the midpoint. This will be updated after pilot phase (N=20 per group) if observed SD deviates >20% from assumed value.\n- **Note on reference integrity:** The PMID 15333167 is correct for Hibbard et al. (2004). Any occurrence of PMID 15527447 in relation to this SD justification is a typo and should be disregarded."
+  }
+]

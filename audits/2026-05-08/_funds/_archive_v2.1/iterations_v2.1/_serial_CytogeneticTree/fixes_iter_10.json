@@ -1,0 +1,62 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "replace_text",
+    "find": "## Falsifiability\n\n**Single, binding numeric thresholds (consistent with sample size calculation).**\n\n| Hypothesis | Null (H₀) | Test | α | Power | Effect size | N per arm | Decision rule |\n|------------|-----------|------|----|-------|-------------|-----------|---------------|\n| H1: Old-centriole lineages proliferate slower | No difference in proliferation rate | Two-sample t-test, two-tailed | 0.001 | 0.95 | d = 1.2 | 43 | Reject H₀ if p < 0.001 |\n| H2: Old-centriole lineages senesce earlier | No difference in senescence onset | Log-rank test | 0.001 | 0.90 | HR = 2.0 | 43 | Reject H₀ if p < 0.001 |\n| H3: Centriole age correlates with differentiation depth | No correlation | Spearman rank test | 0.001 | 0.90 | ρ = 0.5 | 43 | Reject H₀ if p < 0.001 |\n\n**Note:** All N per arm = 43, matching the single binding sample size calculation. No other thresholds are valid.\n\nAll hypotheses are operationalised with numeric thresholds. This section is the single, binding threshold block for the entire proposal. All earlier draft calculations (including any N=6, N=10, N=15, N=48, α=0.05, or power=0.80) are superseded and should be disregarded.\n\n| Hypothesis | Null | Test | α (two-tailed) | Power | Effect size (justification) | N per arm (attrition-adjusted) |\n|------------|------|------|----------------|-------|-----------------------------|--------------------------------|\n| H1: Old-centriole lineages proliferate less | H0: no difference in proliferation rate | Two-sample t-test (log2 fold change) | 0.001 | 0.95 | Cohen's d = 1.2 (derived from Yamashita 2007; pilot data placeholder) | 24 (includes 20% attrition) |\n| H2: Asymmetric centriole inheritance correlates with stemness | H0: no correlation | Fisher's exact test | 0.001 | 0.95 | Cohen's h = 0.8 (based on expected effect from literature; pilot data placeholder) | 24 (includes 20% attrition) |\n| H3: Centriole age predicts differentiation commitment | H0: no predictive power | Cox proportional hazards | 0.001 | 0.95 | Hazard ratio = 2.0 (based on expected effect from literature; pilot data placeholder) | 24 (includes 20% attrition) |\n\n**Note:** All thresholds are two-tailed. Effect sizes are based on pilot data (placeholder). N=24 per arm includes 20% attrition adjustment. Bonferroni correction for 3 comparisons: adjusted α = 0.001 / 3 = 0.00033 per test. The table above reports the per-test α; the family-wise error rate is 0.001.final target N=30 per arm for recruitment).",
+    "replace": "## Falsifiability\n\n**Single, binding numeric thresholds (consistent with sample size calculation).**\n\n| Hypothesis | Null (H₀) | Test | α | Power | Effect size | N per arm | Decision rule |\n|------------|-----------|------|----|-------|-------------|-----------|---------------|\n| H1: Old-centriole lineages proliferate slower | No difference in proliferation rate | Two-sample t-test, two-tailed | 0.001 | 0.95 | d = 1.2 | 43 | Reject H₀ if p < 0.001 |\n| H2: Old-centriole lineages senesce earlier | No difference in senescence onset | Log-rank test | 0.001 | 0.90 | HR = 2.0 | 43 | Reject H₀ if p < 0.001 |\n| H3: Centriole age correlates with differentiation depth | No correlation | Spearman rank test | 0.001 | 0.90 | ρ = 0.5 | 43 | Reject H₀ if p < 0.001 |\n\n**Note:** All N per arm = 43, matching the single binding sample size calculation. No other thresholds are valid.\n\nAll hypotheses are operationalised with numeric thresholds. This section is the single, binding threshold block for the entire proposal. All earlier draft calculations (including any N=6, N=10, N=15, N=48, α=0.05, or power=0.80) are superseded and should be disregarded."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "replace_text",
+    "find": "## Pre-registration plan\n\n- **OSF registration ID:** osf.io/TBD (placeholder; to be created before data collection)\n- **Planned registration date:** 2026-07-01\n- **Contents:** full analysis plan including primary and secondary endpoints, exclusion criteria, stopping rules, and the unified falsifiability thresholds specified above.\n- **Deviations:** any post-registration changes will be documented with version control and a rationale.\n- **Data collection start:** no earlier than 2026-07-15 (to allow registration to be finalised).\n- **Linking note:** The pre-registration will contain the **unified falsifiability table** (N=43 per arm, α=0.001, power=0.95) and the **single sample size calculation** from this document. No deviations from these thresholds are allowed without a documented amendment on OSF.",
+    "replace": "## Pre-registration plan\n\n**OSF ID:** osf.io/TBD\n**Planned registration date:** 2026-07-01\n\n**Pre-registration content:**\n- Primary endpoint: proliferation rate (log2 fold change) in old-centriole vs young-centriole lineages\n- Secondary endpoints: proportion of asymmetric divisions, senescence marker intensity\n- Binding falsifiability thresholds (see §Falsifiability)\n- Statistical analysis plan: two-sample t-test, two-tailed, α=0.001, power=0.95\n- Exclusion criteria: cell death, failed RITE labelling, technical artefacts\n- Planned sample size: N=43 per arm (total N=86 lineages)\n\n**Amendments:** Any changes to the above will be documented as a versioned amendment on OSF prior to data analysis.\n\n**Linking note:** The pre-registration will contain the **unified falsifiability table** (N=43 per arm, α=0.001, power=0.95) and the **single sample size calculation** from this document. No deviations from these thresholds are allowed without a documented amendment on OSF."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "replace_text",
+    "find": "## Sample size calculation\n\n**Primary endpoint:** Proliferation rate (log2 fold change) at day 7.\n**Test:** Two-sample t-test, two-tailed.\n**Formula:** n = (Z_α/2 + Z_β)² · 2σ² / δ²\n\nWhere:\n- Z_α/2 = 3.29 (for α=0.001, two-tailed)\n- Z_β = 1.645 (for power=0.95)\n- σ² = pooled variance (estimated from pilot data; placeholder σ=0.5)\n- δ = minimum detectable effect size (Cohen's d=1.2)\n\n**Calculation:** n = (3.29 + 1.645)² · 2·(0.5)² / (1.2)² ≈ 24.3 → **N=24 per arm** (rounded up).\n\n**Attrition adjustment:** +20% → target recruitment N=30 per arm.\n\n**Note:** This is the sole sample size calculation used for the primary endpoint. All other calculations in earlier drafts (N=10, 15, 48) are",
+    "replace": "## Sample size calculation\n\n**Single, binding calculation for primary endpoint (proliferation rate, log2 fold change, old-centriole vs young-centriole lineages).**\n\n**Test:** Two-sample t-test, two-tailed.\n\n**Formula:** n = (Z_α/2 + Z_β)² · 2σ² / δ²\n\n**Parameters:**\n- α = 0.001 (two-tailed), Z_α/2 = 3.29\n- Power = 0.95, β = 0.05, Z_β = 1.645\n- Effect size δ = 1.2σ (Cohen's d = 1.2)\n- σ² = pooled variance (TBD from pilot)\n\n**Computation:**\n- n = (3.29 + 1.645)² · 2σ² / (1.2σ)² = (4.935)² · 2 / 1.44 = 24.36 · 1.389 = 33.8\n- Rounded up: n = 34 per arm\n- Attrition (20%): n = 34 / 0.8 = 42.5 → **43 per arm**\n\n**Software:** G*Power v3.1.9.7 (or pwr package in R).\n\n**Consistency note:** This calculation (N=43 per arm) supersedes all earlier draft values (N=6, N=10, N=15, N=24, N=48). The falsifiability table is updated to match this single calculation."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "1. **RITE labelling efficiency:** The RITE system has not been validated in the proposed cell type (e.g., human iPSC-derived neural progenitors). Labelling efficiency and specificity are unknown.\n2. **Centriole age tracking over long time scales:** Centriole protein turnover may confound age estimates beyond 6 months. Pilot data are needed to confirm monotonic accumulation of polyglutamylation marks.\n3. **Asymmetric division assumption:** The model assumes that older centrioles are consistently inherited by the self-renewing daughter. This has been shown in Drosophila male germline stem cells (Yamashita 2007) but not in all mammalian stem cell types.\n4. **Computational reconstruction:** The algorithm for reconstructing the full genealogical DAG from imaging data is not yet implemented. Development and validation will require significant effort.\n5. **Sample size uncertainty:** The effect size (d=1.2) is derived from literature and may not replicate in the experimental system. A pilot study (N=10 per arm) is planned to refine the estimate.\n6. **Partner commitment:** Several consortium partners are listed as TBD. If key partners (e.g., for RITE construct design or imaging) are not confirmed, the timeline may slip."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| Risk | Probability | Impact | Mitigation |\n|------|-------------|--------|------------|\n| RITE labelling fails in target cell type | High | Critical | Test in 3 cell lines in parallel; use alternative centriole markers (e.g., Centrin-GFP) as backup |\n| Centriole age signal decays over 6 months | Medium | High | Validate polyglutamylation antibody specificity; include time-zero controls |\n| Asymmetric inheritance pattern not conserved | Medium | High | Pre-screen 5 stem cell types; select the one with strongest asymmetry |\n| Algorithm for tree reconstruction not feasible | Medium | Critical | Start with small lineage trees (10-20 cells); use existing lineage tracing tools (e.g., CellProfiler) as fallback |\n| Partner dropout (TBD partners) | High | Medium | Identify backup partners; include internal capacity for key tasks |\n| Effect size smaller than expected | Medium | Medium | Pilot study (N=10 per arm) before full experiment; adaptive sample size re-estimation |\n| Pre-registration not completed before data collection | Low | High | Set internal deadline 2026-06-15; assign responsible person |"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "| Role | Partner | Status |\n|------|---------|--------|\n| RITE construct design and cloning | TBD | Placeholder |\n| Cell culture and differentiation | Ilya Zheleznov | Confirmed |\n| Live-cell imaging | TBD | Placeholder |\n| Image analysis pipeline | TBD | Placeholder |\n| Statistical analysis | TBD | Placeholder |\n| Pre-registration and data management | TBD | Placeholder |\n| Backup imaging facility | TBD | Placeholder |"
+  },
+  {
+    "file": "KNOWLEDGE.md",
+    "action": "replace_text",
+    "find": "Lee & Luo 1999 Neuron",
+    "replace": "Lee & Luo 1999 Neuron (REFERENCE VERIFICATION PENDING — treat as preprint)"
+  },
+  {
+    "file": "KNOWLEDGE.md",
+    "action": "replace_text",
+    "find": "This reference has been removed pending verification",
+    "replace": "[Reference removed pending verification — see Limitations section for details]"
+  },
+  {
+    "file": "PARAMETERS.md",
+    "action": "replace_text",
+    "find": "α=0.05",
+    "replace": "α=0.001"
+  },
+  {
+    "file": "PARAMETERS.md",
+    "action": "replace_text",
+    "find": "β=0.20",
+    "replace": "β=0.05 (power=0.95)"
+  }
+]

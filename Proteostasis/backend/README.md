@@ -7,9 +7,9 @@ Backend service for Proteostasis Counter #5 in the Multi-Counter Architecture of
 - REST API for managing proteostasis parameters (D₅,₀, α₅, n₅*, β₅, τ₅, γ couplings)
 - Time series storage for proteostasis damage measurements (D₅)
 - Damage computation endpoint using the kinetic equation:
-  ```
-  D₅(n, t) = D₅,₀ + α₅ · (n / n₅*) + β₅ · (t / τ₅)
-  ```
+ ```
+ D₅(n, t) = D₅,₀ + α₅ · (n / n₅*) + β₅ · (t / τ₅)
+ ```
 - PostgreSQL database with automatic migrations
 - Graceful shutdown and structured logging
 

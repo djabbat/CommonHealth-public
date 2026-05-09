@@ -32,7 +32,7 @@ export PORT=4007
 export BACKEND_URL=http://localhost:3007
 export SECRET_KEY_BASE="your-secret-key-base"
 export PHX_HOST=localhost
-export SENTRY_DSN="your-sentry-dsn"  # optional
+export SENTRY_DSN="your-sentry-dsn" # optional
 ```
 
 ## Installation

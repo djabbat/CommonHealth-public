@@ -21,7 +21,7 @@ the MitoROS simulator.
 | [GSE284767](https://www.ncbi.nlm.nih.gov/gds/?term=GSE284767) | Cryptic mitochondrial DNA mutations coincide with mid-late life and are pathophysiologically informative in single cells | 12 | 2025 | 2 |
 | [GSE266764](https://www.ncbi.nlm.nih.gov/gds/?term=GSE266764) | A rapid and robust method for Mitochondrial DNA profiling | 6 | 2024 | 2 |
 | [GSE281949](https://www.ncbi.nlm.nih.gov/gds/?term=GSE281949) | UV irradiation alters TFAM binding specificity and compaction of DNA | 4 | 2026 | 2 |
-| [GSE324301](https://www.ncbi.nlm.nih.gov/gds/?term=GSE324301) | Mitochondrial DNA heteroplasmy drives cortical neuronal disturbances in human organoids harbouring the common m.3243A>G  | 7 | 2026 | 2 |
+| [GSE324301](https://www.ncbi.nlm.nih.gov/gds/?term=GSE324301) | Mitochondrial DNA heteroplasmy drives cortical neuronal disturbances in human organoids harbouring the common m.3243A>G | 7 | 2026 | 2 |
 | [GSE310683](https://www.ncbi.nlm.nih.gov/gds/?term=GSE310683) | Detection of mitochondrial DNA mutations in T cells following 5-FU or cisplatin exposure | 38 | 2026 | 2 |
 | [GSE239772](https://www.ncbi.nlm.nih.gov/gds/?term=GSE239772) | Persistent injury-induced mtDNA mutations compromise organ fitness by suppressing nucleotide biosynthesis | 24 | 2025 | 2 |
 | [GSE285792](https://www.ncbi.nlm.nih.gov/gds/?term=GSE285792) | Expanding the Coding Potential of the Mitochondrial Genome with MitoRiboSeq | 28 | 2026 | 1 |
@@ -38,16 +38,16 @@ the MitoROS simulator.
 
 | DOI | Title | Date | Authors |
 |-----|-------|------|---------|
-| 10.5281/zenodo.19663033 | Fig. 2 in A new micro-endemic species of Cyrtodactylus Gray, 1827 (Squamata: Gekkonidae) from the lowlands of Northeast  | 2026-04-14 | Bohra, Sanath Chandra, Deb, Arnab, Thongni, Goldenstar |
+| 10.5281/zenodo.19663033 | Fig. 2 in A new micro-endemic species of Cyrtodactylus Gray, 1827 (Squamata: Gekkonidae) from the lowlands of Northeast | 2026-04-14 | Bohra, Sanath Chandra, Deb, Arnab, Thongni, Goldenstar |
 | 10.5852/ejt.2026.1048.3255 | A new micro-endemic species of Cyrtodactylus Gray, 1827 (Squamata: Gekkonidae) from the lowlands of Northeast India, wit | 2026-04-14 | Bohra, Sanath Chandra, Deb, Arnab, Thongni, Goldenstar |
 | 10.5281/zenodo.19661548 | borenstein-lab/DAP-microbiome: V1.0.2 | 2026-04-20 | talbamberger |
 | 10.5281/zenodo.18997569 | Comparative Antidiabetic Effects of Ethanolic Plant Extracts on Blood Glucose Levels in Adult and Aged Type 2 Diabetic M | 2026-03-13 | T.A. Gangavane, Dr. R.D. Bodare |
 | 10.5281/zenodo.19659315 | A Narrative Review of Energy Expenditure and the Shift from Effective Ambulation to Effective Mobility in the Rehabilita | 2026-04-20 | A Narrative Review of Energy Expenditure and the Shift from Effective Ambulation to Effective Mobili |
-| 10.5281/zenodo.19659088 | Benchmark dataset and analysis scripts for OrganelleCleaner: identification and removal of organellar contigs in genome  | 2026-04-20 | Jeon, Donghyun |
+| 10.5281/zenodo.19659088 | Benchmark dataset and analysis scripts for OrganelleCleaner: identification and removal of organellar contigs in genome | 2026-04-20 | Jeon, Donghyun |
 | 10.5281/zenodo.19657215 | RangamaniLabUCSD/Mitochondrial-Transport-in-Axons: Mitochondrial mechanics determines axonal jamming and swelling v1 | 2026-04-20 | PatrickNoerr |
 | 10.5281/zenodo.19450459 | Signac mitochondrial vignette datasets | 2026-04-17 | Leung, Jay |
 | 10.5281/zenodo.19656193 | ENIGMA Symmetric White Matter Tractography Atlas | 2026-04-20 | Ba Gari, Iyad, Davis Alibrando, Jonathan, Feng, Yixue |
-| 10.5281/zenodo.19653078 | CyTOF mass cytometry dataset for "Aging of the adaptive immune system affects the gut microbiome and systemic levels of  | 2026-04-19 | Stahl, Selina Natalie |
+| 10.5281/zenodo.19653078 | CyTOF mass cytometry dataset for "Aging of the adaptive immune system affects the gut microbiome and systemic levels of | 2026-04-19 | Stahl, Selina Natalie |
 | 10.3897/zookeys.1277.187107.figure9 | Figure 9 from: Qi S, Nguyen TV, Yang J-H, Xu Y-H, David P, Shi J-S, Liu J-J, Rong C-Z, Korolev AM, Poyarkov NA, Wang Y-Y | 2026-04-17 | Qi, Shuo, Nguyen, Tan Van, Yang, Jian-Huan |
 | 10.3897/zookeys.1277.187107.figure8 | Figure 8 from: Qi S, Nguyen TV, Yang J-H, Xu Y-H, David P, Shi J-S, Liu J-J, Rong C-Z, Korolev AM, Poyarkov NA, Wang Y-Y | 2026-04-17 | Qi, Shuo, Nguyen, Tan Van, Yang, Jian-Huan |
 | 10.3897/zookeys.1277.187107.figure7 | Figure 7 from: Qi S, Nguyen TV, Yang J-H, Xu Y-H, David P, Shi J-S, Liu J-J, Rong C-Z, Korolev AM, Poyarkov NA, Wang Y-Y | 2026-04-17 | Qi, Shuo, Nguyen, Tan Van, Yang, Jian-Huan |
@@ -74,7 +74,7 @@ the MitoROS simulator.
 | [41403573](https://pubmed.ncbi.nlm.nih.gov/41403573) | Takagaki K | 2025 | Health science reports | Stimulation of High-Conductivity Points in Human Skin Reduces Biotin Levels to Modulate Intracellular Metabolism and Loc |
 | [41090745](https://pubmed.ncbi.nlm.nih.gov/41090745) | Singlár Z | 2025 | Cells | Revealing the Specific Contributions of Mitochondrial CB(1) Receptors to the Overall Function of Skeletal Muscle in Mice |
 | [40700217](https://pubmed.ncbi.nlm.nih.gov/40700217) | Iyer P | 2025 | Journal of functional morphology and kinesiology | Transcriptional Signatures of Aerobic Exercise-Induced Muscle Adaptations in Humans. |
-| [40695624](https://pubmed.ncbi.nlm.nih.gov/40695624) | Bruss MD | 2025 | Journal of applied physiology (Bethesda, Md. : 1985) | Metformin suppresses the mitochondrial and transcriptional response to exercise, revealing a conserved BCL6B-associated  |
+| [40695624](https://pubmed.ncbi.nlm.nih.gov/40695624) | Bruss MD | 2025 | Journal of applied physiology (Bethesda, Md. : 1985) | Metformin suppresses the mitochondrial and transcriptional response to exercise, revealing a conserved BCL6B-associated |
 | [40495340](https://pubmed.ncbi.nlm.nih.gov/40495340) | Coen PM | 2025 | Aging cell | Muscle Mitochondrial Respiration and Cardiorespiratory Fitness Contribute to Slower Walking Speed of Older Individuals W |
 | [40356816](https://pubmed.ncbi.nlm.nih.gov/40356816) | Santini S | 2025 | Frontiers in public health | Reforming Italy's long-term care system: the role of barriers to and drivers of the use of services at the local level. |
 | [40317712](https://pubmed.ncbi.nlm.nih.gov/40317712) | Shang Y | 2025 | Advanced science (Weinheim, Baden-Wurttemberg, Germany) | LRRC4 Deficiency Drives Premature Ovarian Insufficiency by Disrupting Metabolic Homeostasis in Granulosa Cells. |

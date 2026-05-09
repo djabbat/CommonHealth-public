@@ -1,0 +1,20 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "- **Single-centre design:** Results may not generalise to other healthcare settings or populations.\n- **Short follow-up:** Primary endpoint at 6 months; long-term effects (>12 months) are not assessed.\n- **Self-reported primary outcome:** PAM-13 is a validated but subjective measure; social desirability bias cannot be excluded.\n- **Placebo effect:** No sham intervention for the control arm; differential attention may inflate effect estimates.\n- **Sample size assumption:** Standard deviation σ = 10 is based on limited published data; true variance may differ.\n- **Technology dependence:** LLM-based intervention may be affected by platform changes, API deprecation, or user digital literacy.\n- **Attrition risk:** 20% dropout assumed; higher attrition would reduce statistical power.\n- **Generalisability to non-English speakers:** Intervention and instruments are validated in English only."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "- **Lead institution:** [TBD — e.g., University Hospital / Research Institute]\n- **Clinical partner:** [TBD — e.g., Department of Internal Medicine]\n- **Technical partner:** [TBD — e.g., AI/ML lab or health-tech company]\n- **Data management:** [TBD — e.g., Clinical Trial Unit / IT department]\n- **Funding body:** [TBD — e.g., National Research Agency / EU Horizon]\n- **Regulatory advisor:** [TBD — e.g., Ethics committee liaison / CRO]"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| Risk | Probability | Impact | Mitigation |\n|------|-------------|--------|------------|\n| Low recruitment rate | Medium | High | Multi-site recruitment; social media campaign; extended enrolment period |\n| High dropout (>20%) | Medium | High | Regular participant engagement; reminder system; financial incentives |\n| LLM technical failure (downtime, API errors) | Low | Medium | Redundant server; fallback to rule-based chatbot; real-time monitoring |\n| Adverse event rate >5% | Low | High | DSMB review; stopping rule; immediate safety reporting |\n| Data privacy breach | Very Low | Very High | End-to-end encryption; pseudonymisation; regular security audits |\n| Confounding by digital literacy | Medium | Medium | Stratified randomisation by baseline digital literacy score; sensitivity analysis |\n| Seasonal confounding (e.g., flu season) | Low | Low | Balanced enrolment across seasons; covariate adjustment in analysis |"
+  }
+]

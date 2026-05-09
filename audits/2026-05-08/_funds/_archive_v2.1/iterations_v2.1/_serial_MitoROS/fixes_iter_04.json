@@ -1,0 +1,50 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "The model generates the following falsifiable predictions with numeric thresholds:\n\n- **P0-1 (Composite measure D₃):** Linear model R² ≥ 0.9 in pilot experiment (N=15 per condition, 3 conditions, α=0.05, power=0.80). If R² < 0.9, the linear hypothesis is considered falsified.\n- **P0-2 (Tissue-specific accumulation):** Two-way ANOVA interaction term p < 0.001 (N=30 per tissue, 3 tissues, α=0.05, power=0.80, Cohen's f²=0.35).\n- **P1-1 (ROS-mtDNA coupling):** Two-sample t-test p < 0.001, effect size d ≥ 0.8 (N=25 per group, α=0.05, power=0.80).\n- **P2-1 (Longitudinal validation):** Thresholds TBD (to be specified after P0-1 pilot data; placeholder N=TBD, test TBD, α=0.05, power=0.80)."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Pre-registration plan",
+    "body": "The study will be pre-registered on the Open Science Framework (OSF) prior to data collection.\n\n- **OSF ID:** `osf.io/TBD` (placeholder; to be assigned upon registration)\n- **Planned registration date:** 2026-07-01\n- **Contents:** Full study protocol, power analyses, analysis scripts, and locked weights (λ_het, λ_les, w₃).\n- **Deviations:** Any post-registration changes will be documented as deviations with justification.\n\nNote: A secondary placeholder `osf.io/mitocounter3_pr20260701` exists in OPEN_PROBLEMS.md; unification recommended."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Sample size calculation",
+    "body": "Sample sizes are calculated using the standard formula for two-sample comparisons:\n\n\\[ n = \\frac{(Z_{1-\\alpha/2} + Z_{1-\\beta})^2 \\cdot \\sigma^2}{\\delta^2} \\]\n\nWhere:\n- \\( Z_{1-\\alpha/2} = 1.96 \\) (for α = 0.05, two-tailed)\n- \\( Z_{1-\\beta} = 0.84 \\) (for power = 0.80)\n- \\( \\sigma^2 \\) = pooled variance (TBD from pilot data)\n- \\( \\delta \\) = minimum detectable effect size (TBD)\n\n**Specific calculations:**\n- **P0-1:** N=15 per condition (3 conditions → 45 total), linear regression F-test, R²=0.9.\n- **P0-2:** N=30 per tissue (3 tissues → 90 total), two-way ANOVA, Cohen's f²=0.35.\n- **P1-1:** N=25 per group (2 groups → 50 total), two-sample t-test, d=0.8.\n- **P2-1:** N=TBD, test TBD, effect size TBD (to be estimated from P0-1 pilot data)."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| Risk ID | Description | Probability | Impact | Mitigation |\n|---------|-------------|-------------|--------|------------|\n| R1 | Heteroplasmy measurement error | Medium | High | Use validated ddPCR protocol; include positive/negative controls |\n| R2 | Non-linearity of D₃ accumulation | Medium | High | Pre-register linear model; alternative non-linear model as contingency |\n| R3 | Tissue weight w₃ misspecification | Low | Medium | Lock weights a priori; sensitivity analysis with bootstrapped CIs |\n| R4 | Confounding by other aging counters | High | Medium | Include Γ matrix interaction terms in MCOA master equation |\n| R5 | Reagent batch effects | Low | Low | Randomize samples across batches; include batch as covariate |\n| R6 | Longitudinal attrition (P2-1) | Medium | High | Power analysis accounts for 20% dropout; use mixed-effects models |\n\n**Monitoring:** Risks R1–R6 will be reviewed quarterly; R2 and R6 have explicit contingency plans (see OPEN_PROBLEMS.md)."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "1. **Tissue heterogeneity:** The model assumes uniform damage accumulation within each tissue type, ignoring cellular subpopulations (e.g., stem cells vs. differentiated cells). Mitigation: Single-cell mtDNA sequencing in a subset of samples (N=5 per tissue) to assess intra-tissue variance.\n2. **Hypothetical τ₃ parameter:** The time-dependent damage rate τ₃ (0.1–0.3/year) is estimated from cross-sectional data; longitudinal validation is required. Mitigation: Planned longitudinal study in mice (P2-1) with measurements at 3 time points.\n3. **Uncalibrated weights λ_het, λ_les:** These weights are set heuristically and will be locked after pilot experiment. Mitigation: Sensitivity analysis with bootstrapped confidence intervals.\n4. **Causal direction not established:** D₃ → aging correlation does not prove causation; reverse causality (aging → mtDNA damage) is possible. Mitigation: Use Mendelian randomization in human cohorts (future work).\n5. **Limited tissue coverage:** Only 7 tissues are modeled; others (e.g., adipose, bone) are excluded. Mitigation: Expand tissue panel in follow-up studies.\n6. **Model overfitting risk:** With 3 free parameters (α₃, β₃, τ₃) and 24 studies, overfitting is possible. Mitigation: Cross-validation on held-out studies; pre-register all parameters."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "The following partners have contributed or are planned to contribute to this work:\n\n- **Lead institution:** [Institution name TBD]\n- **Experimental validation:** [Partner lab TBD] — mtDNA sequencing and ROS measurements\n- **Computational modeling:** [Partner lab TBD] — MCOA integration and sensitivity analysis\n- **Clinical samples:** [Biobank TBD] — human tissue samples for validation\n- **Funding:** [Funding agency TBD] — grant number TBD\n\n*Note: Formal consortium agreements are pending; this list will be updated upon confirmation.*"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "replace_text",
+    "find": "**Risk Matrix**",
+    "replace": "## Risk matrix"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "replace_text",
+    "find": "## Limitations",
+    "replace": "## Limitations (see also Risk matrix above)"
+  }
+]

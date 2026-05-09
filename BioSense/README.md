@@ -50,10 +50,10 @@ Or use the launcher:
 ## Ze Theory (Core)
 
 ```
-Binary sequence:  x_k = 1  if  sample > median, else 0
-Ze velocity:      v = N_S / (N − 1)        [N_S = switches]
-Fixed point:      v* = 0.45631
-Cheating index:   χ_Ze = 1 − |v − v*| / max(v*, 1−v*)    ∈ [0, 1]
+Binary sequence: x_k = 1 if sample > median, else 0
+Ze velocity: v = N_S / (N − 1) [N_S = switches]
+Fixed point: v* = 0.45631
+Cheating index: χ_Ze = 1 − |v − v*| / max(v*, 1−v*) ∈ [0, 1]
 ```
 
 **Aging hypothesis:** signal slows with age → v moves away from v* → χ_Ze decreases.
@@ -66,32 +66,32 @@ Ze-optimal frequency: **f_opt = v* × fs/2** (≈ 29.2 Hz at 128 Hz sampling rat
 
 ```
 BioSense/
-├── CONCEPT.md          # Full project concept
-├── README.md           # This file
-├── CLAUDE.md           # AI assistant rules
-├── TODO.md             # Task list
-├── PARAMETERS.md       # Key parameters and constants
-├── MAP.md              # Component and dependency map
-├── MEMORY.md           # Decisions and lessons learned
-├── LINKS.md            # Ecosystem connections
-├── KNOWLEDGE.md        # Domain knowledge corpus
-├── biosense.sh         # Main launcher
-├── src/                # All source code
-│   ├── eeg_ze_processor.py
-│   ├── ze_cuban_analysis.py
-│   ├── ze_dortmund_pipeline.py
-│   ├── ze_ec_eo_analysis.py
-│   ├── ze_lemon_analysis.py
-│   ├── ze_bandwise.py
-│   ├── ze_alpha_peak.py
-│   ├── ze_batch_pipeline.py
-│   └── requirements.txt
-├── data/               # Datasets (not committed to git)
-│   ├── cuban/
-│   ├── lemon/
-│   └── zenodo/
-├── results/            # Analysis outputs (JSON, PNG)
-└── Materials/          # Reference documents (Ze.docx, etc.)
+├── CONCEPT.md # Full project concept
+├── README.md # This file
+├── CLAUDE.md # AI assistant rules
+├── TODO.md # Task list
+├── PARAMETERS.md # Key parameters and constants
+├── MAP.md # Component and dependency map
+├── MEMORY.md # Decisions and lessons learned
+├── LINKS.md # Ecosystem connections
+├── KNOWLEDGE.md # Domain knowledge corpus
+├── biosense.sh # Main launcher
+├── src/ # All source code
+│ ├── eeg_ze_processor.py
+│ ├── ze_cuban_analysis.py
+│ ├── ze_dortmund_pipeline.py
+│ ├── ze_ec_eo_analysis.py
+│ ├── ze_lemon_analysis.py
+│ ├── ze_bandwise.py
+│ ├── ze_alpha_peak.py
+│ ├── ze_batch_pipeline.py
+│ └── requirements.txt
+├── data/ # Datasets (not committed to git)
+│ ├── cuban/
+│ ├── lemon/
+│ └── zenodo/
+├── results/ # Analysis outputs (JSON, PNG)
+└── Materials/ # Reference documents (Ze.docx, etc.)
 ```
 
 ---

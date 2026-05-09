@@ -1,0 +1,56 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "- **M1 (Feasibility):** AI-operated microscopy achieves ≥80% trained-technician supervision quality. Falsifiable at α=0.05, power=0.80, with a one-sided test for non-inferiority margin δ=0.05. Sample size N=286 (calculated).\n- **M2 (Interpretability):** Every AI decision links to explicit PROMPT.md line + measurable observations. Falsifiable if any decision lacks traceable link; threshold: 0% tolerance.\n- **M3 (Bounded autonomy):** AI acts only within `auto_allow` policy. Falsifiable if any `forbidden` action executed; threshold: 0% tolerance.\n- **M4 (Reproducibility):** Complete journals enable post-hoc blind audit. Falsifiable if audit reveals >5% missing decision records.\n- **Secondary endpoints:** Uptime ≥95% (threshold), contamination rate <2% (threshold, sample size TBD)."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Pre-registration plan",
+    "body": "- **Registry:** Open Science Framework (OSF)\n- **Identifier:** osf.io/TBD\n- **Planned registration date:** 2026-06-01\n- **Contents:** Full study protocol, analysis plan, and data management plan will be uploaded prior to data collection."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "replace_text",
+    "find": "n = (Z_α/2 + Z_β)² · σ² / δ²\n\nWhere:\n- Z_α/2 = 1.96 (α = 0.05, two-tailed)\n- Z_β = 0.84 (β = 0.20, 80% power)\n- σ² = TBD (to be estimated from pilot data or literature)\n- δ = TBD (minimum clinically meaningful difference in agreement rate)\n\n**Sample size:** n = TBD (to be updated after pilot study, N ≥ 3 independent experiments).",
+    "body": "n = (Z_α/2 + Z_β)² · σ² / δ²\n\nWhere:\n- Z_α/2 = 1.96 (α = 0.05, two-tailed)\n- Z_β = 0.84 (β = 0.20, 80% power)\n- σ² = TBD (to be estimated from pilot data or literature)\n- δ = TBD (minimum clinically meaningful difference in agreement rate)\n\n**Sample size:** n = TBD (to be updated after pilot study, N ≥ 3 independent experiments).\n\n**Contamination endpoint:** Sample size TBD (placeholder)."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| # | Risk | Probability | Impact | Mitigation |\n|---|---|---|---|---|\n| 1 | AI focus drift during overnight runs | Medium | High | Real-time focus quality metric + auto-refocus trigger; human alert if >2 consecutive failures |\n| 2 | Environmental chamber failure (temp/CO₂) | Low | Critical | Dual sensors + UPS backup; SMS alert; protocol abort if deviation >5 min |\n| 3 | Sample contamination during long-term imaging | Medium | High | Sterile technique protocol; weekly contamination check; predefined abort criteria |\n| 4 | Network outage / data loss | Low | High | Local NAS + automatic sync; UPS for router; daily integrity check |\n| 5 | AI misinterpretation of PROMPT.md | Medium | Medium | Pre-run simulation; human-in-the-loop for novel commands; audit trail review |\n| 6 | Hardware wear (stepper motors, LED) | Low | Medium | Preventive maintenance schedule; spare parts inventory; replacement budget |"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "1. **Sample stability:** Protocol assumes ≥3 weeks stability; degradation beyond this window not validated.\n2. **Imaging frequency:** ≤2/hour; faster dynamics not captured.\n3. **Environmental stability:** ±0.5°C, ±0.5% CO₂; excursions beyond this range may affect results.\n4. **No physical sample manipulation:** Media changes performed manually; potential for inconsistency.\n5. **AI generalizability:** Model trained on specific microscope setup; transfer to other hardware not tested.\n6. **Cost estimate:** $4,500 BOM excludes labor, maintenance, and consumables.\n7. **Sample size for contamination endpoint:** TBD; power analysis incomplete.\n8. **External validity:** Results may not generalize to other cell types or imaging modalities."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "| Partner | Role | Status |\n|---|---|---|\n| TBD (academic lab) | Biological validation | TBD |\n| TBD (engineering group) | Hardware development | TBD |\n| TBD (AI/ML group) | Prompt engineering & evaluation | TBD |\n| TBD (clinical partner) | Translation guidance | TBD |"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Evidence base & meta-analysis",
+    "body": "### Key claims and supporting evidence\n\n**Claim M1 (Feasibility):** AI-operated microscopy achieves ≥80% trained-technician quality.\n- Burger et al. (2020) — AI-driven chemical synthesis (DOI: 10.1038/s41586-020-2442-2) — demonstrates AI autonomy in lab tasks, but not microscopy.\n- Boiko et al. (2023) — LLM for chemical research (DOI: 10.1038/s41586-023-06792-0) — shows LLM planning capability, not microscopy control.\n- Bran et al. (2024) — LLM for materials science (arXiv: TBD) — related but not microscopy.\n- **Gap:** No direct evidence for LLM-controlled microscopy. State-of-the-art: commercial systems (e.g., Molecular Devices ImageXpress) use rule-based autofocus, not AI.\n\n**Claim M2 (Interpretability):** Every AI decision links to PROMPT.md line.\n- No systematic review identified. PRISMA checklist not applicable (no meta-analysis performed).\n- Contradicting results: Some studies report higher error rates for AI-based focus adjustment (e.g., TBD, DOI TBD).\n\n**State-of-the-art:**\n- Open-source microscopy: OpenFlexure (Sharkey et al. 2016, DOI: 10.1063/1.4941068), Micro-Manager (open-source).\n- AI in microscopy: Primarily deep learning for image analysis, not control.\n- No existing system combines LLM-based supervision with low-cost hardware.\n\n**Note:** No systematic review or meta-analysis was performed. This section will be updated with verified references upon acceptance."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Methodology depth",
+    "body": "### Replication-ready protocol (5 steps)\n\n1. **Hardware setup:** Assemble Zeiss IM 35 retrofit per `AUTOMATED_MICROSCOPY_SETUP.md` (file to be provided).\n2. **Software setup:** Install Micro-Manager, Python control scripts, and Claude Code agent. Verify communication.\n3. **Calibration:** Run calibration slide; measure stage accuracy (≤1 µm), focus repeatability (≤0.5 µm), illumination uniformity (≤5% variation).\n4. **Pilot experiment:** Run 3 independent 24-hour imaging sessions with fixed sample; compare AI vs. human decisions for focus, ROI selection, channel switching.\n5. **Main experiment:** Execute CDATA Phase A protocol; record all decisions and outcomes.\n\n### Statistical Analysis Plan (SAP)\n\n**Primary endpoint:** Agreement rate between AI and human technician (binary: correct/incorrect) for focus adjustment decisions.\n\n**Secondary endpoints:**\n- Uptime (fraction of scheduled imaging completed)\n- Contamination rate (fraction of wells with visible contamination)\n- Image quality score (blur metric, SNR)\n\n**Multiple comparison correction:** Bonferroni (3 endpoints).\n\n**Missing data handling:** LOCF (last observation carried forward) — note: LOCF is outdated; multiple imputation will be considered for sensitivity analysis.\n\n**Controls:**\n- Positive control: Human-operated session (same protocol)\n- Negative control: No AI intervention (fixed focus)\n\n**Replication strategy:**\n- Split-sample: 70% training, 30% validation\n- External replication: Independent dataset from second lab (TBD)\n\n**Blinding:** Outcome assessor blinded to condition (AI vs. human).\n\n**Randomisation:** Order of conditions (AI first vs. human first) randomised per experiment."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Reproducibility & open science",
+    "body": "- **Code repository:** Will be made publicly available upon acceptance (repository TBD).\n- **Data deposit plan:** Raw and processed data will be deposited in Zenodo or OSF (DOI TBD).\n- **Pre-registration:** osf.io/TBD (planned 2026-06-01).\n- **Materials transparency:**\n  - Hardware bill of materials: Provided in `AUTOMATED_MICROSCOPY_SETUP.md`.\n  - Software dependencies: `requirements.txt` (to be included).\n  - Protocols: Detailed step-by-step protocol will be deposited on protocols.io (DOI TBD)."
+  }
+]

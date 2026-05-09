@@ -1,0 +1,62 @@
+[
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "All key predictions are operationalised with numeric thresholds:\n- **Concordance H₀:** AI–human decision agreement ≤ 0.80 (one-proportion test, N = 286, α = 0.05, power = 0.80).\n- **Uptime H₀:** System uptime ≤ 0.90 (N = 180, α = 0.05, power = 0.80).\n- **Contamination H₀:** Contamination rate ≥ 0.03 (N = TBD, α = 0.05, power = 0.80). Sample size to be determined from pilot data.\n- **M2 (Interpretability):** ≥ 95% of AI decisions link to explicit PROMPT.md line + measurable observation (audit of ≥ 100 decisions).\n- **M3 (Bounded autonomy):** Zero violations of `forbidden` policy over entire study duration.\n- **M4 (Reproducibility):** Post-hoc blind audit reproduces ≥ 90% of AI decisions from journals (N = 50 decisions)."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "replace_text",
+    "find": "n = (1.96 + 0.84)² · σ² / δ²",
+    "replace": "n = (1.96 + 0.84)² · σ² / δ² (placeholder: σ² = TBD, δ = TBD; to be estimated from pilot study N ≥ 3 independent experiments)"
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Pre-registration plan",
+    "body": "- **OSF ID:** `osf.io/TBD` (placeholder; to be registered before data collection).\n- **Planned registration date:** 2026-06-01.\n- **Content:** Full study protocol, primary and secondary endpoints, analysis plan, sample size justification, and data management plan."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Sample size calculation",
+    "body": "Sample size for the primary validation endpoint (AI vs. human decision agreement) is calculated using the following formula:\n\nn = (1.96 + 0.84)² · σ² / δ²\n\nWhere:\n- Z_α/2 = 1.96 (α = 0.05, two-tailed)\n- Z_β = 0.84 (β = 0.20, 80% power)\n- σ² = TBD (to be estimated from pilot data or literature)\n- δ = TBD (minimum clinically meaningful difference in agreement rate)\n\n**Sample size:** n = TBD (to be updated after pilot study, N ≥ 3 independent experiments).\n\n*Note: σ² and δ are placeholders pending pilot data. A pilot study with N=10 per group is planned to estimate these parameters. The final sample size will be pre-registered before data collection.*"
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| Risk | Probability | Impact | Mitigation |\n|------|-------------|--------|------------|\n| AI decision quality below threshold | Medium | High | Continuous monitoring; human-in-the-loop for critical decisions; pre-defined escalation criteria |\n| Hardware failure (stage, camera, illumination) | Low | High | Redundant components; UPS; NAS backup; remote monitoring; spare parts inventory |\n| Environmental chamber instability | Medium | Medium | PID control; redundant sensors; alarm thresholds; manual override |\n| Contamination during long-term imaging | Medium | High | Sterile technique; UV sterilization; regular monitoring; predefined abort criteria |\n| Data loss or corruption | Low | High | Automated backups; NAS with RAID; version control; audit trail |\n| Operator error in PROMPT.md | Medium | Medium | Validation checks; peer review; simulation mode; training |\n| Network/remote access failure | Low | Medium | Local fallback mode; offline data storage; manual intervention protocol |"
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "- **Sample size:** Power analysis for contamination endpoint pending pilot data.\n- **Generalizability:** Results may not generalize to other microscope models or protocols beyond the defined class (sample stability ≥ 3 weeks, imaging frequency ≤ 2/hour, environmental stability ±0.5°C, ±0.5% CO₂, no on-platform manipulation).\n- **AI model:** Performance depends on training data and may degrade with novel cell types or imaging conditions.\n- **Hardware:** Retrofit based on Zeiss IM 35; compatibility with other models not tested.\n- **Environmental control:** CO₂ and humidity control not validated for long-term stability beyond 3 weeks.\n- **Operator dependency:** PROMPT.md quality may vary; no automated validation of prompt completeness.\n- **Cost estimate:** BOM of $4,500 excludes labor, maintenance, and consumables.\n- **Replication:** Independent replication by other labs not yet performed."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "| Partner | Role | Status |\n|---------|------|--------|\n| LongevityCommon | Lead coordination, funding | Confirmed |\n| University of Bristol | Hardware design, validation | Confirmed |\n| Zeiss | Microscope donation, technical support | Confirmed |\n| FLIR | Camera donation, technical support | Confirmed |\n| ThorLabs | Illuminator donation, technical support | Confirmed |\n| OpenTrons | Liquid handling integration (future) | TBD |\n| [Additional partner] | [Role] | TBD |"
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Evidence base & meta-analysis",
+    "body": "### Verified references for key claims\n- **Low-cost microscope retrofit feasibility:** OpenFlexure microscope (10.1063/1.4941068) demonstrates open-source, 3D-printed microscope with motorized stage.\n- **Cell segmentation:** CellPose (10.1038/s41592-020-01018-x) provides deep learning-based segmentation for diverse cell types.\n- **Image analysis:** ImageJ (10.1038/nmeth.2019) is the standard open-source platform for bioimage analysis.\n- **AI-operated microscopy:** Burger et al. (10.1038/s41586-020-2442-2) and Boiko et al. (10.1038/s41586-023-06792-0) demonstrate AI-driven autonomous experimentation in chemistry; Bran et al. (10.1038/s42256-024-00832-8) apply AI to microscopy.\n- **Hayflick limit:** PMID 14315085 establishes the finite replicative lifespan of human cells.\n- **Cilia markers:** GT335 (PMID 1385210) and Ninein (10.1242/jcs.02302) are validated antibodies for cilia detection.\n\n### Systematic review / meta-analysis\nNo systematic review or meta-analysis specifically addressing AI-operated low-cost microscopy for longevity research was identified. A PRISMA-compliant systematic review is planned as part of the project.\n\n### Contradicting results\nPotential limitations of low-cost microscopy (e.g., reduced resolution, stability issues) are acknowledged but not systematically addressed in the current literature. The project will monitor and report any contradictory findings.\n\n### State-of-the-art\nCurrent state-of-the-art in automated microscopy includes commercial systems (e.g., IncuCyte, Lionheart) costing $25-50k. Open-source alternatives (OpenFlexure, UC2) exist but lack integrated AI supervision. This project aims to bridge the gap by combining low-cost hardware with prompt-driven AI."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Methodology depth",
+    "body": "### Replication-ready protocol (step-by-step)\n1. **Setup:** Assemble hardware per AUTOMATED_MICROSCOPY_SETUP.md. Calibrate stage, camera, and environmental chamber.\n2. **Configuration:** Define PROMPT.md with experiment-specific parameters (ROI, channels, timing, decision thresholds).\n3. **Pre-run check:** Verify environmental stability (±0.5°C, ±0.5% CO₂) for ≥ 1 hour. Run test acquisition.\n4. **Data collection:** Execute automated imaging with AI supervision. Log all decisions and observations.\n5. **Quality control:** Daily review of image quality, focus, and contamination. Human intervention if thresholds exceeded.\n6. **Data export:** Export raw images, metadata, and decision logs to NAS. Backup to cloud.\n7. **Analysis:** Run predefined analysis pipeline (segmentation, feature extraction, statistical tests).\n\n### Statistical Analysis Plan (SAP)\n- **Primary endpoint:** AI–human decision agreement rate (concordance).\n- **Secondary endpoints:** Uptime, contamination rate, image quality metrics, time to human intervention.\n- **Multiple comparisons:** Bonferroni correction for secondary endpoints.\n- **Missing data:** Complete-case analysis; sensitivity analysis with multiple imputation if > 5% missing.\n- **Controls:** Human technician performing same protocol on same samples (blinded).\n\n### Replication strategy\n- **Split-sample:** Randomly split data into training (70%) and validation (30%) sets.\n- **k-fold cross-validation:** 5-fold cross-validation for AI model performance.\n- **Independent dataset:** Validate on a separate dataset from a different experiment (if available).\n\n### Blinding / randomisation\n- Human technicians blinded to AI decisions during validation.\n- Sample order randomised for imaging."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Reproducibility & open science",
+    "body": "- **Code repository:** All analysis code will be deposited in a public GitHub repository (URL TBD; promise on acceptance).\n- **Data deposit:** Raw images, metadata, and processed data will be deposited in Zenodo or Dryad (DOI TBD).\n- **Pre-registration:** Study protocol pre-registered on OSF (`osf.io/TBD`).\n- **Materials transparency:** Hardware bill of materials, assembly instructions, and software dependencies (requirements.txt) will be provided. Protocols will be shared on protocols.io (DOI TBD)."
+  }
+]

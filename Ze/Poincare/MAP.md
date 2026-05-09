@@ -6,26 +6,26 @@
 
 ```
 Poincare (mathematical philosophy + Ze math)
-    |
-    |--[Ze-intuition model]---> Ze  (~/Desktop/Ze/)
-    |   Poincaré's discovery     → Article: "Poincaré and Ze-theory:
-    |   process as Ze-stream         Intuition as Ze-Stream" (Phase 3A ✅)
-    |   at v* ≈ 0.456            → Ze-EEG paper connection (planned)
-    |   Illumination = T-burst
-    |
-    |--[math problems]----------> Articles/
-    |   Phase 3B: 7 open math    → Ze_BornRule, Ze_vstar, Ze_Foundations,
-    |   problems via Ze-apparatus    Ze_Martingale, Ze_Collatz, Ze_Riemann,
-    |                                Ze_NavierStokes
-    |
-    |--[publication]-----------> longevity.ge (Longevity Horizon)
-    |   Tkemaladze (2026) ×3     → DOI: 10.65649/a874t352 (QM framework)
-    |   Phase 3A article ✅          DOI: 10.65649/kzj86888 (math formalism)
-    |                                DOI: 10.65649/hqm2c554 (Minkowski from Ze)
-    |
-    |--[cognitive model]-------> CDATA / AIM
-        Poincaré's discovery     → Ze-cognitive model in diagnosis_engine
-        psychology               → "cognitive Ze blindness" module (planned)
+ |
+ |--[Ze-intuition model]---> Ze (~/Desktop/Ze/)
+ | Poincaré's discovery → Article: "Poincaré and Ze-theory:
+ | process as Ze-stream Intuition as Ze-Stream" (Phase 3A ✅)
+ | at v* ≈ 0.456 → Ze-EEG paper connection (planned)
+ | Illumination = T-burst
+ |
+ |--[math problems]----------> Articles/
+ | Phase 3B: 7 open math → Ze_BornRule, Ze_vstar, Ze_Foundations,
+ | problems via Ze-apparatus Ze_Martingale, Ze_Collatz, Ze_Riemann,
+ | Ze_NavierStokes
+ |
+ |--[publication]-----------> longevity.ge (Longevity Horizon)
+ | Tkemaladze (2026) ×3 → (QM framework)
+ | Phase 3A article ✅ (math formalism)
+ | (Minkowski from Ze)
+ |
+ |--[cognitive model]-------> CDATA / AIM
+ Poincaré's discovery → Ze-cognitive model in diagnosis_engine
+ psychology → "cognitive Ze blindness" module (planned)
 ```
 
 ---
@@ -34,23 +34,23 @@ Poincare (mathematical philosophy + Ze math)
 
 ```
 Sources/
-    01_Chronologie.md      ✅ → feeds PARAMETERS.md (chronology)
-    02_Intuitions_Clés.md  ✅ → feeds KNOWLEDGE.md (5 intuitions)
-    03_Science_et_Methode.md ✅ → Phase 2 deep analysis
-    04_Carte_des_Connexions.md ✅ → feeds this MAP.md
+ 01_Chronologie.md ✅ → feeds PARAMETERS.md (chronology)
+ 02_Intuitions_Clés.md ✅ → feeds KNOWLEDGE.md (5 intuitions)
+ 03_Science_et_Methode.md ✅ → Phase 2 deep analysis
+ 04_Carte_des_Connexions.md ✅ → feeds this MAP.md
 
 Articles/
-    Ze_BornRule_v3.md         ✅ (2 review cycles)
-    Ze_vstar_v3.md            ✅ (2 review cycles)
-    Ze_Foundations_Math_v3.md ✅ (2 review cycles)
-    Ze_Martingale_v2+.md      🟡 (in progress)
-    Ze_Collatz_v5.md          ✅
-    Ze_Riemann_v5.md          ✅
-    Ze_NavierStokes_v5.md     ✅
-    Ze_Postulates_v8.md       🟡 (peer review cycle ongoing)
+ Ze_BornRule_v3.md ✅ (2 review cycles)
+ Ze_vstar_v3.md ✅ (2 review cycles)
+ Ze_Foundations_Math_v3.md ✅ (2 review cycles)
+ Ze_Martingale_v2+.md 🟡 (in progress)
+ Ze_Collatz_v5.md ✅
+ Ze_Riemann_v5.md ✅
+ Ze_NavierStokes_v5.md ✅
+ Ze_Postulates_v8.md 🟡 (peer review cycle ongoing)
 
 scripts/
-    ze_pipeline.py            → automated write→review→revise pipeline
+ ze_pipeline.py → automated write→review→revise pipeline
 ```
 
 ---

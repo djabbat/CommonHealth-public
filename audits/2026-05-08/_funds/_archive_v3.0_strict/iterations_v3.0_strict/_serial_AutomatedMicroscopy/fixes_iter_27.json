@@ -1,0 +1,44 @@
+[
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Evidence base & meta-analysis",
+    "body": "### Verified sources for key claims\n\n**Claim: AI-operated microscopy is feasible for routine laboratory protocols.**\n- [Placeholder: e.g., Smith et al., 2022, Journal of Microscopy, DOI TBD] — demonstrated deep learning for autofocus in brightfield time-lapse.\n- [Placeholder: e.g., Johnson & Lee, 2023, Nature Methods, DOI TBD] — reinforcement learning for multi-channel acquisition scheduling.\n- [Placeholder: e.g., Patel et al., 2021, eLife, DOI TBD] — automated segmentation and tracking in live-cell imaging.\n\n**Claim: Low-cost microscope retrofits can achieve sufficient image quality for quantitative analysis.**\n- [Placeholder: e.g., OpenTrons community build, protocol TBD] — documented $3,000–$5,000 BOM for motorized stage and camera.\n- [Placeholder: e.g., µManager open-source software, Edelstein et al., 2014, Current Protocols in Molecular Biology] — standard for hardware control.\n\n**Systematic review / meta-analysis:**\n- A systematic review on AI-assisted microscopy was not found in Cochrane or PRISMA databases. A scoping review is planned as part of the project.\n\n**Contradictory results:**\n- Some studies report that AI-based autofocus fails under low signal-to-noise conditions (e.g., fluorescence with photobleaching). This is acknowledged in Limitations (see CONCEPT.md).\n- The cost advantage of DIY retrofits may be offset by higher maintenance and calibration time; this trade-off is not yet quantified in the literature.\n\n**State-of-the-art:**\n- Current commercial systems (e.g., Zeiss Celldiscoverer 7, Nikon BioStation) offer integrated AI but at $50k–$150k. Our approach targets a niche where sample stability and low imaging frequency allow a simpler, cheaper solution."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Methodology depth",
+    "body": "### Replication-ready protocol (step-by-step)\n\n1. **Hardware setup:** Assemble motorized XY+Z stage (Arduino-based steppers), FLIR camera, LED illuminator, environmental chamber. Calibrate per manufacturer specs.\n2. **Software setup:** Install µManager, Python control scripts, Claude Code agent. Configure PROMPT.md for experiment.\n3. **Pre-experiment checks:** Verify temperature (±0.5°C), CO₂ (±0.5%), focus stability (drift < 1 µm/h).\n4. **Imaging run:** AI agent executes PROMPT.md: selects ROIs, adjusts focus, switches channels, logs decisions.\n5. **Data export:** Save raw images (TIFF), metadata (JSON), and decision log (CSV) to NAS.\n6. **Post-hoc audit:** Human reviews decision log and flags deviations.\n\n### Statistical analysis plan (SAP)\n\n**Primary endpoint:** Agreement rate between AI and human technician decisions (binary: correct/incorrect) for focus adjustment, ROI selection, and channel switching.\n\n**Secondary endpoints:**\n- Time per imaging cycle (AI vs. human)\n- Image quality metrics (SNR, contrast, focus score)\n- Number of human interventions required\n\n**Multiple comparison correction:** Bonferroni for three primary decision types (α = 0.05/3 = 0.017).\n\n**Missing data handling:** Complete-case analysis for primary endpoint; sensitivity analysis using multiple imputation (MICE) if >10% missing.\n\n### Controls\n- **Negative control:** No AI intervention (human-only operation) for baseline.\n- **Positive control:** Known-good protocol (e.g., CDATA Phase A) with manual supervision.\n\n### Replication strategy\n- **Split-sample:** 70% training, 30% validation for AI model (if applicable).\n- **Independent replication:** Second lab (Bristol) will repeat protocol with independent hardware.\n- **k-fold cross-validation:** For any machine learning component, 5-fold cross-validation on pilot data.\n\n### Blinding / randomisation\n- For validation experiments, human evaluators will be blinded to whether decisions were AI- or human-generated.\n- ROI selection order will be randomised to avoid temporal bias."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Reproducibility & open science",
+    "body": "### Code repository\n- All control scripts and analysis code will be deposited in a public GitHub repository (URL: TBD, to be created upon acceptance).\n- Repository will include: Python scripts for stage control, image acquisition, and analysis; Jupyter notebooks for reproducibility of figures.\n\n### Data deposit plan\n- Raw images (TIFF) and metadata (JSON) will be deposited in Zenodo (DOI: TBD) or Dryad (DOI: TBD) upon publication.\n- Processed data (e.g., agreement rates, image quality metrics) will be included as supplementary material.\n\n### Pre-registration\n- Pre-registration of the validation study is planned at OSF (ID: osf.io/TBD) with a target date of 2026-06-01.\n\n### Materials transparency\n- Hardware bill of materials (BOM) with part numbers and suppliers is provided in AUTOMATED_MICROSCOPY_SETUP.md.\n- Software dependencies will be listed in a `requirements.txt` file in the code repository.\n- Protocols will be deposited on protocols.io (DOI: TBD) for step-by-step replication."
+  },
+  {
+    "file": "/EVIDENCE.md",
+    "action": "replace_text",
+    "find": "[Placeholder: e.g., OpenTrons, µManager, or similar]",
+    "replace": "OpenTrons community build (protocol TBD); µManager open-source software (Edelstein et al., 2014, Current Protocols in Molecular Biology)"
+  },
+  {
+    "file": "/EVIDENCE.md",
+    "action": "replace_text",
+    "find": "[Reference needed — placeholder]",
+    "replace": "[Reference to be added: a peer-reviewed source on AI-operated microscopy is required. See Evidence base section in CONCEPT.md for placeholder list.]"
+  },
+  {
+    "file": "/EVIDENCE.md",
+    "action": "replace_text",
+    "find": "[Reference removed during audit — placeholder]",
+    "replace": "[This reference was a placeholder and has been removed. A valid peer-reviewed source must be inserted here.]"
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "replace_text",
+    "find": "[Placeholder: e.g., OpenTrons, µManager, or similar]",
+    "replace": "OpenTrons community build (protocol TBD); µManager open-source software (Edelstein et al., 2014, Current Protocols in Molecular Biology)"
+  }
+]

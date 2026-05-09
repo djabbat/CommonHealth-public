@@ -1,0 +1,36 @@
+
+## iter 1
+APPENDED: CONCEPT.md :: ## Pre-registration plan
+APPENDED: CONCEPT.md :: ## Consortium / partners
+APPENDED: CONCEPT.md :: ## Risk matrix
+
+## iter 2
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+APPENDED: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+APPENDED: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+
+## iter 1
+APPENDED: PARAMETERS.md :: ## Timeline for a priori weight prediction
+
+## iter 2
+SKIP missing/outside-LC: ~/Documents/MCOA_NatureAging_submission/01_MCOA_Perspective_manuscript.md (tried ['/home/oem/Desktop/LongevityCommon/MCOA/01_MCOA_Perspective_manuscript.md', '/home/oem/Desktop/LongevityCommon/home/oem/Documents/MCOA_NatureAging_submission/01_MCOA_Perspective_manuscript.md', '/home/oem/Desktop/LongevityCommon/01_MCOA_Perspective_manuscript.md'])
+SKIP missing/outside-LC: ~/Documents/MCOA_NatureAging_submission/01_MCOA_Perspective_manuscript.md (tried ['/home/oem/Desktop/LongevityCommon/MCOA/01_MCOA_Perspective_manuscript.md', '/home/oem/Desktop/LongevityCommon/home/oem/Documents/MCOA_NatureAging_submission/01_MCOA_Perspective_manuscript.md', '/home/oem/Desktop/LongevityCommon/01_MCOA_Perspective_manuscript.md'])
+SKIP missing/outside-LC: ~/Documents/MCOA_NatureAging_submission/01_MCOA_Perspective_manuscript.md (tried ['/home/oem/Desktop/LongevityCommon/MCOA/01_MCOA_Perspective_manuscript.md', '/home/oem/Desktop/LongevityCommon/home/oem/Documents/MCOA_NatureAging_submission/01_MCOA_Perspective_manuscript.md', '/home/oem/Desktop/LongevityCommon/01_MCOA_Perspective_manuscript.md'])
+SKIP missing/outside-LC: ~/Documents/MCOA_NatureAging_submission/01_MCOA_Perspective_manuscript.md (tried ['/home/oem/Desktop/LongevityCommon/MCOA/01_MCOA_Perspective_manuscript.md', '/home/oem/Desktop/LongevityCommon/home/oem/Documents/MCOA_NatureAging_submission/01_MCOA_Perspective_manuscript.md', '/home/oem/Desktop/LongevityCommon/01_MCOA_Perspective_manuscript.md'])
+SKIP missing/outside-LC: ~/Documents/MCOA_NatureAging_submission/01_MCOA_Perspective_manuscript.md (tried ['/home/oem/Desktop/LongevityCommon/MCOA/01_MCOA_Perspective_manuscript.md', '/home/oem/Desktop/LongevityCommon/home/oem/Documents/MCOA_NatureAging_submission/01_MCOA_Perspective_manuscript.md', '/home/oem/Desktop/LongevityCommon/01_MCOA_Perspective_manuscript.md'])
+SKIP missing/outside-LC: ~/Documents/MCOA_NatureAging_submission/01_MCOA_Perspective_manuscript.md (tried ['/home/oem/Desktop/LongevityCommon/MCOA/01_MCOA_Perspective_manuscript.md', '/home/oem/Desktop/LongevityCommon/home/oem/Documents/MCOA_NatureAging_submission/01_MCOA_Perspective_manuscript.md', '/home/oem/Desktop/LongevityCommon/01_MCOA_Perspective_manuscript.md'])
+REPLACED: PARAMETERS.md :: Placeholder
+INSERTED: OPEN_PROBLEMS.md after `## Проблема 1: Определение *априорных* в`
+SKIP anchor-missing: THEORY.md
+INSERTED: CONCEPT.md after `## 1. Project identity`
+
+## iter 3
+REPLACED: OPEN_PROBLEMS.md :: δ = TBD, α = 0.05, power = 0.80, require
+REPLACED: OPEN_PROBLEMS.md :: N_replicates = TBD
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners

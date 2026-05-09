@@ -1,0 +1,38 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "Each module has predefined numeric thresholds for hypothesis testing:\n- EEG: δ = 0.05, α = 0.001, Cohen’s d ≥ 0.5, minimum power ≥ 0.90, N ≥ 161\n- HRV: |r| > 0.3, α = 0.001, power ≥ 0.90, N = TBD\n- Olfaction: AUC ≥ 0.75, α = 0.001, power ≥ 0.95, N = TBD\nAny result failing to meet these thresholds will be considered non-significant, regardless of exploratory findings."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Pre-registration plan",
+    "body": "The full study protocol will be pre-registered on the Open Science Framework (OSF) before data collection begins.\n- OSF ID: osf.io/TBD (placeholder)\n- Planned registration date: 2026-06-01 (or earlier, before first participant enrollment)\n- Contents: primary hypotheses, outcome measures, analysis plan, exclusion criteria, and power analysis."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Sample size calculation",
+    "body": "Sample size is calculated using the standard formula for a two-sided test:\nn = (Z_α/2 + Z_β)² · σ² / δ²\nwhere:\n- Z_α/2 = 1.96 (α = 0.05, two-tailed)\n- Z_β = 0.84 (power = 0.80)\n- σ² = TBD (estimated from pilot data or literature)\n- δ = TBD (minimum clinically meaningful effect size)\nFor EEG module, the required total N is 161 (per-group N ≈ 54) based on Cohen’s d ≥ 0.5. For HRV and olfaction, N will be determined after pilot data collection."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| Risk | Probability | Impact | Mitigation |\n|------|-------------|--------|------------|\n| Hardware failure (EEG dry electrodes) | Medium | High | Redundant sensors; daily calibration checks |\n| Low participant recruitment | Medium | High | Multi-site recruitment; extended enrollment period |\n| Signal noise from motion artifacts | High | Medium | Adaptive filtering; exclusion criteria for excessive motion |\n| Olfactory sensor cross-reactivity | Medium | Medium | Reference gas calibration; machine learning classification |\n| Data privacy breach | Low | Critical | Encryption; anonymization; IRB-approved data handling |"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "- The Ze-theory-based biomarker (χ_Ze) has been validated only on EEG data; HRV and olfaction modules lack independent validation.\n- Sample size for EEG validation (N=161) is a placeholder; actual power may differ after pilot data.\n- Olfactory module relies on theoretical electron tunneling (Turing model) which has not been empirically confirmed for human volatiles.\n- All modules assume stationary signal conditions; real-world ambulatory use may introduce unmodeled artifacts.\n- The fixed theoretical point v* = 0.45631 is derived from a dynamical systems model; its biological universality is assumed but not proven across all populations."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "- TBD: Lead institution (placeholder)\n- TBD: Clinical partner for participant recruitment\n- TBD: Hardware manufacturer for olfactory sensor\n- TBD: Data analysis and machine learning support\n- TBD: Ethics board / IRB oversight"
+  }
+]

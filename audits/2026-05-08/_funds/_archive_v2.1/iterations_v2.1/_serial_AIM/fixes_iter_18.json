@@ -1,0 +1,38 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "insert_after_line",
+    "line_anchor": "## Falsifiability",
+    "body": "\n### Numeric thresholds (consolidated)\n- **Primary endpoint:** PAM-13 Δ ≥ 5.4 points (MCID)\n- **Significance level:** α = 0.05 (two-sided) for primary analysis; Bonferroni-adjusted α = 0.025 for each of ≤2 secondary endpoints. No other α thresholds (e.g., p < 0.001) are used.\n- **Power:** 0.80\n- **Sample size:** N ≥ 55 per group (see Sample size calculation)\n- **Stopping rule:** Adverse event rate >5% in intervention arm (any AE, assessed monthly by DSMB)\n- **Interim analysis:** Planned at N=100 (50 per group) for futility only (O'Brien-Fleming boundary, α-spending = 0.005). If conditional power <20%, trial will be stopped for futility.\n- **Primary analysis:** Intention-to-treat (ITT); per-protocol sensitivity analysis as secondary"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "insert_after_line",
+    "line_anchor": "## Pre-registration plan",
+    "body": "\n- **OSF ID:** `osf.io/TBD` (single placeholder; to be reserved before enrollment start; reservation date: 2026-08-01; the placeholder will be replaced with the actual URL at that time).\n- **Pre-registration date:** 2026-09-01 (planned; to be confirmed upon OSF reservation)\n- **Note:** The OSF ID placeholder `osf.io/TBD` must be replaced with a reserved ID (e.g., `osf.io/abcde`) prior to enrollment start. The pre-registration date is provisional and will be updated upon OSF reservation.\n- **Registered design:** Two-arm parallel RCT, superiority design\n- **Primary outcome:** Between-group difference in PAM-13 change score (Δ) from baseline to 6 months\n- **Analysis plan:** Independent two-sample t-test (two-sided); ITT primary, per-protocol sensitivity\n- **Secondary outcomes:** Medication adherence (MMAS-8), quality of life (EQ-5D-5L), healthcare utilisation (number of hospitalisations)\n- **Exploratory outcomes:** Patient activation trajectory (mixed-effects model), LLM engagement metrics (session count, message length)"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "insert_after_line",
+    "line_anchor": "## Sample size calculation",
+    "body": "\n- **Formula:** n = (Z_α/2 + Z_β)² · 2σ² / δ²\n- **Parameters:** Z_α/2 = 1.96 (α = 0.05, two-sided), Z_β = 0.84 (power = 0.80)\n- **Effect size δ:** 5.4 points (PAM-13 MCID)\n- **Standard deviation σ:** 10 (assumed — see justification below)\n- **Calculation:** n = (1.96 + 0.84)² · 2 · 10² / 5.4² = 7.84 · 200 / 29.16 ≈ 53.8 → **n = 55 per group**\n- **Total N:** 110 + 20% dropout = **132 participants**\n- **Sensitivity analysis (required N per group):**\n  - σ = 8: n ≈ 35\n  - σ = 10: n ≈ 55 (base case)\n  - σ = 12: n ≈ 78\n- **Justification for σ = 10:** Based on prior PAM-13 studies (Hibbard et al., 2004, PMID 15333167; Health Serv Res 39(4 Pt 1):1005–26), standard deviation of PAM-13 scores in similar populations ranges from 8 to 12; σ = 10 is the midpoint. This will be updated after pilot data collection."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| # | Risk | Probability | Impact | Mitigation |\n|---|---|---|---|---|\n| 1 | Low recruitment rate | Medium | High | Multi-site recruitment, community outreach, extended enrollment period |\n| 2 | High dropout rate (>20%) | Medium | High | Retention incentives, regular follow-up, flexible scheduling |\n| 3 | LLM technical failure (downtime, hallucinations) | Medium | Medium | Redundant infrastructure, human-in-the-loop oversight, fallback protocols |\n| 4 | Data privacy breach | Low | Critical | Encryption, access controls, regular audits, GDPR compliance |\n| 5 | Effect size smaller than expected | Medium | Medium | Interim analysis for futility, adaptive sample size re-estimation |\n| 6 | Contamination between arms | Low | Medium | Cluster randomisation by site, clear separation of intervention and control |\n| 7 | Regulatory changes (AI medical device classification) | Low | Medium | Regulatory monitoring, flexible protocol, early engagement with authorities |"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "- Single-centre design (unless multi-site funding secured) limits generalisability\n- Open-label design (blinding not feasible due to LLM intervention) introduces potential bias\n- Short follow-up (6 months) may not capture long-term effects on patient activation\n- PAM-13 is a self-reported measure, subject to social desirability and recall bias\n- LLM intervention may have variable engagement across demographic groups\n- Sample size calculated for primary outcome only; secondary analyses may be underpowered\n- Dropout rate of 20% may be underestimated for this population\n- Placebo effect from novel technology intervention cannot be fully controlled"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "- **Lead PI:** [Name, Institution] (TBD)\n- **Co-Investigator:** [Name, Institution] (TBD)\n- **Potential partners:**\n  - Insignia Health (PAM-13 licence, patient activation expertise)\n  - Fraunhofer IGD (LLM development, technical infrastructure)\n  - TSU (clinical recruitment, data collection)\n  - University of Copenhagen (biostatistics, trial design)\n- **Letters of support:** In progress (to be finalised before submission)"
+  }
+]

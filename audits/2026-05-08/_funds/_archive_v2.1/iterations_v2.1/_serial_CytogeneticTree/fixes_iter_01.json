@@ -1,0 +1,32 @@
+[
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "The following numeric thresholds define the falsifiability criteria for the primary hypothesis (old-centriole lineages proliferate less than young-centriole lineages). All thresholds are binding for the pre-registered analysis.\n\n| Parameter | Value |\n|-----------|-------|\n| Primary endpoint | Proliferation rate (log2 fold change) |\n| Minimum effect size (d) | 1.2 |\n| Significance level (α) | 0.001 |\n| Statistical power (1−β) | 0.95 |\n| Sample size per arm (N) | TBD (see §Sample size calculation) |\n| Test | Two-sample t-test, two-tailed |\n\n**Decision rule:** If the observed effect size is <1.2 or the p-value ≥0.001, the hypothesis is considered falsified and the project will be re-evaluated.\n\n**Secondary falsifiability criteria:**\n- Proportion of asymmetric divisions in old-centriole vs young-centriole lineages: null hypothesis of no difference (α=0.001)\n- Senescence marker intensity: null hypothesis of no correlation with centriole age (α=0.001)"
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Sample size calculation",
+    "body": "Sample size is calculated using the standard formula for a two-sample t-test (two-tailed):\n\nn = (Z_α/2 + Z_β)² · 2σ² / δ²\n\nWhere:\n- Z_α/2 = 1.96 (for α=0.05, two-tailed) — placeholder; final α=0.001 corresponds to Z_α/2 ≈ 3.29\n- Z_β = 0.84 (for β=0.20, power=0.80) — placeholder; final power=0.95 corresponds to Z_β ≈ 1.645\n- σ² = pooled variance of proliferation rate (log2 fold change) — TBD from pilot data\n- δ = minimum detectable effect size (d=1.2)\n\n**Placeholder calculation (α=0.05, power=0.80):**\nn = (1.96 + 0.84)² · 2σ² / δ² = 7.84 · 2σ² / δ²\n\n**Final calculation (α=0.001, power=0.95):**\nn = (3.29 + 1.645)² · 2σ² / δ² = 24.35 · 2σ² / δ²\n\n**Result:** The final sample size per arm will be determined after pilot data provides an estimate of σ². The placeholder values N=43 and N=24 in earlier sections are preliminary and will be superseded by this calculation. The pre-registered N will be documented on OSF."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| # | Risk | Probability (1-5) | Impact (1-5) | Mitigation |\n|---|------|-------------------|--------------|------------|\n| 1 | RITE labelling fails to produce distinguishable centriole age cohorts | 3 | 5 | Pilot test with 3 different RITE constructs; fallback to immunofluorescence against centriole age markers (e.g., polyglutamylation) |\n| 2 | Asymmetric centriole inheritance not observed in target cell type | 2 | 4 | Pre-screen 5 candidate cell types (neural progenitors, intestinal stem cells, etc.) before committing to full experiment |\n| 3 | Cell death or technical artefacts reduce usable sample size below required N | 3 | 3 | Over-sample by 50%; include explicit exclusion criteria in pre-registration |\n| 4 | Effect size smaller than d=1.2 | 3 | 4 | Power analysis with d=0.8 as secondary threshold; if d<1.2 but >0.8, consider follow-up study with larger N |\n| 5 | Centriole age does not correlate with proliferation rate | 2 | 5 | Pre-registered falsifiability criterion; if null result, project pivots to descriptive lineage mapping without aging hypothesis |\n| 6 | Contamination or cross-contamination between RITE colour channels | 2 | 3 | Use spectrally separated fluorophores; include negative controls in every experiment |\n| 7 | Computational lineage reconstruction fails due to tracking errors | 3 | 4 | Validate tracking on synthetic data; use two independent tracking algorithms; manual verification of 10% of lineages |"
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "The following limitations are acknowledged:\n\n1. **Centriole age as a proxy for cellular age:** Centriole age may not perfectly correlate with cellular age if centriole components are exchanged or if de novo centriole biogenesis occurs. This is a known limitation of the approach.\n\n2. **In vitro vs in vivo relevance:** All experiments are planned in cultured cells. The extent to which centriole inheritance patterns in vitro reflect in vivo differentiation is unknown.\n\n3. **Cell type specificity:** Asymmetric centriole inheritance has been demonstrated in only a limited number of cell types. The generalisability of findings across all differentiation lineages is uncertain.\n\n4. **Technical limitations of RITE labelling:** The RITE system may not provide sufficient temporal resolution to distinguish centriole age across many divisions, especially in rapidly dividing populations.\n\n5. **Computational reconstruction accuracy:** The genealogical DAG reconstruction depends on accurate cell tracking over many generations. Tracking errors, cell migration, and cell death may introduce biases.\n\n6. **Statistical power for secondary endpoints:** The sample size is calculated for the primary endpoint only. Secondary analyses (e.g., senescence markers) may be underpowered.\n\n7. **Generalisability to human biology:** The primary experiments will use model organisms or cell lines. Direct translation to human tissue aging is speculative without further validation."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "| Partner | Role | Status |\n|---------|------|--------|\n| Ilya Zheleznov | Project lead, experimental design | Confirmed |\n| TBD | Cell culture and RITE labelling | To be recruited |\n| TBD | Microscopy and image analysis | To be recruited |\n| TBD | Computational lineage reconstruction | To be recruited |\n| TBD | Statistical analysis and pre-registration | To be recruited |\n| TBD | Funding and administration | To be recruited |\n\n**Collaboration plan:** Regular weekly meetings (virtual), quarterly in-person workshops, shared data repository on OSF. All partners will have access to the pre-registration and analysis code prior to data collection."
+  }
+]

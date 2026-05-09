@@ -1,0 +1,38 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "The following numeric thresholds define conditions under which the Telomere Shortening Counter model would be considered falsified:\n- **Division-dependent erosion rate (α₂):** If measured α₂ ≤ 10 bp/PD in at least N ≥ 30 independent cultures (two-sided t-test, α = 0.05, power = 0.80), the model is falsified.\n- **Time-dependent erosion rate (β₂):** If measured β₂ ≤ 5 bp/year in longitudinal cohort data (N ≥ 100, α = 0.05, power = 0.80), the model is falsified.\n- **Correlation with aging phenotype:** If the absolute Pearson correlation |r| between D₂ and a composite aging phenotype score is < 0.2 (N ≥ 100, α = 0.05), the model is falsified.\n- **OP-T1 specific:** If outcome 4 (no significant change in L_avg or Var) is confirmed per the decision rule in OPEN_PROBLEMS.md, the β₂ contribution in vitro is rejected (see OPEN_PROBLEMS.md for full criteria).\n- **OP-T2 specific:** If the coupling coefficient Γ₂,₃ (Telomere-MitoROS) is not statistically distinguishable from zero (p > 0.10, N ≥ 12), the coupling hypothesis is falsified."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Pre-registration plan",
+    "body": "All experimental validation studies for the Telomere Shortening Counter will be pre-registered on the Open Science Framework (OSF) prior to data collection. The placeholder identifier is `osf.io/TBD`. The planned pre-registration date is 2026-10-01, with data collection commencing no earlier than 2026-12-01. The pre-registration will include: (1) study design and hypotheses, (2) sample size calculation and stopping rules, (3) primary and secondary outcome measures, (4) analysis plan including all statistical tests and equivalence bounds."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Sample size calculation",
+    "body": "Sample sizes for all experimental tests are determined a priori using power analysis. The general formula for a two-sided t-test is:\n\nn = (Z_{α/2} + Z_β)² · σ² / δ²\n\nwhere Z_{α/2} = 1.96 (for α = 0.05), Z_β = 0.84 (for power = 0.80), σ is the expected standard deviation, and δ is the minimum detectable effect size.\n\n**Example for OP-T1 (in vitro):** Effect size δ = 5 bp/PD (expected slope difference between stress and control), σ = 4 bp/PD (from PMID:24374808). n = (1.96 + 0.84)² · 4² / 5² = 7.84 · 16 / 25 = 5.02 → 6 per group, adjusted for 10% attrition → 7 independent cultures per condition.\n\n**Example for OP-T2 (in vivo):** Effect size δ = 0.5 (expected correlation difference), σ = 0.3 (from pilot data placeholder). n = (1.96 + 0.84)² · 0.3² / 0.5² = 7.84 · 0.09 / 0.25 = 2.82 → 3 per group, adjusted for 20% attrition → 4 subjects per group. **Note:** This is a placeholder calculation; actual values will be updated upon pre-registration."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| # | Risk Description | Probability | Impact | Mitigation Strategy |\n|---|------------------|-------------|--------|---------------------|\n| 1 | Inability to recruit sufficient participants for in vivo validation (OP-T2) | Medium (0.4) | High (model validation delayed) | Establish multi-site collaboration; use existing biobank samples; reduce effect size threshold |\n| 2 | Technical failure of single-cell Q-FISH assay (OP-T1) | Low (0.2) | High (data uninterpretable) | Validate assay with control cell line before experiment; have backup FISH protocol |\n| 3 | Confounding by ALT (alternative lengthening of telomeres) in cell lines | Medium (0.3) | Medium (bias in α₂ estimate) | Screen all cell lines for ALT activity (APB assay); exclude ALT-positive lines |\n| 4 | Oxidative stress protocol causes cell death before measurable telomere erosion | Medium (0.3) | Medium (incomplete data) | Titrate stressor dose in pilot experiment; use multiple stress levels |\n| 5 | Model falsified by outcome 3 or 4 (paradigm shift required) | Low (0.2) | Critical (framework revision) | Pre-defined model update protocol (see DESIGN.md §5); alternative subpopulation model ready |"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "The following limitations are acknowledged:\n1. **Tissue specificity:** The model currently assumes a single tissue-average D₂ value; tissue-specific differences in telomere dynamics (e.g., stem cells vs. differentiated cells) are not explicitly modeled.\n2. **Cell-to-cell variability:** The distribution of telomere lengths within a cell population is not captured; only the mean deviation D₂ is used (see OP-T1).\n3. **ALT and telomerase:** The model does not account for cells that maintain telomeres via ALT or telomerase reactivation (e.g., cancer cells, germline).\n4. **Non-telomeric TERT functions:** The model focuses solely on telomere length; TERT's non-canonical roles (e.g., mitochondrial protection, gene expression regulation) are not included.\n5. **Coupling with other counters:** The Γ matrix entries (coupling coefficients) are theoretical; experimental validation is pending (see OP-T2).\n6. **Stress dependence:** The parameter τ₂ (stress-dependent erosion timescale) is poorly constrained; the model assumes a single timescale for all stress types.\n7. **Cross-species generalizability:** The model is parameterized using human data; applicability to model organisms (e.g., mice with long telomeres) is uncertain.\n8. **Longitudinal data scarcity:** In vivo validation requires long-term cohort studies (decades), which are logistically challenging."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "The following partners and collaborators are involved in the Telomere Shortening Counter validation:\n- **Lead institution:** [Placeholder – e.g., University of X, Department of Y]\n- **Experimental biology (in vitro):** [Placeholder – e.g., Dr. A. Smith, Cell Biology Lab]\n- **Bioinformatics and modeling:** [Placeholder – e.g., Dr. B. Jones, Computational Biology Group]\n- **Clinical cohort access:** [Placeholder – e.g., Dr. C. Lee, Longitudinal Aging Study]\n- **Statistical consulting:** [Placeholder – e.g., Dr. D. Patel, Biostatistics Core]\n- **Funding agency:** [Placeholder – e.g., National Institute on Aging, Grant #TBD]\n\n**Note:** This list is a placeholder and will be updated upon consortium formation and funding confirmation."
+  }
+]

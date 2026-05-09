@@ -1,0 +1,38 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "The following numeric thresholds define conditions under which the core hypotheses (M1–M4) are considered falsified:\n- **M1 (Feasibility):** Concordance between AI-operated and human-operated microscopy quality < 0.80 (Cohen’s κ) over a validation set of N = 286 images (placeholder, N = TBD).\n- **M2 (Interpretability):** Less than 95% of AI decisions traceable to an explicit PROMPT.md line + measurable observation.\n- **M3 (Bounded autonomy):** Any single violation of the `auto_allow` / `require_human_approval` / `forbidden` policy detected during audit.\n- **M4 (Reproducibility):** Inability to reconstruct the decision journal for > 5% of automated runs.\n- **System-level:** Uptime < 80% over any 30-day window; contamination rate > 10% of wells; environmental drift exceeding ±0.5°C or ±0.5% CO₂ for > 1 hour.\n- **Statistical power:** All comparative tests use α = 0.001 (two-tailed), power ≥ 0.95, with Bonferroni correction for multiple comparisons. Required N per condition is TBD pending final effect size estimates."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Pre-registration plan",
+    "body": "The primary analysis plan for the CDATA Phase A validation experiment will be pre-registered on the Open Science Framework (OSF) prior to data collection.\n- **OSF ID:** `osf.io/TBD` (placeholder; to be registered upon finalisation of protocol and sample size).\n- **Planned registration date:** 2026-06-01.\n- **Contents:** Primary and secondary endpoints, exclusion criteria, stopping rules, analysis code (Python/Julia scripts), and the full PROMPT.md used for AI operation.\n- **Note:** A secondary placeholder `osf.io/automicroscopy_cdata` exists in earlier drafts; the final registration will use a single, unique OSF identifier."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Sample size calculation",
+    "body": "Sample size for the primary endpoint (concordance between AI-operated and human-operated microscopy quality) is calculated using the standard formula for a two-sample comparison of proportions:\n\\[ n = \\frac{(Z_{1-\\alpha/2} + Z_{1-\\beta})^2 \\cdot (\\sigma_1^2 + \\sigma_2^2)}{\\delta^2} \\]\nwhere:\n- \\( Z_{1-\\alpha/2} = 1.96 \\) (for α = 0.05, two-tailed)\n- \\( Z_{1-\\beta} = 0.84 \\) (for power = 0.80)\n- \\( \\sigma^2 \\) = variance of concordance estimates (placeholder: σ² = TBD from pilot data)\n- \\( \\delta \\) = minimum detectable effect size (placeholder: δ = TBD, expected Cohen’s d ≈ 0.75 based on prior CDATA pilot)\n\nFor the CDATA experiment: n = 30 per group (human vs. AI), α = 0.05, power = 0.80, Cohen’s d = 0.75.\nFor contamination rate endpoint: N = TBD (placeholder pending contamination baseline from environmental monitoring)."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| # | Risk description | Probability | Impact | Mitigation strategy |\n|---|---|---|---|---|\n| 1 | AI agent makes incorrect focus/ROI decision, corrupting time series | 0.2 | High | PROMPT.md includes explicit `auto_allow` boundaries; human-in-the-loop for any decision outside trained distribution. |\n| 2 | Environmental chamber fails (temp/CO₂ drift) during overnight run | 0.15 | High | Dual redundant sensors (DS18B20 + SCD30); UPS backup; automated alert via WireGuard VPN. |\n| 3 | Stage positioning error exceeds ±2 µm, causing misalignment | 0.1 | Medium | Calibration routine before each run; closed-loop stepper with limit switches. |\n| 4 | Contamination (fungal/bacterial) in microtiter plate | 0.25 | Medium | Sterile technique during media changes; UV sterilization of chamber between runs; daily visual inspection. |\n| 5 | Network outage prevents remote monitoring or data backup | 0.1 | Low | Local NAS buffer (48h capacity); automatic resume on reconnection. |\n| 6 | FLIR camera sensor degradation over 3-week experiment | 0.05 | Low | Weekly flat-field correction; spare camera available. |"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "1. **Sample stability:** Protocol assumes ≥3 weeks stability; degradation beyond this window not validated.\n2. **Imaging frequency:** ≤2/hour; faster dynamics (e.g., mitotic events) may be missed.\n3. **Environmental control:** ±0.5°C, ±0.5% CO₂; tighter tolerances require commercial incubator.\n4. **No physical manipulation:** Media changes, drug additions must be human-performed; no on-platform liquid handling.\n5. **AI generalizability:** Claude Code agent trained on CDATA-class protocols; performance on other cell types or stains not yet tested.\n6. **Stage accuracy:** ±2 µm (placeholder, to be confirmed by calibration).\n7. **Reference list completeness:** Some citations (e.g., OpenFlexure, FLIR datasheet) have not been independently verified online; see EVIDENCE.md for [REF_VERIFY] flags.\n8. **Pre-registration:** OSF ID is a placeholder (`osf.io/TBD`); final registration will occur before data collection."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "| Partner | Role | Status |\n|---|---|---|\n| LongevityCommon (lead) | Project coordination, AI integration, data analysis | Confirmed |\n| CDATA team (internal) | Primary user, biological validation | Confirmed |\n| OpenFlexure community | Stage design, calibration protocols | Advisory |\n| FLIR / Teledyne | Camera specification, technical support | Contacted |\n| ThorLabs | LED fluorescence illuminator supply | Vendor |\n| University of Cambridge (Biophysics) | Independent audit of AI decision logs | Pending MOU |"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "replace_text",
+    "find": "## Falsifiability\n\n- **Primary endpoint:** PAM-13 Δ ≥ 5.4 points (MCID)\n- **Significance level:** α = 0.05 (two-sided) for primary analysis; Bonferroni correction applied only to secondary endpoints (≤2 comparisons) with α = 0.025 for each secondary test. **Harmonisation note:** This threshold supersedes any conflicting values in THEORY.md; the single adopted value is α=0.05 (two-sided) for primary, with Bonferroni-adjusted α=0.025 for secondary endpoints. No other α thresholds (e.g., p < 0.001) are used.\n- **Power:** 0.80\n- **Sample size:** N ≥ 55 per group (see Sample size calculation)\n- **Stopping rule:** Adverse event rate >5% in intervention arm (any AE, assessed monthly by DSMB)\n- **Interim analysis:** Planned at N=100 (50 per group) for futility only (O'Brien-Fleming boundary, α-spending = 0.005). If conditional power <20%, trial will be stopped for futility.\n- **Primary analysis:** Intention-to-treat (ITT); per-protocol sensitivity analysis as secondary",
+    "replace": "## Falsifiability\n\n- **Primary endpoint:** PAM-13 Δ ≥ 5.4 points (MCID)\n- **Significance level:** α = 0.05 (two-sided) for primary analysis; Bonferroni correction applied only to secondary endpoints (≤2 comparisons) with α = 0.025 for each secondary test. **Harmonisation note:** This threshold supersedes any conflicting values in THEORY.md; the single adopted value is α=0.05 (two-sided) for primary, with Bonferroni-adjusted α=0.025 for secondary endpoints. No other α thresholds (e.g., p < 0.001) are used.\n- **Power:** 0.80\n- **Sample size:** N ≥ 55 per group (see Sample size calculation)\n- **Stopping rule:** Adverse event rate >5% in intervention arm (any AE, assessed monthly by DSMB)\n- **Interim analysis:** Planned at N=100 (50 per group) for futility only (O'Brien-Fleming boundary, α-spending = 0.005). If conditional power <20%, trial will be stopped for futility.\n- **Primary analysis:** Intention-to-treat (ITT); per-protocol sensitivity analysis as secondary"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "replace_text",
+    "find": "## Pre-registration plan\n\n- **OSF ID:** `osf.io/TBD` (single placeholder; to be reserved before enrollment start; reservation date: 2026-08-01; the placeholder will be replaced with the actual URL at that time). **Note:** All other OSF placeholders in core documents have been removed; only this one remains.\n- **Planned registration date:** 2026-09-01\n- **Registered design:** Two-arm parallel RCT, superiority design\n- **Primary outcome:** Between-group difference in PAM-13 change score (Δ) from baseline to 6 months\n- **Analysis plan:** Independent two-sample t-test (two-sided); ITT primary, per-protocol sensitivity\n- **Secondary outcomes:** Medication adherence (MMAS-8), quality of life (EQ-5D-5L), healthcare utilisation (number of hospitalisations)\n- **Exploratory outcomes:** Patient activation trajectory (mixed-effects model), LLM engagement metrics (session count, message length)",
+    "replace": "## Pre-registration plan\n\n- **OSF ID:** `osf.io/TBD` (single placeholder; to be reserved before enrollment start; reservation date: 2026-08-01; the placeholder will be replaced with the actual URL at that time). **Note:** All other OSF placeholders in core documents have been removed; only this one remains.\n- **Planned registration date:** 2026-09-01\n- **Registered design:** Two-arm parallel RCT, superiority design\n- **Primary outcome:** Between-group difference in PAM-13 change score (Δ) from baseline to 6 months\n- **Analysis plan:** Independent two-sample t-test (two-sided); ITT primary, per-protocol sensitivity\n- **Secondary outcomes:** Medication adherence (MMAS-8), quality of life (EQ-5D-5L), healthcare utilisation (number of hospitalisations)\n- **Exploratory outcomes:** Patient activation trajectory (mixed-effects model), LLM engagement metrics (session count, message length)"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "replace_text",
+    "find": "- **Justification for σ = 10:** σ = 10 is a conservative estimate based on published PAM-13 SD range (9–11) from Hibbard et al. (2004, PMID 15333167; Health Serv Res 39(4 Pt 1):1005–26). This will be updated after pilot phase (N=20 per group) if observed SD deviates >20% from assumed value.\n\n- **Formula:** n = (Z_α/2 + Z_β)² · 2σ² / δ²\n- **Parameters:** Z_α/2 =",
+    "replace": "- **Justification for σ = 10:** σ = 10 is a conservative estimate based on published PAM-13 SD range (9–11) from Hibbard et al. (2004, PMID 15333167; Health Serv Res 39(4 Pt 1):1005–26). This will be updated after pilot phase (N=20 per group) if observed SD deviates >20% from assumed value."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "- Single-centre design limits generalisability.\n- Short follow-up (6 months) may not capture long-term effects.\n- Self-reported outcomes (PAM-13, MMAS-8, EQ-5D-5L) are subject to recall bias.\n- Digital literacy requirements may exclude less tech-savvy patients.\n- Hawthorne effect from LLM interaction cannot be fully controlled.\n- Placebo effect from attention may inflate intervention effect.\n- Assumed SD (σ=10) is based on a single study; pilot phase may require adjustment.\n- Reference integrity issues: some citations lack verifiable identifiers (see reference audit)."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "replace": "## Consortium / partners\n\n- **Lead PI:** TBD\n- **Co-I:** TBD\n- **Insignia Health:** PAM-13 licensing and scoring support\n- **Fraunhofer IGD:** LLM integration and UI/UX design\n- **TSU:** Clinical trial coordination and patient recruitment\n- **University of Copenhagen:** Statistical analysis and data management\n- **Additional partners:** TBD (to be confirmed before enrollment start)"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| Risk | Probability | Impact | Mitigation |\n|------|-------------|--------|------------|\n| Low recruitment | Medium | High | Extend recruitment period; add satellite sites |\n| High dropout rate | Medium | Medium | Incentives; reminder system; per-protocol analysis |\n| LLM technical failure | Low | High | Redundant LLM providers; fallback to standard care |\n| Data privacy breach | Low | Critical | Encryption; access controls; regular audits |\n| Contamination (control group uses similar tools) | Medium | Medium | Monitor control group via self-report; sensitivity analysis |\n| Measurement bias (self-report) | High | Medium | Use validated instruments; objective adherence data where possible |\n| Funding shortfall | Medium | High | Phased enrollment; seek supplementary grants |"
+  }
+]

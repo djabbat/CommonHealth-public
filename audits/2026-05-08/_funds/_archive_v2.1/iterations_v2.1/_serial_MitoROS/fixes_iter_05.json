@@ -1,0 +1,38 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "The model generates the following quantitative predictions that must be met for the counter to be considered valid:\n- **Prediction 1:** In mitotic tissues (e.g., epithelium), the division-dependent term α₃·n shall account for ≥X% of total D₃ variance (X = TBD, to be determined from pilot data).\n- **Prediction 2:** In post-mitotic tissues (e.g., neurons), the time-dependent term β₃·(1−exp(−t/τ₃)) shall yield a damage accumulation rate ≤Y% per year (Y = TBD, placeholder pending longitudinal calibration).\n- **Prediction 3:** The interaction term γ₃ with Counter #1 (centriolar) shall be non-zero at p<0.001 (two-tailed) in at least one tissue type.\n- **Prediction 4:** The composite measure D₃ shall correlate with chronological age with R² ≥ 0.8 in a held-out validation cohort (N = TBD).\n- **Falsification criterion:** If any of the above predictions fail at the pre-registered significance level (α = 0.05, corrected for multiple comparisons), the counter is considered falsified and the model must be revised."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Pre-registration plan",
+    "body": "The experimental protocols for validating Counter #3 will be pre-registered on the Open Science Framework (OSF) prior to data collection. The pre-registration will include:\n- **OSF ID:** osf.io/TBD (placeholder, to be assigned upon registration)\n- **Planned registration date:** 2026-09-01 (tentative; subject to IRB/IACUC approval)\n- **Primary hypothesis:** D₃ (composite measure) increases with age in all tissues tested.\n- **Secondary hypotheses:** (1) Division-dependent term dominates in mitotic tissues; (2) Time-dependent term dominates in post-mitotic tissues; (3) Interaction with Counter #1 is non-zero.\n- **Analysis plan:** Linear mixed-effects models with tissue as fixed effect and subject as random effect. Multiple comparison correction via Bonferroni-Holm.\n- **Exclusion criteria:** Samples with contamination >5% (by QC metrics) or missing >20% of variables.\n- **Any deviation from this plan will be documented as a revision with timestamp and rationale."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Sample size calculation",
+    "body": "Sample sizes for each experiment are calculated using the standard formula for two-sided tests:\n- **Formula:** n = (Z_{α/2} + Z_β)² · σ² / δ²\n  - Z_{α/2} = 1.96 (for α = 0.05)\n  - Z_β = 0.84 (for power = 0.80)\n  - σ² = pooled variance (estimated from pilot data or literature; placeholder: σ² = TBD)\n  - δ = minimum detectable effect size (placeholder: δ = TBD)\n- **Experiment P0-1 (linear regression):** n = 15 per condition (3 conditions → 45 total), based on expected R² = 0.9.\n- **Experiment P0-2 (ANOVA interaction):** n = 30 per tissue (3 tissues → 90 total), based on Cohen's f² = 0.35.\n- **Experiment P1-1 (t-test):** n = 25 per group (2 groups → 50 total), based on Cohen's d = 0.8.\n- **Experiment P2-1 (longitudinal):** n = TBD (to be estimated from P0-1 pilot data).\n- **Contingency:** If pilot data yield effect sizes smaller than assumed, sample sizes will be recalculated and the new values registered as an amendment to the pre-registration."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| Risk ID | Description | Probability | Impact | Mitigation |\n|---------|-------------|-------------|--------|------------|\n| R1 | Heteroplasmy measurement error >10% | Medium | High | Use duplex sequencing with UMI; calibrate with synthetic standards |\n| R2 | Non-linear relationship between D₃ and age | Medium | High | Pre-register alternative non-linear model; test both linear and non-linear fits |\n| R3 | Tissue weights w₃ are misspecified | Low | Medium | Lock weights a priori; sensitivity analysis with bootstrapped CIs |\n| R4 | Interaction term γ₃ is zero in all tissues | Low | High | If null, revise coupling hypothesis; report as negative result |\n| R5 | Longitudinal attrition >30% | Medium | Medium | Oversample by 20%; use mixed models to handle missing data |\n| R6 | Batch effects confound cross-tissue comparisons | Medium | Medium | Randomize samples across batches; include batch as random effect |"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "1. **Tissue heterogeneity:** The model assumes uniform damage accumulation within each tissue type, ignoring cellular subpopulations (e.g., stem cells vs. differentiated cells). Mitigation: Single-cell mtDNA sequencing in a subset of samples (N=5 per tissue) to assess intra-tissue variance.\n2. **Hypothetical τ₃ parameter:** The time-dependent damage rate τ₃ (0.1–0.3/year) is estimated from cross-sectional data; longitudinal validation is required. Mitigation: Planned longitudinal study in mice (P2-1) with measurements at 3 time points.\n3. **Uncalibrated weights λ_het, λ_les:** These weights are set heuristically and will be locked after pilot experiment. Mitigation: Sensitivity analysis with bootstrapped confidence intervals.\n4. **Causal direction not established:** D₃ → aging correlation does not prove causation; reverse causality (aging → mtDNA damage) is possible. Mitigation: Use Mendelian randomization in human cohorts if genetic instruments become available.\n5. **Model overfitting risk:** With 7+ free parameters per tissue, the model may overfit to training data. Mitigation: Cross-validation with held-out tissues; pre-register all parameters before validation.\n6. **Species generalizability:** All parameters are derived from human and mouse data; applicability to other species is unknown. Mitigation: Test in at least one non-mammalian model (e.g., C. elegans) in a follow-up study."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "The following partners have committed to contributing data, samples, or expertise to this project (list is preliminary and subject to change):\n- **Partner 1:** [Institution/Group Name] — Role: [e.g., single-cell mtDNA sequencing]\n- **Partner 2:** [Institution/Group Name] — Role: [e.g., longitudinal mouse cohort]\n- **Partner 3:** [Institution/Group Name] — Role: [e.g., bioinformatics and modeling]\n- **Partner 4:** [Institution/Group Name] — Role: [e.g., Seahorse metabolic analysis]\n- **Contact:** [Corresponding Author Email] for inquiries about joining the consortium."
+  }
+]

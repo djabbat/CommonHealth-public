@@ -10,14 +10,14 @@ proxies `/api/` → `:4502/api/*`, `/live/` and `/` → `:4501`
 **Wire format:** ChiZeRequest accepts BOTH conventions via `serde(alias)`:
 - `{"v_eeg": x, "v_hrv": y, "v_resp": z, "v_sleep": w}` — idiomatic Rust shape.
 - `{"eeg": x, "hrv": y, "resp": z, "sleep": w}` — legacy shape used by
-  Phoenix `biosense-web` client and the retired Docker container.
+ Phoenix `biosense-web` client and the retired Docker container.
 
 **Routes** (all mounted at both `/<name>` and `/api/<name>`):
-- `GET  /healthz` — liveness
+- `GET /healthz` — liveness
 - `POST /chi_ze` — composed χ_Ze biomarker computation
 - `POST /bridge` — CDATA D → χ_Ze stub
 - `POST /exacerbation` — risk score
-- `GET  /v_star` — canonical v* (Article + Python forms)
+- `GET /v_star` — canonical v* (Article + Python forms)
 
 **History:** Until 2026-05-08, `:4502` was held by the Docker container
 `deploy-biosense-backend-1` (image `deploy-biosense-backend`, running

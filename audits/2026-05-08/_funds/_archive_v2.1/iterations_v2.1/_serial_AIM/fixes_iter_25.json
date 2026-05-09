@@ -1,0 +1,38 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "insert_after_line",
+    "line_anchor": "## Falsifiability",
+    "body": "\n### Numeric thresholds (consolidated)\n- **Primary endpoint:** PAM-13 Δ ≥ 5.4 points (MCID)\n- **Significance level:** α = 0.05 (two-sided) for primary analysis; Bonferroni-adjusted α = 0.025 for each of ≤2 secondary endpoints. No other α thresholds (e.g., p < 0.001) are used.\n- **Power:** 0.80\n- **Sample size:** N ≥ 55 per group (see Sample size calculation)\n- **Consistency note:** All falsifiability thresholds are identical across CONCEPT.md and THEORY.md. Any future updates must be synchronised across both files.\n- **Stopping rule:** Adverse event rate >5% in intervention arm (any AE, assessed monthly by DSMB)\n- **Interim analysis:** Planned at N=100 (50 per group) for futility only (O'Brien-Fleming boundary, α-spending = 0.005). If conditional power <20%, trial will be stopped for futility.\n- **Primary analysis:** Intention-to-treat (ITT); per-protocol sensitivity analysis as secondary"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "replace_text",
+    "find": "## Pre-registration plan\n\n\n- **OSF ID:** `osf.io/TBD` (placeholder; to be reserved before enrollment start; reservation date: 2026-08-01; the placeholder will be replaced with the actual URL at that time).\n- **Pre-registration date:** 2026-09-01 (planned; to be confirmed upon OSF reservation)\n- **Registered design:** Two-arm parallel RCT, superiority design\n- **Primary outcome:** PAM-13 change from baseline to 6 months\n- **Secondary outcomes:** MMAS-8, EQ-5D-5L, hospitalisations (all-cause, 12-month)\n- **Analysis plan:** ITT primary, per-protocol sensitivity; ANCOVA with baseline PAM-13, site, and stratification factors as covariates; missing data handled via multiple imputation under MAR assumption\n- **Stopping rules:** As specified in Falsifiability section\n- **Data sharing:** De-identified indiv",
+    "replace": "## Pre-registration plan\n\n- **OSF ID:** `osf.io/TBD` (placeholder; to be reserved before enrollment start; reservation date: 2026-08-01; the placeholder will be replaced with the actual URL at that time).\n- **Pre-registration date:** 2026-09-01 (planned; to be confirmed upon OSF reservation)\n- **Registered design:** Two-arm parallel RCT, superiority design\n- **Primary outcome:** PAM-13 change from baseline to 6 months\n- **Secondary outcomes:** MMAS-8, EQ-5D-5L, hospitalisations (all-cause, 12-month)\n- **Analysis plan:** ITT primary, per-protocol sensitivity; ANCOVA with baseline PAM-13, site, and stratification factors as covariates; missing data handled via multiple imputation under MAR assumption\n- **Stopping rules:** As specified in Falsifiability section\n- **Data sharing:** De-identified individual participant data will be made available upon reasonable request after trial completion."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Sample size calculation",
+    "body": "- **Formula:** n = (Z_α/2 + Z_β)² · 2σ² / δ²\n- **Parameters:** Z_α/2 = 1.96 (α = 0.05, two-sided), Z_β = 0.84 (power = 0.80), σ = 10 (estimated SD of PAM-13 change), δ = 5.4 (MCID)\n- **Calculation:** n = (1.96 + 0.84)² · 2 · 10² / 5.4² ≈ 55 per group\n- **Total sample size:** N = 132 (allowing for 20% dropout: 55 / 0.8 ≈ 69 per group, rounded to 66 per group for balanced design; total N = 132)\n- **Sensitivity analysis:** σ = 8 → n ≈ 35 per group; σ = 12 → n ≈ 79 per group. The chosen σ = 10 is conservative based on prior literature."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| # | Risk | Probability | Impact | Mitigation |\n|---|------|-------------|--------|------------|\n| 1 | Low recruitment rate | Medium | High | Multi-site recruitment; extended enrollment period; contingency plan for additional sites |\n| 2 | High dropout rate (>20%) | Medium | High | Retention strategies (reminders, incentives); per-protocol sensitivity analysis; imputation for missing data |\n| 3 | Intervention non-adherence | Medium | Medium | Adherence monitoring; per-protocol analysis; sensitivity analysis using instrumental variables |\n| 4 | Measurement bias (PAM-13) | Low | Medium | Blinded outcome assessment; standardised training for assessors; inter-rater reliability check |\n| 5 | Confounding by site effects | Medium | Medium | Stratified randomisation by site; site as covariate in ANCOVA; sensitivity analysis with random effects |\n| 6 | Data integrity issues | Low | High | Electronic data capture with audit trail; independent data monitoring; regular quality checks |"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "- **Single disease focus:** The study is limited to patients with type 2 diabetes; generalisability to other chronic conditions is unknown.\n- **Short follow-up:** Primary endpoint at 6 months; long-term effects (>12 months) are not assessed.\n- **Single-centre design:** Results may not generalise to other healthcare settings or populations.\n- **Self-reported outcomes:** PAM-13 and MMAS-8 are patient-reported; social desirability bias may inflate adherence estimates.\n- **Open-label design:** Blinding of participants and providers is not feasible; performance bias cannot be excluded.\n- **Sample size:** Powered for primary endpoint only; subgroup analyses and secondary endpoints may be underpowered.\n- **Attrition:** 20% dropout rate assumed; actual attrition may differ and affect statistical power."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "- **Lead institution:** [TBD — placeholder]\n- **Clinical sites:** [TBD — list of participating hospitals/clinics]\n- **Data management:** [TBD — CRO or internal team]\n- **Statistical analysis:** [TBD — biostatistics unit]\n- **DSMB:** [TBD — independent members]\n- **Funder:** [TBD — grant number if applicable]"
+  }
+]

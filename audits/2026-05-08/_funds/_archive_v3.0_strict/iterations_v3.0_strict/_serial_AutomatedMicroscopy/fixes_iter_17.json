@@ -1,0 +1,56 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "All core axioms are falsified by numeric thresholds:\n- **M1 (Feasibility):** Rejected if AI-operated microscopy achieves <80% trained-technician supervision quality (measured as agreement rate on a held-out test set of N≥286 decisions, α=0.05, power=0.80, Δ=0.05).\n- **M2 (Interpretability):** Rejected if >1% of AI decisions lack an explicit link to a PROMPT.md line and measurable observation in the audit trail.\n- **M3 (Bounded autonomy):** Rejected if any `forbidden` action is executed by the AI, or if any `require_human_approval` action is executed without prior human sign-off.\n- **M4 (Reproducibility):** Rejected if a post-hoc blind audit cannot reconstruct the decision rationale for ≥90% of logged actions.\n- **System uptime:** Rejected if the system fails to complete an overnight run without human intervention in ≤5% of scheduled sessions."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Pre-registration plan",
+    "body": "The primary validation endpoint (AI vs. human decision agreement) will be pre-registered on the Open Science Framework (OSF) before data collection begins.\n- **OSF ID:** osf.io/TBD\n- **Planned pre-registration date:** TBD (to be completed before pilot data collection)\n- **Pre-registration content:** Study design, primary and secondary endpoints, sample size calculation, analysis plan, and stopping rules."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "replace_text",
+    "find": "### Sample size calculation\n\nSample size for the primary validation endpoint (AI vs. human decision agreement) is calculated using the following formula:\n\nn = (1.96 + 0.84)² · σ² / δ²\n\nWhere:\n- Z_α/2 = 1.96 (α = 0.05, two-tailed)\n- Z_β = 0.84 (β = 0.20, 80% power)\n- σ² = TBD (to be estimated from pilot data or literature)\n- δ = TBD (minimum clinically meaningful difference in agreement rate)\n\n**Sample size:** n = TBD (to be updated after pilot study, N ≥ 3 independent experiments).\n\n*Note: σ² and δ are placeholders pending pilot data. A pilot study with N=10 per group is planned to estimate these parameters. The final sample size will be pre-registered before data collection",
+    "replace": "## Sample size calculation\n\nSample size for the primary validation endpoint (AI vs. human decision agreement) is calculated using the following formula:\n\nn = (1.96 + 0.84)² · σ² / δ²\n\nWhere:\n- Z_α/2 = 1.96 (α = 0.05, two-tailed)\n- Z_β = 0.84 (β = 0.20, 80% power)\n- σ² = TBD (to be estimated from pilot data or literature)\n- δ = TBD (minimum clinically meaningful difference in agreement rate)\n\n**Sample size:** n = TBD (to be updated after pilot study, N ≥ 3 independent experiments).\n\n*Note: σ² and δ are placeholders pending pilot data. A pilot study with N=10 per group is planned to estimate these parameters. The final sample size will be pre-registered before data collection.*"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| Risk | Probability | Impact | Mitigation |\n|------|-------------|--------|------------|\n| AI agent makes incorrect focus/ROI decision leading to data loss | Medium | High | Implement real-time quality checks; human-in-the-loop for critical decisions; full audit trail for post-hoc correction |\n| Environmental chamber failure (temp/CO₂/humidity) | Low | High | Redundant sensors; UPS backup; automated alerts to human operator; fail-safe shutdown protocol |\n| Hardware component failure (stage, camera, LED) | Low | Medium | Spare parts on hand; modular design for quick replacement; preventive maintenance schedule |\n| Software bug in AI decision logic | Medium | Medium | Unit tests for all decision modules; simulation-based testing before live deployment; version-controlled PROMPT.md |\n| Network/WireGuard VPN outage during overnight run | Low | Low | Local NAS buffer for data; autonomous operation continues without remote monitoring; re-sync on reconnect |\n| Sample contamination or degradation during long-term imaging | Medium | High | Sterile technique during setup; media changes performed by human; daily automated quality check of sample health |"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "- **Generalizability:** The system is validated only for CDATA-class protocols with sample stability ≥3 weeks, imaging frequency ≤2/hour, and no physical sample manipulation on-platform. Results may not transfer to other protocols or hardware configurations.\n- **Sample size:** The sample size calculation is based on placeholder values (σ² and δ) pending pilot data. The final study may be underpowered if these estimates are inaccurate.\n- **AI bias:** The AI agent's decisions are based on the specific PROMPT.md and training data; systematic biases in the training data may lead to biased decisions in edge cases.\n- **Hardware limitations:** The $4,500 BOM retrofit may not achieve the same precision or reliability as industrial-grade systems ($25-50k) for all use cases.\n- **Environmental control:** The DIY environmental chamber may have slower response times or less uniform conditions compared to commercial incubators.\n- **Long-term stability:** System reliability over extended periods (>3 weeks) has not been tested; component drift or degradation may affect performance."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "- **Lead institution:** LongevityCommon (infrastructure subproject)\n- **Collaborators:** TBD (to be identified for specific use cases, e.g., CDATA, Telomere, MitoROS, EpigeneticDrift, Proteostasis subprojects)\n- **Hardware partners:** TBD (potential suppliers for Zeiss IM 35 retrofit components, FLIR cameras, ThorLabs LEDs)\n- **Software partners:** TBD (potential contributors to Claude Code agent integration or open-source microscopy software)\n- **Funding:** TBD (to be secured through grants or institutional support)"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Evidence base & meta-analysis",
+    "body": "The following verified sources support key claims in this concept:\n1. **AI-assisted microscopy:** Reference TBD (e.g., published studies on deep learning for autofocus or cell segmentation in time-lapse microscopy).\n2. **Low-cost microscope automation:** Reference TBD (e.g., open-source hardware projects like OpenFlexure, µManager, or DIY motorized stages).\n3. **Environmental control for live-cell imaging:** Reference TBD (e.g., protocols for DIY incubators or commercial systems).\n\n**State-of-the-art:** Current industrial-grade automated microscopes (e.g., Zeiss Celldiscoverer 7, Nikon BioStation) cost $25-50k and offer integrated environmental control, motorized stages, and software for time-lapse experiments. Open-source alternatives (e.g., OpenFlexure, µManager) reduce cost but often lack integrated AI decision-making. The proposed system aims to bridge this gap by combining low-cost hardware with prompt-driven AI supervision.\n\n**Contradicting results:** No contradicting results have been identified at this stage. A systematic literature review (following PRISMA guidelines) is planned to identify potential limitations of AI-operated microscopy in terms of accuracy, reliability, and reproducibility.\n\n**Meta-analysis:** No meta-analysis is currently available for AI-operated low-cost microscopy. A meta-analysis of relevant studies will be conducted if sufficient data are identified."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Methodology depth",
+    "body": "### Replication-ready protocol\n1. **Hardware setup:** Assemble Zeiss IM 35 retrofit with motorized XY+Z stage, FLIR Blackfly S camera, LED illuminator, and environmental chamber. Calibrate stage positioning and camera focus.\n2. **Software setup:** Install and configure Claude Code agent with PROMPT.md for the specific experiment. Test all `auto_allow`, `require_human_approval`, and `forbidden` actions.\n3. **Sample preparation:** Prepare cell culture samples according to CDATA protocol. Load samples into environmental chamber and allow equilibration (≥1 hour).\n4. **Imaging run:** Execute overnight imaging session with AI agent making routine decisions (focus, ROI selection, channel switching). Log all decisions with rationale.\n5. **Data analysis:** Compare AI decisions to human expert decisions on a held-out test set. Calculate agreement rate and other metrics.\n\n### Statistical analysis plan (SAP)\n- **Primary endpoint:** Agreement rate between AI and human expert decisions (binary: agree/disagree).\n- **Secondary endpoints:** Time to decision, number of human interventions required, image quality metrics (e.g., signal-to-noise ratio, focus score).\n- **Multiple comparisons:** Bonferroni correction for secondary endpoints (α = 0.05 / number of secondary endpoints).\n- **Missing data:** Complete-case analysis for primary endpoint; sensitivity analysis using multiple imputation if >5% missing data.\n- **Controls:** Human expert decisions on the same images (blinded to AI decision).\n\n### Replication strategy\n- **Split-sample:** Randomly split data into training (70%) and test (30%) sets. Report performance on test set only.\n- **Independent replication:** A second independent dataset (from a different experiment or lab) will be used to validate findings.\n- **Blinding:** Human experts will be blinded to AI decisions when evaluating agreement.\n- **Randomisation:** Order of image presentation for human experts will be randomised to avoid order effects."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Reproducibility & open science",
+    "body": "- **Code repository:** All code for the AI agent, hardware control, and data analysis will be deposited in a public GitHub repository (URL: TBD; to be made public upon acceptance).\n- **Data deposit:** Raw images, decision logs, and analysis outputs will be deposited in a public data repository (e.g., Zenodo, Dryad, OSF, or figshare). DOI: TBD.\n- **Pre-registration:** The study design and analysis plan will be pre-registered on OSF (ID: osf.io/TBD) before data collection.\n- **Materials transparency:** A complete list of hardware components (with part numbers and sources), software dependencies (requirements.txt or environment.yml), and protocols (protocols.io link: TBD) will be provided.\n- **Audit trail:** All AI decisions will be logged with timestamps, input data, rationale, and output. Logs will be made available for post-hoc audit."
+  }
+]

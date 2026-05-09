@@ -1,0 +1,49 @@
+
+## iter 1
+APPENDED: CONCEPT.md :: ## Falsifiability
+APPENDED: CONCEPT.md :: ## Pre-registration plan
+APPENDED: CONCEPT.md :: ## Sample size calculation
+APPENDED: CONCEPT.md :: ## Risk matrix
+APPENDED: CONCEPT.md :: ## Limitations
+APPENDED: CONCEPT.md :: ## Consortium / partners
+
+## iter 1
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+REPLACED: CONCEPT.md :: N ≥ TBD (определяется в power analysis)
+
+## iter 1
+REPLACED: CONCEPT.md :: osf.io/TBD
+INSERTED: CONCEPT.md after `## Pre-registration plan`
+APPENDED: CONCEPT.md :: ## References verification
+INSERTED: CONCEPT.md after `### Результаты валидации`
+APPENDED: CONCEPT.md :: ## Risk matrix (additional row)
+APPENDED: CONCEPT.md :: ## Limitations (additional)
+
+## iter 1
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+
+## iter 2
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+
+## iter 3
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners

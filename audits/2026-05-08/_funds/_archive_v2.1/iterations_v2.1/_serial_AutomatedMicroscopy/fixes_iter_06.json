@@ -1,0 +1,32 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "The hypothesis is falsifiable if any of the following thresholds are not met in a controlled validation experiment (N = TBD independent runs):\n- AI-operated microscopy achieves <80% of trained-technician supervision quality (measured as % of focus/ROI/channel decisions matching expert consensus).\n- Capital cost exceeds 20% of comparable industrial system (target <$5,000 vs. $25,000–50,000).\n- Audit trail completeness <95% (missing decision rationale for >5% of autonomous actions).\n- Statistical significance of quality difference vs. human supervision: p < 0.001 (two-tailed paired t-test)."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Pre-registration plan",
+    "body": "The primary validation experiment will be pre-registered on the Open Science Framework (OSF) prior to data collection.\n- **OSF ID:** osf.io/TBD\n- **Planned registration date:** TBD (target: before start of CDATA Phase A validation runs)\n- **Contents:** Full protocol, sample size calculation, analysis plan, and decision criteria for falsifiability thresholds."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "replace_text",
+    "find": "### Sample size calculation for CDATA experiment",
+    "replace": "### Sample size calculation for CDATA experiment\n\nSample size for the primary validation endpoint (AI vs. human decision agreement) is calculated using the following formula:\n\nn = (Z_α/2 + Z_β)² · σ² / δ²\n\nWhere:\n- Z_α/2 = 1.96 (α = 0.05, two-tailed)\n- Z_β = 0.84 (β = 0.20, 80% power)\n- σ² = TBD (estimated variance from pilot data or literature)\n- δ = TBD (minimum clinically meaningful difference in agreement rate)\n\n**Placeholder values:** n = TBD (to be updated after pilot study, N ≥ 3 independent experiments)."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "replace_text",
+    "find": "## Risk matrix\n\n## Limitations\n\n\n1. **Sample stability:** Protocol assumes ≥3 weeks stability; degradation beyond this window not validated.\n2. **Imaging frequency:** ≤2/hour; faster dynamics (e.g., mitotic events) may be missed.\n3. **Environmental control:** ±0.5°C, ±0.5% CO₂; tighter tolerances require commercial incubator.\n4. **No physical manipulation:** Media changes, drug additions must be human-performed; no on-platform liquid handling.\n5. **AI generalizability:** Claude Code agent trained on CDATA-class protocols; performance on other cell types or stains not yet tested.\n6. **Stage accuracy:** ±2 µm (placeholder, t",
+    "replace": "## Risk matrix\n\n| Risk | Probability | Impact | Mitigation |\n|------|-------------|--------|------------|\n| AI focus/ROI decision error leads to data loss | Medium | High | Human-in-the-loop for critical decisions; full audit trail for post-hoc correction |\n| Environmental chamber failure (temp/CO₂ drift) | Low | High | Dual sensor monitoring + UPS backup; automated alert to human operator |\n| Stage drift or mechanical failure during overnight run | Low | Medium | Regular calibration schedule; homing routine at start of each experiment |\n| Software crash or communication loss with microscope | Medium | Medium | Watchdog timer; auto-restart script; NAS backup of all acquired images |\n| Contamination due to inadequate sterilization protocol | Low | High | Standardized cleaning protocol before each experiment; UV sterilization cycle |\n| AI model drift or unexpected behavior after update | Medium | Medium | Version-locked AI agent; regression test suite before deployment |\n\n## Limitations\n\n1. **Sample stability:** Protocol assumes ≥3 weeks stability; degradation beyond this window not validated.\n2. **Imaging frequency:** ≤2/hour; faster dynamics (e.g., mitotic events) may be missed.\n3. **Environmental control:** ±0.5°C, ±0.5% CO₂; tighter tolerances require commercial incubator.\n4. **No physical manipulation:** Media changes, drug additions must be human-performed; no on-platform liquid handling.\n5. **AI generalizability:** Claude Code agent trained on CDATA-class protocols; performance on other cell types or stains not yet tested.\n6. **Stage accuracy:** ±2 µm (placeholder, t"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "The following partners and collaborators are involved in the AutomatedMicroscopy subproject (list to be finalized):\n- **Lead institution:** LongevityCommon (infrastructure development and coordination)\n- **Hardware partner:** TBD (Zeiss IM 35 retrofit specialist or open-source hardware community)\n- **AI/software partner:** TBD (Claude Code integration and audit trail system)\n- **Validation partner:** TBD (independent lab for CDATA Phase A validation experiments)\n- **Funding agency:** TBD"
+  }
+]

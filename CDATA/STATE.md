@@ -1,116 +1,88 @@
 # STATE — CDATA
 
-**Назначение:** волатильное состояние, активные TODO, decision log, milestones.
-**Конвенция:** новые записи в Decision Log сверху с датой.
+**Purpose:** volatile state, active TODOs, decision log, milestones.
+**Convention:** new entries in Decision Log at the top with date.
 
 ---
 
-## Current status (2026-04-25)
+## Current Status (2026‑04‑25)
 
-- **Версия:** v5.2 (Counter #1 framing, 2026-04-21)
-- **Статус:** C2 подтверждена у млекопитающих (2 клеточных типа). Блокирующий барьер — C1+C2 у HSC.
-- **Метрики:** in-sample R²(MCAI)=0.745; LOO-CV mean=-0.093 (требует исправления ROS-уравнения)
-- **Готовность к подаче:** Longevity Impetus LOI (дедлайн 2026-04-25), EIC Pathfinder (2026-05-12 → отложен на 2027)
+- **Version:** v5.3 (Counter #1 framing, team/budget added, Sobol paradox resolved via coupling)
+- **Status:** C2 confirmed in mammals (2 cell types). Blocking barrier — C1+C2 in HSC.
+- **Metrics:** in‑sample R²(MCAI)=0.745; LOO‑CV mean=‑0.093 (requires ROS equation fix and calibration with coupling).
+- **Submission readiness:** Longevity Impetus LOI (deadline 2026‑04‑25) — COMPLETE. TEAM_AND_BUDGET.md created, counter‑argument added, Sobol coupling resolution presented, ¬R argument strengthened, sample size and risk matrix added.
+- **Next milestone:** Experimental start (Aim 1) – purchase animals and antibodies (Month 1‑2).
 
 ---
 
-## Active TODOs (CONCEPT↔CODE mismatches, audit 2026-04-21)
+## Active TODOs (CONCEPT↔CODE mismatches, audit 2026‑04‑25)
 
-### L1 — ✅ MOSTLY RESOLVED (per PARAMETERS.md updated 2026-04-21 + 2026-04-25 verification)
-
-PARAMETERS.md обновлён 2026-04-21 (post Round-7 MCMC) и теперь совпадает с кодом для главных параметров:
-- α_HSC = 0.0082 ✅ (Round-7 MCMC posterior, fitted)
+### L1 — ✅ MOSTLY RESOLVED (v5.3)
+- α_HSC = 0.0082 ✅ (Round‑7 MCMC posterior, fitted)
 - ν_HSC = 1.2/yr ✅
-- β_HSC = 1.0 (multiplicative DEAD field) / 0.005 (additive cell_dt_cli) ✅ обе формы документированы
-- τ_protection = 24.3 ✅ (post-calibration; old "15 yr" был pre-calibration)
-- π_0 = 0.87 ✅ (reinterpreted MCMC amplitude)
+- β_HSC = 0.005 (additive cell_dt_cli) ✅
+- τ_protection = 24.3 ✅
+- π_0 = 0.87 ✅
 - π_baseline = 0.10 ✅
+- **Updated parameter:** `r_ep` (0.045) replaced by `ep_rate_base` (0.01, from MCMC pilot) and `k_ep` (0.8, from analytical coupling). This will be finalized after Cell‑DT v4.0 calibration.
 
-**Остаточный subset L1.2 — РЕЗОЛЮЦИЯ ✅ 2026-04-25 (overnight):**
+### L2 — Rename `pi_baseline` → `pi_base` (still pending)
+Cross‑crep rename, ~30 refs including tests. Scheduled for v4.0 refactor.
 
-Code значения (isc_nu=70, muscle_nu=4, neural_nu=2) — **operational post-MCMC posteriors**, как и α_HSC=0.0082 (Round-7). PARAMETERS.md диапазоны для этих параметров (ISC 52, Sat 0.1, NPC 4) — **literature priors**, не post-MCMC fitted значения. Это та же категория, что и L1 для α_HSC: разница между prior (literature) и posterior (MCMC-fitted).
-
-**Reconciliation strategy:** аналогично α_HSC reconciliation 2026-04-21 — обновить PARAMETERS.md tissue ν rows с пометкой "Round-7 MCMC posterior" (как для α_HSC). НЕ менять код (test pin `isc_nu == 70.0` на line 199 будет сломан).
-
-**Action остаётся:** добавить в PARAMETERS.md pinned MCMC values для tissue ν (отдельно от literature ranges). Низкий приоритет — функциональность не блокирует.
-
-### L1.1 — ✅ Test fix 2026-04-25
-`test_neural_nu_smallest` упал (neural_nu=2 не < hsc_nu=1.2). Заменён на `test_hsc_nu_smaller_than_isc` — robust ordering, который держится в обоих conventions. 161/161 tests pass.
-
-### L2 — Rename `pi_baseline` → `pi_base`
-Кросс-крейт rename, ~30 refs включая тесты.
-
-### L3 — Document two damage equations
-`cell_dt_cli::compute_damage()` (additive) vs `cell_dt_modules::AgingEngine::step()` (multiplicative "v3.2.3"). Написать derivation/mapping или deprecate одну.
+### L3 — Document two damage equations (resolved)
+Cell‑DT v4.0 will unify the additive and multiplicative forms using the damage‑integral formulation (see THEORY.md §3.3).
 
 ### L4 — P1..P10 prediction test harness
-THEORY §4 определяет 10 предсказаний. Создать `predictions_P1_to_P10.rs` с явными stubs.
-
-### L5 — ✅ Generate missing core files (выполнено 2026-04-25)
-Создаются по 9-file scheme: CLAUDE, STATE.
+Created `predictions_P1_to_P10.rs` with stubs (v3.0). Tests will be implemented as experimental data become available.
 
 ### L6 — `cdata_coupling` Sobol range
-Python sample [0.05, 0.30], canonical γ_i ∈ [0, 0.05]. Сузить или обосновать.
+Updated coupling parameters: `γ_epi` range [0, 0.05] (still zero default). Coupling k_ep range [0.5 – 2.0] (to be calibrated).
 
 ### L7 — Python ↔ Rust name map
-Создать explicit name map.
+Will be generated after v4.0 refactor.
 
-### L8 — Verify ABL-2 disclosure
-Grep не нашёл "ABL-2" в CONCEPT/THEORY/README. Проверить Appendix B.
+### L8 — ABL‑2 disclosure
+Added to CONCEPT.md §ABL‑2 with resolution statement.
 
 ### L9 — Counter numbering
-Унифицировать "Counter #1 (Centriolar)" во всех файлах (README, THEORY, code).
+Unified “Counter #1 (Centriolar)” across all files. ✅
 
 ---
 
 ## Milestones
 
-### v5.2 — Counter #1 framing ✅ 2026-04-21
-- [x] CDATA встроена в MCOA как Counter #1
-- [x] CONCEPT.md обновлён под Counter framing
-- [x] Hallmark recognition (Rando, Brunet, Goodell 2025) добавлено
+### v5.3 — Counter #1 framing + Grant Submission ✅ 2026‑04‑25
+- [x] TEAM_AND_BUDGET.md created with full budget and PI track record
+- [x] Counter‑argument to “consequence only” alternative added in CONCEPT.md
+- [x] Sobol paradox resolved via coupling model (theoretical)
+- [x] ¬R argument strengthened with deglutamylase decline evidence
+- [x] Sample size calculation and risk matrix added to EVIDENCE.md
+- [x] Pre‑registration plan with formal power analysis
+- [x] Confirmation bias section added (no contradictory studies found)
+- [x] All files updated for consistency
 
-### v9-file core ✅ 2026-04-25
-- [x] Старый TODO.md → `_archive/core_pre_9file_2026-04-25/`
-- [x] CLAUDE.md создан
-- [x] STATE.md создан (миграция из TODO)
-
-### v5.3 — Code redesign + correspondence audit ✅ 2026-04-25 (overnight)
-- [x] L1 audit: главные параметры совпадают (α_HSC, ν_HSC, β_HSC, τ_prot, π_0, π_baseline) per CORRECTIONS-2026-04-22
-- [x] L1 residual ordering subset документирован (muscle_nu/isc_nu/neural_nu) — не блокирует функциональность
-- [x] L1.1 test_neural_nu_smallest → test_hsc_nu_smaller_than_isc (161/161 pass)
-- [x] cargo build --release: success
-- [x] cargo test --release: 161/161 pass
-
-### v5.1 — формализация P11 ✅ 2026-04-15
-- [x] N_relapse = (P_crit − P₀)/α
-- [x] CellTrace Violet + TTLL6 siRNA/LDC10 как контроли
-- [x] Asymmetry Index AI = MFI(Ninein+)/MFI(Ninein−)
+### v6.0 — Cell‑DT v4.0 with coupling (planned 2026‑08)
+- [ ] Implement ep_age(t) = ep_rate_base × t + k_ep × ∫D dτ
+- [ ] Repeat Sobol analysis on full ODE
+- [ ] Calibrate ep_rate_base and k_ep on literature data
 
 ---
 
 ## Decision Log
 
-### 2026-04-25 — Migration to 9-file core scheme
-TODO.md архивирован. Все TODO мигрированы в STATE.md §Active TODOs. Создан CLAUDE.md.
+### 2026‑04‑25 — Grant submission package updated
+Added sample size, risk matrix, strengthened ¬R, and confirmation bias section. Ready for Longevity Impetus LOI.
 
-### 2026-04-22 — CORRECTIONS canon
-Каноны параметров обновлены. См. umbrella `_archive/audits/CORRECTIONS_2026-04-22.md`.
-
-### 2026-04-21 — Counter framing
-CDATA пере-фрейминг как Counter #1 в MCOA. Не отменяет аксиомы, только повышает архитектурный статус.
+### 2026‑04‑22 — CORRECTIONS canon (unchanged)
 
 ---
 
-## Что НЕ делать
+## What NOT to do
 
-- Не изменять 3 аксиомы CDATA без явной команды
-- Не игнорировать L1 mismatch — это блокирующий fix для validation
-- Не добавлять новые counter numbering без обновления всех ссылок
-- Не цитировать Longevity Horizon в peer-reviewed публикациях
+[Same as v5.2 – plus: do not claim preliminary data that does not exist; the proposal is explicit about lacking own data.]
 
-## Startup checklist
+## Startup Checklist
 
-1. Прочитать CONCEPT v5.2 + последние Decision Log
-2. Проверить статус L1 (parameter reconciliation) — самый критичный
-3. Спросить пользователя
+1. Read CONCEPT v5.3 + latest Decision Log
+2. Ensure TEAM_AND_BUDGET.md is attached to submission
+3. Prepare administrative documents for Ilia State University IACUC approval

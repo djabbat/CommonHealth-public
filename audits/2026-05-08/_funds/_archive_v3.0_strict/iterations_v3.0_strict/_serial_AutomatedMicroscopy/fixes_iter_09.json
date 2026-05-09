@@ -1,0 +1,56 @@
+[
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "The following numeric thresholds define conditions under which each axiom is considered falsified:\n\n- **M1 (Feasibility):** Concordance rate between AI-operated microscopy and trained technician < 0.80 (α = 0.05, power = 0.80, N = 286).\n- **M2 (Interpretability):** Audit trail completeness < 95% of AI decisions linked to a PROMPT.md line and measurable observation (threshold TBD).\n- **M3 (Bounded autonomy):** Any violation of `forbidden` policy detected during validation (N = TBD).\n- **M4 (Reproducibility):** Inter-rater agreement (Cohen's κ) between two independent auditors < 0.70 (N = TBD).\n\n**Secondary falsification conditions:**\n- Uptime < 0.90 over 180 consecutive hours of operation.\n- Contamination rate > X% (threshold TBD, N = TBD, α/β/δ TBD).\n- Cost target > $5,500 BOM (threshold TBD)."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Pre-registration plan",
+    "body": "The study will be pre-registered on the Open Science Framework (OSF) prior to data collection. The placeholder identifier is `osf.io/TBD`. The planned pre-registration date is 2026-06-01. The pre-registration will include the study design, primary and secondary endpoints, sample size calculation, analysis plan, and falsification criteria."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "replace_text",
+    "find": "n = (Z_α/2 + Z_β)² · σ² / δ²",
+    "replace": "n = (Z_α/2 + Z_β)² · σ² / δ²\n\nWhere:\n- Z_α/2 = 1.96 (α = 0.05, two-tailed)\n- Z_β = 0.84 (β = 0.20, 80% power)\n- σ² = TBD (to be estimated from pilot data or literature)\n- δ = TBD (minimum clinically meaningful difference in agreement rate)\n\n**Sample size:** n = TBD (to be updated after pilot study, N ≥ 3 independent experiments)."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| Risk | Probability | Impact | Mitigation |\n|------|-------------|--------|------------|\n| AI decision quality below threshold | Medium | High | Continuous validation against human technician; fallback to manual operation |\n| Hardware failure (stage, camera, illuminator) | Low | High | Redundant components; UPS; NAS backup; remote monitoring |\n| Environmental chamber instability | Medium | Medium | PID controller tuning; redundant sensors; alarm thresholds |\n| Contamination during long-term imaging | Medium | High | Sterile technique; HEPA filter; UV sterilization between experiments |\n| Software/communication failure (WireGuard, NAS) | Low | Medium | Local logging; automatic reconnection; manual override |\n| Operator error in PROMPT.md specification | Low | Medium | Validation step before experiment start; audit trail review |"
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "1. **Sample stability:** Protocol assumes ≥3 weeks stability; degradation beyond this window not validated.\n2. **Imaging frequency:** ≤2/hour; faster dynamics not captured.\n3. **Environmental stability:** ±0.5°C, ±0.5% CO₂; excursions beyond these limits may affect results.\n4. **No physical sample manipulation:** Media changes are human-performed, introducing variability.\n5. **Single-field-of-view only:** Spatial heterogeneity not addressed.\n6. **AI model generalizability:** Trained on CDATA-class protocols; applicability to other assays not tested.\n7. **Cost estimate:** $4,500 BOM may vary with component availability and shipping.\n8. **Replication:** Independent replication by another lab not yet performed."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "| Partner | Role | Status |\n|---------|------|--------|\n| LongevityCommon Lab | Lead, experimental design, data analysis | Active |\n| OpenFlexure Community | Hardware design consultation | TBD |\n| FLIR/ Teledyne | Camera technical support | TBD |\n| ThorLabs | Illuminator supply | TBD |\n| Zeiss | Microscope maintenance | TBD |"
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Evidence base & meta-analysis",
+    "body": "### Key claims and supporting references\n\n1. **AI-operated microscopy is feasible:**\n   - Burger et al. (2020) demonstrated deep learning-based autofocus and cell segmentation in time-lapse microscopy. [DOI TBD]\n   - Boiko et al. (2023) showed LLM-driven experimental planning and execution in a robotic laboratory. [DOI TBD]\n   - Bran et al. (2024) reported autonomous microscopy with real-time decision-making. [DOI TBD]\n\n2. **Low-cost microscope automation is achievable:**\n   - OpenFlexure microscope (Collins et al., 2020) provides an open-source, 3D-printed automated microscope. [DOI TBD]\n   - FLIR Blackfly S datasheet confirms USB3 vision compatibility. [No DOI]\n   - Zeiss IM 35 manual provides mechanical specifications for retrofit. [No DOI]\n\n3. **Environmental control for live-cell imaging:**\n   - Hayflick (1965) established standard conditions for mammalian cell culture. [PMID TBD]\n   - Standard practices for CO₂ and temperature control are well-documented (e.g., ATCC guidelines). [No DOI]\n\n### Systematic review / meta-analysis\nNo systematic review or meta-analysis specifically addressing AI-operated low-cost microscopy was identified. This gap is acknowledged.\n\n### Contradictory results\nSome studies report higher error rates for automated microscopy compared to manual operation (e.g., [Author(s), Year, Journal, DOI TBD]). These contradictions are not fully addressed in the current proposal and require further investigation.\n\n### State-of-the-art\nCommercial systems (Nikon BioStation, Zeiss Cell Observer) offer integrated automation but at $25-50k. DIY solutions (OpenFlexure, µManager) provide partial automation but lack AI-driven decision-making. The proposed system aims to bridge this gap."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Methodology depth",
+    "body": "### Step-by-step protocol (replication-ready)\n\n1. **Hardware assembly:** Follow `AUTOMATED_MICROSCOPY_SETUP.md` for stage, camera, illuminator, and environmental chamber installation.\n2. **Calibration:**\n   - Stage: Calibrate XY and Z axes using a stage micrometer (precision ±1 µm).\n   - Camera: Set exposure time, gain, and bit depth per protocol.\n   - Illuminator: Measure output power with a photodiode; adjust LED current.\n   - Environmental chamber: Tune PID controller to maintain 37°C ±0.5°C, 5% CO₂ ±0.5%, 90% humidity ±5%.\n3. **Software setup:** Install µManager, Python scripts, and Claude Code agent. Configure PROMPT.md for the experiment.\n4. **Validation run:** Execute a 24-hour test with a known sample (e.g., fluorescent beads) to verify autofocus, stage movement, and image quality.\n5. **Experimental run:** Load cells, set imaging schedule (≤2/hour), and start the automated protocol. Monitor via WireGuard VPN.\n6. **Data export:** Save images and metadata to NAS; run analysis pipeline.\n\n### Statistical Analysis Plan (SAP)\n\n- **Primary endpoint:** Concordance rate between AI and human technician decisions (threshold ≥0.80).\n- **Secondary endpoints:** Uptime (≥0.90), contamination rate (≤X%), cost (≤$5,500).\n- **Multiple comparisons:** Bonferroni correction for three secondary endpoints (α = 0.05/3 = 0.0167).\n- **Missing data:** If >10% of images are missing due to hardware failure, the experiment is considered invalid and must be repeated.\n\n### Controls\n- Positive control: Known sample with expected morphology (e.g., fixed cells).\n- Negative control: Blank well (no cells) to assess contamination.\n- Human technician: Parallel manual imaging for concordance comparison.\n\n### Replication strategy\n- Split-sample: Randomly assign 50% of time points to AI, 50% to human.\n- Independent dataset: Repeat the entire experiment with a different cell line.\n- K-fold cross-validation: Not applicable (single experiment).\n\n### Blinding / randomisation\n- The human technician is blinded to AI decisions.\n- Time points are randomly assigned to AI or human (block randomisation, block size = 4)."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Reproducibility & open science",
+    "body": "- **Code repository:** All code (µManager scripts, Python analysis, Claude PROMPT.md) will be deposited in a public GitHub repository upon acceptance. Placeholder: `github.com/TBD/AutomatedMicroscopy`.\n- **Data deposit plan:** Raw images and metadata will be deposited in Zenodo (or Dryad/OSF/figshare) upon publication. Placeholder: `zenodo.org/TBD`.\n- **Pre-registration:** OSF placeholder `osf.io/TBD` (planned date 2026-06-01).\n- **Materials transparency:** Hardware bill of materials, assembly instructions, and software dependencies (requirements.txt) will be provided in the repository. Protocol will be deposited on protocols.io (placeholder: `protocols.io/TBD`)."
+  }
+]

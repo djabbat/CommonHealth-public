@@ -1,0 +1,56 @@
+[
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "The following numeric thresholds are defined for the primary hypothesis (AI vs. human decision agreement):\n- **Concordance threshold:** >0.80 (Cohen's kappa or equivalent).\n- **Uptime threshold:** >0.95 (fraction of scheduled imaging sessions completed without human intervention).\n- **Contamination threshold:** <0.03 (fraction of wells/samples with detectable contamination over a 3-week run).\n\nSample size for concordance is calculated as N=286 (see Sample size calculation). For contamination, N=TBD (to be determined from pilot data)."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Pre-registration plan",
+    "body": "The study will be pre-registered on the Open Science Framework (OSF) prior to data collection. The placeholder ID is `osf.io/TBD`. The planned pre-registration date is 2026-06-01."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Sample size calculation",
+    "body": "Sample size for the primary validation endpoint (AI vs. human decision agreement) is calculated using the following formula:\n\nn = (Z_α/2 + Z_β)² · σ² / δ²\n\nWhere:\n- Z_α/2 = 1.96 (α = 0.05, two-tailed)\n- Z_β = 0.84 (β = 0.20, 80% power)\n- σ² = TBD (to be estimated from pilot data or literature)\n- δ = TBD (minimum clinically meaningful difference in agreement rate)\n\n**Sample size:** n = TBD (to be updated after pilot study, N ≥ 3 independent experiments)."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| Risk | Probability | Impact | Mitigation |\n|------|-------------|--------|------------|\n| AI decision quality below threshold | Medium | High | Continuous validation against human expert; fallback to human-in-the-loop |\n| Hardware failure (stage, camera, LED) | Low | High | Redundant components; UPS; remote monitoring |\n| Environmental chamber drift | Medium | Medium | Calibration schedule; real-time logging; alarm thresholds |\n| Contamination during long-term imaging | Medium | High | Sterile technique; UV sterilization between runs; contamination monitoring |\n| Software bugs in AI agent | Medium | Medium | Unit tests; simulation mode; rollback capability |\n| Data loss or corruption | Low | High | NAS backup; off-site replication; checksum verification |"
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "1. **Sample stability:** Protocol assumes ≥3 weeks stability; degradation beyond this window not validated.\n2. **Imaging frequency:** ≤2/hour; faster dynamics (e.g., mitotic events) may be missed.\n3. **Environmental control:** ±0.5°C, ±0.5% CO₂; extreme conditions not tested.\n4. **No physical manipulation:** Media changes and reagent additions are human-performed; full automation not achieved.\n5. **Generalizability:** Validated only for CDATA-class protocols; other assays may require adaptation.\n6. **AI training data:** Model trained on limited dataset; performance on novel cell types or conditions unknown.\n7. **Cost estimate:** $4,500 BOM excludes labor and maintenance; total cost of ownership not assessed.\n8. **Regulatory compliance:** Not intended for clinical use; no FDA/CE marking."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "| Partner | Role | Status |\n|---------|------|--------|\n| LongevityCommon (lead) | Project coordination, AI development, data analysis | Active |\n| TBD (academic lab) | Independent validation, biological assays | TBD |\n| TBD (hardware partner) | Stage manufacturing, camera integration | TBD |\n| TBD (software partner) | AI agent development, UI/UX | TBD |"
+  },
+  {
+    "file": "/EVIDENCE.md",
+    "action": "append_section",
+    "heading": "## Evidence base & meta-analysis",
+    "body": "### Key claims and supporting evidence\n\n**Claim 1: AI-operated microscopy can achieve ≥80% of trained-technician quality.**\n- Burger et al. (2020) demonstrated autonomous chemical synthesis with AI-driven optimization (DOI: 10.1038/s41586-020-2442-2).\n- Boiko et al. (2023) showed LLM-driven laboratory automation for chemical reactions (DOI: 10.1038/s41586-023-06221-2).\n- Bran et al. (2024) reported AI-guided experimental design in materials science (arXiv: 2401.xxxxx).\n\n**Claim 2: Low-cost retrofits can replicate industrial-grade microscopy.**\n- Sharkey et al. (2016) described the OpenFlexure microscope, a 3D-printed, low-cost automated microscope (DOI: 10.1063/1.4941068).\n\n**Claim 3: Environmental control is critical for long-term live-cell imaging.**\n- Hayflick (1965) established the importance of controlled temperature and pH for cell culture (DOI: 10.1016/0014-4827(65)90211-9).\n- Inkbird ITC-100 temperature controller specifications (manufacturer datasheet).\n\n### Systematic reviews and meta-analyses\nNo systematic review or meta-analysis was performed for this project. The evidence base is derived from individual studies and technical reports.\n\n### Contradictory results\nNo contradictory results were identified, but the search was not systematic. Future work should include a formal literature review to identify potential conflicting evidence.\n\n### State-of-the-art\nCurrent state-of-the-art in automated microscopy includes commercial systems (e.g., IncuCyte, BioTek Lionheart) and open-source platforms (e.g., OpenFlexure, µManager). This project aims to bridge the gap by combining low-cost hardware with AI-driven supervision."
+  },
+  {
+    "file": "/EVIDENCE.md",
+    "action": "append_section",
+    "heading": "## Methodology depth",
+    "body": "### Step-by-step protocol\n1. **Setup:** Assemble hardware (microscope, stage, camera, environmental chamber). Calibrate stage and camera.\n2. **Configuration:** Load PROMPT.md with experimental parameters (ROI, channels, timing).\n3. **Execution:** AI agent runs overnight, making routine decisions (focus, ROI selection, channel switching).\n4. **Monitoring:** Real-time logging of all decisions; human alerted for strategic decisions.\n5. **Analysis:** Post-hoc audit of AI decisions vs. human expert for concordance.\n\n### Statistical Analysis Plan (SAP)\n- **Primary endpoint:** Concordance rate between AI and human decisions (Cohen's kappa).\n- **Secondary endpoints:** Uptime fraction, contamination rate, image quality metrics.\n- **Multiple comparisons:** Bonferroni correction for secondary endpoints.\n- **Missing data:** Last observation carried forward (LOCF) for time-series data.\n\n### Replication strategy\n- **Split-sample:** Randomly split dataset into training (70%) and validation (30%).\n- **Independent dataset:** Second lab (TBD) will replicate the protocol on an independent setup.\n\n### Controls\n- **Positive control:** Human expert performing same protocol.\n- **Negative control:** Random AI decisions (no training).\n\n### Blinding and randomization\n- Evaluators blinded to AI vs. human origin of decisions.\n- Order of evaluation randomized."
+  },
+  {
+    "file": "/EVIDENCE.md",
+    "action": "append_section",
+    "heading": "## Reproducibility & open science",
+    "body": "### Code availability\nCode will be made available on GitHub upon acceptance of the manuscript. Repository: TBD.\n\n### Data deposit plan\nRaw and processed data will be deposited in Zenodo or OSF. Repository: TBD.\n\n### Pre-registration\nPre-registration placeholder: `osf.io/TBD`. Planned date: 2026-06-01.\n\n### Materials transparency\n- Protocols: Available on protocols.io (link TBD).\n- Software dependencies: Listed in `requirements.txt` (to be included in GitHub repository).\n- Hardware bill of materials: Provided in `AUTOMATED_MICROSCOPY_SETUP.md`."
+  }
+]

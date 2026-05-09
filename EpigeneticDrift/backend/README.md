@@ -5,9 +5,9 @@ REST API backend for the Epigenetic Drift Counter (#4) in the Multi-Counter Arch
 ## Features
 
 - Complete CRUD operations for Epigenetic Drift entities:
-  - **Counters**: Time-series tracking of epigenetic drift state `D₄`
-  - **Measurements**: Raw epigenetic measurements (DNA methylation, ATAC-seq)
-  - **Parameters**: Tissue-specific kinetic parameters for the drift equation
+ - **Counters**: Time-series tracking of epigenetic drift state `D₄`
+ - **Measurements**: Raw epigenetic measurements (DNA methylation, ATAC-seq)
+ - **Parameters**: Tissue-specific kinetic parameters for the drift equation
 - PostgreSQL database with proper migrations
 - RESTful API with JSON serialization
 - Comprehensive error handling and tracing
@@ -66,34 +66,34 @@ D₄(n, t) = D₄,₀ + β₄·(t / τ₄) + α₄·(n / n₄*) + γ₄ · I(oth
 ### Installation
 
 1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   cd backend
-   ```
+ ```bash
+ git clone <repository-url>
+ cd backend
+ ```
 
 2. Set up environment variables:
-   ```bash
-   cp .env.example .env
-   # Edit .env with your database credentials
-   ```
+ ```bash
+ cp .env.example .env
+ # Edit .env with your database credentials
+ ```
 
 3. Set up database:
-   ```bash
-   createdb epigeneticdrift_db
-   psql epigeneticdrift_db -c "CREATE USER cn WITH PASSWORD 'cn';"
-   psql epigeneticdrift_db -c "GRANT ALL PRIVILEGES ON DATABASE epigeneticdrift_db TO cn;"
-   ```
+ ```bash
+ createdb epigeneticdrift_db
+ psql epigeneticdrift_db -c "CREATE USER cn WITH PASSWORD 'cn';"
+ psql epigeneticdrift_db -c "GRANT ALL PRIVILEGES ON DATABASE epigeneticdrift_db TO cn;"
+ ```
 
 4. Run migrations:
-   ```bash
-   sqlx migrate run
-   ```
+ ```bash
+ sqlx migrate run
+ ```
 
 5. Build and run:
-   ```bash
-   cargo build --release
-   cargo run
-   ```
+ ```bash
+ cargo build --release
+ cargo run
+ ```
 
 ### Docker
 
@@ -143,10 +143,10 @@ sqlx migrate revert
 1. All interaction coefficients (γ) default to 0
 2. No health score aggregation (removed from MCOA)
 3. Counter parameters follow defaults from PARAMETERS.md:
-   - τ₄ = 10.0 years (estimated)
-   - n₄* = 50 divisions (hypothetical)
-   - β₄ = 1.0 (normalization factor)
-   - α₄ = 0.0 (requires experimental determination)
+ - τ₄ = 10.0 years (estimated)
+ - n₄* = 50 divisions (hypothetical)
+ - β₄ = 1.0 (normalization factor)
+ - α₄ = 0.0 (requires experimental determination)
 
 ## License
 

@@ -37,9 +37,9 @@ External access: only via nginx vhosts on `*.longevity.ge` (HTTPS via Let's Encr
 
 Add 3 A-records pointing to the same server IP as `fclc.longevity.ge`:
 ```
-ze.longevity.ge        → <server IP>
-biosense.longevity.ge  → <server IP>
-app.longevity.ge       → <server IP>
+ze.longevity.ge → <server IP>
+biosense.longevity.ge → <server IP>
+app.longevity.ge → <server IP>
 ```
 
 Server IP can be checked: `dig +short fclc.longevity.ge`.
@@ -56,13 +56,13 @@ dig +short app.longevity.ge
 On the server:
 ```bash
 ssh server
-cd ~/web/longevitycommon            # after rsync from desktop, see Phase A.2
+cd ~/web/longevitycommon # after rsync from desktop, see Phase A.2
 cp deploy/.env.template .env
 chmod 600 .env
 
 # Generate three Phoenix secret_key_base values:
 docker run --rm hexpm/elixir:1.17.3-erlang-27.2-debian-bookworm-20241202-slim \
-  sh -c 'mix local.hex --force && mix archive.install --force hex phx_new && mix phx.gen.secret' >> .env  # repeat 3x
+ sh -c 'mix local.hex --force && mix archive.install --force hex phx_new && mix phx.gen.secret' >> .env # repeat 3x
 
 # Or, if you have local Elixir:
 for i in 1 2 3; do mix phx.gen.secret; done
@@ -91,14 +91,14 @@ Edit `.env` to assign the 4 values to the right variable names per `deploy/.env.
 # From local desktop:
 cd ~/Desktop
 rsync -avz --delete \
-  --exclude='_archive/' \
-  --exclude='target/' \
-  --exclude='_build/' \
-  --exclude='deps/' \
-  --exclude='node_modules/' \
-  --exclude='priv/static/' \
-  --exclude='.git/' \
-  LongevityCommon/ server:/home/jaba/web/longevitycommon/
+ --exclude='_archive/' \
+ --exclude='target/' \
+ --exclude='_build/' \
+ --exclude='deps/' \
+ --exclude='node_modules/' \
+ --exclude='priv/static/' \
+ --exclude='.git/' \
+ LongevityCommon/ server:/home/jaba/web/longevitycommon/
 ```
 
 ### C.2 — Build images on server
@@ -174,14 +174,14 @@ Add cross-project footer to each Phoenix:
 Footer template (Phoenix HEEX):
 ```heex
 <footer class="footer">
-  <div>Part of the LongevityCommon ecosystem ·
-    <a href="https://app.longevity.ge">Home</a> ·
-    <a href="https://ze.longevity.ge">Ze Simulator</a> ·
-    <a href="https://biosense.longevity.ge">BioSense</a> ·
-    <a href="https://fclc.longevity.ge">FCLC</a> ·
-    <a href="https://longevity.ge/rescience/">Annals of Rejuvenation Science</a> ·
-    <a href="https://github.com/djabbat/LongevityCommon" rel="noopener">Source</a>
-  </div>
+ <div>Part of the LongevityCommon ecosystem ·
+ <a href="https://app.longevity.ge">Home</a> ·
+ <a href="https://ze.longevity.ge">Ze Simulator</a> ·
+ <a href="https://biosense.longevity.ge">BioSense</a> ·
+ <a href="https://fclc.longevity.ge">FCLC</a> ·
+ <a href="https://longevity.ge/rescience/">Annals of Rejuvenation Science</a> ·
+ <a href="https://github.com/djabbat/LongevityCommon" rel="noopener">Source</a>
+ </div>
 </footer>
 ```
 
@@ -217,5 +217,5 @@ docker compose -f deploy/docker-compose-all.yml up -d --build <service>
 
 # Database backup
 docker compose -f deploy/docker-compose-all.yml exec postgres \
-  pg_dump -U lcommon longevitycommon > /backup/lcommon-$(date +%F).sql
+ pg_dump -U lcommon longevitycommon > /backup/lcommon-$(date +%F).sql
 ```

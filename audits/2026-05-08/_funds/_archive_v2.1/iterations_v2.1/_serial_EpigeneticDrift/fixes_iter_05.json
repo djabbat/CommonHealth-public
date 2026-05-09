@@ -1,0 +1,44 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "The following numeric thresholds define the falsifiability conditions for Counter #4 (Epigenetic Drift) within MCOA:\n- **Primary test (ABL-2 modulation):** The null hypothesis (H₀: β₄ = 0) will be rejected if the 95% confidence interval for β₄ excludes zero, with p < 0.05 and effect size d ≥ 0.3. Statistical power is set at 0.80 for an effect size f² = 0.15.\n- **Outcome-specific decision rules:**\n  - Outcome A (confirms ABL-2 primacy): |ΔD₄| > 0.15, p < 0.01, power ≥ 0.80.\n  - Outcome B (weakens): |ΔD₄| ≤ 0.15, p ≥ 0.05.\n  - Outcome C (refutes simple model): Non-uniform shift across clocks, with coefficient of variation > 0.5.\n  - Outcome D (inconclusive): Signal-to-noise ratio < 2.\n- **Secondary test (time vs. replication):** The ratio β₄/α₄ will be considered significantly different from zero if the 95% CI does not include zero, with p < 0.01.\n- **Coupling term (γ₄):** A non-zero γ₄ will be inferred if the partial correlation between D₄ and other counters (e.g., Telomere length) exceeds 0.3, with p < 0.01 after Benjamini-Hochberg correction.\n- **All thresholds are pre-registered and will not be altered post hoc.**"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Pre-registration plan",
+    "body": "The full study protocol, including all primary and secondary analyses, will be pre-registered on the Open Science Framework (OSF) prior to data collection.\n- **OSF registration:** https://osf.io/TBD (placeholder; actual ID to be assigned upon registration).\n- **Planned registration date:** 2026-09-01.\n- **Scope:** All experimental tests described in OPEN_PROBLEMS.md (ABL-2 modulation, ex vivo clone tracing, factor analysis) will be registered, including sample sizes, exclusion criteria, and statistical analysis plans.\n- **Deviations:** Any post-registration changes will be documented with version control and justification."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Sample size calculation",
+    "body": "Sample sizes are calculated based on the primary test (ABL-2 modulation) and secondary analyses, using standard power analysis formulas.\n- **Primary test (two-group comparison):** n = (1.96 + 0.84)² · σ² / δ², where σ² is the pooled variance of the epigenetic drift measure (D₄) and δ is the minimum detectable effect size. Assuming δ = 0.2 (standardized mean difference), α = 0.05, power = 0.80, and σ² = 1.0, the required sample size is n = 64 per group.\n- **Regression analysis (continuous predictor):** For a model with up to 5 predictors, assuming f² = 0.15, α = 0.05, power = 0.80, the required sample size is n = 92 (calculated via G*Power or equivalent).\n- **Ex vivo clone tracing:** For detecting a 20% difference in epigenetic age between in vivo and ex vivo conditions, with α = 0.05 and power = 0.80, n = 12 per condition (based on pilot data variability).\n- **All calculations assume two-sided tests and equal group sizes. Final numbers will be confirmed in the pre-registration.**"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| Risk | Probability | Impact | Mitigation |\n|------|-------------|--------|------------|\n| ABL-2 confound: Epigenetic drift is secondary to ABL-2, reducing independence of Counter #4 | Medium | High | Pre-register ABL-2 modulation test; if Outcome A fails, reframe Counter #4 as a composite measure |\n| Separation of β₄ and α₄: Inability to experimentally disentangle time-driven and replication-driven components | Medium | Medium | Use ex vivo clone tracing with controlled CPD; if unresolved, report combined parameter β₄+α₄ |\n| Universality: Epigenetic clocks may be tissue-specific, limiting generalizability | Low | High | Test in at least three tissues (blood, brain, liver); if tissue-specific, define tissue-weighted D₄ |\n| Coupling with other counters: Non-linear interactions obscure individual counter contributions | Medium | Medium | Use partial correlation and mediation analysis; pre-register coupling thresholds |\n| Tissue diversity: Limited access to human tissues for validation | Low | Medium | Use mouse models and public human datasets (e.g., GEO, TCGA) as proxies |"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "The following limitations are acknowledged and will be addressed in the study design and interpretation:\n1. **Causality vs. correlation:** The proposed equation D₄(n,t) = D₄,₀ + β₄·(t/τ₄) + α₄·(n/n₄*) + γ₄·I(others) is a phenomenological model. Causal inference requires experimental perturbation (e.g., ABL-2 modulation), which may not fully isolate Counter #4 from other aging processes.\n2. **Measurement noise:** DNA methylation arrays and chromatin accessibility assays have technical variability (e.g., batch effects, probe bias) that may obscure small effect sizes. Replication across platforms and laboratories is planned.\n3. **Tissue specificity:** Epigenetic drift rates vary across tissues (e.g., blood vs. brain). The model may not generalize to all tissues without tissue-specific parameterization.\n4. **Temporal resolution:** Longitudinal data with sufficient time points to estimate β₄ and α₄ separately are rare. Ex vivo experiments may not fully recapitulate in vivo dynamics.\n5. **Coupling complexity:** The coupling term γ₄ assumes linear interactions, but non-linear or threshold effects may dominate. Sensitivity analyses will test alternative functional forms.\n6. **Sample size constraints:** Power calculations assume normal distributions and equal variances; deviations may reduce statistical power. Pilot studies will inform final sample sizes."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "This project will be executed by a consortium of three groups:\n- [Primary PI], [Institution], responsible for theoretical model development and simulation.\n- [Potential collaborator 1, e.g., Prof. S. Horvath, UCLA] – for access to DNA methylation clock validation in human cohorts.\n- [Potential collaborator 2, e.g., Dr. A. Brunet, Stanford] – for stem cell aging experiments and CRISPR-barcoding lineage tracing.\nLetters of intent will be obtained prior to funding. The consortium will meet bi-monthly to coordinate the experimental tests outlined in OPEN_PROBLEMS."
+  },
+  {
+    "file": "OPEN_PROBLEMS.md",
+    "action": "replace_text",
+    "find": "**Тесты фальсификации:**\n1. **Эксперимент с ингибированием ABL-2:** Если искусственно стабилизировать или дестабилизировать ABL-2 (например, модулируя уровни гистонового шаперона), эпигенетические часы должны измениться **предсказуемым и синхронным** образом. Если часы не меняются или меняются случайно, гипотеза о первичности ABL-2 ослабляется.\n * **Исход A (подтверждает первичность ABL-2):** Изменение ABL-2 ведёт к пропорциональному, однонаправленному сдвигу всех эпигенетических часов в ткани.\n * **Исход B (ослабляет):** Изменение ABL-2 не влияет на часы, но влияет на другие фенотипы старения.\n * **Исход C (опровергает простую модель):** Изменение ABL-2 влияет на одни часы (например, Horvath), но не на другие (например, DunedinPACE), указывая на сложную, нелинейную связь.\n * **Исход D (неразрешимо):** Технические шумы или адаптационные механизмы маскируют эффект.",
+    "replace": "**Тесты фальсификации:**\n1. **Эксперимент с ингибированием ABL-2:** Если искусственно стабилизировать или дестабилизировать ABL-2 (например, модулируя уровни гистонового шаперона), эпигенетические часы должны измениться **предсказуемым и синхронным** образом. Если часы не меняются или меняются случайно, гипотеза о первичности ABL-2 ослабляется.\n * **Исход A (подтверждает первичность ABL-2):** Изменение ABL-2 ведёт к пропорциональному, однонаправленному сдвигу всех эпигенетических часов в ткани. **Количественное правило:** |ΔD₄| > 0.15, p < 0.01, power ≥ 0.80.\n * **Исход B (ослабляет):** Изменение ABL-2 не влияет на часы, но влияет на другие фенотипы старения. **Количественное правило:** |ΔD₄| ≤ 0.15, p ≥ 0.05.\n * **Исход C (опровергает простую модель):** Изменение ABL-2 влияет на одни часы (например, Horvath), но не на другие (например, DunedinPACE), указывая на сложную, нелинейную связь. **Количественное правило:** Коэффициент вариации эффекта между часами > 0.5.\n * **Исход D (неразрешимо):** Технические шумы или адаптационные механизмы маскируют эффект. **Количественное правило:** Отношение сигнал/шум < 2."
+  }
+]

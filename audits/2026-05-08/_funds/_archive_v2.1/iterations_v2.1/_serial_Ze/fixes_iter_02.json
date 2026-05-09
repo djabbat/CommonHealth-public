@@ -1,0 +1,32 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "### Operational falsifiability for each hypothesis\n\nFor each primary hypothesis, numeric thresholds are specified below. A hypothesis is considered falsified if the 95% confidence interval of the observed effect excludes the threshold.\n\n| Hypothesis | Test | Threshold | Justification |\n|------------|------|-----------|---------------|\n| v*_active > v*_passive | Two-sample t-test | Cohen's d = 0.5 | Medium effect size per Cohen's convention; meta-analysis of EEG biomarkers (PMID TBD) |\n| χ_Ze vs aging clock | Pearson correlation | r = 0.3 | Minimum clinically meaningful correlation; N=84 required |\n| MCID for v*_active | Anchor-based | δ = 0.05 | Based on pilot data (N=12); distribution-based backup: 0.5 SD |\n\n**Criterion for falsification:** If 95% CI of effect excludes the threshold, the hypothesis is considered falsified."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "insert_after_line",
+    "line_anchor": "## 2.0.1. Limitations",
+    "body": "\n\n## Pre-registration plan\n\n**Study 1 (v*_active replication):** OSF ID placeholder `osf.io/TBD`, registration date: 2026-09-01.\n\n**Study 2 (χ_Ze vs BrainYears):** OSF ID placeholder `osf.io/TBD`, registration date: 2026-12-01.\n\nAll primary analyses, stopping rules, and exclusion criteria will be pre-registered before data collection. Any deviations will be reported in the final manuscript."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "insert_after_line",
+    "line_anchor": "### 2.3.0. Статус эмпирической валидации",
+    "body": "\n\n## Risk matrix\n\n| Risk | Probability (0–1) | Impact (0–1) | Mitigation |\n|------|-------------------|--------------|------------|\n| Insufficient power for primary endpoint | 0.7 | 0.9 | Increase N by 20% above calculated; interim analysis at 80% N |\n| Confounding by age/sex/medication | 0.8 | 0.7 | Stratified randomization; include covariates in LMM |\n| Replication failure due to cohort heterogeneity | 0.6 | 0.8 | Multi-site consortium (3 independent labs) |\n| EEG hardware failure / data quality | 0.4 | 0.6 | Dual recording (BioSense + Emotiv); 10% oversampling |\n| Inability to validate MCID anchor-based | 0.5 | 0.7 | Use distribution-based MCID (0.5 SD) as backup |\n| Publication bias (only positive reported) | 0.9 | 0.5 | Pre-register all analyses; report null results in supplement |"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "insert_after_line",
+    "line_anchor": "## 2.0.1. Limitations",
+    "body": "\n\n## Sample size calculation\n\n**Formula:** n = (1.96 + 0.84)² · σ² / δ² (for α=0.05, power=0.80, two-sided)\n\n| Hypothesis | δ (effect size) | σ (SD) | Calculated N per group | Source of σ |\n|------------|-----------------|--------|------------------------|-------------|\n| v*_active > v*_passive | d = 0.5 | TBD (from pilot) | 64 | Cohen's convention; pilot N=12 |\n| χ_Ze vs aging clock | r = 0.3 (Fisher z) | TBD | 84 | Minimal clinically meaningful |\n| MCID for v*_active | δ = 0.05 | TBD | TBD | Pilot data (N=12) |\n\n**Note:** σ values are placeholder TBD until full pilot data are analyzed. Conservative estimates will be used if pilot data are insufficient."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "replace_text",
+    "find": "**Planned collaborations (letters of support pending):**\n1. **Neurophysiology group** (TBD institution) — for EEG validation of v*_active\n2. **Biostatistics group** (TBD institution) — for MCID and power analysis\n3. **Clinical center** (TBD institution) — for longitudinal aging cohort\n\n**Note:** Formal partnership agreements will be established upon funding. Letters of support will be appended as placeholder documents.\n\n**Planned consortium structure:**\n- Lead institution: Kutaisi International University (PI: Jaba Tkemaladze)\n- Neurophysiology partner: TBD institution (EEG validation)\n- Biostatistics partner: TBD institution (power analysis, MCID)\n- Clinical partner: TBD institution (longitudinal cohort)\n- Data management: TBD (OSF repository, code sharing)",
+    "replace": "## Consortium / partners\n\n**Current team:** Jaba Tkemaladze (PI, Kutaisi International University)\n\n**Planned collaborations (letters of support pending):**\n1. **Neurophysiology group** (TBD institution) — for EEG validation of v*_active\n2. **Biostatistics group** (TBD institution) — for MCID and power analysis\n3. **Clinical center** (TBD institution) — for longitudinal aging cohort\n\n**Note:** Formal partnership agreements will be established upon funding. Letters of support will be appended as placeholder documents.\n\n**Planned consortium structure:**\n- Lead institution: Kutaisi International University (PI: Jaba Tkemaladze)\n- Neurophysiology partner: TBD institution (EEG validation)\n- Biostatistics partner: TBD institution (power analysis, MCID)\n- Clinical partner: TBD institution (longitudinal cohort)\n- Data management: TBD (OSF repository, code sharing)"
+  }
+]

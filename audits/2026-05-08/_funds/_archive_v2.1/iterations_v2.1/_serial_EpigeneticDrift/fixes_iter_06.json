@@ -1,0 +1,20 @@
+[
+  {
+    "file": "EpigeneticDrift/CONCEPT.md",
+    "action": "insert_after_line",
+    "line_anchor": "## Consortium / partners",
+    "body": "\n## Pre-registration plan\n\nThe primary experimental test (ABL-2 modulation, OPEN_PROBLEMS §1) will be pre-registered on OSF (placeholder: https://osf.io/TBD) prior to data collection. Planned registration date: 2026-09-01. All sample size calculations (see PARAMETERS.md) will be included in the pre-registration.\n\n## Limitations\n\n1. **Causality vs. correlation:** The formal model assumes epigenetic drift is a causal driver of aging, but the ABL-2 paradox (OPEN_PROBLEMS §1) suggests it may be a secondary readout of a deeper chromatin stability counter. This remains unresolved.\n2. **Reversibility:** The model does not account for active epigenetic reprogramming (e.g., via OSKM factors) which can reset drift. The equation is unidirectional.\n3. **Layer inconsistency:** DNA methylation clocks (e.g., Horvath) and chromatin accessibility clocks (e.g., ATAC-clock) may drift at different rates and respond differently to interventions, violating the assumption of a single D₄ readout.\n4. **Tissue specificity:** The parameters β₄, α₄, and γ₄ are likely tissue-specific, but the current model uses global averages. Validation in multiple tissues is required.\n5. **Measurement noise:** Epigenetic clocks have intrinsic technical variability (e.g., array batch effects) that may obscure true drift signals, especially at short time scales."
+  },
+  {
+    "file": "EpigeneticDrift/OPEN_PROBLEMS.md",
+    "action": "insert_after_line",
+    "line_anchor": "# Открытые проблемы Epigenetic Drift",
+    "body": "\n> All proposed tests (A–D) will be pre-registered with detailed statistical analysis plans (OSF ID pending). Sample size calculations are provided in PARAMETERS.md.\n"
+  },
+  {
+    "file": "EpigeneticDrift/README.md",
+    "action": "insert_after_line",
+    "line_anchor": "## Key features",
+    "body": "\n- All experimental predictions are pre-registered on OSF (link TBD after revision).\n"
+  }
+]

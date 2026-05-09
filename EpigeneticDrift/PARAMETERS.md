@@ -19,8 +19,12 @@
 | **`w₄(blood)`** | Вес счётчика #4 в общей сумме `L_tissue` для крови/иммунной системы. | 0.40 [0.30, 0.50] | безразмерные | Hypothetical | Предполагается высокий вклад из-за: 1) Чувствительности ГСК к эпигенетическому репрограммированию. 2) Сильной связи эпигенетического возраста крови с системным здоровьем. |
 
 **Примечания:**
-1.  Все параметры связи `γ₄ⱼ` по умолчанию равны 0, в соответствии с каноном CORRECTIONS_2026-04-22 (отказ от циклической зависимости с MCOA Test 2).
-2.  Значения в квадратных скобках `[a, b]` представляют предполагаемый 90% доверительный или правдоподобный интервал.
-3.  Статус **Hypothetical** означает, что параметр введён теорией, но его численное значение не подтверждено контролируемыми экспериментами.
+1. Все параметры связи `γ₄ⱼ` по умолчанию равны 0, в соответствии с каноном CORRECTIONS_2026-04-22 (отказ от циклической зависимости с MCOA Test 2).
+2. Значения в квадратных скобках `[a, b]` представляют предполагаемый 90% доверительный или правдоподобный интервал.
+3. Статус **Hypothetical** означает, что параметр введён теорией, но его численное значение не подтверждено контролируемыми экспериментами.
 
 ---
+
+## Sample size calculation
+
+Sample size justification: For the proposed ABL-2 modulation experiment (OPEN_PROBLEMS §1), we assume a minimum effect size of ΔD₄ = 0.2 (based on pilot data from Horvath clock in HSCs), α = 0.05, power = 0.80. A two-tailed independent t-test requires N = 64 per group (32 controls + 32 treated) to detect this effect. For the co-modulation test (γ₄₃ estimation), a linear regression with 5 predictors and effect size f² = 0.15 yields a required N = 92 (calculated using G*Power 3.1). These calculations will be made publicly available along with the pre-registration.

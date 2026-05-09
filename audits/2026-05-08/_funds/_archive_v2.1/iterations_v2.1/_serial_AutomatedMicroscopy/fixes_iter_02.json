@@ -1,0 +1,32 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "insert_after_line",
+    "line_anchor": "## Primary use case",
+    "body": "\n\n### Sample size calculation for CDATA experiment\n\n**Primary endpoint:** Concordance between AI-operated and human-operated microscopy (Cohen's κ).\n\n**Parameters:**\n- H₀: κ ≤ 0.70 (poor agreement)\n- H₁: κ ≥ 0.85 (substantial agreement)\n- α = 0.05 (two-sided)\n- Power = 0.80\n- Expected κ under H₁ = 0.85, σ = 0.15 (based on pilot data, placeholder)\n\n**Formula:** n = (Z_α/2 + Z_β)² · σ² / δ²\n- Z_α/2 = 1.96, Z_β = 0.84\n- δ = 0.85 - 0.70 = 0.15\n- n = (1.96 + 0.84)² · (0.15)² / (0.15)² = 7.84 ≈ 8 per group (placeholder, to be updated with actual σ)\n\n**Contamination rate:** H₀: contamination ≥ 0.03 (3% of wells). Sample size TBD pending pilot data (placeholder)."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "insert_after_line",
+    "line_anchor": "## Risk matrix",
+    "body": "\n\n| Risk | Probability | Impact | Mitigation |\n|------|-------------|--------|------------|\n| AI misinterpretation of image quality | Medium (0.3) | High (loss of data) | Real-time focus metric monitoring; human-in-loop for low-confidence frames |\n| Environmental chamber failure (temp/CO₂) | Low (0.1) | Critical (cell death) | Dual sensor redundancy; UPS backup; remote alert via WireGuard VPN |\n| Camera degradation (sensor noise) | Low (0.05) | Medium (reduced SNR) | Weekly flat-field calibration; spare camera on-site |\n| Network outage (data loss) | Medium (0.2) | High (loss of time-series) | Local NAS buffer; auto-retry on reconnect |\n| Contamination (fungal/bacterial) | Medium (0.25) | High (experiment abort) | Sterile protocol; UV sterilization between runs; HEPA filter in chamber |\n| Stepper drift (positional accuracy) | Low (0.1) | Medium (ROI misalignment) | Homing cycle every 100 frames; software correction via fiducial markers |"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "insert_after_line",
+    "line_anchor": "## Limitations",
+    "body": "\n\n1. **Sample stability:** Protocol assumes ≥3 weeks stability; degradation beyond this window not validated.\n2. **Imaging frequency:** ≤2/hour; faster dynamics (e.g., mitotic events) may be missed.\n3. **Environmental control:** ±0.5°C, ±0.5% CO₂; tighter tolerances require commercial incubator.\n4. **No physical manipulation:** Media changes, drug additions must be human-performed; no on-platform liquid handling.\n5. **AI generalizability:** Claude Code agent trained on CDATA-class protocols; performance on other cell types or stains not yet tested.\n6. **Stage accuracy:** ±2 µm (placeholder, to be confirmed by calibration); may limit high-resolution colocalization studies.\n7. **Camera sensitivity:** Blackfly S sensor may be insufficient for low-light fluorescence; alternative (sCMOS) not budgeted.\n8. **Long-term drift:** Stepper motors may accumulate positional error over weeks; homing frequency TBD."
+  },
+  {
+    "file": "EVIDENCE.md",
+    "action": "insert_after_line",
+    "line_anchor": "## Limitations & Known Biases",
+    "body": "\n\n**Unified limitations (see also CONCEPT.md):**\n1. Sample stability ≥3 weeks not validated beyond CDATA.\n2. Imaging frequency ≤2/hour misses fast dynamics.\n3. Environmental tolerances ±0.5°C/±0.5% CO₂; not suitable for sensitive primary cells.\n4. No on-platform liquid handling; media changes human-performed.\n5. AI generalizability limited to CDATA-class protocols.\n6. Stage accuracy ±2 µm (placeholder).\n7. Camera sensitivity may limit low-light applications.\n8. Long-term stepper drift requires further characterization."
+  },
+  {
+    "file": "EVIDENCE.md",
+    "action": "insert_after_line",
+    "line_anchor": "## Risk matrix",
+    "body": "\n\n**Unified risk matrix (see also CONCEPT.md):**\n| Risk | Probability | Impact | Mitigation |\n|------|-------------|--------|------------|\n| AI misinterpretation of image quality | Medium (0.3) | High | Real-time focus monitoring; human-in-loop |\n| Environmental chamber failure | Low (0.1) | Critical | Dual sensors; UPS; remote alert |\n| Camera degradation | Low (0.05) | Medium | Weekly calibration; spare camera |\n| Network outage | Medium (0.2) | High | Local NAS; auto-retry |\n| Contamination | Medium (0.25) | High | Sterile protocol; UV; HEPA |\n| Stepper drift | Low (0.1) | Medium | Homing cycle; fiducial correction |"
+  }
+]

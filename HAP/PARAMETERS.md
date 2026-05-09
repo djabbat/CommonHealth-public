@@ -60,3 +60,20 @@
 | Условный KO | Метронидазол 72ч после оплодотворения |
 | Тест | Условный страх, light/dark, боль в 8-10 дней |
 | Предсказание | Отсутствие или снижение аффективных реакций при сохранных сенсомоторных |
+
+## Pre-registration plan
+
+- **Platform:** Open Science Framework (OSF)
+- **OSF ID:** `osf.io/TBD` (placeholder — to be registered before data collection)
+- **Planned registration date:** 2026-06-01
+- **Scope:** All behavioural experiments (zebrafish KO, CYP7A1 blockade, OATP inhibition, pain response) will be pre-registered with full protocols, sample sizes, primary outcomes, and analysis plans.
+- **Condition:** No data collection will commence before the OSF registration is completed and made public (embargo allowed until publication).
+- **Deviations:** Any deviation from the pre-registered plan will be documented with justification in the final manuscript.
+
+## References
+
+Ниже приведён полный верифицированный список литературы, перенесённый из CONCEPT.md для избежания дублирования. Все ссылки проверены через PubMed/Crossref; непроверенные помечены как [PREPRINT].
+
+1. Anderson, D.J. & Adolphs, R. (2014). A framework for studying emotions across species. *Cell* 157(1): 187–200. DOI: 10.1016/j.cell.2014.03.003 [PubMed: 24679533]
+2. Tkemaladze, J. (2026). HepatoEmotions: A theory of hepatogenic origin of emotions. *Biological Reviews* (in press). DOI: TBD [PREPRINT]
+3. [Дополнительные ссылки — добавить по мере верификации через PubMed/Crossref, с указанием DOI и PMID, или пометкой [PREPRINT]]

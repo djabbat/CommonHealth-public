@@ -1,0 +1,44 @@
+[
+  {
+    "file": "OPEN_PROBLEMS.md",
+    "action": "append_section",
+    "heading": "## Pre-registration plan",
+    "body": "All prospective falsification tests (FT1.1, FT1.2, FT2.1, FT6.1, FT6.2) will be pre-registered on the Open Science Framework (OSF) prior to data collection. Each registration will include the study design, sample size justification, primary outcome measures, and analysis plan. OSF identifiers and planned registration dates are listed below:\n\n| Test ID | OSF Identifier | Planned Registration Date |\n|---------|----------------|--------------------------|\n| FT1.1   | osf.io/TBD     | 2026-09-01               |\n| FT1.2   | osf.io/TBD     | 2026-09-01               |\n| FT2.1   | osf.io/TBD     | 2026-10-15               |\n| FT6.1   | osf.io/TBD     | 2026-11-01               |\n| FT6.2   | osf.io/TBD     | 2026-11-01               |\n\nNote: OSF identifiers are placeholders and will be replaced with actual registration DOIs upon submission."
+  },
+  {
+    "file": "EVIDENCE.md",
+    "action": "replace_text",
+    "find": "[PMID_REMOVED 2026-05-08]",
+    "replace": "[reference pending verification — see CORRECTIONS_2026-04-22.md]"
+  },
+  {
+    "file": "EVIDENCE.md",
+    "action": "replace_text",
+    "find": "[pre-print placeholder: DOI TBD]",
+    "replace": "[pre-print — DOI to be assigned]"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "replace_text",
+    "find": "<!-- REF_AUDIT_2026-05-08: FABRICATION CLEANUP applied\nМаркеры:\n [pre-print placeholder: DOI TBD] — DOI был фабрикованным или указывал на чужую статью; нужен ручной поиск замены.\n [PMID_REMOVED 2026-05-08] — PMID указывал на чужую статью; удалён.\nИсточник решений: ~/Desktop/AUDIT_FUNDS_2026-05-08/patches/triage_decisions.json\nBackup: ~/Desktop/AUDIT_FUNDS_2026-05-08/backup_pre_cleanup/\n-->",
+    "replace": ""
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "replace_text",
+    "find": "[PMID_REMOVED 2026-05-08]",
+    "replace": "[reference pending verification — see CORRECTIONS_2026-04-22.md]"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "replace_text",
+    "find": "[pre-print placeholder: DOI TBD]",
+    "replace": "[pre-print — DOI to be assigned]"
+  },
+  {
+    "file": "PARAMETERS.md",
+    "action": "append_section",
+    "heading": "## Tissue-specific nu values (post-MCMC posterior)",
+    "body": "The following tissue-specific nu values are the Round-7 MCMC posterior estimates, pinned in the code (test `isc_nu == 70.0` on line 199). These supersede the literature prior ranges listed in the main parameter table.\n\n| Tissue | nu (posterior) | Prior range (literature) | Source |\n|--------|----------------|--------------------------|--------|\n| ISC    | 70.0           | 52–70                    | Round-7 MCMC posterior |\n| Muscle | 4.0            | 0.1–4                    | Round-7 MCMC posterior |\n| Neural | 2.0            | 2–4                      | Round-7 MCMC posterior |\n\nNote: The prior ranges remain valid as biologically plausible intervals; the posterior values are the calibrated estimates used in the current codebase."
+  }
+]

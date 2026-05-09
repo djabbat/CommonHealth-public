@@ -1,0 +1,287 @@
+
+## iter 1
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+APPENDED: CONCEPT.md :: ## Evidence base & meta-analysis
+APPENDED: CONCEPT.md :: ## Methodology depth
+APPENDED: CONCEPT.md :: ## Reproducibility & open science
+
+## iter 2
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+REPLACED: CONCEPT.md :: ## Sample size calculation for CDATA exp
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+APPENDED: EVIDENCE.md :: ## Evidence base & meta-analysis
+SKIP exists: CONCEPT.md :: ## Methodology depth
+SKIP exists: CONCEPT.md :: ## Reproducibility & open science
+
+## iter 3
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+SKIP exists: CONCEPT.md :: ## Evidence base & meta-analysis
+SKIP exists: CONCEPT.md :: ## Methodology depth
+SKIP exists: CONCEPT.md :: ## Reproducibility & open science
+
+## iter 4
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+SKIP exists: CONCEPT.md :: ## Evidence base & meta-analysis
+SKIP exists: CONCEPT.md :: ## Methodology depth
+SKIP exists: CONCEPT.md :: ## Reproducibility & open science
+
+## iter 5
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+SKIP exists: CONCEPT.md :: ## Evidence base & meta-analysis
+SKIP exists: CONCEPT.md :: ## Methodology depth
+SKIP exists: CONCEPT.md :: ## Reproducibility & open science
+
+## iter 6
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+SKIP exists: EVIDENCE.md :: ## Evidence base & meta-analysis
+APPENDED: EVIDENCE.md :: ## Methodology depth
+APPENDED: EVIDENCE.md :: ## Reproducibility & open science
+
+## iter 8
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+SKIP exists: CONCEPT.md :: ## Evidence base & meta-analysis
+SKIP exists: CONCEPT.md :: ## Methodology depth
+SKIP exists: CONCEPT.md :: ## Reproducibility & open science
+
+## iter 9
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+SKIP exists: CONCEPT.md :: ## Evidence base & meta-analysis
+SKIP exists: CONCEPT.md :: ## Methodology depth
+SKIP exists: CONCEPT.md :: ## Reproducibility & open science
+
+## iter 10
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+SKIP exists: EVIDENCE.md :: ## Evidence base & meta-analysis
+SKIP exists: EVIDENCE.md :: ## Methodology depth
+SKIP exists: CONCEPT.md :: ## Reproducibility & open science
+
+## iter 11
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+SKIP exists: CONCEPT.md :: ## Evidence base & meta-analysis
+SKIP exists: CONCEPT.md :: ## Methodology depth
+SKIP exists: CONCEPT.md :: ## Reproducibility & open science
+
+## iter 12
+REPLACED: CONCEPT.md :: ## Evidence base & meta-analysis
+REPLACED: CONCEPT.md :: ## Sample size calculation
+
+Sample size 
+REPLACED: CONCEPT.md :: ## Risk matrix
+
+
+REPLACED: CONCEPT.md :: ## Limitations
+
+
+REPLACED: CONCEPT.md :: ## Pre-registration plan
+REPLACED: CONCEPT.md :: ## Reproducibility & open science
+
+## iter 13
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+SKIP exists: CONCEPT.md :: ## Evidence base & meta-analysis
+SKIP exists: CONCEPT.md :: ## Methodology depth
+SKIP exists: CONCEPT.md :: ## Reproducibility & open science
+
+## iter 14
+REPLACED: CONCEPT.md :: ## Sample size calculation
+
+Sample size 
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: EVIDENCE.md :: ## Evidence base & meta-analysis
+SKIP exists: EVIDENCE.md :: ## Methodology depth
+SKIP exists: EVIDENCE.md :: ## Reproducibility & open science
+
+## iter 15
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+SKIP exists: CONCEPT.md :: ## Evidence base & meta-analysis
+SKIP exists: CONCEPT.md :: ## Methodology depth
+SKIP exists: CONCEPT.md :: ## Reproducibility & open science
+
+## iter 16
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+REPLACED: CONCEPT.md :: n = (1.96 + 0.84)² · σ² / δ²
+
+Where:
+- Z
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+SKIP exists: CONCEPT.md :: ## Evidence base & meta-analysis
+SKIP exists: CONCEPT.md :: ## Methodology depth
+SKIP exists: CONCEPT.md :: ## Reproducibility & open science
+
+## iter 17
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+SKIP exists: CONCEPT.md :: ## Evidence base & meta-analysis
+SKIP exists: CONCEPT.md :: ## Methodology depth
+SKIP exists: CONCEPT.md :: ## Reproducibility & open science
+
+## iter 18
+SKIP exists: CONCEPT.md :: ## Falsifiability
+REPLACED: CONCEPT.md :: n = (1.96 + 0.84)² · σ² / δ²
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+SKIP exists: CONCEPT.md :: ## Evidence base & meta-analysis
+SKIP exists: CONCEPT.md :: ## Methodology depth
+SKIP exists: CONCEPT.md :: ## Reproducibility & open science
+
+## iter 19
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+REPLACED: CONCEPT.md :: n = (1.96 + 0.84)² · σ² / δ² (placeholde
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+SKIP exists: CONCEPT.md :: ## Evidence base & meta-analysis
+SKIP exists: CONCEPT.md :: ## Methodology depth
+SKIP exists: CONCEPT.md :: ## Reproducibility & open science
+
+## iter 20
+SKIP exists: CONCEPT.md :: ## Evidence base & meta-analysis
+SKIP exists: CONCEPT.md :: ## Methodology depth
+SKIP exists: CONCEPT.md :: ## Reproducibility & open science
+
+## iter 21
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+SKIP exists: CONCEPT.md :: ## Evidence base & meta-analysis
+SKIP exists: CONCEPT.md :: ## Methodology depth
+SKIP exists: CONCEPT.md :: ## Reproducibility & open science
+REPLACED: CONCEPT.md :: Sample size for the primary validation e
+
+## iter 22
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+REPLACED: CONCEPT.md :: n = (1.96 + 0.84)² · σ² / δ²
+
+Where:
+- Z
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+SKIP exists: CONCEPT.md :: ## Evidence base & meta-analysis
+SKIP exists: CONCEPT.md :: ## Methodology depth
+SKIP exists: CONCEPT.md :: ## Reproducibility & open science
+
+## iter 23
+SKIP exists: EVIDENCE.md :: ## Evidence base & meta-analysis
+SKIP exists: EVIDENCE.md :: ## Methodology depth
+SKIP exists: EVIDENCE.md :: ## Reproducibility & open science
+
+## iter 24
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+SKIP exists: CONCEPT.md :: ## Evidence base & meta-analysis
+SKIP exists: CONCEPT.md :: ## Methodology depth
+SKIP exists: CONCEPT.md :: ## Reproducibility & open science
+
+## iter 25
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+REPLACED: CONCEPT.md :: ### Sample size calculation
+
+Sample size
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+SKIP exists: CONCEPT.md :: ## Evidence base & meta-analysis
+SKIP exists: CONCEPT.md :: ## Methodology depth
+SKIP exists: CONCEPT.md :: ## Reproducibility & open science
+
+## iter 26
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+SKIP exists: EVIDENCE.md :: ## Evidence base & meta-analysis
+SKIP exists: EVIDENCE.md :: ## Methodology depth
+SKIP exists: EVIDENCE.md :: ## Reproducibility & open science
+
+## iter 27
+SKIP exists: CONCEPT.md :: ## Evidence base & meta-analysis
+SKIP exists: CONCEPT.md :: ## Methodology depth
+SKIP exists: CONCEPT.md :: ## Reproducibility & open science
+
+## iter 28
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+REPLACED: CONCEPT.md :: n = (1.96 + 0.84)² · σ² / δ²
+
+Where:
+- Z
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+SKIP exists: EVIDENCE.md :: ## Evidence base & meta-analysis
+SKIP exists: EVIDENCE.md :: ## Methodology depth
+SKIP exists: EVIDENCE.md :: ## Reproducibility & open science

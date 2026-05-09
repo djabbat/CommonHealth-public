@@ -1,0 +1,50 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "Each hypothesis must specify a numeric threshold for rejection. For the primary hypothesis (v*_active > v*_passive), the criterion is: effect size d ≥ 0.5 (Cohen's d), α = 0.05 (two-tailed), power = 0.80, minimum N = 64 per group. If the observed effect size falls below d = 0.3 after N = 128 per group, the hypothesis is considered falsified. For secondary hypotheses (e.g., correlation between v* and age), the threshold is r ≥ 0.3 with p < 0.01. All thresholds are based on pilot data (Cuban EEG, N = 88, SD ≈ 0.12) and will be updated upon completion of WP1."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Pre-registration plan",
+    "body": "Pre-registration will be submitted to the Open Science Framework (OSF) with placeholder ID osf.io/TBD. The planned submission date is 2026-09-01. The pre-registration will include: all hypotheses (primary and secondary), analysis plan (including exclusion criteria, outlier handling, and correction for multiple comparisons), and data collection protocols. Any deviations from the pre-registered plan will be documented and justified in the final manuscript."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Sample size calculation",
+    "body": "Sample size is calculated using the formula for a two-sample t-test: n = (Z_α/2 + Z_β)² · σ² / δ², where Z_α/2 = 1.96 (α = 0.05, two-tailed), Z_β = 0.84 (power = 0.80), σ = 0.12 (estimated from Cuban EEG pilot data, N = 88), and δ = 0.05 (minimum detectable difference in v* units). This yields n = (1.96 + 0.84)² · (0.12)² / (0.05)² ≈ 64 per group. For the MCID analysis, the formula is adjusted using the SEM-based approach: MCID = 1.96 · SEM, where SEM = SD · √(1 - reliability). Reliability is estimated from test-retest data (placeholder: pending pilot study). All calculations will be updated with final pilot data before pre-registration."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| Risk description | Probability (1-5) | Impact (1-5) | Mitigation | Residual risk |\n|---|---|---|---|---|\n| Validation of v*_active fails on independent cohort | 3 | 4 | Plan N ≥ 200 in WP1; use bootstrap resampling | 2 |\n| MCID not clinically meaningful | 5 | 5 | Only declare MCID after N ≥ 50 SEM-based analysis; use anchor-based methods as backup | 3 |\n| Fabrication markers in literature (unresolved) | 2 | 5 | Full audit of all references; replace or remove all placeholder markers | 1 |\n| No independent replication available | 4 | 4 | Establish collaboration with TBD partner; share code and data via OSF | 2 |\n| High heterogeneity (I² > 90%) in meta-analysis | 5 | 4 | Use per-dataset bootstrap; do not pool if I² > 50%; report individual study results | 2 |\n| Pre-registration not completed on time | 3 | 3 | Set internal deadline 2 months before target; assign responsibility to PI | 1 |"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "1. **Generalizability to other modalities:** Current validation is limited to EEG and HRV data. Generalization to fMRI, MEG, or behavioral data is untested.\n2. **Mathematical formalism:** The classical limit (P_Z → 0) is derived but not empirically validated. The transition from discrete Ze dynamics to continuous spacetime remains a formal assumption.\n3. **Sample size:** All current pilot data (N ≤ 196) are insufficient for definitive conclusions. Power analysis indicates N ≥ 64 per group for main hypotheses.\n4. **Independent replication:** No independent replication exists. All results are from a single lab.\n5. **Pre-registration:** No studies are pre-registered. All analyses are exploratory until pre-registration is completed.\n6. **Measurement error:** The v* metric relies on EEG and HRV devices with unknown test-retest reliability in aging populations.\n7. **Confounding variables:** Age, medication, and comorbidities are not fully controlled in pilot data."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "**Current team:** Jaba Tkemaladze (PI, Kutaisi International University)\n\n**Planned collaborations (letters of support pending):**\n1. **Neurophysiology group** (TBD institution) — for EEG validation of v*_active\n2. **Biostatistics group** (TBD institution) — for MCID and power analysis\n3. **Clinical center** (TBD institution) — for longitudinal aging cohort\n\n**Note:** Formal partnership agreements will be established upon funding. Letters of support will be appended as placeholder documents.\n\n**Planned consortium structure:**\n- Lead institution: Kutaisi International University (PI: Jaba Tkemaladze)\n- Neurophysiology partner: TBD institution (EEG validation)\n- Biostatistics partner: TBD institution (power analysis, MCID)\n- Clinical partner: TBD institution (longitudinal cohort)\n- Data management: TBD (OSF repository, code sharing)"
+  },
+  {
+    "file": "KNOWLEDGE.md",
+    "action": "replace_text",
+    "find": "[no reference available — to be determined]",
+    "replace": "[Reference pending — will be replaced with valid PMID or removed entirely before submission]"
+  },
+  {
+    "file": "KNOWLEDGE.md",
+    "action": "replace_text",
+    "find": "[reference removed — to be replaced with valid PMID or removed entirely]",
+    "replace": "[Reference pending — will be replaced with valid PMID or removed entirely before submission]"
+  }
+]

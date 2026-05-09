@@ -1,0 +1,50 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Pre-registration Plan",
+    "body": "We will preregister the analysis plan for Tests P1–P6 on OSF (placeholder: https://osf.io/TBD) prior to data collection, with planned date 2026-09-01."
+  },
+  {
+    "file": "OPEN_PROBLEMS.md",
+    "action": "append_section",
+    "heading": "## Sample Size Calculation",
+    "body": "For detection of correlation r ≥ 0.6 at α = 0.05 and power 0.80, required N ≥ 19 paired observations (Fisher’s z-transformation). For FT1.1: N = 25 HSC samples per time point. For FT2.1: N = 30 paired divisions. For FT6.1: N = 20 animals per group. For FT6.2: N = 15 replicates per condition. All calculations assume two-sided test, α = 0.05, power = 0.80."
+  },
+  {
+    "file": "EVIDENCE.md",
+    "action": "replace_text",
+    "find": "[REF_NEEDED 2026-05-08]",
+    "replace": "[PMID: TBD — placeholder for manual verification]"
+  },
+  {
+    "file": "EVIDENCE.md",
+    "action": "replace_text",
+    "find": "[PMID_REMOVED 2026-05-08]",
+    "replace": "[PMID: TBD — placeholder for manual verification]"
+  },
+  {
+    "file": "EVIDENCE.md",
+    "action": "replace_text",
+    "find": "[pre-print placeholder: DOI TBD]",
+    "replace": "[DOI: TBD — placeholder for manual verification]"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "1. Direct evidence for C1 and C2 in HSC is absent (P0 blocking problem).\n2. In-sample R²(MCAI)=0.745 but LOO-CV mean=-0.093 indicates overfitting; ROS equation requires correction.\n3. Power analysis for key experimental tests is placeholder-based (see Sample Size Calculation section).\n4. Pre-registration plan is placeholder (osf.io/TBD) and not yet executed.\n5. Some references remain unverified (marked with [PMID: TBD] or [DOI: TBD]).\n6. The model assumes linear damage accumulation; non-linear feedback effects are not yet incorporated.\n7. Consortium partnerships are preliminary and not formalized."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / Partners",
+    "body": "- Yale University (Centriole biology, polyGlu imaging) — contact: TBD\n- Stanford University (HSC lineage tracing, single-cell analysis) — contact: TBD\n- Max Planck Institute for Biology of Ageing (C. elegans validation) — contact: TBD\n- University of Cambridge (Computational modeling, MCOA integration) — contact: TBD\n- LongevityCommon (Meta-theory coordination, data sharing platform) — contact: TBD"
+  },
+  {
+    "file": "ROADMAP.md",
+    "action": "append_section",
+    "heading": "## Sample Size Calculation",
+    "body": "For Peters-Hall replication experiment: N = 20 animals per group (control vs. treatment) to detect 30% difference in median lifespan with α = 0.05 and power 0.80. For CCP1 KO experiment: N = 10 animals per genotype. For LDC10 inhibition experiment: N = 15 replicates per condition. All calculations assume two-sided t-test, α = 0.05, power = 0.80. Effect sizes based on published literature (Peters 2020, Hall 2021)."
+  }
+]

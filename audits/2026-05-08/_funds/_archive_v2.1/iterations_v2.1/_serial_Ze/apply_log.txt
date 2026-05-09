@@ -1,0 +1,178 @@
+
+## iter 1
+APPENDED: CONCEPT.md :: ## Falsifiability
+APPENDED: CONCEPT.md :: ## Pre-registration plan
+APPENDED: CONCEPT.md :: ## Sample size calculation
+APPENDED: CONCEPT.md :: ## Risk matrix
+APPENDED: CONCEPT.md :: ## Limitations
+APPENDED: CONCEPT.md :: ## Consortium / partners
+
+## iter 2
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+
+## iter 3
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+REPLACED: CONCEPT.md :: <!-- REF_AUDIT_2026-05-08: FABRICATION C
+
+## iter 4
+INSERTED: CONCEPT.md after `### 2.3.0. Статус эмпирической валидации`
+SKIP missing/outside-LC: RESEARCH_PRE_REGISTRATION.md (tried ['/home/oem/Desktop/LongevityCommon/Ze/RESEARCH_PRE_REGISTRATION.md', '/home/oem/Desktop/LongevityCommon/RESEARCH_PRE_REGISTRATION.md', '/home/oem/Desktop/LongevityCommon/RESEARCH_PRE_REGISTRATION.md'])
+INSERTED: CONCEPT.md after `### 2.3.0. Статус эмпирической валидации`
+SKIP missing/outside-LC: RISK_MANAGEMENT.md (tried ['/home/oem/Desktop/LongevityCommon/Ze/RISK_MANAGEMENT.md', '/home/oem/Desktop/LongevityCommon/RISK_MANAGEMENT.md', '/home/oem/Desktop/LongevityCommon/RISK_MANAGEMENT.md'])
+INSERTED: CONCEPT.md after `## 2. Текущий статус теории`
+INSERTED: CONCEPT.md after `## 1. Обзор проекта`
+REPLACED: KNOWLEDGE.md :: [REF_NEEDED 2026-05-08]
+
+## iter 5
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+REPLACED: CONCEPT.md :: <!-- Citation audit status: All referenc
+
+## iter 6
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+
+## iter 7
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+REPLACED: CONCEPT.md :: **Note:** Formal partnership agreements 
+
+## iter 9
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+SKIP exists: CONCEPT.md :: ## Limitations
+REPLACED: KNOWLEDGE.md :: [reference pending verification — will b
+REPLACED: KNOWLEDGE.md :: [PMID_REMOVED 2026-05-08]
+
+## iter 10
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+
+## iter 11
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+
+## iter 13
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+REPLACED: KNOWLEDGE.md :: [no reference available — to be determin
+
+## iter 1
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+REPLACED: KNOWLEDGE.md :: [Reference pending — will be replaced wi
+
+## iter 2
+SKIP exists: CONCEPT.md :: ## Falsifiability
+INSERTED: CONCEPT.md after `## 2.0.1. Limitations`
+INSERTED: CONCEPT.md after `### 2.3.0. Статус эмпирической валидации`
+INSERTED: CONCEPT.md after `## 2.0.1. Limitations`
+REPLACED: CONCEPT.md :: **Planned collaborations (letters of sup
+
+## iter 3
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+
+## iter 4
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+
+## iter 5
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+
+## iter 6
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+REPLACED: CONCEPT.md :: <!-- Citation audit status: All referenc
+REPLACED: KNOWLEDGE.md :: [Reference pending — placeholder; will b
+
+## iter 7
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+REPLACED: CONCEPT.md :: ## Sample size calculation
+
+**Formula:**
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+
+## iter 8
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+
+## iter 9
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+
+## iter 11
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+REPLACED: CONCEPT.md :: ## Sample size calculation
+
+**Formula:**
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners

@@ -1,0 +1,271 @@
+[01:41:22] === START orchestrator ===
+[01:41:22] PHASE 1: build packets (49 projects)
+[01:41:22]   packet local Claude_service
+[01:41:22]   packet local GLA_umbrella
+[01:41:22]   packet local GLA_Annals
+[01:41:22]   packet local Iqalto_umbrella
+[01:41:22]   packet local Iqalto_lms
+[01:41:22]   packet local Iqalto_Aqtivirebuli
+[01:41:22]   packet local Iqalto_simulator
+[01:41:22]   packet local Iqalto_iqalto-core
+[01:41:22]   packet local LongevityCommon_root
+[01:41:28]   packet local LC_AIM
+[01:41:33]   packet local LC_BioSense
+[01:41:33]   packet local LC_CDATA
+[01:41:33]   packet local LC_CytogeneticTree
+[01:41:33]   packet local LC_EpigeneticDrift
+[01:41:33]   packet local LC_FCLC
+[01:41:33]   packet local LC_HAP
+[01:41:33]   packet local LC_MCOA
+[01:41:34]   packet local LC_MitoROS
+[01:41:34]   packet local LC_Ontogenesis
+[01:41:34]   packet local LC_Proteostasis
+[01:41:34]   packet local LC_Telomere
+[01:41:34]   packet local LC_Ze
+[01:41:34]   packet local LC_AutomatedMicroscopy
+[01:41:34]   packet local LC_realtime
+[01:41:34]   packet local LC_server
+[01:41:35]   packet local LC_web
+[01:41:35]   packet local LC_deploy
+[01:41:35]   packet local Marketing_umbrella
+[01:41:35]   packet local Marketing_Books
+[01:41:36]   packet local Marketing_JabaEkimi
+[01:41:36]   packet local PhD_umbrella
+[01:41:36]   packet local PhD_dissertation
+[01:41:36]   packet local PhD_E0
+[01:41:36]   packet local PhD_microscope
+[01:41:36]   packet local Regenesis
+[01:41:36]   packet local SamnuAzuzi
+[01:41:36]   packet local Sulkalmakhi
+[01:41:36]   packet local WLRAbastumani
+[01:41:36]   packet server srv_aim
+[01:42:26]   packet server srv_books
+[01:43:11]   packet server srv_drjaba
+[01:43:56]   packet server srv_drjaba-shared
+[01:44:40]   packet server srv_fclc
+[01:45:26]   packet server srv_ksystem
+[01:46:11]   packet server srv_longevity
+[01:47:01]   packet server srv_longevitycommon
+[01:47:52]   packet server srv_ngo
+[01:48:39]   packet server srv_space
+[01:49:25]   packet server srv_spellcheckerka
+[01:50:13] PHASE 2-4: review + plan + iterate (parallel)
+[01:50:13]   review Claude_service
+[01:50:13]   review GLA_umbrella
+[01:50:13]   review GLA_Annals
+[01:50:13]   review Iqalto_lms
+[01:50:13]   review Iqalto_umbrella
+[01:50:48]   plan Iqalto_lms
+[01:50:52]   plan GLA_umbrella
+[01:50:53]   plan Claude_service
+[01:50:55]   plan GLA_Annals
+[01:51:18]   check GLA_umbrella v1
+[01:51:19]   plan Iqalto_umbrella
+[01:51:22]   check Iqalto_lms v1
+[01:51:27]   check GLA_Annals v1
+[01:51:32]   check Claude_service v1
+[01:51:37]   DONE Iqalto_lms: accepted=True
+[01:51:37]   review Iqalto_Aqtivirebuli
+[01:51:41]   refine plan GLA_umbrella -> v2
+[01:51:41]   DONE GLA_Annals: accepted=True
+[01:51:41]   review Iqalto_simulator
+[01:51:46]   review Iqalto_iqalto-core
+[01:51:46]   DONE Claude_service: accepted=True
+[01:51:48]   check Iqalto_umbrella v1
+[01:52:08]   plan Iqalto_simulator
+[01:52:09]   DONE Iqalto_umbrella: accepted=True
+[01:52:09]   review LongevityCommon_root
+[01:52:11]   plan Iqalto_Aqtivirebuli
+[01:52:25]   plan Iqalto_iqalto-core
+[01:52:45]   check GLA_umbrella v2
+[01:52:50]   check Iqalto_simulator v1
+[01:52:54]   check Iqalto_Aqtivirebuli v1
+[01:52:58]   check Iqalto_iqalto-core v1
+[01:53:10]   DONE Iqalto_iqalto-core: accepted=True
+[01:53:10]   review LC_AIM
+[01:53:10]   DONE Iqalto_simulator: accepted=True
+[01:53:10]   review LC_BioSense
+[01:53:13]   refine plan GLA_umbrella -> v3
+[01:53:16]   review LC_CDATA
+[01:53:16]   DONE Iqalto_Aqtivirebuli: accepted=True
+[01:53:19]   plan LongevityCommon_root
+[01:53:58]   check GLA_umbrella v3
+[01:53:59]   plan LC_AIM
+[01:54:01]   plan LC_BioSense
+[01:54:14]   plan LC_CDATA
+[01:54:19]   check LongevityCommon_root v1
+[01:54:32]   DONE GLA_umbrella: accepted=True
+[01:54:32]   review LC_CytogeneticTree
+[01:54:41]   check LC_AIM v1
+[01:54:43]   check LC_BioSense v1
+[01:54:46]   DONE LongevityCommon_root: accepted=True
+[01:54:46]   review LC_EpigeneticDrift
+[01:54:48]   check LC_CDATA v1
+[01:54:57]   review LC_FCLC
+[01:54:57]   DONE LC_BioSense: accepted=True
+[01:55:03]   plan LC_CytogeneticTree
+[01:55:05]   review LC_HAP
+[01:55:05]   DONE LC_CDATA: accepted=True
+[01:55:20]   plan LC_FCLC
+[01:55:24]   DONE LC_AIM: accepted=True
+[01:55:24]   review LC_MCOA
+[01:55:36]   check LC_CytogeneticTree v1
+[01:55:43]   plan LC_EpigeneticDrift
+[01:55:48]   check LC_FCLC v1
+[01:55:49]   plan LC_HAP
+[01:55:56]   DONE LC_CytogeneticTree: accepted=True
+[01:55:56]   review LC_MitoROS
+[01:55:58]   review LC_Ontogenesis
+[01:55:58]   DONE LC_FCLC: accepted=True
+[01:56:11]   plan LC_Ontogenesis
+[01:56:25]   check LC_EpigeneticDrift v1
+[01:56:33]   plan LC_MCOA
+[01:56:40]   DONE LC_EpigeneticDrift: accepted=True
+[01:56:40]   review LC_Proteostasis
+[01:56:42]   check LC_Ontogenesis v1
+[01:56:54]   plan LC_MitoROS
+[01:56:54]   DONE LC_Ontogenesis: accepted=True
+[01:56:54]   review LC_Telomere
+[01:57:06]   check LC_HAP v1
+[01:57:15]   check LC_MCOA v1
+[01:57:25]   DONE LC_HAP: accepted=True
+[01:57:25]   review LC_Ze
+[01:57:31]   check LC_MitoROS v1
+[01:57:34]   DONE LC_MCOA: accepted=True
+[01:57:34]   review LC_AutomatedMicroscopy
+[01:57:35]   plan LC_Proteostasis
+[01:57:42]   DONE LC_MitoROS: accepted=True
+[01:57:42]   review LC_realtime
+[01:57:46]   plan LC_Telomere
+[01:58:07]   check LC_Proteostasis v1
+[01:58:08]   plan LC_AutomatedMicroscopy
+[01:58:11]   plan LC_Ze
+[01:58:20]   DONE LC_Proteostasis: accepted=True
+[01:58:20]   review LC_server
+[01:58:20]   check LC_Telomere v1
+[01:58:24]   plan LC_realtime
+[01:58:37]   check LC_AutomatedMicroscopy v1
+[01:58:37]   DONE LC_Telomere: accepted=True
+[01:58:37]   review LC_web
+[01:58:58]   plan LC_server
+[01:59:06]   DONE LC_AutomatedMicroscopy: accepted=True
+[01:59:06]   review LC_deploy
+[01:59:06]   check LC_realtime v1
+[01:59:11]   check LC_Ze v1
+[01:59:16]   plan LC_web
+[01:59:31]   check LC_server v1
+[01:59:34]   DONE LC_realtime: accepted=True
+[01:59:34]   review Marketing_umbrella
+[01:59:36]   refine plan LC_Ze -> v2
+[01:59:37]   plan LC_deploy
+[01:59:46]   check LC_web v1
+[01:59:55]   DONE LC_server: accepted=True
+[01:59:55]   review Marketing_Books
+[02:00:07]   plan Marketing_umbrella
+[02:00:15]   refine plan LC_web -> v2
+[02:00:30]   check Marketing_umbrella v1
+[02:00:33]   plan Marketing_Books
+[02:00:33]   check LC_deploy v1
+[02:00:48]   refine plan Marketing_umbrella -> v2
+[02:00:49]   check LC_web v2
+[02:00:54]   DONE LC_deploy: accepted=True
+[02:00:54]   review Marketing_JabaEkimi
+[02:01:01]   check LC_Ze v2
+[02:01:08]   DONE LC_web: accepted=True
+[02:01:08]   review PhD_umbrella
+[02:01:14]   DONE LC_Ze: accepted=True
+[02:01:14]   review PhD_dissertation
+[02:01:27]   check Marketing_Books v1
+[02:01:31]   plan Marketing_JabaEkimi
+[02:01:37]   check Marketing_umbrella v2
+[02:01:38]   plan PhD_dissertation
+[02:01:45]   review PhD_E0
+[02:01:45]   DONE Marketing_Books: accepted=True
+[02:01:52]   plan PhD_umbrella
+[02:01:57]   check Marketing_JabaEkimi v1
+[02:01:59]   DONE Marketing_umbrella: accepted=True
+[02:01:59]   review PhD_microscope
+[02:02:14]   DONE Marketing_JabaEkimi: accepted=True
+[02:02:14]   review Regenesis
+[02:02:16]   check PhD_dissertation v1
+[02:02:19]   plan PhD_microscope
+[02:02:35]   plan PhD_E0
+[02:02:41]   check PhD_umbrella v1
+[02:02:45]   plan Regenesis
+[02:02:47]   check PhD_microscope v1
+[02:02:49]   refine plan PhD_dissertation -> v2
+[02:03:00]   review SamnuAzuzi
+[02:03:00]   DONE PhD_umbrella: accepted=True
+[02:03:05]   DONE PhD_microscope: accepted=True
+[02:03:05]   review Sulkalmakhi
+[02:03:17]   check PhD_E0 v1
+[02:03:28]   check PhD_dissertation v2
+[02:03:31]   plan SamnuAzuzi
+[02:03:37]   check Regenesis v1
+[02:03:43]   DONE PhD_dissertation: accepted=True
+[02:03:43]   review WLRAbastumani
+[02:03:46]   refine plan PhD_E0 -> v2
+[02:03:50]   plan Sulkalmakhi
+[02:03:53]   DONE Regenesis: accepted=True
+[02:03:53]   review srv_aim
+[02:04:18]   check SamnuAzuzi v1
+[02:04:30]   DONE SamnuAzuzi: accepted=True
+[02:04:30]   review srv_books
+[02:04:32]   plan WLRAbastumani
+[02:04:32]   check Sulkalmakhi v1
+[02:04:47]   check PhD_E0 v2
+[02:04:50]   plan srv_books
+[02:04:51]   plan srv_aim
+[02:05:01]   review srv_drjaba
+[02:05:01]   DONE Sulkalmakhi: accepted=True
+[02:05:10]   review srv_drjaba-shared
+[02:05:10]   DONE PhD_E0: accepted=True
+[02:05:19]   check srv_books v1
+[02:05:22]   check WLRAbastumani v1
+[02:05:30]   DONE srv_books: accepted=True
+[02:05:30]   review srv_fclc
+[02:05:31]   plan srv_drjaba-shared
+[02:05:43]   check srv_aim v1
+[02:05:55]   plan srv_drjaba
+[02:06:01]   check srv_drjaba-shared v1
+[02:06:03]   DONE srv_aim: accepted=True
+[02:06:03]   review srv_ksystem
+[02:06:05]   DONE WLRAbastumani: accepted=True
+[02:06:05]   review srv_longevity
+[02:06:13]   DONE srv_drjaba-shared: accepted=True
+[02:06:13]   review srv_longevitycommon
+[02:06:28]   plan srv_fclc
+[02:06:30]   check srv_drjaba v1
+[02:06:41]   plan srv_longevity
+[02:06:56]   DONE srv_drjaba: accepted=True
+[02:06:56]   review srv_ngo
+[02:07:04]   plan srv_longevitycommon
+[02:07:04]   check srv_fclc v1
+[02:07:06]   plan srv_ksystem
+[02:07:22]   DONE srv_fclc: accepted=True
+[02:07:22]   review srv_space
+[02:07:23]   check srv_longevity v1
+[02:07:26]   plan srv_ngo
+[02:07:52]   DONE srv_longevity: accepted=True
+[02:07:52]   review srv_spellcheckerka
+[02:08:03]   check srv_ngo v1
+[02:08:16]   check srv_ksystem v1
+[02:08:17]   DONE srv_ngo: accepted=True
+[02:08:19]   check srv_longevitycommon v1
+[02:08:22]   plan srv_space
+[02:08:37]   plan srv_spellcheckerka
+[02:08:43]   refine plan srv_ksystem -> v2
+[02:08:49]   DONE srv_longevitycommon: accepted=True
+[02:08:51]   check srv_space v1
+[02:09:10]   check srv_spellcheckerka v1
+[02:09:17]   refine plan srv_space -> v2
+[02:09:27]   DONE srv_spellcheckerka: accepted=True
+[02:09:31]   check srv_ksystem v2
+[02:09:55]   check srv_space v2
+[02:10:00]   DONE srv_ksystem: accepted=True
+[02:10:11]   DONE srv_space: accepted=True
+[02:10:11] PHASE 6: cross-project systemic synthesis
+[02:10:48] PHASE 5: aggregate AUDIT_REPORT_2026-05-08.md
+[02:10:48] WROTE /home/oem/Desktop/AUDIT_REPORT_2026-05-08.md (897264 bytes)
+[02:10:48] appended synthesis to top of report
+[02:10:48] === DONE ===

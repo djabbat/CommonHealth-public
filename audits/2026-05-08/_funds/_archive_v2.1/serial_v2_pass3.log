@@ -1,0 +1,309 @@
+[2026-05-08 16:14:46] 
+========== AutomatedMicroscopy START ==========
+[2026-05-08 16:14:46]   AutomatedMicroscopy iter 1
+[2026-05-08 16:16:02]     verdict: REVISE_MAJOR (76s)
+[2026-05-08 16:16:24]     fixes: 0 applied, 6 skipped (22s)
+[2026-05-08 16:16:26]   AutomatedMicroscopy iter 2
+[2026-05-08 16:17:39]     verdict: REJECT (73s)
+[2026-05-08 16:17:54]     fixes: 0 applied, 6 skipped (15s)
+[2026-05-08 16:17:56]   AutomatedMicroscopy iter 3
+[2026-05-08 16:19:09]     verdict: REVISE_MAJOR (74s)
+[2026-05-08 16:19:34]     fixes: 0 applied, 6 skipped (25s)
+[2026-05-08 16:19:36]   AutomatedMicroscopy iter 4
+[2026-05-08 16:20:51]     verdict: REJECT (75s)
+[2026-05-08 16:20:51]   AutomatedMicroscopy: PLATEAU (no score improvement for 6 iters); moving on
+[2026-05-08 16:20:51] ========== AutomatedMicroscopy DONE (final verdict: REJECT) ==========
+
+[2026-05-08 16:20:51] 
+========== AIM START ==========
+[2026-05-08 16:20:51]   AIM iter 1
+[2026-05-08 16:22:04]     verdict: REJECT (72s)
+[2026-05-08 16:22:36]     fixes: 2 applied, 4 skipped (33s)
+[2026-05-08 16:22:38]   AIM iter 2
+[2026-05-08 16:23:50]     verdict: REJECT (72s)
+[2026-05-08 16:24:16]     fixes: 0 applied, 4 skipped (26s)
+[2026-05-08 16:24:18]   AIM iter 3
+[2026-05-08 16:25:35]     verdict: REJECT (77s)
+[2026-05-08 16:26:04]     fixes: 4 applied, 5 skipped (29s)
+[2026-05-08 16:26:06]   AIM iter 4
+[2026-05-08 16:27:21]     verdict: REJECT (75s)
+[2026-05-08 16:27:42]     fixes: 0 applied, 6 skipped (20s)
+[2026-05-08 16:27:44]   AIM iter 5
+[2026-05-08 16:28:58]     verdict: REJECT (75s)
+[2026-05-08 16:29:17]     fixes: 2 applied, 4 skipped (19s)
+[2026-05-08 16:29:19]   AIM iter 6
+[2026-05-08 16:30:36]     verdict: REJECT (77s)
+[2026-05-08 16:30:36]   AIM: PLATEAU (no score improvement for 6 iters); moving on
+[2026-05-08 16:30:36] ========== AIM DONE (final verdict: REJECT) ==========
+
+[2026-05-08 16:30:36] 
+========== CytogeneticTree START ==========
+[2026-05-08 16:30:36]   CytogeneticTree iter 1
+[2026-05-08 16:31:52]     verdict: REJECT (76s)
+[2026-05-08 16:32:15]     fixes: 0 applied, 5 skipped (23s)
+[2026-05-08 16:32:17]   CytogeneticTree iter 2
+[2026-05-08 16:33:28]     verdict: REJECT (72s)
+[2026-05-08 16:33:52]     fixes: 0 applied, 6 skipped (23s)
+[2026-05-08 16:33:54]   CytogeneticTree iter 3
+[2026-05-08 16:35:04]     verdict: REJECT (70s)
+[2026-05-08 16:35:33]     fixes: 0 applied, 6 skipped (30s)
+[2026-05-08 16:35:36]   CytogeneticTree iter 4
+[2026-05-08 16:36:46]     verdict: REVISE_MAJOR (71s)
+[2026-05-08 16:37:06]     fixes: 2 applied, 7 skipped (20s)
+[2026-05-08 16:37:08]   CytogeneticTree iter 5
+[2026-05-08 16:38:07]     verdict: REVISE_MAJOR (58s)
+[2026-05-08 16:38:28]     ERROR fix: Expecting ',' delimiter: line 1 column 5921 (char 5920)
+[2026-05-08 16:38:45]   CytogeneticTree iter 6
+[2026-05-08 16:39:51]     verdict: REVISE_MAJOR (66s)
+[2026-05-08 16:40:19]     fixes: 0 applied, 6 skipped (27s)
+[2026-05-08 16:40:21]   CytogeneticTree iter 7
+[2026-05-08 16:41:37]     verdict: REVISE_MAJOR (76s)
+[2026-05-08 16:41:59]     fixes: 1 applied, 6 skipped (22s)
+[2026-05-08 16:42:01]   CytogeneticTree iter 8
+[2026-05-08 16:43:02]     verdict: REVISE_MAJOR (61s)
+[2026-05-08 16:43:31]     ERROR fix: Expecting ',' delimiter: line 1 column 7005 (char 7004)
+[2026-05-08 16:43:48]   CytogeneticTree iter 9
+[2026-05-08 16:44:47]     verdict: REVISE_MAJOR (59s)
+[2026-05-08 16:44:47]   CytogeneticTree: PLATEAU (no score improvement for 6 iters); moving on
+[2026-05-08 16:44:47] ========== CytogeneticTree DONE (final verdict: REVISE_MAJOR) ==========
+
+[2026-05-08 16:44:47] 
+========== BioSense START ==========
+[2026-05-08 16:44:47]   BioSense iter 1
+[2026-05-08 16:46:01]     verdict: REVISE_MAJOR (75s)
+[2026-05-08 16:46:15]     fixes: 0 applied, 6 skipped (13s)
+[2026-05-08 16:46:17]   BioSense iter 2
+[2026-05-08 16:47:32]     verdict: REVISE_MAJOR (75s)
+[2026-05-08 16:47:49]     fixes: 0 applied, 6 skipped (16s)
+[2026-05-08 16:47:51]   BioSense iter 3
+[2026-05-08 16:49:06]     verdict: UNKNOWN (76s)
+[2026-05-08 16:49:21]     fixes: 0 applied, 6 skipped (15s)
+[2026-05-08 16:49:23]   BioSense iter 4
+[2026-05-08 16:50:37]     verdict: REVISE_MAJOR (74s)
+[2026-05-08 16:50:37]   BioSense: PLATEAU (no score improvement for 6 iters); moving on
+[2026-05-08 16:50:37] ========== BioSense DONE (final verdict: REVISE_MAJOR) ==========
+
+[2026-05-08 16:50:37] 
+========== Telomere START ==========
+[2026-05-08 16:50:37]   Telomere iter 1
+[2026-05-08 16:51:58]     verdict: UNKNOWN (81s)
+[2026-05-08 16:52:46]     fixes: 1 applied, 6 skipped (48s)
+[2026-05-08 16:52:48]   Telomere iter 2
+[2026-05-08 16:54:05]     verdict: REVISE_MAJOR (76s)
+[2026-05-08 16:54:33]     fixes: 0 applied, 6 skipped (28s)
+[2026-05-08 16:54:35]   Telomere iter 3
+[2026-05-08 16:55:53]     verdict: REVISE_MAJOR (78s)
+[2026-05-08 16:56:13]     fixes: 0 applied, 6 skipped (21s)
+[2026-05-08 16:56:15]   Telomere iter 4
+[2026-05-08 16:57:39]     verdict: REJECT (84s)
+[2026-05-08 16:58:14]     fixes: 0 applied, 6 skipped (35s)
+[2026-05-08 16:58:16]   Telomere iter 5
+[2026-05-08 16:59:41]     verdict: UNKNOWN (85s)
+[2026-05-08 16:59:41]   Telomere: PLATEAU (no score improvement for 6 iters); moving on
+[2026-05-08 16:59:41] ========== Telomere DONE (final verdict: UNKNOWN) ==========
+
+[2026-05-08 16:59:41] 
+========== MitoROS START ==========
+[2026-05-08 16:59:41]   MitoROS iter 1
+[2026-05-08 17:01:07]     verdict: REJECT (86s)
+[2026-05-08 17:01:36]     fixes: 0 applied, 6 skipped (28s)
+[2026-05-08 17:01:38]   MitoROS iter 2
+[2026-05-08 17:03:07]     verdict: UNKNOWN (90s)
+[2026-05-08 17:03:48]     fixes: 1 applied, 6 skipped (41s)
+[2026-05-08 17:03:50]   MitoROS iter 3
+[2026-05-08 17:05:12]     verdict: REVISE_MAJOR (82s)
+[2026-05-08 17:05:40]     fixes: 1 applied, 6 skipped (28s)
+[2026-05-08 17:05:42]   MitoROS iter 4
+[2026-05-08 17:07:10]     verdict: REVISE_MAJOR (87s)
+[2026-05-08 17:07:35]     fixes: 1 applied, 7 skipped (25s)
+[2026-05-08 17:07:37]   MitoROS iter 5
+[2026-05-08 17:09:04]     verdict: UNKNOWN (87s)
+[2026-05-08 17:09:33]     fixes: 0 applied, 6 skipped (29s)
+[2026-05-08 17:09:35]   MitoROS iter 6
+[2026-05-08 17:10:59]     verdict: REVISE_MAJOR (85s)
+[2026-05-08 17:11:28]     fixes: 1 applied, 6 skipped (28s)
+[2026-05-08 17:11:30]   MitoROS iter 7
+[2026-05-08 17:12:58]     verdict: REVISE_MAJOR (88s)
+[2026-05-08 17:13:34]     fixes: 1 applied, 6 skipped (36s)
+[2026-05-08 17:13:36]   MitoROS iter 8
+[2026-05-08 17:15:02]     verdict: REVISE_MAJOR (87s)
+[2026-05-08 17:15:30]     fixes: 0 applied, 6 skipped (28s)
+[2026-05-08 17:15:32]   MitoROS iter 9
+[2026-05-08 17:16:58]     verdict: REVISE_MAJOR (85s)
+[2026-05-08 17:17:29]     fixes: 0 applied, 7 skipped (31s)
+[2026-05-08 17:17:31]   MitoROS iter 10
+[2026-05-08 17:18:56]     verdict: UNKNOWN (85s)
+[2026-05-08 17:19:26]     fixes: 1 applied, 6 skipped (30s)
+[2026-05-08 17:19:28]   MitoROS iter 11
+[2026-05-08 17:20:45]     verdict: REVISE_MAJOR (77s)
+[2026-05-08 17:20:45]   MitoROS: PLATEAU (no score improvement for 6 iters); moving on
+[2026-05-08 17:20:45] ========== MitoROS DONE (final verdict: REVISE_MAJOR) ==========
+
+[2026-05-08 17:20:45] 
+========== EpigeneticDrift START ==========
+[2026-05-08 17:20:45]   EpigeneticDrift iter 1
+[2026-05-08 17:22:07]     verdict: REVISE_MAJOR (81s)
+[2026-05-08 17:22:29]     ERROR fix: Expecting ',' delimiter: line 1 column 5298 (char 5297)
+[2026-05-08 17:22:46]   EpigeneticDrift iter 2
+[2026-05-08 17:23:57]     verdict: REJECT (71s)
+[2026-05-08 17:24:15]     fixes: 0 applied, 5 skipped (19s)
+[2026-05-08 17:24:17]   EpigeneticDrift iter 3
+[2026-05-08 17:25:25]     verdict: REJECT (68s)
+[2026-05-08 17:25:40]     fixes: 1 applied, 4 skipped (14s)
+[2026-05-08 17:25:42]   EpigeneticDrift iter 4
+[2026-05-08 17:27:01]     verdict: REVISE_MINOR (80s)
+[2026-05-08 17:27:01]   EpigeneticDrift: ACCEPT (REVISE_MINOR) at iter 4!
+[2026-05-08 17:27:01] ========== EpigeneticDrift DONE (final verdict: REVISE_MINOR) ==========
+
+[2026-05-08 17:27:01] 
+========== Proteostasis START ==========
+[2026-05-08 17:27:01]   Proteostasis iter 1
+[2026-05-08 17:28:20]     verdict: REJECT (79s)
+[2026-05-08 17:28:52]     fixes: 6 applied, 0 skipped (32s)
+[2026-05-08 17:28:54]   Proteostasis iter 2
+[2026-05-08 17:30:07]     verdict: REVISE_MAJOR (73s)
+[2026-05-08 17:30:32]     ERROR fix: Expecting ',' delimiter: line 1 column 6897 (char 6896)
+[2026-05-08 17:30:49]   Proteostasis iter 3
+[2026-05-08 17:32:05]     verdict: UNKNOWN (76s)
+[2026-05-08 17:32:35]     fixes: 0 applied, 6 skipped (30s)
+[2026-05-08 17:32:37]   Proteostasis iter 4
+[2026-05-08 17:33:53]     verdict: REVISE_MAJOR (76s)
+[2026-05-08 17:34:13]     fixes: 5 applied, 2 skipped (20s)
+[2026-05-08 17:34:15]   Proteostasis iter 5
+[2026-05-08 17:35:30]     verdict: REJECT (75s)
+[2026-05-08 17:35:44]     fixes: 0 applied, 6 skipped (14s)
+[2026-05-08 17:35:46]   Proteostasis iter 6
+[2026-05-08 17:36:56]     verdict: REJECT (70s)
+[2026-05-08 17:36:56]   Proteostasis: PLATEAU (no score improvement for 6 iters); moving on
+[2026-05-08 17:36:56] ========== Proteostasis DONE (final verdict: REJECT) ==========
+
+[2026-05-08 17:36:56] 
+========== CDATA START ==========
+[2026-05-08 17:36:56]   CDATA iter 1
+[2026-05-08 17:39:34] 
+========== AutomatedMicroscopy START ==========
+[2026-05-08 17:39:34]   AutomatedMicroscopy iter 1
+[2026-05-08 17:40:49]     verdict: UNKNOWN (76s)
+[2026-05-08 17:40:49]     UNKNOWN verdict (parser failure) — retry iter 1
+[2026-05-08 17:40:55]   AutomatedMicroscopy iter 1
+[2026-05-08 17:42:04]     verdict: REJECT (69s)
+[2026-05-08 17:42:25]     fixes: 0 applied, 6 skipped (21s)
+[2026-05-08 17:42:27]   AutomatedMicroscopy iter 2
+[2026-05-08 17:43:28]     verdict: REVISE_MAJOR (60s)
+[2026-05-08 17:43:46]     fixes: 2 applied, 3 skipped (18s)
+[2026-05-08 17:43:48]   AutomatedMicroscopy iter 3
+[2026-05-08 17:44:57]     verdict: REVISE_MAJOR (69s)
+[2026-05-08 17:45:12]     fixes: 0 applied, 9 skipped (15s)
+[2026-05-08 17:45:14]   AutomatedMicroscopy iter 4
+[2026-05-08 17:46:30]     verdict: REVISE_MAJOR (76s)
+[2026-05-08 17:46:53]     fixes: 0 applied, 6 skipped (23s)
+[2026-05-08 17:46:55]   AutomatedMicroscopy iter 5
+[2026-05-08 17:48:06]     verdict: REVISE_MAJOR (72s)
+[2026-05-08 17:48:20]     fixes: 0 applied, 7 skipped (14s)
+[2026-05-08 17:48:22]   AutomatedMicroscopy iter 6
+[2026-05-08 17:49:38]     verdict: REVISE_MAJOR (76s)
+[2026-05-08 17:49:56]     fixes: 1 applied, 4 skipped (17s)
+[2026-05-08 17:49:58]   AutomatedMicroscopy iter 7
+[2026-05-08 17:51:09]     verdict: REVISE_MAJOR (71s)
+[2026-05-08 17:51:26]     fixes: 0 applied, 6 skipped (17s)
+[2026-05-08 17:51:28]   AutomatedMicroscopy iter 8
+[2026-05-08 17:52:17]     verdict: REVISE_MAJOR (49s)
+[2026-05-08 17:52:52]     fixes: 0 applied, 6 skipped (36s)
+[2026-05-08 17:52:54]   AutomatedMicroscopy iter 9
+[2026-05-08 17:54:10]     verdict: REVISE_MAJOR (76s)
+[2026-05-08 17:54:33]     fixes: 0 applied, 6 skipped (24s)
+[2026-05-08 17:54:35]   AutomatedMicroscopy iter 10
+[2026-05-08 17:55:51]     verdict: UNKNOWN (75s)
+[2026-05-08 17:55:51]     UNKNOWN verdict (parser failure) — retry iter 10
+[2026-05-08 17:55:56]   AutomatedMicroscopy iter 10
+[2026-05-08 17:57:06]     verdict: REVISE_MAJOR (71s)
+[2026-05-08 17:57:25]     fixes: 1 applied, 5 skipped (18s)
+[2026-05-08 17:57:27]   AutomatedMicroscopy iter 11
+[2026-05-08 17:58:37]     verdict: FUND_AS_IS (71s)
+[2026-05-08 17:58:37]   AutomatedMicroscopy: ACCEPT (FUND_AS_IS) at iter 11!
+[2026-05-08 17:58:37] ========== AutomatedMicroscopy DONE (final verdict: FUND_AS_IS) ==========
+
+[2026-05-08 17:58:37] 
+========== AIM START ==========
+[2026-05-08 17:58:37]   AIM iter 1
+[2026-05-08 17:59:48]     verdict: REJECT (71s)
+[2026-05-08 17:59:58]     fixes: 1 applied, 3 skipped (10s)
+[2026-05-08 18:00:00]   AIM iter 2
+[2026-05-08 18:01:04]     verdict: REJECT (64s)
+[2026-05-08 18:01:30]     fixes: 5 applied, 2 skipped (26s)
+[2026-05-08 18:01:32]   AIM iter 3
+[2026-05-08 18:02:41]     verdict: REVISE_MAJOR (69s)
+[2026-05-08 18:03:06]     fixes: 0 applied, 6 skipped (26s)
+[2026-05-08 18:03:08]   AIM iter 4
+[2026-05-08 18:04:20]     verdict: REJECT (71s)
+[2026-05-08 18:04:48]     fixes: 3 applied, 5 skipped (28s)
+[2026-05-08 18:04:50]   AIM iter 5
+[2026-05-08 18:05:43]     verdict: REJECT (53s)
+[2026-05-08 18:06:20]     ERROR fix: Expecting ',' delimiter: line 1 column 8944 (char 8943)
+[2026-05-08 18:06:37]   AIM iter 6
+[2026-05-08 18:07:56]     verdict: REJECT (78s)
+[2026-05-08 18:08:15]     fixes: 0 applied, 6 skipped (19s)
+[2026-05-08 18:08:17]   AIM iter 7
+[2026-05-08 18:09:34]     verdict: REVISE_MAJOR (77s)
+[2026-05-08 18:09:43]     fixes: 1 applied, 3 skipped (10s)
+[2026-05-08 18:09:45]   AIM iter 8
+[2026-05-08 18:11:02]     verdict: REJECT (76s)
+[2026-05-08 18:11:13]     fixes: 0 applied, 3 skipped (11s)
+[2026-05-08 18:11:15]   AIM iter 9
+[2026-05-08 18:12:33]     verdict: REJECT (78s)
+[2026-05-08 18:12:43]     fixes: 0 applied, 3 skipped (10s)
+[2026-05-08 18:12:45]   AIM iter 10
+[2026-05-08 18:14:02]     verdict: REJECT (77s)
+[2026-05-08 18:14:30]     fixes: 3 applied, 3 skipped (28s)
+[2026-05-08 18:14:32]   AIM iter 11
+[2026-05-08 18:15:38]     verdict: REVISE_MAJOR (66s)
+[2026-05-08 18:15:52]     fixes: 1 applied, 2 skipped (14s)
+[2026-05-08 18:15:54]   AIM iter 12
+[2026-05-08 18:17:12]     verdict: REVISE_MAJOR (78s)
+[2026-05-08 18:17:34]     fixes: 0 applied, 7 skipped (22s)
+[2026-05-08 18:17:36]   AIM iter 13
+[2026-05-08 18:18:40]     verdict: REJECT (64s)
+[2026-05-08 18:19:03]     fixes: 5 applied, 5 skipped (23s)
+[2026-05-08 18:19:05]   AIM iter 14
+[2026-05-08 18:20:20]     verdict: REJECT (75s)
+[2026-05-08 18:20:42]     fixes: 0 applied, 6 skipped (22s)
+[2026-05-08 18:20:44]   AIM iter 15
+[2026-05-08 18:21:55]     verdict: REJECT (71s)
+[2026-05-08 18:22:16]     fixes: 0 applied, 6 skipped (20s)
+[2026-05-08 18:22:18]   AIM iter 16
+[2026-05-08 18:23:35]     verdict: UNKNOWN (77s)
+[2026-05-08 18:23:35]     UNKNOWN verdict (parser failure) — retry iter 16
+[2026-05-08 18:23:40]   AIM iter 16
+[2026-05-08 18:24:54]     verdict: REJECT (74s)
+[2026-05-08 18:25:19]     fixes: 0 applied, 6 skipped (24s)
+[2026-05-08 18:25:21]   AIM iter 17
+[2026-05-08 18:26:32]     verdict: REJECT (71s)
+[2026-05-08 18:26:55]     fixes: 0 applied, 6 skipped (23s)
+[2026-05-08 18:26:57]   AIM iter 18
+[2026-05-08 18:28:12]     verdict: REJECT (75s)
+[2026-05-08 18:28:32]     fixes: 1 applied, 5 skipped (20s)
+[2026-05-08 18:28:34]   AIM iter 19
+[2026-05-08 18:29:44]     verdict: REJECT (70s)
+[2026-05-08 18:30:14]     fixes: 2 applied, 4 skipped (30s)
+[2026-05-08 18:30:16]   AIM iter 20
+[2026-05-08 18:31:34]     verdict: REJECT (77s)
+[2026-05-08 18:31:49]     fixes: 3 applied, 2 skipped (16s)
+[2026-05-08 18:31:51]   AIM iter 21
+[2026-05-08 18:32:59]     verdict: REVISE_MAJOR (68s)
+[2026-05-08 18:33:21]     fixes: 1 applied, 2 skipped (22s)
+[2026-05-08 18:33:23]   AIM iter 22
+[2026-05-08 18:34:40]     verdict: REJECT (77s)
+[2026-05-08 18:34:59]     fixes: 0 applied, 6 skipped (18s)
+[2026-05-08 18:35:01]   AIM iter 23
+[2026-05-08 18:36:16]     verdict: REVISE_MAJOR (76s)
+[2026-05-08 18:36:44]     fixes: 3 applied, 7 skipped (28s)
+[2026-05-08 18:36:46]   AIM iter 24
+[2026-05-08 18:37:59]     verdict: REJECT (72s)
+[2026-05-08 18:38:19]     fixes: 0 applied, 6 skipped (20s)
+[2026-05-08 18:38:21]   AIM iter 25
+[2026-05-08 18:39:31]     verdict: REVISE_MAJOR (70s)
+[2026-05-08 18:39:54]     fixes: 1 applied, 5 skipped (23s)
+[2026-05-08 18:39:56]   AIM iter 26
+[2026-05-08 18:41:10]     verdict: REJECT (74s)
+[2026-05-08 18:41:31]     fixes: 0 applied, 5 skipped (21s)
+[2026-05-08 18:41:33]   AIM iter 27

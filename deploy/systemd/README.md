@@ -11,13 +11,13 @@ artefact production but no longer for runtime.
 - Direct `journalctl -u ze-web` log access
 - Lower memory footprint (no per-service runtime overlay)
 - nginx upstream is `127.0.0.1:<port>` either way; no observable
-  difference for end users
+ difference for end users
 
 ## Layout on server
 
 ```
-/opt/ze-web/         ← Phoenix release (extracted from Docker image once,
-/opt/biosense-web/     then rebuilt natively via mix release after edits)
+/opt/ze-web/ ← Phoenix release (extracted from Docker image once,
+/opt/biosense-web/ then rebuilt natively via mix release after edits)
 /opt/fclc-web/
 
 /etc/systemd/system/ze-web.service
@@ -33,7 +33,7 @@ Erlang OTP 27 + Elixir 1.17) lives in `~/.asdf/` for source rebuilds.
 
 ```bash
 # 1. Extract release from existing Docker image (one-time, before
-#    asdf-based native rebuild was ready)
+# asdf-based native rebuild was ready)
 docker create --name extract <image>
 docker cp extract:/app /tmp/release
 docker rm extract
@@ -65,8 +65,8 @@ sudo systemctl start <service>
 
 ## Ports (loopback only — public TLS via nginx + Cloudflare)
 
-| Service       | Port | nginx upstream            |
+| Service | Port | nginx upstream |
 |---------------|------|---------------------------|
-| ze-web        | 4400 | ze.longevity.ge           |
-| biosense-web  | 4501 | biosense.longevity.ge     |
-| fclc-web      | 4003 | fclc.longevity.ge         |
+| ze-web | 4400 | ze.longevity.ge |
+| biosense-web | 4501 | biosense.longevity.ge |
+| fclc-web | 4003 | fclc.longevity.ge |

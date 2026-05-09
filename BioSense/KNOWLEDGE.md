@@ -4,11 +4,11 @@
 
 ### Fundamental formulas
 ```
-Binary sequence:  x_k = 1  if  sample > median, else 0
-Ze velocity:      v = N_S / (N − 1)           [N_S = number of binary switches]
-Fixed point:      v* = 0.45631                 [theoretical maximum materialization]
-Cheating index:   χ_Ze = 1 − |v − v*| / max(v*, 1−v*)    ∈ [0, 1]
-Ze-optimal freq:  f_opt = v* × fs / 2
+Binary sequence: x_k = 1 if sample > median, else 0
+Ze velocity: v = N_S / (N − 1) [N_S = number of binary switches]
+Fixed point: v* = 0.45631 [theoretical maximum materialization]
+Cheating index: χ_Ze = 1 − |v − v*| / max(v*, 1−v*) ∈ [0, 1]
+Ze-optimal freq: f_opt = v* × fs / 2
 ```
 
 ### Properties

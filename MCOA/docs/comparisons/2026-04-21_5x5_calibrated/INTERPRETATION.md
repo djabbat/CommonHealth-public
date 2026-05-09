@@ -67,14 +67,14 @@ mathematically and biologically non-trivial.
 ## Next-step priorities
 
 1. **Integrate real GEO data** — start with EpigeneticDrift
-   (GSE40279 Horvath training set = 9,699 samples). Fit β against
-   the calibrated linear model; report residual vs literature anchor.
+ (GSE40279 Horvath training set = 9,699 samples). Fit β against
+ the calibrated linear model; report residual vs literature anchor.
 2. **Measure Γ_1,2** (CDATA ↔ Telomere coupling) — use published
-   correlations between centriolar defects and telomere loss
-   (e.g. Chichinadze-Tkemaladze 2008 PMID 19432168 cites related evidence).
+ correlations between centriolar defects and telomere loss
+ (e.g. Chichinadze-Tkemaladze 2008 PMID 19432168 cites related evidence).
 3. **Add experimental anchor for CDATA α** — if Impetus Phase A
-   (BJ-hTERT fibroblasts 20% vs 3% O₂) is funded, re-fit α_1 against
-   measured polyGlu(n) from that experiment.
+ (BJ-hTERT fibroblasts 20% vs 3% O₂) is funded, re-fit α_1 against
+ measured polyGlu(n) from that experiment.
 4. **Clinical-cohort validation** — apply all 5 counters to a single
-   cohort and measure tissue-specific *w_i*; verify that MCOA predicts
-   age better than any single counter (MCOA Test 1).
+ cohort and measure tissue-specific *w_i*; verify that MCOA predicts
+ age better than any single counter (MCOA Test 1).

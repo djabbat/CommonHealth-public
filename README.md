@@ -34,23 +34,23 @@ Plus **Activated** clinical pilot (anemia management cohort, Tbilisi).
 
 ```
 LongevityCommon/
-├── *.md                         # umbrella core (CONCEPT, THEORY, DESIGN, PARAMETERS, MAP, ...)
-├── server/                      # Rust/axum REST API (social layer)
-├── web/                         # React+TS PWA (social layer UI)
-├── realtime/                    # Phoenix Channels (social layer WS)
-├── deploy/                      # docker-compose-all.yml
-├── docs/EIC_PartB_2026/         # active grant track
-├── _archive/                    # старые версии
-├── _audits/                     # audit reports
+├── *.md # umbrella core (CONCEPT, THEORY, DESIGN, PARAMETERS, MAP, ...)
+├── server/ # Rust/axum REST API (social layer)
+├── web/ # React+TS PWA (social layer UI)
+├── realtime/ # Phoenix Channels (social layer WS)
+├── deploy/ # docker-compose-all.yml
+├── docs/EIC_PartB_2026/ # active grant track
+├── _archive/ # старые версии
+├── _audits/ # audit reports
 │
-└── <subprojects>/               # MCOA, CDATA, Ze, BioSense, ...
+└── <subprojects>/ # MCOA, CDATA, Ze, BioSense, ...
 ```
 
 ## Run (subproject backends)
 
 ```bash
-cd Ze && ./run.sh         # :4000 / :4001
-cd BioSense && ./run.sh   # :4100 / :4101
+cd Ze && ./run.sh # :4000 / :4001
+cd BioSense && ./run.sh # :4100 / :4101
 ```
 
 Social layer (server/web/realtime) — отдельный stack, см. `DESIGN.md §7`.
@@ -58,8 +58,8 @@ Social layer (server/web/realtime) — отдельный stack, см. `DESIGN.m
 ## Tests
 
 ```bash
-cargo test --release       # in any subproject root
-mix test                   # in any Phoenix subproject
+cargo test --release # in any subproject root
+mix test # in any Phoenix subproject
 ```
 
 ## Grant track (active)

@@ -1,0 +1,38 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "### Operational falsifiability thresholds\n\n| Hypothesis | Predicted effect | Threshold | Statistical criterion |\n|------------|-----------------|-----------|----------------------|\n| v*_active > v*_passive | d = 0.4 (95% CI 0.1–0.7) | d ≥ 0.3 | p < 0.001, BF > 10 |\n| χ_Ze correlates with age | r ≥ 0.5 | r ≥ 0.3 | p < 0.001, 95% CI excludes 0 |\n| MCID for v*_active | δ = 0.05 (placeholder) | δ ≥ 0.03 | p < 0.001, N ≥ 50 per group |\n\n**Note:** Thresholds based on Cuban EEG pilot (N=88) and Cohen's conventions. Final values TBD upon independent replication. The condition θ < log₂(d) for Theorem 5.1 is violated for EEG (d=2, θ_Q=1.5), making χ_Ze an empirical biomarker, not a theoretical prediction."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Pre-registration plan",
+    "body": "**OSF ID:** osf.io/TBD (placeholder; to be replaced upon submission)\n**Planned pre-registration date:** 2026-09-01\n**Study 1 (EEG validation):**\n- Inclusion criteria: age 18–65, no psychiatric medication, no neurological disorders\n- Exclusion criteria: HRV artifacts >20%, incomplete sessions, technical failures\n- Primary outcome: v*_active > v*_passive (Cohen's d, 95% CI)\n- Secondary outcomes: χ_Ze correlation with age, MCID estimation\n- Stopping rules: interim analysis at N=50; if effect size outside 0.2–0.8, continue; otherwise halt\n- Analysis plan: per-dataset bootstrap with I² reporting; no pooling if I² > 75%\n\n**Study 2 (longitudinal aging):**\n- Planned start: 2026-12-01\n- Cohort: N=200, age 40–80, 3-year follow-up\n- Primary: χ_Ze change vs. chronological age\n\n**Note:** Full protocol details (exclusion criteria, stopping rules, analysis scripts) will be uploaded to OSF prior to data collection."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Sample size calculation",
+    "body": "**Formula:** n = (1.96 + 0.84)² · σ² / δ² (α=0.05, power=0.80, two-sided)\n\n| Hypothesis | δ (effect size) | σ (SD) | Calculated N per group | Source |\n|------------|-----------------|--------|------------------------|--------|\n| v*_active > v*_passive | d = 0.5 (conservative) | σ = 0.03 (from pilot N=12) | 64 | Cohen's medium effect; pilot SD=0.03 → d=1.67, but conservative d=0.5 used |\n| χ_Ze vs aging clock | r = 0.3 (Fisher z) | σ = 0.15 (from literature) | 84 | Minimal clinically meaningful correlation |\n| MCID for v*_active | δ = 0.05 | σ = 0.03 (pilot) | 64 | Pilot data (N=12); final MCID requires N≥50 validation |\n\n**Note:** δ and σ values are based on pilot data (N=12) and Cohen's conventions. Final values will be updated after independent replication with N≥50 per group. Power analysis scripts available at osf.io/TBD."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| Risk | Probability | Impact | Mitigation |\n|------|-------------|--------|------------|\n| Insufficient statistical power | High | High | Pre-registered power analysis; interim analysis at N=50; Bayesian sequential design |\n| Confounding variables (age, medication, HRV artifacts) | Medium | High | Strict inclusion/exclusion criteria; propensity score matching; sensitivity analysis |\n| Replication failure (Cuban EEG I²=90.3%) | High | Critical | Per-dataset bootstrap; no pooling; permutation test before combining |\n| EEG hardware variability | Medium | Medium | Standardized protocol; cross-calibration; technical replicates |\n| MCID validation failure (N<50) | High | High | MCID placeholder (0.05) until N≥50; alternative MCID from literature |\n| Publication bias | Medium | Medium | Pre-registration; OSF repository; negative results reported |\n| Fabrication markers in documentation | High | Critical | Audit trail; all references verified; removal of placeholder comments |"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "1. **Generalizability:** Current pilot data (Cuban EEG N=88, Dortmund HRV N=60) are from single sites; replication in diverse populations needed.\n2. **Formalism:** Ze theory is an interpretative framework, not derived from first principles; standard QM formalism is assumed as axiomatic.\n3. **Sample size:** All power calculations are based on placeholder effect sizes (d=0.5, r=0.3) and pilot SD (σ=0.03); final N may differ.\n4. **Replication:** Cuban EEG shows I²=90.3% heterogeneity; pooled estimates are invalid until per-dataset comparison with permutation test.\n5. **Pre-registration:** OSF ID and dates are placeholders; full protocol details (exclusion criteria, stopping rules) are not yet specified.\n6. **Confounders:** Age, medication, and HRV artifacts are potential confounders; sensitivity analysis planned but not yet performed.\n7. **Publication bias:** No negative results reported; pre-registration and OSF repository will mitigate this.\n8. **MCID:** The MCID threshold (0.05) is a placeholder; validation requires N≥50 independent sample.\n9. **Competing methods:** BrainYears (epigenetic clock) shows higher accuracy; Ze theory's advantage is interpretability, not precision."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "**Current team:** Jaba Tkemaladze (PI, Kutaisi International University)\n\n**Planned collaborations (letters of support pending):**\n1. **Neurophysiology group** (TBD institution) — for EEG validation of v*_active\n2. **Biostatistics group** (TBD institution) — for MCID and power analysis\n3. **Clinical center** (TBD institution) — for longitudinal aging cohort\n4. **Data management** (TBD institution) — for OSF repository and code sharing\n\n**Note:** Formal partnership agreements will be established upon funding. Letters of support will be appended as placeholder documents. Specific investigator names and institutional affiliations are TBD."
+  }
+]

@@ -1,0 +1,347 @@
+{
+  "pipeline": {
+    "Iqalto_lms": {
+      "slug": "Iqalto_lms",
+      "review": "/home/oem/Desktop/AUDIT_2026-05-08/reviews/Iqalto_lms.review.md",
+      "plan_final": "/home/oem/Desktop/AUDIT_2026-05-08/plans/Iqalto_lms.plan.v1.md",
+      "check_final": "/home/oem/Desktop/AUDIT_2026-05-08/iterations/Iqalto_lms.check.v1.md",
+      "accepted": true
+    },
+    "GLA_Annals": {
+      "slug": "GLA_Annals",
+      "review": "/home/oem/Desktop/AUDIT_2026-05-08/reviews/GLA_Annals.review.md",
+      "plan_final": "/home/oem/Desktop/AUDIT_2026-05-08/plans/GLA_Annals.plan.v1.md",
+      "check_final": "/home/oem/Desktop/AUDIT_2026-05-08/iterations/GLA_Annals.check.v1.md",
+      "accepted": true
+    },
+    "Claude_service": {
+      "slug": "Claude_service",
+      "review": "/home/oem/Desktop/AUDIT_2026-05-08/reviews/Claude_service.review.md",
+      "plan_final": "/home/oem/Desktop/AUDIT_2026-05-08/plans/Claude_service.plan.v1.md",
+      "check_final": "/home/oem/Desktop/AUDIT_2026-05-08/iterations/Claude_service.check.v1.md",
+      "accepted": true
+    },
+    "Iqalto_umbrella": {
+      "slug": "Iqalto_umbrella",
+      "review": "/home/oem/Desktop/AUDIT_2026-05-08/reviews/Iqalto_umbrella.review.md",
+      "plan_final": "/home/oem/Desktop/AUDIT_2026-05-08/plans/Iqalto_umbrella.plan.v1.md",
+      "check_final": "/home/oem/Desktop/AUDIT_2026-05-08/iterations/Iqalto_umbrella.check.v1.md",
+      "accepted": true
+    },
+    "Iqalto_iqalto-core": {
+      "slug": "Iqalto_iqalto-core",
+      "review": "/home/oem/Desktop/AUDIT_2026-05-08/reviews/Iqalto_iqalto-core.review.md",
+      "plan_final": "/home/oem/Desktop/AUDIT_2026-05-08/plans/Iqalto_iqalto-core.plan.v1.md",
+      "check_final": "/home/oem/Desktop/AUDIT_2026-05-08/iterations/Iqalto_iqalto-core.check.v1.md",
+      "accepted": true
+    },
+    "Iqalto_simulator": {
+      "slug": "Iqalto_simulator",
+      "review": "/home/oem/Desktop/AUDIT_2026-05-08/reviews/Iqalto_simulator.review.md",
+      "plan_final": "/home/oem/Desktop/AUDIT_2026-05-08/plans/Iqalto_simulator.plan.v1.md",
+      "check_final": "/home/oem/Desktop/AUDIT_2026-05-08/iterations/Iqalto_simulator.check.v1.md",
+      "accepted": true
+    },
+    "Iqalto_Aqtivirebuli": {
+      "slug": "Iqalto_Aqtivirebuli",
+      "review": "/home/oem/Desktop/AUDIT_2026-05-08/reviews/Iqalto_Aqtivirebuli.review.md",
+      "plan_final": "/home/oem/Desktop/AUDIT_2026-05-08/plans/Iqalto_Aqtivirebuli.plan.v1.md",
+      "check_final": "/home/oem/Desktop/AUDIT_2026-05-08/iterations/Iqalto_Aqtivirebuli.check.v1.md",
+      "accepted": true
+    },
+    "GLA_umbrella": {
+      "slug": "GLA_umbrella",
+      "review": "/home/oem/Desktop/AUDIT_2026-05-08/reviews/GLA_umbrella.review.md",
+      "plan_final": "/home/oem/Desktop/AUDIT_2026-05-08/plans/GLA_umbrella.plan.v3.md",
+      "check_final": "/home/oem/Desktop/AUDIT_2026-05-08/iterations/GLA_umbrella.check.v3.md",
+      "accepted": true
+    },
+    "LongevityCommon_root": {
+      "slug": "LongevityCommon_root",
+      "review": "/home/oem/Desktop/AUDIT_2026-05-08/reviews/LongevityCommon_root.review.md",
+      "plan_final": "/home/oem/Desktop/AUDIT_2026-05-08/plans/LongevityCommon_root.plan.v1.md",
+      "check_final": "/home/oem/Desktop/AUDIT_2026-05-08/iterations/LongevityCommon_root.check.v1.md",
+      "accepted": true
+    },
+    "LC_BioSense": {
+      "slug": "LC_BioSense",
+      "review": "/home/oem/Desktop/AUDIT_2026-05-08/reviews/LC_BioSense.review.md",
+      "plan_final": "/home/oem/Desktop/AUDIT_2026-05-08/plans/LC_BioSense.plan.v1.md",
+      "check_final": "/home/oem/Desktop/AUDIT_2026-05-08/iterations/LC_BioSense.check.v1.md",
+      "accepted": true
+    },
+    "LC_CDATA": {
+      "slug": "LC_CDATA",
+      "review": "/home/oem/Desktop/AUDIT_2026-05-08/reviews/LC_CDATA.review.md",
+      "plan_final": "/home/oem/Desktop/AUDIT_2026-05-08/plans/LC_CDATA.plan.v1.md",
+      "check_final": "/home/oem/Desktop/AUDIT_2026-05-08/iterations/LC_CDATA.check.v1.md",
+      "accepted": true
+    },
+    "LC_AIM": {
+      "slug": "LC_AIM",
+      "review": "/home/oem/Desktop/AUDIT_2026-05-08/reviews/LC_AIM.review.md",
+      "plan_final": "/home/oem/Desktop/AUDIT_2026-05-08/plans/LC_AIM.plan.v1.md",
+      "check_final": "/home/oem/Desktop/AUDIT_2026-05-08/iterations/LC_AIM.check.v1.md",
+      "accepted": true
+    },
+    "LC_CytogeneticTree": {
+      "slug": "LC_CytogeneticTree",
+      "review": "/home/oem/Desktop/AUDIT_2026-05-08/reviews/LC_CytogeneticTree.review.md",
+      "plan_final": "/home/oem/Desktop/AUDIT_2026-05-08/plans/LC_CytogeneticTree.plan.v1.md",
+      "check_final": "/home/oem/Desktop/AUDIT_2026-05-08/iterations/LC_CytogeneticTree.check.v1.md",
+      "accepted": true
+    },
+    "LC_FCLC": {
+      "slug": "LC_FCLC",
+      "review": "/home/oem/Desktop/AUDIT_2026-05-08/reviews/LC_FCLC.review.md",
+      "plan_final": "/home/oem/Desktop/AUDIT_2026-05-08/plans/LC_FCLC.plan.v1.md",
+      "check_final": "/home/oem/Desktop/AUDIT_2026-05-08/iterations/LC_FCLC.check.v1.md",
+      "accepted": true
+    },
+    "LC_EpigeneticDrift": {
+      "slug": "LC_EpigeneticDrift",
+      "review": "/home/oem/Desktop/AUDIT_2026-05-08/reviews/LC_EpigeneticDrift.review.md",
+      "plan_final": "/home/oem/Desktop/AUDIT_2026-05-08/plans/LC_EpigeneticDrift.plan.v1.md",
+      "check_final": "/home/oem/Desktop/AUDIT_2026-05-08/iterations/LC_EpigeneticDrift.check.v1.md",
+      "accepted": true
+    },
+    "LC_Ontogenesis": {
+      "slug": "LC_Ontogenesis",
+      "review": "/home/oem/Desktop/AUDIT_2026-05-08/reviews/LC_Ontogenesis.review.md",
+      "plan_final": "/home/oem/Desktop/AUDIT_2026-05-08/plans/LC_Ontogenesis.plan.v1.md",
+      "check_final": "/home/oem/Desktop/AUDIT_2026-05-08/iterations/LC_Ontogenesis.check.v1.md",
+      "accepted": true
+    },
+    "LC_HAP": {
+      "slug": "LC_HAP",
+      "review": "/home/oem/Desktop/AUDIT_2026-05-08/reviews/LC_HAP.review.md",
+      "plan_final": "/home/oem/Desktop/AUDIT_2026-05-08/plans/LC_HAP.plan.v1.md",
+      "check_final": "/home/oem/Desktop/AUDIT_2026-05-08/iterations/LC_HAP.check.v1.md",
+      "accepted": true
+    },
+    "LC_MCOA": {
+      "slug": "LC_MCOA",
+      "review": "/home/oem/Desktop/AUDIT_2026-05-08/reviews/LC_MCOA.review.md",
+      "plan_final": "/home/oem/Desktop/AUDIT_2026-05-08/plans/LC_MCOA.plan.v1.md",
+      "check_final": "/home/oem/Desktop/AUDIT_2026-05-08/iterations/LC_MCOA.check.v1.md",
+      "accepted": true
+    },
+    "LC_MitoROS": {
+      "slug": "LC_MitoROS",
+      "review": "/home/oem/Desktop/AUDIT_2026-05-08/reviews/LC_MitoROS.review.md",
+      "plan_final": "/home/oem/Desktop/AUDIT_2026-05-08/plans/LC_MitoROS.plan.v1.md",
+      "check_final": "/home/oem/Desktop/AUDIT_2026-05-08/iterations/LC_MitoROS.check.v1.md",
+      "accepted": true
+    },
+    "LC_Proteostasis": {
+      "slug": "LC_Proteostasis",
+      "review": "/home/oem/Desktop/AUDIT_2026-05-08/reviews/LC_Proteostasis.review.md",
+      "plan_final": "/home/oem/Desktop/AUDIT_2026-05-08/plans/LC_Proteostasis.plan.v1.md",
+      "check_final": "/home/oem/Desktop/AUDIT_2026-05-08/iterations/LC_Proteostasis.check.v1.md",
+      "accepted": true
+    },
+    "LC_Telomere": {
+      "slug": "LC_Telomere",
+      "review": "/home/oem/Desktop/AUDIT_2026-05-08/reviews/LC_Telomere.review.md",
+      "plan_final": "/home/oem/Desktop/AUDIT_2026-05-08/plans/LC_Telomere.plan.v1.md",
+      "check_final": "/home/oem/Desktop/AUDIT_2026-05-08/iterations/LC_Telomere.check.v1.md",
+      "accepted": true
+    },
+    "LC_AutomatedMicroscopy": {
+      "slug": "LC_AutomatedMicroscopy",
+      "review": "/home/oem/Desktop/AUDIT_2026-05-08/reviews/LC_AutomatedMicroscopy.review.md",
+      "plan_final": "/home/oem/Desktop/AUDIT_2026-05-08/plans/LC_AutomatedMicroscopy.plan.v1.md",
+      "check_final": "/home/oem/Desktop/AUDIT_2026-05-08/iterations/LC_AutomatedMicroscopy.check.v1.md",
+      "accepted": true
+    },
+    "LC_realtime": {
+      "slug": "LC_realtime",
+      "review": "/home/oem/Desktop/AUDIT_2026-05-08/reviews/LC_realtime.review.md",
+      "plan_final": "/home/oem/Desktop/AUDIT_2026-05-08/plans/LC_realtime.plan.v1.md",
+      "check_final": "/home/oem/Desktop/AUDIT_2026-05-08/iterations/LC_realtime.check.v1.md",
+      "accepted": true
+    },
+    "LC_server": {
+      "slug": "LC_server",
+      "review": "/home/oem/Desktop/AUDIT_2026-05-08/reviews/LC_server.review.md",
+      "plan_final": "/home/oem/Desktop/AUDIT_2026-05-08/plans/LC_server.plan.v1.md",
+      "check_final": "/home/oem/Desktop/AUDIT_2026-05-08/iterations/LC_server.check.v1.md",
+      "accepted": true
+    },
+    "LC_deploy": {
+      "slug": "LC_deploy",
+      "review": "/home/oem/Desktop/AUDIT_2026-05-08/reviews/LC_deploy.review.md",
+      "plan_final": "/home/oem/Desktop/AUDIT_2026-05-08/plans/LC_deploy.plan.v1.md",
+      "check_final": "/home/oem/Desktop/AUDIT_2026-05-08/iterations/LC_deploy.check.v1.md",
+      "accepted": true
+    },
+    "LC_web": {
+      "slug": "LC_web",
+      "review": "/home/oem/Desktop/AUDIT_2026-05-08/reviews/LC_web.review.md",
+      "plan_final": "/home/oem/Desktop/AUDIT_2026-05-08/plans/LC_web.plan.v2.md",
+      "check_final": "/home/oem/Desktop/AUDIT_2026-05-08/iterations/LC_web.check.v2.md",
+      "accepted": true
+    },
+    "LC_Ze": {
+      "slug": "LC_Ze",
+      "review": "/home/oem/Desktop/AUDIT_2026-05-08/reviews/LC_Ze.review.md",
+      "plan_final": "/home/oem/Desktop/AUDIT_2026-05-08/plans/LC_Ze.plan.v2.md",
+      "check_final": "/home/oem/Desktop/AUDIT_2026-05-08/iterations/LC_Ze.check.v2.md",
+      "accepted": true
+    },
+    "Marketing_Books": {
+      "slug": "Marketing_Books",
+      "review": "/home/oem/Desktop/AUDIT_2026-05-08/reviews/Marketing_Books.review.md",
+      "plan_final": "/home/oem/Desktop/AUDIT_2026-05-08/plans/Marketing_Books.plan.v1.md",
+      "check_final": "/home/oem/Desktop/AUDIT_2026-05-08/iterations/Marketing_Books.check.v1.md",
+      "accepted": true
+    },
+    "Marketing_umbrella": {
+      "slug": "Marketing_umbrella",
+      "review": "/home/oem/Desktop/AUDIT_2026-05-08/reviews/Marketing_umbrella.review.md",
+      "plan_final": "/home/oem/Desktop/AUDIT_2026-05-08/plans/Marketing_umbrella.plan.v2.md",
+      "check_final": "/home/oem/Desktop/AUDIT_2026-05-08/iterations/Marketing_umbrella.check.v2.md",
+      "accepted": true
+    },
+    "Marketing_JabaEkimi": {
+      "slug": "Marketing_JabaEkimi",
+      "review": "/home/oem/Desktop/AUDIT_2026-05-08/reviews/Marketing_JabaEkimi.review.md",
+      "plan_final": "/home/oem/Desktop/AUDIT_2026-05-08/plans/Marketing_JabaEkimi.plan.v1.md",
+      "check_final": "/home/oem/Desktop/AUDIT_2026-05-08/iterations/Marketing_JabaEkimi.check.v1.md",
+      "accepted": true
+    },
+    "PhD_umbrella": {
+      "slug": "PhD_umbrella",
+      "review": "/home/oem/Desktop/AUDIT_2026-05-08/reviews/PhD_umbrella.review.md",
+      "plan_final": "/home/oem/Desktop/AUDIT_2026-05-08/plans/PhD_umbrella.plan.v1.md",
+      "check_final": "/home/oem/Desktop/AUDIT_2026-05-08/iterations/PhD_umbrella.check.v1.md",
+      "accepted": true
+    },
+    "PhD_microscope": {
+      "slug": "PhD_microscope",
+      "review": "/home/oem/Desktop/AUDIT_2026-05-08/reviews/PhD_microscope.review.md",
+      "plan_final": "/home/oem/Desktop/AUDIT_2026-05-08/plans/PhD_microscope.plan.v1.md",
+      "check_final": "/home/oem/Desktop/AUDIT_2026-05-08/iterations/PhD_microscope.check.v1.md",
+      "accepted": true
+    },
+    "PhD_dissertation": {
+      "slug": "PhD_dissertation",
+      "review": "/home/oem/Desktop/AUDIT_2026-05-08/reviews/PhD_dissertation.review.md",
+      "plan_final": "/home/oem/Desktop/AUDIT_2026-05-08/plans/PhD_dissertation.plan.v2.md",
+      "check_final": "/home/oem/Desktop/AUDIT_2026-05-08/iterations/PhD_dissertation.check.v2.md",
+      "accepted": true
+    },
+    "Regenesis": {
+      "slug": "Regenesis",
+      "review": "/home/oem/Desktop/AUDIT_2026-05-08/reviews/Regenesis.review.md",
+      "plan_final": "/home/oem/Desktop/AUDIT_2026-05-08/plans/Regenesis.plan.v1.md",
+      "check_final": "/home/oem/Desktop/AUDIT_2026-05-08/iterations/Regenesis.check.v1.md",
+      "accepted": true
+    },
+    "SamnuAzuzi": {
+      "slug": "SamnuAzuzi",
+      "review": "/home/oem/Desktop/AUDIT_2026-05-08/reviews/SamnuAzuzi.review.md",
+      "plan_final": "/home/oem/Desktop/AUDIT_2026-05-08/plans/SamnuAzuzi.plan.v1.md",
+      "check_final": "/home/oem/Desktop/AUDIT_2026-05-08/iterations/SamnuAzuzi.check.v1.md",
+      "accepted": true
+    },
+    "Sulkalmakhi": {
+      "slug": "Sulkalmakhi",
+      "review": "/home/oem/Desktop/AUDIT_2026-05-08/reviews/Sulkalmakhi.review.md",
+      "plan_final": "/home/oem/Desktop/AUDIT_2026-05-08/plans/Sulkalmakhi.plan.v1.md",
+      "check_final": "/home/oem/Desktop/AUDIT_2026-05-08/iterations/Sulkalmakhi.check.v1.md",
+      "accepted": true
+    },
+    "PhD_E0": {
+      "slug": "PhD_E0",
+      "review": "/home/oem/Desktop/AUDIT_2026-05-08/reviews/PhD_E0.review.md",
+      "plan_final": "/home/oem/Desktop/AUDIT_2026-05-08/plans/PhD_E0.plan.v2.md",
+      "check_final": "/home/oem/Desktop/AUDIT_2026-05-08/iterations/PhD_E0.check.v2.md",
+      "accepted": true
+    },
+    "srv_books": {
+      "slug": "srv_books",
+      "review": "/home/oem/Desktop/AUDIT_2026-05-08/reviews/srv_books.review.md",
+      "plan_final": "/home/oem/Desktop/AUDIT_2026-05-08/plans/srv_books.plan.v1.md",
+      "check_final": "/home/oem/Desktop/AUDIT_2026-05-08/iterations/srv_books.check.v1.md",
+      "accepted": true
+    },
+    "srv_aim": {
+      "slug": "srv_aim",
+      "review": "/home/oem/Desktop/AUDIT_2026-05-08/reviews/srv_aim.review.md",
+      "plan_final": "/home/oem/Desktop/AUDIT_2026-05-08/plans/srv_aim.plan.v1.md",
+      "check_final": "/home/oem/Desktop/AUDIT_2026-05-08/iterations/srv_aim.check.v1.md",
+      "accepted": true
+    },
+    "WLRAbastumani": {
+      "slug": "WLRAbastumani",
+      "review": "/home/oem/Desktop/AUDIT_2026-05-08/reviews/WLRAbastumani.review.md",
+      "plan_final": "/home/oem/Desktop/AUDIT_2026-05-08/plans/WLRAbastumani.plan.v1.md",
+      "check_final": "/home/oem/Desktop/AUDIT_2026-05-08/iterations/WLRAbastumani.check.v1.md",
+      "accepted": true
+    },
+    "srv_drjaba-shared": {
+      "slug": "srv_drjaba-shared",
+      "review": "/home/oem/Desktop/AUDIT_2026-05-08/reviews/srv_drjaba-shared.review.md",
+      "plan_final": "/home/oem/Desktop/AUDIT_2026-05-08/plans/srv_drjaba-shared.plan.v1.md",
+      "check_final": "/home/oem/Desktop/AUDIT_2026-05-08/iterations/srv_drjaba-shared.check.v1.md",
+      "accepted": true
+    },
+    "srv_drjaba": {
+      "slug": "srv_drjaba",
+      "review": "/home/oem/Desktop/AUDIT_2026-05-08/reviews/srv_drjaba.review.md",
+      "plan_final": "/home/oem/Desktop/AUDIT_2026-05-08/plans/srv_drjaba.plan.v1.md",
+      "check_final": "/home/oem/Desktop/AUDIT_2026-05-08/iterations/srv_drjaba.check.v1.md",
+      "accepted": true
+    },
+    "srv_fclc": {
+      "slug": "srv_fclc",
+      "review": "/home/oem/Desktop/AUDIT_2026-05-08/reviews/srv_fclc.review.md",
+      "plan_final": "/home/oem/Desktop/AUDIT_2026-05-08/plans/srv_fclc.plan.v1.md",
+      "check_final": "/home/oem/Desktop/AUDIT_2026-05-08/iterations/srv_fclc.check.v1.md",
+      "accepted": true
+    },
+    "srv_longevity": {
+      "slug": "srv_longevity",
+      "review": "/home/oem/Desktop/AUDIT_2026-05-08/reviews/srv_longevity.review.md",
+      "plan_final": "/home/oem/Desktop/AUDIT_2026-05-08/plans/srv_longevity.plan.v1.md",
+      "check_final": "/home/oem/Desktop/AUDIT_2026-05-08/iterations/srv_longevity.check.v1.md",
+      "accepted": true
+    },
+    "srv_ngo": {
+      "slug": "srv_ngo",
+      "review": "/home/oem/Desktop/AUDIT_2026-05-08/reviews/srv_ngo.review.md",
+      "plan_final": "/home/oem/Desktop/AUDIT_2026-05-08/plans/srv_ngo.plan.v1.md",
+      "check_final": "/home/oem/Desktop/AUDIT_2026-05-08/iterations/srv_ngo.check.v1.md",
+      "accepted": true
+    },
+    "srv_longevitycommon": {
+      "slug": "srv_longevitycommon",
+      "review": "/home/oem/Desktop/AUDIT_2026-05-08/reviews/srv_longevitycommon.review.md",
+      "plan_final": "/home/oem/Desktop/AUDIT_2026-05-08/plans/srv_longevitycommon.plan.v1.md",
+      "check_final": "/home/oem/Desktop/AUDIT_2026-05-08/iterations/srv_longevitycommon.check.v1.md",
+      "accepted": true
+    },
+    "srv_spellcheckerka": {
+      "slug": "srv_spellcheckerka",
+      "review": "/home/oem/Desktop/AUDIT_2026-05-08/reviews/srv_spellcheckerka.review.md",
+      "plan_final": "/home/oem/Desktop/AUDIT_2026-05-08/plans/srv_spellcheckerka.plan.v1.md",
+      "check_final": "/home/oem/Desktop/AUDIT_2026-05-08/iterations/srv_spellcheckerka.check.v1.md",
+      "accepted": true
+    },
+    "srv_ksystem": {
+      "slug": "srv_ksystem",
+      "review": "/home/oem/Desktop/AUDIT_2026-05-08/reviews/srv_ksystem.review.md",
+      "plan_final": "/home/oem/Desktop/AUDIT_2026-05-08/plans/srv_ksystem.plan.v2.md",
+      "check_final": "/home/oem/Desktop/AUDIT_2026-05-08/iterations/srv_ksystem.check.v2.md",
+      "accepted": true
+    },
+    "srv_space": {
+      "slug": "srv_space",
+      "review": "/home/oem/Desktop/AUDIT_2026-05-08/reviews/srv_space.review.md",
+      "plan_final": "/home/oem/Desktop/AUDIT_2026-05-08/plans/srv_space.plan.v2.md",
+      "check_final": "/home/oem/Desktop/AUDIT_2026-05-08/iterations/srv_space.check.v2.md",
+      "accepted": true
+    }
+  }
+}

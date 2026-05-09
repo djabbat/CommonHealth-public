@@ -1,0 +1,65 @@
+
+## iter 1
+APPENDED: CONCEPT.md :: ## Falsifiability
+APPENDED: CONCEPT.md :: ## Pre-registration plan
+APPENDED: CONCEPT.md :: ## Sample size calculation
+APPENDED: CONCEPT.md :: ## Risk matrix
+APPENDED: CONCEPT.md :: ## Limitations
+APPENDED: CONCEPT.md :: ## Consortium / partners
+
+## iter 2
+APPENDED: CONCEPT.md :: ## Pre‑registration plan
+INSERTED: CONCEPT.md after `## Falsifiability`
+SKIP anchor-missing: CONCEPT.md
+APPENDED: OPEN_PROBLEMS.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+APPENDED: CONCEPT.md :: ## Consortium & Collaboration Plan
+
+## iter 3
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+SKIP exists: CONCEPT.md :: ## Falsifiability
+
+## iter 4
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+APPENDED: PARAMETERS.md :: ## Sample size calculation
+INSERTED: CONCEPT.md after `## 6. Falsifiability`
+INSERTED: CONCEPT.md after `## Limitations`
+INSERTED: CONCEPT.md after `**Authors:`
+
+## iter 5
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+REPLACED: OPEN_PROBLEMS.md :: **Тесты фальсификации:**
+1. **Эксперимен
+
+## iter 6
+INSERTED: CONCEPT.md after `## Consortium / partners`
+INSERTED: OPEN_PROBLEMS.md after `# Открытые проблемы Epigenetic Drift`
+SKIP anchor-missing: README.md
+
+## iter 1
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+REPLACED: CONCEPT.md :: **Date:** October 26, 2023
+
+## iter 2
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+
+## iter 3
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+REPLACED: OPEN_PROBLEMS.md :: OSF ID pending

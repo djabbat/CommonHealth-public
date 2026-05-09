@@ -58,7 +58,7 @@ After v3 removal of Editorial, total references: **36** (peer-reviewed external)
 
 Tkemaladze peer-reviewed self-citations retained:
 - Tkemaladze 2005 *Cell Biol Int* 29 (PMID 15886028) — early centriole work
-- Tkemaladze 2023 *Mol Biol Rep* 50 (PMID 36583780) — CDATA flagship
+- Tkemaladze 2023 *Mol Biol Rep* 50 (PMID 36583780) — *Reduction, proliferation, and differentiation defects of stem cells over time: a consequence of selective accumulation of old centrioles in the stem cells?*
 - 3 others from `~/.claude/projects/-home-oem/memory/pubmed_authoritative.md`
 
 Self-citations to *Longevity Horizon* (DOI 10.65649/...) **NOT counted** as peer-reviewed; moved to Supplementary as "internal manuscript sources".
@@ -80,7 +80,7 @@ Self-citations to *Longevity Horizon* (DOI 10.65649/...) **NOT counted** as peer
 
 ## §5. What is deliberately NOT cited
 
-- **Anything from Longevity Horizon as peer-reviewed**. Tkemaladze 2026 BioSense (DOI 10.65649/23ba5z09), Ze (DOI 10.65649/xf5vp867), CDATA bridge papers — all referenced as "internal manuscript, not peer-reviewed; see Supplementary".
+- **Anything from Longevity Horizon as peer-reviewed**. Tkemaladze 2026 BioSense , Ze , CDATA bridge papers — all referenced as "internal manuscript, not peer-reviewed; see Supplementary".
 - **HAP** (any reference) — failed PMID audit.
 - **Ontogenesis** (any reference) — failed PMID audit.
 - **Self-citations counted as peer-reviewed** — only the 5 PubMed-indexed Tkemaladze entries.

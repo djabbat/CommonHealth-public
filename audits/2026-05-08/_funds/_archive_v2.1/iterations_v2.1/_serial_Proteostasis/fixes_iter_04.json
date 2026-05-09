@@ -1,0 +1,44 @@
+[
+  {
+    "file": "/path/to/EVIDENCE.md",
+    "action": "append_section",
+    "heading": "## Reference verification",
+    "body": "The following PMIDs from CONCEPT.md require verification for existence and relevance:\n- PMID 39973488 (Ma 2025)\n- PMID 41340001 (Lourenco 2025)\n- PMID 40377064 (Folarin 2025)\n- PMID 40388671 (Meng 2025)\n- PMID 38049031 (Diekman & Loeser 2024)\n- PMID 28170377 (Wong 2017)\n\nIf any are invalid or do not support the cited claim, replace with verified alternatives (e.g., PMID 29127110 for proteostasis network decline)."
+  },
+  {
+    "file": "/path/to/CONCEPT.md",
+    "action": "insert_after_line",
+    "line_anchor": "## 2. Falsifiability",
+    "body": "The following quantitative thresholds are defined for falsification:\n- Test 1 (n-linked threshold): N ≥ 100, p < 0.001, Cohen's d ≥ 0.8\n- Test 2 (t-linked threshold): N ≥ 10, power ≥ 0.8, p < 0.01\n- Test 3 (null hypothesis): p > 0.05, N ≥ 30\n- Test 4 (intervention effect): N ≥ 15, p < 0.01, 20% reduction\n\nAll thresholds are placeholders (X, N=TBD) and must be finalized in the pre-registration plan."
+  },
+  {
+    "file": "/path/to/CONCEPT.md",
+    "action": "insert_after_line",
+    "line_anchor": "## 3. Pre-registration plan",
+    "body": "The study will be pre-registered on the Open Science Framework (OSF) with placeholder ID osf.io/TBD. Planned registration date: 2026-09-30. Analysis plan includes primary and secondary endpoints, exclusion criteria, and statistical methods (see Section 4)."
+  },
+  {
+    "file": "/path/to/CONCEPT.md",
+    "action": "insert_after_line",
+    "line_anchor": "## 4. Sample size calculation",
+    "body": "Sample size is calculated using the formula: n = (1.96 + 0.84)² · σ² / δ², where 1.96 is the z-score for α=0.05, 0.84 for β=0.20 (80% power), σ² is the estimated variance, and δ is the minimum detectable effect size. Placeholder values for each parameter (P1–P4) are provided in PARAMETERS.md."
+  },
+  {
+    "file": "/path/to/CONCEPT.md",
+    "action": "insert_after_line",
+    "line_anchor": "## 5. Risk matrix",
+    "body": "| Risk | Probability | Impact | Mitigation |\n|------|-------------|--------|------------|\n| Insufficient sample size | Medium | High | Power analysis with conservative effect sizes; interim analysis |\n| Batch effects in proteomics | High | Medium | Randomized block design; technical replicates |\n| Aggregation assay variability | Medium | High | Standardized protocols; positive controls |\n| Mouse model not recapitulating human aging | Low | High | Use multiple models; validate with human samples |\n| Funding shortfall | Medium | High | Phased approach; seek supplemental grants |\n| Data sharing delays | Low | Medium | Consortium agreement with timelines |\n| Key personnel turnover | Low | Medium | Cross-training; backup personnel identified |"
+  },
+  {
+    "file": "/path/to/CONCEPT.md",
+    "action": "insert_after_line",
+    "line_anchor": "## 6. Limitations",
+    "body": "1. Lack of empirical calibration: All parameters in the kinetic equation for D₅(n, t) (α₅, β₅, τ₅, n₅*) are currently theoretical placeholders. No experimental data exist to validate them.\n2. Tissue-specific heterogeneity: The model assumes uniform behavior across cell types, but proteostasis collapse may vary significantly between tissues (e.g., neurons vs. fibroblasts).\n3. Coupling matrix Γ is incomplete: Many entries are marked as TBD and require future experimental measurement.\n4. Model organisms may not fully recapitulate human aging: Mouse and cell culture data may not translate to human physiology.\n5. Single-counter focus: The model isolates Counter #5, but interactions with other counters (e.g., mitochondrial dysfunction) are not yet quantified.\n6. Temporal resolution: The model does not account for acute stress responses (e.g., heat shock) that may transiently alter proteostasis.\n7. Measurement noise: Quantitative assays for chaperone levels and aggregation have inherent variability not fully captured.\n8. Replicative senescence vs. chronological aging: The n-linked and t-linked components are assumed independent, but they may interact in complex ways."
+  },
+  {
+    "file": "/path/to/CONCEPT.md",
+    "action": "insert_after_line",
+    "line_anchor": "## 7. Consortium / partners",
+    "body": "The following institutions and laboratories have expressed interest in collaborating on the experimental validation of Counter #5. This list is preliminary and subject to change.\n\n- **Lead PI:** [Name, Institution, Email] — overall coordination, theoretical modeling\n- **Proteomics and chaperone measurements:** [Lab A, Institution] — quantitative proteomics, HSP70/BAG3 assays\n- **In vivo aging models:** [Lab B, Institution] — mouse aging colonies, interventions\n- **Cell culture and aggregation assays:** [Lab C, Institution] — primary human fibroblasts, iPSC-derived neurons\n- **Clinical samples:** [CRO or Hospital, Institution] — human tissue biopsies, plasma samples\n- **Bioinformatics and data analysis:** [Lab D, Institution] — statistical modeling, power analysis\n- **Funding partners:** [Funding agency, Grant number TBD]\n\nA formal consortium agreement, including data sharing and authorship policies, will be established prior to the start of experiments."
+  }
+]

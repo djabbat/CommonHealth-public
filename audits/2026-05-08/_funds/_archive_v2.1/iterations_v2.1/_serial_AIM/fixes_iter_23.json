@@ -1,0 +1,62 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "replace_text",
+    "find": "PMID 15527447",
+    "replace": "PMID 15333167"
+  },
+  {
+    "file": "THEORY.md",
+    "action": "replace_text",
+    "find": "PMID 15527447",
+    "replace": "PMID 15333167"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "replace_text",
+    "find": "- **Sample size:** N ≥ 55 per group (see Sample size calculation)",
+    "replace": "- **Sample size:** N ≥ 55 per group (see Sample size calculation)\n- **Consistency note:** All falsifiability thresholds are identical across CONCEPT.md and THEORY.md. Any future updates must be synchronised across both files."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "replace_text",
+    "find": "- **OSF ID:** `osf.io/TBD` (placeholder; to be reserved before enrollment start; reservation date: 2026-08-01; the placeholder will be replaced with the actual URL at that time).",
+    "replace": "- **OSF ID:** `osf.io/TBD` (placeholder; to be reserved before enrollment start; reservation date: 2026-08-01; the placeholder will be replaced with the actual URL at that time).\n- **Consistency note:** The set of secondary outcomes listed here (MMAS-8, EQ-5D-5L, hospitalisations) must match exactly the set in THEORY.md. Currently, THEORY.md includes 'physician time per visit' as an additional secondary outcome; this discrepancy must be resolved before pre-registration."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "replace_text",
+    "find": "- **Pre-registration date:** 2026-09-01 (planned; to be confirmed upon OSF reservation)",
+    "replace": "- **Pre-registration date:** 2026-09-01 (planned; to be confirmed upon OSF reservation)\n- **Registered design:** Two-arm parallel RCT, superiority design\n- **Primary outcome:** PAM-13 change from baseline to 6 months\n- **Secondary outcomes:** MMAS-8, EQ-5D-5L, hospitalisations (all-cause, 12-month)\n- **Analysis plan:** ITT primary, per-protocol sensitivity; ANCOVA with baseline PAM-13, site, and stratification factors as covariates; missing data handled via multiple imputation under MAR assumption\n- **Stopping rules:** As specified in Falsifiability section\n- **Data sharing:** De-identified individual participant data will be deposited in a public repository (e.g., OSF, Figshare) within 12 months of trial completion"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "replace_text",
+    "find": "- **Consistency note:** The set of secondary outcomes listed here (MMAS-8, EQ-5D-5L, hospitalisations) must match exactly the set in THEORY.md. Currently, THEORY.md includes 'physician time per visit' as an additional secondary outcome; this discrepancy must be resolved before pre-registration.\n\n\n- **OSF ID:** `osf.io/TBD` (placeholder; to be reserved before enrollment start; reservation date: 2026-08-01; the placeholder will be replaced with the actual URL at that time).\n- **Consistency note:** The set of secondary outcomes listed here (MMAS-8, EQ-5D-5L, hospitalisations) must match exactly the set in THEORY.md. Currently, THEORY.md includes 'physician time per visit' as an additional secondary outcome; this discrepancy must be resolved before pre-registration.\n- **Pre-registration date:** 2026-09-01 (planned; to be confirmed upon OSF reservation)\n- **Registered design:** Two-arm parallel RCT, superiority design\n- **Primary out",
+    "replace": "- **OSF ID:** `osf.io/TBD` (placeholder; to be reserved before enrollment start; reservation date: 2026-08-01; the placeholder will be replaced with the actual URL at that time).\n- **Pre-registration date:** 2026-09-01 (planned; to be confirmed upon OSF reservation)\n- **Registered design:** Two-arm parallel RCT, superiority design\n- **Primary outcome:** PAM-13 change from baseline to 6 months\n- **Secondary outcomes:** MMAS-8, EQ-5D-5L, hospitalisations (all-cause, 12-month)\n- **Analysis plan:** ITT primary, per-protocol sensitivity; ANCOVA with baseline PAM-13, site, and stratification factors as covariates; missing data handled via multiple imputation under MAR assumption\n- **Stopping rules:** As specified in Falsifiability section\n- **Data sharing:** De-identified individual participant data will be deposited in a public repository (e.g., OSF, Figshare) within 12 months of trial completion\n- **Consistency note:** The set of secondary outcomes listed here (MMAS-8, EQ-5D-5L, hospitalisations) must match exactly the set in THEORY.md. Currently, THEORY.md includes 'physician time per visit' as an additional secondary outcome; this discrepancy must be resolved before pre-registration."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Sample size calculation",
+    "body": "- **Formula:** n = (1.96 + 0.84)² · σ² / δ²\n- **Parameters:** α = 0.05 (two-sided), power = 0.80, δ = 5.4 (MCID for PAM-13), σ = 10 (based on Hibbard 2004, PMID 15333167, SD range 9–11)\n- **Calculation:** n = (2.80)² · 100 / 29.16 = 7.84 · 100 / 29.16 ≈ 26.9 per group; adjusted for 20% attrition: n ≥ 34 per group; final target: N ≥ 55 per group (conservative overshoot to account for clustering and stratification)\n- **Reference:** Hibbard JH, et al. Development of the Patient Activation Measure (PAM): conceptualizing and measuring activation in patients and consumers. Health Serv Res. 2004;39(4 Pt 1):1005-1026. PMID: 15333167."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| Risk | Probability | Impact | Mitigation |\n|------|-------------|--------|------------|\n| Low recruitment (N < 55 per group) | Medium | High | Multi-site recruitment (3+ sites), extended enrollment window, adaptive sample size re-estimation at interim |\n| High attrition (>20%) | Medium | High | Retention strategies (reminders, incentives, flexible scheduling), per-protocol sensitivity analysis |\n| PAM-13 ceiling effect in activated patients | Low | Medium | Stratify by baseline activation level, use alternative outcome (e.g., EQ-5D-5L) as sensitivity |\n| AI system technical failure (downtime >48h) | Low | High | Redundant deployment (cloud + local), manual backup protocol, DSMB oversight |\n| Contamination between arms (control exposed to AI) | Medium | Medium | Cluster randomization by site, monitoring of control arm AI usage, per-protocol analysis excluding contaminated clusters |\n| Unblinding of outcome assessors | Low | Low | Automated PAM-13 administration via tablet, assessor blinding to allocation, independent data entry |"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "- Single-blinded design (patients and clinicians cannot be blinded to AI intervention)\n- Reliance on self-reported PAM-13 (subject to social desirability bias and ceiling effects)\n- Short follow-up (6 months) limits assessment of long-term activation maintenance\n- Sample size calculated for primary endpoint only; secondary analyses may be underpowered\n- Generalizability limited to outpatient chronic disease populations in high-resource settings\n- AI system performance may degrade with out-of-distribution patient populations\n- No active comparator (control is usual care, not alternative AI or human coaching)\n- Pre-registration placeholder not yet replaced with actual OSF identifier"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "- **Lead PI:** [Name TBD], [Institution TBD]\n- **Co-Investigators:** [Name TBD], [Institution TBD]; [Name TBD], [Institution TBD]\n- **Potential partners:** Insignia Health (PAM-13 licensing), Fraunhofer IGD (AI explainability), TSU (clinical site), University of Copenhagen (health economics)\n- **Data management:** [TBD]\n- **DSMB:** [TBD]"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "### Numeric thresholds (placeholder values)\n- **Primary endpoint:** PAM-13 Δ ≥ X points (MCID; X = TBD)\n- **Significance level:** α = 0.05 (two-sided) for primary analysis; Bonferroni correction applied to secondary endpoints (≤N comparisons; N = TBD) with α = 0.025 per test\n- **Power:** 0.80\n- **Sample size:** N ≥ TBD per group (see Sample size calculation)\n- **Stopping rule:** Adverse event rate >TBD% in intervention arm (any AE, assessed monthly by DSMB)\n- **Interim analysis:** Planned at N = TBD (TBD per group) for futility only (O'Brien-Fleming boundary, α-spending = TBD). If conditional power <TBD%, trial will be stopped for futility.\n- **Primary analysis:** Intention-to-treat (ITT); per-protocol sensitivity analysis as secondary"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Pre-registration plan",
+    "body": "- **OSF ID:** `osf.io/TBD` (single placeholder; to be reserved before enrollment start; reservation date: TBD; the placeholder will be replaced with the actual URL at that time)\n- **Pre-registration date:** TBD (planned; to be confirmed upon OSF reservation)\n- **Planned registration date:** TBD\n- **Registered design:** Two-arm parallel RCT, superiority design\n- **Primary outcome:** Between-group difference in PAM-13 change score (Δ) from baseline to TBD months\n- **Analysis plan:** Independent two-sample t-test (two-sided); ITT primary, per-protocol sensitivity\n- **Secondary outcomes:** Medication adherence (MMAS-8), quality of life (EQ-5D-5L), healthcare utilisation (number of hospitalisations)\n- **Exploratory outcomes:** Patient activation trajectory (mixed-effects model), LLM engagement metrics (session count, message length)"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Sample size calculation",
+    "body": "- **Formula:** n = (Z_α/2 + Z_β)² · 2σ² / δ²\n- **Parameters:** Z_α/2 = 1.96 (α = 0.05, two-sided), Z_β = 0.84 (power = 0.80)\n- **Effect size δ:** TBD points (PAM-13 MCID; placeholder)\n- **Standard deviation σ:** TBD (assumed — see justification below)\n- **Calculation:** n = (1.96 + 0.84)² · 2 · σ² / δ² = 7.84 · 2σ² / δ² → n = TBD per group\n- **Total N:** TBD + TBD% dropout = TBD participants\n- **Sensitivity analysis (required N per group):**\n  - σ = TBD: n ≈ TBD\n  - σ = TBD: n ≈ TBD (base case)\n  - σ = TBD: n ≈ TBD\n- **Justification for σ = TBD:** TBD"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| Risk | Probability | Impact | Mitigation |\n|------|-------------|--------|------------|\n| Low recruitment | Medium | High | Multi-site recruitment, extended enrollment period |\n| High dropout rate | Medium | High | Retention strategies (reminders, incentives) |\n| Technical failure of LLM | Low | High | Redundant systems, fallback to standard care |\n| Adverse events | Low | High | DSMB monitoring, stopping rule |\n| Data privacy breach | Low | Very High | Encryption, access controls, GDPR compliance |\n| Confounding by site effect | Medium | Medium | Stratified randomisation, site as covariate |\n| Measurement bias (PAM-13) | Low | Medium | Blinded outcome assessment, standardised training"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "- Single-centre design may limit generalisability\n- PAM-13 is a self-reported measure, subject to social desirability bias\n- LLM intervention is a black box; interpretability of model decisions is limited\n- Placebo effect cannot be fully controlled due to lack of blinding for intervention\n- Sample size calculation based on assumed effect size; true effect may differ\n- Follow-up duration may be insufficient to detect long-term outcomes\n- Potential for contamination between arms if participants interact\n- Use of placeholder values (e.g., OSF ID, effect size) indicates incomplete specification"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "- **Lead PI:** TBD (placeholder)\n- **Co-I Clinical:** TBD (placeholder)\n- **Co-I Technical:** TBD (placeholder)\n- **Potential partners:**\n  - Insignia Health (PAM-13 licence)\n  - Fraunhofer IGD (LLM integration)\n  - TSU (clinical site)\n  - University of Copenhagen (statistical consulting)\n- **Data management:** TBD (placeholder)\n- **Ethics board:** TBD (placeholder)"
+  }
+]

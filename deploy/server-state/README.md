@@ -12,33 +12,33 @@ Live infrastructure state on `server.longevity.ge` (server-2, Ubuntu 24.04, IP 7
 ## Layout
 
 ```
-nginx-snippets/             → /etc/nginx/snippets/
-  eco-inject.conf           sub_filter that injects eco-inject.js into every vhost
-  hive-button.conf          sub_filter for the floating Hive button (legacy)
-  hero-blue.conf            sub_filter for forcing indigo hero on home
+nginx-snippets/ → /etc/nginx/snippets/
+ eco-inject.conf sub_filter that injects eco-inject.js into every vhost
+ hive-button.conf sub_filter for the floating Hive button (legacy)
+ hero-blue.conf sub_filter for forcing indigo hero on home
 
-nginx-vhosts/               → /etc/nginx/sites-enabled/
-  default.conf              longevity.ge root + /team/ /grants/ /research/ etc.
-  aim.longevity.ge.conf     AIM Phoenix proxy :4040 + :443 self-signed origin
-  ze.longevity.ge.conf      Ze Phoenix proxy
-  biosense.longevity.ge.conf
-  fclc.longevity.ge.conf
-  hive.longevity.ge.conf    FastAPI proxy :8090
-  mcoa.longevity.ge.conf    Static landing /var/www/mcoa-landing
-  cdata.longevity.ge.conf   Static landing /var/www/cdata-landing
-  app.longevity.ge.conf     Placeholder umbrella
+nginx-vhosts/ → /etc/nginx/sites-enabled/
+ default.conf longevity.ge root + /team/ /grants/ /research/ etc.
+ aim.longevity.ge.conf AIM Phoenix proxy :4040 + :443 self-signed origin
+ ze.longevity.ge.conf Ze Phoenix proxy
+ biosense.longevity.ge.conf
+ fclc.longevity.ge.conf
+ hive.longevity.ge.conf FastAPI proxy :8090
+ mcoa.longevity.ge.conf Static landing /var/www/mcoa-landing
+ cdata.longevity.ge.conf Static landing /var/www/cdata-landing
+ app.longevity.ge.conf Placeholder umbrella
 
-systemd/                    → /etc/systemd/system/
-  aim-orchestrator.service  Runs /opt/aim/bin/aim-llm serve
-  aim-phoenix.service       Runs /opt/aim/phoenix/bin/aim_web start
+systemd/ → /etc/systemd/system/
+ aim-orchestrator.service Runs /opt/aim/bin/aim-llm serve
+ aim-phoenix.service Runs /opt/aim/phoenix/bin/aim_web start
 
 web-content/
-  ngo/                      → /home/jaba/web/ngo/
-                            longevity.ge homepage + sub-pages (Team, Research,
-                            Grants, Publications, Contact). Includes eco-inject.js
-                            and inline-styled <section class="hero"> for indigo.
-  mcoa-landing/             → /var/www/mcoa-landing/
-  cdata-landing/            → /var/www/cdata-landing/
+ ngo/ → /home/jaba/web/ngo/
+ longevity.ge homepage + sub-pages (Team, Research,
+ Grants, Publications, Contact). Includes eco-inject.js
+ and inline-styled <section class="hero"> for indigo.
+ mcoa-landing/ → /var/www/mcoa-landing/
+ cdata-landing/ → /var/www/cdata-landing/
 ```
 
 ## What is NOT captured (intentionally)

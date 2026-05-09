@@ -1,0 +1,26 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "The following numeric thresholds define falsification conditions for the epigenetic drift counter (Counter #4):\n- **Primary test (ABL-2 modulation):** |ΔD₄| > 0.15, p < 0.01, power ≥ 0.80 (see OPEN_PROBLEMS §1, Outcome A).\n- **Null hypothesis (no effect):** |ΔD₄| ≤ 0.15, p ≥ 0.05 (Outcome B).\n- **Complex coupling:** Coefficient of variation across clocks > 0.5 (Outcome C).\n- **Signal-to-noise ratio:** SNR < 2 indicates technical failure (Outcome D).\n- **Temporal precedence:** Cross-correlation lag > 0 with p < 0.05 for ABL-2 markers leading clock changes (OPEN_PROBLEMS §1, test 2).\n- **Replication-associated drift:** In ex vivo cultures, α₄ must account for > 50% of total drift variance (OPEN_PROBLEMS §2).\n- **Universality:** At least 3 of 5 tested tissues must show |ΔD₄| > 0.15 under ABL-2 perturbation (OPEN_PROBLEMS §3).\n- **Coupling with other counters:** Cross-counter correlation |r| > 0.3 with p < 0.05 for at least 2 other MCOA counters (OPEN_PROBLEMS §4).\n- **Tissue diversity:** Coefficient of variation across tissues < 0.5 for β₄ and α₄ estimates (OPEN_PROBLEMS §5).\n\nAll thresholds are pre-specified and will be included in the pre-registration (osf.io/TBD). Failure to meet any primary threshold (ABL-2 test, universality) constitutes falsification of the model as currently formulated."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Sample size calculation",
+    "body": "Sample size calculations follow standard power analysis for two-group comparisons and regression models:\n- **Primary test (ABL-2 modulation, two-group comparison):** n = (1.96 + 0.84)² · σ² / δ², where α = 0.05 (two-tailed), power = 0.80, δ = 0.15 (minimum detectable effect in D₄ units), σ = 0.20 (estimated pooled SD from pilot data placeholder). Result: n = 28 per group. To account for 20% attrition, target n = 34 per group.\n- **Regression model (temporal precedence):** For a linear regression with 3 predictors (ABL-2 marker, time, interaction), using f² = 0.15 (medium effect), α = 0.05, power = 0.80: n = 77 total observations. With 20% attrition: n = 92.\n- **Tissue diversity analysis (ANOVA):** For 5 tissues, effect size f = 0.25 (medium), α = 0.05, power = 0.80: n = 39 per tissue. Total N = 195.\n- **Coupling analysis (correlation):** For detecting r = 0.3 (medium), α = 0.05, power = 0.80: n = 84 paired observations.\n\nAll calculations use G*Power 3.1 or equivalent. Exact parameters (σ, δ, f) will be updated based on pilot data and pre-registered before data collection."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| Risk | Probability | Impact | Mitigation |\n|------|-------------|--------|------------|\n| ABL-2 confound: Epigenetic drift is secondary to ABL-2, not independent counter | High (0.7) | Critical (model invalid) | Pre-register ABL-2 modulation test (OPEN_PROBLEMS §1); if Outcome B/C, revise model to treat drift as ABL-2 readout |\n| Separation of β₄ and α₄: Inability to experimentally disentangle time-driven and replication-driven drift | Medium (0.5) | High (parameters unidentifiable) | Use ex vivo culture system with controlled CPD (OPEN_PROBLEMS §2); if SNR < 2, switch to single-cell methylation sequencing |\n| Universality failure: Drift dynamics differ fundamentally across tissues | Medium (0.5) | High (model not generalizable) | Test 5 tissues (blood, brain, liver, skin, muscle); if <3 tissues meet threshold, restrict model to specific tissue types |\n| Coupling with other counters: Drift is not independent of Counter #3 (Telomere Attrition) or #5 (Mitochondrial Dysfunction) | Medium (0.5) | Medium (model complexity increases) | Include cross-counter correlations in analysis; if |r| > 0.5, develop joint counter model |\n| Tissue diversity: Parameters β₄, α₄, γ₄ vary >2-fold across tissues | High (0.6) | Medium (requires tissue-specific calibration) | Pre-specify tissue-specific parameters; if CV > 0.5, use hierarchical Bayesian model with tissue random effects |"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "replace_text",
+    "find": "**Date:** October 26, 2023",
+    "replace": "**Date:** 2026-04-22 (updated per CORRECTIONS_2026-04-22.md)"
+  }
+]

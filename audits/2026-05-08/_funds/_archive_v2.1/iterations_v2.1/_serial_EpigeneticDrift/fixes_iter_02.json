@@ -1,0 +1,32 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "The following numeric thresholds define falsification conditions for the epigenetic drift counter (Counter #4):\n\n1. **Time-driven drift (β₄):** The null hypothesis H₀: β₄ = 0 will be tested. Rejection requires |β₄| > X (placeholder effect size), p < 0.001, and statistical power ≥ 0.80. Sample size N = TBD.\n2. **Replication-driven drift (α₄):** The null hypothesis H₀: α₄ = 0 will be tested. Rejection requires |α₄| > X (placeholder effect size), p < 0.001, and statistical power ≥ 0.80. Sample size N = TBD.\n3. **Coupling term (γ₄):** The null hypothesis H₀: γ₄ = 0 will be tested. Rejection requires |γ₄| > X (placeholder effect size), p < 0.001, and statistical power ≥ 0.80. Sample size N = TBD.\n\nAll thresholds are pre-registered (see Pre-registration plan). Failure to meet any threshold constitutes falsification of the respective component of the model."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Sample size calculation",
+    "body": "Sample size is calculated for a two-sided t-test comparing mean epigenetic drift (D₄) between two independent groups (e.g., intervention vs. control). Using the standard formula:\n\nn = (Z_α/2 + Z_β)² · 2σ² / δ²\n\nWhere:\n- Z_α/2 = 1.96 (for α = 0.05, two-tailed)\n- Z_β = 0.84 (for power = 0.80)\n- σ² = TBD (placeholder for expected variance of D₄)\n- δ = TBD (placeholder for minimum detectable effect size in D₄ units)\n\nFor a linear regression model with f² = 0.15 (medium effect), α = 0.05, power = 0.80, and 3 predictors, the required sample size is N = 92 (calculated via G*Power).\n\nAll calculations will be finalized and pre-registered prior to data collection."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| # | Risk description | Probability (1-5) | Impact (1-5) | Mitigation strategy |\n|---|------------------|-------------------|--------------|---------------------|\n| 1 | Epigenetic drift is not a causal driver but a secondary readout (ABL-2 paradox) | 4 | 5 | Pre-register falsification tests; if confirmed, reframe counter #4 as derivative of ABL-2 |\n| 2 | Tissue-specific parameters invalidate global model | 3 | 4 | Validate in at least 3 tissues; use hierarchical Bayesian modeling to pool estimates |\n| 3 | Measurement noise (batch effects, array variability) obscures true drift | 3 | 3 | Use randomized batch design; include technical replicates; apply ComBat normalization |\n| 4 | Inability to separate time-driven (β₄) and replication-driven (α₄) contributions in vivo | 4 | 4 | Design ex vivo culture experiment with controlled population doublings; use lineage tracing |\n| 5 | Consortium partner withdrawal or data access delays | 2 | 3 | Secure letters of intent; have backup collaborators; use open data where possible |"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "1. **Causality vs. correlation:** The formal model assumes epigenetic drift is a causal driver of aging, but the ABL-2 paradox (OPEN_PROBLEMS §1) suggests it may be a secondary readout of a deeper chromatin stability counter. This remains unresolved.\n2. **Reversibility:** The model does not account for active epigenetic reprogramming (e.g., via OSKM factors) which can reset drift. The equation is unidirectional.\n3. **Layer inconsistency:** DNA methylation clocks (e.g., Horvath) and chromatin accessibility clocks (e.g., ATAC-clock) may drift at different rates and respond differently to interventions, violating the assumption of a single D₄ readout.\n4. **Tissue specificity:** The parameters β₄, α₄, and γ₄ are likely tissue-specific, but the current model uses global averages. Validation in multiple tissues is required.\n5. **Measurement noise:** Epigenetic clocks have intrinsic technical variability (e.g., array batch effects) that may obscure true drift signals, especially at short time scales."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "This project will be executed by a consortium of three groups:\n- [Primary PI], [Institution], responsible for theoretical model development and simulation.\n- [Potential collaborator 1, e.g., Prof. S. Horvath, UCLA] – for access to DNA methylation clock validation in human cohorts.\n- [Potential collaborator 2, e.g., Dr. A. Brunet, Stanford] – for stem cell aging experiments and CRISPR-barcoding lineage tracing.\n\nLetters of intent will be obtained prior to funding. The consortium will meet bi-monthly to coordinate the experimental tests outlined in OPEN_PROBLEMS."
+  }
+]

@@ -39,13 +39,13 @@ If the event is T (exceeds prediction):
 
 ```
 Accumulated T-events
-    → raise T-threshold
-    → fewer events classified as T
-    → v shifts toward S-dominance
-    → model reflects past, not present
-    → new T-events round off as "noise"
-    → Δv(signal) < Δv(noise floor)  ← Ze ceiling reached
-    → system cannot update anymore
+ → raise T-threshold
+ → fewer events classified as T
+ → v shifts toward S-dominance
+ → model reflects past, not present
+ → new T-events round off as "noise"
+ → Δv(signal) < Δv(noise floor) ← Ze ceiling reached
+ → system cannot update anymore
 ```
 
 This is not degradation — it is **active suppression** of novelty.
@@ -132,7 +132,7 @@ As θ↑: fewer events qualify as T → N_T↓ → v drifts toward negative (S-d
 
 Ze complexity:
 ```
-τ(t) → 0  as  θ(t) → ∞
+τ(t) → 0 as θ(t) → ∞
 ```
 In the limit: all events are S. Complete predictability. Zero complexity. Death.
 
@@ -172,8 +172,8 @@ In the limit: all events are S. Complete predictability. Zero complexity. Death.
 
 1. Tkemaladze J. Mol Biol Reports 2023. PMID 36583780 (centriolar aging)
 2. Lezhava T. et al. Biogerontology 2011. PMID 20480236
-3. Tkemaladze J. CDATA. Zenodo. DOI: 10.5281/zenodo.19174506
-4. Tkemaladze J. Ze Theory. Zenodo. DOI: 10.5281/zenodo.19174630
+3. Tkemaladze J. CDATA. Zenodo. 
+4. Tkemaladze J. Ze Theory. Zenodo. 
 5. Friston K. The free-energy principle. Nature Reviews Neuroscience 2010. (predictive coding)
 6. McEwen B. Stress, adaptation, and disease — allostasis and allostatic load. 1998.
 7. López-Otín C. et al. The hallmarks of aging. Cell 2013.

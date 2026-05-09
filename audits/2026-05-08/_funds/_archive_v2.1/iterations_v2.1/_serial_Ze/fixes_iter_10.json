@@ -1,0 +1,38 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "The following numeric thresholds define the falsifiability of Ze Theory predictions:\n\n- **Primary hypothesis:** v*_active > v*_passive with effect size d ≥ 0.5 (Cohen's d), α = 0.05 (two-tailed), power ≥ 0.80.\n- **Secondary hypothesis:** Correlation between χ_Ze and chronological age with |r| ≥ 0.3, α = 0.05, power ≥ 0.80.\n- **Null rejection criterion:** p < 0.001 for primary outcome (Bonferroni-corrected for 3 comparisons).\n- **Minimum sample size:** N ≥ 64 per group (placeholder; see Sample size calculation).\n- **Effect size thresholds:** δ = TBD (to be determined from pilot data), σ = TBD (pooled standard deviation from literature).\n- **Bayes factor threshold:** BF₁₀ ≥ 10 for confirmatory evidence.\n\nIf any of these thresholds are not met, the corresponding hypothesis is considered falsified."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Pre-registration plan",
+    "body": "All primary and secondary hypotheses will be pre-registered on the Open Science Framework (OSF) prior to data collection.\n\n- **OSF ID:** osf.io/TBD (placeholder; registration will be created upon funding approval)\n- **Planned registration date:** 2026-12-01 (placeholder; subject to IRB approval)\n- **Scope:** All confirmatory analyses, including primary outcome (v*_active vs. v*_passive), secondary outcomes (χ_Ze-age correlation), and exploratory analyses (subgroup effects).\n- **Transparency:** Analysis scripts and de-identified data will be uploaded to the same OSF repository upon publication.\n- **Deviation policy:** Any deviations from the pre-registration plan will be documented in the final manuscript with justification."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Sample size calculation",
+    "body": "Sample size is calculated using the standard formula for a two-sample t-test (two-tailed):\n\nn = (Z_α/2 + Z_β)² · 2σ² / δ²\n\nWhere:\n- Z_α/2 = 1.96 (for α = 0.05, two-tailed)\n- Z_β = 0.84 (for power = 0.80)\n- σ = TBD (pooled standard deviation, placeholder; to be estimated from pilot data or literature)\n- δ = TBD (minimum detectable effect size, placeholder; target d = 0.5)\n\n**Primary hypothesis (v*_active > v*_passive):**\n- Assumed effect size: d = 0.5 (Cohen's d)\n- Required n per group: 64 (rounded up from 63.8)\n- Total N: 128\n\n**Secondary hypothesis (χ_Ze-age correlation):**\n- Assumed effect size: |r| = 0.3\n- Required n: 84 (for power = 0.80, α = 0.05)\n\n**Note:** These calculations are based on placeholder values. Final sample sizes will be updated after pilot data collection and literature review."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| Risk | Probability | Impact | Mitigation |\n|------|-------------|--------|------------|\n| Inability to replicate v*_active effect | 0.6 | 0.8 | Conduct independent replication in UK Biobank (N≥200); use cross-validation with hold-out sample |\n| Lack of CDATA data for validation | 0.7 | 0.9 | Submit application to UK Biobank; parallel collaboration with clinical center for longitudinal data |\n| Fabrication allegations due to unverified references | 0.3 | 1.0 | Full audit of all references; replace any suspicious DOIs with verified ones; document audit trail |\n| Small sample size (N=12) insufficient for statistical power | 0.9 | 0.7 | Perform power analysis; increase sample to N≥50 per group; seek multi-site collaboration |\n| Lack of clinical validation for χ_Ze thresholds | 0.8 | 0.6 | Plan anchor-based study (N≥100) with clinician-rated outcomes; use ROC analysis for threshold determination |\n| Failure to obtain IRB approval for human subjects | 0.4 | 0.8 | Submit protocol early; include detailed risk-benefit analysis; prepare contingency plan with de-identified data |"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "The following limitations are acknowledged:\n\n1. **Generalizability to other modalities:** Current validation is limited to EEG and HRV data. Generalization to fMRI, MEG, or behavioral data is untested.\n2. **Mathematical formalism:** The classical limit (P_Z → 0) is derived but not empirically validated. The transition from discrete Ze dynamics to continuous spacetime remains a formal assumption.\n3. **Sample size:** All current pilot data (N≤196) are insufficient for definitive conclusions. Power analysis indicates N≥64 per group for main hypotheses.\n4. **Independent replication:** No independent replication exists. All results are from a single lab.\n5. **Pre-registration:** No studies are pre-registered. All analyses are exploratory until pre-registration is completed.\n6. **Potential confounders:** Age, sex, and medication status are not fully controlled in current analyses.\n7. **Measurement error:** EEG and HRV measures have known reliability issues; no test-retest data are available for Ze-derived metrics."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "**Current team:** Jaba Tkemaladze (PI, Kutaisi International University)\n\n**Planned collaborations (letters of support pending):**\n1. **Neurophysiology group** (TBD institution) — for EEG validation of v*_active\n2. **Biostatistics group** (TBD institution) — for MCID and power analysis\n3. **Clinical center** (TBD institution) — for longitudinal aging cohort\n\n**Planned consortium structure:**\n- Lead institution: Kutaisi International University (PI: Jaba Tkemaladze)\n- Neurophysiology partner: TBD institution (EEG validation)\n- Biostatistics partner: TBD institution (power analysis, MCID)\n- Clinical partner: TBD institution (longitudinal cohort)\n- Data management: TBD (OSF repository, code sharing)"
+  }
+]

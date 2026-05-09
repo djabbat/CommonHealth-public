@@ -1,0 +1,44 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "The following numeric thresholds define falsification criteria for Counter #3 (MitoROS):\n- **Primary hypothesis (P0-1):** Linear model of D₃ accumulation will be considered falsified if the pilot experiment yields R² < 0.9 (N=15 per condition, α=0.05, power=0.80).\n- **Secondary hypothesis (P0-2):** Tissue-specific D₃ trajectories will be considered falsified if two-way ANOVA interaction term (tissue × time) yields p ≥ 0.05 (N=30 per tissue, Cohen's f²=0.35, α=0.05, power=0.80).\n- **Tertiary hypothesis (P1-1):** The difference in D₃ between high- and low-ROS conditions will be considered falsified if two-sample t-test yields p ≥ 0.05 (N=25 per group, d=0.8, α=0.05, power=0.80).\n- **Exploratory hypothesis (P2-1):** Thresholds TBD (to be estimated from P0-1 pilot data; N=TBD, α=0.05, power=0.80).\n- **Effect size thresholds:** Minimum detectable effect size for linear model: R²=0.9; for ANOVA: Cohen's f²=0.35; for t-test: Cohen's d=0.8.\n- **Statistical power:** All primary analyses set at 0.80 (β=0.20).\n- **Significance level:** α=0.05 for all confirmatory tests; exploratory analyses will be clearly labeled as such.\n- **Multiple comparison correction:** Bonferroni correction will be applied for all post-hoc pairwise comparisons within ANOVA designs."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Pre-registration plan",
+    "body": "- **OSF registration ID:** osf.io/TBD (placeholder; to be created prior to data collection)\n- **Planned registration date:** 2026-07-01\n- **Registered content:**\n  - Primary hypotheses (P0-1, P0-2, P1-1) with exact numeric thresholds as specified in §Falsifiability\n  - Analysis plan: linear regression for P0-1, two-way ANOVA for P0-2, two-sample t-test for P1-1\n  - Exclusion criteria: outlier removal based on Grubbs' test (α=0.05), missing data handling via listwise deletion\n  - Sample sizes: N=15 per condition (P0-1), N=30 per tissue (P0-2), N=25 per group (P1-1)\n  - Weight locking: λ_het and λ_les will be determined in pilot and locked before validation\n- **Deviations:** Any post-registration changes will be documented as a separate version with timestamp and justification."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Sample size calculation",
+    "body": "Sample sizes are calculated using the standard formula for two-group comparison:\n\nn = (Z_α/2 + Z_β)² · σ² / δ²\n\nWhere:\n- Z_α/2 = 1.96 (for α=0.05, two-tailed)\n- Z_β = 0.84 (for power=0.80)\n- σ² = TBD (variance of D₃ measure; to be estimated from pilot data)\n- δ = TBD (minimum detectable effect size; to be determined from pilot data)\n\n**Substitution for primary analyses:**\n- **P0-1 (linear regression):** N=15 per condition (3 conditions → 45 total). Effect size: R²=0.9. Test: F-test with df1=1, df2=N-2. Power calculation performed via G*Power 3.1 (fixed linear regression, α=0.05, power=0.80).\n- **P0-2 (two-way ANOVA):** N=30 per tissue (3 tissues → 90 total). Effect size: Cohen's f²=0.35. Test: interaction term (tissue × time). Power calculation via G*Power 3.1 (ANOVA fixed effects, α=0.05, power=0.80, numerator df=2).\n- **P1-1 (two-sample t-test):** N=25 per group (2 groups → 50 total). Effect size: Cohen's d=0.8. Power calculation via G*Power 3.1 (t-test independent means, α=0.05, power=0.80).\n- **P2-1:** N=TBD (to be estimated from P0-1 pilot data; effect size TBD).\n\n**Note:** The formula above is provided for transparency; actual sample sizes were determined using G*Power 3.1 with the parameters listed. Variance (σ²) and effect size (δ) will be replaced with empirical estimates after pilot data collection."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| Risk ID | Risk Description | Probability (1-5) | Impact (1-5) | Mitigation Strategy |\n|---------|-----------------|-------------------|--------------|---------------------|\n| R1 | D₃ accumulation is not linear with age | 4 | 5 | Pre-register alternative non-linear model; test linear vs. non-linear in pilot (P0-1) |\n| R2 | Tissue weights w₃ are misspecified | 3 | 4 | Sensitivity analysis with bootstrapped CIs; weight locking after pilot |\n| R3 | mtDNA heteroplasmy measurement error | 3 | 3 | Use validated sequencing protocol; technical replicates (N=3 per sample) |\n| R4 | Confounding by other aging counters | 4 | 4 | Include interaction terms (Γ matrix) in MCOA master equation; measure multiple counters |\n| R5 | Sample size insufficient for effect size | 2 | 5 | Power analysis with conservative effect sizes; adaptive design with interim analysis |\n| R6 | Longitudinal attrition in mouse study | 3 | 3 | Oversample by 20%; include survival analysis as secondary endpoint |"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "1. **Tissue heterogeneity:** The model assumes uniform damage accumulation within each tissue type, ignoring cellular subpopulations (e.g., stem cells vs. differentiated cells). Mitigation: Single-cell mtDNA sequencing in a subset of samples (N=5 per tissue) to assess intra-tissue variance.\n2. **Hypothetical τ₃ parameter:** The time-dependent damage rate τ₃ (0.1–0.3/year) is estimated from cross-sectional data; longitudinal validation is required. Mitigation: Planned longitudinal study in mice (P2-1) with measurements at 3 time points.\n3. **Uncalibrated weights λ_het, λ_les:** These weights are set heuristically and will be locked after pilot experiment. Mitigation: Sensitivity analysis with bootstrapped confidence intervals.\n4. **Causal direction not established:** D₃ → aging correlation does not prove causation; reverse causality (aging → D₃) is possible. Mitigation: Intervention studies (e.g., mito-targeted antioxidants) planned as follow-up.\n5. **Model generalizability:** Parameters derived from mouse and human data may not apply to other species. Mitigation: Cross-species validation in yeast and C. elegans planned.\n6. **Measurement noise:** mtDNA heteroplasmy detection has inherent technical noise (error rate ~1%). Mitigation: Technical replicates and error modeling in statistical analysis."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "The following collaborators and institutions are involved in this project (roles and contributions are placeholders pending final agreements):\n- **Lab A [TBD]:** Lead on mtDNA sequencing and heteroplasmy quantification (University/Institute [TBD])\n- **Lab B [TBD]:** Lead on ROS measurement and Seahorse analysis (University/Institute [TBD])\n- **Lab C [TBD]:** Lead on mouse models and longitudinal studies (University/Institute [TBD])\n- **Lab D [TBD]:** Lead on computational modeling and MCOA integration (University/Institute [TBD])\n- **Clinical partner [TBD]:** Human tissue sample collection and clinical data (Hospital/Clinic [TBD])\n- **Data management:** All raw data will be deposited in [TBD repository] upon publication.\n- **Funding:** [TBD funding agency, grant number TBD]"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "replace_text",
+    "find": "**Authors:** [Author List — TBD]\n**Correspondence:** [Corresponding Author Email — TBD]\n**Date:** April 2026",
+    "replace": "**Authors:** [Author List — TBD]\n**Correspondence:** [Corresponding Author Email — TBD]\n**Date:** April 2026\n\n> **Note:** This document contains placeholder values (marked as TBD) where empirical data are not yet available. These placeholders will be replaced with concrete values upon completion of pilot experiments and pre-registration."
+  }
+]

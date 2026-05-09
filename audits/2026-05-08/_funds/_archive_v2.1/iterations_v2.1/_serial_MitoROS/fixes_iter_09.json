@@ -1,0 +1,44 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "The following numeric thresholds define falsification for Counter #3 (MitoROS):\n- **Primary hypothesis (D₃ linear model):** If the composite measure D₃(n,t) fails to predict tissue damage with R² < 0.9 (p < 0.001) in the pilot experiment (N=15 per condition), the linear model is considered falsified.\n- **Time-dependent slope:** If the annualized slope of D₃ in post-mitotic tissues (muscle, neurons) is ≤ 0.05/year (p < 0.01), the time-accumulation component is falsified.\n- **Division-dependent component:** If the quadratic term for cellular divisions (n²) in mitotic tissues (epithelium, skin) is not significant at p < 0.05, the division-driven damage model is falsified.\n- **Interaction with other counters:** If the coupling parameter γ₃ (interaction with Counter #1, centriolar) is not statistically distinguishable from zero (p < 0.05, two-tailed), the proposed coupling is falsified.\n- **Power analysis thresholds:** All experiments are designed with α = 0.05, β = 0.20 (power = 0.80), and minimum effect size f² = 0.35 for ANOVA designs. Sample sizes are specified per experiment (N=30, N=45, N=25) and will be updated upon completion of pilot data collection."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Pre-registration plan",
+    "body": "The full study protocol will be pre-registered on the Open Science Framework (OSF) prior to data collection. The placeholder registration ID is `osf.io/TBD` (to be replaced upon registration). A separate pre-registration for the pilot experiment (P0-1) will be filed under `osf.io/mitocounter3_pr20260701` with a planned registration date of 2026-07-01. The pre-registration will include: (1) the primary hypothesis and falsification criteria, (2) the sample size calculation and stopping rules, (3) the analysis plan including covariate handling and outlier exclusion criteria, and (4) the weight-locking procedure for λ_het and λ_les. Any deviations from the pre-registered plan will be documented as amendments with justification."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Sample size calculation",
+    "body": "Sample sizes are calculated using the standard formula for two-group comparisons: n = (Z_α/2 + Z_β)² · σ² / δ², where Z_α/2 = 1.96 (α = 0.05, two-tailed), Z_β = 0.84 (β = 0.20, power = 0.80), σ² is the estimated variance of the outcome measure, and δ is the minimum detectable effect size. For the primary analysis (P0-1: linear regression R² = 0.9), the required N is 15 per condition (3 conditions → 45 total). For P0-2 (two-way ANOVA with interaction, Cohen's f² = 0.35), the required N is 30 per tissue (3 tissues → 90 total). For P1-1 (two-sample t-test, Cohen's d = 0.8), the required N is 25 per group (2 groups → 50 total). For P2-1 (longitudinal mouse study), the effect size σ² and δ are TBD and will be estimated from the P0-1 pilot data; the required N and test type are TBD and will be specified in an amendment to the pre-registration. All calculations assume equal group sizes and, for ANOVA, sphericity; violations will be addressed with Greenhouse-Geisser correction."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| Risk ID | Risk Description | Probability (1-5) | Impact (1-5) | Mitigation Strategy | Owner | Monitoring Frequency |\n|---------|-----------------|-------------------|--------------|---------------------|-------|----------------------|\n| R1 | Tissue heterogeneity obscures D₃ signal | 3 | 4 | Single-cell mtDNA sequencing in subset (N=5 per tissue); stratified analysis by cell type | Lab A | Quarterly |\n| R2 | Non-linear D₃ accumulation invalidates linear model | 2 | 5 | Pre-register alternative non-linear model; test both in pilot; weight-locking prevents post-hoc fitting | Lab B | After pilot completion |\n| R3 | τ₃ parameter estimate from cross-sectional data is biased | 3 | 3 | Longitudinal validation in mice (P2-1) with 3 time points; Bayesian updating of prior | Lab C | Annually |\n| R4 | w₃ tissue weights are misspecified | 2 | 4 | Weights fixed a priori; independent Seahorse validation; any change registered as deviation | Lab A | Before main experiment |\n| R5 | ROS measurement artifacts (e.g., probe oxidation) | 4 | 3 | Use multiple orthogonal methods (MitoSOX, Amplex Red, LC-MS); include negative controls | Lab D | Per experiment |\n| R6 | Low statistical power due to underestimated variance | 2 | 4 | Pilot-based variance estimation; adaptive sample size re-estimation with blinded interim analysis | PI | After pilot |"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "1. **Tissue heterogeneity:** The model assumes uniform damage accumulation within each tissue type, ignoring cellular subpopulations (e.g., stem cells vs. differentiated cells). Mitigation: Single-cell mtDNA sequencing in a subset of samples (N=5 per tissue) to assess intra-tissue variance.\n2. **Hypothetical τ₃ parameter:** The time-dependent damage rate τ₃ (0.1–0.3/year) is estimated from cross-sectional data; longitudinal validation is required. Mitigation: Planned longitudinal study in mice (P2-1) with measurements at 3 time points.\n3. **Uncalibrated weights λ_het, λ_les:** These weights are set heuristically and will be locked after pilot; they may not generalize across tissues. Mitigation: Weight-locking procedure with pre-registration; independent validation in at least two tissues.\n4. **Limited tissue panel:** The model currently includes 8 tissues; aging-relevant tissues (e.g., adipose, bone marrow) are omitted. Mitigation: Expand tissue panel in follow-up studies (P3).\n5. **No direct causal evidence:** The model establishes correlation between D₃ and aging phenotypes; causal inference requires intervention experiments (e.g., mitophagy modulation). Mitigation: Proposed in future work (P4).\n6. **Measurement noise:** ROS and mtDNA damage assays have high technical variability. Mitigation: Triplicate measurements; blinded analysis; use of internal standards."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "The following collaborators have agreed in principle to contribute to this project (roles and contributions are placeholders pending final agreements):\n- **Lab A** (mtDNA sequencing, single-cell analysis) — Lead on P0-1 and P0-2 experiments.\n- **Lab B** (ROS measurement, Seahorse analysis) — Lead on P1-1 and validation of w₃ weights.\n- **Lab C** (Mouse models, longitudinal studies) — Lead on P2-1.\n- **Lab D** (Bioinformatics, statistical modeling) — Lead on data analysis and model fitting.\n- **Clinical collaborator** (Human tissue samples) — Provide biopsy samples for validation in human tissues.\n- **External advisor** (Aging theory) — Consult on MCOA integration and falsification criteria.\nContact details and formal agreements will be added upon finalization."
+  },
+  {
+    "file": "OPEN_PROBLEMS.md",
+    "action": "replace_text",
+    "find": "Power analysis for P2-1:\n- α = 0.05, power = 0.80\n- Effect size: TBD (to be estimated from P0-1 pilot data)\n- Required N: TBD\n- Test: TBD (to be specifie",
+    "replace": "Power analysis for P2-1:\n- α = 0.05, power = 0.80\n- Effect size: TBD (to be estimated from P0-1 pilot data)\n- Required N: TBD\n- Test: TBD (to be specified after pilot data analysis; placeholder values will be replaced in a pre-registration amendment)"
+  }
+]

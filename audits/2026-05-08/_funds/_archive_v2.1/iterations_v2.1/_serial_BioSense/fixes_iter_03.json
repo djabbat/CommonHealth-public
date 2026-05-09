@@ -1,0 +1,38 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "The following numeric thresholds define conditions under which the core hypothesis (χ_Ze(young) > χ_Ze(elderly)) would be considered falsified:\n- If the mean χ_Ze difference between young and elderly groups is less than X (TBD) after controlling for age, sex, and recording site.\n- If the 95% confidence interval for the difference includes zero at p < 0.001 (Bonferroni-corrected for multiple comparisons across frequency bands).\n- If the effect size (Cohen's d) is below 0.5 in a preregistered replication with N = TBD per group.\n- If the correlation between χ_Ze and chronological age is not negative (r < 0) with p < 0.001 in a sample of N = TBD."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Pre-registration plan",
+    "body": "The primary analysis plan will be preregistered on the Open Science Framework (OSF) prior to any data collection for the validation study. The preregistration ID is placeholder: osf.io/TBD. Planned preregistration date: 2026-12-01 (TBD). The preregistration will include: (a) primary hypothesis, (b) exclusion criteria, (c) analysis pipeline (including frequency band selection and χ_Ze calculation), (d) sample size justification, and (e) planned subgroup analyses."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Sample size calculation",
+    "body": "The required sample size is estimated using the formula for a two-sample t-test (two-tailed, α = 0.001, power = 0.80):\n\nn = (1.96 + 0.84)² · σ² / δ²\n\nWhere:\n- σ² = pooled variance of χ_Ze (placeholder: TBD from pilot data)\n- δ = minimum clinically meaningful difference in χ_Ze (placeholder: TBD)\n- n = required sample size per group\n\nAssuming equal allocation across three groups (young, middle-aged, elderly), total N = 3 × n. Current placeholder N = 161 (n ≈ 54 per group) pending pilot data."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| Risk | Probability | Impact | Mitigation |\n|------|-------------|--------|------------|\n| Low signal-to-noise ratio in wearable EEG | Medium | High | Use validated dry electrodes; apply ICA-based artifact removal; benchmark against wet-electrode data |\n| Ze-theory not replicable across independent labs | Low | Critical | Pre-register analysis; share code and data; invite external replication |\n| Olfactory sensor drift over time | High | Medium | Calibrate daily with reference gas; use baseline correction; replace sensors every 6 months |\n| Participant dropout in longitudinal study | Medium | Medium | Over-recruit by 20%; use mixed-effects models to handle missing data |\n| Confounding by medication or sleep | High | Medium | Collect medication and sleep logs; include as covariates in analysis |"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "- The current validation datasets (N=4) are limited in size and demographic diversity; results may not generalize to broader populations.\n- Ze-theory has not been independently replicated outside the originating lab.\n- The olfactory module is at early design stage; no empirical data on sensor performance in wearable form factor.\n- The 25–35 Hz band, while empirically optimal, may not be universally invariant across all recording hardware or montages.\n- No longitudinal data yet to confirm χ_Ze as a biomarker of aging trajectory rather than cross-sectional age difference.\n- The sample size calculation uses placeholder values for variance and effect size; actual power may differ."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "- **Lead institution:** TBD (placeholder)\n- **EEG hardware partner:** TBD (placeholder)\n- **Olfactory sensor partner:** TBD (placeholder)\n- **Clinical validation sites:** TBD (placeholder)\n- **Data analysis and statistics:** TBD (placeholder)\n- **Regulatory and ethics advisor:** TBD (placeholder)"
+  }
+]

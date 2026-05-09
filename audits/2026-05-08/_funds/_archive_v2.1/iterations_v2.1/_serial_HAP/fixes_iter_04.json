@@ -1,0 +1,38 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "**Prediction #1 (BHCA threshold):** The BHCA score for any bilaterian without a hepatic organ will be ≤X (placeholder X = TBD, based on current baseline of 18/27).\n\n**Prediction #2 (zebrafish KO):** Ablation of hepatocytes in larval zebrafish (Danio rerio) at 5 dpf will reduce affective-like behavior (light/dark transition avoidance) by ≥70% compared to controls, with α=0.01, power=0.80, Cohen's d≥0.7, N=12 per group.\n\n**Prediction #3 (Drosophila):** Knockdown of CYP7A1 homolog in Drosophila fat body will reduce avoidance learning (aversive olfactory conditioning) by ≥60%, with α=0.01, power=0.85, N=15 per group.\n\n**Prediction #4 (mouse conditional KO):** Liver-specific deletion of FXR (Nr1h4) in adult mice will reduce anxiety-like behavior (elevated plus maze, open field) by ≥50%, with α=0.01, power=0.90, N=10 per group.\n\n**Prediction #5 (pharmacological rescue):** Administration of chenodeoxycholic acid (CDCA) to zebrafish KO larvae will restore affective-like behavior to ≥80% of wild-type levels, with α=0.01, power=0.80, N=12 per group.\n\n**Non-falsifiable claim (explicitly noted):** Prediction #1 (absence of affect in all hepatic organ-lacking bilaterians) is not testable in the foreseeable future due to the vast number of species. This is acknowledged as a limitation."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Pre-registration plan",
+    "body": "**OSF registration:** osf.io/TBD (placeholder, to be created upon funding)\n**Planned registration date:** 2026-06-01\n**Pre-registered components:**\n- Primary hypotheses (Predictions #2–5)\n- Sample sizes (N=12, 15, 10, 12)\n- Exclusion criteria: death during experiment, failure to reach ablation threshold (>90% histologically confirmed), outlier behavior (>3 SD from mean)\n- Statistical analysis plan: two-tailed t-test or Mann-Whitney U, with Bonferroni correction for multiple comparisons\n- Deviation criteria: if effect size is smaller than predicted (Cohen's d<0.5), we will report as null result and discuss power limitations"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Sample size calculation",
+    "body": "**Formula:** n = (Zα/2 + Zβ)² · 2σ² / δ²\n\n**Parameters:**\n- α = 0.01 (two-tailed) → Zα/2 = 2.576\n- β = 0.20 (power = 0.80) → Zβ = 0.842\n- σ² = TBD (placeholder, based on pilot data from preliminary experiments)\n- δ = Cohen's d ≥ 0.7 (minimum detectable effect size)\n\n**Example calculation (placeholder):**\nAssuming σ² = 1.0 and δ = 0.7:\nn = (2.576 + 0.842)² · 2 · 1.0 / (0.7)²\nn = (3.418)² · 2 / 0.49\nn = 11.68 · 2 / 0.49\nn ≈ 47.7 per group\n\n**Note:** This calculation yields N≈48 per group for α=0.01, power=0.80, d=0.7. However, the current predictions use N=12, 15, 10, which are inconsistent with this formula. **This is a known discrepancy that must be resolved.** The N values in the Falsifiability section are placeholders based on pilot data from similar experiments (see Mertens et al., 2021 for zebrafish; Yanguas-Casas et al., 2020 for Drosophila). A formal power analysis with actual pilot data will be conducted prior to pre-registration."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| Risk | Probability | Impact | Mitigation |\n|------|-------------|--------|------------|\n| Zebrafish KO line not viable (embryonic lethal) | Medium (0.4) | High (0.8) | Use conditional KO (Tg(fabp10a:CreERT2)) or morpholino knockdown as backup |\n| Ablation efficiency <90% in zebrafish | Medium (0.3) | High (0.7) | Optimize metronidazole concentration (5–10 mM) and exposure time (24–48 h); confirm by qPCR for CYP7A1 and histology |\n| Drosophila fat body knockdown off-target effects | Low (0.2) | Medium (0.5) | Use two independent RNAi lines; validate with qPCR; include rescue experiment with CDCA |\n| Mouse conditional KO shows no behavioral phenotype | Medium (0.4) | High (0.8) | Use multiple behavioral tests (elevated plus maze, open field, light/dark box); include stress-induced tests (forced swim, tail suspension) |\n| Funding not secured for mouse experiments | High (0.6) | High (0.9) | Prioritize zebrafish and Drosophila experiments first; apply for smaller grants (DFG, NIH R03) |\n| BHCA score cannot be raised to ≥24 | Medium (0.3) | Medium (0.6) | Focus on strongest predictions (zebrafish KO and pharmacological rescue); publish partial results |\n| Consortium partners withdraw | Low (0.2) | High (0.8) | Maintain list of backup collaborators; include letters of intent from at least 3 confirmed partners |"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "1. **Non-falsifiability of Prediction #1:** The claim that no bilaterian without a hepatic organ exhibits affect cannot be tested exhaustively. We rely on the BHCA correlation (18/27) and acknowledge this as a theoretical limitation.\n\n2. **Subjective feeling vs. behavior:** Our operational definition (Section 2.1) measures behavioral correlates of affect, not subjective experience. The leap from behavior to feeling is inferential and may be criticized as anthropomorphic.\n\n3. **Tautology risk:** The definition of 'hepatic organ' (Section 2.2) is tailored to fit the hypothesis. We mitigate this by using functional criteria (steroid secretion, barrier function) that are independently verifiable.\n\n4. **Species specificity:** Results from zebrafish, Drosophila, and mouse may not generalize to all bilaterians. We explicitly limit our claims to these model systems.\n\n5. **Developmental confound:** In zebrafish KO experiments, ablation at 5 dpf may affect general development, not just affective circuits. We control for this by measuring locomotor activity and feeding behavior.\n\n6. **Pharmacological rescue specificity:** CDCA may have off-target effects. We include a control group treated with a different bile acid (e.g., lithocholic acid) to test specificity."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "| Partner | Role | Institution | Status |\n|---------|------|-------------|--------|\n| Dr. Jane Smith | Zebrafish behavior | University of Tübingen, Germany | To be confirmed (letter expected) |\n| Dr. John Doe | Drosophila genetics | Max Planck Institute, Germany | To be confirmed (letter expected) |\n| Dr. Maria Garcia | Mouse conditional KO | CNRS, France | To be confirmed (letter expected) |\n| Dr. Ahmed Hassan | BHCA analysis | University of Oxford, UK | To be confirmed (letter expected) |\n| Dr. Elena Petrova | Bioinformatics | Karolinska Institute, Sweden | To be confirmed (letter expected) |\n\n**Note:** All partners are currently TBD. For ERC AdG, at least 2–3 confirmed partners with letters of support are required. At least one partner must be from an EU or associated country."
+  }
+]

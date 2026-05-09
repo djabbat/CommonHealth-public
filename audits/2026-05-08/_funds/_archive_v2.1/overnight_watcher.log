@@ -1,0 +1,11 @@
+[2026-05-08 16:14:46] ==========================================
+[2026-05-08 16:14:46] OVERNIGHT WATCHER START (PROMPT v2)
+[2026-05-08 16:14:46] Stop with: touch /tmp/STOP_AUDIT_FUNDS
+[2026-05-08 16:14:46] ==========================================
+[2026-05-08 16:14:46] === PASS 3 START → log: /home/oem/Desktop/AUDIT_FUNDS_2026-05-08/logs/serial_v2_pass3.log ===
+[2026-05-08 17:38:04] === PASS 3 CRASHED (exit 143) — retry in 90s ===
+[2026-05-08 17:39:34] === PASS 3 START → log: /home/oem/Desktop/AUDIT_FUNDS_2026-05-08/logs/serial_v2_pass3.log ===
+[2026-05-08 18:42:23] STOP file detected after pass 3 — exiting watcher
+[2026-05-08 18:42:23] ==========================================
+[2026-05-08 18:42:23] OVERNIGHT WATCHER STOPPED
+[2026-05-08 18:42:23] ==========================================

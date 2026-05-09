@@ -1,7 +1,7 @@
 # HAP — TODO
 
-**Проект:** HepatoAffect Principle (HAP Strong v4.0)  
-**Статус:** CONCEPT готов; рукопись в подготовке → *Biological Reviews* (IF ~10)  
+**Проект:** HepatoAffect Principle (HAP Strong v4.0) 
+**Статус:** CONCEPT готов; рукопись в подготовке → *Biological Reviews* (IF ~10) 
 **Дата:** 2026-04-14
 
 ---

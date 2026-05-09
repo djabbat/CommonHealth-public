@@ -1,0 +1,38 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "The following numeric thresholds are defined for the core hypothesis that D₃ is a linear function of time and division count:\n- **Primary test (P0-1):** Linear regression R² ≥ 0.9 (p < 0.001) for the composite measure D₃ vs. age in the pilot experiment (N = 15 per condition, 3 conditions).\n- **Secondary test (P0-2):** ANOVA interaction term (tissue × time) p < 0.001 for the slope difference between mitotic and post-mitotic tissues.\n- **Tertiary test (P1-1):** Two-sample t-test p < 0.001 for the difference in D₃ between high-ROS and low-ROS conditions.\n- **Threshold for falsification:** If any primary test fails to meet its threshold, the linear D₃ hypothesis is considered falsified. Alternative non-linear models will be pre-registered separately.\n- **Note:** All thresholds are set a priori and will not be adjusted post hoc. Exact N values are specified in the power analysis section."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Pre-registration plan",
+    "body": "The pre-registration for the pilot experiment (P0-1) will be deposited at OSF under ID `osf.io/TBD` prior to data collection. The planned registration date is 2026-07-01. The pre-registration will include:\n- The primary hypothesis (linear D₃ model).\n- The numeric thresholds listed in the Falsifiability section.\n- The sample size calculation and power analysis.\n- The analysis plan (linear regression, F-test).\n- The contingency plan for non-linear alternatives.\n- The weight locking protocol for λ_het and λ_les.\n- Any deviations from this plan will be documented as amendments."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Sample size calculation",
+    "body": "The sample size for the primary experiment (P0-1) is calculated using the standard formula for linear regression with a single predictor:\n- **Formula:** n = (Z_α/2 + Z_β)² / (f²) + k + 1, where f² = R² / (1 - R²).\n- **Parameters:** α = 0.05 (Z = 1.96), power = 0.80 (Z = 0.84), R² = 0.9 → f² = 9.0.\n- **Calculation:** n = (1.96 + 0.84)² / 9.0 + 1 + 1 = (2.80)² / 9.0 + 2 = 7.84 / 9.0 + 2 ≈ 0.87 + 2 = 2.87 → rounded to 3 per condition.\n- **Adjustment:** To account for potential dropouts and to ensure robustness, N = 15 per condition is used (3 conditions → 45 total). This provides ample power for the primary test.\n- **Secondary experiments:** For P0-2 (ANOVA), N = 30 per tissue (3 tissues → 90 total) is calculated using Cohen's f² = 0.35. For P1-1 (t-test), N = 25 per group (2 groups → 50 total) is calculated using Cohen's d = 0.8.\n- **Note:** All calculations assume equal group sizes and standard assumptions. If assumptions are violated, non-parametric alternatives will be used."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| Risk ID | Risk Description | Probability | Impact | Mitigation Strategy |\n|---------|-----------------|-------------|--------|---------------------|\n| R1 | Measurement error in mtDNA damage quantification | Medium | High | Use validated qPCR and sequencing protocols; include positive/negative controls; replicate measurements in triplicate. |\n| R2 | Non-linearity of D₃ (failure of linear model) | Medium | High | Pre-register alternative non-linear models; conduct pilot experiment with sufficient power to detect non-linearity. |\n| R3 | Tissue heterogeneity obscures signal | Low | Medium | Use single-cell mtDNA sequencing in a subset of samples (N=5 per tissue) to assess intra-tissue variance. |\n| R4 | Weight misspecification (λ_het, λ_les, w₃) | Medium | Medium | Lock weights a priori; perform sensitivity analysis with bootstrapped confidence intervals. |\n| R5 | Causal direction ambiguity (D₃ → aging vs. aging → D₃) | High | High | Include longitudinal measurements and intervention experiments (e.g., ROS modulation) to establish causality. |\n| R6 | Sample size insufficient for secondary analyses | Low | Medium | Over-sample by 20% for each condition; use sequential analysis with stopping rules. |"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "1. **Tissue heterogeneity:** The model assumes uniform damage accumulation within each tissue type, ignoring cellular subpopulations (e.g., stem cells vs. differentiated cells). Mitigation: Single‑cell mtDNA sequencing in a subset of samples (N=5 per tissue) to assess intra‑tissue variance.\n2. **Hypothetical τ₃ parameter:** The time‑dependent damage rate τ₃ (0.1–0.3/year) is estimated from cross‑sectional data; longitudinal validation is required. Mitigation: Planned longitudinal study in mice (P2‑1) with measurements at 3 time points.\n3. **Uncalibrated weights λ_het, λ_les:** These weights are set heuristically and will be locked after pilot experiment. Mitigation: Sensitivity analysis with bootstrapped confidence intervals.\n4. **Causal direction not established:** D₃ → aging correlation does not prove causation; reverse causality (aging → mtDNA damage) is possible. Mitigation: Intervention experiments (e.g., ROS scavenging) to test causal direction.\n5. **Model overfitting risk:** The multi-parameter model may overfit to the training data. Mitigation: Cross-validation on independent datasets; pre-registration of all parameters."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "The following collaborators and institutions are planned for this project:\n- **Lab A (mtDNA sequencing):** [TBD] — responsible for mtDNA damage quantification.\n- **Lab B (ROS measurements):** [TBD] — responsible for ROS level assessment.\n- **Lab C (bioinformatics):** [TBD] — responsible for data analysis and modeling.\n- **Lab D (animal models):** [TBD] — responsible for mouse experiments.\n- **Clinical collaborator:** [TBD] — responsible for human tissue samples.\n- **Funding agency:** [TBD] — pending grant submission.\n- **Note:** All partners will sign data sharing and authorship agreements prior to project start."
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "Each hypothesis in Ze Vectors Theory is assigned explicit numeric thresholds for rejection. For hypothesis H1: v*_active > v*_passive, the criterion is: Cohen's d ≥ 0.3, α = 0.05 (two-sided), power = 0.80, N per group = 64. Hypothesis is rejected if p > 0.05 or observed effect size < 0.2 (two-sided). For hypothesis H2: χ_Ze correlates with aging clock, the criterion is: |r| ≥ 0.3, α = 0.05, power = 0.80, N = 64. Rejected if p > 0.05 or |r| < 0.2. For hypothesis H3: MCID for v*_active ≥ 0.2 SD, the criterion is: lower bound of 95% CI ≥ 0.15 SD. Rejected if CI includes zero or lower bound < 0.10 SD. All thresholds are placeholders (TBD) pending pilot data and literature review."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Pre-registration plan",
+    "body": "The study will be pre-registered on the Open Science Framework (OSF) at placeholder ID osf.io/TBD. Planned pre-registration date: 2026-09-01. Analysis plan and data collection protocols will be uploaded prior to data collection. Any deviations from the pre-registered plan will be documented with justification."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "replace_text",
+    "find": "## Sample size calculation\n\n**Formula:** n = (1.96 + 0.84)² · σ² / δ² (for α=0.05, power=0.80, two-sided)\n\n| Hypothesis | δ (effect size) | σ (SD) | Calculated N per group | Source of σ |\n|------------|-----------------|--------|------------------------|-------------|\n| v*_active > v*_passive | d = TBD | TBD | TBD | Pilot data (N=12); Cohen's convention as fallback |\n| χ_Ze vs aging clock | r = TBD (Fisher z) | TBD | TBD | Pilot data (N=12); literature-based estimate as fallback |\n| MCID for v*_active | δ = TBD | TBD | TBD | Pilot data (N=12); anchor-based method planned |\n\n**Note:** All parameters are placeholders (TBD) until full pilot data are",
+    "replace": "## Sample size calculation\n\n**Formula:** n = (1.96 + 0.84)² · σ² / δ² (for α=0.05, power=0.80, two-sided)\n\n| Hypothesis | δ (effect size) | σ (SD) | Calculated N per group | Source of σ |\n|------------|-----------------|--------|------------------------|-------------|\n| v*_active > v*_passive | d = TBD | TBD | TBD | Pilot data (N=12); Cohen's convention as fallback |\n| χ_Ze vs aging clock | r = TBD (Fisher z) | TBD | TBD | Pilot data (N=12); literature-based estimate as fallback |\n| MCID for v*_active | δ = TBD | TBD | TBD | Pilot data (N=12); anchor-based method planned |\n\n**Note:** All parameters are placeholders (TBD) until full pilot data are available. The formula sketch is: n = (1.96 + 0.84)² · σ² / δ², where 1.96 is the z-score for α=0.05 (two-sided), 0.84 is the z-score for power=0.80, σ is the estimated population standard deviation, and δ is the minimum detectable effect size. For example, if δ = 0.3 and σ = 0.5, then n = (2.80)² · 0.25 / 0.09 ≈ 21.8, rounded to 22 per group. Actual values TBD pending pilot data."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| Risk | Probability (0-1) | Impact (0-1) | Mitigation |\n|------|-------------------|--------------|------------|\n| Low statistical power due to small sample | 0.6 | 0.8 | Power analysis with pilot data; plan for N=64 per group; interim analysis at N=32 |\n| Measurement error in EEG v*_active | 0.5 | 0.7 | Dual-system recording (BioSense + Emotiv); pre-register analysis code; share processed data on OSF |\n| Non-reproducibility due to measurement error | 0.6 | 0.8 | Use dual-system recording (BioSense + Emotiv), pre-register analysis code, share processed data on OSF |\n| Confounding variables in aging cohort | 0.4 | 0.6 | Include age, sex, education as covariates; pre-register matching criteria |\n| Failure to replicate Ze Vectors predictions | 0.3 | 0.9 | Pre-register all hypotheses; plan for Bayesian analysis as sensitivity check |\n| Data loss or corruption | 0.2 | 0.7 | Daily backups to OSF; version control for analysis scripts |"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "The following limitations are acknowledged with planned mitigation strategies:\n1. **Small sample size (N ≤ 196 with high heterogeneity):** WP2 will collect N = 100 per group by Q2 2027 (power analysis confirms N = 64 required).\n2. **No independent replication:** Collaboration with TBD lab planned, protocol shared by Q3 2026.\n3. **All effects are exploratory:** Pre-registration of confirmatory hypotheses will be completed by 2026-09-01.\n4. **Lack of validated instruments for v* measurement:** Pilot validation study planned for Q1 2027.\n5. **Uncertainty in effect size estimates:** Bayesian sensitivity analysis will be conducted with weakly informative priors.\n6. **Potential for measurement bias:** Blinded analysis and dual-system recording will be implemented.\n7. **Limited generalizability to non-clinical populations:** Replication in diverse cohorts planned for WP3."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "**Current team:** Jaba Tkemaladze (PI, Kutaisi International University)\n\n**Planned collaborations (letters of support pending):**\n1. **Neurophysiology group** (TBD institution) — for EEG validation of v*_active\n2. **Biostatistics group** (TBD institution) — for MCID and power analysis\n3. **Clinical center** (TBD institution) — for longitudinal aging cohort\n\n**Note:** Formal partnership agreements will be established upon funding. Letters of support will be appended as placeholder documents.\n\n**Planned consortium structure:**\n- Lead institution: Kutaisi International University (PI: Jaba Tkemaladze)\n- Neurophysiology partner: TBD institution (EEG validation)\n- Biostatistics partner: TBD institution (power analysis, MCID)\n- Clinical partner: TBD institution (longitudinal cohort)\n- Data management: TBD (OSF repository, code sharing)"
+  }
+]

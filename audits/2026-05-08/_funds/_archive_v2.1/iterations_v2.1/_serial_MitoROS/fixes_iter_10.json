@@ -1,0 +1,44 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "The model generates the following falsifiable predictions:\n- **Prediction 1:** In mitotic tissues (e.g., epithelium), D₃(n, t) will increase linearly with cumulative cell divisions (n) at a rate of α₃ = X per division, with R² > 0.9 in a cohort of N = TBD samples.\n- **Prediction 2:** In post-mitotic tissues (e.g., neurons), D₃(n, t) will increase with time (t) at a rate of τ₃ = 0.1–0.3/year, with p < 0.001 for the time coefficient in a longitudinal study of N = TBD subjects over TBD years.\n- **Prediction 3:** The interaction term γ₃ with Counter #1 (centriolar damage) will be non-zero (p < 0.01) in tissues with high mitotic activity, as tested by multiple regression with N = TBD.\n- **Prediction 4:** The composite measure D₃ will correlate with chronological age with a Pearson r > 0.8 in a cross-sectional sample of N = TBD individuals aged 20–80 years.\n- **Prediction 5:** Pharmacological reduction of mtROS (e.g., with MitoQ) will slow the accumulation rate of D₃ by at least 50% in a randomized controlled trial of N = TBD per group (p < 0.05)."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Pre-registration plan",
+    "body": "The primary analysis plan for Counter #3 validation will be pre-registered on the Open Science Framework (OSF) prior to data collection. The pre-registration will include:\n- **OSF ID:** osf.io/TBD (to be assigned upon registration)\n- **Planned registration date:** 2026-09-01\n- **Primary hypothesis:** D₃(n, t) = α₃·n + β₃·t + γ₃·(n·t) will explain > 90% of variance in composite mtDNA damage across tissues.\n- **Secondary hypotheses:** (1) Tissue-specific weights w₃ will differ significantly (p < 0.05) between mitotic and post-mitotic tissues. (2) The interaction term γ₃ with Counter #1 will be non-zero.\n- **Analysis plan:** Linear mixed-effects models with tissue as random intercept, fixed effects for n and t, and F-tests for significance. Power analysis: N = 45 (15 per tissue type) to detect R² = 0.9 with α = 0.05 and power = 0.80.\n- **Exclusion criteria:** Samples with > 20% missing data or technical failures in mtDNA sequencing will be excluded. Any deviations from this plan will be documented as a post-hoc analysis."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Sample size calculation",
+    "body": "Sample sizes for the primary validation study were calculated using the following formula for a linear regression with a single predictor:\n\\[ n = \\frac{(Z_{1-\\alpha/2} + Z_{1-\\beta})^2 \\cdot \\sigma^2}{\\delta^2} \\]\nwhere:\n- Z_{1-α/2} = 1.96 (for α = 0.05, two-tailed)\n- Z_{1-β} = 0.84 (for power = 0.80)\n- σ² = TBD (variance of D₃, to be estimated from pilot data)\n- δ = TBD (minimum detectable effect size, set to 0.5 SD of D₃)\n\nFor the primary hypothesis (R² = 0.9), the required sample size is N = 15 per condition (3 conditions → 45 total), assuming a strong effect size (Cohen's f² = 0.9). For secondary analyses (ANOVA with interaction), N = 30 per tissue (3 tissues → 90 total) is required to detect a large effect (Cohen's f² = 0.35). These calculations assume equal group sizes and will be updated if pilot data indicate different variance structures."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| Risk ID | Probability | Impact | Description | Mitigation |\n|---------|-------------|--------|-------------|------------|\n| R1 | Medium | High | Tissue heterogeneity: model assumes uniform damage within tissue, ignoring cell subtypes | Single-cell mtDNA sequencing in N=5 samples per tissue to assess intra-tissue variance |\n| R2 | High | High | Non-linearity of D₃: damage may not follow linear accumulation | Pre-register alternative non-linear model; test linear vs. non-linear with AIC/BIC |\n| R3 | Medium | Medium | Hypothetical τ₃ parameter: estimated from cross-sectional data, may not hold longitudinally | Longitudinal study in mice (P2-1) with 3 time points; update τ₃ if needed |\n| R4 | Low | Medium | Weight misspecification: λ_het and λ_les set heuristically | Lock weights in pilot; if R² < 0.9, register alternative weights as separate pre-registration |\n| R5 | Low | Low | Measurement error in mtDNA damage assays | Use triplicate measurements; report intra-class correlation coefficient (ICC) |"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "1. **Tissue heterogeneity:** The model assumes uniform damage accumulation within each tissue type, ignoring cellular subpopulations (e.g., stem cells vs. differentiated cells). Mitigation: Single-cell mtDNA sequencing in a subset of samples (N=5 per tissue) to assess intra-tissue variance.\n2. **Hypothetical τ₃ parameter:** The time-dependent damage rate τ₃ (0.1–0.3/year) is estimated from cross-sectional data; longitudinal validation is required. Mitigation: Planned longitudinal study in mice (P2-1) with measurements at 3 time points.\n3. **Uncalibrated weights λ_het, λ_les:** These weights are set heuristically and may not generalize across tissues or species. Mitigation: Weights will be locked after pilot experiment (N=15 per condition); if R² < 0.9, alternative weights will be pre-registered.\n4. **Limited species generalizability:** The model is parameterized from human and mouse data; applicability to other mammals is untested. Mitigation: Cross-species validation in N=3 additional species (e.g., rat, dog, monkey) planned for future work.\n5. **Ignored epigenetic feedback:** The model does not account for epigenetic regulation of mtDNA repair, which may modulate damage accumulation. Mitigation: Exploratory analysis of DNA methylation at mtDNA repair genes in a subset of samples (N=10)."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "This work is supported by the following partners (list to be finalized):\n- **Lead institution:** [Institution Name — TBD]\n- **Funding source:** [Grant Number — TBD]\n- **Collaborators:** [Name 1 — TBD], [Name 2 — TBD], [Name 3 — TBD]\n- **Data repository:** OSF (osf.io/TBD)\n- **Code repository:** GitHub ([URL — TBD])\n- **Contact:** [Corresponding Author Email — TBD]"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "replace_text",
+    "find": "**Authors:** [Author List — TBD]\n**Correspondence:** [Corresponding Author Email — TBD]\n**Date:** April 2026",
+    "replace": "**Authors:** [Author List — TBD]\n**Correspondence:** [Corresponding Author Email — TBD]\n**Date:** April 2026\n**Pre-registration:** osf.io/TBD (planned 2026-09-01)"
+  }
+]

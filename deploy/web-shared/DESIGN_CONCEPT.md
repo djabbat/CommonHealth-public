@@ -9,26 +9,26 @@
 
 ```
 ┌──────────────────────────────────────────────────┐
-│ .eco-bar-injected                                │ ← sticky cross-site nav
-│   (LongevityCommon | Home | MCOA | … | Source ☾) │
+│ .eco-bar-injected │ ← sticky cross-site nav
+│ (LongevityCommon | Home | MCOA | … | Source ☾) │
 ├──────────────────────────────────────────────────┤
-│ .hero / .lc-sub-hero                             │ ← indigo gradient banner
-│   - .hero-pill (зелёная точка + tag)             │
-│   - .hero-title (clamp 2.5–3.75rem)              │
-│   - .hero-subtitle                               │
-│   - .hero-stats > .s > .k+.v (опц.)              │
-│   - .hero-cta > .btn.btn-primary + .btn-ghost    │
+│ .hero / .lc-sub-hero │ ← indigo gradient banner
+│ - .hero-pill (зелёная точка + tag) │
+│ - .hero-title (clamp 2.5–3.75rem) │
+│ - .hero-subtitle │
+│ - .hero-stats > .s > .k+.v (опц.) │
+│ - .hero-cta > .btn.btn-primary + .btn-ghost │
 ├──────────────────────────────────────────────────┤
-│ <header class="header"> own-header               │ ← brand + nav + lang
-│   - .brand (logo)                                │
-│   - <nav> in-site links                          │
-│   - <form class="lang-switcher"> справа          │
+│ <header class="header"> own-header │ ← brand + nav + lang
+│ - .brand (logo) │
+│ - <nav> in-site links │
+│ - <form class="lang-switcher"> справа │
 ├──────────────────────────────────────────────────┤
-│ <main class="container"> page content            │ ← max-width 1100px
-│   - .section-title + .section-lead               │
-│   - .grid > .card.link > .role + h3 + p          │
+│ <main class="container"> page content │ ← max-width 1100px
+│ - .section-title + .section-lead │
+│ - .grid > .card.link > .role + h3 + p │
 ├──────────────────────────────────────────────────┤
-│ <footer> native                                  │ ← никаких extra-баров
+│ <footer> native │ ← никаких extra-баров
 └──────────────────────────────────────────────────┘
 ```
 
@@ -87,12 +87,12 @@ linear-gradient(135deg, #064e3b 0%, #047857 50%, #10b981 100%)
 
 | Функция | Вызывается | Работа |
 |---|---|---|
-| `injectSubHero()` | ze, biosense, fclc, mcoa, cdata, hive | Вставляет indigo `.lc-sub-hero` после eco-bar (текст из `SUB_HERO[host]`). |
-| `injectOwnHeader()` | longevity.ge, mcoa, cdata | Создаёт `<header class="header lc-own-header">` если нативного нет (контент из `INJECTED_NAV[host]`). |
-| `relocateOwnHeader()` | ze, biosense, fclc, hive (skip AIM) | Двигает существующий `<header>` сразу под hero. |
-| `addLangToOwnHeader()` | все кроме AIM | Добавляет `<form class="lang-switcher"><select>` в первый `<header>` (любой не-eco-bar). |
-| `dedupeHiveHero()` | hive | Скрывает native `<section class="hero">` (display:none). |
-| `forceHeroBranding()` | home, AIM | Inline `color:#fff !important` на каждом потомке `.hero`. |
+| `injectSubHero` | ze, biosense, fclc, mcoa, cdata, hive | Вставляет indigo `.lc-sub-hero` после eco-bar (текст из `SUB_HERO[host]`). |
+| `injectOwnHeader` | longevity.ge, mcoa, cdata | Создаёт `<header class="header lc-own-header">` если нативного нет (контент из `INJECTED_NAV[host]`). |
+| `relocateOwnHeader` | ze, biosense, fclc, hive (skip AIM) | Двигает существующий `<header>` сразу под hero. |
+| `addLangToOwnHeader` | все кроме AIM | Добавляет `<form class="lang-switcher"><select>` в первый `<header>` (любой не-eco-bar). |
+| `dedupeHiveHero` | hive | Скрывает native `<section class="hero">` (display:none). |
+| `forceHeroBranding` | home, AIM | Inline `color:#fff !important` на каждом потомке `.hero`. |
 | `MutationObserver + setTimeout reapply` | все | Перевыполняет инжекторы если LiveView morphdom стёр. |
 
 ## 6. CSP-контракт для Phoenix-приложений
@@ -101,10 +101,10 @@ linear-gradient(135deg, #064e3b 0%, #047857 50%, #10b981 100%)
 
 ```
 default-src 'self' https://longevity.ge;
-script-src  'self' https://longevity.ge;
-style-src   'self' 'unsafe-inline' https://fonts.googleapis.com https://fonts.gstatic.com;
-font-src    'self' https://fonts.googleapis.com https://fonts.gstatic.com;
-img-src     'self' data: https://longevity.ge;
+script-src 'self' https://longevity.ge;
+style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://fonts.gstatic.com;
+font-src 'self' https://fonts.googleapis.com https://fonts.gstatic.com;
+img-src 'self' data: https://longevity.ge;
 connect-src 'self' wss: https://longevity.ge;
 ```
 

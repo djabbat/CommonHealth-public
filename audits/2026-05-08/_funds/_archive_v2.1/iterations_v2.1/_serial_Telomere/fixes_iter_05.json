@@ -1,0 +1,32 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk Matrix",
+    "body": "| Risk | Probability (1-5) | Impact (1-5) | Mitigation |\n|------|-------------------|--------------|------------|\n| Неопределённость τ₂ | 4 | 4 | Запланировать OP-T1 для прямой оценки |\n| Неудача разделения α₂/β₂ in vivo | 3 | 5 | Принять reduced model (единый effective rate) |\n| Отсутствие значимого вклада теломер в некоторых тканях | 2 | 3 | Ограничить область применения модели тканями с высоким turnover |\n| Сложность получения single-cell Q-FISH данных | 3 | 3 | Использовать альтернативные методы (TIF assay + qPCR) |\n| Статистическая мощность недостаточна для OP-T2 | 2 | 4 | Предусмотреть увеличение N в power analysis |"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / Partners",
+    "body": "Potential partners: [Lab A – single-cell telomere imaging], [Lab B – mouse models], [Lab C – bioinformatics]. Formal agreements to be established after funding."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "insert_after_line",
+    "line_anchor": "## 1. Counter Identity and Integration within MCOA",
+    "body": "\n**Clarification:** The variable D₂ is defined as a tissue-average or population-average measure of telomere length deviation. The current model does not explicitly account for the distribution of telomere lengths within a cell population; this limitation is addressed in OP-T1.\n"
+  },
+  {
+    "file": "PARAMETERS.md",
+    "action": "insert_after_line",
+    "line_anchor": "τ₂",
+    "body": "\n**Note:** τ₂ is currently labeled as \"Hypothesized (Very Poor)\". A concrete plan for its estimation is provided in OP-T1, with a target timeline of within the first 12 months of the project.\n"
+  },
+  {
+    "file": "OPEN_PROBLEMS.md",
+    "action": "replace_text",
+    "find": "Effect size: expected α₂",
+    "replace": "Effect size: expected α₂ contribution vs β₂ contribution. The test requires two-photon imaging or equivalent equipment for in vivo visualization."
+  }
+]

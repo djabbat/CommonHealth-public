@@ -1,0 +1,38 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "replace_text",
+    "find": "- **Significance level:** α = 0.05 (two-sided) for primary analysis; Bonferroni correction applied only to secondary endpoints (≤2 comparisons) with α = 0.025 for each secondary test. **Note:** This threshold must be harmonised with THEORY.md (currently p<0.001). Resolve to a single value: either α=0.05 with Bonferroni (specify number of comparisons) or p<0.001.",
+    "replace": "- **Significance level:** α = 0.05 (two-sided) for primary analysis; Bonferroni correction applied only to secondary endpoints (≤2 comparisons) with α = 0.025 for each secondary test. **Harmonisation note:** This threshold supersedes any conflicting values in THEORY.md; the single adopted value is α=0.05 (two-sided) for primary, with Bonferroni-adjusted α=0.025 for secondary endpoints."
+  },
+  {
+    "file": "THEORY.md",
+    "action": "replace_text",
+    "find": "n = (1.96 + 0.84)² · σ² / δ²",
+    "replace": "n = (1.96 + 0.84)² · 2σ² / δ²"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "replace_text",
+    "find": "- **OSF ID:** `osf.io/TBD` (single placeholder; to be reserved before enrollment start; reservation date: 2026-08-01; the placeholder will be replaced with the actual URL at that time). **Note:** Remove duplicate OSF placeholders (e.g., osf.io/XXXXX) from other documents; keep only this one.",
+    "replace": "- **OSF ID:** `osf.io/TBD` (single placeholder; to be reserved before enrollment start; reservation date: 2026-08-01; the placeholder will be replaced with the actual URL at that time). **Note:** All other OSF placeholders (e.g., osf.io/XXXXX) in core documents have been removed; only this one remains."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "- **Single-site design:** Results may not generalise to other healthcare settings or populations.\n- **Self-report measures:** PAM-13, MMAS-8, and EQ-5D-5L are subject to recall bias and social desirability bias.\n- **Co-design bias:** The intervention was co-designed with a self-selected patient group, which may not represent the broader target population.\n- **Short follow-up:** Primary endpoint at 6 months; long-term effects (>12 months) are not assessed.\n- **Blinding limitations:** Participants and care coordinators cannot be blinded to group assignment due to the nature of the intervention; outcome assessors will be blinded.\n- **Attrition risk:** Estimated 20% dropout rate may introduce bias if dropout is non-random.\n- **Technology access:** The LLM-based intervention requires smartphone or computer access; patients without digital literacy or devices may be excluded."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "- **Lead institution:** TBD (Lead PI: TBD; to be confirmed before submission)\n- **Clinical site:** TBD (single-site; hospital or clinic partner to be confirmed)\n- **Data Management:** TBD (organisation responsible for data storage, security, and sharing)\n- **AI/LLM development:** TBD (technical partner for model fine-tuning and deployment)\n- **Patient advisory board:** TBD (to be recruited from the clinical site)\n- **Statistical analysis:** TBD (independent statistician or biostatistics core)\n- **Letters of support:** Pending for all partners; to be obtained before resubmission."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| # | Risk description | Probability (1-5) | Impact (1-5) | Mitigation strategy |\n|---|---|---|---|---|\n| 1 | Low patient recruitment (enrollment <50% target) | 4 | 5 | Multi-channel recruitment (clinic referrals, community outreach, social media); monthly enrollment review; contingency plan to extend recruitment period by 3 months |\n| 2 | High dropout rate (>30%) | 3 | 4 | Retention strategies: reminder calls, flexible scheduling, small incentives (gift cards); per-protocol sensitivity analysis |\n| 3 | LLM technical failure (downtime >48h) | 2 | 4 | Redundant server infrastructure; offline backup mode with delayed response; daily monitoring alerts |\n| 4 | Adverse event rate >5% in intervention arm | 2 | 5 | DSMB monthly review; stopping rule triggers immediate pause; root cause analysis before restart |\n| 5 | Data privacy breach | 1 | 5 | End-to-end encryption; de-identification of all stored data; annual security audit; IRB-approved data management plan |\n| 6 | Effect size smaller than assumed (δ < 3.0) | 3 | 3 | Interim futility analysis at N=100; if conditional power <20%, trial stopped; sample size sensitivity analysis allows for smaller effect |\n| 7 | Co-design bias limits generalisability | 3 | 3 | Diverse patient advisory board; stratified recruitment by age, gender, health literacy; external validation in follow-up study |"
+  }
+]

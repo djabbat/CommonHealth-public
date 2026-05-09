@@ -1,0 +1,38 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "The following numeric thresholds are defined for the primary hypothesis (M1: AI-operated microscopy achieves ≥80% trained-technician supervision quality):\n- **Primary endpoint:** Concordance between AI and human decisions ≥ 0.80 (Cohen's kappa or simple agreement rate).\n- **Secondary endpoint:** System uptime ≥ 0.90 over any 7-day continuous run.\n- **Contamination rate:** < 0.03 (3%) of wells per 7-day run.\n- **Cost threshold:** Total BOM ≤ $4,500.\n- **Sample size for contamination endpoint:** N = TBD (placeholder; to be determined from pilot data).\n- **Design effect (DE):** TBD (placeholder; to be estimated from intra-class correlation in pilot).\n- **Statistical significance:** p < 0.001 for primary endpoint (Bonferroni-adjusted for multiple comparisons).\n- **Power:** 0.80 (β = 0.20)."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Pre-registration plan",
+    "body": "- **OSF ID:** osf.io/TBD (placeholder).\n- **Planned registration date:** 2026-06-01.\n- **Contents:** Full protocol, analysis plan, sample size justification, and data management plan."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "replace_text",
+    "find": "n = (Z_α/2 + Z_β)² · σ² / δ²\n\nWhere:\n- Z_α/2 = 1.96 (α = 0.05, two-tailed)\n- Z_β = 0.84 (β = 0.20, 80% power)\n- σ² = TBD (estimated variance from pilot data or literature)\n- δ = TBD (minimum clinically meaningful difference in agreement rate)\n\n**Placeholder values:** n = TBD (to be updated after pilot study, N ≥ 3 independent experiments).",
+    "replace": "n = (Z_α/2 + Z_β)² · σ² / δ²\n\nWhere:\n- Z_α/2 = 1.96 (α = 0.05, two-tailed)\n- Z_β = 0.84 (β = 0.20, 80% power)\n- σ² = placeholder (to be estimated from pilot data or literature)\n- δ = placeholder (minimum clinically meaningful difference in agreement rate)\n\n**Sample size:** n = TBD (to be updated after pilot study, N ≥ 3 independent experiments)."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| # | Risk | Probability | Impact | Mitigation |\n|---|------|-------------|--------|------------|\n| 1 | AI model drift over long experiments | Medium | High | Weekly validation against held-out human-annotated dataset; automatic retraining trigger if concordance < 0.75 |\n| 2 | Environmental chamber failure (temp/CO₂) | Low | Critical | Dual redundant sensors; UPS backup; remote alarm via WireGuard VPN; manual intervention protocol |\n| 3 | Stage motor failure or drift | Low | High | Daily calibration check; spare stepper motor on hand; emergency manual stage control |\n| 4 | Contamination (fungal/bacterial) | Medium | High | Sterile technique during media changes; UV sterilization cycle between runs; contamination monitoring via brightfield |\n| 5 | Data loss (NAS failure) | Low | Critical | RAID 1 NAS + daily off-site backup to LongevityCommon cloud; journaled file system |\n| 6 | Camera sensor degradation | Low | Medium | Annual flat-field calibration; spare camera available; replacement budget $1,500"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "1. **Sample stability:** Protocol assumes ≥3 weeks stability; degradation beyond this window not validated.\n2. **Imaging frequency:** ≤2/hour; not suitable for fast dynamic processes (e.g., calcium imaging, mitosis tracking).\n3. **Environmental control:** ±0.5°C, ±0.5% CO₂; not suitable for experiments requiring tighter tolerances.\n4. **No physical manipulation:** Media changes and drug additions are human-performed; no on-platform liquid handling.\n5. **AI generalizability:** Claude Code agent trained on general microscopy knowledge; performance on novel cell types or protocols not yet validated.\n6. **Single microscope:** Validation performed on one Zeiss IM 35; reproducibility across different hardware not tested.\n7. **Fluorescence photobleaching:** Long-term time-lapse may cause phototoxicity; protocol uses low-intensity LED and minimal exposure.\n8. **Batch effects:** Pilot data only; inter-experiment variability not fully characterized."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "| Partner | Role | Status |\n|---------|------|--------|\n| LongevityCommon | Lead, funding, data infrastructure | Confirmed |\n| University of Bristol | Biological validation, cell culture | Confirmed |\n| Zeiss (microscopy division) | Technical advisory, spare parts | TBD |\n| FLIR (camera division) | Camera calibration support | TBD |\n| ThorLabs | LED illuminator supply | Confirmed |\n| OpenTrons | Liquid handling integration (future) | Exploratory |"
+  }
+]

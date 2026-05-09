@@ -1,31 +1,34 @@
-# AIM v7.0
+# AIM v8.0 — Architecture Integration Matrix
 
-Гибридный медицинский ассистент. 4 LLM-провайдера · 9 языков · SQLite.
+**Сердце экосистемы LongevityCommon.** Не AI. Не медицина. Интеграционный хаб.
 
-## Провайдеры
+## Что это
 
-| Провайдер | Задача | Ключ |
-|-----------|--------|------|
-| Groq | Быстрые ответы (<1 сек) | `GROQ_API_KEY` |
-| DeepSeek | Рассуждения, диагностика | `DEEPSEEK_API_KEY` |
-| KIMI | Длинный контекст, PDF | `KIMI_API_KEY` |
-| Qwen | AR / ZH / KA / KZ / DA | `QWEN_API_KEY` |
+Центральный реестр, граф зависимостей и кросс-проектная валидация для 15 проектов LongevityCommon.
 
 ## Запуск
 
 ```bash
-./start.sh
+# Показать статус всех проектов
+python3 dashboard/status.py
+
+# Сгенерировать граф экосистемы
+dot graph/ecosystem.dot -Tpng -o graph/ecosystem.png
+
+# Проверить согласованность
+python3 validate/counter_numbering.py
+python3 validate/ze_vstar.py
+python3 validate/concept_versions.py
 ```
 
-## Ключи (`~/.aim_env`)
+## Структура
 
-```
-DEEPSEEK_API_KEY=...
-KIMI_API_KEY=...
-QWEN_API_KEY=...
-GROQ_API_KEY=...
-```
+- `registry.json` — машиночитаемый реестр (канон)
+- `validate/` — скрипты кросс-проектной валидации
+- `dashboard/` — статус-дашборд
+- `graph/` — граф в DOT/Mermaid
+- `MAP.md` — карта зависимостей (человекочитаемая)
 
-## Языки
+## Архив
 
-`ru · en · fr · es · ar · zh · ka · kz · da`
+`_archive/v7_ai_code/` — полный код AIM v7.0 (AI-медицинская система). Удалён из концепции 2026-05-09.

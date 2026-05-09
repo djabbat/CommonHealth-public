@@ -1,0 +1,38 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "The following numeric thresholds are defined for falsification of the core hypothesis (χ_Ze(young) > χ_Ze(old)):\n- Effect size δ = 0.05 (minimum detectable difference in χ_Ze)\n- Significance level α = 0.001 (Bonferroni-corrected for multiple comparisons)\n- Minimum effect size of interest d ≥ 0.5\n- Statistical power ≥ 0.95\n- Minimum AUC ≥ 0.75 for ROC analysis\n- Total required sample size N ≥ 161 (placeholder, to be updated after pilot data; see Sample size calculation)\nIf the observed effect falls below these thresholds, the hypothesis is considered falsified."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Pre-registration plan",
+    "body": "The study will be pre-registered on the Open Science Framework (OSF) prior to data collection. The placeholder registration ID is osf.io/TBD. The planned pre-registration date is 2026-12-31. The pre-registration will include the primary hypothesis, study design, sample size justification, analysis plan, and all outcome measures."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Sample size calculation",
+    "body": "Sample size is calculated using the formula for a two-sample t-test (two-tailed):\n\nn = (Z_α/2 + Z_β)² · 2σ² / δ²\n\nWhere:\n- Z_α/2 = 1.96 (for α = 0.05, two-tailed)\n- Z_β = 0.84 (for power = 0.80)\n- σ = pooled standard deviation (placeholder: TBD from pilot data)\n- δ = minimum detectable difference in χ_Ze (placeholder: TBD)\n\nFor the HRV module, the estimated per-group N is 161 (placeholder). For the EEG module, the estimated per-group N is 110 (placeholder). These values are preliminary and will be updated after pilot data collection. The final N will be reported in the pre-registration."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| # | Risk | Probability | Impact | Mitigation |\n|---|------|-------------|--------|------------|\n| 1 | Low recruitment of elderly participants | Medium | High | Partner with geriatric clinics; offer compensation |\n| 2 | Sensor noise in EEG recordings | Medium | Medium | Use shielded caps; implement real-time artifact rejection |\n| 3 | Variability in olfactory stimulus delivery | High | Medium | Standardize odor concentration and delivery protocol |\n| 4 | Data loss due to device malfunction | Low | High | Redundant data storage; daily device checks |\n| 5 | Confounding by medication use | Medium | Medium | Exclude participants on CNS-active drugs; collect medication logs |\n| 6 | Failure to replicate χ_Ze age effect | Low | High | Pre-register analysis plan; use multiple datasets for validation |"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "The following limitations are acknowledged:\n- The sample size calculation is based on placeholder values and will be updated after pilot data.\n- The EEG validation datasets are not fully representative of all demographic groups (e.g., limited geographic diversity).\n- The olfactory module is still in the design phase and has not been empirically validated.\n- The HRV module relies on consumer-grade wearable sensors, which may have lower accuracy than clinical-grade devices.\n- The Ze theory parameter v* has two formulations (Python form and Article form); cross-subproject consistency is not yet fully established.\n- The study does not control for all potential confounders (e.g., sleep quality, circadian rhythm).\n- The placebo effect cannot be fully excluded in the olfactory diagnostic component.\n- Long-term longitudinal data are not available to assess within-subject stability of χ_Ze.\n- The consortium partners are listed as placeholders and may change during the project."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "The following partners are involved in the BioSense project (roles are placeholders):\n- Partner A (placeholder): EEG hardware development and validation\n- Partner B (placeholder): HRV sensor integration and data analysis\n- Partner C (placeholder): Olfactory stimulus design and delivery\n- Partner D (placeholder): Clinical recruitment and data collection\n- Partner E (placeholder): Statistical analysis and pre-registration support\nFormal agreements and detailed roles will be finalized in the project kick-off meeting."
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "The following numeric thresholds define falsification conditions for all model parameters. A hypothesis is considered falsified if any of these thresholds are violated in the pre-registered confirmatory analysis.\n\n| Parameter | Falsification threshold | Source / rationale |\n|-----------|------------------------|-------------------|\n| α₃ (division-dependent damage rate) | D₃ < 0.01 per division | CONCEPT.md §2.1 |\n| β₃ (time-dependent damage rate) | slope > 0.05 per year | CONCEPT.md §2.2 |\n| τ₃ (time-dependent damage rate) | estimate ±0.1 (TBD) | OPEN_PROBLEMS.md P0-1 |\n| γ₃ (interaction term) | deviation from zero > TBD | OPEN_PROBLEMS.md P0-2 |\n| λ_het (heteroplasmy weight) | R² < 0.9 for linear model | OPEN_PROBLEMS.md P0-1 |\n| λ_les (lesion weight) | R² < 0.9 for linear model | OPEN_PROBLEMS.md P0-1 |\n| Overall model | p < 0.001 for primary test | Pre-registration plan |\n| Statistical significance | α = 0.05 | All power analyses |\n| Statistical power | 1-β = 0.80 | All power analyses |\n\n**Note:** Placeholder values (TBD) will be replaced with concrete thresholds upon completion of pilot experiments (P0-1) and pre-registration."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Pre-registration plan",
+    "body": "The study will be pre-registered on the Open Science Framework (OSF) prior to data collection.\n\n- **OSF ID:** osf.io/TBD\n- **Planned registration date:** 2026-07-01\n- **Primary hypotheses:** As specified in OPEN_PROBLEMS.md (P0-1, P0-2, P1-1, P2-1)\n- **Secondary hypotheses:** Interaction terms (γ₃) and tissue-specific weights (w₃)\n- **Analysis plan:** Linear regression for P0-1, two-way ANOVA for P0-2, t-test for P1-1, TBD for P2-1\n- **Exclusion criteria:** Outliers >3 SD from mean, missing data >10% per sample\n\n**Note:** The OSF ID is a placeholder and will be replaced with the actual registration ID upon submission."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Sample size calculation",
+    "body": "Sample sizes are calculated using the standard formula for two-sample comparison (continuous outcome):\n\n\\[ n = \\frac{(Z_{1-\\alpha/2} + Z_{1-\\beta})^2 \\cdot \\sigma^2}{\\delta^2} \\]\n\nWhere:\n- Z_{1-α/2} = 1.96 (for α = 0.05, two-tailed)\n- Z_{1-β} = 0.84 (for power = 0.80)\n- σ² = TBD (variance, to be estimated from pilot data)\n- δ = TBD (minimum detectable effect size)\n\n**Current power analyses (from OPEN_PROBLEMS.md):**\n- P0-1: N = 15 per condition (3 conditions → 45 total), effect size R² = 0.9, test: linear regression F-test\n- P0-2: N = 30 per tissue (3 tissues → 90 total), effect size Cohen's f² = 0.35, test: two-way ANOVA\n- P1-1: N = 25 per group (2 groups → 50 total), effect size d = 0.8, test: two-sample t-test\n- P2-1: N = TBD, effect size TBD, test TBD (to be specified after P0-1 pilot)\n\n**Note:** The placeholders σ² and δ will be replaced with empirical estimates from the pilot experiment (P0-1) before final pre-registration."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| Risk ID | Description | Probability (1-5) | Impact (1-5) | Mitigation strategy |\n|---------|-------------|-------------------|--------------|---------------------|\n| R1 | Tissue heterogeneity masks D₃ signal | 3 | 4 | Single-cell mtDNA sequencing in subset (N=5 per tissue) |\n| R2 | Non-linear D₃ accumulation | 3 | 5 | Pre-register alternative non-linear model; test linear vs. non-linear |\n| R3 | τ₃ parameter uncalibrated | 4 | 3 | Longitudinal mouse study (P2-1) with 3 time points |\n| R4 | w₃ weight misspecification | 3 | 4 | Lock weights a priori; independent Seahorse validation |\n| R5 | λ_het/λ_les weights heuristic | 4 | 3 | Pilot experiment (N=15) to determine and lock weights |\n| R6 | Sample size insufficient for P2-1 | 3 | 3 | Estimate effect size from P0-1 pilot; adjust N accordingly |\n\n**Note:** Probability and impact scores are preliminary and will be updated after pilot data collection."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "1. **Tissue heterogeneity:** The model assumes uniform damage accumulation within each tissue type, ignoring cellular subpopulations (e.g., stem cells vs. differentiated cells). Mitigation: Single-cell mtDNA sequencing in a subset of samples (N=5 per tissue) to assess intra-tissue variance.\n2. **Hypothetical τ₃ parameter:** The time-dependent damage rate τ₃ (0.1–0.3/year) is estimated from cross-sectional data; longitudinal validation is required. Mitigation: Planned longitudinal study in mice (P2-1) with measurements at 3 time points.\n3. **Uncalibrated weights λ_het, λ_les:** These weights are set heuristically and will be determined empirically in the pilot experiment (P0-1).\n4. **Sample size uncertainty for P2-1:** The effect size for P2-1 is unknown; sample size will be estimated from P0-1 pilot data.\n5. **Model generalizability:** The model is parameterized from mammalian data (primarily human and mouse); applicability to other taxa is untested.\n6. **Interaction terms (γ₃):** The coupling between Counter #3 and other MCOA counters is hypothesized but not empirically validated."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "The following partners are involved in this project (list to be finalized):\n\n- **Lead institution:** TBD\n- **Experimental validation (P0-1, P0-2):** TBD\n- **Longitudinal mouse study (P2-1):** TBD\n- **Single-cell sequencing:** TBD\n- **Data analysis and modeling:** TBD\n\n**Note:** Partner details will be added upon confirmation of collaborations."
+  }
+]

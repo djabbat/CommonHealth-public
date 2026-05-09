@@ -68,7 +68,7 @@
 
 ### Under review
 - "Ze cheating index (χ_Ze) as a group-level index of neurodynamic aging:
-  Experimental EEG validation across the human lifespan" — Tkemaladze J. (2026)
+ Experimental EEG validation across the human lifespan" — Tkemaladze J. (2026)
 
 ### Materials/Ze.docx
 - Main Ze theory paper (located in Materials/)

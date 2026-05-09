@@ -1,0 +1,44 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "All hypotheses are tested with α=0.05, power=0.80.\n- **Concordance H₀:** AI-supervised image quality < 0.80 of trained technician (N=286).\n- **Uptime H₀:** System uptime < 0.90 over 30-day continuous run (N=180).\n- **Contamination H₀:** Contamination rate > 0.03 per 100 wells (N=TBD).\n- **Cost H₀:** Total BOM > $4,500 (N=1 prototype)."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Pre-registration plan",
+    "body": "- **OSF ID:** `osf.io/TBD` (placeholder).\n- **Planned registration date:** 2026-06-01.\n- **Contents:** Full protocol, analysis plan, power analysis, and risk matrix."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Sample size calculation",
+    "body": "For concordance (primary endpoint):\n- n = (1.96 + 0.84)² × σ² / δ²\n- Assuming σ² = 0.85 × 0.15 (binary outcome), δ = 0.05 (margin)\n- n ≈ (2.80)² × 0.1275 / 0.0025 ≈ 7.84 × 51 ≈ 400 (placeholder, final N=TBD).\n- For CDATA experiment: n = 30 per group (placeholder, final N=TBD)."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| Risk | Probability | Impact | Mitigation |\n|------|-------------|--------|------------|\n| AI misinterpretation of image | Medium | High | Human-in-loop for anomalies; audit trail |\n| Environmental chamber failure | Low | High | Redundant sensors; UPS backup |\n| Camera sensor degradation | Low | Medium | Calibration monthly; spare unit |\n| Network outage | Medium | Medium | Local NAS buffer; auto-resume |\n| Contamination during long runs | Medium | High | Sterile technique; UV sterilization between runs |\n| Stepper motor drift | Low | Medium | Homing routine before each acquisition |"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "1. Sample stability ≥3 weeks assumed; not validated beyond this window.\n2. Imaging frequency ≤2/hour; faster dynamics may be missed.\n3. Environmental control ±0.5°C, ±0.5% CO₂; tighter tolerances require commercial incubator.\n4. No on-platform liquid handling; media changes and drug additions are manual.\n5. AI generalizability limited to CDATA-class protocols; other cell types or stains not tested.\n6. Stage accuracy ±2 µm (placeholder, final spec TBD).\n7. Long-term reliability data not yet available (projected >6 months continuous operation).\n8. Cost estimate based on prototype BOM; volume pricing may differ."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "| Partner | Role | Status |\n|---------|------|--------|\n| LongevityCommon | Lead, funding, coordination | Confirmed |\n| University of Bristol | Biological validation, cell culture | TBD |\n| Zeiss | Microscope donation, technical support | TBD |\n| FLIR | Camera evaluation, discount | TBD |\n| ThorLabs | Optics supply, discount | TBD |\n| OpenTrons | Liquid handling integration (future) | TBD |"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "replace_text",
+    "find": "Stage accuracy: ±2 µm (placeholder, t",
+    "replace": "Stage accuracy: ±2 µm (placeholder, final spec TBD)."
+  }
+]

@@ -30,11 +30,11 @@ appears in BioSense χ_Ze biomarker; root PARAMETERS § 1 names it as
 ## Parameter Formulas
 
 ```
-Ze velocity:       v  = (N_T − N_S) / (N_T + N_S)    ∈ [−1, +1]
-Ze index:          Z  = N_T / N                        ∈ [0, 1]
-Ze complexity:     τ  = H(stream) / log₂(N)            ∈ [0, 1]
-Ze variability:    χ  = (max − min) / mean
-Ze impedance:      ζ  = τ / v
+Ze velocity: v = (N_T − N_S) / (N_T + N_S) ∈ [−1, +1]
+Ze index: Z = N_T / N ∈ [0, 1]
+Ze complexity: τ = H(stream) / log₂(N) ∈ [0, 1]
+Ze variability: χ = (max − min) / mean
+Ze impedance: ζ = τ / v
 ```
 
 ---
@@ -43,8 +43,8 @@ Ze impedance:      ζ  = τ / v
 
 Given measurements x₁, x₂, ..., xₙ:
 ```
-zᵢ = T  if  xᵢ > xᵢ₋₁
-zᵢ = S  if  xᵢ ≤ xᵢ₋₁
+zᵢ = T if xᵢ > xᵢ₋₁
+zᵢ = S if xᵢ ≤ xᵢ₋₁
 ```
 
 ---
@@ -56,7 +56,7 @@ ds² = −c² dτ_Ze² + dx²
 ```
 where τ_Ze is the Ze time parameter from the counting process.
 
-Time dilation:  `Δt' = Δt / √(1 − v²/c²)`
+Time dilation: `Δt' = Δt / √(1 − v²/c²)`
 (derived from Ze counter slowing in moving frame — without Lorentz postulate)
 
 ---

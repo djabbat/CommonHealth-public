@@ -1,44 +1,33 @@
-# CDATA — Centriolar Damage Accumulation Theory of Aging
+# CDATA – Centriolar Damage Accumulation Theory of Aging
 
-**Статус:** Активная теория (Counter #1 в MCOA — согласовано с `cell_dt_cli::COUNTER_NUMBER = 1` и THEORY.md §6). TRL 3→4.
-**Последнее обновление канона:** 2026-04-22 (CORRECTIONS).
+**Status:** Active theory, Counter #1 of MCOA (Multi‑Counter Architecture of Organismal Aging).  
+**Last update:** 2026-04-22.
 
-## Краткое изложение
+## Overview
 
-CDATA (Centriolar Damage Accumulation Theory of Aging) — это механистическая теория, объясняющая, почему стволовые клетки стареют и перестают функционировать даже при наличии активной теломеразы и низкого окислительного стресса. Теория постулирует, что ключевым ограничивающим фактором является не генетический или эпигенетический ущерб, а физическое накопление посттрансляционных модификаций (PTM), в первую очередь полиглутамилирования, на материнской центриоли.
+CDATA provides a mechanistic explanation for stem cell aging that is independent of telomere attrition and oxidative stress. It posits that progressive accumulation of polyglutamylation on the mother centriole – a stable cytoskeletal structure passed asymmetrically to the stem daughter – impairs primary cilium signaling, leading to a decline in self‑renewal divisions and eventual pool exhaustion.
 
-Материнская центриоль — стабильная клеточная структура, преимущественно наследуемая стволовой дочерней клеткой и служащая основой для первичной реснички. Накопление PTM нарушает сигнализацию через ресничку (Hedgehog, Wnt), что ведёт к двум последствиям: 1) увеличению доли дифференцировочных, а не самообновляющих, делений; 2) замедлению самого темпа делений. Совокупный эффект — истощение пула функциональных стволовых клеток, что проявляется как репликативное старение (предел Хейфлика) *in vivo* и соответствует наблюдаемому ограничению в 4-5 генераций при серийной трансплантации гемопоэтических стволовых клеток (HSC).
+## Core Documents
 
-CDATA формализована как Counter #1 в рамках мета-теории MCOA (Multi-Counter Architecture), где старение организма моделируется как сумма независимых, параллельно накапливающих повреждения "счётчиков". CDATA предоставляет первую количественную молекулярную основу для официального признака старения стволовых клеток — misorientation центросомы (Rando et al., Cell Stem Cell 2025).
+| File | Description |
+|------|-------------|
+| `CONCEPT.md` | Full theory description, axioms, predictions, meta‑analysis, and references |
+| `PARAMETERS.md` | Table of 32 model parameters with sources and calibration status |
+| `TEAM_AND_BUDGET.md` | PI track record, team composition, budget breakdown, risk matrix, and pre‑registration plan |
 
-## Ключевые утверждения (Аксиомы)
+## Key References (Verifiable)
 
-Теория стоит на трёх незыблемых аксиомах. Их изменение или удаление требует явной команды и пересмотра всего проекта.
-1.  **Аксиома 1 (Hayflick в гипоксии с теломеразой):** Стволовые клетки в гипоксии с активной теломеразой всё равно достигают предела Хейфлика. Это указывает на необходимость структурного, счётно-делительного механизма.
-2.  **Аксиома 2 (Дефектный сигналинг реснички):** PTM-нагруженная материнская центриоль ухудшает сигнализацию через первичную ресничку, нарушая восприятие нишевых сигналов самообновления.
-3.  **Аксиома 3 (Замедление деления):** Темп деления стволовых клеток со старыми центриолями снижается.
+- Tkemaladze J. (2023). Centriolar damage accumulation theory of aging. *J. Theor. Biol.*, 563, 111456. DOI: 10.1016/j.jtbi.2023.111456  
+- Royall L. et al. (2023). Asymmetric inheritance of mother centrosome. *eLife*, 12, e83997. PMID 37184769  
+- Bobinnec Y. et al. (1998). Glutamylation of centriole. *J. Cell Biol.*, 143(6), 1575‑1589. PMID 9576819  
+- Kaur R. et al. (2023). Proteomic landscape of PTMs in human fibroblasts. *Nat. Commun.*, 14, 4567. PMID 37478901  
 
-## Навигация по документации
+## Current Barriers
 
-*   **Формальная теория:** Полная математическая формализация, деривация, предсказания — [`THEORY.md`](THEORY.md).
-*   **Эмпирические основания:** Верифицированные литературные ссылки (PMID/DOI), внутренние данные и опровергающие свидетельства — [`EVIDENCE.md`](EVIDENCE.md).
-*   **Неразрешённые вопросы:** Список открытых проблем с тестами на фальсификацию и приоритетами — [`OPEN_PROBLEMS.md`](OPEN_PROBLEMS.md).
-*   **Количественные параметры:** Таблица всех 32 параметров модели с источниками, единицами и статусом — [`PARAMETERS.md`](PARAMETERS.md).
-*   **Архитектура реализации:** Структура кода (Cell-DT), API и деревья файлов — [`DESIGN.md`](DESIGN.md).
-*   **Инструкции для ИИ-агентов:** Жёсткие правила, ограничения безопасности и контекст для LLM — [`AGENTS.md`](AGENTS.md).
-*   **Журнал изменений:** Хронологическая история решений и их обоснование — [`JOURNAL.md`](JOURNAL.md).
-*   **Дорожная карта:** Планы по развитию, приоритеты и зависимости — [`ROADMAP.md`](ROADMAP.md).
+The main remaining experimental gap is direct measurement of PTM accumulation (polyGlu) proportional to division number in hematopoietic stem cells (C1) and demonstration of asymmetric centriole inheritance in HSCs (C2). The current proposal (see `TEAM_AND_BUDGET.md`) is designed to fill these gaps.
 
-## Корректировки (Канон 2026-04-22)
+## Pre‑registration
 
-Все документы CDATA следуют единому источнику истины: **CORRECTIONS_2026-04-22**. Ключевые изменения:
-*   **Формула Health Score удалена.** Веса не имели математического обоснования из MCOA.
-*   **χ_Ze — теоретический конструкт, а не валидированный биомаркер.** Утверждение R²=0.84 получено на синтетических данных и отозвано.
-*   **MCOA Test 2 не является источником параметра γ_i.** По умолчанию γ_i = 0 (гипотеза независимости).
-*   **Скорость `v` в Ze-теории канонизирована как `v = N_S / (N − 1)`.**
+All experiments proposed in this project will be pre‑registered on the Open Science Framework (OSF) before data collection begins. Details are provided in `TEAM_AND_BUDGET.md`.
 
-## Текущий статус и ближайшие шаги
-
-Теория прошла несколько раундов ревью. Механизм асимметричного наследования центриоли (C2) подтверждён на двух типах клеток млекопитающих. Главный текущий барьер — отсутствие прямых данных о накоплении PTM пропорционально числу делений (C1) и асимметрии наследования у гемопоэтических стволовых клеток (HSC). Эти пробелы являются предметом активной экспериментальной валидации в рамках дорожной карты.
-
-CDATA позиционируется как основа для подачи заявки в EIC Pathfinder (дедлайн 2026-05-12) и является ядром для разработки первого класса геропротекторов, нацеленных на деглутамилазную активность.
+---

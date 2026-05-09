@@ -1,0 +1,56 @@
+[
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "- **M1 (Feasibility):** H₀: concordance ≤ 0.80; α = 0.05; power = 0.80; N = 286.\n- **Uptime:** H₀: uptime ≤ 0.90; N = 180 days.\n- **Contamination:** H₀: contamination ≥ 0.03; N = TBD (placeholder).\n- **CDATA division rate:** H₀: mean division rate ≤ baseline; α = 0.05; power = 0.80; n = 30 per group."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Pre-registration plan",
+    "body": "- **OSF ID:** `osf.io/TBD` (placeholder).\n- **Planned registration date:** 2026-06-01.\n- **Contents:** Full protocol, analysis plan, and power analysis for M1 and CDATA experiments."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Sample size calculation",
+    "body": "- **CDATA division rate:** n = (1.96 + 0.84)² · σ² / δ², where σ = TBD (placeholder), δ = TBD (placeholder).\n- **M1 (Feasibility):** N = 286 based on concordance H₀: ≤ 0.80, α = 0.05, power = 0.80.\n- **Contamination:** N = TBD (placeholder). Formula: n = (Z_α/2 + Z_β)² · (p₁(1-p₁) + p₂(1-p₂)) / (p₁ - p₂)², with p₁ = TBD (placeholder), p₂ = TBD (placeholder).\n- **Design effect (CDATA):** DE = TBD (placeholder)."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| Risk | Probability | Impact | Mitigation |\n|------|-------------|--------|------------|\n| AI misinterpretation of PROMPT.md | Medium | High | Human-in-the-loop for strategic decisions; full audit trail |\n| Environmental chamber failure | Low | High | UPS + redundant sensors; remote monitoring |\n| Camera degradation | Low | Medium | Regular calibration; spare camera on-site |\n| Network outage | Medium | Medium | Local NAS storage; offline operation mode |\n| Contamination | Medium | High | Sterile protocol; UV sterilization between runs |\n| Stepper drift | Low | Medium | Periodic homing; calibration check before each run |"
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "- Sample stability ≥ 3 weeks not validated beyond this window.\n- Imaging frequency ≤ 2/hour; faster dynamics may be missed.\n- Environmental control ±0.5°C, ±0.5% CO₂; tighter tolerances require commercial incubator.\n- No on-platform liquid handling; media changes human-performed.\n- AI generalizability limited to CDATA-class protocols; other cell types/stains not tested.\n- Stage accuracy ±2 µm (placeholder); final value TBD after calibration.\n- Contamination rate baseline and detection threshold TBD pending pilot data."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "| Partner | Role | Status |\n|---------|------|--------|\n| TBD | Biological validation | TBD |\n| TBD | AI audit | TBD |\n| TBD | Open-source hardware | TBD |\n| TBD | Data analysis | TBD |\n| TBD | Clinical translation | TBD |\n| TBD | Funding | TBD |"
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "replace_text",
+    "find": "N = TBD (placeholder)",
+    "replace": "N = TBD (placeholder; to be determined after pilot phase of 3 runs, preliminary N = 30)"
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "replace_text",
+    "find": "osf.io/automicroscopy_cdata",
+    "replace": "osf.io/TBD"
+  },
+  {
+    "file": "/EVIDENCE.md",
+    "action": "replace_text",
+    "find": "**Unified limitations (see also CONCEPT.md)**",
+    "replace": "**Limitations:** See CONCEPT.md for full list."
+  }
+]

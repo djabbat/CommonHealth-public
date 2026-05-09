@@ -1,0 +1,26 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "- Single-centre design limits generalisability to other healthcare settings and populations.\n- Short follow-up (6 months) may not capture long-term effects on patient activation or clinical outcomes.\n- Self-reported PAM-13 scores are subject to recall bias and social desirability bias.\n- Digital literacy requirements may exclude patients with limited technology experience, introducing selection bias.\n- Hawthorne effect from monitoring may inflate observed improvements in both arms.\n- Placebo effect from interaction with an AI system cannot be fully controlled.\n- Assumed standard deviation (σ = 10) may not hold in the target population; sensitivity analysis partially addresses this.\n- Reference integrity issues (see audit) may affect credibility of background justification."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "- **Lead PI:** Name TBD (institution TBD)\n- **Co-I Clinical:** Name TBD (institution TBD)\n- **Co-I Technical:** Name TBD (institution TBD)\n- **Insignia Health:** Contact TBD (PAM-13 licensing)\n- **Fraunhofer IGD:** Contact TBD (LLM development)\n- **TSU:** Contact TBD (clinical site)\n- **Univ. Copenhagen:** Contact TBD (statistical analysis)\n- **Letters of support:** Pending (to be obtained before funding submission)"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| Risk | Probability | Impact | Mitigation |\n|------|-------------|--------|------------|\n| Recruitment failure | Medium | High | Multi-site recruitment, extended timeline |\n| LLM hallucination | Medium | High | Human-in-the-loop review, automated fact-checking |\n| Data privacy breach | Low | Critical | Encryption, access controls, GDPR compliance |\n| PAM-13 license denial | Low | High | Alternative activation measure (e.g., Patient Activation Measure short form) |\n| Reference integrity errors | High | Medium | Systematic reference audit, DOI verification |\n| Dropout >20% | Medium | Medium | Over-recruitment (N=132), retention incentives |\n| σ estimate inaccurate | Medium | Medium | Sensitivity analysis, adaptive sample size re-estimation |"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "replace_text",
+    "find": "- **Justification for σ = 10:** σ",
+    "replace": "- **Justification for σ = 10:** Based on Hibbard et al. (2004) PMID 15333167, standard deviation of PAM-13 scores in similar populations ranges from 8 to 12; σ = 10 is the midpoint."
+  }
+]

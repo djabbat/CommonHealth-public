@@ -1,0 +1,6 @@
+
+## iter 1
+INSERTED: CONCEPT.md after `## 2. Hypothesis-stage статус (важно)`
+APPENDED: CONCEPT.md :: ## Risk matrix
+APPENDED: CONCEPT.md :: ## Limitations
+SKIP anchor-missing: THEORY.md

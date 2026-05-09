@@ -1,0 +1,38 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "All predictions are tested at a unified significance threshold of α=0.01 (two-tailed). Power is set at 0.80 (Z_β=0.84) for primary endpoints and 0.90 (Z_β=1.28) for secondary endpoints. Effect sizes are reported as Cohen's d with 95% confidence intervals. Any prediction failing to reach p<0.01 after correction for multiple comparisons (Bonferroni or FDR as specified per experiment) is considered falsified. Numeric thresholds for each prediction are as follows:\n- Prediction #1 (behavioral persistence): d≥0.8, p<0.01, N=TBD per group\n- Prediction #2 (bile acid receptor agonism): d≥1.2, p<0.01, N=TBD per group\n- Prediction #3 (BBB permeability correlation): r≥0.6, p<0.01, N=TBD\n- Prediction #4 (developmental necessity): absence of affect in anhepatic embryos, p<0.01, N=TBD per group\n- Prediction #5 (pharmacological rescue): d≥1.0, p<0.01, N=TBD per group\nAll thresholds are placeholders pending pilot data and will be updated in the final version."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Pre-registration plan",
+    "body": "The study will be pre-registered on the Open Science Framework (OSF) under ID `osf.io/TBD`. Planned pre-registration date: 2026-06-01. The pre-registration will include: (1) all primary and secondary hypotheses, (2) planned sample sizes and power analysis, (3) exclusion criteria, (4) analysis plan including multiple comparison corrections, (5) any planned deviations from the protocol. Embargo period: 12 months post-study completion. Any post-hoc analyses will be clearly labeled as exploratory."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Sample size calculation",
+    "body": "Sample size is calculated using the standard formula for a two-tailed independent-samples t-test:\n\nn = (Z_α/2 + Z_β)² · 2σ² / δ²\n\nWhere:\n- Z_α/2 = 2.576 (for α=0.01, two-tailed)\n- Z_β = 0.842 (for power=0.80)\n- σ² = pooled variance (placeholder: estimated from pilot data, currently TBD)\n- δ = minimum detectable effect size (Cohen's d = 2.5, based on prior literature; placeholder until pilot data available)\n\nUsing the above values: n = (2.576 + 0.842)² · 2σ² / δ² = (3.418)² · 2σ² / δ² = 11.68 · 2σ² / δ²\n\nFor d=2.5 (δ/σ = 2.5): n ≈ 11.68 · 2 / 6.25 ≈ 3.74 → n=4 per group (rounded up).\n\nHowever, to account for attrition and potential effect size overestimation, we conservatively set n=15 per group (as placeholder). This calculation will be updated with pilot data and α=0.01 is used consistently with the Falsifiability section."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| Risk | Probability | Impact | Mitigation |\n|------|-------------|--------|------------|\n| Inability to obtain anhepatic animal model (e.g., zebrafish morphants) | Medium | High | Develop alternative model (e.g., chemical ablation in planarians); partner with specialist lab |\n| Bile acid receptor agonists fail to cross BBB in vivo | Medium | High | Test multiple analogs; use BBB-permeable prodrugs; measure CSF levels |\n| Behavioral assays show no affect in anhepatic embryos | Low | High | Pre-register as falsification; switch to rescue experiment with exogenous bile acids |\n| Effect size smaller than anticipated (d<2.5) | Medium | Medium | Increase sample size (adaptive design); use more sensitive behavioral measures |\n| Contamination of bile acid samples (e.g., endotoxin) | Low | Medium | Use HPLC-purified compounds; include vehicle controls; test for endotoxin |\n| Reviewer skepticism about evolutionary homology | High | Low | Emphasize functional definition; provide comparative data from arthropods |\n| Funding delay for expensive experiments (e.g., primate studies) | Medium | High | Prioritize zebrafish and rodent models; seek supplementary grants |"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "1. **Current α inconsistency**: The sample size calculation uses α=0.01 (as per Falsifiability section), but earlier versions used α=0.05. This has been corrected in the current version, but all calculations remain placeholders pending pilot data.\n2. **Effect size uncertainty**: The assumed Cohen's d=2.5 is based on limited prior literature and may be overestimated. A pilot study is needed to refine this estimate.\n3. **Model system limitations**: Zebrafish and rodent models may not fully recapitulate human affective states. Cross-species validation is required.\n4. **BBB permeability**: Not all bile acid receptor agonists may cross the BBB efficiently. This will be tested directly in pilot experiments.\n5. **Developmental vs. adult function**: The hypothesis distinguishes between developmental necessity and adult maintenance, but experimental separation is challenging.\n6. **Evolutionary scope**: The claim applies to all bilaterians, but empirical data are limited to vertebrates and a few arthropods. Invertebrate testing is a long-term goal.\n7. **Confounding factors**: Anhepatic models may have systemic metabolic disturbances that affect behavior independently of affect. Appropriate controls (e.g., metabolic rescue) are needed."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "The following partners are planned for this project. Status: To be confirmed (TBD) unless otherwise noted.\n\n| Partner | Institution | Role | Status |\n|---------|-------------|------|--------|\n| Dr. Tkemaladze | AIM Lab | PI, hypothesis development, manuscript writing | Confirmed |\n| Partner A (TBD) | TBD | Zebrafish behavioral assays | To be confirmed |\n| Partner B (TBD) | TBD | Bile acid chemistry and BBB permeability | To be confirmed |\n| Partner C (TBD) | TBD | Statistical analysis and pre-registration | To be confirmed |\n| Partner D (TBD) | TBD | Evolutionary biology and comparative anatomy | To be confirmed |\n\n**Deadline for confirmation letters**: 2026-09-01. At least 2-3 partners must provide signed letters of support before final submission."
+  }
+]

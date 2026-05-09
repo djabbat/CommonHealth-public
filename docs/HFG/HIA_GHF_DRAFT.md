@@ -36,11 +36,11 @@ Hereinafter individually referred to as a “Party” and collectively as the �
 **2.2** The Project has been submitted for funding under the **EIC Pathfinder Open 2026** call (submission deadline 12 May 2026). The proposed duration is 36 months with a total requested grant of approximately €3,000,000 (three million Euros).
 
 **2.3** The core scientific objective of the Project is to establish an integrated platform for longevity research. The work is structured into five Work Packages (WPs):
-*   **WP1:** Project Coordination & Data Governance Framework.
-*   **WP2:** Multi-Omics Biobank Development & Integration.
-*   **WP3:** AI-Driven Predictive Model Development for Age-Related Disease.
-*   **WP4:** Validation through Clinical & Pre-Clinical Studies.
-*   **WP5:** Dissemination, Exploitation, and Stakeholder Engagement.
+* **WP1:** Project Coordination & Data Governance Framework.
+* **WP2:** Multi-Omics Biobank Development & Integration.
+* **WP3:** AI-Driven Predictive Model Development for Age-Related Disease.
+* **WP4:** Validation through Clinical & Pre-Clinical Studies.
+* **WP5:** Dissemination, Exploitation, and Stakeholder Engagement.
 
 **3. HOST INSTITUTION COMMITMENTS**
 

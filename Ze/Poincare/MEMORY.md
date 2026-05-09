@@ -21,9 +21,9 @@
 
 ### Опубликованные статьи (Longevity Horizon)
 
-- Tkemaladze (2026). Ze Theory as Interpretive Framework for QM. DOI: 10.65649/a874t352
-- Tkemaladze (2026). Mathematical Formalism of Ze. DOI: 10.65649/kzj86888
-- Tkemaladze (2026). Emergence of Minkowski Metric from Ze Dynamics. DOI: 10.65649/hqm2c554
+- Tkemaladze (2026). Ze Theory as Interpretive Framework for QM. 
+- Tkemaladze (2026). Mathematical Formalism of Ze. 
+- Tkemaladze (2026). Emergence of Minkowski Metric from Ze Dynamics. 
 
 ---
 

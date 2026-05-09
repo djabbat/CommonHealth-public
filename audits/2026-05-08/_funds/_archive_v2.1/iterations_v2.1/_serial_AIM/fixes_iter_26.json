@@ -1,0 +1,32 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "replace_text",
+    "find": "## Falsifiability\n\n### Numeric thresholds (consolidated)\n- **Primary endpoint:** PAM-13 Δ ≥ 5.4 points (MCID)\n- **Significance level:** α = 0.05 (two-sided) for primary analysis; Bonferroni-adjusted α = 0.025 for each of ≤2 secondary endpoints. No other α thresholds (e.g., p < 0.001) are used.\n- **Power:** 0.80\n- **Sample size:** N ≥ 55 per group (see Sample size calculation)\n- **Consistency note:** All falsifiability thresholds are identical across CONCEPT.md and THEORY.md. Any future updates must be synchronised across both files.\n- **Stopping rule:** Adverse event rate >5% in intervention arm (any AE, assessed monthly by DSMB)\n- **Interim analysis:** Planned at N=100 (50 per group) for futility only (O'Brien-Fleming boundary, α-spending = 0.005). If conditional power <20%, trial will be stopped for futility.\n- **Primary analysis:** Intention-to-treat (ITT); per-protocol sensitivity analysis as secondary\n- **Consistency note:** All falsifiability thresholds are identical across CONCEPT.md and THEORY.md. Any future updates must be synchronised across both files.\n\n\n## Falsifiability\n\n- **Primary endpoint:** PAM-13 Δ ≥ 5.4 points (MCID)\n- **Significance level:** α = 0.05 (two-sided) for primary analysis; Bonferroni-adjusted α = 0.025 for each of ≤2 secondary endpoints. No other α thresholds (e.g., p < 0.001) are used.\n- **Note:** This section consolidates all falsifiability criteria. Duplicate sections have been removed. The α = 0.05 threshold is consistent across all core documents.\n- **Power:** 0.80\n- **Sample size:** N ≥ 55 per group (see Sample size calculation)\n- **Stopping rule:** Adverse event rate >5% in intervention arm (any AE, assessed monthly by DSMB)\n- **Interim analysis:** Planned at N=100 (50 per group) for futility only (O'Brien-Fleming boundary, α-spending = 0.005). If conditional power <20%, trial will be stopped for futility.\n- **Primary analysis:** Intention-to-treat (ITT); per-protocol sensitivity analysis as secondary",
+    "replace": "## Falsifiability\n\n### Numeric thresholds (consolidated)\n- **Primary endpoint:** PAM-13 Δ ≥ 5.4 points (MCID)\n- **Significance level:** α = 0.05 (two-sided) for primary analysis; Bonferroni-adjusted α = 0.025 for each of ≤2 secondary endpoints. No other α thresholds (e.g., p < 0.001) are used.\n- **Power:** 0.80\n- **Sample size:** N ≥ 55 per group (see Sample size calculation)\n- **Stopping rule:** Adverse event rate >5% in intervention arm (any AE, assessed monthly by DSMB)\n- **Interim analysis:** Planned at N=100 (50 per group) for futility only (O'Brien-Fleming boundary, α-spending = 0.005). If conditional power <20%, trial will be stopped for futility.\n- **Primary analysis:** Intention-to-treat (ITT); per-protocol sensitivity analysis as secondary\n- **Consistency note:** All falsifiability thresholds are identical across CONCEPT.md and THEORY.md. Any future updates must be synchronised across both files."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Sample size calculation",
+    "body": "### Power analysis sketch\n- **Formula:** n = (1.96 + 0.84)² · σ² / δ²\n- **Parameters:** α = 0.05 (two-sided), power = 0.80, δ = MCID = 5.4 points\n- **Standard deviation:** σ = 10 (placeholder; source: PMID TBD — note: previously cited PMID 15527447 is incorrect for Hibbard 2004; correct reference to be updated)\n- **Result:** n ≥ 55 per group (rounded up)\n- **Note:** Calculation assumes equal allocation, two-sample t-test. Final sample size may be adjusted for attrition (expected 15–20%)."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| Probability | Impact | Risk description | Mitigation |\n|------------|--------|------------------|------------|\n| Medium | High | Low recruitment rate | Multi-site recruitment, extended enrollment period |\n| Low | High | Data breach / privacy violation | Encryption, access controls, IRB-approved data management |\n| Medium | Medium | Attrition >20% | Retention strategies (reminders, incentives), sensitivity analysis |\n| Low | Medium | Algorithm performance degradation | Regular model retraining, monitoring of PAM-13 prediction accuracy |\n| Medium | Low | Staff turnover | Cross-training, detailed SOPs, backup personnel |"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "- Single-blind design (participants cannot be blinded to intervention type)\n- Reliance on self-reported outcomes (PAM-13, MMAS-8, EQ-5D-5L)\n- Potential for selection bias (volunteer sample)\n- Limited generalisability to non-English-speaking populations (all materials in English)\n- Short follow-up (6 months for primary outcome; 12 months for hospitalisations)\n- Placeholder sample size standard deviation (σ = 10) requires validation from published literature"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "- **Lead institution:** TBD\n- **Clinical sites:** TBD (list to be finalised)\n- **Data management:** TBD\n- **Statistical analysis:** TBD\n- **DSMB:** TBD (independent members to be appointed)"
+  }
+]

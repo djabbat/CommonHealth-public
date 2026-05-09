@@ -26,3 +26,17 @@ Affective states cannot **develop** in any bilateral animal lacking an organ tha
 | `KNOWLEDGE.md` | Scientific knowledge base |
 | `TODO.md` | Current tasks |
 | `UPGRADE.md` | Development plan |
+
+## Consortium / partners
+
+### Tentative collaboration plan
+
+| Partner | Role | Institution | Status |
+|---------|------|-------------|--------|
+| Dr. [TBD] | Zebrafish conditional KO design and generation | University of [TBD] | To be confirmed |
+| Dr. [TBD] | Behavioural phenotyping (light/dark, fear conditioning) | University of [TBD] | To be confirmed |
+| Dr. [TBD] | BBB transport assays (OATP inhibition) | Karolinska Institutet | To be confirmed |
+| Dr. [TBD] | Clinical validation (Mendelian randomisation, UK Biobank) | University of [TBD] | To be confirmed |
+| Georgia Longevity Alliance | Administrative support and funding coordination | Georgia | Confirmed |
+
+**Note:** All partner names and affiliations are placeholders. Formal letters of support will be obtained before grant submission. Task distribution will be detailed in the project management plan.

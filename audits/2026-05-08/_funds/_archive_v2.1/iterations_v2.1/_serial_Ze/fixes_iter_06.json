@@ -1,0 +1,56 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "### Operational falsifiability for each hypothesis\n\n| Hypothesis | Null (H₀) | Effect size (δ) | σ (SD) | Required N per group | α | Power | Source of δ |\n|------------|-----------|-----------------|--------|----------------------|---|---|-------------|\n| v*_active > v*_passive | v*_active ≤ v*_passive | d = TBD (minimal detectable effect at N=64) | TBD | 64 | 0.05 | 0.80 | Conservative estimate: d=0.5 at N=64 (max feasible within grant) |\n| χ_Ze correlates with aging clock | r = 0 | r = TBD (minimal detectable at N=84) | TBD | 84 | 0.05 | 0.80 | Minimal detectable r=0.3 at N=84 (Fisher z) |\n| MCID for v*_active | δ = 0 | δ = TBD | TBD | TBD | 0.05 | 0.80 | Not yet validated; anchor-based study required (N≥100) |\n| Clinical threshold χ_Ze = 0.80 | AUC ≤ 0.50 | AUC = TBD | TBD | TBD | 0.05 | 0.80 | Not yet validated; requires ROC analysis with gold standard |\n\n**Note:** All effect sizes are minimal detectable values given feasible sample sizes. Actual effect sizes from pilot data will replace TBD upon completion of pilot analysis (N=12). Until then, falsifiability is defined by the ability to reject H₀ at the specified thresholds."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Pre-registration plan",
+    "body": "- **OSF repository:** osf.io/TBD (placeholder; will be created upon funding)\n- **Pre-registration date:** 2026-09-01 (planned)\n- **Data collection start:** 2026-12-01 (planned)\n- **Primary analysis plan:** All hypotheses and analysis scripts will be pre-registered before data collection. Any deviations will be documented with justification.\n- **Secondary analyses:** Exploratory analyses will be clearly labeled as post-hoc."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Sample size calculation",
+    "body": "**Formula:** n = (1.96 + 0.84)² · σ² / δ² (for α=0.05, power=0.80, two-sided)\n\n| Hypothesis | δ (effect size) | σ (SD) | Calculated N per group | Source of σ |\n|------------|-----------------|--------|------------------------|-------------|\n| v*_active > v*_passive | d = TBD | TBD | 64 | Conservative estimate; pilot N=12 pending |\n| χ_Ze vs aging clock | r = TBD (Fisher z) | TBD | 84 | Minimal detectable r=0.3; σ from literature TBD |\n| MCID for v*_active | δ = TBD | TBD | TBD | Pilot data (N=12) pending; anchor-based validation required |\n\n**Note:** σ values are placeholder TBD until full pilot data are analyzed. Conservative estimates will be used if pilot data are insufficient."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| Risk | Probability | Impact | Mitigation |\n|-----|-------------|--------|------------|\n| High heterogeneity in EEG data (I² > 75%) | High | High | Use random-effects meta-analysis; pre-register heterogeneity thresholds; consider subgroup analysis by age/sex |\n| Failure to replicate v*_active in independent sample | Medium | High | Pre-register replication protocol; use Bayesian analysis to quantify evidence for/against H₀; plan for null result publication |\n| MCID not achievable with feasible sample size | Medium | Medium | Anchor-based validation with N≥100; if infeasible, report as exploratory with clear limitations |\n| Clinical thresholds not validated | High | Medium | Describe χ_Ze as exploratory biomarker; no clinical decisions based on index; require ROC analysis with gold standard |\n| Data quality issues (missing data, artifacts) | Medium | Medium | Pre-register exclusion criteria; use multiple imputation; sensitivity analyses |\n| Partner institution withdrawal | Low | High | Have backup institutions identified; maintain open collaboration policy |"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "1. **Generalizability:** All current data come from a single laboratory (Cuban cohort, N=196). Independent replication is required before any generalization.\n2. **Mathematical formalism:** The transition from ρ_Z to P_Z is not formally derived; it is an operational assumption. A rigorous derivation from first principles is needed.\n3. **Sample size:** The pilot study (N=12) is insufficient for reliable effect size estimation. Power analysis uses conservative estimates pending full pilot data.\n4. **Independent replication:** No independent replication of v*_active exists. The Cuban EEG dataset has high heterogeneity (I²=90.3%), making pooling problematic.\n5. **Pre-registration:** The study is not yet pre-registered. All analyses should be considered exploratory until pre-registration is completed.\n6. **Confounders:** Age, sex, medication, and comorbidities are not controlled in the current dataset. Future studies must include these covariates.\n7. **Publication bias:** Positive results may be overrepresented. Negative results from replication attempts should be published regardless of outcome."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "**Current team:** Jaba Tkemaladze (PI, Kutaisi International University)\n\n**Planned collaborations (letters of support pending):**\n1. **Neurophysiology group** (TBD institution) — for EEG validation of v*_active\n2. **Biostatistics group** (TBD institution) — for MCID and power analysis\n3. **Clinical center** (TBD institution) — for longitudinal aging cohort\n4. **Data management** (TBD institution) — for OSF repository and code sharing\n\n**Note:** Formal partnership agreements will be established upon funding. Letters of support will be appended as placeholder documents."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "replace_text",
+    "find": "<!-- Citation audit status: All references have been verified and correctly attributed as of 2026-05-08. No fabrication markers remain. -->",
+    "replace": "<!-- Citation audit status: References are being verified. Fabrication markers have been removed. -->"
+  },
+  {
+    "file": "KNOWLEDGE.md",
+    "action": "replace_text",
+    "find": "[Reference pending — placeholder; will be replaced with valid PMID or removed entirely before submission. As of 2026-05-08, no fabrication markers remain.]",
+    "replace": "[Reference removed — citation pending verification. Will be replaced with valid PMID or removed entirely.]"
+  },
+  {
+    "file": "KNOWLEDGE.md",
+    "action": "replace_text",
+    "find": "[reference removed — to be replaced with valid PMID or removed entirely]",
+    "replace": "[Reference removed — citation pending verification. Will be replaced with valid PMID or removed entirely.]"
+  }
+]

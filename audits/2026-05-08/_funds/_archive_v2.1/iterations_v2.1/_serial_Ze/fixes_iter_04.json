@@ -1,0 +1,38 @@
+[
+  {
+    "file": "Ze/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "The following numeric thresholds are specified for operational falsifiability. All effect sizes, alpha levels, and power values are placeholders until pilot data are finalized.\n\n| Hypothesis | Effect size (Cohen's d) | α | Power (1−β) | Required N per group | Decision rule |\n|------------|------------------------|---|-------------|----------------------|---------------|\n| v*_active > v*_passive | 0.5 (TBD from pilot) | 0.05 | 0.80 | 64 | Reject H0 if p < 0.001 (Bonferroni-corrected for 5 tests) |\n| χ_Ze vs aging clock | r = 0.3 (Fisher z) | 0.05 | 0.80 | 84 | Reject H0 if p < 0.001 |\n| MCID for v*_active | δ = 0.05 | 0.05 | 0.80 | TBD | Reject H0 if p < 0.001 |\n| v*_active vs EEG band power | d = 0.4 | 0.05 | 0.80 | 52 | Reject H0 if p < 0.001 |\n| v*_passive vs chronological age | r = 0.2 | 0.05 | 0.80 | 193 | Reject H0 if p < 0.001 |\n\n**Note:** All effect sizes are placeholder TBD. Final values will be determined from pilot data (N=12) or from literature (PMID TBD). If pilot data are insufficient, a conservative effect size of d=0.5 will be used per Cohen's convention."
+  },
+  {
+    "file": "Ze/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Pre-registration plan",
+    "body": "The study will be pre-registered on the Open Science Framework (OSF) prior to data collection. The placeholder identifier is osf.io/TBD. Planned pre-registration date: 2026-09-01. Planned data collection start date: 2026-12-01. The pre-registration will include all hypotheses, analysis plans, and stopping rules specified in the Falsifiability section."
+  },
+  {
+    "file": "Ze/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Sample size calculation",
+    "body": "**Formula:** n = (1.96 + 0.84)² · σ² / δ² (for α=0.05, power=0.80, two-sided)\n\n| Hypothesis | δ (effect size) | σ (SD) | Calculated N per group | Source of σ |\n|------------|-----------------|--------|------------------------|-------------|\n| v*_active > v*_passive | d = 0.5 | TBD (from pilot) | 64 | Cohen's convention; pilot N=12 |\n| χ_Ze vs aging clock | r = 0.3 (Fisher z) | TBD | 84 | Minimal clinically meaningful |\n| MCID for v*_active | δ = 0.05 | TBD | TBD | Pilot data (N=12) |\n\n**Note:** σ values are placeholder TBD until full pilot data are analyzed. Conservative estimates will be used if pilot data are insufficient. A full power analysis with justification for σ and δ will be provided in the pre-registration."
+  },
+  {
+    "file": "Ze/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| Risk | Probability | Impact | Mitigation |\n|-----|-------------|--------|------------|\n| Pilot data insufficient for effect size estimation | Medium | High | Use conservative effect size (d=0.5) from Cohen's convention; plan for sequential analysis with interim looks |\n| No significant difference between v*_active and v*_passive | Medium | High | Pre-register equivalence testing; report effect sizes with confidence intervals regardless of significance |\n| High heterogeneity across datasets (I² > 75%) | High | Medium | Use random-effects meta-analysis; pre-register subgroup analyses by dataset |\n| Failure to recruit planned sample size | Low | High | Plan for minimum N=30 per group; use Bayesian analysis with informative priors if N is low |\n| Measurement error in EEG or aging clock data | Medium | Medium | Use standardized protocols; pre-register exclusion criteria for poor-quality data |\n| Confounding by age, sex, or health status | High | Medium | Pre-register covariates; use propensity score matching if needed |"
+  },
+  {
+    "file": "Ze/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "The following limitations are explicitly acknowledged:\n1. All pilot data have N < 200 and are not pre-registered.\n2. No hypothesis has been independently replicated.\n3. Effect sizes are placeholder TBD and may change after full pilot analysis.\n4. The theory is an interpretive framework for quantum mechanics, not derived from first principles.\n5. Any clinical or translational claims are exploratory and should not be cited as established results.\n6. The consortium structure is incomplete; all partner institutions are TBD.\n7. References are placeholder TBD until verified PMID/DOI are provided."
+  },
+  {
+    "file": "Ze/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "**Current team:** Jaba Tkemaladze (PI, Kutaisi International University)\n\n**Planned collaborations (letters of support pending):**\n1. Neurophysiology group (TBD institution) — for EEG validation of v*_active\n2. Biostatistics group (TBD institution) — for MCID and power analysis\n3. Clinical center (TBD institution) — for longitudinal aging cohort\n\n**Note:** Formal partnership agreements will be established upon funding. Letters of support will be appended as placeholder documents.\n\n**Planned consortium structure:**\n- Lead institution: Kutaisi International University (PI: Jaba Tkemaladze)\n- Neurophysiology partner: TBD institution (EEG validation)\n- Biostatistics partner: TBD institution (power analysis, MCID)\n- Clinical partner: TBD institution (longitudinal cohort)\n- Data management: TBD (OSF repository, code sharing)"
+  }
+]

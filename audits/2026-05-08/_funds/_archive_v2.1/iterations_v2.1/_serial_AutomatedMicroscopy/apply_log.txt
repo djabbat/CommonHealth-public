@@ -1,0 +1,171 @@
+
+## iter 1
+SKIP missing/outside-LC: AutomatedMicroscopy/THEORY.md
+SKIP missing/outside-LC: AutomatedMicroscopy/EVIDENCE.md
+SKIP missing/outside-LC: AutomatedMicroscopy/EVIDENCE.md
+SKIP missing/outside-LC: AutomatedMicroscopy/CONCEPT.md
+SKIP missing/outside-LC: AutomatedMicroscopy/EVIDENCE.md
+SKIP missing/outside-LC: AutomatedMicroscopy/CONCEPT.md
+SKIP missing/outside-LC: AutomatedMicroscopy/EVIDENCE.md
+SKIP missing/outside-LC: AutomatedMicroscopy/EVIDENCE.md
+
+## iter 1
+SKIP missing/outside-LC: /CONCEPT.md -> /CONCEPT.md
+SKIP missing/outside-LC: /CONCEPT.md -> /CONCEPT.md
+SKIP missing/outside-LC: /CONCEPT.md -> /CONCEPT.md
+SKIP missing/outside-LC: /CONCEPT.md -> /CONCEPT.md
+SKIP missing/outside-LC: /OPEN_PROBLEMS.md -> /OPEN_PROBLEMS.md
+
+## iter 1
+APPENDED: CONCEPT.md :: ## Pre-registration plan
+SKIP anchor-missing: THEORY.md
+SKIP missing/outside-LC: RISK.md (tried ['/home/oem/Desktop/LongevityCommon/AutomatedMicroscopy/RISK.md', '/home/oem/Desktop/LongevityCommon/RISK.md', '/home/oem/Desktop/LongevityCommon/RISK.md'])
+REPLACED: EVIDENCE.md :: ## Refuting / Cautionary Evidence
+INSERTED: EVIDENCE.md after `## Limitations & Known Biases`
+APPENDED: DESIGN.md :: ## Consortium / partners
+
+## iter 2
+INSERTED: CONCEPT.md after `## Falsification conditions`
+INSERTED: CONCEPT.md after `## Predictions / success metrics`
+REPLACED: EVIDENCE.md :: [REF_NEEDED 2026-05-08]
+REPLACED: EVIDENCE.md :: [PMID_REMOVED 2026-05-08]
+REPLACED: EVIDENCE.md :: REF_AUDIT_2026-05-08: FABRICATION CLEANU
+INSERTED: EVIDENCE.md after `## Limitations & Known Biases (honest)`
+INSERTED: CONCEPT.md after `## Primary use case`
+
+## iter 1
+APPENDED: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+APPENDED: CONCEPT.md :: ## Risk matrix
+APPENDED: CONCEPT.md :: ## Limitations
+APPENDED: CONCEPT.md :: ## Consortium / partners
+
+## iter 1
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+
+## iter 2
+INSERTED: CONCEPT.md after `## Falsifiability`
+INSERTED: CONCEPT.md after `## Pre-registration plan`
+INSERTED: CONCEPT.md after `## Sample size calculation`
+INSERTED: CONCEPT.md after `## Risk matrix`
+INSERTED: CONCEPT.md after `## Limitations`
+
+## iter 3
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+REPLACED: EVIDENCE.md :: Zeiss product manual 1985
+REPLACED: EVIDENCE.md :: standard cell culture practice
+REPLACED: EVIDENCE.md :: Inkbird ITC-100 spec; DIY community
+REPLACED: EVIDENCE.md :: Micro-Manager 2.0 open-source
+
+## iter 1
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+
+## iter 2
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+
+## iter 3
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+
+## iter 1
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+
+## iter 2
+INSERTED: CONCEPT.md after `## Limitations`
+INSERTED: EVIDENCE.md after `## Limitations & Known Biases`
+SKIP anchor-missing: EVIDENCE.md
+
+## iter 3
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+
+## iter 4
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+
+## iter 5
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+
+## iter 6
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+REPLACED: CONCEPT.md :: ### Sample size calculation for CDATA ex
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+
+## iter 7
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+
+## iter 8
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+
+## iter 9
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+
+## iter 10
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+REPLACED: CONCEPT.md :: n = (Z_α/2 + Z_β)² · σ² / δ²
+
+Where:
+- Z
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners

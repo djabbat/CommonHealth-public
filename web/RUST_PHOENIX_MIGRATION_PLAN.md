@@ -9,12 +9,12 @@
 ```
 web/
 ├── src/
-│   ├── components/   — React TS компоненты
-│   ├── pages/        — page-level routes
-│   ├── hooks/        — custom React hooks
-│   └── api/          — fetch wrappers для Rust backend
+│ ├── components/ — React TS компоненты
+│ ├── pages/ — page-level routes
+│ ├── hooks/ — custom React hooks
+│ └── api/ — fetch wrappers для Rust backend
 ├── public/
-├── package.json      — Vite + React 18 + TS
+├── package.json — Vite + React 18 + TS
 ├── tsconfig.json
 └── vite.config.ts
 ```
@@ -22,21 +22,21 @@ web/
 ## Целевая архитектура (Phoenix LiveView)
 
 ```
-realtime/                  ← существует, базовый Phoenix Channels
+realtime/ ← существует, базовый Phoenix Channels
 └── lib/
-    └── ze_web/
-        ├── live/
-        │   ├── dashboard_live.ex     ← главная (replaces web/src/pages/Dashboard)
-        │   ├── ze_profile_live.ex    ← Ze·Profile (replaces ZeProfile.tsx)
-        │   ├── ze_guide_live.ex      ← Ze·Guide AI чат (replaces ZeGuide.tsx)
-        │   ├── feed_live.ex          ← лента постов (replaces Feed.tsx)
-        │   └── data_export_live.ex   ← GDPR export (replaces DataExport.tsx)
-        ├── components/
-        │   ├── chart_component.ex    ← графики через Chart.js hook
-        │   ├── disclaimer.ex         ← Ze·Guide disclaimer (обязателен)
-        │   └── language_picker.ex    ← 9 языков
-        └── controllers/
-            └── api_proxy.ex          ← proxy к Rust REST на 4001
+ └── ze_web/
+ ├── live/
+ │ ├── dashboard_live.ex ← главная (replaces web/src/pages/Dashboard)
+ │ ├── ze_profile_live.ex ← Ze·Profile (replaces ZeProfile.tsx)
+ │ ├── ze_guide_live.ex ← Ze·Guide AI чат (replaces ZeGuide.tsx)
+ │ ├── feed_live.ex ← лента постов (replaces Feed.tsx)
+ │ └── data_export_live.ex ← GDPR export (replaces DataExport.tsx)
+ ├── components/
+ │ ├── chart_component.ex ← графики через Chart.js hook
+ │ ├── disclaimer.ex ← Ze·Guide disclaimer (обязателен)
+ │ └── language_picker.ex ← 9 языков
+ └── controllers/
+ └── api_proxy.ex ← proxy к Rust REST на 4001
 ```
 
 ## Ключевые отличия LiveView vs React

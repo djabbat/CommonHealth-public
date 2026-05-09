@@ -1,0 +1,38 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "### Operational falsifiability for each hypothesis\n\n**Hypothesis 1: v*_active > v*_passive**\n- H₀: Cohen's d ≤ 0.2 (δ = 0.2), α = 0.05, power ≥ 0.80, N ≥ X (to be calculated after pilot N=50)\n- H₁: Cohen's d > 0.2\n- Decision rule: Reject H₀ if p < 0.001 (Bonferroni-corrected for 3 comparisons) and observed d ≥ 0.5\n\n**Hypothesis 2: χ_Ze correlates with aging clock**\n- H₀: |r| ≤ 0.1 (δ = 0.1 after Fisher z-transform), α = 0.05, power ≥ 0.80, N ≥ Y (to be calculated after pilot N=50)\n- H₁: |r| > 0.1\n- Decision rule: Reject H₀ if p < 0.001 and 95% CI excludes [-0.1, 0.1]\n\n**Hypothesis 3: MCID for v*_active**\n- H₀: |Δv*| ≤ 0.05 (δ = 0.05), α = 0.05, power ≥ 0.80, N ≥ Z (to be calculated after pilot N=50)\n- H₁: |Δv*| > 0.05\n- Decision rule: Reject H₀ if p < 0.001 and observed Δv* ≥ 0.10\n\n**Note:** All numeric thresholds (δ, α, power, N) will be finalized after pilot data collection (N=50) and pre-registered on OSF. Current values are placeholders (TBD) pending pilot analysis."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Pre-registration plan",
+    "body": "- **OSF repository:** osf.io/TBD (to be registered after grant approval or within 3 months of project start)\n- **First study pre-registration date:** 2027-03-01 (revised from 2026-09-01 to allow pilot data collection)\n- **Second study pre-registration date:** 2027-06-01 (revised from 2026-12-01)\n- **Pre-registration content:** Hypotheses, primary/secondary outcomes, analysis plan, exclusion criteria, power analysis parameters\n- **Data availability:** All de-identified data and analysis code will be deposited on OSF upon publication"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Sample size calculation",
+    "body": "**Formula:** n = (1.96 + 0.84)² · σ² / δ² (for α=0.05, power=0.80, two-sided)\n\n| Hypothesis | δ (effect size) | σ (SD) | Calculated N per group | Source of σ |\n|------------|-----------------|--------|------------------------|-------------|\n| v*_active > v*_passive | d = TBD (will be set after pilot N=50) | TBD | TBD | Pilot data (N=50); Cohen's convention as fallback |\n| χ_Ze vs aging clock | r = TBD (Fisher z; will be set after pilot N=50) | TBD | TBD | Pilot data (N=50); literature-based estimate as fallback |\n| MCID for v*_active | δ = TBD (will be set after pilot N=50) | TBD | TBD | Pilot data (N=50); anchor-based method planned |\n\n**Note:** All parameters are placeholders (TBD) until full pilot data (N=50) are collected. The formula and thresholds (α=0.05, power=0.80) are fixed. Final N will be pre-registered on OSF."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| Risk | Probability | Impact | Mitigation |\n|------|-------------|--------|------------|\n| Low statistical power due to small sample size | High | High | Conduct pilot study (N=50); use Bayesian methods as fallback; pre-register power analysis |\n| Unreliable EEG data due to equipment noise | Medium | High | Use validated EEG hardware; standardize recording protocol; include sham condition |\n| Participant dropout in longitudinal cohort | Medium | Medium | Over-recruit by 20%; use mixed models for missing data; provide incentives |\n| Failure to replicate v*_active effect | Medium | High | Pre-register replication; use multiple datasets; report null results transparently |\n| Confounding by age-related comorbidities | High | Medium | Stratify by age group; include comorbidity index as covariate; sensitivity analysis |\n| Meta-analysis heterogeneity (I² > 50%) | High | Medium | Use random-effects model; perform meta-regression; report per-dataset bootstrap estimates (BCa CI) |"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "1. **Small pilot sample (N=12):** Current pilot data are insufficient for reliable power analysis. A larger pilot (N=50) is planned before pre-registration.\n2. **Placeholder parameters:** All numeric thresholds (δ, α, power, N) are currently TBD and will be finalized after pilot data collection.\n3. **Unverified references:** Several citations lack PMID/DOI verification. A full audit is required before submission.\n4. **Pre-print reliance:** Key references include bioRxiv pre-prints; final submission should include peer-reviewed versions where available.\n5. **No external validation:** The v*_active metric has not been validated in independent cohorts. Replication is planned.\n6. **Potential confounding:** Age-related comorbidities and medication effects are not fully controlled in the current design.\n7. **Meta-analysis heterogeneity:** I²=90.3% in v*_active pooling makes standard meta-analysis inappropriate. Per-dataset bootstrap estimates (BCa CI) will be reported, and pooling will only occur if I²<50% after meta-regression."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "**Current team:** Jaba Tkemaladze (PI, Kutaisi International University)\n\n**Planned collaborations (letters of support pending):**\n1. **Neurophysiology group** (TBD institution) — for EEG validation of v*_active\n2. **Biostatistics group** (TBD institution) — for MCID and power analysis\n3. **Clinical center** (TBD institution) — for longitudinal aging cohort\n\n**Note:** Formal partnership agreements will be established upon funding. Letters of support will be appended as placeholder documents.\n\n**Planned consortium structure:**\n- Lead institution: Kutaisi International University (PI: Jaba Tkemaladze)\n- Neurophysiology partner: TBD institution (EEG validation)\n- Biostatistics partner: TBD institution (power analysis, MCID)\n- Clinical partner: TBD institution (longitudinal cohort)\n- Data management: TBD (OSF repository, code sharing)"
+  }
+]

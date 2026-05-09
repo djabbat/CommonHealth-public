@@ -1,0 +1,38 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "**Numeric thresholds (placeholder values, to be finalized in pre-registration):**\n- **Alpha (α):** 0.01 (two-tailed) for all primary tests.\n- **Power (1-β):** 0.80 (minimum), target 0.90 for key experiments.\n- **Effect size (Cohen’s d):** ≥ 0.7 (large effect) for a priori significance.\n- **Minimum sample size per group:** N = 10 (placeholder; see Sample size calculation).\n- **Correction for multiple comparisons:** Bonferroni or FDR (Benjamini-Hochberg) applied per family of tests.\n- **Pre-registered stopping rule:** Data collection ceases when target N is reached; no interim analyses unless specified in pre-registration.\n- **Note:** Alpha must be consistent across falsifiability criteria and sample size calculation. Current discrepancy (α=0.01 vs. α=0.05) will be resolved in the pre-registration plan."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Pre-registration plan",
+    "body": "**Pre-registration details (placeholder):**\n- **OSF ID:** osf.io/TBD\n- **Planned registration date:** 2026-06-01\n- **Registry:** Open Science Framework (OSF)\n- **Scope:** All primary hypotheses (Predictions #1–5) and analysis plans will be pre-registered prior to data collection.\n- **Updates:** Any deviations from the pre-registered plan will be documented with rationale and timestamped."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Sample size calculation",
+    "body": "**Power analysis sketch (placeholder values, to be finalized with consistent α):**\n- **Formula:** n = (Z_α/2 + Z_β)² · 2σ² / δ²\n- **Assumptions:**\n  - α = 0.01 (two-tailed) → Z_α/2 = 2.576\n  - Power = 0.80 → Z_β = 0.842\n  - Expected effect size (Cohen’s d) = 0.7 → δ/σ = 0.7\n- **Calculation:** n = (2.576 + 0.842)² · 2 / (0.7)² = (3.418)² · 2 / 0.49 = 11.68 · 2 / 0.49 ≈ 47.7 → **N = 48 per group** (rounded up).\n- **Current placeholder N (15 per group) is inconsistent with α=0.01.** This calculation will be updated upon finalizing α and effect size estimates in the pre-registration.\n- **Note:** If α=0.05 is used (Z_α/2=1.96), n = (1.96+0.842)² · 2 / 0.49 ≈ 32.0 → N=32 per group. The discrepancy must be resolved."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| Risk | Probability | Impact | Mitigation |\n|------|-------------|--------|------------|\n| Low statistical power due to small N | Medium (30%) | High (false negatives) | Increase N to calculated value; use sequential analysis if feasible |\n| Failure to replicate 100% correlation in new taxa | Medium (30%) | High (core claim weakened) | Pre-register replication set; use Bayesian analysis to quantify evidence |\n| Metronidazole toxicity confounds behavior | High (50%) | Medium (false positives) | Dose-response pilot; include vehicle and sham controls; measure liver enzymes |\n| BBB permeability of bile acids not confirmed in target species | Medium (30%) | High (mechanism untestable) | Use in vitro BBB model; select species with known permeability; alternative: inject directly into CNS |\n| Partner institution withdraws commitment | Low (10%) | Medium (delays) | Maintain backup list of collaborators; secure letters of support before grant submission |\n| Pre-registration not completed before data collection | Low (10%) | High (credibility loss) | Set internal deadline 1 month before start; assign responsible person |"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "**Explicit limitations of the current proposal:**\n1. **Correlational evidence base:** The 100% correlation across 56 taxa is observational; no direct experimental test of causality has been performed.\n2. **Incomplete phylogenetic coverage:** Taxa sampled are biased toward model organisms; missing key groups (e.g., cephalochordates, hemichordates) may reveal exceptions.\n3. **Operational definition of affect:** Behavioral criteria (Anderson & Adolphs) are validated only in mammals and some birds; applicability to invertebrates is inferred, not proven.\n4. **Mechanistic gap:** The proposed molecular pathway (bile acids → nuclear receptors → neural circuits) has not been demonstrated in any species.\n5. **Risk of tautology:** Defining ‘hepatic organ’ by its function (secretion of steroid regulators) may circularly confirm the hypothesis if no independent marker is used.\n6. **Sample size uncertainty:** Current power analysis uses placeholder values; final N may be larger than feasible for some experiments.\n7. **Pre-registration not yet filed:** All numeric thresholds and analysis plans are provisional until registered."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "**Proposed consortium (all partners TBD — to be confirmed with letters of support):**\n- **Lead PI:** Dr. Tkemaladze (AIM Lab) — hypothesis development, behavioral assays, coordination.\n- **Partner 1:** [Name, Institution] — expertise in bile acid chemistry and BBB transport. Role: measure bile acid permeability in target species. Status: TBD.\n- **Partner 2:** [Name, Institution] — expertise in invertebrate neurobiology (e.g., Drosophila, planarians). Role: conduct behavioral assays in non-vertebrate models. Status: TBD.\n- **Partner 3:** [Name, Institution] — expertise in phylogenomics and comparative anatomy. Role: expand taxonomic sampling and validate hepatic organ definition. Status: TBD.\n- **Partner 4:** [Name, Institution] — expertise in statistics and pre-registration. Role: power analysis, data analysis plan, OSF registration. Status: TBD.\n- **Note:** At least 2–3 confirmed partners with signed letters of support are required for ERC AdG. All partners listed here are placeholders pending confirmation."
+  }
+]

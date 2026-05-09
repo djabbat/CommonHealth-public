@@ -1,0 +1,38 @@
+[
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "The following numeric thresholds define conditions under which the core hypotheses (M1–M4) would be considered falsified:\n\n- **M1 (Feasibility):** AI-operated microscopy achieves <80% trained-technician supervision quality (measured as concordance on focus, ROI selection, and channel switching decisions) over N=TBD independent trials. Statistical significance threshold: p<0.001 (one-tailed test against 80% benchmark).\n- **M2 (Interpretability):** >X=TBD% of AI decisions lack a traceable link to an explicit PROMPT.md line and measurable observation in the audit log. Threshold for falsification: >5% of decisions in a continuous 24-hour run.\n- **M3 (Bounded autonomy):** Any single violation of the `forbidden` policy (biosafety) or >X=TBD unauthorized `require_human_approval` actions taken autonomously. Threshold: zero tolerance for `forbidden` violations; >1 unauthorized action per 1000 decisions for `require_human_approval`.\n- **M4 (Reproducibility):** Blind audit of complete journals reveals >X=TBD% of decisions cannot be reconstructed from the recorded rationale and observations. Threshold: >10% irreproducible decisions in any single experiment.\n\n**Note:** All placeholder values (X, N=TBD) will be replaced with empirically determined thresholds after pilot study completion (planned date: TBD)."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Pre-registration plan",
+    "body": "The primary validation experiment (AI vs. human decision agreement) will be pre-registered on the Open Science Framework (OSF) prior to data collection.\n\n- **OSF ID:** osf.io/TBD (placeholder; registration to be created before pilot data acquisition)\n- **Planned registration date:** TBD (estimated 2 weeks before start of pilot experiments)\n- **Pre-registration contents:**\n  - Primary endpoint: concordance rate between AI and human technician decisions (focus, ROI selection, channel switching)\n  - Secondary endpoints: time per decision, error rate, human intervention frequency\n  - Statistical analysis plan: one-tailed test against 80% benchmark (M1), with α=0.05 and 80% power\n  - Exclusion criteria: hardware failures, contamination events, protocol deviations\n  - Sample size justification: n = TBD (placeholder, to be updated after pilot variance estimate)"
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Sample size calculation",
+    "body": "Sample size for the primary validation endpoint (AI vs. human decision agreement) is calculated using the following formula:\n\nn = (Z_α/2 + Z_β)² · σ² / δ²\n\nWhere:\n- Z_α/2 = 1.96 (α = 0.05, two-tailed)\n- Z_β = 0.84 (β = 0.20, 80% power)\n- σ² = TBD (estimated variance from pilot data or literature)\n- δ = TBD (minimum clinically meaningful difference in agreement rate)\n\n**Placeholder values:** n = TBD (to be updated after pilot study, N ≥ 3 independent experiments)."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| Risk | Probability | Impact | Mitigation |\n|------|-------------|--------|------------|\n| AI hallucination (incorrect focus/ROI decisions) | Medium (0.3) | High (loss of data for that timepoint) | Human-in-the-loop validation for critical decisions; automated focus quality metrics; rollback to last valid state |\n| Calibration drift (stage positioning, focus) | Medium (0.3) | Medium (gradual degradation of image quality) | Daily automated calibration check; recalibration threshold ±2 µm; alert if drift exceeds threshold |\n| Hardware failure (stage motor, camera, LED) | Low (0.1) | High (experiment abort) | Redundant components (spare stage, camera); UPS backup; remote monitoring with automatic shutdown |\n| Contamination (fungal/bacterial in chamber) | Medium (0.3) | High (sample loss, chamber decontamination) | Weekly sterilization protocol; HEPA filter on air intake; automated humidity/temperature logging; visual inspection every 48h |\n| Network/power outage | Low (0.1) | Medium (data loss if not saved) | UPS (30 min runtime); NAS backup every 15 min; WireGuard VPN for remote restart |\n| Software bug (Arduino firmware, Claude agent) | Medium (0.3) | Medium (erratic behavior, data corruption) | Version-controlled firmware; automated self-test on startup; manual override switch; full audit log for debugging |"
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "The following limitations are acknowledged and should be considered when interpreting results:\n\n1. **Sample stability:** Protocol assumes ≥3 weeks stability; degradation beyond this window not validated.\n2. **Imaging frequency:** ≤2/hour; faster dynamics (e.g., mitotic events) may be missed.\n3. **Environmental control:** ±0.5°C, ±0.5% CO₂; not suitable for experiments requiring tighter tolerances.\n4. **No physical manipulation:** Media changes and drug additions are human-performed; potential for contamination or timing variability.\n5. **AI generalizability:** Claude agent trained on specific PROMPT.md templates; performance on novel protocols not validated.\n6. **Hardware reproducibility:** DIY stage and chamber may introduce variability across builds; single-instrument validation only.\n7. **Cost comparison:** $4,500 BOM excludes labor, maintenance, and consumables; total cost of ownership not yet calculated.\n8. **Sample size:** n = TBD (placeholder); statistical power may be insufficient for small effect sizes."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "The following partners and collaborators are involved in the AutomatedMicroscopy subproject:\n\n- **Lead institution:** LongevityCommon (infrastructure development and coordination)\n- **Hardware development:** TBD (DIY community contributors, open-source hardware group)\n- **AI/software development:** TBD (Claude Code integration, audit trail system)\n- **Biological validation:** CDATA Phase A team (first user, MCOA Counter validation)\n- **Funding:** TBD (grant applications in preparation)\n- **Advisory board:** TBD (experts in automated microscopy, aging biology, AI safety)\n\n**Note:** Formal consortium agreements and partner commitments are pending. This list will be updated as collaborations are finalized."
+  }
+]

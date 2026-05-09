@@ -1,0 +1,32 @@
+[
+  {
+    "file": "/CONCEPT.md",
+    "action": "replace_text",
+    "find": "n = (1.96 + 0.84)² · σ² / δ²",
+    "body": "n = (1.96 + 0.84)² · σ² / δ²"
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "replace_text",
+    "find": "*Note: σ² and δ are placeholders pending pilot data.nding pilot data. A pilot study with N=10 per group is planned to estimate these parameters. The final sample size w",
+    "body": "*Note: σ² and δ are placeholders pending pilot data. A pilot study with N=10 per group is planned to estimate these parameters. The final sample size will be updated after pilot study."
+  },
+  {
+    "file": "/EVIDENCE.md",
+    "action": "append_section",
+    "heading": "## Evidence base & meta-analysis",
+    "body": "### Key claims and supporting references\n\n1. **AI-operated microscopy has precedents**\n   - Burger et al. (2020) Nature, DOI: 10.1038/s41586-020-2442-2 (chemistry, not microscopy)\n   - Boiko et al. (2023) Nature, DOI: 10.1038/s41586-023-06792-0\n   - Bran et al. (2024) Nat Mach Intell, DOI: 10.1038/s42256-024-00832-8\n   - *Note: No systematic review or meta-analysis on AI-operated microscopy was identified in the literature search.*\n\n2. **Low-cost microscope retrofit is feasible**\n   - OpenFlexure (Sharkey et al., 2016), DOI: 10.1063/1.4941068\n   - *Note: Only one peer-reviewed source; additional independent replication studies are needed.*\n\n3. **Environmental control for long-term imaging**\n   - Hayflick (1965), DOI: 10.1016/0014-4827(65)90211-9 / PMID 14315085\n   - Inkbird ITC-100 spec (manufacturer documentation, no DOI)\n   - *Note: No independent replication of environmental control protocol found.*\n\n### Contradicting results\n- Some studies report higher error rates for AI-based focus adjustment (specific references not provided in current document).\n- *Placeholder: A systematic review of AI-based focus adjustment errors should be conducted and cited.*\n\n### State-of-the-art\n- Current state-of-the-art in automated microscopy includes commercial systems (e.g., Zeiss Axio Observer, Nikon BioStation) costing $25,000–$50,000.\n- Open-source alternatives (OpenFlexure, µManager) exist but lack integrated AI supervision.\n- No published system combines low-cost retrofit with prompt-driven AI supervision as proposed here."
+  },
+  {
+    "file": "/EVIDENCE.md",
+    "action": "append_section",
+    "heading": "## Methodology depth",
+    "body": "### Replication-ready protocol (step-by-step)\n\n1. **Setup**\n   - Assemble Zeiss IM 35 retrofit per engineering specification (AUTOMATED_MICROSCOPY_SETUP.md).\n   - Install Arduino-based stepper motor controllers for XY+Z stage.\n   - Connect FLIR Blackfly S camera via USB3.\n   - Configure LED fluorescence illuminator (ThorLabs M470L4 + M565L3).\n   - Assemble environmental chamber (37°C, 5% CO₂, 90% humidity).\n\n2. **Configuration**\n   - Load PROMPT.md for specific experiment.\n   - Set auto_allow policy, require_human_approval list, forbidden actions.\n   - Calibrate focus (autofocus routine, 10 iterations).\n\n3. **Execution**\n   - AI agent (Claude Code) interprets PROMPT.md and executes imaging schedule.\n   - Every decision logged with timestamp, rationale, and observation.\n   - Human intervention triggered for require_human_approval items.\n\n4. **Data collection**\n   - Images saved in TIFF format with metadata (timestamp, channel, stage position).\n   - Backup to NAS every 6 hours.\n\n5. **Analysis**\n   - Cell segmentation using CellPose v2 (Stringer et al., 2021).\n   - Concordance calculation between AI and human expert decisions.\n\n### Statistical Analysis Plan (SAP)\n\n- **Primary endpoint:** Concordance between AI and human expert decisions (threshold: >0.80).\n- **Secondary endpoints:** Uptime (>0.90), contamination rate (<0.03), image quality score (TBD).\n- **Multiple comparison correction:** Bonferroni (α = 0.05 / 4 endpoints = 0.0125).\n- **Missing data handling:** LOCF (Last Observation Carried Forward) — note: LOCF is questionable for 84 time points; sensitivity analysis using mixed models recommended.\n\n### Controls\n- **Positive control:** Human expert evaluation of same images.\n- **Negative control:** Random AI decisions (no training) — details TBD.\n\n### Replication strategy\n- **Split-sample:** 70% training, 30% validation.\n- **Independent dataset:** TBD (placeholder for external validation dataset).\n\n### Blinding/Randomisation\n- Evaluators blinded to AI vs. human decision origin.\n- Randomisation of image order for evaluation."
+  },
+  {
+    "file": "/EVIDENCE.md",
+    "action": "append_section",
+    "heading": "## Reproducibility & open science",
+    "body": "### Code availability\n- **Repository:** TBD (placeholder; will be made public upon acceptance).\n\n### Data deposit plan\n- **Platform:** TBD (Zenodo, Dryad, OSF, or figshare — to be determined).\n- **Data types:** Raw TIFF images, processed segmentation masks, decision logs.\n\n### Pre-registration\n- **OSF ID:** osf.io/TBD (placeholder; pre-registration planned before data collection).\n- **Date:** 2026-06-01 (planned).\n\n### Materials transparency\n- **Protocols.io link:** TBD (placeholder).\n- **Software dependencies:** requirements.txt (to be provided with code repository)."
+  }
+]

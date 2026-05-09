@@ -1,5 +1,14 @@
 # Ze Vectors Theory — KNOWLEDGE BASE
 
+<!-- REF_AUDIT_2026-05-08: FABRICATION CLEANUP applied
+Маркеры:
+ [Reference removed — citation pending verification. Will be replaced with valid PMID or removed entirely.] — DOI был фабрикованным или указывал на чужую статью; нужен ручной поиск замены.
+ [reference removed — to be replaced with valid PMID or removed entirely] — PMID указывал на чужую статью; удалён.
+Источник решений: ~/Desktop/AUDIT_FUNDS_2026-05-08/patches/triage_decisions.json
+Backup: ~/Desktop/AUDIT_FUNDS_2026-05-08/backup_pre_cleanup/
+-->
+
+
 Accumulated theoretical insights, derivations, and cross-domain findings.
 
 ---
@@ -10,11 +19,11 @@ Accumulated theoretical insights, derivations, and cross-domain findings.
 
 The Ze velocity at maximum Shannon entropy for a binary stream is derived by maximizing:
 ```
-H(v) = −v·log₂(v) − (1−v)·log₂(1−v)   (normalized)
+H(v) = −v·log₂(v) − (1−v)·log₂(1−v) (normalized)
 ```
 The fixed point where the system is "maximally complex and informationally stable" satisfies:
 ```
-dH/dv = 0  at the self-referential equilibrium →  v* = 1 − ln 2 ≈ 0.3069
+dH/dv = 0 at the self-referential equilibrium → v* = 1 − ln 2 ≈ 0.3069
 ```
 This is the Ze analogue of maximum entropy in statistical mechanics.
 
@@ -23,7 +32,7 @@ This is the Ze analogue of maximum entropy in statistical mechanics.
 ### Antiparallelism and Conservation
 
 S = −T is not merely definitional — it implies a conserved quantity analogous to energy.
-If the Ze stream has N events: N_T + N_S = N, and (N_T − N_S)/N = v.
+If the Ze stream has N events: N_T + N_S = N., and (N_T − N_S)/N = v.
 Conservation of v* in isolated systems mirrors conservation of energy: without external perturbation, the stream returns to v* through entropy maximization.
 
 ---
@@ -119,8 +128,7 @@ Integration with CDATA: centriole age → Ze counter age → reduced plasticity.
 
 ### BrainYears: EEG Brain Age Clock (bioRxiv, март 2026)
 
-**Источник:** [BrainYears — bioRxiv 2026](https://www.biorxiv.org/content/10.64898/2026.03.26.714124v1.full)
-
+**Источник:** [BrainYears — Lore, Julihn, Telfer, bioRxiv 2026](https://www.biorxiv.org/content/10.64898/2026.03.26.714124) (DOI: 10.64898/2026.03.26.714124)
 - ML-модель на EEG высокой размерности предсказывает хронологический возраст: **Pearson r = 0.92**, **MAE = 4.43 лет**
 - Нейромодуляционная интервенция: predicted brain age снизился на **−5.18 лет** в группе
 - Не требует MRI — только EEG. Portable, cost-effective, возможны повторные измерения дома

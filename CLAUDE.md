@@ -41,7 +41,7 @@ The "Biotechnology for Healthy Ageing" topic in Challenges 2026 is a closer scie
 2. CDATA ABL-2 Sobol S1 paradox — extended global sensitivity analysis — target Aug 2026
 3. HAP/Ontogenesis fabricated PMIDs — already halted; rebuilt before any inclusion in proposal
 
-**Concept Note preprint:** Tkemaladze, J. (2026) "LongevityHealth", Zenodo v3, DOI 10.5281/zenodo.19849384 (28 April 2026; supersedes earlier "LongevityCommon" preprint 19546679).
+**Concept Note preprint:** Tkemaladze, J. (2026) "LongevityHealth", Zenodo v3, (28 April 2026; supersedes earlier "LongevityCommon" preprint 19546679).
 
 *Deep audit file (still relevant):* `~/Desktop/LongevityCommon/FCLC/DEEP_AUDIT_2026-04-21.md`
 *Variant C decision record:* `~/Desktop/LongevityCommon/_archive/EIC_CONSORTIUM_STRUCTURE_2026-04-21.md`
@@ -52,16 +52,16 @@ The "Biotechnology for Healthy Ageing" topic in Challenges 2026 is a closer scie
 ## Ecosystem Structure
 
 ```
-LongevityCommon/        ← этот проект (социальный слой)
-├── MCOA/               ← Multi-Counter Architecture of Organismal Aging — мета-теория (добавлен 2026-04-21)
-├── Ze/                 ← Ze Theory — Entropic-Geometric Theory of Everything. Канон: Ze Theory.pdf + Ze Теория.pdf (2026-04-25). Rust simulator покрывает 3 блока: импеданс-ODE, CHSH-деформация, cheating autowaves.
-├── CDATA/              ← теория повреждения центриолей, MCAI (Counter #2 в MCOA)
-├── BioSense/           ← EEG+HRV+обоняние (измерительный слой MCOA)
-├── Ontogenesis/        ← платформа онтогенеза 0–25 лет
-├── HAP/                ← Hepato-Affective Primacy Theory (нейро-гепатология)
-├── server/             ← Rust/Axum REST API
-├── web/                ← React TypeScript PWA
-└── realtime/           ← Elixir/Phoenix Channels
+LongevityCommon/ ← этот проект (социальный слой)
+├── MCOA/ ← Multi-Counter Architecture of Organismal Aging — мета-теория (добавлен 2026-04-21)
+├── Ze/ ← Ze Theory — Entropic-Geometric Theory of Everything. Канон: Ze Theory.pdf + Ze Теория.pdf (2026-04-25). Rust simulator покрывает 3 блока: импеданс-ODE, CHSH-деформация, cheating autowaves.
+├── CDATA/ ← теория повреждения центриолей, MCAI (Counter #2 в MCOA)
+├── BioSense/ ← EEG+HRV+обоняние (измерительный слой MCOA)
+├── Ontogenesis/ ← платформа онтогенеза 0–25 лет
+├── HAP/ ← Hepato-Affective Primacy Theory (нейро-гепатология)
+├── server/ ← Rust/Axum REST API
+├── web/ ← React TypeScript PWA
+└── realtime/ ← Elixir/Phoenix Channels
 ```
 
 **Правило:** LongevityCommon — thin social layer over Ze+CDATA+BioSense+Ontogenesis+HAP. Никакой новой науки, никакой новой privacy-инфраструктуры. Новое: UX сообщества, ранжирование ленты, Ze·Guide AI.
@@ -121,7 +121,7 @@ LongevityCommon/        ← этот проект (социальный слой
 ```rust
 // Успех: Json(value)
 // Ошибка: (StatusCode::XXX, String)
-// Никогда: .unwrap() в handlers
+// Никогда: .unwrap в handlers
 ```
 
 ---

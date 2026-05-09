@@ -20,11 +20,11 @@ the Telomere simulator.
 | [GSE311942](https://www.ncbi.nlm.nih.gov/gds/?term=GSE311942) | Transcriptome profiling of human dermal fibroblasts transfected with tRF-34 mimics or negative control under UVA1 exposu | 6 | 2026 | 2 |
 | [GSE163301](https://www.ncbi.nlm.nih.gov/gds/?term=GSE163301) | Age-related noncanonical TRMT6–TRMT61A signaling impairs hematopoietic stem cells | 12 | 2024 | 2 |
 | [GSE26005](https://www.ncbi.nlm.nih.gov/gds/?term=GSE26005) | The human TTAGGG Repeat Factors 1 and 2 bind to a subset of interstitial telomeric sequences and satellite repeats | 4 | 2011 | 2 |
-| [GSM4378529](https://www.ncbi.nlm.nih.gov/gds/?term=GSM4378529) | embryonic fibroblasts, wt3 (tRF) |  | 2020 | 2 |
-| [GSM4378528](https://www.ncbi.nlm.nih.gov/gds/?term=GSM4378528) | embryonic fibroblasts, wt2 (tRF) |  | 2020 | 2 |
-| [GSM4378527](https://www.ncbi.nlm.nih.gov/gds/?term=GSM4378527) | embryonic fibroblasts, wt1 (tRF) |  | 2020 | 2 |
-| [GSM4378526](https://www.ncbi.nlm.nih.gov/gds/?term=GSM4378526) | embryonic fibroblasts, ko3 (tRF) |  | 2020 | 2 |
-| [GSM4378525](https://www.ncbi.nlm.nih.gov/gds/?term=GSM4378525) | embryonic fibroblasts, ko2 (tRF) |  | 2020 | 2 |
+| [GSM4378529](https://www.ncbi.nlm.nih.gov/gds/?term=GSM4378529) | embryonic fibroblasts, wt3 (tRF) | | 2020 | 2 |
+| [GSM4378528](https://www.ncbi.nlm.nih.gov/gds/?term=GSM4378528) | embryonic fibroblasts, wt2 (tRF) | | 2020 | 2 |
+| [GSM4378527](https://www.ncbi.nlm.nih.gov/gds/?term=GSM4378527) | embryonic fibroblasts, wt1 (tRF) | | 2020 | 2 |
+| [GSM4378526](https://www.ncbi.nlm.nih.gov/gds/?term=GSM4378526) | embryonic fibroblasts, ko3 (tRF) | | 2020 | 2 |
+| [GSM4378525](https://www.ncbi.nlm.nih.gov/gds/?term=GSM4378525) | embryonic fibroblasts, ko2 (tRF) | | 2020 | 2 |
 | [GSE239687](https://www.ncbi.nlm.nih.gov/gds/?term=GSE239687) | Genomic analysis of mice with endothelium-specific TERT knockout (scRNA-Seq) | 4 | 2023 | 2 |
 | [GSE22134](https://www.ncbi.nlm.nih.gov/gds/?term=GSE22134) | miRNA Expression in Senescent and Immortalized BJ fibroblasts | 7 | 2010 | 2 |
 | [GSE280657](https://www.ncbi.nlm.nih.gov/gds/?term=GSE280657) | Non-canonical Telomerase Reverse Transcriptase Controls Osteogenic Reprogramming of Aortic Valve Cells Through STAT5 [CU | 3 | 2024 | 1 |
@@ -47,7 +47,7 @@ the Telomere simulator.
 | 10.5281/zenodo.19659315 | A Narrative Review of Energy Expenditure and the Shift from Effective Ambulation to Effective Mobility in the Rehabilita | 2026-04-20 | A Narrative Review of Energy Expenditure and the Shift from Effective Ambulation to Effective Mobili |
 | 10.5281/zenodo.19658503 | The Dual-Framework Ontology of Monozygotic Twinning: Synthesizing Fluid Mechanics, Quantum Superposition, and the Comput | 2026-04-20 | Kulik, Dean |
 | 10.5281/zenodo.19656193 | ENIGMA Symmetric White Matter Tractography Atlas | 2026-04-20 | Ba Gari, Iyad, Davis Alibrando, Jonathan, Feng, Yixue |
-| 10.5281/zenodo.19653078 | CyTOF mass cytometry dataset for "Aging of the adaptive immune system affects the gut microbiome and systemic levels of  | 2026-04-19 | Stahl, Selina Natalie |
+| 10.5281/zenodo.19653078 | CyTOF mass cytometry dataset for "Aging of the adaptive immune system affects the gut microbiome and systemic levels of | 2026-04-19 | Stahl, Selina Natalie |
 | 10.5281/zenodo.19647283 | Code for: A staged whole-blood transcriptomic framework identifies and validates a compact myeloid-lymphoid activity sco | 2026-04-19 | Zhang, Chuanwei, Pang, Lijun, zhu, Ziheng |
 | 10.5281/zenodo.19647259 | Data for: A staged whole-blood transcriptomic framework identifies and validates a compact myeloid-lymphoid activity sco | 2026-04-19 | Zhang, Chuanwei, Pang, Lijun, Zhu, Ziheng |
 | 10.5281/zenodo.19646286 | Decoding the Heart: A Comprehensive Meta-Analysis and Machine Learning Synthesis of Cardiovascular Risk Factors in the F | 2026-04-19 | Thornton, Owen |
@@ -60,7 +60,7 @@ the Telomere simulator.
 |------|--------------|------|---------|-------|
 | [40671231](https://pubmed.ncbi.nlm.nih.gov/40671231) | Ma Y | 2026 | Current topics in medicinal chemistry | Telomere Maintenance Characteristics Predict Prognosis and Therapeutic Response in Colorectal Cancer. |
 | [40589934](https://pubmed.ncbi.nlm.nih.gov/40589934) | Mozhui K | 2025 | The Yale journal of biology and medicine | Tracking Epigenetic Biomarkers of Health and Aging During the Initial Year of Gender-Affirming Hormone Therapy. |
-| [38401886](https://pubmed.ncbi.nlm.nih.gov/38401886) | Chen B | 2024 | Cancer letters | LINC02454-CCT complex interaction is essential for telomerase activity and cell proliferation in head and neck squamous  |
+| [38401886](https://pubmed.ncbi.nlm.nih.gov/38401886) | Chen B | 2024 | Cancer letters | LINC02454-CCT complex interaction is essential for telomerase activity and cell proliferation in head and neck squamous |
 | [35757510](https://pubmed.ncbi.nlm.nih.gov/35757510) | Zhang S | 2022 | Oxidative medicine and cellular longevity | Identification of Prognostic and Tumor Microenvironment by Shelterin Complex-Related Signatures in Oral Squamous Cell Ca |
 | [35253187](https://pubmed.ncbi.nlm.nih.gov/35253187) | Liu XG | 2022 | European review for medical and pharmacological sciences | Telomere length-related signature as a novel biomarker of prognosis and immune response in non-small cell lung cancer. |
 | [35063426](https://pubmed.ncbi.nlm.nih.gov/35063426) | Isaevska E | 2022 | Environmental research | Prenatal exposure to PM(10) and changes in DNA methylation and telomere length in cord blood. |

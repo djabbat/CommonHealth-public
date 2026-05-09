@@ -171,8 +171,8 @@ Existing config at `/etc/nginx/sites-enabled/app.longevity.ge.conf` — no curre
 
 **Root cause:** `src/services/ze_compute.rs::compute_profile` had:
 ```
-D_norm   = clamp(D_NORM_ALPHA · (1 − chi_ze), 0, 1)
-bio_age  = chrono_age · (1 − D_norm · K)
+D_norm = clamp(D_NORM_ALPHA · (1 − chi_ze), 0, 1)
+bio_age = chrono_age · (1 − D_norm · K)
 ```
 The expression `(1 − D_norm·K)` is always ≤ 1, so bio_age was capped at
 chrono — could only be younger, never older. Contradicted root CONCEPT
@@ -181,12 +181,12 @@ chrono — could only be younger, never older. Contradicted root CONCEPT
 **Fix (committed):** centred formula around `D_NORM_BASELINE = 0.5`:
 ```
 signed_damage = (D_NORM_ALPHA · (BASELINE − chi)).clamp(-1, 1)
-bio_age       = chrono_age · (1 + signed_damage · K)
+bio_age = chrono_age · (1 + signed_damage · K)
 ```
 Now:
 - `chi=0.9` (healthy) → `signed_damage = -0.48` → `bio_age ≈ 0.736·chrono` (younger ✓)
-- `chi=0.5` (avg)     → `signed_damage = 0`     → `bio_age = chrono` ✓
-- `chi=0.1` (damaged) → `signed_damage = 0.48`  → `bio_age ≈ 1.264·chrono` (older ✓)
+- `chi=0.5` (avg) → `signed_damage = 0` → `bio_age = chrono` ✓
+- `chi=0.1` (damaged) → `signed_damage = 0.48` → `bio_age ≈ 1.264·chrono` (older ✓)
 
 `compute_ci::approx_chrono` reverse-formula updated correspondingly.
 Test `test_cohort_percentile_worst_in_cohort` un-ignored and passes;

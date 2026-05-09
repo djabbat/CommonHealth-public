@@ -1,0 +1,56 @@
+[
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "The following numeric thresholds define conditions under which the core hypotheses M1–M4 are considered falsified:\n\n- **M1 (Feasibility):** Falsified if, after N=3 independent runs, AI-operated microscopy achieves <80% agreement with a trained technician on focus quality (binary pass/fail) and ROI selection accuracy (IoU <0.70). Statistical test: one-sided binomial test against H₀: p ≥ 0.80, α = 0.05.\n- **M2 (Interpretability):** Falsified if >10% of AI decisions in the audit trail lack an explicit link to a PROMPT.md line or measurable observation, assessed over a random sample of 100 decisions per run.\n- **M3 (Bounded autonomy):** Falsified if any `forbidden` action is executed by the AI agent during 100 hours of cumulative operation (including stress tests with adversarial prompts).\n- **M4 (Reproducibility):** Falsified if a blind audit of the complete journals fails to reconstruct the decision sequence with >90% accuracy for two independent auditors.\n\nAll thresholds are pre-registered and will be reported with exact p-values and confidence intervals."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Pre-registration plan",
+    "body": "The primary validation experiment (AI vs. human decision agreement) will be pre-registered on the Open Science Framework (OSF) prior to data collection.\n\n- **OSF ID:** osf.io/TBD\n- **Planned registration date:** TBD (target: before pilot data collection)\n- **Registration content:** Study design, primary and secondary endpoints, sample size calculation, analysis plan (including stopping rules and exclusion criteria), and all falsifiability thresholds.\n- **Deviations:** Any post-registration changes will be documented with version history and rationale."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Sample size calculation",
+    "body": "Sample size for the primary validation endpoint (AI vs. human decision agreement) is calculated using the following formula:\n\nn = (Z_α/2 + Z_β)² · σ² / δ²\n\nWhere:\n- Z_α/2 = 1.96 (α = 0.05, two-tailed)\n- Z_β = 0.84 (β = 0.20, 80% power)\n- σ² = placeholder (to be estimated from pilot data or literature)\n- δ = placeholder (minimum clinically meaningful difference in agreement rate)\n\n**Sample size:** n = TBD (to be updated after pilot study, N ≥ 3 independent experiments)."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| Risk | Probability | Impact | Mitigation |\n|------|-------------|--------|------------|\n| AI agent fails to maintain focus over 3-week experiment | Medium | High (data loss) | Implement auto-refocus routine every 30 min; manual override via VPN |\n| Environmental chamber drift (temp/CO₂) | Low | Medium (reduced reproducibility) | Dual sensor monitoring with alert threshold ±0.5°C, ±0.5% CO₂; UPS backup |\n| Motorized stage calibration loss | Low | High (ROI misalignment) | Daily calibration check with reference slide; auto-correction algorithm |\n| Network outage during remote monitoring | Medium | Medium (delayed response) | Local NAS buffer with 7-day storage; automatic resume on reconnect |\n| AI hallucination (incorrect decision without audit trail) | Low | Critical (protocol violation) | All decisions logged with PROMPT.md line reference; human-in-loop for `require_human_approval` actions |\n| Sample contamination during 3-week experiment | Medium | High (experiment abort) | Sterile technique protocol; weekly visual inspection by human |"
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "1. **Sample stability:** Protocol assumes ≥3 weeks stability; degradation beyond this window not validated.\n2. **Imaging frequency:** Limited to ≤2/hour; not suitable for fast kinetic assays.\n3. **Environmental control:** ±0.5°C, ±0.5% CO₂ tolerance may be insufficient for temperature-sensitive mutants.\n4. **No physical manipulation:** Media changes and drug additions must be performed manually, introducing variability.\n5. **Single microscope platform:** Validation only on Zeiss IM 35; transferability to other models not tested.\n6. **AI model dependency:** Performance tied to Claude Code agent; updates or deprecation may affect reproducibility.\n7. **Generalizability:** Tested only on CDATA-class protocols; applicability to other assays (e.g., MitoROS, Telomere) not yet demonstrated."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "- **Lead PI:** TBD (LongevityCommon)\n- **Engineering partner:** TBD (open-source hardware community)\n- **Validation lab:** TBD (independent biology lab for replication)\n- **Software development:** TBD (Claude Code agent integration)\n- **Funding source:** TBD (grant or institutional support)"
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Evidence base & meta-analysis",
+    "body": "The following verified sources support key claims in this concept. No systematic review or meta-analysis was performed; references are illustrative and require independent verification.\n\n1. **Low-cost microscope automation:** [Placeholder: e.g., OpenTrons, µManager, or similar open-source microscopy automation projects].\n2. **AI for microscopy decision-making:** [Placeholder: e.g., recent work on deep learning for focus detection or ROI selection in live-cell imaging].\n3. **Environmental control for long-term imaging:** [Placeholder: e.g., published protocols for DIY incubator chambers with ±0.5°C stability].\n\n**State-of-the-art:** Current commercial automated microscopes (e.g., Nikon BioStation, Zeiss Cell Observer) cost $25k–$50k and offer integrated environmental control, motorized stages, and software scheduling. The proposed system aims to match this functionality at <20% cost using AI-driven supervision.\n\n**Contradictory evidence:** No contradictory results were identified in the reviewed literature, but the search was not systematic. A formal PRISMA-based review is recommended before finalizing the design."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Methodology depth",
+    "body": "### Replication-ready protocol (step-by-step)\n1. **Setup:** Assemble hardware per AUTOMATED_MICROSCOPY_SETUP.md. Calibrate stage, camera, and environmental chamber.\n2. **Experiment definition:** Write PROMPT.md with imaging schedule, ROIs, channels, and decision rules.\n3. **AI initialization:** Launch Claude Code agent in `/overnight` mode with `auto_allow` policy.\n4. **Data collection:** Agent executes imaging loop: focus check → acquire → store → log decision. Human notified for `require_human_approval` events.\n5. **Audit:** After experiment, export complete journal for blind audit.\n\n### Statistical Analysis Plan (SAP)\n- **Primary endpoint:** Agreement rate between AI and human technician on focus quality (binary pass/fail).\n- **Secondary endpoints:** ROI selection accuracy (IoU), time to decision, number of human interventions.\n- **Multiple comparisons:** Bonferroni correction for secondary endpoints (α = 0.05 / 3 = 0.017).\n- **Missing data:** Any run with >10% missing images due to hardware failure will be excluded; sensitivity analysis with imputation (last observation carried forward) will be reported.\n\n### Controls\n- **Positive control:** Human technician performing same protocol on identical setup.\n- **Negative control:** AI agent with no PROMPT.md (random decisions).\n- **Replication strategy:** Split-sample (70% training, 30% validation) + independent dataset from second lab (TBD).\n\n### Blinding / Randomisation\n- Blinding: Human evaluators of AI decisions will be blinded to condition (AI vs. human).\n- Randomisation: Order of imaging runs will be randomized to avoid order effects."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Reproducibility & open science",
+    "body": "- **Code repository:** All software (Arduino firmware, Python scripts, Claude Code agent configuration) will be deposited in a public GitHub repository upon acceptance (URL: TBD).\n- **Data deposit plan:** Raw images, processed data, and analysis scripts will be deposited in Zenodo (DOI: TBD) or OSF (osf.io/TBD) upon publication.\n- **Pre-registration:** See section \"## Pre-registration plan\" above.\n- **Materials transparency:** Hardware bill of materials, assembly instructions, and protocol for environmental chamber will be shared via protocols.io (DOI: TBD). Software dependencies will be listed in `requirements.txt` in the code repository.\n- **License:** All materials will be released under CC-BY 4.0 or equivalent open license."
+  }
+]

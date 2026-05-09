@@ -1,0 +1,56 @@
+[
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "- **M1 (Feasibility):** H₀: AI-operated microscopy achieves <80% trained-technician supervision quality. H₁: ≥80%. Numeric threshold: 80% agreement rate. α = 0.05, power = 0.80. Sample size N = TBD (placeholder, to be estimated from pilot study).\n- **M2 (Interpretability):** H₀: <90% of AI decisions link to explicit PROMPT.md line + measurable observations. H₁: ≥90%. Numeric threshold: 90% traceability. α = 0.05, power = 0.80. Sample size N = TBD.\n- **M3 (Bounded autonomy):** H₀: AI violates auto_allow policy in >1% of decisions. H₁: ≤1% violation rate. Numeric threshold: 1%. α = 0.05, power = 0.80. Sample size N = TBD.\n- **M4 (Reproducibility):** H₀: <95% of journals enable post-hoc blind audit. H₁: ≥95%. Numeric threshold: 95% auditability. α = 0.05, power = 0.80. Sample size N = TBD.\n- **Contamination rate:** H₀: contamination rate ≥0.03. H₁: <0.03. Numeric threshold: 0.03. α = 0.05, power = 0.80. **N = TBD** (placeholder, to be determined)."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Pre-registration plan",
+    "body": "- **Platform:** OSF (placeholder: osf.io/TBD)\n- **Planned date:** 2026-06-01\n- **Contents:** Study protocol, primary and secondary endpoints, sample size calculation, analysis plan, data collection procedures, and materials list.\n- **Status:** Pre-registration will be completed prior to data collection."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "replace_text",
+    "find": "n = (1.96 + 0.84)² · σ² / δ² (placeholder: σ² = TBD, δ = TBD; to be estimated from pilot study N ≥ 3 independent experiments)",
+    "replace": "n = (1.96 + 0.84)² · σ² / δ²\nWhere:\n- Z_α/2 = 1.96 (α = 0.05, two-tailed)\n- Z_β = 0.84 (β = 0.20, 80% power)\n- σ² = TBD (placeholder, to be estimated from pilot data or literature)\n- δ = TBD (placeholder, minimum clinically meaningful difference in agreement rate)\n- **Sample size:** n = TBD (to be updated after pilot study, N ≥ 3 independent experiments)."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| Risk | Probability (1-5) | Impact (1-5) | Mitigation |\n|------|-------------------|--------------|------------|\n| AI hallucination in decision-making | 3 | 4 | Full audit trail; human-in-the-loop for strategic decisions; regular validation against ground truth |\n| Hardware failure (stage, camera, illuminator) | 2 | 5 | Redundant components; UPS; NAS backup; remote monitoring; spare parts inventory |\n| Environmental chamber instability | 2 | 4 | Calibration before each experiment; backup sensors; automated alerts |\n| Sample contamination | 3 | 3 | Sterile technique; regular monitoring; H₀: contamination rate <0.03 |\n| Data loss or corruption | 1 | 5 | NAS backup; version control; regular integrity checks |\n| Protocol deviation | 2 | 3 | Automated logging; pre-registration; deviation reporting |"
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "- **Hardware precision:** The retrofitted Zeiss IM 35 may have lower mechanical precision than commercial systems, potentially affecting reproducibility.\n- **AI hallucination:** The Claude Code agent may occasionally produce incorrect decisions, requiring human oversight.\n- **Lack of precedents:** No prior studies have validated AI-operated microscopy for this specific protocol class.\n- **Sample stability:** Limited to samples stable for ≥3 weeks; not suitable for short-term or unstable samples.\n- **Imaging frequency:** Maximum 2/hour; not suitable for high-frequency time-lapse.\n- **Environmental control:** ±0.5°C, ±0.5% CO₂ may not be sufficient for some sensitive assays.\n- **No on-platform manipulation:** Media changes and other interventions require human intervention, limiting full automation.\n- **Generalizability:** Results may not generalize to other microscope models or AI systems."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "| Partner | Role | Status |\n|---------|------|--------|\n| TBD | Hardware development | TBD |\n| TBD | AI/software development | TBD |\n| TBD | Biological validation | TBD |\n| TBD | Data analysis | TBD |\n| TBD | Project coordination | TBD |\n| TBD | Funding | TBD |"
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Evidence base & meta-analysis",
+    "body": "- **Source 1:** Sharkey, M., et al. (2016). \"Low-cost microscope retrofit.\" *Journal of Open Hardware*, DOI: TBD (placeholder).\n- **Source 2:** [Author(s), Year, Journal, DOI TBD] — placeholder for peer-reviewed study on AI-operated microscopy.\n- **Source 3:** [Author(s), Year, Journal, DOI TBD] — placeholder for study on environmental chamber stability.\n- **State-of-the-art:** Current automated microscopy systems (e.g., IncuCyte, Lionheart) cost $25-50k and require proprietary software. The proposed retrofit aims to achieve comparable performance at <20% cost.\n- **Contradicting results:** No contradicting studies identified; however, the field lacks direct comparisons of AI-operated vs. human-operated microscopy for this protocol class.\n- **Meta-analysis:** No existing meta-analysis available; a systematic review (PRISMA) is planned as part of the project."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Methodology depth",
+    "body": "- **Protocol:** Step-by-step replication-ready protocol will be provided in a separate document (PROTOCOL.md).\n- **Statistical Analysis Plan (SAP):**\n  - Primary endpoint: AI vs. human decision agreement rate.\n  - Secondary endpoints: Time to decision, error rate, reproducibility across replicates.\n  - Multiple comparisons: Bonferroni correction for secondary endpoints.\n  - Missing data: Multiple imputation (MICE) or complete-case analysis, sensitivity analysis.\n- **Controls:** Positive control (human technician), negative control (random decision), and no-treatment control.\n- **Replication strategy:** Split-sample validation (80% training, 20% testing) + k-fold cross-validation (k=5) + independent dataset validation (if available).\n- **Blinding/Randomisation:** Randomisation of image order for human evaluation; blinding of human evaluators to AI decisions."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Reproducibility & open science",
+    "body": "- **Code repository:** Will be made publicly available upon acceptance (placeholder: GitHub/TBD).\n- **Data deposit:** All raw and processed data will be deposited in Zenodo/Dryad/OSF/figshare (placeholder: DOI TBD).\n- **Pre-registration:** OSF link (placeholder: osf.io/TBD).\n- **Materials transparency:** Full list of materials, software versions, and protocols will be provided (protocols.io placeholder: TBD; requirements.txt placeholder: TBD)."
+  }
+]

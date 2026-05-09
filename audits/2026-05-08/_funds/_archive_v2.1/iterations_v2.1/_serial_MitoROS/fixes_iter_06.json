@@ -1,0 +1,44 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "The following numeric thresholds are defined for all core hypotheses:\n- **Significance level:** α = 0.05 (two-tailed where applicable)\n- **Power:** 1 − β = 0.80\n- **Minimum effect size for linear model (P0-1):** R² ≥ 0.9\n- **Minimum effect size for ANOVA (P0-2):** Cohen's f² ≥ 0.35\n- **Minimum slope for time-dependent damage (P2-1):** slope > 0.05/year\n- **p-value threshold for all primary analyses:** p < 0.001 (confirmatory); p < 0.05 (exploratory, flagged as such)\n- **Contingency rule:** If any primary hypothesis fails to meet its threshold, the alternative model (non-linear for P0-1, interaction-free for P0-2) will be pre-registered as a separate test."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Pre-registration plan",
+    "body": "The full pre-registration for all P0 and P1 experiments will be deposited at OSF under ID `osf.io/TBD` no later than 2026-07-01. The pre-registration will include:\n- All primary hypotheses with operationalised thresholds (see §Falsifiability)\n- Complete analysis scripts (R or Python) for all planned tests\n- Exclusion criteria (outliers >3 SD from mean, technical failures, contamination)\n- Randomisation protocol (block randomisation by tissue and condition)\n- Weight-locking statement for λ_het and λ_les (fixed after pilot, N=15 per condition)\n- Contingency plans for each hypothesis (alternative models, correction for multiple comparisons)\nAny deviation from the pre-registration will be documented as a separate amendment with timestamp."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Sample size calculation",
+    "body": "All sample sizes are derived from standard power analysis formula for two-sided tests:\n\\[ n = \\frac{(Z_{1-\\alpha/2} + Z_{1-\\beta})^2 \\cdot \\sigma^2}{\\delta^2} \\]\nwhere Z_{1-α/2} = 1.96 (α = 0.05), Z_{1-β} = 0.84 (power = 0.80), σ² = pooled variance, δ = minimum detectable effect.\n\n**P0-1 (linear regression, R² = 0.9):** n = 15 per condition (3 conditions → 45 total). Effect size f² = R²/(1−R²) = 9.0; σ² and δ are implicit in the regression framework.\n\n**P0-2 (two-way ANOVA, f² = 0.35):** n = 30 per tissue (3 tissues → 90 total). σ² = TBD (estimated from pilot), δ = TBD (corresponding to f² = 0.35).\n\n**P1-1 (two-sample t-test, d = 0.8):** n = 25 per group (2 groups → 50 total). σ² = TBD, δ = TBD.\n\n**P2-1 (longitudinal slope > 0.05/year):** n = TBD (to be estimated from P0-1 pilot data). σ² = TBD, δ = TBD.\n\nAll calculations assume equal group sizes and sphericity; if violated, Greenhouse-Geisser correction will be applied."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| Risk ID | Probability | Impact | Mitigation | Owner | Monitoring |\n|---------|-------------|--------|------------|-------|------------|\n| R1 | Medium | High | Pre-registration with weight locking; sensitivity analysis | PI | Monthly review of pilot data |\n| R2 | Medium | High | Test linear vs. non-linear models; contingency pre-registration | Statistician | After pilot experiment (N=15) |\n| R3 | Low | Medium | Use multiple reference genomes; validate with Sanger sequencing | Bioinformatician | Per sequencing batch |\n| R4 | Medium | High | Bootstrap confidence intervals for w₃; independent Seahorse validation | PI | After P0-1 completion |\n| R5 | Low | Low | Include positive/negative controls in each assay | Lab manager | Per experiment |\n| R6 | High | Medium | Longitudinal sampling at 3+ time points; mixed-effects modelling | Statistician | Quarterly data review |"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "1. **Tissue heterogeneity:** The model assumes uniform damage accumulation within each tissue type, ignoring cellular subpopulations (e.g., stem cells vs. differentiated cells). Mitigation: Single-cell mtDNA sequencing in a subset of samples (N=5 per tissue) to assess intra-tissue variance.\n2. **Hypothetical τ₃ parameter:** The time-dependent damage rate τ₃ (0.1–0.3/year) is estimated from cross-sectional data; longitudinal validation is required. Mitigation: Planned longitudinal study in mice (P2-1) with measurements at 3 time points.\n3. **Uncalibrated weights λ_het, λ_les:** These weights are set heuristically and will be locked after pilot experiment. Mitigation: Sensitivity analysis with bootstrapped confidence intervals.\n4. **Causal direction not established:** D₃ → aging correlation does not prove causation; reverse causality (aging → mtDNA damage) is possible. Mitigation: Mendelian randomisation or intervention studies (e.g., antioxidant treatment) are planned as follow-up.\n5. **Model overfitting risk:** With multiple free parameters (α₃, β₃, τ₃, γ₃, w₃), the model may overfit to the training data. Mitigation: Out-of-sample validation on independent datasets; cross-validation within the meta-analysis.\n6. **Publication bias in source studies:** Meta-analysed studies may overestimate effect sizes due to selective reporting. Mitigation: Funnel plot asymmetry test; Egger's regression test; inclusion of unpublished preprints where available."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "The following partners have confirmed interest (roles TBD pending funding):\n- **Lab A** (University of [TBD]): Single-cell mtDNA sequencing and bioinformatics\n- **Lab B** (University of [TBD]): Seahorse metabolic analysis and ROS measurements\n- **Lab C** (University of [TBD]): Longitudinal mouse studies and tissue collection\n- **Lab D** (University of [TBD]): Statistical modelling and power analysis\n- **Clinical collaborator** ([TBD] Hospital): Human tissue samples (biopsies) and ethical approval\n- **Data management** ([TBD]): OSF repository and code archiving\nFormal collaboration agreements will be signed upon funding confirmation."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "replace_text",
+    "find": "**Authors:** [Author List]\n**Correspondence:** [Corresponding Author Email]\n**Date:** April 2026",
+    "replace": "**Authors:** [Author List — TBD]\n**Correspondence:** [Corresponding Author Email — TBD]\n**Date:** April 2026"
+  }
+]

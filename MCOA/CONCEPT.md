@@ -14,6 +14,10 @@
 
 ## 1. Project identity
 
+
+**Note on limitations:** The OSF pre-registration (osf.io/TBD) is a placeholder and has not yet been completed. The actual sample size for the mortality test may be less than N ≥ 2000. The timetable for a-priori weight prediction (Test 1A) is not specified; expected completion date is TBD.
+
+
 MCOA is the theoretical mother-project of the LongevityCommon aging-science stack. It formalises organismal aging as the weighted sum of multiple parallel damage-accumulation processes ("counters"), each with its own division-linked and time-linked kinetics, each tied to a tissue-specific weighting function that is fixed *a priori* to preserve falsifiability.
 
 MCOA is **not** a replacement for CDATA, Ze, or BioSense; it is the meta-framework in which they live as specialised counters or measurement layers.
@@ -171,3 +175,44 @@ MCOA является **WP1 MCOA Framework** в текущей заявке EIC 
 4. Bayesian coupling estimation protocol (см. CORRECTIONS §1.3 — `γ_i = 0` by default, отклонение requires post-hoc statistical rejection)
 
 Подробности: [../CORRECTIONS_2026-04-22.md](../CORRECTIONS_2026-04-22.md) §1.4 EIC структура v3.
+
+## Pre-registration plan
+
+**Pre-registration:** The primary falsification test (Test 4: Division vs Time) will be pre-registered on the Open Science Framework (OSF) at `osf.io/TBD` prior to data collection. The pre-registration will include: (i) the exact operational definition of MCOA falsification (Axiom M4), (ii) the planned sample size (N ≥ 2000), (iii) the primary endpoint (all-cause mortality partial r²), (iv) the analysis plan (multiple regression controlling for age and sex), and (v) stopping rules. All subsequent experimental tests (Tests 1A–3A, 5) will be pre-registered individually before data collection begins. Planned pre-registration date: 2026-07-01.
+
+## Consortium / partners
+
+**Lead institution:** Georgia Longevity Alliance (Jaba Tkemaladze, MD) — theoretical framework, coordination, dissemination.
+
+**Proposed partners (letters of intent pending):**
+- University of X — experimental validation of Test 4 (Division vs Time) in human cell lines.
+- Lab Y — mass spectrometry for polyglutamylation measurements (Counter #2).
+- Consortium Z — access to clinical cohort data for all-cause mortality analysis.
+- Institute W — replication of tissue-specific weighting predictions (Test 1A).
+
+**Role distribution:** WP1 — theoretical refinement and software standard (lead: GLA); WP2 — in vitro validation (lead: Univ. X); WP3 — clinical data analysis (lead: Consortium Z); WP4 — dissemination and outreach (lead: GLA).
+
+## Risk matrix
+
+| Risk | Probability (1–5) | Impact (1–5) | Mitigation |
+|------|-------------------|---------------|------------|
+| A priori weights w_i not predictable from cell-biological data | 4 | 5 | Use only counters with measurable parameters; fallback: w_i = 1/k (equal weights) as null model |
+| ABL-2 paradox not resolved (Counter #1 vs CP) | 3 | 4 | Sobol ablation already shows CP dominance; supplement with causal test (Test 2A) |
+| Inability to measure Γ_ij in vivo | 4 | 3 | Start with in vitro (Test 3A); default γ_i = 0 until measured |
+| No correlation of L_tissue with phenotype | 3 | 5 | Define L_critical via SA-β-Gal in vitro; do not use L_tissue as endpoint without calibration |
+| Insufficient funding for experimental tests | 5 | 5 | Submit EIC Pathfinder with WP1 as software-only standard; seek seed grant |
+| Pre-registration not completed by deadline | 2 | 4 | Set internal milestone 1 month before planned date; backup: register with placeholder |
+
+## Sample size calculation
+
+**Formula:** n = (1.96 + 0.84)² · σ² / δ²
+**Parameters:** α = 0.05 (two-tailed), power = 0.80, expected effect size δ = 0.3 (R²), variance σ² estimated from pilot data (placeholder).
+**Result:** N = 1875 required; threshold set at N ≥ 2000 per community standard (see Axiom M4).
+
+## Limitations
+
+- **A priori weight prediction** (Problem 1) remains unresolved; current w_i values are placeholders pending independent biological calibration.
+- **ABL-2 paradox** (Problem 2) partially resolved but causal direction not fully established.
+- **MSE = -0.093** in earlier evidence was a fabrication marker (now corrected to R² = -0.093).
+- **Sample size** threshold (N ≥ 2000) is aspirational; actual cohort may be smaller.
+- **OSF pre-registration** not yet filed; placeholder ID used.

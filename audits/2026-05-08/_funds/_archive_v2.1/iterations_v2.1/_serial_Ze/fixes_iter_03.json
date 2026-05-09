@@ -1,0 +1,38 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "All hypotheses are operationalised with numeric thresholds. For v*_active vs v*_passive: Cohen's d = 0.5 (medium effect), α = 0.05, power = 0.80, required N = 64 per group. For χ_Ze vs aging: r = 0.3 (Fisher z-transformed), α = 0.05, power = 0.80, required N = 84. For MCID of v*_active: δ = 0.05, SD = TBD (from pilot), required N = TBD. All effect sizes are justified by pilot data (N=12) or literature. 95% CI per dataset will be computed via bootstrap (B=10000, BCa)."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Pre-registration plan",
+    "body": "The study will be pre-registered on OSF before data collection begins. OSF ID: osf.io/TBD (placeholder). Planned registration date: 2026-09-01 (first cohort) and 2026-12-01 (longitudinal follow-up). If pre-registration is not yet completed, the target date is DD.MM.YYYY, aligned with funding start."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Sample size calculation",
+    "body": "Formula: n = (1.96 + 0.84)² · σ² / δ² (for α=0.05, power=0.80, two-sided). For v*_active vs v*_passive: δ = 0.5 (Cohen's d), σ = 0.25 (from pilot N=12), calculated N = 64 per group. For χ_Ze vs aging: δ = 0.3 (r, Fisher z), σ = TBD (from pilot), calculated N = 84. For MCID of v*_active: δ = 0.05, σ = 0.03 (from pilot), calculated N = 50 (SEM-based). All σ values are placeholders until full pilot data are analyzed; conservative estimates will be used."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| Risk | Probability | Impact | Mitigation |\n|------|-------------|--------|------------|\n| Low statistical power due to small sample | Medium | High | Increase N based on power analysis; use Bayesian methods |\n| High heterogeneity in pilot data (I²=90.3%) | High | High | Stratify by age/sex; use random-effects models |\n| Unreliable MCID estimate | Medium | Medium | Use SEM-based MCID; validate in independent cohort |\n| Fabrication markers in references | Low | High | Remove all [Reference pending] and [reference removed]; verify all citations |\n| Lack of independent replication | High | High | Plan replication study with external lab; use OSF for open data |\n| Missing longitudinal data for CDATA | High | Medium | Collect pilot longitudinal data; use surrogate endpoints if needed"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "1. Pilot data (N=12) are insufficient for robust effect size estimation; all power calculations are preliminary.\n2. High heterogeneity (I²=90.3%) in pilot data suggests uncontrolled confounders (e.g., age, sex, time of day).\n3. No independent replication of key findings (v*_active, χ_Ze vs aging).\n4. MCID for v*_active is not clinically validated; SEM-based estimate may not reflect patient-relevant change.\n5. All references with [Reference pending] or [reference removed] markers are not verifiable; they must be replaced or removed.\n6. The consortium plan lacks concrete institutional commitments; letters of support are pending.\n7. Pre-registration is not yet completed; OSF ID is a placeholder."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "**Current team:** Jaba Tkemaladze (PI, Kutaisi International University)\n\n**Planned collaborations (letters of support pending):**\n1. Neurophysiology group — University of Havana, Cuba (EEG validation lab)\n2. Biostatistics group — Tbilisi State University, Georgia (power analysis, MCID)\n3. Clinical center — Kutaisi Medical Center, Georgia (longitudinal aging cohort)\n\n**Note:** Formal partnership agreements will be established upon funding. Letters of support will be appended as placeholder documents."
+  }
+]

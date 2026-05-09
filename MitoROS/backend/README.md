@@ -51,30 +51,30 @@ According to LongevityCommon CORRECTIONS_2026-04-22:
 ## Quick Start
 
 1. **Set up environment**:
-   ```bash
-   cp .env.example .env
-   # Edit .env with your database credentials
-   ```
+ ```bash
+ cp .env.example .env
+ # Edit .env with your database credentials
+ ```
 
 2. **Set up PostgreSQL**:
-   ```bash
-   createdb mitoros_db
-   ```
+ ```bash
+ createdb mitoros_db
+ ```
 
 3. **Run migrations**:
-   ```bash
-   cargo sqlx migrate run
-   ```
+ ```bash
+ cargo sqlx migrate run
+ ```
 
 4. **Start server**:
-   ```bash
-   cargo run
-   ```
+ ```bash
+ cargo run
+ ```
 
 5. **Test API**:
-   ```bash
-   curl http://localhost:3006/health
-   ```
+ ```bash
+ curl http://localhost:3006/health
+ ```
 
 ## Database Schema
 

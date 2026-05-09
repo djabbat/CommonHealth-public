@@ -1,0 +1,50 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "### Operationalised falsifiability with numeric thresholds\n\n**Hypothesis 1: v*_active > v*_passive**\n- Expected effect size: d = TBD (placeholder; to be estimated from pilot data or Cohen's convention)\n- Significance threshold: α = 0.05 (two-sided)\n- Power: 1 − β = 0.80\n- Minimum detectable effect: δ = TBD\n- Required sample size per group: N = TBD (calculated via n = (1.96 + 0.84)² · σ² / δ²)\n- Decision rule: If p < 0.001 and observed d ≥ 0.5, hypothesis is provisionally supported; otherwise falsified.\n\n**Hypothesis 2: χ_Ze correlates with chronological age**\n- Expected correlation: r = TBD (placeholder)\n- Significance threshold: α = 0.05\n- Power: 1 − β = 0.80\n- Required sample size: N = TBD\n- Decision rule: If 95% CI excludes zero and p < 0.01, hypothesis is provisionally supported; otherwise falsified.\n\n**Hypothesis 3: MCID for v*_active ≥ 0.05**\n- Anchor-based threshold: TBD\n- Distribution-based threshold: 0.5 × SD of baseline = TBD\n- Decision rule: Both anchor and distribution methods must converge within 20% for MCID to be considered valid.\n\n**Note:** All numeric thresholds are placeholders (TBD) until pilot data analysis is complete. Final values will be pre-registered before data collection."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Pre-registration plan",
+    "body": "**Pre-registration ID:** osf.io/TBD (placeholder)\n\n**Planned pre-registration date:** 2026-09-01\n\n**Planned data collection start:** 2026-12-01\n\n**Pre-registration will include:**\n1. Primary hypotheses with operationalised falsifiability thresholds\n2. Sample size calculation with power analysis\n3. Analysis plan (including handling of outliers, missing data, and multiple comparisons)\n4. Exclusion criteria\n5. Planned subgroup analyses\n\n**Note:** The OSF ID is a placeholder. Final pre-registration will be completed before data collection begins."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Sample size calculation",
+    "body": "**Formula:** n = (1.96 + 0.84)² · σ² / δ² (for α = 0.05, power = 0.80, two-sided test)\n\n| Hypothesis | δ (effect size) | σ (SD) | Calculated N per group | Source of σ |\n|------------|-----------------|--------|------------------------|-------------|\n| v*_active > v*_passive | d = TBD | TBD | TBD | Pilot data (N=12); Cohen's convention as fallback |\n| χ_Ze vs aging clock | r = TBD (Fisher z) | TBD | TBD | Pilot data (N=12); literature-based estimate as fallback |\n| MCID for v*_active | δ = TBD | TBD | TBD | Pilot data (N=12); anchor-based method planned |\n\n**Note:** All parameters are placeholders (TBD) until full pilot data are available. Final sample size will be pre-registered."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| # | Risk | Probability | Impact | Mitigation |\n|---|------|-------------|--------|------------|\n| 1 | v*_active effect not replicable in independent sample | High | High | Pre-register analysis plan; use cross-validation; report effect sizes with 95% CI |\n| 2 | EEG data quality insufficient for reliable v* estimation | Medium | High | Standardised preprocessing pipeline; artefact rejection; power analysis for minimum signal-to-noise ratio |\n| 3 | MCID threshold not clinically meaningful | Medium | Medium | Use anchor-based methods (patient global impression of change) alongside distribution-based methods |\n| 4 | Consortium partner dropout | Low | Medium | Identify backup institutions; maintain modular work packages |\n| 5 | Data sharing or privacy issues | Low | High | Anonymise data; use OSF repository with controlled access; obtain ethics approval |\n| 6 | Theoretical derivation (Theorem 5.1) not applicable to EEG | High | High | Explicitly state limitation; develop alternative derivation for binary EEG states |"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "1. **Small pilot sample:** All current estimates (v*_active ≈ 0.456, χ_Ze thresholds) are based on N ≤ 196, with high heterogeneity (I² = 90.3%). Results are preliminary and not generalisable.\n2. **No pre-registration:** Current analyses are exploratory. Confirmatory analyses will be pre-registered.\n3. **Confounding variables:** Age, medication, sleep quality, and time of day were not controlled in pilot data.\n4. **Single-site data:** All EEG data collected at one site (Cuba). Cross-site replication is needed.\n5. **Theoretical limitation:** Theorem 5.1 (Born rule minimises T-events) is not applicable to EEG (d=2, θ_Q=1.5). χ_Ze is an empirically motivated biomarker, not theorem-derived.\n6. **No independent replication:** No other lab has attempted to replicate v*_active or χ_Ze findings.\n7. **Publication bias:** Only positive results (v*_active > v*_passive) are reported; null results from other conditions are not documented."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "**Current team:** Jaba Tkemaladze (PI, Kutaisi International University)\n\n**Planned collaborations (letters of support pending):**\n1. **Neurophysiology group** (TBD institution) — for EEG validation of v*_active\n2. **Biostatistics group** (TBD institution) — for MCID and power analysis\n3. **Clinical center** (TBD institution) — for longitudinal aging cohort\n\n**Note:** Formal partnership agreements will be established upon funding. Letters of support will be appended as placeholder documents.\n\n**Planned consortium structure:**\n- Lead institution: Kutaisi International University (PI: Jaba Tkemaladze)\n- Neurophysiology partner: TBD institution (EEG validation)\n- Biostatistics partner: TBD institution (power analysis, MCID)\n- Clinical partner: TBD institution (longitudinal cohort)\n- Data management: TBD (OSF repository, code sharing)"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "replace_text",
+    "find": "[Reference removed — citation pending verification. Will be replaced with valid PMID or removed entirely.]",
+    "replace": "[Preprint: doi.org/TBD — status: preprint, not yet peer-reviewed]"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "replace_text",
+    "find": "[reference removed — to be replaced with valid PMID or removed entirely]",
+    "replace": "[Preprint: doi.org/TBD — status: preprint, not yet peer-reviewed]"
+  }
+]

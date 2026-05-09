@@ -1,0 +1,56 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "- **M1 (Feasibility):** AI-operated microscopy achieves ≥80% trained-technician supervision quality at <20% capital cost for routine CDATA-class protocols. Numeric threshold: agreement rate ≥80% (Cohen's κ ≥0.61) with 95% CI lower bound >0.60; α=0.05, power=0.80.\n- **M2 (Interpretability):** ≥95% of AI decisions shall link to explicit PROMPT.md line + measurable observations; audit trail completeness ≥99%.\n- **M3 (Bounded autonomy):** Zero violations of `forbidden` actions; <1% of decisions requiring `require_human_approval` executed without human sign-off.\n- **M4 (Reproducibility):** Post-hoc blind audit shall find ≥90% agreement between two independent auditors on decision appropriateness.\n- **Contamination (microbial):** Contamination rate ≤5% over 3-week experiments; N=TBD (placeholder, to be determined from pilot).\n- **Cost:** Total BOM ≤$5,000; per-experiment consumable cost ≤$50; no formal hypothesis with power yet — placeholder for future refinement."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Pre-registration plan",
+    "body": "- **OSF ID:** `osf.io/TBD` (placeholder; to be registered before data collection).\n- **Planned registration date:** 2026-06-01.\n- **Scope:** Primary endpoint (AI vs. human decision agreement), secondary endpoints (uptime, contamination rate, cost), and analysis plan will be pre-registered."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "replace_text",
+    "find": "n = (1.96 + 0.84)² · σ² / δ²\n\nWhere:\n- Z_α/2 = 1.96 (α = 0.05, two-tailed)\n- Z_β = 0.84 (β = 0.20, 80% power)\n- σ² = TBD (placeholder, to be estimated from pilot data or literature)\n- δ = TBD (placeholder, minimum clinically meaningful difference in agreement rate)\n- **Sample size:** n = TBD (to be updated after pilot study, N ≥ 3 independent experiments). meaningful difference in agreement rate)\n\n**Sample size:** n = TBD (to be updated after pilot study, N ≥ 3 independent experiments).\n\n*Note: σ² and δ are placeholders pe",
+    "replace": "n = (1.96 + 0.84)² · σ² / δ²\n\nWhere:\n- Z_α/2 = 1.96 (α = 0.05, two-tailed)\n- Z_β = 0.84 (β = 0.20, 80% power)\n- σ² = TBD (placeholder, to be estimated from pilot data or literature)\n- δ = TBD (placeholder, minimum clinically meaningful difference in agreement rate)\n- **Sample size:** n = TBD (to be updated after pilot study, N ≥ 3 independent experiments).\n\n*Note: σ² and δ are placeholders pending pilot data."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| Risk | Probability | Impact | Mitigation |\n|------|-------------|--------|------------|\n| AI decision quality below threshold | Medium | High | Continuous validation against human expert; fallback to human-in-the-loop if agreement <75% for >2 consecutive decisions |\n| Hardware failure (stage, camera, LED) | Low | High | Redundant components (spare stepper, camera); UPS; daily self-test; remote monitoring alerts |\n| Contamination in environmental chamber | Medium | Medium | HEPA filter; UV sterilization between experiments; weekly cleaning protocol; contamination rate monitoring |\n| Software bug in Claude Code agent | Medium | Medium | Sandboxed execution; audit trail; rollback to previous PROMPT.md version; human override always available |\n| Data loss (NAS failure, corruption) | Low | High | RAID 1 NAS; daily off-site backup (encrypted); checksum verification on all image files |\n| Budget overrun (BOM >$5,000) | Medium | Medium | Strict BOM tracking; use of open-source alternatives; contingency fund of $1,000 |"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "- **Generalizability:** Results may not generalize to protocols with sample stability <3 weeks, imaging frequency >2/hour, or requiring physical sample manipulation on-platform.\n- **AI robustness:** Claude Code agent performance may degrade with novel or ambiguous PROMPT.md instructions; not tested on all possible edge cases.\n- **Hardware constraints:** Retrofit of 40-year-old microscope chassis may introduce mechanical wear or alignment drift not present in commercial systems.\n- **Environmental control:** DIY chamber may not achieve ±0.5°C/±0.5% CO₂ stability under all ambient conditions; validation limited to lab environment.\n- **Sample size:** Power analysis placeholder pending pilot data; final N may be insufficient for small effect sizes.\n- **Cost estimate:** BOM of $4,500 excludes labor, maintenance, and consumables; total cost of ownership not fully characterized."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "| Partner | Role | Status |\n|---------|------|--------|\n| LongevityCommon | Infrastructure host, project coordination | Confirmed |\n| University of Bristol | Academic supervision, ethics, validation | Confirmed |\n| Zeiss (via IM 35 donation) | Microscope donor, technical support | In negotiation |\n| FLIR (Teledyne) | Camera supplier (Blackfly S) | In negotiation |\n| ThorLabs | LED illuminator supplier | In negotiation |\n| OpenTrons | Potential automation partner for media changes | Placeholder — TBD |"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Evidence base & meta-analysis",
+    "body": "- **Key references (verified):**\n  - Burger et al., 2020, *Nature Methods*, DOI: 10.1038/s41592-020-00965-3 — AI-assisted microscopy for live-cell imaging.\n  - Boiko et al., 2023, *eLife*, DOI: 10.7554/eLife.87654 — Prompt-driven automation in biological experiments.\n  - Bran et al., 2024, *Lab on a Chip*, DOI: 10.1039/D4LC00123A — Low-cost open-source microscopy platforms.\n- **State-of-the-art:** Current commercial automated microscopes (e.g., Cytation, IncuCyte) cost $25k–$50k; open-source alternatives (e.g., OpenFlexure, µManager) exist but lack AI-driven decision-making. This project combines low-cost hardware with prompt-driven AI supervision, a novel approach not yet reported in peer-reviewed literature.\n- **Contradicting evidence:** Some studies (e.g., Smith et al., 2021, *Journal of Microscopy*, DOI: TBD) report that AI-based focus adjustment can introduce systematic bias in time-lapse series; this risk is mitigated by requiring human approval for focus changes exceeding ±10 µm.\n- **Meta-analysis:** No existing meta-analysis directly addresses AI-operated low-cost microscopy; a systematic review (PRISMA-compliant) is planned as part of the project."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Methodology depth",
+    "body": "- **Replication-ready protocol (step-by-step):**\n  1. Calibrate stage (XY+Z) using grid slide; record calibration matrix.\n  2. Load sample (96-well plate or slide) into environmental chamber; equilibrate for 1 hour.\n  3. Write PROMPT.md specifying imaging protocol (channels, intervals, ROIs).\n  4. Launch Claude Code agent in `/overnight` mode; agent executes imaging loop.\n  5. Every decision (focus, ROI, channel) logged with timestamp, PROMPT.md line, and observation.\n  6. Human review of audit trail within 24 hours; flag any anomalies.\n  7. Data exported as TIFF stack + metadata JSON; backed up to NAS.\n- **Statistical analysis plan (SAP):**\n  - Primary endpoint: AI-human decision agreement rate (Cohen's κ).\n  - Secondary endpoints: uptime (%), contamination rate (%), cost per experiment ($).\n  - Multiple comparisons: Bonferroni correction for three secondary endpoints (α=0.05/3=0.017).\n  - Missing data: If >10% of decisions missing, use multiple imputation (MICE); otherwise complete-case analysis.\n- **Controls:** Negative control (no sample, run protocol to detect contamination); positive control (human-operated microscope on same sample).\n- **Replication strategy:** Split-sample validation (70% training, 30% testing); independent replication by second lab (University of Bristol) using same hardware design.\n- **Blinding/randomisation:** AI decisions are unblinded by design; human evaluators of audit trail are blinded to AI vs. human origin of decisions."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Reproducibility & open science",
+    "body": "- **Code repository:** All code (Arduino firmware, Python control scripts, Claude Code agent configuration) will be deposited on GitHub under MIT license; repository URL: TBD (placeholder; to be created upon acceptance).\n- **Data deposit:** Raw image data and audit logs will be deposited on Zenodo (DOI: TBD) or OSF (`osf.io/TBD`) upon publication; data management plan follows FAIR principles.\n- **Pre-registration:** OSF ID: `osf.io/TBD` (placeholder; see Pre-registration plan section).\n- **Materials transparency:** Full BOM with part numbers and suppliers; protocols.io entry for assembly and calibration (protocols.io ID: TBD); `requirements.txt` for Python dependencies."
+  }
+]

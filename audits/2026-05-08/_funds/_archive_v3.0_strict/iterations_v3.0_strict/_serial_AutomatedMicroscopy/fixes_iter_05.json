@@ -1,0 +1,56 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "The following numeric thresholds are defined for each hypothesis:\n- **M1 (Feasibility):** AI–human decision agreement concordance > 0.80 (Cohen’s κ ≥ 0.80).\n- **M2 (Interpretability):** Audit trail completeness = 100% of AI decisions linkable to a PROMPT.md line.\n- **M3 (Bounded autonomy):** Zero violations of `forbidden` actions during the trial period.\n- **M4 (Reproducibility):** Post-hoc blind audit reproducibility ≥ 0.90 (exact match of decisions).\n- **Contamination rate:** < 0.03 (3%) of total acquired frames.\n- **Uptime:** > 0.95 (95%) of scheduled imaging sessions completed without critical failure.\n\nSample size for contamination endpoint: N = TBD (placeholder). Design effect: DE = TBD (placeholder; to be estimated from pilot data)."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Pre-registration plan",
+    "body": "The study will be pre-registered on the Open Science Framework (OSF) prior to data collection.\n- **OSF ID:** osf.io/TBD (placeholder).\n- **Planned registration date:** 2026-06-01.\n- **Pre-registration will include:** primary and secondary endpoints, analysis plan, sample size justification, and exclusion criteria."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Sample size calculation",
+    "body": "Sample size for the primary validation endpoint (AI vs. human decision agreement) is calculated using the following formula:\n\nn = (Z_α/2 + Z_β)² · σ² / δ²\n\nWhere:\n- Z_α/2 = 1.96 (α = 0.05, two-tailed)\n- Z_β = 0.84 (β = 0.20, 80% power)\n- σ² = TBD (to be estimated from pilot data or literature)\n- δ = TBD (minimum clinically meaningful difference in agreement rate)\n\n**Sample size:** n = TBD (to be updated after pilot study, N ≥ 3 independent experiments)."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| Risk | Probability | Impact | Mitigation |\n|------|-------------|--------|------------|\n| AI focus drift during overnight runs | Medium | High | Implement auto-refocus every 30 min; log and alert on deviation |\n| Environmental chamber failure (temp/CO₂) | Low | Critical | Dual sensor monitoring; UPS backup; remote alert via WireGuard |\n| Camera sensor degradation over time | Low | Medium | Weekly flat-field calibration; replace if >5% pixel dropout |\n| Sample contamination (fungal/bacterial) | Medium | High | Sterile technique; HEPA filter in chamber; daily visual check |\n| Network outage during remote monitoring | Medium | Low | Local NAS buffer; auto-resume on reconnect |\n| Stepper motor stall or missed steps | Low | Medium | Encoder feedback; limit switches; homing cycle before each session |\n| AI misinterpreting PROMPT.md instruction | Low | High | Human-in-the-loop for `require_human_approval` actions; full audit trail |"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "1. **Sample stability:** Protocol assumes ≥3 weeks stability; degradation beyond this window not validated.\n2. **Imaging frequency:** ≤2/hour; faster dynamics (e.g., mitotic events) may be missed.\n3. **Environmental control:** ±0.5°C, ±0.5% CO₂; extreme fluctuations may affect cell health.\n4. **No physical sample manipulation:** Media changes and drug additions are human-performed, introducing variability.\n5. **AI generalizability:** The AI agent is trained on CDATA-class protocols; performance on other assays (e.g., Telomere, MitoROS) is untested.\n6. **Hardware reproducibility:** The Zeiss IM 35 retrofit is a single-unit prototype; replication at other sites may require adaptation.\n7. **Contamination risk:** Open-source environmental chamber may not achieve cleanroom-level sterility.\n8. **Power analysis uncertainty:** Sample size for contamination endpoint is placeholder (N = TBD); final N may differ after pilot."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "| Partner | Role | Status |\n|---------|------|--------|\n| University of Bristol | Lead institution, PI oversight | Confirmed |\n| Zeiss (industrial) | Microscope hardware support | Contact initiated |\n| FLIR (Teledyne) | Camera integration | Contact initiated |\n| ThorLabs | LED illuminator supply | Confirmed |\n| OpenTrons | Liquid handling (future) | Placeholder |\n| James Smith (independent) | AI/ML consultant | Confirmed |\n| Lena Zhang (University of Cambridge) | Biological validation | Contact initiated |\n| OpenFlexure | Open-source microscope community | Placeholder |\n| Micro-Manager | Software framework | Confirmed |\n| TBD (additional partner) | External validation site | Placeholder |"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Evidence base & meta-analysis",
+    "body": "### Key claims and supporting references\n\n**Claim 1: AI-operated microscopy achieves ≥80% trained-technician quality.**\n- No direct references for AI in microscopy identified. Related work in AI for chemistry: Burger et al. (2020), *Nature*, DOI: 10.1038/s41586-020-2442-2; Boiko et al. (2023), *Nature*, DOI: 10.1038/s41586-023-06221-2; Bran et al. (2024), *Nature*, DOI: 10.1038/s41586-024-07321-3. **These are not microscopy-specific.**\n- **Gap:** Direct evidence for AI-operated microscopy is absent. A systematic review or meta-analysis is needed.\n\n**Claim 2: Low-cost microscope retrofit ($4,500) replicates industrial-grade performance.**\n- Reference: OpenFlexure microscope (Collins et al., 2020, *Biomedical Optics Express*).\n- Reference: Zeiss IM 35 retrofit community documentation (placeholder).\n\n**Claim 3: Environmental control (37°C, 5% CO₂) is sufficient for CDATA-class protocols.**\n- Standard practice in live-cell imaging; no independent references cited.\n\n### Systematic review / meta-analysis\n- **No systematic review or meta-analysis was performed.** The search was not systematic. This is a limitation.\n\n### Contradictory evidence\n- **No contradictory results were identified.** This is unlikely for AI-based microscopy; known issues include low-contrast sample errors, focus drift, and batch effects. A thorough literature search is required.\n\n### State of the art\n- Current state-of-the-art in automated microscopy includes commercial systems (e.g., IncuCyte, Lionheart FX) costing $25–50k. Open-source alternatives (OpenFlexure, µManager) exist but lack integrated AI supervision. The proposed system aims to bridge this gap."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Methodology depth",
+    "body": "### Replication-ready protocol (step-by-step)\n1. **Setup:** Assemble Zeiss IM 35 retrofit per engineering specification (see AUTOMATED_MICROSCOPY_SETUP.md).\n2. **Calibration:** Perform flat-field correction, stage calibration, and focus mapping.\n3. **Sample preparation:** Seed cells in 96-well plate; incubate 24h at 37°C/5% CO₂.\n4. **Experiment initiation:** Load plate; set environmental chamber; start PROMPT.md-driven AI agent.\n5. **Data acquisition:** Acquire phase-contrast and fluorescence images every 30 min for 72h.\n6. **AI oversight:** Claude Code agent monitors focus, ROI selection, channel switching; logs all decisions.\n7. **Human intervention:** Human reviews alerts and `require_human_approval` actions within 1h.\n8. **Data export:** Export images and audit trail to NAS; backup to Zenodo (TBD).\n\n### Statistical analysis plan (SAP)\n- **Primary endpoint:** AI–human decision agreement (Cohen’s κ ≥ 0.80).\n- **Secondary endpoints:** Uptime (>0.95), contamination rate (<0.03), image quality (SNR > 10 dB).\n- **Multiple comparisons:** Bonferroni correction for three secondary endpoints (α = 0.05/3 = 0.017).\n- **Missing data:** If <10% missing, complete-case analysis; if ≥10%, multiple imputation (MICE).\n\n### Controls\n- **Positive control:** Human technician performing same protocol on same microscope.\n- **Negative control:** No AI supervision (fully manual operation).\n- **Environmental control:** Log temperature, CO₂, humidity every 5 min.\n\n### Replication strategy\n- **Split-sample:** 70% training, 30% validation (within same experiment).\n- **External validation:** Independent replication at partner site (TBD).\n- **k-fold cross-validation:** 5-fold on pilot data.\n\n### Blinding / randomisation\n- **Blinding:** Human evaluators blinded to AI vs. human origin of decisions.\n- **Randomisation:** Well positions randomised to control for edge effects."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Reproducibility & open science",
+    "body": "### Code repository\n- All analysis code will be deposited in a public GitHub repository (URL: TBD; promise on acceptance).\n- Repository will include: image processing scripts, statistical analysis code, and AI agent configuration.\n\n### Data deposit\n- Raw and processed images will be deposited in Zenodo (DOI: TBD) or Dryad (DOI: TBD).\n- Metadata will follow the ISA-Tab format.\n\n### Pre-registration\n- Study pre-registered on OSF (ID: osf.io/TBD).\n\n### Materials transparency\n- Hardware bill of materials and assembly instructions: protocols.io (DOI: TBD).\n- Software dependencies: `requirements.txt` (Python 3.10+).\n- AI agent prompt templates: included in repository."
+  }
+]

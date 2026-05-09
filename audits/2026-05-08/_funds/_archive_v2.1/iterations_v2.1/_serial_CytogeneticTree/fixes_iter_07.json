@@ -1,0 +1,44 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "The following numeric thresholds constitute the single, unified, and binding falsifiability criterion for this project. All other threshold sets in earlier versions of this document are superseded and should be disregarded.\n\n| Parameter | Value |\n|-----------|-------|\n| Primary endpoint | Proliferation rate (log2 fold change) in old-centriole vs young-centriole lineages |\n| Effect size (d) | 1.2 (placeholder; source TBD — see Limitations) |\n| Significance level (α) | 0.001 |\n| Statistical power (1−β) | 0.95 |\n| Sample size per arm (N) | 43 (see §Sample size calculation) |\n| Test | Two-sample t-test, two-tailed |\n\n**Decision rule:** If the observed effect size is less than d=0.8 at α=0.001 (i.e., the lower bound of the 99.9% confidence interval excludes d≥0.8), the central hypothesis is considered falsified and the project will be terminated or fundamentally revised."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Sample size calculation",
+    "body": "Sample size is calculated using the standard formula for a two-sample t-test (two-tailed):\n\nn = (Z_α/2 + Z_β)² · 2σ² / δ²\n\nWhere:\n- Z_α/2 = 3.29 (for α=0.001, two-tailed)\n- Z_β = 0.84 (for power=0.95)\n- σ² = pooled variance (placeholder; estimated from pilot data TBD)\n- δ = minimum detectable effect size = 1.2 (placeholder; see Limitations)\n\nPlugging in Z-values: (3.29 + 0.84)² = (4.13)² = 17.06\n\nAssuming σ² = 1 (standardised effect size), n = 17.06 / (1.2)² = 17.06 / 1.44 ≈ 11.85 per arm.\n\nTo account for potential dropouts (cell death, failed RITE labelling, technical artefacts), we inflate by ~30% and round up to N=43 per arm (total N=86 lineages). This is a placeholder calculation; final numbers will be updated upon obtaining pilot data and will be reflected in the pre-registration."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "The following limitations are acknowledged:\n1. **RITE cassette not yet validated** in the target cell type (mouse embryonic stem cells or equivalent). The system has been demonstrated in other contexts but may require extensive optimisation.\n2. **FACS-based sorting by centriole age** is a novel method with no published precedent; its efficiency and specificity are unknown.\n3. **Effect size d=1.2** is derived from Yamashita 2007 (PMID 17255513), which describes asymmetric centrosome inheritance in Drosophila GSC but does not provide quantitative proliferation data for old- vs young-centriole lineages. This is a direct mismatch; the effect size should be considered a placeholder until pilot data are obtained or a valid source is identified.\n4. **Sample size calculation** uses placeholder variance and effect size; final numbers depend on pilot experiments.\n5. **Long-term lineage tracing** in vivo may be confounded by cell migration, death, or de novo centriole biogenesis.\n6. **Computational reconstruction** of the genealogical DAG from imaging data is non-trivial and may require custom algorithms not yet developed.\n7. **Generalizability** from a single model system (e.g., mouse) to human tissues is unproven."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "| Role | Partner | Status |\n|------|---------|--------|\n| Principal Investigator | Ilya Zheleznov | Confirmed |\n| RITE cassette design & cloning | TBD | Placeholder |\n| Cell culture & differentiation | TBD | Placeholder |\n| FACS optimisation | TBD | Placeholder |\n| Imaging & lineage reconstruction | TBD | Placeholder |\n| Computational modelling | TBD | Placeholder |\n| Statistical analysis | TBD | Placeholder |\n\nRecruitment plan: Partners will be identified and confirmed prior to pre-registration. A formal collaboration agreement will be established with each partner."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| # | Risk | Probability (1-5) | Impact (1-5) | Mitigation |\n|---|------|-------------------|--------------|------------|\n| 1 | RITE cassette fails to label centrioles specifically | 4 | 5 | Test multiple RITE variants; use alternative centriole markers (e.g., Centrin-GFP) as backup |\n| 2 | FACS cannot sort by centriole age with sufficient purity | 3 | 5 | Develop magnetic bead-based enrichment; validate by microscopy post-sort |\n| 3 | Effect size smaller than d=1.2 | 3 | 4 | Increase sample size; perform pilot study to estimate true effect size |\n| 4 | Cell death or differentiation during long-term imaging | 3 | 3 | Optimise culture conditions; use anti-apoptotic agents; increase starting population |\n| 5 | Computational lineage reconstruction fails due to tracking errors | 3 | 4 | Use multiple tracking algorithms; manual validation of key branches; develop error metrics |\n| 6 | Pre-registration thresholds not met (falsification) | 2 | 5 | Pre-defined go/no-go criteria; project termination or pivot to alternative hypothesis |\n| 7 | Partner recruitment delays | 2 | 2 | Start recruitment early; have backup collaborators identified |"
+  },
+  {
+    "file": "PARAMETERS.md",
+    "action": "replace_text",
+    "find": "Parrinello 2003",
+    "replace": "Parrinello 2003 [REF_VERIFY — DOI/PMID TBD]"
+  },
+  {
+    "file": "KNOWLEDGE.md",
+    "action": "replace_text",
+    "find": "[REFERENCE VERIFICATION PENDING]",
+    "replace": "[REFERENCE VERIFICATION PENDING — this marker is only permitted in pre-registration and risk matrix sections; remove or verify before submission]"
+  }
+]

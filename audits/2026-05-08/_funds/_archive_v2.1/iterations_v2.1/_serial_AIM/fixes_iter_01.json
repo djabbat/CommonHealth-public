@@ -1,0 +1,26 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| Risk | Probability | Impact | Mitigation |\n|------|-------------|--------|------------|\n| Low recruitment rate | Medium | High | Extend recruitment period by 3 months; activate backup sites (TBD) |\n| High dropout rate (>20%) | Medium | High | Implement retention protocol: monthly check-ins, compensation for follow-up visits |\n| LLM technical failure (downtime >48h) | Low | Medium | Redundant server deployment; fallback to standard care for affected participants |\n| Adverse event rate exceeds stopping rule | Low | High | DSMB review; immediate halt and protocol revision if confirmed |\n| Data integrity breach | Low | Critical | Encrypted storage; access logs; regular security audits |\n| Confounding by seasonal effects | Medium | Low | Stratified randomisation by enrollment month; sensitivity analysis with season as covariate"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "- Single-centre design limits generalisability to other healthcare settings and populations\n- Open-label design (no sham intervention) may introduce performance bias; blinding of outcome assessors only\n- PAM-13 is a self-reported measure, subject to social desirability and recall bias\n- LLM intervention is a black-box system; reproducibility of LLM responses cannot be guaranteed across model updates\n- Follow-up limited to 6 months; long-term effects on patient activation and clinical outcomes unknown\n- Sample size calculated for primary endpoint only; secondary and exploratory analyses may be underpowered\n- Assumed standard deviation (σ=10) is based on a single published study; pilot phase may reveal larger variance requiring sample size adjustment"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "- **Lead institution:** [TBD — institution name]\n- **Clinical site:** [TBD — hospital or clinic name]\n- **Data management:** [TBD — CRO or data management provider]\n- **LLM infrastructure:** [TBD — cloud provider or AI platform]\n- **Statistical analysis:** [TBD — biostatistics unit or external consultant]\n- **DSMB:** [TBD — list of DSMB members or chair]\n- **Funder:** [TBD — grant number or funding agency]"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "replace_text",
+    "find": "All other OSF placeholders (e.g., osf.io/XXXXX) in core documents have been removed; only this one remains.",
+    "replace": "All other OSF placeholders in core documents have been removed; only this one remains."
+  }
+]

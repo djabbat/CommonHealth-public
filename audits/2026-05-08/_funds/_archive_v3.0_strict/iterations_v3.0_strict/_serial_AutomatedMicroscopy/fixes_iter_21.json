@@ -1,0 +1,56 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "The following numeric thresholds are defined for the primary validation endpoints:\n- **AI vs. human decision agreement (concordance):** threshold > 0.80 (Cohen's κ or simple agreement rate). Statistical test: one-sided test against H₀: concordance ≤ 0.80, α = 0.05, power = 0.80. Sample size placeholder: n = TBD (see ## Sample size calculation).\n- **System uptime (reliability):** threshold > 0.90 (proportion of scheduled imaging sessions completed without human intervention). Statistical test: exact binomial test against H₀: uptime ≤ 0.90, α = 0.05, power = 0.80. Fixed observation window: N = 180 days. Note: threshold is 0.90 throughout this document (any conflicting occurrence of 0.95 is a typo and should be corrected to 0.90).\n- **Environmental stability:** contamination rate < 0.03 (proportion of wells with visible microbial/fungal contamination over a 3-week experiment). Sample size placeholder: n = TBD (to be determined based on expected contamination baseline).\n- **Image quality:** minimum acceptable signal-to-noise ratio (SNR) = TBD (placeholder, to be defined after pilot imaging)."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Pre-registration plan",
+    "body": "The primary validation study will be pre-registered on the Open Science Framework (OSF) prior to data collection. The pre-registration will include: study design, primary and secondary endpoints, sample size calculation, analysis plan, and stopping rules.\n- **OSF ID:** osf.io/TBD (placeholder, to be assigned upon registration)\n- **Planned registration date:** TBD (placeholder, to be updated when a firm timeline is established)\n- **Pre-registration template:** AsPredicted or OSF Prereg, to be selected based on suitability for the study design."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| Risk | Probability | Impact | Mitigation |\n|------|-------------|--------|------------|\n| AI model drift / performance degradation over time | Medium | High | Continuous monitoring dashboard; weekly automated re-evaluation against held-out validation set; retraining trigger if concordance drops below 0.80 |\n| Hardware failure (stage, camera, LED) | Medium | High | Redundant components for critical parts (spare stepper motor, spare LED); UPS for power loss; daily self-test script |\n| Environmental chamber instability (temp/CO₂/humidity drift) | Medium | Medium | Dual sensor redundancy; automated alarm if deviation > ±0.5°C or ±0.5% CO₂; manual override protocol |\n| Contamination during long-term experiments | Medium | High | Strict sterile protocol for media changes; weekly contamination check; predefined abort criterion if contamination rate > 0.03 |\n| Data loss / corruption | Low | Critical | NAS with RAID 1; daily backup to off-site (WireGuard VPN); automated integrity checksum after each imaging session |\n| AI misinterpreting PROMPT.md (edge case) | Low | Medium | Full audit trail; human-in-the-loop for `require_human_approval` actions; post-hoc blind audit of all AI decisions |"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "- **Generalizability:** The validation is limited to CDATA-class protocols with sample stability ≥ 3 weeks and imaging frequency ≤ 2/hour. Results may not extend to higher-throughput or shorter-duration protocols.\n- **Hardware specificity:** The system is built around a specific microscope model (Zeiss IM 35) and camera (FLIR Blackfly S). Replication on other hardware platforms requires re-validation.\n- **AI model scope:** The Claude Code agent operates within a constrained prompt framework. Performance on novel or ambiguous experimental conditions not covered in PROMPT.md is untested.\n- **No physical manipulation:** Media changes and other sample manipulations are performed manually. Full automation of these steps is not addressed.\n- **Sample size placeholder:** The sample size calculation uses placeholder values for σ² and δ. The actual sample size will be determined after pilot data collection.\n- **Environmental control:** The DIY environmental chamber may not achieve the stability of commercial incubator-microscope systems, particularly under varying ambient conditions."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "- **Lead institution:** LongevityCommon (internal subproject)\n- **Collaborators:** TBD (placeholder — list of external partners or co-investigators to be added)\n- **Funding sources:** TBD (placeholder — list of grants or institutional support)\n- **Equipment donors / suppliers:** TBD (placeholder — e.g., Zeiss for microscope donation, ThorLabs for LED discount)"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Evidence base & meta-analysis",
+    "body": "The following key claims are supported by verified sources:\n1. **Low-cost microscope automation is feasible:** [Reference TBD — e.g., OpenFlexure microscope, UC2, or similar open-source automation projects]\n2. **AI-based image quality assessment and autofocus:** [Reference TBD — e.g., deep learning for microscopy autofocus, published in Nature Methods or equivalent]\n3. **Environmental control for live-cell imaging:** [Reference TBD — e.g., standard protocols for 37°C/5% CO₂ incubation during time-lapse]\n\n**State-of-the-art:** Commercial automated microscopes (e.g., IncuCyte, Lionheart FX) achieve high throughput and reliability at $25k–$50k cost. Open-source alternatives (e.g., OpenTrons, µManager) exist but lack integrated AI supervision. The proposed system aims to bridge this gap.\n\n**Contradictory evidence:** [Placeholder — if any studies show that AI supervision degrades performance or that low-cost hardware cannot maintain required stability, discuss here. Otherwise, state: No directly contradictory evidence found in the current literature search.]\n\n**Meta-analysis:** [Placeholder — if a relevant meta-analysis exists (e.g., on AI vs. human performance in microscopy), cite it. Otherwise, state: No meta-analysis directly addressing this specific combination of hardware and AI supervision was identified.]"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Methodology depth",
+    "body": "### Replication-ready protocol (step-by-step)\n1. **Setup:** Assemble hardware per AUTOMATED_MICROSCOPY_SETUP.md. Calibrate stage, camera, and environmental chamber.\n2. **Experiment definition:** Write PROMPT.md specifying imaging parameters (channels, interval, duration, ROIs).\n3. **Pre-flight check:** Run automated self-test (stage movement, camera capture, LED intensity, chamber stability). Log results.\n4. **Imaging session:** Claude Code agent executes PROMPT.md in `/overnight` mode. All decisions logged.\n5. **Daily review:** Human operator reviews AI decision log each morning. Approve/reject/adjust.\n6. **Post-experiment:** Export images and metadata. Run quality control (SNR, focus score, contamination check).\n7. **Analysis:** Primary endpoint (AI vs. human agreement) computed on a held-out test set.\n\n### Statistical analysis plan (SAP)\n- **Primary endpoint:** Concordance (Cohen's κ) between AI and human expert decisions on image quality (accept/reject) and focus adjustment (pass/fail).\n- **Secondary endpoints:** System uptime (proportion of sessions completed without human intervention), contamination rate, image SNR.\n- **Multiple comparisons:** Bonferroni correction for three secondary endpoints (adjusted α = 0.05/3 ≈ 0.017).\n- **Missing data:** If a session is interrupted (e.g., hardware failure), it is excluded from uptime analysis but reported separately. No imputation planned.\n\n### Controls\n- **Negative control:** Human expert performs same imaging protocol manually (no AI). Compare time, error rate, and image quality.\n- **Positive control:** Commercial automated microscope (if available) or published benchmark dataset.\n\n### Replication strategy\n- **Split-sample:** 70% training / 30% validation for AI model development. Final evaluation on a completely independent test set (new experiment, new samples).\n- **Independent replication:** At least one replication experiment by a different operator, on a different day, with a different batch of samples.\n\n### Blinding / randomisation\n- **Blinding:** Human evaluators are blinded to AI decisions when assessing image quality (images presented in random order).\n- **Randomisation:** Imaging order of ROIs is randomised to avoid systematic bias."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Reproducibility & open science",
+    "body": "- **Code repository:** All code (Arduino firmware, Python control scripts, Claude agent configuration) will be deposited in a public GitHub repository upon acceptance. Temporary placeholder: [repo TBD].\n- **Data deposit plan:** Raw images and metadata will be deposited in a FAIR-aligned repository (Zenodo or OSF) upon publication. DOI placeholder: TBD.\n- **Pre-registration:** See ## Pre-registration plan. OSF link: osf.io/TBD.\n- **Materials transparency:**\n  - Hardware bill of materials (BOM) with sources: included in AUTOMATED_MICROSCOPY_SETUP.md.\n  - Software dependencies: `requirements.txt` (Python) and `platformio.ini` (Arduino) will be provided.\n  - Protocol steps: detailed step-by-step protocol will be deposited on protocols.io (placeholder: TBD)."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "replace_text",
+    "find": "Sample size for the primary validation endpoint (AI vs. human decision agreement) is calculated using the following formula:\n\nn = (1.96 + 0.84)² · σ² / δ²\nWhere:\n- Z_α/2 = 1.96 (α = 0.05, two-tailed)\n- Z_β = 0.84 (β = 0.20, 80% power)\n- σ² = TBD (placeholder, to be estimated from pilot data or literature)\n- δ = TBD (placeholder, minimum clinically meaningful difference in agreement rate)\n- **Sample size:** n = TBD (to be updated after pilot study, N ≥ 3 independent experiments).\n\nWhere:\n- Z_α/2 = 1.96 (α = 0.05, two-tailed)\n- Z_β = 0.84 (β = 0.20, 80% power)\n- σ² = TBD (to be estimated from pilot data or literature)\n- δ = TBD (minimum clinically",
+    "replace": "Sample size for the primary validation endpoint (AI vs. human decision agreement) is calculated using the following formula:\n\nn = (1.96 + 0.84)² · σ² / δ²\n\nWhere:\n- Z_α/2 = 1.96 (α = 0.05, two-tailed)\n- Z_β = 0.84 (β = 0.20, 80% power)\n- σ² = TBD (placeholder, to be estimated from pilot data or literature)\n- δ = TBD (placeholder, minimum clinically meaningful difference in agreement rate)\n- **Sample size:** n = TBD (to be updated after pilot study, N ≥ 3 independent experiments)."
+  }
+]

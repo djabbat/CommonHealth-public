@@ -1,0 +1,32 @@
+[
+  {
+    "file": "UMBRELLA/CONCEPT.md",
+    "action": "insert_after_line",
+    "line_anchor": "## 2. Hypothesis-stage статус (важно)",
+    "body": "\n### Pre-registration plan\nThe confirmatory test of the current multi-modal χ_Ze formulation will be pre-registered on OSF (placeholder: `https://osf.io/TBD`) no later than 2026-12-31. The primary outcome is partial r² for all-cause mortality (controlling age + sex) on a cohort N≥2000 with α=0.001. All analysis scripts will be frozen at registration.\n"
+  },
+  {
+    "file": "UMBRELLA/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| Risk description | Probability | Impact | Mitigation strategy |\n|------------------|-------------|--------|---------------------|\n| Failure to recruit N≥2000 cohort | Medium | High | Parallel recruitment via UK Biobank DUA and All-of-Us Researcher Workbench; fallback to meta-analysis of existing cohorts |\n| CDATA remains inconclusive | Medium | Medium | Defer CDATA-dependent claims; focus on BioSense and Ze theory with independent validation |\n| FCLC v14 malicious-secure migration delayed | High | Medium | Maintain semi-honest v13.4 as fallback; document GDPR limitations explicitly |\n| PR/adverse event from unvalidated biomarker claims | Low | High | Add explicit disclaimers on all outputs; no clinical recommendations without regulatory approval |\n| Loss of key personnel (e.g., Lezhava) | Low | High | Cross-train team members; document all procedures in `DESIGN.md` |\n"
+  },
+  {
+    "file": "UMBRELLA/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "1. All empirical results are exploratory and may reflect p-hacking (Ioannidis 2005).\n2. Pilot sample sizes are small (N≤2222) and underpowered for confirmatory inference.\n3. Key publications (MCOA, Ze, BioSense) are not peer-reviewed.\n4. The CDATA counter is inconclusive.\n5. FCLC is semi-honest only, not yet GDPR-compliant for medical data.\n6. No prospective validation cohort exists.\n"
+  },
+  {
+    "file": "UMBRELLA/THEORY.md",
+    "action": "insert_after_line",
+    "line_anchor": "## 4.",
+    "body": "\n### Falsifiability for BioSense χ_Ze\nFalsified if on a pre-registered N≥2000 cohort the partial r² for all-cause mortality (controlling age+sex) is <0.05 at α=0.001.\n\n### Falsifiability for Ze theory\nFalsified if the swept-v* search on the same cohort yields v* outside [−0.36, 0.16] (Article convention).\n"
+  },
+  {
+    "file": "UMBRELLA/README.md",
+    "action": "replace_text",
+    "find": "Geiger (Ulm), Janke (Curie), González Ballester (UPF)",
+    "replace": "| Partner | Role | Status |\n|---------|------|--------|\n| Geiger (Ulm) | CDATA experimental | Confirmed (verbal) |\n| Janke (Curie) | Ze biology bridge | Pending |\n| González Ballester (UPF) | BioSense clinical | Meeting today |\n| **Planned EU‑MS coordinator** | To be identified | Open |\n\nA formal consortium agreement will be signed by 2026-09-01."
+  }
+]

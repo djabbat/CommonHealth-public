@@ -26,25 +26,25 @@
 ## §2. Cross-level connections
 
 ```
-MCOA            L_tissue = Σᵢ wᵢ · fᵢ(Dᵢ)
-                                    ↑
-                                 один из Dᵢ — CDATA (hypothetical)
+MCOA L_tissue = Σᵢ wᵢ · fᵢ(Dᵢ)
+ ↑
+ один из Dᵢ — CDATA (hypothetical)
 
-CDATA           A(t) = a + b·D(t) + c·D(t)²       (status: inconclusive)
-                χ_Ze = g₀ − g₁·A(t)                (linear bridge, 5 free params, underpowered)
+CDATA A(t) = a + b·D(t) + c·D(t)² (status: inconclusive)
+ χ_Ze = g₀ − g₁·A(t) (linear bridge, 5 free params, underpowered)
 
-Ze              I(Z) = S(Z_real ‖ Z_model)        (KL divergence)
-                dτ_Ze/dt = −α·I(Z)                 (POSTULATED ansatz)
-                E_Ze(a,b) = −a·b + δ·[(a·b)²−1/3] (CHSH deformation)
+Ze I(Z) = S(Z_real ‖ Z_model) (KL divergence)
+ dτ_Ze/dt = −α·I(Z) (POSTULATED ansatz)
+ E_Ze(a,b) = −a·b + δ·[(a·b)²−1/3] (CHSH deformation)
 
-BioSense        F = E − T·S − λ·I_pred             (variational principle)
-                v* = 0.45631 (k_λ = 1)             (theoretical fixed point)
-                χ_Ze = 1 − |v − v*| / max(v*, 1−v*) (per-modality)
-                composite = Σ w_modality · χ_Ze    (4 modalities EEG/HRV/resp/sleep)
+BioSense F = E − T·S − λ·I_pred (variational principle)
+ v* = 0.45631 (k_λ = 1) (theoretical fixed point)
+ χ_Ze = 1 − |v − v*| / max(v*, 1−v*) (per-modality)
+ composite = Σ w_modality · χ_Ze (4 modalities EEG/HRV/resp/sleep)
 
-FCLC            ε_total ≈ 0.43 at (σ=1.5, q=0.013, T=5)  (RDP composition)
-                Krum aggregator (Byzantine ≤ 25%)
-                threat model: semi-honest server, NOT active
+FCLC ε_total ≈ 0.43 at (σ=1.5, q=0.013, T=5) (RDP composition)
+ Krum aggregator (Byzantine ≤ 25%)
+ threat model: semi-honest server, NOT active
 ```
 
 ## §3. Authoritative derivations

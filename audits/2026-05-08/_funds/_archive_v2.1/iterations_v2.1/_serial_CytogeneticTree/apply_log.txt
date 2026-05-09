@@ -1,0 +1,235 @@
+
+## iter 1
+APPENDED: CONCEPT.md :: ## Falsifiability
+APPENDED: CONCEPT.md :: ## Pre-registration plan
+APPENDED: CONCEPT.md :: ## Sample size calculation
+APPENDED: CONCEPT.md :: ## Risk matrix
+APPENDED: CONCEPT.md :: ## Limitations
+APPENDED: CONCEPT.md :: ## Consortium / partners
+REPLACED: KNOWLEDGE.md :: [REF_NEEDED 2026-05-08]
+REPLACED: KNOWLEDGE.md :: [PMID_REMOVED 2026-05-08]
+REPLACED: KNOWLEDGE.md :: Manual-lookup flags
+
+## iter 2
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+REPLACED: KNOWLEDGE.md :: MARCM Lee & Luo 1999 *Neuron*
+
+## iter 3
+REPLACED: KNOWLEDGE.md :: [REFERENCE VERIFICATION PENDING — placeh
+SKIP anchor-missing: CONCEPT.md
+SKIP anchor-missing: CONCEPT.md
+
+## iter 4
+INSERTED: CONCEPT.md after `## §2 Scientific Framing`
+INSERTED: CONCEPT.md after `## Falsifiability`
+INSERTED: CONCEPT.md after `## Pre-registration plan`
+INSERTED: CONCEPT.md after `## Sample size calculation`
+INSERTED: CONCEPT.md after `## Risk matrix`
+INSERTED: CONCEPT.md after `## Limitations`
+REPLACED: CONCEPT.md :: N=12 per arm (placeholder; see Sample si
+
+## iter 5
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+REPLACED: CONCEPT.md :: | Principal Investigator | TBD | Placeho
+
+## iter 6
+REPLACED: CONCEPT.md :: ## Falsifiability
+
+
+## Pre-registration 
+
+## iter 1
+INSERTED: CONCEPT.md after `## Falsifiability`
+INSERTED: CONCEPT.md after `## Falsifiability`
+INSERTED: CONCEPT.md after `## Falsifiability`
+INSERTED: CONCEPT.md after `## Falsifiability`
+INSERTED: CONCEPT.md after `## Falsifiability`
+
+## iter 2
+REPLACED: CONCEPT.md :: ## Falsifiability
+
+
+
+**Consortium / part
+REPLACED: CONCEPT.md :: | Principal Investigator | TBD | Placeho
+REPLACED: CONCEPT.md :: **Limitations:**
+1. The RITE-centriole c
+INSERTED: CONCEPT.md after `## §2 Scientific Framing`
+REPLACED: KNOWLEDGE.md :: [REFERENCE VERIFICATION PENDING — placeh
+
+## iter 3
+INSERTED: CONCEPT.md after `## §2 Scientific Framing`
+REPLACED: CONCEPT.md :: ## Pre-registration plan
+
+- **OSF regist
+REPLACED: CONCEPT.md :: ## Sample size calculation
+
+**Formula:**
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+
+## iter 1
+APPENDED: CONCEPT.md :: ## RITE-Cassette Development Plan
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+APPENDED: CONCEPT.md :: ## Timeline
+
+## iter 2
+REPLACED: CONCEPT.md :: ## Falsifiability
+
+All hypotheses are op
+INSERTED: CONCEPT.md after `## §2 Scientific Framing`
+INSERTED: CONCEPT.md after `## Pre-registration plan`
+INSERTED: CONCEPT.md after `## Risk matrix`
+INSERTED: CONCEPT.md after `## Limitations`
+INSERTED: CONCEPT.md after `## Consortium / partners`
+
+## iter 3
+REPLACED: CONCEPT.md :: ## Sample size calculation
+
+This is the 
+REPLACED: CONCEPT.md :: ## Falsifiability
+INSERTED: CONCEPT.md after `## Limitations`
+SKIP anchor-missing: KNOWLEDGE.md
+
+## iter 4
+SKIP exists: CONCEPT.md :: ## Falsifiability
+REPLACED: CONCEPT.md :: ## Pre-registration plan
+REPLACED: CONCEPT.md :: ## Sample size calculation
+
+**Single, bi
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+
+## iter 6
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+
+## iter 7
+
+## iter 8
+REPLACED: CONCEPT.md :: ## Pre-registration plan
+
+- **OSF regist
+REPLACED: CONCEPT.md :: ## Pre-registration plan
+
+**OSF ID:** os
+
+## iter 10
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+REPLACED: KNOWLEDGE.md :: Lee & Luo 1999 Neuron
+REPLACED: KNOWLEDGE.md :: This reference has been removed pending 
+
+## iter 11
+REPLACED: CONCEPT.md :: ## Pre-registration plan
+
+**OSF ID:** os
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+REPLACED: KNOWLEDGE.md :: Lee & Luo 1999 *Neuron*
+
+## iter 13
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+
+## iter 2
+REPLACED: CONCEPT.md :: ## Pre-registration plan
+
+**OSF ID:** os
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+SKIP exists: CONCEPT.md :: ## Risk matrix
+
+## iter 4
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+REPLACED: CONCEPT.md :: **Pre-registration content:**
+- Primary 
+
+## iter 5
+SKIP exists: CONCEPT.md :: ## Falsifiability
+REPLACED: CONCEPT.md :: ## Pre-registration plan
+
+**OSF ID:** os
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+
+## iter 6
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+
+## iter 1
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+
+## iter 2
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+SKIP exists: CONCEPT.md :: ## Risk matrix
+
+## iter 3
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+
+## iter 4
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+APPENDED: PARAMETERS.md :: ## Reference verification
+REPLACED: KNOWLEDGE.md :: REFERENCE VERIFICATION PENDING
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+
+## iter 6
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+
+## iter 7
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+SKIP exists: CONCEPT.md :: ## Risk matrix
+REPLACED: PARAMETERS.md :: Parrinello 2003

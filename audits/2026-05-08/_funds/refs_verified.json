@@ -1,0 +1,910 @@
+{
+  "PMID:10197526": {
+    "status": "OK",
+    "info": "Lee T 1999 Neuron | Mosaic analysis with a repressible cell marker for studies of gene function in neuronal morphogenesi"
+  },
+  "PMID:11001793": {
+    "status": "OK",
+    "info": "Jennings BJ 2000 Mol Genet Metab | Nutrition, oxidative damage, telomere shortening, and cellular senescence: individual or connected a"
+  },
+  "PMID:11067876": {
+    "status": "OK",
+    "info": "Sudo K 2000 J Exp Med | Age-associated characteristics of murine hematopoietic stem cells."
+  },
+  "PMID:12612578": {
+    "status": "OK",
+    "info": "Fontenot JD 2003 Nat Immunol | Foxp3 programs the development and function of CD4+CD25+ regulatory T cells."
+  },
+  "PMID:12663456": {
+    "status": "OK",
+    "info": "Allsopp RC 2003 Blood | Telomerase is required to slow telomere shortening and extend replicative lifespan of HSCs during se"
+  },
+  "PMID:12855956": {
+    "status": "OK",
+    "info": "Parrinello S 2003 Nat Cell Biol | Oxygen sensitivity severely limits the replicative lifespan of murine fibroblasts."
+  },
+  "PMID:13718526": {
+    "status": "OK",
+    "info": "JACOB F 1961 J Mol Biol | Genetic regulatory mechanisms in the synthesis of proteins."
+  },
+  "PMID:1385210": {
+    "status": "OK",
+    "info": "Christensen S 1992 FEBS Lett | Bovine alpha 2-antiplasmin. N-terminal and reactive site sequence."
+  },
+  "PMID:14315085": {
+    "status": "OK",
+    "info": "HAYFLICK L 1965 Exp Cell Res | THE LIMITED IN VITRO LIFETIME OF HUMAN DIPLOID CELL STRAINS."
+  },
+  "PMID:1485738": {
+    "status": "OK",
+    "info": "Nagley P 1992 Ann N Y Acad Sci | Mitochondrial DNA mutation associated with aging and degenerative disease."
+  },
+  "PMID:15333167": {
+    "status": "OK",
+    "info": "Ramesh AN 2004 Ann R Coll Surg Engl | Artificial intelligence in medicine."
+  },
+  "PMID:15527447": {
+    "status": "OK",
+    "info": "Wanby P 2004 Acta Neurol Scand | The FABP2 gene polymorphism in cerebrovascular disease."
+  },
+  "PMID:15784680": {
+    "status": "OK",
+    "info": "Delgehyr N 2005 J Cell Sci | Microtubule nucleation and anchoring at the centrosome are independent processes linked by ninein fu"
+  },
+  "PMID:15886028": {
+    "status": "OK",
+    "info": "Tkemaladze J 2005 Cell Biol Int | Potential role of centrioles in determining the morphogenetic status of animal somatic cells."
+  },
+  "PMID:16060722": {
+    "status": "OK",
+    "info": "Ioannidis JP 2005 PLoS Med | Why most published research findings are false."
+  },
+  "PMID:1631178": {
+    "status": "OK",
+    "info": "Dionyssopoulos T 1992 Pharmacol Biochem Behav | Effect of adenosine analogues on the expression of opiate withdrawal in rats."
+  },
+  "PMID:16407887": {
+    "status": "OK",
+    "info": "McFarlane PA 2006 Kidney Int | The impact of home nocturnal hemodialysis on end-stage renal disease therapies: a decision analysis."
+  },
+  "PMID:16868022": {
+    "status": "OK",
+    "info": "Glinka S 2006 Mol Biol Evol | Evidence of gene conversion associated with a selective sweep in Drosophila melanogaster."
+  },
+  "PMID:16909132": {
+    "status": "OK",
+    "info": "Phernambucq EC 2006 Br J Cancer | Multicenter phase II trial of accelerated cisplatin and high-dose epirubicin followed by surgery or "
+  },
+  "PMID:16990891": {
+    "status": "OK",
+    "info": "Gibson RL 2006 Br Dent J | Dental implantology education: a survey of opinion and experience of 106 general dental practitioner"
+  },
+  "PMID:17090418": {
+    "status": "OK",
+    "info": "Wiesner RJ 2006 Free Radic Res | Mitochondrial DNA damage and the aging process: facts and imaginations."
+  },
+  "PMID:17218264": {
+    "status": "OK",
+    "info": "Shen J 2007 Cell | Selective activation of cognate SNAREpins by Sec1/Munc18 proteins."
+  },
+  "PMID:17255513": {
+    "status": "OK",
+    "info": "Yamashita YM 2007 Science | Asymmetric inheritance of mother versus daughter centrosome in stem cell division."
+  },
+  "PMID:17938250": {
+    "status": "OK",
+    "info": "Jeganathan K 2007 J Cell Biol | Bub1 mediates cell death in response to chromosome missegregation and acts to suppress spontaneous t"
+  },
+  "PMID:18316408": {
+    "status": "OK",
+    "info": "Dultz E 2008 J Cell Biol | Systematic kinetic analysis of mitotic dis- and reassembly of the nuclear pore in living cells."
+  },
+  "PMID:18356530": {
+    "status": "OK",
+    "info": "Dunn EW 2008 Science | Spending money on others promotes happiness."
+  },
+  "PMID:18923395": {
+    "status": "OK",
+    "info": "Cheng J 2008 Nature | Centrosome misorientation reduces stem cell division during ageing."
+  },
+  "PMID:19587680": {
+    "status": "OK",
+    "info": "Harrison DE 2009 Nature | Rapamycin fed late in life extends lifespan in genetically heterogeneous mice."
+  },
+  "PMID:19732859": {
+    "status": "OK",
+    "info": "Leifer I 2009 Vaccine | Modified live marker vaccine candidate CP7_E2alf provides early onset of protection against lethal c"
+  },
+  "PMID:20018668": {
+    "status": "OK",
+    "info": "Verzijlbergen KF 2010 Proc Natl Acad Sci U S A | Recombination-induced tag exchange to track old and new proteins."
+  },
+  "PMID:20304793": {
+    "status": "OK",
+    "info": "Beerman I 2010 Proc Natl Acad Sci U S A | Functionally distinct hematopoietic stem cells modulate hematopoietic lineage potential during aging"
+  },
+  "PMID:2038241": {
+    "status": "OK",
+    "info": "Ratib O 1991 MD Comput | Desktop image analysis: workstations of the future."
+  },
+  "PMID:20395968": {
+    "status": "OK",
+    "info": "Goetz SC 2010 Nat Rev Genet | The primary cilium: a signalling centre during vertebrate development."
+  },
+  "PMID:20480236": {
+    "status": "OK",
+    "info": "Lezhava T 2011 Biogerontology | Gerontology research in Georgia."
+  },
+  "PMID:21145745": {
+    "status": "OK",
+    "info": "Conduit PT 2010 Curr Biol | Cnn dynamics drive centrosome size asymmetry to ensure daughter centriole retention in Drosophila ne"
+  },
+  "PMID:21407209": {
+    "status": "OK",
+    "info": "Januschke J 2011 Nat Commun | Drosophila neuroblasts retain the daughter centrosome."
+  },
+  "PMID:21474673": {
+    "status": "OK",
+    "info": "Velaithan R 2011 Blood | The small GTPase Rac1 is a novel binding partner of Bcl-2 and stabilizes its antiapoptotic activity."
+  },
+  "PMID:21654799": {
+    "status": "OK",
+    "info": "Dupont S 2011 Nature | Role of YAP/TAZ in mechanotransduction."
+  },
+  "PMID:21734240": {
+    "status": "OK",
+    "info": "Yahata T 2011 Blood | Accumulation of oxidative DNA damage restricts the self-renewal capacity of human hematopoietic stem"
+  },
+  "PMID:21993292": {
+    "status": "OK",
+    "info": "Kollman JM 2011 Nat Rev Mol Cell Biol | Microtubule nucleation by γ-tubulin complexes."
+  },
+  "PMID:22056670": {
+    "status": "OK",
+    "info": "Lapasset L 2011 Genes Dev | Rejuvenating senescent and centenarian human cells by reprogramming through the pluripotent state."
+  },
+  "PMID:22215083": {
+    "status": "OK",
+    "info": "Lavasani M 2012 Nat Commun | Muscle-derived stem/progenitor cell dysfunction limits healthspan and lifespan in a murine progeria "
+  },
+  "PMID:22357619": {
+    "status": "OK",
+    "info": "Roth TM 2012 Mol Biol Cell | Centrosome misorientation mediates slowing of the cell cycle under limited nutrient conditions in Dr"
+  },
+  "PMID:22743772": {
+    "status": "OK",
+    "info": "Schindelin J 2012 Nat Methods | Fiji: an open-source platform for biological-image analysis."
+  },
+  "PMID:22773427": {
+    "status": "OK",
+    "info": "Wang JC 2012 Circ Res | Aging and atherosclerosis: mechanisms, functional consequences, and potential therapeutics for cellu"
+  },
+  "PMID:2342578": {
+    "status": "OK",
+    "info": "Harley CB 1990 Nature | Telomeres shorten during ageing of human fibroblasts."
+  },
+  "PMID:23746838": {
+    "status": "OK",
+    "info": "López-Otín C 2013 Cell | The hallmarks of aging."
+  },
+  "PMID:23967009": {
+    "status": "OK",
+    "info": "Kovina MV 2013 Front Genet | Effect on lifespan of high yield non-myeloablating transplantation of bone marrow from young to old "
+  },
+  "PMID:24065130": {
+    "status": "OK",
+    "info": "Zempel H 2013 EMBO J | Amyloid-β oligomers induce synaptic damage via Tau-dependent microtubule severing by TTLL6 and spast"
+  },
+  "PMID:24138928": {
+    "status": "OK",
+    "info": "Horvath S 2013 Genome Biol | DNA methylation age of human tissues and cell types."
+  },
+  "PMID:24374808": {
+    "status": "OK",
+    "info": "Zhao Z 2014 J Cell Physiol | Telomere length maintenance, shortening, and lengthening."
+  },
+  "PMID:25149213": {
+    "status": "OK",
+    "info": "Khrapko K 2014 Prog Mol Biol Transl Sci | Mitochondrial DNA mutations in aging."
+  },
+  "PMID:25228775": {
+    "status": "OK",
+    "info": "Thayer NH 2014 Proc Natl Acad Sci U S A | Identification of long-lived proteins retained in cells undergoing repeated asymmetric divisions."
+  },
+  "PMID:25607366": {
+    "status": "OK",
+    "info": "Mandell DJ 2015 Nature | Biocontainment of genetically modified organisms by synthetic protein design."
+  },
+  "PMID:25612739": {
+    "status": "OK",
+    "info": "Rizvi S 2014 Curr Aging Sci | Telomere length variations in aging and age-related diseases."
+  },
+  "PMID:25615820": {
+    "status": "OK",
+    "info": "Pride H 2015 Biochem Biophys Res Commun | Long-lived species have improved proteostasis compared to phylogenetically-related shorter-lived spe"
+  },
+  "PMID:26213385": {
+    "status": "OK",
+    "info": "Madarampalli B 2015 Cell | ATF5 Connects the Pericentriolar Materials to the Proximal End of the Mother Centriole."
+  },
+  "PMID:26281784": {
+    "status": "OK",
+    "info": "Stewart JB 2015 Nat Rev Genet | The dynamics of mitochondrial DNA heteroplasmy: implications for human health and disease."
+  },
+  "PMID:26738589": {
+    "status": "OK",
+    "info": "García-Prat L 2016 Nature | Autophagy maintains stemness by preventing senescence."
+  },
+  "PMID:26833090": {
+    "status": "OK",
+    "info": "Trego KS 2016 Mol Cell | Non-catalytic Roles for XPG with BRCA1 and BRCA2 in Homologous Recombination and Genome Stability."
+  },
+  "PMID:27041501": {
+    "status": "OK",
+    "info": "Takeishi A 2016 Neuron | Receptor-type Guanylyl Cyclases Confer Thermosensory Responses in C. elegans."
+  },
+  "PMID:27330520": {
+    "status": "OK",
+    "info": "Koo TK 2016 J Chiropr Med | A Guideline of Selecting and Reporting Intraclass Correlation Coefficients for Reliability Research."
+  },
+  "PMID:27984723": {
+    "status": "OK",
+    "info": "Ocampo A 2016 Cell | In Vivo Amelioration of Age-Associated Hallmarks by Partial Reprogramming."
+  },
+  "PMID:28132843": {
+    "status": "OK",
+    "info": "Sundaramoorthy E 2017 Mol Cell | ZNF598 and RACK1 Regulate Mammalian Ribosome-Associated Quality Control Function by Mediating Regula"
+  },
+  "PMID:28170377": {
+    "status": "OK",
+    "info": "Wong YC 2017 Nat Med | α-synuclein toxicity in neurodegeneration: mechanism and therapeutic strategies."
+  },
+  "PMID:28431907": {
+    "status": "OK",
+    "info": "Prasad KN 2017 Mech Ageing Dev | Telomere shortening during aging: Attenuation by antioxidants and anti-inflammatory agents."
+  },
+  "PMID:28636844": {
+    "status": "OK",
+    "info": "Jaiswal S 2017 N Engl J Med | Clonal Hematopoiesis and Risk of Atherosclerotic Cardiovascular Disease."
+  },
+  "PMID:28792876": {
+    "status": "OK",
+    "info": "Shi H 2017 N Engl J Med | NAD Deficiency, Congenital Malformations, and Niacin Supplementation."
+  },
+  "PMID:28901234": {
+    "status": "OK",
+    "info": "Nichay NR 2017 World J Pediatr Congenit Heart Surg | Risk Factors For Unfavorable Outcomes After Bidirectional Cavopulmonary Anastomosis."
+  },
+  "PMID:29127110": {
+    "status": "OK",
+    "info": "Klaips CL 2018 J Cell Biol | Pathways of cellular proteostasis in aging and disease."
+  },
+  "PMID:29227991": {
+    "status": "OK",
+    "info": "Sonney S 2017 PLoS Comput Biol | Predicting the pathogenicity of novel variants in mitochondrial tRNA with MitoTIP."
+  },
+  "PMID:29643443": {
+    "status": "OK",
+    "info": "Horvath S 2018 Nat Rev Genet | DNA methylation-based biomarkers and the epigenetic clock theory of ageing."
+  },
+  "PMID:29643502": {
+    "status": "OK",
+    "info": "Goriki A 2018 Nat Rev Urol | Unravelling disparate roles of NOTCH in bladder cancer."
+  },
+  "PMID:29674432": {
+    "status": "OK",
+    "info": "Plass M 2018 Science | Cell type atlas and lineage tree of a whole complex animal by single-cell transcriptomics."
+  },
+  "PMID:29786094": {
+    "status": "OK",
+    "info": "Wei B 2018 Nat Biotechnol | A protein activity assay to measure global transcription factor activity reveals determinants of chr"
+  },
+  "PMID:30043489": {
+    "status": "OK",
+    "info": "Lakshmanan LN 2018 Aging Cell | Clonal expansion of mitochondrial DNA deletions is a private mechanism of aging in long-lived animal"
+  },
+  "PMID:30048243": {
+    "status": "OK",
+    "info": "Horvath S 2018 Aging (Albany NY) | Epigenetic clock for skin and blood cells applied to Hutchinson Gilford Progeria Syndrome and ex viv"
+  },
+  "PMID:30089816": {
+    "status": "OK",
+    "info": "Tranah GJ 2018 Sci Rep | Mitochondrial DNA m.3243A > G heteroplasmy affects multiple aging phenotypes and risk of mortality."
+  },
+  "PMID:30093604": {
+    "status": "OK",
+    "info": "Kalhor R 2018 Science | Developmental barcoding of whole mouse via homing CRISPR."
+  },
+  "PMID:30174316": {
+    "status": "OK",
+    "info": "Wu M 2018 Stem Cell Reports | A Chemical Recipe for Generation of Clinical-Grade Striatal Neurons from hESCs."
+  },
+  "PMID:30229407": {
+    "status": "OK",
+    "info": "Zhu Y 2019 Biogerontology | Telomere and its role in the aging pathways: telomere shortening, cell senescence and mitochondria d"
+  },
+  "PMID:30472697": {
+    "status": "OK",
+    "info": "Ain Q 2018 Aging (Albany NY) | Cell cycle-dependent and -independent telomere shortening accompanies murine brain aging."
+  },
+  "PMID:30593894": {
+    "status": "OK",
+    "info": "Wang Y 2019 Biochim Biophys Acta Mol Basis Dis | Mitochondrial regulation of cardiac aging."
+  },
+  "PMID:30650660": {
+    "status": "OK",
+    "info": "Liu J 2019 Cells | Roles of Telomere Biology in Cell Senescence, Replicative and Chronological Ageing."
+  },
+  "PMID:30669119": {
+    "status": "OK",
+    "info": "Lu AT 2019 Aging (Albany NY) | DNA methylation GrimAge strongly predicts lifespan and healthspan."
+  },
+  "PMID:30982602": {
+    "status": "OK",
+    "info": "Kucab JE 2019 Cell | A Compendium of Mutational Signatures of Environmental Agents."
+  },
+  "PMID:31085557": {
+    "status": "OK",
+    "info": "Adelman ER 2019 Cancer Discov | Aging Human Hematopoietic Stem Cells Manifest Profound Epigenetic Reprogramming of Enhancers That Ma"
+  },
+  "PMID:31086336": {
+    "status": "OK",
+    "info": "Chan MM 2019 Nature | Molecular recording of mammalian embryogenesis."
+  },
+  "PMID:31451800": {
+    "status": "OK",
+    "info": "Ibrahim AGE 2019 Nat Biomed Eng | Augmenting canonical Wnt signalling in therapeutically inert cells converts them into therapeuticall"
+  },
+  "PMID:31485073": {
+    "status": "OK",
+    "info": "Loeffler D 2019 Nature | Asymmetric lysosome inheritance predicts activation of haematopoietic stem cells."
+  },
+  "PMID:31485075": {
+    "status": "OK",
+    "info": "Rispoli M 2019 Nature | Quantum critical behaviour at the many-body localization transition."
+  },
+  "PMID:31844045": {
+    "status": "OK",
+    "info": "Park SH 2019 Nat Commun | ATAD5 promotes replication restart by regulating RAD51 and PCNA in response to replication stress."
+  },
+  "PMID:31914653": {
+    "status": "OK",
+    "info": "Peters-Hall JR 2020 FASEB J | Proliferation of adult human bronchial epithelial cells without a telomere maintenance mechanism for"
+  },
+  "PMID:32641813": {
+    "status": "OK",
+    "info": "Burger B 2020 Nature | A mobile robotic chemist."
+  },
+  "PMID:32755011": {
+    "status": "OK",
+    "info": "Florian MC 2020 Aging Cell | Inhibition of Cdc42 activity extends lifespan and decreases circulating inflammatory cytokines in ag"
+  },
+  "PMID:33268865": {
+    "status": "OK",
+    "info": "Lu Y 2020 Nature | Reprogramming to recover youthful epigenetic information and restore vision."
+  },
+  "PMID:33318659": {
+    "status": "OK",
+    "info": "Stringer C 2021 Nat Methods | Cellpose: a generalist algorithm for cellular segmentation."
+  },
+  "PMID:33347069": {
+    "status": "OK",
+    "info": "Luxton JJ 2021 Plast Reconstr Surg | Twins, Telomeres, and Aging-in Space!"
+  },
+  "PMID:33571444": {
+    "status": "OK",
+    "info": "Deng P 2021 Cell Stem Cell | Loss of KDM4B exacerbates bone-fat imbalance and mesenchymal stromal cell exhaustion in skeletal agi"
+  },
+  "PMID:33844651": {
+    "status": "OK",
+    "info": "Fitzgerald KN 2021 Aging (Albany NY) | Potential reversal of epigenetic age using a diet and lifestyle intervention: a pilot randomized cli"
+  },
+  "PMID:33891876": {
+    "status": "OK",
+    "info": "Bourdenx M 2021 Cell | Chaperone-mediated autophagy prevents collapse of the neuronal metastable proteome."
+  },
+  "PMID:34200513": {
+    "status": "OK",
+    "info": "Pousa PA 2021 Cells | Telomere Shortening and Psychiatric Disorders: A Systematic Review."
+  },
+  "PMID:34546229": {
+    "status": "OK",
+    "info": "Fan F 2021 Analyst | Synthesis and application of smart gel material modified silica microspheres for pH-responsive hydro"
+  },
+  "PMID:34563704": {
+    "status": "OK",
+    "info": "Kaushik S 2021 Ageing Res Rev | Autophagy and the hallmarks of aging."
+  },
+  "PMID:34587750": {
+    "status": "OK",
+    "info": "Roberts JD 2021 Circulation | Epigenetic Age and the Risk of Incident Atrial Fibrillation."
+  },
+  "PMID:34736994": {
+    "status": "OK",
+    "info": "Lin J 2022 Ageing Res Rev | Stress and telomere shortening: Insights from cellular mechanisms."
+  },
+  "PMID:35029144": {
+    "status": "OK",
+    "info": "Belsky DW 2022 Elife | DunedinPACE, a DNA methylation biomarker of the pace of aging."
+  },
+  "PMID:35032339": {
+    "status": "OK",
+    "info": "Hu M 2022 Aging Cell | NAP1L2 drives mesenchymal stem cell senescence and suppresses osteogenic differentiation."
+  },
+  "PMID:35447272": {
+    "status": "OK",
+    "info": "Sengupta U 2022 Prog Neurobiol | Amyloid β, Tau, and α-Synuclein aggregates in the pathogenesis, prognosis, and therapeutics for neur"
+  },
+  "PMID:35858618": {
+    "status": "OK",
+    "info": "Bogeska R 2022 Cell Stem Cell | Inflammatory exposure drives long-lived impairment of hematopoietic stem cell self-renewal activity "
+  },
+  "PMID:36076039": {
+    "status": "OK",
+    "info": "Mahecic D 2022 Nat Methods | Event-driven acquisition for content-enriched microscopy."
+  },
+  "PMID:36206857": {
+    "status": "OK",
+    "info": "Duan R 2022 Ageing Res Rev | Epigenetic clock: A promising biomarker and practical tool in aging."
+  },
+  "PMID:36233264": {
+    "status": "OK",
+    "info": "Wang HH 2022 Int J Mol Sci | Nobiletin Prevents D-Galactose-Induced C2C12 Cell Aging by Improving Mitochondrial Function."
+  },
+  "PMID:36336680": {
+    "status": "OK",
+    "info": "Wang K 2022 Signal Transduct Target Ther | Epigenetic regulation of aging: implications for interventions of aging and diseases."
+  },
+  "PMID:36442091": {
+    "status": "OK",
+    "info": "Insalata F 2022 Proc Natl Acad Sci U S A | Stochastic survival of the densest and mitochondrial DNA clonal expansion in aging."
+  },
+  "PMID:36516495": {
+    "status": "OK",
+    "info": "Lu AT 2022 Aging (Albany NY) | DNA methylation GrimAge version 2."
+  },
+  "PMID:36581635": {
+    "status": "OK",
+    "info": "Montserrat-Vazquez S 2022 NPJ Regen Med | Transplanting rejuvenated blood stem cells extends lifespan of aged immunocompromised mice."
+  },
+  "PMID:36583780": {
+    "status": "OK",
+    "info": "Tkemaladze J 2023 Mol Biol Rep | Reduction, proliferation, and differentiation defects of stem cells over time: a consequence of sele"
+  },
+  "PMID:36639373": {
+    "status": "OK",
+    "info": "Togninalli M 2023 NPJ Regen Med | Machine learning-based classification of dual fluorescence signals reveals muscle stem cell fate tra"
+  },
+  "PMID:36708707": {
+    "status": "OK",
+    "info": "Berendzen KM 2023 Neuron | Oxytocin receptor is not required for social attachment in prairie voles."
+  },
+  "PMID:37034474": {
+    "status": "OK",
+    "info": "Kabacik S 2022 Nat Aging | The relationship between epigenetic age and the hallmarks of aging in human cells."
+  },
+  "PMID:37111020": {
+    "status": "OK",
+    "info": "Wang HH 2023 Nutrients | Nobiletin Improves D-Galactose-Induced Aging Mice Skeletal Muscle Atrophy by Regulating Protein Home"
+  },
+  "PMID:37172915": {
+    "status": "OK",
+    "info": "Picca A 2023 Exp Gerontol | The contribution of mitochondrial DNA alterations to aging, cancer, and neurodegeneration."
+  },
+  "PMID:37196864": {
+    "status": "OK",
+    "info": "Guo Y 2023 Ageing Res Rev | Mitochondrial dysfunction in aging."
+  },
+  "PMID:37315555": {
+    "status": "OK",
+    "info": "Sheehan PW 2023 Neuron | An astrocyte BMAL1-BAG3 axis protects against alpha-synuclein and tau pathology."
+  },
+  "PMID:37552892": {
+    "status": "OK",
+    "info": "Yamashita YM 2023 Annu Rev Genet | Asymmetric Stem Cell Division and Germline Immortality."
+  },
+  "PMID:37865087": {
+    "status": "OK",
+    "info": "Kasbekar M 2023 Cell Stem Cell | Hematopoietic stem cells through the ages: A lifetime of adaptation to organismal demands."
+  },
+  "PMID:37882444": {
+    "status": "OK",
+    "info": "Royall LN 2023 Elife | Asymmetric inheritance of centrosomes maintains stem cell properties in human neural progenitor cell"
+  },
+  "PMID:37917279": {
+    "status": "OK",
+    "info": "Medoro A 2024 Mol Cell Biochem | NRF2 signaling pathway and telomere length in aging and age-related diseases."
+  },
+  "PMID:37924441": {
+    "status": "OK",
+    "info": "Morandini F 2024 Geroscience | ATAC-clock: An aging clock based on chromatin accessibility."
+  },
+  "PMID:38049031": {
+    "status": "OK",
+    "info": "Diekman BO 2024 Osteoarthritis Cartilage | Aging and the emerging role of cellular senescence in osteoarthritis."
+  },
+  "PMID:38123806": {
+    "status": "OK",
+    "info": "Boiko DA 2023 Nature | Autonomous chemical research with large language models."
+  },
+  "PMID:38216430": {
+    "status": "OK",
+    "info": "Wu Z 2024 Trends Pharmacol Sci | Emerging epigenetic insights into aging mechanisms and interventions."
+  },
+  "PMID:38347288": {
+    "status": "OK",
+    "info": "Wu YC 2024 Acta Neuropathol | The contribution of β-amyloid, Tau and α-synuclein to blood-brain barrier damage in neurodegenerativ"
+  },
+  "PMID:38402617": {
+    "status": "OK",
+    "info": "Kao YR 2024 Cell Stem Cell | An iron rheostat controls hematopoietic stem cell fate."
+  },
+  "PMID:38482631": {
+    "status": "OK",
+    "info": "Zheng Z 2024 Protein Cell | DNA methylation clocks for estimating biological age in Chinese cohorts."
+  },
+  "PMID:38510429": {
+    "status": "OK",
+    "info": "Tkemaladze J 2023 Front Pharmacol | Editorial: Molecular mechanism of ageing and therapeutic advances through targeting glycative and ox"
+  },
+  "PMID:38581556": {
+    "status": "OK",
+    "info": "Mason CE 2024 Biogerontology | Telomeres and aging: on and off the planet!"
+  },
+  "PMID:38634789": {
+    "status": "OK",
+    "info": "Li B 2024 Nucleic Acids Res | Proximal telomeric decompaction due to telomere shortening drives FOXC1-dependent myocardial senesce"
+  },
+  "PMID:38640057": {
+    "status": "OK",
+    "info": "Yokomizo T 2024 Curr Opin Hematol | Epigenetics of hematopoietic stem cell aging."
+  },
+  "PMID:38658656": {
+    "status": "OK",
+    "info": "Mahalingan KK 2024 Nat Chem Biol | Structural basis for α-tubulin-specific and modification state-dependent glutamylation."
+  },
+  "PMID:38679727": {
+    "status": "OK",
+    "info": "Zhu Y 2024 Stem Cell Res Ther | Safety and efficacy of umbilical cord tissue-derived mesenchymal stem cells in the treatment of pati"
+  },
+  "PMID:38724734": {
+    "status": "OK",
+    "info": "Nehme J 2024 Nat Aging | Converting cell death into senescence by PARP1 inhibition improves recovery from acute oxidative inj"
+  },
+  "PMID:38874393": {
+    "status": "OK",
+    "info": "Ugale A 2024 J Cell Biol | Signaling proteins in HSC fate determination are unequally segregated during asymmetric cell divisio"
+  },
+  "PMID:39012627": {
+    "status": "OK",
+    "info": "Thomas A 2024 J Cell Biol | Centrosome age breaks spindle size symmetry even in cells thought to divide symmetrically."
+  },
+  "PMID:39019845": {
+    "status": "OK",
+    "info": "Shao Y 2024 Bone Res | PDZK1 protects against mechanical overload-induced chondrocyte senescence and osteoarthritis by targ"
+  },
+  "PMID:39164231": {
+    "status": "OK",
+    "info": "Ghosh S 2024 Nat Commun | RIOK2 transcriptionally regulates TRiC and dyskerin complexes to prevent telomere shortening."
+  },
+  "PMID:39173633": {
+    "status": "OK",
+    "info": "Hahn A 2024 Cell Metab | Misregulation of mitochondrial 6mA promotes the propagation of mutant mtDNA and causes aging in C. e"
+  },
+  "PMID:39179117": {
+    "status": "OK",
+    "info": "Madreiter-Sokolowski CT 2024 Pharmacol Ther | Targeting organ-specific mitochondrial dysfunction to improve biological aging."
+  },
+  "PMID:39266565": {
+    "status": "OK",
+    "info": "Robichaud JH 2024 Nat Commun | Transiently formed nucleus-to-cilium microtubule arrays mediate senescence initiation in a KIFC3-dep"
+  },
+  "PMID:39271425": {
+    "status": "OK",
+    "info": "Meng Y 2025 Trends Cell Biol | Epigenetic regulation of hematopoietic stem cell fate."
+  },
+  "PMID:39343182": {
+    "status": "OK",
+    "info": "Xian T 2024 Free Radic Biol Med | Human salivary histatin 1 regulating IP3R1/GRP75/VDAC1 mediated mitochondrial-associated endoplasmic"
+  },
+  "PMID:39412222": {
+    "status": "OK",
+    "info": "Launay N 2025 Aging Cell | Altered tubulin detyrosination due to SVBP malfunction induces cytokinesis failure and senescence, u"
+  },
+  "PMID:39627772": {
+    "status": "OK",
+    "info": "Knecht L 2024 J Neuroinflammation | Autoantibody profiles in Alzheimer´s, Parkinson´s, and dementia with Lewy bodies: altered IgG affini"
+  },
+  "PMID:39684855": {
+    "status": "OK",
+    "info": "Kobayashi H 2024 Int J Mol Sci | Mitochondrial DNA Damage and Its Repair Mechanisms in Aging Oocytes."
+  },
+  "PMID:39743633": {
+    "status": "OK",
+    "info": "Wang Y 2025 Cell Res | Reducing functionally defective old HSCs alleviates aging-related phenotypes in old recipient mice."
+  },
+  "PMID:39764850": {
+    "status": "OK",
+    "info": "Barandun N 2025 Cell Rep | Targeted localization of the mother centrosome in CD8(+) T cells undergoing asymmetric cell division"
+  },
+  "PMID:39837827": {
+    "status": "OK",
+    "info": "De Rosa M 2025 Nat Commun | OGG1 and MUTYH repair activities promote telomeric 8-oxoguanine induced senescence in human fibrobla"
+  },
+  "PMID:39900648": {
+    "status": "OK",
+    "info": "Bischoff-Ferrari HA 2025 Nat Aging | Individual and additive effects of vitamin D, omega-3 and exercise on DNA methylation clocks of biol"
+  },
+  "PMID:39933528": {
+    "status": "OK",
+    "info": "Cefis M 2025 Cell Rep Med | Impact of physical activity on physical function, mitochondrial energetics, ROS production, and Ca(2"
+  },
+  "PMID:39973488": {
+    "status": "OK",
+    "info": "Ma Y 2025 J Parkinsons Dis | Aging, cellular senescence and Parkinson's disease."
+  },
+  "PMID:40042672": {
+    "status": "OK",
+    "info": "Buchholz E 2025 J Neurol | Overlapping presence of β-amyloid, tau, p-tau, and α-synuclein in skin nerve fibers in Alzheimer's d"
+  },
+  "PMID:40098057": {
+    "status": "OK",
+    "info": "Franzmeier N 2025 Mol Neurodegener | Alpha synuclein co-pathology is associated with accelerated amyloid-driven tau accumulation in Alzhe"
+  },
+  "PMID:40157365": {
+    "status": "OK",
+    "info": "Pao YS 2025 Dev Cell | KIF2C promotes paclitaxel resistance by depolymerizing polyglutamylated microtubules."
+  },
+  "PMID:40183670": {
+    "status": "OK",
+    "info": "Koloko Ngassie ML 2025 Am J Physiol Lung Cell Mol Physiol | Hyperoxia-induced senescence in fetal airway smooth muscle cells: role of mitochondrial reactive oxy"
+  },
+  "PMID:40215293": {
+    "status": "OK",
+    "info": "Sanz-Moreno A 2025 Sci Adv | Loss of Ten1 in mice induces telomere shortening and models human dyskeratosis congenita."
+  },
+  "PMID:40239706": {
+    "status": "OK",
+    "info": "Gozdecka M 2025 Nature | Mitochondrial metabolism sustains DNMT3A-R882-mutant clonal haematopoiesis."
+  },
+  "PMID:40257113": {
+    "status": "OK",
+    "info": "Hamzah M 2025 Cytoskeleton (Hoboken) | PLK4: Master Regulator of Centriole Duplication and Its Therapeutic Potential."
+  },
+  "PMID:40377064": {
+    "status": "OK",
+    "info": "Folarin OR 2025 J Neurochem | Chronic Vanadium Exposure Promotes Aggregation of Alpha-Synuclein, Tau and Amyloid Beta in Mouse Bra"
+  },
+  "PMID:40388671": {
+    "status": "OK",
+    "info": "Meng F 2025 Adv Sci (Weinh) | Histone Lactylation Antagonizes Senescence and Skeletal Muscle Aging by Modulating Aging-Related Pat"
+  },
+  "PMID:40461459": {
+    "status": "OK",
+    "info": "Xu F 2025 Nat Commun | ROMO1 overexpression protects the mitochondrial cysteinome from oxidations in aging."
+  },
+  "PMID:40476552": {
+    "status": "OK",
+    "info": "Kobayashi H 2025 Int J Mol Med | Understanding the impact of mitochondrial DNA mutations on aging and carcinogenesis (Review)."
+  },
+  "PMID:40500258": {
+    "status": "OK",
+    "info": "Xu X 2025 Signal Transduct Target Ther | Mitochondria in oxidative stress, inflammation and aging: from mechanisms to therapeutic advances."
+  },
+  "PMID:40562035": {
+    "status": "OK",
+    "info": "Rando TA 2025 Cell Stem Cell | Hallmarks of stem cell aging."
+  },
+  "PMID:40562742": {
+    "status": "OK",
+    "info": "Gavoci A 2025 Nat Commun | Polyglutamylation of microtubules drives neuronal remodeling."
+  },
+  "PMID:40579478": {
+    "status": "OK",
+    "info": "Zhang L 2025 Nat Aging | Age-dependent accumulation of mitochondrial tRNA mutations in mouse kidneys linked to mitochondrial "
+  },
+  "PMID:40960157": {
+    "status": "OK",
+    "info": "Wang J 2025 Chin Med J (Engl) | Protein aggregation in neurodegenerative diseases."
+  },
+  "PMID:41289991": {
+    "status": "OK",
+    "info": "Arif T 2025 Cell Stem Cell | Reversing lysosomal dysfunction restores youthful state in aged hematopoietic stem cells."
+  },
+  "PMID:41340001": {
+    "status": "OK",
+    "info": "Lourenco GF 2025 Acta Neuropathol | Nucleolar aggregation of key neuropathological proteins in the postmortem neurodegenerative brain."
+  },
+  "PMID:6129277": {
+    "status": "OK",
+    "info": "Harrison DE 1982 J Exp Med | Loss of stem cell repopulating ability upon transplantation. Effects of donor age, cell number, and "
+  },
+  "PMID:9647649": {
+    "status": "OK",
+    "info": "Fry AM 1998 J Cell Biol | C-Nap1, a novel centrosomal coiled-coil protein and candidate substrate of the cell cycle-regulated "
+  },
+  "DOI:10.1016/0014-4827(65)90211-9": {
+    "status": "OK",
+    "info": "Hayflick 1965 Experimental Cell Research | The limited in vitro lifetime of human diploid cell strains"
+  },
+  "DOI:10.1016/S0896-6273(00)80701-1": {
+    "status": "OK",
+    "info": "Lee 1999 Neuron | Mosaic Analysis with a Repressible Cell Marker for Studies of Gene Function in Neuronal Morphogenesi"
+  },
+  "DOI:10.1016/j.bbrc.2015.01.046": {
+    "status": "OK",
+    "info": "Pride 2015 Biochemical and Biophysical Research Communications | Long-lived species have improved proteostasis compared to phylogenetically-related shorter-lived spe"
+  },
+  "DOI:10.1016/j.cell.2012.04.037": {
+    "status": "OK",
+    "info": "Chung 2012 Cell | Gut Immune Maturation Depends on Colonization with a Host-Specific Microbiota"
+  },
+  "DOI:10.1016/j.cell.2014.03.003": {
+    "status": "OK",
+    "info": "Anderson 2014 Cell | A Framework for Studying Emotions across Species"
+  },
+  "DOI:10.1016/j.cell.2019.07.034": {
+    "status": "OK",
+    "info": "Gong 2019 Cell | A Cold-Sensing Receptor Encoded by a Glutamate Receptor Gene"
+  },
+  "DOI:10.1016/j.celrep.2016.07.012": {
+    "status": "OK",
+    "info": "Jiang 2016 Cell Reports | The Pseudomonas aeruginosa Type VI Secretion PGAP1-like Effector Induces Host Autophagy by Activatin"
+  },
+  "DOI:10.1016/j.celrep.2024.115127": {
+    "status": "OK",
+    "info": "Barandun 2025 Cell Reports | Targeted localization of the mother centrosome in CD8+ T cells undergoing asymmetric cell division p"
+  },
+  "DOI:10.1016/j.stem.2015.07.002": {
+    "status": "OK",
+    "info": "Llorens-Bobadilla 2015 Cell Stem Cell | Single-Cell Transcriptomics Reveals a Population of Dormant Neural Stem Cells that Become Activated "
+  },
+  "DOI:10.1016/j.stem.2020.08.012": {
+    "status": "OK",
+    "info": "D’Antonio 2020 Cell Stem Cell | Revealing Instability: Genetic Variation Underlies Variability in mESC Pluripotency"
+  },
+  "DOI:10.1016/j.stem.2024.11.001": {
+    "status": "OK",
+    "info": "Zeng 2025 Cell Stem Cell | Gene editing without ex vivo culture evades genotoxicity in human hematopoietic stem cells"
+  },
+  "DOI:10.1038/nature07208": {
+    "status": "OK",
+    "info": "Nedjic 2008 Nature | Autophagy in thymic epithelium shapes the T-cell repertoire and is essential for tolerance"
+  },
+  "DOI:10.1038/ncb3509": {
+    "status": "OK",
+    "info": "Kon 2017 Nature Cell Biology | Cell competition with normal epithelial cells promotes apical extrusion of transformed cells through"
+  },
+  "DOI:10.1038/nmeth.2019": {
+    "status": "OK",
+    "info": "Schindelin 2012 Nature Methods | Fiji: an open-source platform for biological-image analysis"
+  },
+  "DOI:10.1038/nrg2774": {
+    "status": "OK",
+    "info": "Goetz 2010 Nature Reviews Genetics | The primary cilium: a signalling centre during vertebrate development"
+  },
+  "DOI:10.1038/s41536-022-00275-y": {
+    "status": "OK",
+    "info": "Montserrat-Vazquez 2022 npj Regenerative Medicine | Transplanting rejuvenated blood stem cells extends lifespan of aged immunocompromised mice"
+  },
+  "DOI:10.1038/s41586-020-2442-2": {
+    "status": "OK",
+    "info": "Burger 2020 Nature | A mobile robotic chemist"
+  },
+  "DOI:10.1038/s41586-023-06792-0": {
+    "status": "OK",
+    "info": "Boiko 2023 Nature | Autonomous chemical research with large language models"
+  },
+  "DOI:10.1038/s41589-024-01599-0": {
+    "status": "OK",
+    "info": "Mahalingan 2024 Nature Chemical Biology | Structural basis for α-tubulin-specific and modification state-dependent glutamylation"
+  },
+  "DOI:10.1038/s41592-020-01018-x": {
+    "status": "OK",
+    "info": "Stringer 2021 Nature Methods | Cellpose: a generalist algorithm for cellular segmentation"
+  },
+  "DOI:10.1038/s41597-021-00829-7": {
+    "status": "OK",
+    "info": "Valdes-Sosa 2021 Scientific Data | The Cuban Human Brain Mapping Project, a young and middle age population-based EEG, MRI, and cogniti"
+  },
+  "DOI:10.1038/s42256-024-00832-8": {
+    "status": "OK",
+    "info": "M. Bran 2024 Nature Machine Intelligence | Augmenting large language models with chemistry tools"
+  },
+  "DOI:10.1038/s43587-021-00098-4": {
+    "status": "OK",
+    "info": "Aman 2021 Nature Aging | Autophagy in healthy aging and disease"
+  },
+  "DOI:10.1038/sdata.2018.308": {
+    "status": "OK",
+    "info": "Babayan 2019 Scientific Data | A mind-brain-body dataset of MRI, EEG, cognition, emotion, and peripheral physiology in young and ol"
+  },
+  "DOI:10.1063/1.4941068": {
+    "status": "OK",
+    "info": "Sharkey 2016 Review of Scientific Instruments | A one-piece 3D printed flexure translation stage for open-source microscopy"
+  },
+  "DOI:10.1093/chemse/21.6.773": {
+    "status": "OK",
+    "info": "Turin 1996 Chemical Senses | A Spectroscopic Mechanism for Primary Olfactory Reception"
+  },
+  "DOI:10.1096/fj.201902376R": {
+    "status": "OK",
+    "info": "Peters‐Hall 2020 The FASEB Journal | Proliferation of adult human bronchial epithelial cells without a telomere maintenance mechanism for"
+  },
+  "DOI:10.1101/2024.11.25.624814": {
+    "status": "OK",
+    "info": "Al Kabbani 2024  | Expression of recombinant human glutamylating TTLLs in human cells leads to differential tubulin glu"
+  },
+  "DOI:10.1103/PhysRevA.72.042113": {
+    "status": "OK",
+    "info": "Ollivier 2005 Physical Review A | Environment as a witness: Selective proliferation of information and emergence of objectivity in a q"
+  },
+  "DOI:10.1103/PhysRevX.11.021029": {
+    "status": "OK",
+    "info": "Pearson 2021 Physical Review X | Measuring the Thermodynamic Cost of Timekeeping"
+  },
+  "DOI:10.1103/RevModPhys.75.715": {
+    "status": "OK",
+    "info": "Zurek 2003 Reviews of Modern Physics | Decoherence, einselection, and the quantum origins of the classical"
+  },
+  "DOI:10.1126/sciadv.aaw9832": {
+    "status": "OK",
+    "info": "Proietti 2019 Science Advances | Experimental test of local observer independence"
+  },
+  "DOI:10.1142/S0219887821501279": {
+    "status": "OK",
+    "info": "Gassner 2021 International Journal of Geometric Methods in Modern Physics | Information geometric aspects of probability paths with minimum entropy production for quantum state"
+  },
+  "DOI:10.1159/000539232": {
+    "status": "OK",
+    "info": "Xanthouli 2024 Kompass Pneumologie | Behandlung der eosinophilen Granulomatose mit Polyangiitis: Ist Benralizumab eine Alternative?"
+  },
+  "DOI:10.1159/000543411": {
+    "status": "OK",
+    "info": "Hagmeyer 2025 Kompass Pneumologie | Rundherddiagnostik: Fortschritt durch integrierte Tool-in-Lesion-Tomosynthese in der Roboter-Navigat"
+  },
+  "DOI:10.1162/089976601753195969": {
+    "status": "OK",
+    "info": "Bialek 2001 Neural Computation | Predictability, Complexity, and Learning"
+  },
+  "DOI:10.1182/blood-2002-07-2334": {
+    "status": "OK",
+    "info": "Allsopp 2003 Blood | Telomerase is required to slow telomere shortening and extend replicative lifespan of HSCs during se"
+  },
+  "DOI:10.1242/jcs.02302": {
+    "status": "OK",
+    "info": "Delgehyr 2005 Journal of Cell Science | Microtubule nucleation and anchoring at the centrosome are independent processes linked by ninein fu"
+  },
+  "DOI:10.1371/journal.pone.0339922": {
+    "status": "OK",
+    "info": "Al Kabbani 2026 PLOS One | Expression of recombinant human glutamylating TTLLs in human cells leads to differential tubulin glu"
+  },
+  "DOI:10.22331/q-2021-04-26-443": {
+    "status": "OK",
+    "info": "Woodhead 2021 Quantum | Device-independent quantum key distribution with asymmetric CHSH inequalities"
+  },
+  "DOI:10.3389/frhem.2024.1373554": {
+    "status": "OK",
+    "info": "Nunes 2024 Frontiers in Hematology | Asymmetric cell division of hematopoietic stem cells: recent advances, emerging concepts, and future"
+  },
+  "DOI:10.64898/2025.12.15.694360": {
+    "status": "OK",
+    "info": "Pires 2025  | TTLL6-mediated Polyglutamylation of PurA Maintains Colonic Crypt Integrity"
+  },
+  "DOI:10.64898/2026.03.26.714124": {
+    "status": "OK",
+    "info": "Lore 2026  | BrainYears: A functional EEG-based brain age clock enables intervention-ready measurements of brain "
+  },
+  "DOI:10.7554/eLife.73420": {
+    "status": "OK",
+    "info": "Belsky 2022 eLife | DunedinPACE, a DNA methylation biomarker of the pace of aging"
+  },
+  "DOI:10.7554/eLife.83157": {
+    "status": "OK",
+    "info": "Royall 2023 eLife | Asymmetric inheritance of centrosomes maintains stem cell properties in human neural progenitor cell"
+  },
+  "arXiv:1502.00214": {
+    "status": "OK",
+    "info": "arXiv:1502.00214 | Information loss and entropy production during dissipative processes in a macroscopic system kicked "
+  }
+}

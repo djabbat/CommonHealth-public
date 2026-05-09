@@ -1,0 +1,109 @@
+
+## iter 1
+APPENDED: CONCEPT.md :: ## Pre-registration Plan
+APPENDED: CONCEPT.md :: ## Sample Size Calculation
+APPENDED: CONCEPT.md :: ## Risk Matrix
+APPENDED: CONCEPT.md :: ## Consortium / Collaboration Plan
+INSERTED: OPEN_PROBLEMS.md after `## OP-T1: Количественное определение кон`
+INSERTED: OPEN_PROBLEMS.md after `## OP-T2: Экспериментальное разделение в`
+
+## iter 2
+SKIP exists: CONCEPT.md :: ## Risk Matrix
+APPENDED: CONCEPT.md :: ## Consortium / Partners
+REPLACED: CONCEPT.md :: https://osf.io/TBD
+APPENDED: PARAMETERS.md :: ## Parameter Uncertainty
+
+## iter 3
+SKIP exists: CONCEPT.md :: ## Risk Matrix
+SKIP exists: CONCEPT.md :: ## Consortium / Collaboration Plan
+APPENDED: OPEN_PROBLEMS.md :: ## Model Update Protocol (Decision Tree)
+
+## iter 4
+APPENDED: CONCEPT.md :: ## Risk matrix
+APPENDED: CONCEPT.md :: ## Consortium / partners
+APPENDED: CONCEPT.md :: ## Limitations
+INSERTED: OPEN_PROBLEMS.md after `Effect size: expected α₂`
+
+## iter 5
+SKIP exists: CONCEPT.md :: ## Risk Matrix
+SKIP exists: CONCEPT.md :: ## Consortium / Partners
+INSERTED: CONCEPT.md after `## 1. Counter Identity and Integration w`
+INSERTED: PARAMETERS.md after `τ₂`
+REPLACED: OPEN_PROBLEMS.md :: Effect size: expected α₂
+
+## iter 6
+SKIP exists: CONCEPT.md :: ## Risk Matrix
+SKIP exists: CONCEPT.md :: ## Consortium / Collaboration Plan
+SKIP anchor-missing: CONCEPT.md
+INSERTED: OPEN_PROBLEMS.md after `## OP-T1: Количественное определение кон`
+INSERTED: OPEN_PROBLEMS.md after `## OP-T2: Экспериментальное разделение в`
+APPENDED: PARAMETERS.md :: ## Suggested Measurement Protocols for Uncertain Parameters
+
+## iter 7
+APPENDED: CONCEPT.md :: ## Consortium and Collaboration Plan
+SKIP anchor-missing: CONCEPT.md
+SKIP anchor-missing: CONCEPT.md
+INSERTED: CONCEPT.md after `## 7. Open Questions and Limitations`
+INSERTED: OPEN_PROBLEMS.md after `**Decision rule:** If outcome 2, 3, or 4`
+
+## iter 8
+SKIP exists: CONCEPT.md :: ## Pre-registration Plan
+INSERTED: README.md after `Связи с другими файлами`
+INSERTED: PARAMETERS.md after `Γ_{2,5}`
+SKIP anchor-missing: DESIGN.md
+INSERTED: CONCEPT.md after `Open Questions and Limitations`
+
+## iter 1
+APPENDED: CONCEPT.md :: ## Falsifiability
+APPENDED: CONCEPT.md :: ## Pre-registration plan
+APPENDED: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+
+## iter 2
+INSERTED: CONCEPT.md after `will be completed by 2026-10-01`
+APPENDED: OPEN_PROBLEMS.md :: ## Consolidated Risk Matrix (OP-T1 through OP-T4)
+APPENDED: DESIGN.md :: ## TelomereCounter Class Implementation (Completion)
+INSERTED: README.md after `confirmed interest`
+
+## iter 3
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP anchor-missing: CONCEPT.md
+APPENDED: PARAMETERS.md :: ## Uncertainty estimates
+APPENDED: DESIGN.md :: ## Validation test suite
+REPLACED: CONCEPT.md :: uncorrelated
+
+## iter 1
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+REPLACED: OPEN_PROBLEMS.md :: **Power analysis for OP-T1:**
+Effect siz
+
+## iter 2
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+
+## iter 3
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+
+## iter 4
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners

@@ -54,7 +54,7 @@
 
 ### Формальная Ze-теория vs. Историческое применение
 
-Ze-теория формально определена в Tkemaladze (2026). Настоящий проект применяет её как **аналоговую модель**, а не как прямое нейрофизиологическое измерение. Ключевые различия:
+Ze-теория формально определена в Tkemaladze (2026) [препринт в разработке; планируется депонирование на arXiv после завершения проекта]. Настоящий проект применяет её как **аналоговую модель**, а не как прямое нейрофизиологическое измерение. Ключевые различия:
 
 | Формальное понятие Ze (Tkemaladze 2026) | Использование в проекте Poincaré |
 |-----------------------------------------|----------------------------------|
@@ -64,7 +64,7 @@ Ze-теория формально определена в Tkemaladze (2026). Н
 
 **Обоснование расширения:** Подобно тому, как эволюционная биология использует «информацию» и для количества (Шеннон), и для содержания (смысл), наше историческое применение расширяет τ от простого счётчика до *содержания* интуиции, которое накапливается и переносится между доменами. Это расширение является аналоговым, не формальным — и явно признаётся таковым.
 
-**Ссылка на формальную Ze-теорию:** Tkemaladze, J. (2026). Ze Theory as an Interpretive Framework for Quantum Mechanics. *Longevity Horizon*, 2(4). DOI: https://doi.org/10.65649/a874t352
+**Ссылка на формальную Ze-теорию:** Tkemaladze, J. (2026). Ze Theory as an Interpretive Framework for Quantum Mechanics. *Longevity Horizon*, 2(4). DOI: 
 
 ---
 
@@ -179,20 +179,20 @@ Ze-модель считается успешной, если она может 
 
 ```
 Небесная механика (задача трёх тел)
-    → нуждалась в глобальной классификации фазового пространства
-    → породила Analysis Situs (топология, 1895)
-    → инструменты вернулись в механику (топологические инварианты потоков)
+ → нуждалась в глобальной классификации фазового пространства
+ → породила Analysis Situs (топология, 1895)
+ → инструменты вернулись в механику (топологические инварианты потоков)
 
 Автоморфные функции
-    → нуждались в теории групп (фуксовы группы)
-    → обнаружили неевклидову геометрию как лежащую в основе структуру
-    → метод (группа = геометрический объект, действующий на пространстве)
-    → применён к группе Лоренца → математика СТО (1905)
+ → нуждались в теории групп (фуксовы группы)
+ → обнаружили неевклидову геометрию как лежащую в основе структуру
+ → метод (группа = геометрический объект, действующий на пространстве)
+ → применён к группе Лоренца → математика СТО (1905)
 
 Философия науки
-    → валидировала интуицию как легитимный источник знания
-    → описала подсознательную инкубацию как реальный математический метод
-    → соединилась с Ze-теорией: интуиция = оптимальный Ze-поток при v*
+ → валидировала интуицию как легитимный источник знания
+ → описала подсознательную инкубацию как реальный математический метод
+ → соединилась с Ze-теорией: интуиция = оптимальный Ze-поток при v*
 ```
 
 ---
@@ -215,20 +215,20 @@ Ze-модель применяется к Пуанкаре как **аналог
 
 ```
 Poincare/
-├── CONCEPT.md          — этот файл (v5, русский, финальный для Phase 3)
-├── CLAUDE.md           — правила для AI-ассистента
-├── TODO.md             — дорожная карта исследования
-├── README.md           — обзор проекта
-├── PARAMETERS.md       — ключевые формулы и даты
-├── MAP.md              — связи с другими проектами
-├── MEMORY.md           — лог сессий
-├── LINKS.md            — библиография и источники
-├── KNOWLEDGE.md        — накопленные аналитические инсайты
+├── CONCEPT.md — этот файл (v5, русский, финальный для Phase 3)
+├── CLAUDE.md — правила для AI-ассистента
+├── TODO.md — дорожная карта исследования
+├── README.md — обзор проекта
+├── PARAMETERS.md — ключевые формулы и даты
+├── MAP.md — связи с другими проектами
+├── MEMORY.md — лог сессий
+├── LINKS.md — библиография и источники
+├── KNOWLEDGE.md — накопленные аналитические инсайты
 └── Sources/
-    ├── 01_Chronologie.md
-    ├── 02_Intuitions_Cles.md
-    ├── 03_Science_et_Methode.md
-    └── 04_Carte_des_Connexions.md
+ ├── 01_Chronologie.md
+ ├── 02_Intuitions_Cles.md
+ ├── 03_Science_et_Methode.md
+ └── 04_Carte_des_Connexions.md
 ```
 
 ---
@@ -419,3 +419,113 @@ Poincare/
 ```
 
 ---
+
+## Falsifiability
+
+### Operationalised hypotheses with numeric thresholds
+
+1. **Incubation threshold**: If the interval between conscious effort and reported insight exceeds X days (X = TBD, placeholder), the probability of a T-burst (sudden insight) is > 0.5.
+2. **v* alignment**: The proportion of T-bursts in Poincaré's documented insights will be consistent with v* ≈ 0.456 (within a 95% confidence interval of width 0.1, placeholder).
+3. **Null hypothesis**: No systematic relationship exists between incubation duration and insight quality; all observed patterns are attributable to random recall bias.
+4. **Statistical criterion**: Reject null if p < 0.001 (Bonferroni-corrected for multiple comparisons) and effect size (Cohen's d) > 0.5.
+5. **Power**: Target N = 50 documented insight episodes (placeholder) to achieve 80% power at α = 0.001.
+
+## Pre-registration plan
+
+**OSF registration**: osf.io/TBD (placeholder)
+**Planned date**: 2026-06-01 (placeholder)
+**Scope**: Full protocol including source selection criteria, coding scheme for insight episodes, statistical analysis plan, and replication strategy.
+**Deviations**: Any post-registration changes will be documented with justification in a version-controlled log.
+
+## Sample size calculation
+
+**Target**: Detect a medium effect (Cohen's d = 0.5) in the proportion of T-bursts following incubation vs. non-incubation periods.
+**Formula**: n = (Z_α/2 + Z_β)² · σ² / δ²
+- Z_α/2 = 1.96 (α = 0.05, two-tailed)
+- Z_β = 0.84 (β = 0.20, power = 0.80)
+- σ² = estimated variance from pilot data (placeholder: 0.25)
+- δ = minimum detectable effect (placeholder: 0.3 proportion difference)
+**Result**: n ≈ 44 episodes per condition (placeholder). Total N ≈ 88, rounded to 100 for attrition.
+**Assumptions**: Based on historical record density; if fewer episodes are available, power analysis will be recalculated and reported.
+
+## Risk matrix
+
+| # | Risk | Probability (1-5) | Impact (1-5) | Mitigation |
+|---|------|-------------------|--------------|------------|
+| 1 | Insufficient historical records to reach target N | 4 | 4 | Expand search to unpublished letters, notebooks; pre-specify minimum N for analysis |
+| 2 | Subjective coding of insight episodes introduces bias | 3 | 5 | Double-blind coding by two independent raters; inter-rater reliability κ ≥ 0.7 |
+| 3 | Ze-theory parameters (v*, τ) not directly measurable from text | 5 | 5 | Use proxy variables (e.g., time intervals, self-reported clarity); document all assumptions |
+| 4 | Confirmation bias in selecting episodes that fit Ze-model | 3 | 4 | Pre-register inclusion/exclusion criteria; include negative cases (failed insights) |
+| 5 | Lack of independent replication of Ze-theory itself | 2 | 3 | Acknowledge as limitation; propose experimental validation in future work |
+| 6 | Reviewer rejection due to non-standard methodology | 3 | 3 | Provide detailed justification in methodology section; cite analogous historical case studies |
+
+## Limitations
+
+1. **Historical data quality**: Self-reports by Poincaré are retrospective and may be subject to memory distortion or narrative embellishment.
+2. **Proxy variables**: Ze-theory parameters (v*, τ) are not directly measurable from text; we rely on inferred proxies (time intervals, self-reported clarity).
+3. **Small sample**: The number of well-documented insight episodes is limited (estimated N < 50), reducing statistical power.
+4. **Single subject**: The study focuses on one individual; generalisability to other scientists or creative domains is unknown.
+5. **Circularity risk**: Ze-theory was developed by the same author (Tkemaladze) who applies it here; independent validation is absent.
+6. **Cultural context**: Poincaré's intellectual environment (1900s France) may not be comparable to modern scientific practice.
+7. **No experimental control**: We cannot manipulate variables or randomise; the design is purely observational and correlational.
+
+## Consortium / partners
+
+**Proposed collaborators** (placeholder list):
+- **Historian of science** (TBD): Validation of primary sources, contextual interpretation of 19th–20th century mathematics.
+- **Cognitive psychologist** (TBD): Experimental design for testing Ze-model predictions in controlled settings.
+- **Mathematician / formal theorist** (TBD): Formal verification of Ze-theory axioms and their mapping to historical data.
+- **Data scientist** (TBD): NLP coding of historical texts, statistical analysis, replication scripts.
+**Roles and responsibilities**: To be defined in a collaboration agreement prior to data collection.
+
+## Evidence base & meta-analysis
+
+### Key claims and supporting sources
+
+1. **Claim**: Incubation periods precede creative insights.
+   - Sources: Kounios & Beeman (2009) *The Cognitive Neuroscience of Insight*; Dijksterhuis et al. (2006) *On the role of unconscious thought*; Schooler et al. (1993) *Thought suppression and insight*. (Placeholder: full citations with DOIs to be added.)
+   - Meta-analysis: None directly on historical figures; general meta-analysis on incubation effects (e.g., Sio & Ormerod, 2009) supports the phenomenon.
+
+2. **Claim**: Sudden insights (T-bursts) follow a period of unconscious processing.
+   - Sources: Bowden & Jung-Beeman (2003) *Aha! Insight experience correlates with solution activation*; Salvi et al. (2016) *The neural basis of insight*. (Placeholder citations.)
+
+3. **Claim**: Ze-theory provides a formal model for insight dynamics.
+   - Sources: Tkemaladze (2026) *Ze Theory as an Interpretive Framework* (DOI: TBD); Tkemaladze (2026) *Mathematical formalism of Ze* (DOI: TBD).
+   - Note: These are self-citations; independent validation is required.
+
+### Contradictory evidence
+- Some studies suggest insight is not qualitatively different from analytical problem-solving (Weisberg, 2006).
+- Alternative models (e.g., dual-process theory, default-mode network) offer competing explanations.
+- These will be discussed in the full manuscript.
+
+### State-of-the-art
+Current understanding of mathematical insight is fragmented across cognitive psychology, neuroscience, and history of science. No unified model exists that bridges formal theory (Ze) with historical case studies. This project aims to fill that gap.
+
+## Methodology depth
+
+### Replication-ready protocol (step-by-step)
+
+1. **Source selection**: Identify all primary texts by Poincaré containing self-reports of insight (Science et Méthode, letters, notebooks).
+2. **Episode extraction**: Two independent raters extract episodes with: (a) date/context, (b) description of conscious effort, (c) incubation interval, (d) insight description, (e) outcome.
+3. **Coding scheme**: Each episode coded for: incubation duration (days), insight clarity (1-5 Likert), domain (math/physics/philosophy), presence of T-burst (yes/no).
+4. **Statistical Analysis Plan (SAP)**:
+   - Primary endpoint: Proportion of T-bursts following incubation > 24h vs. ≤ 24h.
+   - Secondary endpoints: Correlation between incubation duration and insight clarity; v* estimate from episode sequence.
+   - Multiple comparisons: Bonferroni correction for 3 primary tests (α = 0.05/3 = 0.017).
+   - Missing data: If incubation duration is missing, exclude episode; sensitivity analysis with imputation (mean duration).
+5. **Controls**: Compare Poincaré's insight pattern to a matched sample of other scientists (e.g., Einstein, Darwin) from published biographies.
+6. **Replication strategy**: Split-sample (70% training, 30% validation); if N < 30, use leave-one-out cross-validation.
+7. **Blinding**: Raters blind to study hypotheses during coding.
+8. **Randomisation**: Not applicable (observational historical data).
+
+## Reproducibility & open science
+
+### Code and data
+- **Code repository**: GitHub (URL: TBD; to be made public upon acceptance).
+- **Data deposit**: All extracted episode data, coding sheets, and analysis scripts will be deposited in Zenodo (DOI: TBD) or OSF (osf.io/TBD).
+- **Pre-registration**: Full protocol registered on OSF (osf.io/TBD) prior to data extraction.
+- **Materials transparency**:
+  - Coding manual and inclusion/exclusion criteria available as PDF on OSF.
+  - Analysis environment: R version 4.x (placeholder) with packages: tidyverse, pwr, irr, psych.
+  - `requirements.txt` or `renv.lock` file provided in repository.
+- **Licence**: CC-BY 4.0 for all outputs.

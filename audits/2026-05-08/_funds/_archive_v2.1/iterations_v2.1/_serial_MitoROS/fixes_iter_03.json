@@ -1,0 +1,44 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "The following numeric thresholds are specified for falsification of the core model:\n- Composite damage measure D₃: threshold D₃ < 0.01 for null hypothesis of no age-related increase.\n- Slope of D₃ over time: slope > 0.05/year for positive damage accumulation.\n- Statistical significance: p < 0.01 for all primary tests.\n- Alpha level: α = 0.05.\n- Statistical power: 1 − β = 0.80.\n- Sample size: N = 15 per condition for pilot experiments (P0-1).\n- For experiments P2-1: N = TBD, test = TBD (to be specified in pre-registration).\n- Variance and effect size placeholders: σ² = TBD, δ = TBD (to be estimated from pilot data)."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Pre-registration plan",
+    "body": "The pre-registration for the core experiments (P0-1, P0-2, P1-1) will be deposited at OSF under the identifier `osf.io/TBD` no later than 2026-07-01. The pre-registration will include:\n- Primary hypotheses and operationalised thresholds (see §Falsifiability).\n- Detailed experimental protocols for each condition.\n- Planned sample sizes and power analyses.\n- Locked weights λ_het and λ_les (to be determined in pilot).\n- Statistical analysis plan (linear regression, ANOVA, t-tests as specified).\n- Contingency plans for non-linear alternatives."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Sample size calculation",
+    "body": "Sample sizes are calculated using the standard formula for two-sided tests:\n\\[ n = \\frac{(Z_{\\alpha/2} + Z_{\\beta})^2 \\cdot \\sigma^2}{\\delta^2} \\]\nwhere Z_{α/2} = 1.96 (for α = 0.05), Z_β = 0.84 (for power = 0.80), σ² = TBD (variance of D₃), and δ = TBD (minimum detectable effect size).\n- For P0-1 (linear regression, R² = 0.9): N = 15 per condition (45 total).\n- For P0-2 (two-way ANOVA, Cohen's f² = 0.35): N = 30 per tissue (90 total).\n- For P1-1 (two-sample t-test, Cohen's d = 0.8): N = 25 per group (50 total).\n- For P2-1: N = TBD, test = TBD (to be determined based on pilot data).\nPlaceholders σ² = TBD and δ = TBD will be replaced with empirical estimates from the pilot experiment (N=15) before final pre-registration."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| Risk ID | Risk Description | Probability | Impact | Mitigation Strategy |\n|---------|-----------------|-------------|--------|---------------------|\n| R1 | Measurement noise in D₃ exceeds acceptable limits | Medium | High | Use triplicate measurements; calibrate with synthetic mtDNA standards |\n| R2 | Non‑linearity of D₃ over time (violates linear model) | Medium | High | Pre-register alternative non-linear model; test both in pilot |\n| R3 | Tissue heterogeneity masks true damage signal | High | Medium | Single-cell mtDNA sequencing in subset (N=5 per tissue) |\n| R4 | Weight misspecification (λ_het, λ_les) biases composite measure | Medium | Medium | Lock weights after pilot; sensitivity analysis with bootstrapped CIs |\n| R5 | Causal direction ambiguous (aging → damage vs. damage → aging) | High | High | Longitudinal study with time-lagged analysis; Mendelian randomisation in future |\n| R6 | Species generalizability fails (mouse → human) | Medium | Medium | Validate in human tissue biopsies (N=10 per tissue) in follow-up |"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "1. **Tissue heterogeneity:** The model assumes uniform damage accumulation within each tissue type, ignoring cellular subpopulations (e.g., stem cells vs. differentiated cells). Mitigation: Single-cell mtDNA sequencing in a subset of samples (N=5 per tissue) to assess intra-tissue variance.\n2. **Hypothetical τ₃ parameter:** The time-dependent damage rate τ₃ (0.1–0.3/year) is estimated from cross-sectional data; longitudinal validation is required. Mitigation: Planned longitudinal study in mice (P2-1) with measurements at 3 time points.\n3. **Uncalibrated weights λ_het, λ_les:** These weights are set heuristically and will be locked after pilot experiment. Mitigation: Sensitivity analysis with bootstrapped confidence intervals.\n4. **Causal direction not established:** D₃ → aging correlation does not prove causation; reverse causality (aging → mtDNA damage) is possible. Mitigation: Time-lagged analysis in longitudinal data; future Mendelian randomisation studies.\n5. **Overfitting risk:** The model includes multiple parameters (α₃, β₃, τ₃, γ₃, λ_het, λ_les, w₃) that could overfit to training data. Mitigation: Out-of-sample validation on independent datasets; pre-registration of all parameters.\n6. **Species generalizability:** Parameters estimated from mouse data may not transfer to humans. Mitigation: Validation in human tissue biopsies (N=10 per tissue) in follow-up studies."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "The following partners are involved in the MitoROS project (formal agreements pending):\n- **Lab A** (mtDNA sequencing expertise): Responsible for heteroplasmy quantification and clonal expansion analysis.\n- **Lab B** (ROS measurement): Responsible for in vivo ROS detection using MitoSOX and Amplex Red assays.\n- **Lab C** (Bioinformatics): Responsible for data analysis, model fitting, and power calculations.\n- **Lab D** (Animal models): Responsible for mouse colony maintenance, tissue collection, and longitudinal studies.\n- **Clinical collaborator** (Human biopsies): Responsible for providing human tissue samples (muscle, skin, kidney) from age-stratified cohorts.\n- **Funding agency:** TBD (grant application in preparation)."
+  },
+  {
+    "file": "OPEN_PROBLEMS.md",
+    "action": "replace_text",
+    "find": "**Power analysis for P2-1:",
+    "replace": "**Power analysis for P2-1:**\n- α = 0.05, power = 0.80\n- Effect size: TBD (to be estimated from P0-1 pilot data)\n- Required N: TBD\n- Test: TBD (to be specified in pre-registration)\n- Note: This experiment is contingent on successful validation of P0-1 and P0-2."
+  }
+]

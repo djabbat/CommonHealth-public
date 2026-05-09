@@ -1,0 +1,32 @@
+[
+  {
+    "file": "EpigeneticDrift/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Pre-registration plan",
+    "body": "This study will be pre-registered on the Open Science Framework (OSF) prior to data collection. The placeholder identifier is osf.io/TBD (planned registration date: 2026-09-01). All primary analyses and sample size calculations will be frozen at registration."
+  },
+  {
+    "file": "EpigeneticDrift/PARAMETERS.md",
+    "action": "append_section",
+    "heading": "## Sample size calculation",
+    "body": "Sample size justification: For the proposed ABL-2 modulation experiment (OPEN_PROBLEMS §1), we assume a minimum effect size of ΔD₄ = 0.2 (based on pilot data from Horvath clock in HSCs), α = 0.05, power = 0.80. A two-tailed independent t-test requires N = 64 per group (32 controls + 32 treated) to detect this effect. For the co-modulation test (γ₄₃ estimation), a linear regression with 5 predictors and effect size f² = 0.15 yields a required N = 92 (calculated using G*Power 3.1). These calculations will be made publicly available along with the pre-registration."
+  },
+  {
+    "file": "EpigeneticDrift/CONCEPT.md",
+    "action": "insert_after_line",
+    "line_anchor": "## 6. Falsifiability",
+    "body": "\n### Numeric thresholds\n\nMCOA Test 1 (Tissue-Specific Dominance):\n- Falsification Condition 1: If 95% CI for β₄ includes zero (p > 0.05) in a tissue where time-dependent drift is expected, the counter fails.\n- Falsification Condition 2: If α₄ is not significantly greater than zero (one-tailed, p < 0.05, effect size d ≥ 0.3) in highly proliferative tissue, the kinetic model is invalid.\n\nMCOA Test 2 (Coupling Independence) – отозвано, но для γ₄ⱼ:\n- Condition: If the regression coefficient for γ₄₃ in a perturbation experiment (mitoROS → D₄) yields p > 0.05 with 80% power to detect a medium effect (f² = 0.15), the coupling hypothesis is falsified.\n\nThresholds for OPEN_PROBLEMS tests: Each test outcome (A-D) must be associated with a quantitative decision rule, e.g., |r| > 0.3, p < 0.01 for correlation analyses; for factor analysis, a single factor explaining >50% variance is required to support unity of D₄."
+  },
+  {
+    "file": "EpigeneticDrift/CONCEPT.md",
+    "action": "insert_after_line",
+    "line_anchor": "## Limitations",
+    "body": "\n1. **Correlation vs. causation:** The majority of evidence for epigenetic clocks comes from correlative studies. Whether specific CpG sites are causal drivers of functional decline remains unproven.\n2. **Model linearity:** The current equation assumes linear additive contributions of time, replication, and coupling. Non-linear or threshold effects (e.g., autocatalytic feedback) are not captured.\n3. **Coupling parameters:** All γ₄ⱼ are either zero or derived from indirect bootstrapping. Direct experimental quantification is lacking, making the coupling term speculative.\n4. **Tissue specificity of weights:** The proposed w₄(tissue) values are hypothetical and not calibrated on functional decline data.\n5. **Scope:** The model applies only to stable cell populations over chronological scales of months to decades, not to transient differentiation or acute stress responses.\n6. **ABL-2 confound:** As discussed in OPEN_PROBLEMS, the existence of a deeper stability layer (ABL-2) may render Epigenetic Drift a downstream readout rather than an independent driver."
+  },
+  {
+    "file": "EpigeneticDrift/CONCEPT.md",
+    "action": "insert_after_line",
+    "line_anchor": "**Authors:",
+    "body": "\n\n## Consortium / partners\n\nThis project will be executed by a consortium of three groups:\n- [Primary PI], [Institution], responsible for theoretical model development and simulation.\n- [Potential collaborator 1, e.g., Prof. S. Horvath, UCLA] – for access to DNA methylation clock validation in human cohorts.\n- [Potential collaborator 2, e.g., Dr. A. Brunet, Stanford] – for stem cell aging experiments and CRISPR-barcoding lineage tracing.\n\nLetters of intent will be obtained prior to funding. The consortium will meet bi-monthly to coordinate the experimental tests outlined in OPEN_PROBLEMS."
+  }
+]

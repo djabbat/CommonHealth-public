@@ -1,0 +1,32 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "All proposed tests include numeric decision thresholds:\n- **ABL-2 modulation (Test 1):** |ΔD₄| > 0.15, p < 0.01, power ≥ 0.80 for confirmation; |ΔD₄| ≤ 0.15, p ≥ 0.05 for weakening; coefficient of variation > 0.5 for complex linkage.\n- **Time vs. division separation (Test 2):** Cohen's d ≥ 0.3 for time-driven effect; f² = 0.15 for replication-driven effect.\n- **Coupling with other counters (Test 3):** |r| > 0.3, p < 0.01 for significant coupling; |r| ≤ 0.1 for independence.\n- **Intervention response (Test 4):** Power ≥ 0.80 at α = 0.05 for detecting ΔD₄ ≥ 0.2.\nAll thresholds are pre-specified and will be registered prior to analysis."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Sample size calculation",
+    "body": "Sample sizes are calculated using standard power analysis (G*Power 3.1):\n- **Two-group comparison (t-test):** N = 64 per group (Δ = 0.2, α = 0.05, power = 0.80).\n- **Multiple regression (f² = 0.15):** N = 92 (α = 0.05, power = 0.80, 5 predictors).\n- **General formula:** n = (Z_{α/2} + Z_{β})² · σ² / δ², where Z_{α/2} = 1.96, Z_{β} = 0.84, σ² = pooled variance (placeholder), δ = minimum detectable effect (placeholder).\nExact parameters will be updated upon final study design and pre-registration."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| Risk | Probability | Impact | Mitigation |\n|------|-------------|--------|------------|\n| ABL-2 confound (drift is secondary) | High | High | Pre-register both primary and secondary analyses; include ABL-2 markers as covariates |\n| β/α separation failure (in vivo) | Medium | High | Use ex vivo culture with controlled CPD; validate with single-cell lineage tracing |\n| Universal D₄ not measurable | Medium | Medium | Define D₄ as composite of 3+ independent clocks; report each separately |\n| Coupling measurability (γ₄) | Medium | Medium | Use longitudinal data with ≥3 time points; apply Granger causality |\n| Tissue specificity invalidates global model | High | Medium | Validate in ≥3 tissues (blood, skin, muscle); report tissue-specific parameters |"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "This project will be executed by a consortium of three groups:\n- **[Primary PI], [Institution]** – responsible for theoretical model development and simulation.\n- **[Potential collaborator 1, e.g., Prof. S. Horvath, UCLA]** – for access to DNA methylation clock validation in human cohorts.\n- **[Potential collaborator 2, e.g., Dr. A. Brunet, Stanford]** – for stem cell aging experiments and CRISPR-barcoding lineage tracing.\n\nLetters of intent will be obtained prior to funding. The consortium will meet bi-monthly to coordinate the experimental tests outlined in OPEN_PROBLEMS."
+  },
+  {
+    "file": "OPEN_PROBLEMS.md",
+    "action": "replace_text",
+    "find": "OSF ID pending",
+    "replace": "OSF ID: osf.io/TBD (placeholder, to be updated upon pre-registration)"
+  }
+]

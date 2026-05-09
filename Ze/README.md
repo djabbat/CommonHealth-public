@@ -13,12 +13,12 @@
 | Symbol | Meaning | Direction |
 |--------|---------|-----------|
 | **T** (Tension) | Event exceeds prediction / threshold | ↑ increase |
-| **S** (Stretch)  | Event falls below prediction / threshold | ↓ decrease |
+| **S** (Stretch) | Event falls below prediction / threshold | ↓ decrease |
 
 A **Ze System** is any process that counts T and S events and computes the **Ze velocity**:
 
 ```
-v = (N_T - N_S) / (N_T + N_S)    ∈ [-1, +1]
+v = (N_T - N_S) / (N_T + N_S) ∈ [-1, +1]
 ```
 
 The **critical point** `v* = 1 − ln 2 ≈ 0.3069` (exact, derived via entropy maximisation) is where the system is maximally complex and informationally stable — the "healthy equilibrium" of any Ze system. The value `0.456` used in earlier papers is an empirical approximation for the active-observer regime; the exact theoretical value is 0.3069.
@@ -38,7 +38,7 @@ The **critical point** `v* = 1 − ln 2 ≈ 0.3069` (exact, derived via entropy 
 The fundamental symmetry of Ze:
 
 ```
-S = −T    (antiparallelism)
+S = −T (antiparallelism)
 ```
 
 Every T-event implies a corresponding S-event. The Ze stream is **not random** — it conserves the total state vector. This is the Ze analogue of energy conservation.
@@ -51,8 +51,8 @@ Every T-event implies a corresponding S-event. The Ze stream is **not random** �
 Given a sequence of measurements `x₁, x₂, ..., xₙ`:
 
 ```
-zᵢ = T  if xᵢ > xᵢ₋₁
-zᵢ = S  if xᵢ ≤ xᵢ₋₁
+zᵢ = T if xᵢ > xᵢ₋₁
+zᵢ = S if xᵢ ≤ xᵢ₋₁
 ```
 
 The Ze stream `Z = {z₁, z₂, ..., zₙ₋₁}` encodes the **dynamics**, not the values.
@@ -68,7 +68,7 @@ At equilibrium: `v → v* = 1 - ln 2 ≈ 0.3069` (exact derivation via entropy m
 Analogous to electrical impedance, Ze impedance `ζ` measures resistance to state change:
 
 ```
-ζ = τ / v    [dimensionless]
+ζ = τ / v [dimensionless]
 ```
 
 High ζ: system resists perturbation (stable, ordered).
@@ -109,10 +109,10 @@ where `τ_Ze` is the Ze time parameter derived from the counting process. Time d
 RR-intervals from ECG/wearable → Ze stream:
 ```python
 ze_stream = ['T' if rr > prev else 'S' for rr, prev in zip(rrs[1:], rrs)]
-v  = (T_count - S_count) / len(ze_stream)   # Ze velocity
-τ  = H(ze_stream) / log2(len(ze_stream))     # Ze complexity
-Z  = T_count / len(ze_stream)                # Ze index
-χ  = (max_rr - min_rr) / mean_rr            # Ze variability
+v = (T_count - S_count) / len(ze_stream) # Ze velocity
+τ = H(ze_stream) / log2(len(ze_stream)) # Ze complexity
+Z = T_count / len(ze_stream) # Ze index
+χ = (max_rr - min_rr) / mean_rr # Ze variability
 ```
 
 | Ze State | v range | Clinical interpretation |
@@ -204,9 +204,9 @@ Full index: `Materials/INDEX.md`
 
 ```
 Ze/Poincare/
-├── Articles/              10 research articles (Ze-theory, arXiv-ready)
-├── Sources/               Poincaré primary texts and translations
-└── scripts/               Analysis scripts
+├── Articles/ 10 research articles (Ze-theory, arXiv-ready)
+├── Sources/ Poincaré primary texts and translations
+└── scripts/ Analysis scripts
 ```
 
 **arXiv status:** 6 of 10 articles ready for submission.
@@ -218,20 +218,20 @@ Ze/Poincare/
 
 ```
 Ze/
-├── README.md              ← this file
-├── TODO.md                ← roadmap and open tasks
+├── README.md ← this file
+├── TODO.md ← roadmap and open tasks
 ├── Materials/
-│   ├── INDEX.md           ← index of all 42 papers
-│   └── YYYYMMDD_Title/    ← each paper in its own folder (.docx)
-├── Poincare/              ← Poincaré subproject (Ze interpretation of Poincaré's intuition)
-│   ├── Articles/          ← 10 articles
-│   ├── Sources/
-│   └── scripts/
+│ ├── INDEX.md ← index of all 42 papers
+│ └── YYYYMMDD_Title/ ← each paper in its own folder (.docx)
+├── Poincare/ ← Poincaré subproject (Ze interpretation of Poincaré's intuition)
+│ ├── Articles/ ← 10 articles
+│ ├── Sources/
+│ └── scripts/
 └── website/
-    ├── index.html         ← Digital Twin (standalone, no server needed)
-    ├── css/
-    ├── js/
-    └── modules/           ← 18 interactive JS modules
+ ├── index.html ← Digital Twin (standalone, no server needed)
+ ├── css/
+ ├── js/
+ └── modules/ ← 18 interactive JS modules
 ```
 
 ---

@@ -32,9 +32,9 @@
 
 | Paper | DOI |
 |-------|-----|
-| Ze Theory as an Interpretive Framework for Quantum Mechanics | https://doi.org/10.65649/a874t352 |
-| Mathematical Formalism of Ze | https://doi.org/10.65649/kzj86888 |
-| Emergence of the Minkowski Metric from Ze Dynamics | https://doi.org/10.65649/hqm2c554 |
+| Ze Theory as an Interpretive Framework for Quantum Mechanics | |
+| Mathematical Formalism of Ze | |
+| Emergence of the Minkowski Metric from Ze Dynamics | |
 
 ---
 

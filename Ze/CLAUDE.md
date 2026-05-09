@@ -11,9 +11,9 @@
 **Role:** Ze — теоретическая основа измерений. Определяет ЧТО измерять (χ_Ze). BioSense реализует физическое измерение. LongevityCommon (social layer, planned) использует результат в Ze·Profile (компонент "организм" в 4-факторной модели здоровья).
 
 **Ключевые публикации:**
-- Ze Theory as Interpretive Framework. DOI: 10.65649/a874t352
-- Observation as Continuous Resource Expenditure. DOI: 10.65649/nhjtra67
-- Mathematical formalism of Ze. DOI: 10.65649/kzj86888
+- Ze Theory as Interpretive Framework. 
+- Observation as Continuous Resource Expenditure. 
+- Mathematical formalism of Ze. 
 
 ---
 

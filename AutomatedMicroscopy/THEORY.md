@@ -24,13 +24,13 @@ Formalization of experimenter-AI interaction:
 
 ```
 PROMPT: natural-language description of experiment goals
-       ↓ parsed by Claude Code
+ ↓ parsed by Claude Code
 CRITERIA: concrete thresholds, metrics, conditions
-       ↓ continuous monitoring every 30 min
+ ↓ continuous monitoring every 30 min
 OBSERVATIONS: image data, environmental sensors
-       ↓ comparison to CRITERIA
+ ↓ comparison to CRITERIA
 SIGNAL: INFO / WARN / CRIT → human
-     OR continue_schedule autonomously
+ OR continue_schedule autonomously
 ```
 
 Bayesian decision-theoretic framing:

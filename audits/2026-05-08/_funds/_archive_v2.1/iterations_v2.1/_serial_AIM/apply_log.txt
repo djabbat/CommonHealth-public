@@ -1,0 +1,344 @@
+
+## iter 2
+APPENDED: CONCEPT.md :: ## Pre-registration plan
+APPENDED: CONCEPT.md :: ## Risk matrix
+APPENDED: CONCEPT.md :: ## Consortium / partners
+APPENDED: THEORY.md :: ## Sample size calculation
+APPENDED: THEORY.md :: ## Limitations
+INSERTED: THEORY.md after `## 3.4`
+
+## iter 3
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+APPENDED: CONCEPT.md :: ## Limitations
+REPLACED: CONCEPT.md :: https://osf.io/TBD
+
+## iter 4
+APPENDED: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+APPENDED: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+REPLACED: CONCEPT.md :: KIMI (Moonshot) и Qwen (DashScope) ранее
+REPLACED: CONCEPT.md :: | ar | العربية | Qwen | ООН |
+| zh | 中文 
+
+## iter 5
+APPENDED: CONCEPT.md :: ## References
+INSERTED: CONCEPT.md after `## Pre-registration plan`
+INSERTED: CONCEPT.md after `## Sample size calculation`
+INSERTED: CONCEPT.md after `## Limitations`
+
+## iter 6
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+REPLACED: CONCEPT.md :: osf.io/TBD
+REPLACED: CONCEPT.md :: Tao et al., Nat Med 2026
+REPLACED: CONCEPT.md :: Blumenthal-Lee — automation bias mitigat
+REPLACED: CONCEPT.md :: Tkemaladze J. (2026) "Patient as a Proje
+
+## iter 7
+INSERTED: CONCEPT.md after `## 0. Cornerstone (2026-05-07)`
+INSERTED: CONCEPT.md after `## Falsifiability`
+INSERTED: CONCEPT.md after `## Pre-registration plan`
+INSERTED: CONCEPT.md after `## Risk matrix`
+INSERTED: CONCEPT.md after `## Limitations`
+REPLACED: CONCEPT.md :: Blumenthal-Lee (2024) *JAMA* [PMID/DOI T
+
+## iter 1
+REPLACED: CONCEPT.md :: [TBD — cite pilot data or published PAM-
+REPLACED: CONCEPT.md :: - **OSF ID:** `osf.io/TBD` (placeholder 
+SKIP exists: THEORY.md :: ## Limitations
+
+## iter 2
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+REPLACED: CONCEPT.md :: Hibbard 2004 (PMID 15527447)
+
+## iter 3
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+
+## iter 1
+SKIP exists: CONCEPT.md :: ## Limitations
+REPLACED: CONCEPT.md :: ## Falsifiability
+
+
+## Pre-registration 
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+SKIP anchor-missing: THEORY.md
+INSERTED: PARAMETERS.md after `is_critical`
+
+## iter 2
+REPLACED: CONCEPT.md :: ## Falsifiability
+
+- **Primary endpoint:
+REPLACED: CONCEPT.md :: ## Pre-registration plan
+
+- **OSF ID:** 
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+
+## iter 3
+REPLACED: CONCEPT.md :: - **Significance level:** α = 0.025 (Bon
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+REPLACED: CONCEPT.md :: ## Risk matrix
+
+## iter 4
+REPLACED: CONCEPT.md :: - **Significance level:** α = 0.05 (two-
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+
+## iter 5
+SKIP anchor-missing: THEORY.md
+REPLACED: README.md :: KIMI
+INSERTED: THEORY.md after `## 6. RCT-сценарий end-to-end`
+
+## iter 6
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+REPLACED: CONCEPT.md :: - **OSF ID:** `osf.io/TBD` (real ID to b
+
+## iter 1
+REPLACED: CONCEPT.md :: - **Note:** The earlier reference to p<0
+REPLACED: CONCEPT.md :: - **Justification for σ = 10:** σ = 10 i
+SKIP exists: CONCEPT.md :: ## Limitations
+REPLACED: CONCEPT.md :: ## Risk matrix
+
+## iter 1
+REPLACED: CONCEPT.md :: ## Falsifiability
+
+- **Primary endpoint:
+REPLACED: CONCEPT.md :: ## Pre-registration plan
+
+- **OSF ID:** 
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+
+## iter 2
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+
+## iter 3
+REPLACED: CONCEPT.md :: - **Significance level:** α = 0.05 (two-
+REPLACED: CONCEPT.md :: - **OSF ID:** `osf.io/TBD` (to be reserv
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+SKIP exists: CONCEPT.md :: ## Risk matrix
+REPLACED: README.md :: KIMI_API_KEY
+REPLACED: README.md :: QWEN_API_KEY
+
+## iter 4
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+SKIP exists: CONCEPT.md :: ## Risk matrix
+
+## iter 5
+REPLACED: CONCEPT.md :: - **Significance level:** α = 0.05 (two-
+REPLACED: CONCEPT.md :: - **OSF ID:** `osf.io/TBD` (single place
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+SKIP exists: CONCEPT.md :: ## Risk matrix
+
+## iter 1
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+REPLACED: CONCEPT.md :: All other OSF placeholders (e.g., osf.io
+
+## iter 2
+REPLACED: CONCEPT.md :: ## Falsifiability
+
+- **Primary endpoint:
+INSERTED: THEORY.md after `## Sample size calculation`
+REPLACED: CONCEPT.md :: ## Risk matrix
+REPLACED: CONCEPT.md :: ## Limitations
+REPLACED: THEORY.md :: ## Limitations
+
+## iter 3
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+SKIP exists: CONCEPT.md :: ## Risk matrix
+
+## iter 4
+REPLACED: CONCEPT.md :: - **Significance level:** α = 0.05 (two-
+REPLACED: CONCEPT.md :: - **Justification for σ = 10:** σ = 10 i
+REPLACED: CONCEPT.md :: - **OSF ID:** `osf.io/TBD` (single place
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+
+## iter 6
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+
+## iter 7
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+SKIP exists: CONCEPT.md :: ## Risk matrix
+REPLACED: CONCEPT.md :: - **Justification for σ = 10:** σ
+
+## iter 8
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+
+## iter 9
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+SKIP exists: CONCEPT.md :: ## Risk matrix
+
+## iter 10
+REPLACED: CONCEPT.md :: - **Primary endpoint:** PAM-13 Δ ≥ 5.4 p
+REPLACED: CONCEPT.md :: ## Pre-registration plan
+
+- **OSF ID:** 
+REPLACED: CONCEPT.md :: ## Sample size calculation
+
+- **Formula:
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+
+## iter 11
+REPLACED: CONCEPT.md :: - **Justification for σ = 10:** Based on
+
+## iter 12
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+
+## iter 13
+REPLACED: CONCEPT.md :: - **OSF ID:** `osf.io/TBD` (single place
+REPLACED: CONCEPT.md :: - **Note on reference integrity:** The P
+REPLACED: CONCEPT.md :: - **Significance level:** α = 0.05 (two-
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+SKIP exists: CONCEPT.md :: ## Risk matrix
+REPLACED: README.md :: Qwen
+APPENDED: README.md :: ## Provider status
+
+## iter 14
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+
+## iter 15
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+
+## iter 16
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+
+## iter 17
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+
+## iter 18
+INSERTED: CONCEPT.md after `## Falsifiability`
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+
+## iter 19
+REPLACED: CONCEPT.md :: ## Pre-registration plan
+
+- **OSF ID:** 
+REPLACED: CONCEPT.md :: ## Sample size calculation
+
+- **Formula:
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+SKIP exists: CONCEPT.md :: ## Risk matrix
+
+## iter 20
+REPLACED: CONCEPT.md :: - **σ (pooled SD):** TBD (placeholder; b
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+REPLACED: CONCEPT.md :: - **Primary endpoint:** PAM-13 Δ ≥ 5.4 p
+INSERTED: CONCEPT.md after `## Pre-registration plan`
+
+## iter 21
+REPLACED: CONCEPT.md :: - **OSF ID:** `osf.io/TBD` (placeholder;
+
+## iter 22
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+
+## iter 23
+REPLACED: CONCEPT.md :: - **Sample size:** N ≥ 55 per group (see
+REPLACED: CONCEPT.md :: - **Pre-registration date:** 2026-09-01 
+REPLACED: CONCEPT.md :: - **Consistency note:** The set of secon
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+
+## iter 24
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+
+## iter 25
+REPLACED: CONCEPT.md :: ## Pre-registration plan
+
+
+- **OSF ID:**
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+
+## iter 26
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners

@@ -1,0 +1,38 @@
+[
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "The following numeric thresholds are defined for the primary hypotheses:\n- **M1 (Feasibility):** AI–human decision concordance > 0.80 (Cohen’s κ). H₀: κ ≤ 0.80; H₁: κ > 0.80. α = 0.05, one-tailed.\n- **Uptime reliability:** System uptime > 0.90 over any 30-day window. H₀: uptime ≤ 0.90; H₁: uptime > 0.90.\n- **Contamination rate:** < 3% of wells contaminated per 21-day experiment. Required N = TBD (placeholder).\n- **Cost:** Total BOM ≤ $4,500.\n- **Statistical test for concordance:** One-sample z-test against H₀ threshold. p < 0.001 required for strong falsification.\n- **Contamination test:** Binomial test against H₀: contamination rate ≥ 0.03. N = TBD (placeholder)."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Pre-registration plan",
+    "body": "The primary analysis plan will be pre-registered on the Open Science Framework (OSF) prior to data collection. The placeholder ID is `osf.io/TBD`. The planned pre-registration date is 2026-12-01. The pre-registration will include: (1) primary endpoint definition (AI–human concordance), (2) statistical test (one-sample z-test), (3) sample size justification, (4) stopping rules, and (5) exclusion criteria."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Sample size calculation",
+    "body": "Sample size for the primary validation endpoint (AI vs. human decision agreement) is calculated using the following formula:\n\nn = (Z_α/2 + Z_β)² · σ² / δ²\n\nWhere:\n- Z_α/2 = 1.96 (α = 0.05, two-tailed)\n- Z_β = 0.84 (β = 0.20, 80% power)\n- σ² = TBD (estimated variance from pilot data or literature)\n- δ = TBD (minimum clinically meaningful difference in agreement rate)\n\n**Placeholder values:** n = TBD (to be updated after pilot study, N ≥ 3 independent experiments)."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| Risk | Probability | Impact | Mitigation |\n|------|-------------|--------|------------|\n| AI decision quality below threshold | Medium | High | Continuous validation against human expert; fallback to human-only operation |\n| Environmental chamber failure (temp/CO₂ drift) | Low | High | Dual sensor monitoring; UPS backup; automated alert to human operator |\n| Sample contamination >3% | Medium | Medium | Sterile technique protocol; daily visual inspection; HEPA filter in chamber |\n| Hardware component failure (stage, camera, LED) | Low | Medium | Spare parts inventory; modular design for quick replacement |\n| Network/connectivity loss during overnight operation | Medium | Low | Local NAS buffer; auto-resume on reconnect; journaled operation |\n| Software bug in AI decision loop | Low | High | Unit tests; simulation-based validation; human-in-the-loop for critical decisions |"
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "1. **Sample stability:** Protocol assumes ≥3 weeks stability; degradation beyond this window not validated.\n2. **Imaging frequency:** ≤2/hour; faster dynamics (e.g., mitotic events) may be missed.\n3. **Environmental control:** ±0.5°C, ±0.5% CO₂ tolerance; not validated for tighter tolerances.\n4. **No physical manipulation:** Media changes and sample handling are human-performed; potential for inconsistency.\n5. **Single microscope platform:** Results may not generalize to other microscope models or configurations.\n6. **AI model specificity:** The Claude Code agent is trained on general microscopy tasks; performance on novel cell lines or stains is unvalidated.\n7. **Cost estimate:** $4,500 BOM is based on 2025 pricing; component cost fluctuations may affect reproducibility.\n8. **Sample size placeholder:** The sample size calculation contains TBD values pending pilot data; the final analysis may be underpowered if variance is larger than assumed."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "| Partner | Role | Status |\n|---------|------|--------|\n| TBD (academic lab) | Biological validation (cell culture, staining) | To be confirmed |\n| TBD (engineering group) | Hardware assembly and testing | To be confirmed |\n| TBD (AI/ML group) | Prompt engineering and validation | To be confirmed |\n| TBD (clinical partner) | Translation to clinical workflow | To be confirmed |\n| TBD (open-source community) | Documentation and reproducibility | To be confirmed |"
+  }
+]

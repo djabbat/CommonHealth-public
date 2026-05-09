@@ -13,7 +13,7 @@ host org — Georgia Longevity Alliance NGO, рег. №404506520
 - `/home/oem/Desktop/LongevityCommon/CONCEPT.md` (v5.1)
 - CONCEPT/EVIDENCE/THEORY/PARAMETERS/STATE.md всех 7 подпроектов
 - Wave 1 reviews: `_audits/PEER_REVIEW_v2_TopMCOAZe_2026-04-26.md`,
-  `_audits/PEER_REVIEW_v2_Empirical_2026-04-26.md`
+ `_audits/PEER_REVIEW_v2_Empirical_2026-04-26.md`
 - Wave 1 corrections log: `_audits/COMMIT_LOG_FINAL_2026-04-26.md`
 
 **Методика:** Wave 1 уже выявил citation fabrications (MCOA 9/9, Ze 1, BioSense 4,
@@ -147,27 +147,27 @@ capacity-building, sequencing strategy.
 Минус: fabrications сделали невозможным использование этой работы для grant-writing до полного independent replication.
 
 ## FCLC
-1. **Federated Shapley** (теоретически) — если бы был реализован, это innovation в explainable FL. Однако текущий код недоделан, и реализация нереализуема (по замечаниям Wave 1).  
-2. **Выбор Rust для simulator** — производительность важна для FL на edge. Может быть сильным аргументом для EIC (софтверная инженерия).  
+1. **Federated Shapley** (теоретически) — если бы был реализован, это innovation в explainable FL. Однако текущий код недоделан, и реализация нереализуема (по замечаниям Wave 1). 
+2. **Выбор Rust для simulator** — производительность важна для FL на edge. Может быть сильным аргументом для EIC (софтверная инженерия). 
 3. **Потенциальное применение в LMIC (Gates)** — federated learning для диагностики в условиях ограниченной инфраструктуры — актуально. Но требуется партнёр на местах.
 
 ## Ze
-1. **Междисциплинарность** — попытка объединить физику и биологию. Это может быть интересно Schmidt Futures, но только если есть проверяемые predictions.  
-2. **Симулятор на Rust** — работает, даёт численные решения.  
+1. **Междисциплинарность** — попытка объединить физику и биологию. Это может быть интересно Schmidt Futures, но только если есть проверяемые predictions. 
+2. **Симулятор на Rust** — работает, даёт численные решения. 
 3. **χ_Ze counter as conceptual device** — оригинальная идея для обсуждения.
 
 Но все перечёркивается: Tsirelson violation без justification, null EEG/HRV, плагиат FEP.
 
 ## CDATA
-1. **In silico модель деления HSC** — позволяет генерировать синтетические данные для первичного тестирования гипотез. Для Impetus это может быть быстрым треком.  
-2. **Связь с общепризнанными биомаркерами (epigenetic clock)** — попытка учесть epigenetic drift.  
+1. **In silico модель деления HSC** — позволяет генерировать синтетические данные для первичного тестирования гипотез. Для Impetus это может быть быстрым треком. 
+2. **Связь с общепризнанными биомаркерами (epigenetic clock)** — попытка учесть epigenetic drift. 
 3. **Open simulator на Rust** (частично) — воспроизводимость.
 
 Слабость: Sobol-парадокс убивает причинность centriolar damage.
 
 ## BioSense
-1. **Pre-registration 3 протоколов** — образцовая практика open science. Это единственный подпроект с pre-reg.  
-2. **Низкая себестоимость** — потенциальный дешёвый сенсор для LMIC (Gates).  
+1. **Pre-registration 3 протоколов** — образцовая практика open science. Это единственный подпроект с pre-reg. 
+2. **Низкая себестоимость** — потенциальный дешёвый сенсор для LMIC (Gates). 
 3. **Попытка ЭЭГ+HRV+olfaction** — комплексный подход.
 
 Но null результаты и I²=90.3% делают его бесполезным для дальнейшего финансирования без полного пересмотра протокола.
@@ -181,60 +181,60 @@ capacity-building, sequencing strategy.
 # §3. Критические fund-specific gaps
 
 ## CommonHealth
-1. **Отсутствие signed LoIs от EU MS partners** — для EIC это fatal.  
-2. **PI не аффилирован с tier-1 university** — для всех фондов (кроме Impetus) это снижает доверие и ability to manage large grants.  
-3. **Нет US PI co-applicant** — блокирует Wellcome, ARPA-H, NIH R01.  
-4. **Нет patent или trademark strategy** — IP риски для всех фондов, требующих exploitation plan.  
-5. **Нет formal consortium agreement** — для Wellcome Leap и ARPA-H обязательны.  
+1. **Отсутствие signed LoIs от EU MS partners** — для EIC это fatal. 
+2. **PI не аффилирован с tier-1 university** — для всех фондов (кроме Impetus) это снижает доверие и ability to manage large grants. 
+3. **Нет US PI co-applicant** — блокирует Wellcome, ARPA-H, NIH R01. 
+4. **Нет patent или trademark strategy** — IP риски для всех фондов, требующих exploitation plan. 
+5. **Нет formal consortium agreement** — для Wellcome Leap и ARPA-H обязательны. 
 6. **Risk register fabrications** — любой фонд запросит due diligence; факт массовых fabrications в Wave 1 должен быть раскрыт, что уничтожит заявку.
 
 ## MCOA
-1. **9/9 PMID fabricated** — после исправлений остаются вопросы к integrity.  
-2. **w_i = Placeholder** — теория нефальсифицируема.  
-3. **Нет pre-registered predictions**.  
-4. **Отсутствие связей с клиническими партнёрами для валидации**.  
-5. **Противоречие M3** — теоретическая несостоятельность (см. Wave 1).  
+1. **9/9 PMID fabricated** — после исправлений остаются вопросы к integrity. 
+2. **w_i = Placeholder** — теория нефальсифицируема. 
+3. **Нет pre-registered predictions**. 
+4. **Отсутствие связей с клиническими партнёрами для валидации**. 
+5. **Противоречие M3** — теоретическая несостоятельность (см. Wave 1). 
 
 ## FCLC
-1. **ε=10 против ISO ε<1** — дифференциальная приватность недостаточна для health data.  
-2. **PATE — stub** — нереализован ключевой компонент.  
-3. **Federated Shapley нереализуем** — требует знаний feature attributions, которые не могут быть получены в FL.  
-4. **Нет signed LoIs от EU partners** (кроме cold-contact DFKI).  
-5. **Нет публичного ядра (core)** — код fclc-core не на GitHub.  
-6. **Нет validation dataset** — только синтетические данные.  
-7. **Отсутствие US/UK co-PI для Wellcome**.  
+1. **ε=10 против ISO ε<1** — дифференциальная приватность недостаточна для health data. 
+2. **PATE — stub** — нереализован ключевой компонент. 
+3. **Federated Shapley нереализуем** — требует знаний feature attributions, которые не могут быть получены в FL. 
+4. **Нет signed LoIs от EU partners** (кроме cold-contact DFKI). 
+5. **Нет публичного ядра (core)** — код fclc-core не на GitHub. 
+6. **Нет validation dataset** — только синтетические данные. 
+7. **Отсутствие US/UK co-PI для Wellcome**. 
 
 ## Ze
-1. **Нарушение Tsirelson bound без обоснования** — фундаментальная ошибка.  
-2. **χ_Ze pre-reg null**.  
-3. **Z1 — переоформленный FEP Friston** — отсутствие originality.  
-4. **Нет приложений к здоровью** — все фонды, кроме Schmidt, ориентированы на medicine/health.  
-5. **Нефизичность энтропийно-геометрической теории** — для финансирования фундаментальной физики нужен endorsement от признанных физиков (нет).  
+1. **Нарушение Tsirelson bound без обоснования** — фундаментальная ошибка. 
+2. **χ_Ze pre-reg null**. 
+3. **Z1 — переоформленный FEP Friston** — отсутствие originality. 
+4. **Нет приложений к здоровью** — все фонды, кроме Schmidt, ориентированы на medicine/health. 
+5. **Нефизичность энтропийно-геометрической теории** — для финансирования фундаментальной физики нужен endorsement от признанных физиков (нет). 
 
 ## CDATA
-1. **Sobol-парадокс: эпигенетика доминирует, ablation улучшает R²** — подрывает основной claim.  
-2. **LOO-CV bias = -0.093** — систематическое смещение.  
-3. **Данные только in silico** — нет in vitro/in vivo.  
-4. **Не pre-registered** (Test 1–4, MCAI).  
-5. **Отсутствие clinical validation plan**.  
+1. **Sobol-парадокс: эпигенетика доминирует, ablation улучшает R²** — подрывает основной claim. 
+2. **LOO-CV bias = -0.093** — систематическое смещение. 
+3. **Данные только in silico** — нет in vitro/in vivo. 
+4. **Не pre-registered** (Test 1–4, MCAI). 
+5. **Отсутствие clinical validation plan**. 
 
 ## BioSense
-1. **3/3 pre-reg null** — нет эффекта.  
-2. **I²=90.3%** — чрезвычайная гетерогенность, указывает на проблемы протокола.  
-3. **Bootstrap CI=0** — артефакт анализа.  
-4. **Born rule неприменим к HRV/EEG** — фундаментальная ошибка интерпретации.  
-5. **4/9 PMID были битые** (исправлены, но осадок остался).  
+1. **3/3 pre-reg null** — нет эффекта. 
+2. **I²=90.3%** — чрезвычайная гетерогенность, указывает на проблемы протокола. 
+3. **Bootstrap CI=0** — артефакт анализа. 
+4. **Born rule неприменим к HRV/EEG** — фундаментальная ошибка интерпретации. 
+5. **4/9 PMID были битые** (исправлены, но осадок остался). 
 
 ## Ontogenesis
-1. **6/6 PMID fabricated в прошлой версии; Smith J. 2025 — подозрение на новую fabrication**.  
-2. **Нет данных (только гипотетические)**.  
-3. **Нет pre-registration**.  
-4. **Нет публичных материалов для рецензирования**.  
+1. **6/6 PMID fabricated в прошлой версии; Smith J. 2025 — подозрение на новую fabrication**. 
+2. **Нет данных (только гипотетические)**. 
+3. **Нет pre-registration**. 
+4. **Нет публичных материалов для рецензирования**. 
 
 ## HAP
-1. **10/10 PMID fabricated**.  
-2. **Evidence.md = stub** — нет содержания.  
-3. **Единственная цитата — self-citation Tkemaladze в Longevity Horizon (не индексированный)**.  
+1. **10/10 PMID fabricated**. 
+2. **Evidence.md = stub** — нет содержания. 
+3. **Единственная цитата — self-citation Tkemaladze в Longevity Horizon (не индексированный)**. 
 
 ### §3a. Risk register — ecosystem-wide post Wave 1
 
@@ -251,47 +251,47 @@ capacity-building, sequencing strategy.
 | R9 | Reputational risk: Tkemaladze 149 публикаций, но ~10 в PubMed; высокий процент в нерецензируемых источниках | Medium (часть публикаций – тезисы, локальные журналы) | High — фонды проверяют publication track record; несоответствие заявленного объёма и индексируемого качества | Ссылки на PubMed постепенно добавляются; но legacy остаётся; необходима объяснительная записка | Medium |
 | R10 | Open-source disclosure: репозитории (Rust simulator, React PWA, Phoenix) не содержат LICENSE файла → дефолтное copyright (все права защищены) | High (ни один репозиторий не имеет LICENSE) | Medium — противоречит требованию EIC “open-source publication”; блокирует коммерческое/академическое переиспользование; может быть воспринято как недобросовестность | Необходимо добавить LICENSE (GPL/MIT) во все репозитории; это не сделано | Medium |
 
-**Aggregate residual risk = HIGH**  
+**Aggregate residual risk = HIGH** 
 Совокупный остаточный риск оценивается как High: минимум пять рисков (R1, R2, R4, R6, R7) имеют High residual, и ни один из критических рисков не снижен ниже Medium. Особую тревогу вызывает R1 (citation fabrication) — без полного librarian-level аудита ни один тир-1 фонд не примет заявку. R4 (NGO capacity) требует немедленного найма финансового менеджера. R2 (single-PI) может быть частично снижен через привлечение со-PI из Javakheti University или зарубежного партнёра. Рекомендуется провести ревизию всех рисков и предоставить documented mitigation plan до любой подачи.
 
 ### §3b. IP/licensing analysis
 
-**Rust simulator (Ze + CDATA HSC).**  
+**Rust simulator (Ze + CDATA HSC).** 
 Ключевой вычислительный компонент — симулятор на Rust, комбинирующий Ze Tsirelson и CDATA HSC. Код опубликован в репозитории без LICENSE файла, что по умолчанию означает «All Rights Reserved» согласно Бернской конвенции. Даже при намерении открыть код отсутствие явной лицензии создаёт правовую неопределённость: третьи лица не могут легально использовать, модифицировать или распространять код. Для EIC Pathfinder open-source publication является обязательным требованием, и рецензенты проверят наличие лицензии. Рекомендуемая схема: dual-licensing — GPL v3 для академического сообщества (обеспечивает copyleft и защиту от proprietary forks) и коммерческая лицензия для промышленных партнёров (например, через отдельное соглашение). Это типичная практика для проектов с потенциалом spin-off, но требует юридического оформления.
 
-**React+TypeScript PWA и Phoenix LiveView (Elixir).**  
+**React+TypeScript PWA и Phoenix LiveView (Elixir).** 
 Веб-интерфейсы и микросервисы написаны на стандартных фреймворках. Для них оптимальна лицензия MIT или Apache 2.0. Никаких блокеров — код типовой, патентных рисков нет (MIT не содержит патентной оговорки, Apache — содержит). Единственное замечание: LICENSE файл отсутствует; его добавление — вопрос одного дня.
 
-**DeepSeek API в продакшене.**  
+**DeepSeek API в продакшене.** 
 Использование API DeepSeek (китайская LLM) в медицинском приложении вызывает вопросы complianсe. DeepSeek, вероятно, обрабатывает данные на серверах в КНР, что при попадании персональных данных (даже псевдонимизированных) нарушает GDPR (требование adequate level of protection). В заявке не указано, какие данные передаются в API. Если это только обезличенные тексты (научные статьи) — риск невелик, но если запросы содержат профили участников исследований — это недопустимо. Необходим полный data flow map и договор с DeepSeek о DPA (Data Processing Agreement). Пока vendor lock-in не фатален, но для медицинской сертификации потребуется альтернатива (например, LLaMA локально).
 
-**Патенты и товарные знаки.**  
+**Патенты и товарные знаки.** 
 В проекте не зарегистрировано ни одного патента. Для фондов типа Impetus, ARPA-H или Wellcome Leap это нормально — они финансируют early-stage R&D, где публикация важнее патентования. Однако Schmidt Sciences и отраслевые партнёры (например, индустриальные участники EIC) могут счесть отсутствие патентной защиты слабостью. Товарные знаки «CommonHealth», «Ze·Profile», «Ze·Guide» не зарегистрированы. Есть риск конфликта с US-компанией Common Health, Inc., которая оказывает медицинские услуги под тем же брендом. Использование названия без проверки может привести к судебным искам после масштабирования.
 
-**Вердикт по IP.**  
+**Вердикт по IP.** 
 До подачи в любой целевой фонд необходимо: (1) провести licensing audit — добавить LICENSE файлы (GPL v3 для Rust, MIT/Apache для веба) во все репозитории; (2) заключить DPA с DeepSeek или перейти на локальную LLM; (3) выполнить trademark search для «CommonHealth» и, вероятно, переименовать проект. Патентование на данном этапе необязательно, но рекомендуется для ключевых алгоритмов (Ze Tsirelson, PATE variant) при подаче в Schmidt Sciences.
 
 ### §3c. Capacity-building (Wellcome/Gates LMIC criterion)
 
 Заявка позиционируется как capacity-building в Грузии, ссылаясь на статус страны с развивающейся экономикой. Однако согласно классификации Всемирного банка 2024, Грузия относится к upper-middle-income economies (ВНД на душу населения ~5 500 USD). Это не соответствует определению LMIC (Low- and Middle-Income Countries) в строгом смысле, принятому Wellcome Trust и Фондом Билла и Мелинды Гейтс. Эти организации фокусируются на странах Subsaharan Africa и South Asia (ВНД <4 000 USD) и часто требуют, чтобы заявка включала локального заявителя из такой страны.
 
-**Что есть в заявке:**  
-- Georgia Longevity Alliance (NGO, рег. №404506520, президент Ткемаладзе) — зарегистрирована в 2026, активна.  
-- Tina Gelashvili (Javakheti University, Akhaltsikhe) — возможный академический bridge, но её роль и вклад не детализированы.  
-- Один PhD candidate (Lezhava) — очевидно недостаточно для capacity-building.  
+**Что есть в заявке:** 
+- Georgia Longevity Alliance (NGO, рег. №404506520, президент Ткемаладзе) — зарегистрирована в 2026, активна. 
+- Tina Gelashvili (Javakheti University, Akhaltsikhe) — возможный академический bridge, но её роль и вклад не детализированы. 
+- Один PhD candidate (Lezhava) — очевидно недостаточно для capacity-building. 
 - Нет формального training programme, нет community engagement framework, нет локальной IRB/этической комиссии (bioethics board в Грузии существует, но не для исследований на людях, а для общего надзора; её полномочия неясны).
 
-**Чего нет:**  
-- Africa-equivalent partner (Gates Global Health): для Wellcome Leap LMIC track требуется подтверждение, что исследование касается приоритетов здравоохранения конкретной LMIC.  
-- Female PI / gender-equity policy: ни одна из ключевых ролей не занимает женщина, хотя Gelashvili может быть опционально со-PI.  
-- Training plan: Wellcome требует описания How the grant will build local capacity (treineeships, courses, equipment). Этого нет.  
-- Community engagement: механизмы вовлечения местного населения, информирования и согласия не описаны.  
+**Чего нет:** 
+- Africa-equivalent partner (Gates Global Health): для Wellcome Leap LMIC track требуется подтверждение, что исследование касается приоритетов здравоохранения конкретной LMIC. 
+- Female PI / gender-equity policy: ни одна из ключевых ролей не занимает женщина, хотя Gelashvili может быть опционально со-PI. 
+- Training plan: Wellcome требует описания How the grant will build local capacity (treineeships, courses, equipment). Этого нет. 
+- Community engagement: механизмы вовлечения местного населения, информирования и согласия не описаны. 
 - Локальный IRB: протоколы этической экспертизы отсутствуют; для исследований с участием людей (даже если it's public data) в Грузии необходимо одобрение Национального совета по биоэтике.
 
-**Вывод:**  
-- Wellcome Leap LMIC track — **REJECT** по критерию capacity-building. Грузия не является приоритетной LMIC, нет training plan и Africa partner.  
-- Gates Global Health — **REJECT**, обязателен африканский со-заявитель.  
-- EIC Pathfinder не требует LMIC (хотя приветствует), но требует минимум трёх участников из стран EU MS. Грузия — не EU MS, а Associated Country (возможно в Horizon Europe). Это не блокирует, но снижает eligibility: большинство консорциумов предпочитают чистых EU MS для упрощения бюрократии.  
+**Вывод:** 
+- Wellcome Leap LMIC track — **REJECT** по критерию capacity-building. Грузия не является приоритетной LMIC, нет training plan и Africa partner. 
+- Gates Global Health — **REJECT**, обязателен африканский со-заявитель. 
+- EIC Pathfinder не требует LMIC (хотя приветствует), но требует минимум трёх участников из стран EU MS. Грузия — не EU MS, а Associated Country (возможно в Horizon Europe). Это не блокирует, но снижает eligibility: большинство консорциумов предпочитают чистых EU MS для упрощения бюрократии. 
 
 Альтернатива: переформулировать заявку как «research capacity in Associated Country» для EIC Pathfinder, исключив LMIC трек, и усилить компонент обучения (добавить 2–3 PhD-позиции, летние школы, обмен с EU партнёрами).
 
@@ -303,101 +303,101 @@ capacity-building, sequencing strategy.
 
 Компонент HAP остаётся в stub state: 10/10 fabrication по-прежнему не исправлены, единственная цитата (Tkemaladze в Longevity Horizon) не индексируется. HAP является одним из ключевых блоков системы (Hormonal Aging Profile). Невозможно рекомендовать проект с непроверяемой ссылочной базой в важном компоненте.
 
-**Итог:**  
-- **Acceptable but flagged** — MCOA, FCLC, CDATA, BioSense (коррекции проведены, но полный аудит не завершён).  
-- **Unacceptable** — Ontogenesis (Smith J. 2025) и HAP (stub with fabrications).  
+**Итог:** 
+- **Acceptable but flagged** — MCOA, FCLC, CDATA, BioSense (коррекции проведены, но полный аудит не завершён). 
+- **Unacceptable** — Ontogenesis (Smith J. 2025) и HAP (stub with fabrications). 
 
 Любой программный офицер фонда запросит full reverse-verification всех 24+ ссылок до серьёзного рассмотрения. Это работа librarian-level (~40 часов), которая не выполнена. Рекомендуется незамедлительно поручить её независимому библиографу (например, через университетскую библиотеку). До получения заключения citation integrity остаётся под сомнением.
 
 # §4. Required corrections for fund submission (конкретные deliverables)
 
 ## CommonHealth (для EIC)
-- ✅ **Signed LoIs от ≥3 EU MS организаций** (хотя бы одна research university, один SME health tech).  
-- ✅ **Formal consortium agreement (CA)** с ясными ролями, IP ownership, exit clause.  
-- ✅ **PI должен получить co-applicant аффилированный с EU university** (например, пригласить Lezhava? но Lezhava PhD candidate не пройдёт).  
-- ✅ **Public repository с LICENSE** (например, Apache 2.0) для всего кода, включая fclc-core.  
-- ✅ **Risk register с разделом "Integrity & fabrication mitigation"** — описать audit процедуры.  
+- ✅ **Signed LoIs от ≥3 EU MS организаций** (хотя бы одна research university, один SME health tech). 
+- ✅ **Formal consortium agreement (CA)** с ясными ролями, IP ownership, exit clause. 
+- ✅ **PI должен получить co-applicant аффилированный с EU university** (например, пригласить Lezhava? но Lezhava PhD candidate не пройдёт). 
+- ✅ **Public repository с LICENSE** (например, Apache 2.0) для всего кода, включая fclc-core. 
+- ✅ **Risk register с разделом "Integrity & fabrication mitigation"** — описать audit процедуры. 
 
 ## MCOA (для Schmidt Sciences – условно)
-- ❌ **Полный рестарт теории** — заменить w_i на вычислимые параметры.  
-- ❌ **Pre-register 3 checkable predictions** (например, на основе epigenetic datasets).  
-- ✅ **Independent replication MCOA без участия Tkemaladze**.  
-- ❌ **Поиск external collaborator (UCSD/Stanford)** для со-PI позиции.  
+- ❌ **Полный рестарт теории** — заменить w_i на вычислимые параметры. 
+- ❌ **Pre-register 3 checkable predictions** (например, на основе epigenetic datasets). 
+- ✅ **Independent replication MCOA без участия Tkemaladze**. 
+- ❌ **Поиск external collaborator (UCSD/Stanford)** для со-PI позиции. 
 
 Но реалистично: MCOA не готов к подаче ни в один фонд в 2026–2027.
 
 ## FCLC (для EIC/Gates/Wellcome)
-- **Для EIC**:  
-  — ε ≤ 1 (реализовать DP-SGD с частным запасом).  
-  — PATE full implementation (не stub).  
-  — Заменить Federated Shapley на разрешимую задачу (например, federated feature importance через influence functions).  
-  — Signed LoIs от ≥2 EU partners (минимум один technical partner).  
-- **Для Wellcome Leap**:  
-  — US/UK co-PI (например, из MIT или Imperial).  
-  — Quarterly milestones (M1: DP prototype; M2: Deployment on OMOP CDM; M3: Clinical pilot).  
-  — Прототип на реальных data (не синтетика).  
-- **Для Gates**:  
-  — LMIC partner (клиника в Африке).  
-  — Dataset от партнёра.  
-  — ε ≤ 1 с подтверждением на реальных данных.  
+- **Для EIC**: 
+ — ε ≤ 1 (реализовать DP-SGD с частным запасом). 
+ — PATE full implementation (не stub). 
+ — Заменить Federated Shapley на разрешимую задачу (например, federated feature importance через influence functions). 
+ — Signed LoIs от ≥2 EU partners (минимум один technical partner). 
+- **Для Wellcome Leap**: 
+ — US/UK co-PI (например, из MIT или Imperial). 
+ — Quarterly milestones (M1: DP prototype; M2: Deployment on OMOP CDM; M3: Clinical pilot). 
+ — Прототип на реальных data (не синтетика). 
+- **Для Gates**: 
+ — LMIC partner (клиника в Африке). 
+ — Dataset от партнёра. 
+ — ε ≤ 1 с подтверждением на реальных данных. 
 
 ## Ze
-- ❌ **Теория требует external review от физиков (Tsirelson bound)**.  
-- ❌ **χ_Ze experiment redesign** — после null нужно объяснение.  
-- ❌ **Приложения к здоровью: интеграция с CDATA (например, χ_Ze как proxy для epigenetic clock)** — но это speculative.  
+- ❌ **Теория требует external review от физиков (Tsirelson bound)**. 
+- ❌ **χ_Ze experiment redesign** — после null нужно объяснение. 
+- ❌ **Приложения к здоровью: интеграция с CDATA (например, χ_Ze как proxy для epigenetic clock)** — но это speculative. 
 - ❗ Подача только в Schmidt Sciences невозможна без сильного AI core.
 
 ## CDATA (для Impetus)
-- ✅ **Полное исправление Sobol-парадокса**: необходимо показать, что ablation эпигенетики ухудшает модель, а не улучшает. Если это невозможно — отказаться от claim причинности.  
-- ✅ **LOO-CV bias устранён** (перекрёстная валидация с учётом иерархии).  
-- ✅ **Pre-registration MCAI tests**.  
-- ✅ **In vitro валидация (хотя бы клеточная линия) или использование public datasets (e.g., Horvath clock)**.  
-- ✅ **Plan для clinical biomarker validation**.  
+- ✅ **Полное исправление Sobol-парадокса**: необходимо показать, что ablation эпигенетики ухудшает модель, а не улучшает. Если это невозможно — отказаться от claim причинности. 
+- ✅ **LOO-CV bias устранён** (перекрёстная валидация с учётом иерархии). 
+- ✅ **Pre-registration MCAI tests**. 
+- ✅ **In vitro валидация (хотя бы клеточная линия) или использование public datasets (e.g., Horvath clock)**. 
+- ✅ **Plan для clinical biomarker validation**. 
 
 ## BioSense
-- ❌ **Полный рестарт hardware/software протокола** (Born rule заменить корректными feature extraction).  
-- ❌ **Pre-register новый протокол с коррекцией объёма выборки**.  
-- ❌ **Необходимо pilot study с положительным контролем** (например, HRV after exercise).  
-- ✅ **Команда должна включать statistician**.  
+- ❌ **Полный рестарт hardware/software протокола** (Born rule заменить корректными feature extraction). 
+- ❌ **Pre-register новый протокол с коррекцией объёма выборки**. 
+- ❌ **Необходимо pilot study с положительным контролем** (например, HRV after exercise). 
+- ✅ **Команда должна включать statistician**. 
 
 ## Ontogenesis
-- ❌ **Подтверждение или опровержение Smith J. 2025 fabrication** (тотальный аудит).  
-- ❌ **Публикация данных для независимого рецензирования**.  
-- ❗ Без полного очищения имени – не подавать никуда.  
+- ❌ **Подтверждение или опровержение Smith J. 2025 fabrication** (тотальный аудит). 
+- ❌ **Публикация данных для независимого рецензирования**. 
+- ❗ Без полного очищения имени – не подавать никуда. 
 
 ## HAP
-- ❌ **Удалить из всех заявок** как скомпрометированный.  
+- ❌ **Удалить из всех заявок** как скомпрометированный. 
 
 # §5. Sequencing strategy (2026–2028)
 
 ## Приоритет 1: CDATA → Impetus Longevity (Q3 2026)
-- **Почему**: Impetus гранты $100–500k, срок 12 мес. CDATA с исправлениями может подаваться как проверка биомаркера centriolar damage.  
-- **Условие**: полное исправление Sobol-парадокса и bias; pre-registration; независимое репликация (хотя бы на публичных данных).  
-- **Риск**: если Sobol-парадокс неисправим, проект теряет смысл. Но это покажет нежизнеспособность.  
-- **Timeline**: Q2 2026 – исправления, Q3 подача.  
+- **Почему**: Impetus гранты $100–500k, срок 12 мес. CDATA с исправлениями может подаваться как проверка биомаркера centriolar damage. 
+- **Условие**: полное исправление Sobol-парадокса и bias; pre-registration; независимое репликация (хотя бы на публичных данных). 
+- **Риск**: если Sobol-парадокс неисправим, проект теряет смысл. Но это покажет нежизнеспособность. 
+- **Timeline**: Q2 2026 – исправления, Q3 подача. 
 
 ## Приоритет 2: FCLC → EIC Pathfinder Open 2027 (Q4 2026 – Q1 2027)
-- **Почему**: EIC Pathfinder – основной целевой фонд для CommonHealth. FCLC – единственный подпроект с потенциалом после исправлений.  
-- **Необходимые шаги**:  
-  — Q2–Q3 2026: signed LoIs (договориться с DFKI + искать второго EU partner).  
-  — Q2 2026: реализовать ε ≤ 1 и PATE.  
-  — Q3 2026: open-source core code с LICENSE.  
-  — Q4 2026: собрать консорциум (минимум 3 EU partners).  
-- **Риск**: без международного co-PI заявка будет слабой. Нужен хотя бы один западный университет.  
+- **Почему**: EIC Pathfinder – основной целевой фонд для CommonHealth. FCLC – единственный подпроект с потенциалом после исправлений. 
+- **Необходимые шаги**: 
+ — Q2–Q3 2026: signed LoIs (договориться с DFKI + искать второго EU partner). 
+ — Q2 2026: реализовать ε ≤ 1 и PATE. 
+ — Q3 2026: open-source core code с LICENSE. 
+ — Q4 2026: собрать консорциум (минимум 3 EU partners). 
+- **Риск**: без международного co-PI заявка будет слабой. Нужен хотя бы один западный университет. 
 
 ## Приоритет 3: FCLC → Gates Foundation (2027, если получены LMIC данные)
-- **Условие**: подписание MOU с африканской клиникой (например, в Кении).  
-- **Требуется**: валидация на реальных данных (не синтетика).  
-- **Timeline**: 2027–2028, после EIC пилота.  
+- **Условие**: подписание MOU с африканской клиникой (например, в Кении). 
+- **Требуется**: валидация на реальных данных (не синтетика). 
+- **Timeline**: 2027–2028, после EIC пилота. 
 
 ## Приоритет 4: FCLC → Wellcome Leap (2028, как часть большого консорциума)
-- Wellcome Leap требует зрелый consortium. CommonHealth может войти как один из WP, но не как lead.  
-- **Требование**: US/UK co-PI, quarterly milestones, deliverable data sharing system.  
+- Wellcome Leap требует зрелый consortium. CommonHealth может войти как один из WP, но не как lead. 
+- **Требование**: US/UK co-PI, quarterly milestones, deliverable data sharing system. 
 
-## **Никогда не подавать**  
-- **Ze, Ontogenesis, HAP** — без полной реабилитации (годы).  
-- **BioSense** — без положительного контролируемого испытания.  
-- **MCOA** — без independent replication.  
+## **Никогда не подавать** 
+- **Ze, Ontogenesis, HAP** — без полной реабилитации (годы). 
+- **BioSense** — без положительного контролируемого испытания. 
+- **MCOA** — без independent replication. 
 
 ## Общее резюме
 Рекомендуется сфокусироваться на **FCLC→EIC** как основном треке 2027. CDATA→Impetus как быстрый тест. Остальные подпроекты не готовы к подаче в 2026–2028. CommonHealth umbrella может войти как overhead в EIC, но не самостоятельная заявка.
@@ -408,15 +408,15 @@ capacity-building, sequencing strategy.
 
 ### §6a. Investment committee recommendation
 
-На основе проведённого due-diligence, комитет по инвестициям рекомендует **HOLD** на всей экосистеме до Q1 2027 milestone gate. Ни один из семи целевых фондов в текущем состоянии не готов к подаче. Для перехода к статусу «WATCH» необходимо выполнение следующих gate criteria:  
+На основе проведённого due-diligence, комитет по инвестициям рекомендует **HOLD** на всей экосистеме до Q1 2027 milestone gate. Ни один из семи целевых фондов в текущем состоянии не готов к подаче. Для перехода к статусу «WATCH» необходимо выполнение следующих gate criteria: 
 
-1. **Citation audit** — проведён полный reverse-verification всех 24+ ссылок независимым экспертом, получено заключение об отсутствии неподтверждённых fabrication (кроме HAP, который либо завершён, либо удалён).  
-2. **NGO capacity** — нанят грант-менеджер с опытом работы с грантами >€1M, утверждён финансовый план, подготовлена проектная заявка с аудированной отчётностью.  
-3. **PI diversification** — назначен co-PI из Javakheti University или зарубежного партнёра, задокументированы полномочия и succession plan.  
-4. **IP/licensing** — все репозитории получили LICENSE файлы, проведён trademark search, решён вопрос с DeepSeek (DPA или замена на локальную LLM).  
-5. **Теоретическая согласованность** — опубликован pre-print (arXiv или рецензируемый журнал), демонстрирующий формальную связь между MCOA M3, CDATA Sobol и Ze Tsirelson; разослан коллегам для external review.  
+1. **Citation audit** — проведён полный reverse-verification всех 24+ ссылок независимым экспертом, получено заключение об отсутствии неподтверждённых fabrication (кроме HAP, который либо завершён, либо удалён). 
+2. **NGO capacity** — нанят грант-менеджер с опытом работы с грантами >€1M, утверждён финансовый план, подготовлена проектная заявка с аудированной отчётностью. 
+3. **PI diversification** — назначен co-PI из Javakheti University или зарубежного партнёра, задокументированы полномочия и succession plan. 
+4. **IP/licensing** — все репозитории получили LICENSE файлы, проведён trademark search, решён вопрос с DeepSeek (DPA или замена на локальную LLM). 
+5. **Теоретическая согласованность** — опубликован pre-print (arXiv или рецензируемый журнал), демонстрирующий формальную связь между MCOA M3, CDATA Sobol и Ze Tsirelson; разослан коллегам для external review. 
 
-После выполнения этих критериев рекомендация может быть повышена до **WATCH** (возможность подачи в EIC Pathfinder при условии подтверждения Associated Country статуса Грузии) или **INVEST** (для конкретного подпроекта, например, FCLC prototype).  
+После выполнения этих критериев рекомендация может быть повышена до **WATCH** (возможность подачи в EIC Pathfinder при условии подтверждения Associated Country статуса Грузии) или **INVEST** (для конкретного подпроекта, например, FCLC prototype). 
 
-**Финальная фраза:**  
+**Финальная фраза:** 
 Текущее состояние не позволяет рекомендовать ни один из 7 целевых фондов для подачи в течение ближайших 6 месяцев. Re-evaluation: 2027-Q1 после выполнения gate criteria.

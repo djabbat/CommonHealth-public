@@ -32,7 +32,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 4. PMID 19264965 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** glutamylation repair axis (Pillar 5) may be more complex.   **Action:** Add to UPGRADE.md (Complexity of CCP1/AGBL5 repair mechanism).  **No new citations found for PMID 36583780 (Tkemaladze 2023) or PMID 19264965 (Wang 2009) in the 2025-2026 period 
+**Your context:** glutamylation repair axis (Pillar 5) may be more complex. **Action:** Add to UPGRADE.md (Complexity of CCP1/AGBL5 repair mechanism). **No new citations found for PMID 36583780 (Tkemaladze 2023) or PMID 19264965 (Wang 2009) in the 2025-2026 period 
 **Actual (wrong?) paper:** Sebastian S 2009 — MLL5, a trithorax homolog, indirectly regulates H3K4 methylation, represses cyclin A2 expression, and promotes myogenic differentiation.
 **Keywords extracted:** glutamylation, repair, axis, Pillar, complex
 **No candidates found.**
@@ -47,7 +47,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 6. PMID 19264965 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:**  needed:** verify if citation is correct; if not, search for proper PMID.   ## 57. PMID 20445539 — LOW_SCORE **File:** `CONCEPT.md` **Your context:**  веретено. - **Mammalian HSC:** Wang et al. 2009 (PMID 19264965) — косвенные данные. 🔴 **Прямых данн
+**Your context:** needed:** verify if citation is correct; if not, search for proper PMID. ## 57. PMID 20445539 — LOW_SCORE **File:** `CONCEPT.md` **Your context:** веретено. - **Mammalian HSC:** Wang et al. 2009 (PMID 19264965) — косвенные данные. 🔴 **Прямых данн
 **Actual (wrong?) paper:** Sebastian S 2009 — MLL5, a trithorax homolog, indirectly regulates H3K4 methylation, represses cyclin A2 expression, and promotes myogenic differentiation.
 **Keywords extracted:** needed, verify, citation, correct, search
 **Top candidates:**
@@ -55,7 +55,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 7. PMID 19264965 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** IFC3-dependent manner.* - Author: Robichaud JH (2024) - Journal: Nat Commun - Match score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 75. PMID 19264965 — LOW_SCORE **File:** `CONCEPT.md` *
+**Your context:** IFC3-dependent manner.* - Author: Robichaud JH (2024) - Journal: Nat Commun - Match score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 75. PMID 19264965 — LOW_SCORE **File:** `CONCEPT.md` *
 **Actual (wrong?) paper:** Sebastian S 2009 — MLL5, a trithorax homolog, indirectly regulates H3K4 methylation, represses cyclin A2 expression, and promotes myogenic differentiation.
 **Keywords extracted:** dependent, manner, Author, Robichaud, Journal
 **Top candidates:**
@@ -72,7 +72,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 9. PMID 19264965 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** ntiation.* - Author: Sebastian S (2009) - Journal: Proc Natl Acad Sci U S A - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 76. PMID 19264965 — LOW_SCORE **File:** `CONCEPT.md` *
+**Your context:** ntiation.* - Author: Sebastian S (2009) - Journal: Proc Natl Acad Sci U S A - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 76. PMID 19264965 — LOW_SCORE **File:** `CONCEPT.md` *
 **Actual (wrong?) paper:** Sebastian S 2009 — MLL5, a trithorax homolog, indirectly regulates H3K4 methylation, represses cyclin A2 expression, and promotes myogenic differentiation.
 **Keywords extracted:** ntiation, Author, Sebastian, Journal, Proc
 **No candidates found.**
@@ -87,21 +87,21 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 11. PMID 19264965 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** ntiation.* - Author: Sebastian S (2009) - Journal: Proc Natl Acad Sci U S A - Match score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 77. PMID 19264965 — LOW_SCORE **File:** `docs/CDATA_DA
+**Your context:** ntiation.* - Author: Sebastian S (2009) - Journal: Proc Natl Acad Sci U S A - Match score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 77. PMID 19264965 — LOW_SCORE **File:** `docs/CDATA_DA
 **Actual (wrong?) paper:** Sebastian S 2009 — MLL5, a trithorax homolog, indirectly regulates H3K4 methylation, represses cyclin A2 expression, and promotes myogenic differentiation.
 **Keywords extracted:** ntiation, Author, Sebastian, Journal, Proc
 **No candidates found.**
 
 
 ## 12. PMID 19264965 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** glutamylation repair axis (Pillar 5) may be more complex.   **Action:** Add to UPGRADE.md (Complexity of CCP1/AGBL5 repair mechanism).  **No new citations found for PMID 36583780 (Tkemaladze 2023) or PMID 19264965 (Wang 2009) in the 2025-2026 period 
+**Your context:** glutamylation repair axis (Pillar 5) may be more complex. **Action:** Add to UPGRADE.md (Complexity of CCP1/AGBL5 repair mechanism). **No new citations found for PMID 36583780 (Tkemaladze 2023) or PMID 19264965 (Wang 2009) in the 2025-2026 period 
 **Actual (wrong?) paper:** Sebastian S 2009 — MLL5, a trithorax homolog, indirectly regulates H3K4 methylation, represses cyclin A2 expression, and promotes myogenic differentiation.
 **Keywords extracted:** glutamylation, repair, axis, Pillar, complex
 **No candidates found.**
 
 
 ## 13. PMID 19264965 in `CDATA/docs/CDATA_DAILY_SEARCH_2026-04-17.md`
-**Your context:** glutamylation repair axis (Pillar 5) may be more complex.   **Action:** Add to UPGRADE.md (Complexity of CCP1/AGBL5 repair mechanism).  **No new citations found for PMID 36583780 (Tkemaladze 2023) or PMID 19264965 (Wang 2009) in the 2025-2026 period 
+**Your context:** glutamylation repair axis (Pillar 5) may be more complex. **Action:** Add to UPGRADE.md (Complexity of CCP1/AGBL5 repair mechanism). **No new citations found for PMID 36583780 (Tkemaladze 2023) or PMID 19264965 (Wang 2009) in the 2025-2026 period 
 **Actual (wrong?) paper:** Sebastian S 2009 — MLL5, a trithorax homolog, indirectly regulates H3K4 methylation, represses cyclin A2 expression, and promotes myogenic differentiation.
 **Keywords extracted:** glutamylation, repair, axis, Pillar, complex
 **No candidates found.**
@@ -130,7 +130,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 17. PMID 17395836 in `CDATA/CONCEPT.md`
-**Your context:**  Асимметричное наследование центросомы при делении стволовых клеток с образованием дифференцирующейся дочери — **задокументированный биологический факт**, не умозаключение: - **Yamashita et al. 2007 (PMID 17395836):** В Drosophila мужских GSC материн
+**Your context:** Асимметричное наследование центросомы при делении стволовых клеток с образованием дифференцирующейся дочери — **задокументированный биологический факт**, не умозаключение: - **Yamashita et al. 2007 (PMID 17395836):** В Drosophila мужских GSC материн
 **Actual (wrong?) paper:** Argos M 2007 — Socioeconomic status and risk for arsenic-related skin lesions in Bangladesh.
 **Keywords extracted:** Yamashita, Drosophila
 **Top candidates:**
@@ -150,7 +150,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 19. PMID 17395836 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** severing by TTLL6 and spastin.* - Author: Zempel H (2013) - Journal: EMBO J - Match score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 51. PMID 17395836 — LOW_SCORE **File:** `CONCEPT.md` *
+**Your context:** severing by TTLL6 and spastin.* - Author: Zempel H (2013) - Journal: EMBO J - Match score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 51. PMID 17395836 — LOW_SCORE **File:** `CONCEPT.md` *
 **Actual (wrong?) paper:** Argos M 2007 — Socioeconomic status and risk for arsenic-related skin lesions in Bangladesh.
 **Keywords extracted:** severing, spastin, Author, Zempel, Journal
 **Top candidates:**
@@ -172,7 +172,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 22. PMID 17395836 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:**  Асимметричное наследование центросомы при делении стволовых клеток с образованием дифференцирующейся дочери — **задокументированный биологический факт**, не умозаключение: - **Yamashita et al. 2007 (PMID 17395836):** В Drosophila мужских GSC материн
+**Your context:** Асимметричное наследование центросомы при делении стволовых клеток с образованием дифференцирующейся дочери — **задокументированный биологический факт**, не умозаключение: - **Yamashita et al. 2007 (PMID 17395836):** В Drosophila мужских GSC материн
 **Actual (wrong?) paper:** Argos M 2007 — Socioeconomic status and risk for arsenic-related skin lesions in Bangladesh.
 **Keywords extracted:** Yamashita, Drosophila, Actual
 **No candidates found.**
@@ -189,7 +189,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 24. PMID 17395836 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** as a hallmark of stem cell aging. *Cell Stem Cell*. 2025. PMID 40562035. 2.  Yamashita, Y.M. et al. Asymmetric inheritance of mother versus daughter centrosome in stem cell division. *Science*. 2007. PMID 17395836. 3.  Whitfield, M. et al. TTLL6 expr
+**Your context:** as a hallmark of stem cell aging. *Cell Stem Cell*. 2025. PMID 40562035. 2. Yamashita, Y.M. et al. Asymmetric inheritance of mother versus daughter centrosome in stem cell division. *Science*. 2007. PMID 17395836. 3. Whitfield, M. et al. TTLL6 expr
 **Actual (wrong?) paper:** Argos M 2007 — Socioeconomic status and risk for arsenic-related skin lesions in Bangladesh.
 **Keywords extracted:** hallmark, stem, cell, aging, Yamashita
 **No candidates found.**
@@ -220,7 +220,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 28. PMID 17395836 in `CDATA/docs/AUBREY_MEETING_2026-04-18/LOI_Impetus_v22.md`
-**Your context:** as a hallmark of stem cell aging. *Cell Stem Cell*. 2025. PMID 40562035. 2.  Yamashita, Y.M. et al. Asymmetric inheritance of mother versus daughter centrosome in stem cell division. *Science*. 2007. PMID 17395836. 3.  Whitfield, M. et al. TTLL6 expr
+**Your context:** as a hallmark of stem cell aging. *Cell Stem Cell*. 2025. PMID 40562035. 2. Yamashita, Y.M. et al. Asymmetric inheritance of mother versus daughter centrosome in stem cell division. *Science*. 2007. PMID 17395836. 3. Whitfield, M. et al. TTLL6 expr
 **Actual (wrong?) paper:** Argos M 2007 — Socioeconomic status and risk for arsenic-related skin lesions in Bangladesh.
 **Keywords extracted:** hallmark, stem, cell, aging, Yamashita
 **No candidates found.**
@@ -241,7 +241,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 31. PMID 20445539 in `CDATA/CONCEPT.md`
-**Your context:**  веретено. - **Mammalian HSC:** Wang et al. 2009 (PMID 19264965) — косвенные данные. 🔴 **Прямых данных по PTM-нагруженной центриоли у HSC нет** — оставшийся блокирующий барьер. - Conduit & Raff 2010 (PMID 20445539) — обзор механизмов асимметрии в ств
+**Your context:** веретено. - **Mammalian HSC:** Wang et al. 2009 (PMID 19264965) — косвенные данные. 🔴 **Прямых данных по PTM-нагруженной центриоли у HSC нет** — оставшийся блокирующий барьер. - Conduit & Raff 2010 (PMID 20445539) — обзор механизмов асимметрии в ств
 **Actual (wrong?) paper:** Kosmrlj A 2010 — Effects of thymic selection of the T-cell repertoire on HLA class I-associated control of HIV infection.
 **Keywords extracted:** Mammalian, Wang, Conduit, Raff, Yamashita
 **No candidates found.**
@@ -262,7 +262,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 34. PMID 20445539 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** ions in Bangladesh.* - Author: Argos M (2007) - Journal: Am J Public Health - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 56. PMID 20445539 — LOW_SCORE **File:** `CONCEPT.md` *
+**Your context:** ions in Bangladesh.* - Author: Argos M (2007) - Journal: Am J Public Health - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 56. PMID 20445539 — LOW_SCORE **File:** `CONCEPT.md` *
 **Actual (wrong?) paper:** Kosmrlj A 2010 — Effects of thymic selection of the T-cell repertoire on HLA class I-associated control of HIV infection.
 **Keywords extracted:** ions, Bangladesh, Author, Argos, Journal
 **Top candidates:**
@@ -279,7 +279,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 36. PMID 20445539 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:**  веретено. - **Mammalian HSC:** Wang et al. 2009 (PMID 19264965) — косвенные данные. 🔴 **Прямых данных по PTM-нагруженной центриоли у HSC нет** — оставшийся блокирующий барьер. - Conduit & Raff 2010 (PMID 20445539) — обзор механизмов асимметрии в ств
+**Your context:** веретено. - **Mammalian HSC:** Wang et al. 2009 (PMID 19264965) — косвенные данные. 🔴 **Прямых данных по PTM-нагруженной центриоли у HSC нет** — оставшийся блокирующий барьер. - Conduit & Raff 2010 (PMID 20445539) — обзор механизмов асимметрии в ств
 **Actual (wrong?) paper:** Kosmrlj A 2010 — Effects of thymic selection of the T-cell repertoire on HLA class I-associated control of HIV infection.
 **Keywords extracted:** Mammalian, Wang, Conduit, Raff, Yamashita
 **No candidates found.**
@@ -293,14 +293,14 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 38. PMID 20445539 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** t; if not, search for proper PMID.   ## 78. PMID 37552892 — LOW_SCORE **File:** `CONCEPT.md` **Your context:** агруженной центриоли у HSC нет** — оставшийся блокирующий барьер. - Conduit & Raff 2010 (PMID 20445539) — обзор механизмов асимметрии в ств
+**Your context:** t; if not, search for proper PMID. ## 78. PMID 37552892 — LOW_SCORE **File:** `CONCEPT.md` **Your context:** агруженной центриоли у HSC нет** — оставшийся блокирующий барьер. - Conduit & Raff 2010 (PMID 20445539) — обзор механизмов асимметрии в ств
 **Actual (wrong?) paper:** Kosmrlj A 2010 — Effects of thymic selection of the T-cell repertoire on HLA class I-associated control of HIV infection.
 **Keywords extracted:** search, proper, SCORE, File, CONCEPT
 **No candidates found.**
 
 
 ## 39. PMID 20445539 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 79. PMID 37552892 — LOW_SCORE **File:** `CONCEPT.md` **Your context:** Raff 2010 (PMID 20445539):** Обзор: направленное наследование
+**Your context:** Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 79. PMID 37552892 — LOW_SCORE **File:** `CONCEPT.md` **Your context:** Raff 2010 (PMID 20445539):** Обзор: направленное наследование
 **Actual (wrong?) paper:** Kosmrlj A 2010 — Effects of thymic selection of the T-cell repertoire on HLA class I-associated control of HIV infection.
 **Keywords extracted:** Match, score, keyword, overlap, Action
 **No candidates found.**
@@ -317,28 +317,28 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 41. PMID 36583780 in `CDATA/CLAUDE.md`
-**Your context:** лизации UPGRADE-пункта → пометить ✅ в `UPGRADE.md` немедленно - При пуше → обновить `README.md` + `UPGRADE.md` перед коммитом  ---  ## Самоцитирование в статьях CDATA  Приоритет (всегда включать): 1. PMID 36583780 — Tkemaladze 2023, Mol Biol Reports 
+**Your context:** лизации UPGRADE-пункта → пометить ✅ в `UPGRADE.md` немедленно - При пуше → обновить `README.md` + `UPGRADE.md` перед коммитом --- ## Самоцитирование в статьях CDATA Приоритет (всегда включать): 1. PMID 36583780 — Tkemaladze 2023, Mol Biol Reports 
 **Actual (wrong?) paper:** Tkemaladze J 2023 — Reduction, proliferation, and differentiation defects of stem cells over time: a consequence of selective accumulation of old centrioles in the stem c
 **Keywords extracted:** UPGRADE-, UPGRADE, README, CDATA, Tkemaladze
 **No candidates found.**
 
 
 ## 42. PMID 36583780 in `CDATA/CONCEPT.md`
-**Your context:** Отсутствие данных C1 (PTM ∝ числу делений) и C2 у HSC (кровь). PTM-статус наследуемой центриоли не измерен ни в одном исследовании. Барьер устраним за ~$75K.  ---  ## Advances beyond Tkemaladze 2023 (PMID: 36583780)  Статья Tkemaladze 2023 сформулиро
+**Your context:** Отсутствие данных C1 (PTM ∝ числу делений) и C2 у HSC (кровь). PTM-статус наследуемой центриоли не измерен ни в одном исследовании. Барьер устраним за ~$75K. --- ## Advances beyond Tkemaladze 2023 (PMID: 36583780) Статья Tkemaladze 2023 сформулиро
 **Actual (wrong?) paper:** Tkemaladze J 2023 — Reduction, proliferation, and differentiation defects of stem cells over time: a consequence of selective accumulation of old centrioles in the stem c
 **Keywords extracted:** Advances, beyond, Tkemaladze, CDATA
 **No candidates found.**
 
 
 ## 43. PMID 36583780 in `CDATA/CONCEPT.md`
-**Your context:** } ```  ---  ## 32 Параметра модели  | Группа | Параметр | Значение | Априорное | Источник | |--------|----------|----------|-----------|----------| | **Базовые** | α | 0.0082 | Normal(0.008, 0.002) | PMID: 36583780 (Tkemaladze 2023) | | | Hayflick_li
+**Your context:** } ``` --- ## 32 Параметра модели | Группа | Параметр | Значение | Априорное | Источник | |--------|----------|----------|-----------|----------| | **Базовые** | α | 0.0082 | Normal(0.008, 0.002) | PMID: 36583780 (Tkemaladze 2023) | | | Hayflick_li
 **Actual (wrong?) paper:** Tkemaladze J 2023 — Reduction, proliferation, and differentiation defects of stem cells over time: a consequence of selective accumulation of old centrioles in the stem c
 **Keywords extracted:** Normal, Tkemaladze, Hayflick, limit, Fixed
 **No candidates found.**
 
 
 ## 44. PMID 36583780 in `CDATA/CONCEPT.md`
-**Your context:** льные 30 зафиксированы с биологическим обоснованием - **Обоснование выбора свободных параметров (S3-ответ):**   - **α = 0.0082 зафиксирован**, не является свободным: значение взято непосредственно из PMID 36583780 (Tkemaladze 2023) на основе эксперим
+**Your context:** льные 30 зафиксированы с биологическим обоснованием - **Обоснование выбора свободных параметров (S3-ответ):** - **α = 0.0082 зафиксирован**, не является свободным: значение взято непосредственно из PMID 36583780 (Tkemaladze 2023) на основе эксперим
 **Actual (wrong?) paper:** Tkemaladze J 2023 — Reduction, proliferation, and differentiation defects of stem cells over time: a consequence of selective accumulation of old centrioles in the stem c
 **Keywords extracted:** Tkemaladze
 **Top candidates:**
@@ -348,14 +348,14 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 45. PMID 36583780 in `CDATA/CONCEPT.md`
-**Your context:**  функционального снижения  ---  ## Ключевые референсы  **Фундаментальные:** 1. **Tkemaladze J.** (2023). Centriolar Damage Accumulation Theory of Aging. *Molecular Biology Reports*, 50(2): 1234-1245. PMID: 36583780 2. **Jaiswal S., et al.** (2017). C
+**Your context:** функционального снижения --- ## Ключевые референсы **Фундаментальные:** 1. **Tkemaladze J.** (2023). Centriolar Damage Accumulation Theory of Aging. *Molecular Biology Reports*, 50(2): 1234-1245. PMID: 36583780 2. **Jaiswal S., et al.** (2017). C
 **Actual (wrong?) paper:** Tkemaladze J 2023 — Reduction, proliferation, and differentiation defects of stem cells over time: a consequence of selective accumulation of old centrioles in the stem c
 **Keywords extracted:** Tkemaladze, Centriolar, Damage, Accumulation, Theory
 **No candidates found.**
 
 
 ## 46. PMID 36583780 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** # Reference Audit — CDATA Generated: 2026-04-19T15:17:53.965311 Total mismatches flagged: **162**  ---   ## 1. PMID 36583780 — LOW_SCORE **File:** `PARAMETERS.md` **Your context:** раметр | Обозначение | Значение / Диапазон 
+**Your context:** # Reference Audit — CDATA Generated: 2026-04-19T15:17:53.965311 Total mismatches flagged: **162** --- ## 1. PMID 36583780 — LOW_SCORE **File:** `PARAMETERS.md` **Your context:** раметр | Обозначение | Значение / Диапазон 
 **Actual (wrong?) paper:** Tkemaladze J 2023 — Reduction, proliferation, and differentiation defects of stem cells over time: a consequence of selective accumulation of old centrioles in the stem c
 **Keywords extracted:** Reference, Audit, CDATA, Generated, Total
 **No candidates found.**
@@ -372,42 +372,42 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 48. PMID 36583780 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** лизации UPGRADE-пункта → пометить ✅ в `UPGRADE.md` немедленно - При пуше → обновить `README.md` + `UPGRADE.md` перед коммитом  ---  ## Самоцитирование в статьях CDATA  Приоритет (всегда включать): 1. PMID 36583780 — Tkemaladze 2023, Mol Biol Reports 
+**Your context:** лизации UPGRADE-пункта → пометить ✅ в `UPGRADE.md` немедленно - При пуше → обновить `README.md` + `UPGRADE.md` перед коммитом --- ## Самоцитирование в статьях CDATA Приоритет (всегда включать): 1. PMID 36583780 — Tkemaladze 2023, Mol Biol Reports 
 **Actual (wrong?) paper:** Tkemaladze J 2023 — Reduction, proliferation, and differentiation defects of stem cells over time: a consequence of selective accumulation of old centrioles in the stem c
 **Keywords extracted:** UPGRADE-, UPGRADE, README, CDATA, Tkemaladze
 **No candidates found.**
 
 
 ## 49. PMID 36583780 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** Отсутствие данных C1 (PTM ∝ числу делений) и C2 у HSC (кровь). PTM-статус наследуемой центриоли не измерен ни в одном исследовании. Барьер устраним за ~$75K.  ---  ## Advances beyond Tkemaladze 2023 (PMID: 36583780)  Статья Tkemaladze 2023 сформулиро
+**Your context:** Отсутствие данных C1 (PTM ∝ числу делений) и C2 у HSC (кровь). PTM-статус наследуемой центриоли не измерен ни в одном исследовании. Барьер устраним за ~$75K. --- ## Advances beyond Tkemaladze 2023 (PMID: 36583780) Статья Tkemaladze 2023 сформулиро
 **Actual (wrong?) paper:** Tkemaladze J 2023 — Reduction, proliferation, and differentiation defects of stem cells over time: a consequence of selective accumulation of old centrioles in the stem c
 **Keywords extracted:** Advances, beyond, Tkemaladze, CDATA, Actual
 **No candidates found.**
 
 
 ## 50. PMID 36583780 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** } ```  ---  ## 32 Параметра модели  | Группа | Параметр | Значение | Априорное | Источник | |--------|----------|----------|-----------|----------| | **Базовые** | α | 0.0082 | Normal(0.008, 0.002) | PMID: 36583780 (Tkemaladze 2023) | | | Hayflick_li
+**Your context:** } ``` --- ## 32 Параметра модели | Группа | Параметр | Значение | Априорное | Источник | |--------|----------|----------|-----------|----------| | **Базовые** | α | 0.0082 | Normal(0.008, 0.002) | PMID: 36583780 (Tkemaladze 2023) | | | Hayflick_li
 **Actual (wrong?) paper:** Tkemaladze J 2023 — Reduction, proliferation, and differentiation defects of stem cells over time: a consequence of selective accumulation of old centrioles in the stem c
 **Keywords extracted:** Normal, Tkemaladze, Hayflick, limit, Fixed
 **No candidates found.**
 
 
 ## 51. PMID 36583780 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** льные 30 зафиксированы с биологическим обоснованием - **Обоснование выбора свободных параметров (S3-ответ):**   - **α = 0.0082 зафиксирован**, не является свободным: значение взято непосредственно из PMID 36583780 (Tkemaladze 2023) на основе эксперим
+**Your context:** льные 30 зафиксированы с биологическим обоснованием - **Обоснование выбора свободных параметров (S3-ответ):** - **α = 0.0082 зафиксирован**, не является свободным: значение взято непосредственно из PMID 36583780 (Tkemaladze 2023) на основе эксперим
 **Actual (wrong?) paper:** Tkemaladze J 2023 — Reduction, proliferation, and differentiation defects of stem cells over time: a consequence of selective accumulation of old centrioles in the stem c
 **Keywords extracted:** Tkemaladze, Actual
 **No candidates found.**
 
 
 ## 52. PMID 36583780 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:**  функционального снижения  ---  ## Ключевые референсы  **Фундаментальные:** 1. **Tkemaladze J.** (2023). Centriolar Damage Accumulation Theory of Aging. *Molecular Biology Reports*, 50(2): 1234-1245. PMID: 36583780 2. **Jaiswal S., et al.** (2017). C
+**Your context:** функционального снижения --- ## Ключевые референсы **Фундаментальные:** 1. **Tkemaladze J.** (2023). Centriolar Damage Accumulation Theory of Aging. *Molecular Biology Reports*, 50(2): 1234-1245. PMID: 36583780 2. **Jaiswal S., et al.** (2017). C
 **Actual (wrong?) paper:** Tkemaladze J 2023 — Reduction, proliferation, and differentiation defects of stem cells over time: a consequence of selective accumulation of old centrioles in the stem c
 **Keywords extracted:** Tkemaladze, Centriolar, Damage, Accumulation, Theory
 **No candidates found.**
 
 
 ## 53. PMID 36583780 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:**          Self {             p0: 0.55,      // Estimated aged HSC baseline (not measured, CDATA prior)             p_crit: 0.75,  // Ciliary failure threshold (estimated)             alpha: 0.0082, // PMID 36583780, MCMC calibrated             k_div: 
+**Your context:** Self { p0: 0.55, // Estimated aged HSC baseline (not measured, CDATA prior) p_crit: 0.75, // Ciliary failure threshold (estimated) alpha: 0.0082, // PMID 36583780, MCMC calibrated k_div: 
 **Actual (wrong?) paper:** Tkemaladze J 2023 — Reduction, proliferation, and differentiation defects of stem cells over time: a consequence of selective accumulation of old centrioles in the stem c
 **Keywords extracted:** Self, Estimated, aged, baseline, measured
 **Top candidates:**
@@ -417,7 +417,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 54. PMID 36583780 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** disprove CDATA but indicates the deglutamylation repair axis (Pillar 5) may be more complex.   **Action:** Add to UPGRADE.md (Complexity of CCP1/AGBL5 repair mechanism).  **No new citations found for PMID 36583780 (Tkemaladze 2023) or PMID 19264965 (
+**Your context:** disprove CDATA but indicates the deglutamylation repair axis (Pillar 5) may be more complex. **Action:** Add to UPGRADE.md (Complexity of CCP1/AGBL5 repair mechanism). **No new citations found for PMID 36583780 (Tkemaladze 2023) or PMID 19264965 (
 **Actual (wrong?) paper:** Tkemaladze J 2023 — Reduction, proliferation, and differentiation defects of stem cells over time: a consequence of selective accumulation of old centrioles in the stem c
 **Keywords extracted:** disprove, CDATA, indicates, deglutamylation, repair
 **No candidates found.**
@@ -431,21 +431,21 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 56. PMID 36583780 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:**  range from experimental consultation to co-design of the transplantation component.  I would be glad to share the full draft LOI and the formal CDATA manuscript (Tkemaladze, *Mol Biol Reports* 2023; PMID: 36583780) for your review.  Would you be ope
+**Your context:** range from experimental consultation to co-design of the transplantation component. I would be glad to share the full draft LOI and the formal CDATA manuscript (Tkemaladze, *Mol Biol Reports* 2023; PMID: 36583780) for your review. Would you be ope
 **Actual (wrong?) paper:** Tkemaladze J 2023 — Reduction, proliferation, and differentiation defects of stem cells over time: a consequence of selective accumulation of old centrioles in the stem c
 **Keywords extracted:** range, experimental, consultation, co-design, transplantation
 **No candidates found.**
 
 
 ## 57. PMID 36583780 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** ongevity Alliance   Independent Researcher — CDATA / Longevity Biology   Email: jaba@longevity.ge   ORCID: 0000-0002-4898-1099   CDATA preprint: https://doi.org/10.5281/zenodo.19174506   Publication: PMID 36583780  ---  *P.S. I note that as co-founde
+**Your context:** ongevity Alliance Independent Researcher — CDATA / Longevity Biology Email: jaba@longevity.ge ORCID: 0000-0002-4898-1099 CDATA preprint: Publication: PMID 36583780 --- *P.S. I note that as co-founde
 **Actual (wrong?) paper:** Tkemaladze J 2023 — Reduction, proliferation, and differentiation defects of stem cells over time: a consequence of selective accumulation of old centrioles in the stem c
 **Keywords extracted:** ongevity, Alliance, Independent, Researcher, CDATA
 **No candidates found.**
 
 
 ## 58. PMID 36583780 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** 0 | Chichinadze KN, Tkemaladze DV. *Adv Gerontol.* 2008; PMID: 19432168 | Centrosomal hypothesis (Russian) |  **Key contribution:** Originator of CDATA, published in *Molecular Biology Reports* 2023 (PMID 36583780). Twenty years of continuous work on
+**Your context:** 0 | Chichinadze KN, Tkemaladze DV. *Adv Gerontol.* 2008; PMID: 19432168 | Centrosomal hypothesis (Russian) | **Key contribution:** Originator of CDATA, published in *Molecular Biology Reports* 2023 (PMID 36583780). Twenty years of continuous work on
 **Actual (wrong?) paper:** Tkemaladze J 2023 — Reduction, proliferation, and differentiation defects of stem cells over time: a consequence of selective accumulation of old centrioles in the stem c
 **Keywords extracted:** Chichinadze, Tkemaladze, Gerontol, Centrosomal, hypothesis
 **Top candidates:**
@@ -454,14 +454,14 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 59. PMID 36583780 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:**  (2005–2024):**  | # | Citation | Focus | |---|----------|-------| | 1 | Tkemaladze J. *Front Pharmacol.* 2024; PMID: 38510429 | Glycative/oxidative stress | | 2 | Tkemaladze J. *Mol Biol Rep.* 2023; PMID: 36583780 | **CDATA review** | | 3 | Chichina
+**Your context:** (2005–2024):** | # | Citation | Focus | |---|----------|-------| | 1 | Tkemaladze J. *Front Pharmacol.* 2024; PMID: 38510429 | Glycative/oxidative stress | | 2 | Tkemaladze J. *Mol Biol Rep.* 2023; PMID: 36583780 | **CDATA review** | | 3 | Chichina
 **Actual (wrong?) paper:** Tkemaladze J 2023 — Reduction, proliferation, and differentiation defects of stem cells over time: a consequence of selective accumulation of old centrioles in the stem c
 **Keywords extracted:** Citation, Focus, Tkemaladze, Front, Pharmacol
 **No candidates found.**
 
 
 ## 60. PMID 36583780 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** 0 | Chichinadze KN, Tkemaladze DV. *Adv Gerontol.* 2008; PMID: 19432168 | Centrosomal hypothesis (Russian) |  **Key contribution:** Originator of CDATA, published in *Molecular Biology Reports* 2023 (PMID 36583780). Twenty years of continuous work on
+**Your context:** 0 | Chichinadze KN, Tkemaladze DV. *Adv Gerontol.* 2008; PMID: 19432168 | Centrosomal hypothesis (Russian) | **Key contribution:** Originator of CDATA, published in *Molecular Biology Reports* 2023 (PMID 36583780). Twenty years of continuous work on
 **Actual (wrong?) paper:** Tkemaladze J 2023 — Reduction, proliferation, and differentiation defects of stem cells over time: a consequence of selective accumulation of old centrioles in the stem c
 **Keywords extracted:** Chichinadze, Tkemaladze, Gerontol, Centrosomal, hypothesis
 **Top candidates:**
@@ -470,7 +470,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 61. PMID 36583780 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** H_2026-04-17.md` **Your context:** glutamylation repair axis (Pillar 5) may be more complex.   **Action:** Add to UPGRADE.md (Complexity of CCP1/AGBL5 repair mechanism).  **No new citations found for PMID 36583780 (Tkemaladze 2023) or PMID 19264965 (
+**Your context:** H_2026-04-17.md` **Your context:** glutamylation repair axis (Pillar 5) may be more complex. **Action:** Add to UPGRADE.md (Complexity of CCP1/AGBL5 repair mechanism). **No new citations found for PMID 36583780 (Tkemaladze 2023) or PMID 19264965 (
 **Actual (wrong?) paper:** Tkemaladze J 2023 — Reduction, proliferation, and differentiation defects of stem cells over time: a consequence of selective accumulation of old centrioles in the stem c
 **Keywords extracted:** context, glutamylation, repair, axis, Pillar
 **No candidates found.**
@@ -484,7 +484,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 63. PMID 36583780 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** word overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 96. PMID 16168009 — LOW_SCORE **File:** `CONCEPT.md` **Your context:** 082 | Normal(0.008, 0.002) | PMID: 36583780 (Tkemaladze 2023) | | | Hayflick_li
+**Your context:** word overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 96. PMID 16168009 — LOW_SCORE **File:** `CONCEPT.md` **Your context:** 082 | Normal(0.008, 0.002) | PMID: 36583780 (Tkemaladze 2023) | | | Hayflick_li
 **Actual (wrong?) paper:** Tkemaladze J 2023 — Reduction, proliferation, and differentiation defects of stem cells over time: a consequence of selective accumulation of old centrioles in the stem c
 **Keywords extracted:** word, overlap, Action, needed, verify
 **Top candidates:**
@@ -492,7 +492,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 64. PMID 36583780 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** if citation is correct; if not, search for proper PMID.   ## 120. PMID 28901234 — LOW_SCORE **File:** `CONCEPT.md` **Your context:** on Theory of Aging. *Molecular Biology Reports*, 50(2): 1234-1245. PMID: 36583780 2. **Jaiswal S., et al.** (2017). C
+**Your context:** if citation is correct; if not, search for proper PMID. ## 120. PMID 28901234 — LOW_SCORE **File:** `CONCEPT.md` **Your context:** on Theory of Aging. *Molecular Biology Reports*, 50(2): 1234-1245. PMID: 36583780 2. **Jaiswal S., et al.** (2017). C
 **Actual (wrong?) paper:** Tkemaladze J 2023 — Reduction, proliferation, and differentiation defects of stem cells over time: a consequence of selective accumulation of old centrioles in the stem c
 **Keywords extracted:** citation, correct, search, proper, SCORE
 **Top candidates:**
@@ -500,7 +500,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 65. PMID 36583780 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** r proper PMID.   ## 132. PMID 19829375 — LOW_SCORE **File:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:**  ✅ Верифицирован | PMID 15308640 | | 22 | Tkemaladze 2023 | ✅ Верифицирован | PMID 36583780 | | 23 | Vaziri et al. 1999 | ✅ Вери
+**Your context:** r proper PMID. ## 132. PMID 19829375 — LOW_SCORE **File:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** ✅ Верифицирован | PMID 15308640 | | 22 | Tkemaladze 2023 | ✅ Верифицирован | PMID 36583780 | | 23 | Vaziri et al. 1999 | ✅ Вери
 **Actual (wrong?) paper:** Tkemaladze J 2023 — Reduction, proliferation, and differentiation defects of stem cells over time: a consequence of selective accumulation of old centrioles in the stem c
 **Keywords extracted:** proper, SCORE, File, docs, CDATA
 **No candidates found.**
@@ -514,14 +514,14 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 67. PMID 36583780 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:**  `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:**  Верифицирован | PMID 24120134 | | 21 | Taylor et al. 2004 | ✅ Верифицирован | PMID 15308640 | | 22 | Tkemaladze 2023 | ✅ Верифицирован | PMID 36583780 | | 23 | Vaziri et al. 1999 | ✅ Вери
+**Your context:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** Верифицирован | PMID 24120134 | | 21 | Taylor et al. 2004 | ✅ Верифицирован | PMID 15308640 | | 22 | Tkemaladze 2023 | ✅ Верифицирован | PMID 36583780 | | 23 | Vaziri et al. 1999 | ✅ Вери
 **Actual (wrong?) paper:** Tkemaladze J 2023 — Reduction, proliferation, and differentiation defects of stem cells over time: a consequence of selective accumulation of old centrioles in the stem c
 **Keywords extracted:** docs, CDATA, Fibroblasts, REVIEW, context
 **No candidates found.**
 
 
 ## 68. PMID 36583780 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** n needed:** verify if citation is correct; if not, search for proper PMID.   ## 151. PMID 10473565 — LOW_SCORE **File:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** ✅ Верифицирован | PMID 36583780 | | 23 | Vaziri et al. 1999 | ✅ Вери
+**Your context:** n needed:** verify if citation is correct; if not, search for proper PMID. ## 151. PMID 10473565 — LOW_SCORE **File:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** ✅ Верифицирован | PMID 36583780 | | 23 | Vaziri et al. 1999 | ✅ Вери
 **Actual (wrong?) paper:** Tkemaladze J 2023 — Reduction, proliferation, and differentiation defects of stem cells over time: a consequence of selective accumulation of old centrioles in the stem c
 **Keywords extracted:** needed, verify, citation, correct, search
 **Top candidates:**
@@ -536,7 +536,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 70. PMID 36583780 in `CDATA/docs/CODE_CHANGES_NEEDED.md`
-**Your context:**          Self {             p0: 0.55,      // Estimated aged HSC baseline (not measured, CDATA prior)             p_crit: 0.75,  // Ciliary failure threshold (estimated)             alpha: 0.0082, // PMID 36583780, MCMC calibrated             k_div: 
+**Your context:** Self { p0: 0.55, // Estimated aged HSC baseline (not measured, CDATA prior) p_crit: 0.75, // Ciliary failure threshold (estimated) alpha: 0.0082, // PMID 36583780, MCMC calibrated k_div: 
 **Actual (wrong?) paper:** Tkemaladze J 2023 — Reduction, proliferation, and differentiation defects of stem cells over time: a consequence of selective accumulation of old centrioles in the stem c
 **Keywords extracted:** Self, Estimated, aged, baseline, measured
 **Top candidates:**
@@ -546,7 +546,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 71. PMID 36583780 in `CDATA/docs/CDATA_DAILY_SEARCH_2026-04-17.md`
-**Your context:** disprove CDATA but indicates the deglutamylation repair axis (Pillar 5) may be more complex.   **Action:** Add to UPGRADE.md (Complexity of CCP1/AGBL5 repair mechanism).  **No new citations found for PMID 36583780 (Tkemaladze 2023) or PMID 19264965 (
+**Your context:** disprove CDATA but indicates the deglutamylation repair axis (Pillar 5) may be more complex. **Action:** Add to UPGRADE.md (Complexity of CCP1/AGBL5 repair mechanism). **No new citations found for PMID 36583780 (Tkemaladze 2023) or PMID 19264965 (
 **Actual (wrong?) paper:** Tkemaladze J 2023 — Reduction, proliferation, and differentiation defects of stem cells over time: a consequence of selective accumulation of old centrioles in the stem c
 **Keywords extracted:** disprove, CDATA, indicates, deglutamylation, repair
 **No candidates found.**
@@ -560,21 +560,21 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 73. PMID 36583780 in `CDATA/docs/AUBREY_MEETING_2026-04-18/LETTER_GEIGER.md`
-**Your context:**  range from experimental consultation to co-design of the transplantation component.  I would be glad to share the full draft LOI and the formal CDATA manuscript (Tkemaladze, *Mol Biol Reports* 2023; PMID: 36583780) for your review.  Would you be ope
+**Your context:** range from experimental consultation to co-design of the transplantation component. I would be glad to share the full draft LOI and the formal CDATA manuscript (Tkemaladze, *Mol Biol Reports* 2023; PMID: 36583780) for your review. Would you be ope
 **Actual (wrong?) paper:** Tkemaladze J 2023 — Reduction, proliferation, and differentiation defects of stem cells over time: a consequence of selective accumulation of old centrioles in the stem c
 **Keywords extracted:** range, experimental, consultation, co-design, transplantation
 **No candidates found.**
 
 
 ## 74. PMID 36583780 in `CDATA/docs/AUBREY_MEETING_2026-04-18/LETTER_GEIGER.md`
-**Your context:** ongevity Alliance   Independent Researcher — CDATA / Longevity Biology   Email: jaba@longevity.ge   ORCID: 0000-0002-4898-1099   CDATA preprint: https://doi.org/10.5281/zenodo.19174506   Publication: PMID 36583780  ---  *P.S. I note that as co-founde
+**Your context:** ongevity Alliance Independent Researcher — CDATA / Longevity Biology Email: jaba@longevity.ge ORCID: 0000-0002-4898-1099 CDATA preprint: Publication: PMID 36583780 --- *P.S. I note that as co-founde
 **Actual (wrong?) paper:** Tkemaladze J 2023 — Reduction, proliferation, and differentiation defects of stem cells over time: a consequence of selective accumulation of old centrioles in the stem c
 **Keywords extracted:** ongevity, Alliance, Independent, Researcher, CDATA
 **No candidates found.**
 
 
 ## 75. PMID 36583780 in `CDATA/docs/AUBREY_MEETING_2026-04-18/LOI_Impetus.md`
-**Your context:** 0 | Chichinadze KN, Tkemaladze DV. *Adv Gerontol.* 2008; PMID: 19432168 | Centrosomal hypothesis (Russian) |  **Key contribution:** Originator of CDATA, published in *Molecular Biology Reports* 2023 (PMID 36583780). Twenty years of continuous work on
+**Your context:** 0 | Chichinadze KN, Tkemaladze DV. *Adv Gerontol.* 2008; PMID: 19432168 | Centrosomal hypothesis (Russian) | **Key contribution:** Originator of CDATA, published in *Molecular Biology Reports* 2023 (PMID 36583780). Twenty years of continuous work on
 **Actual (wrong?) paper:** Tkemaladze J 2023 — Reduction, proliferation, and differentiation defects of stem cells over time: a consequence of selective accumulation of old centrioles in the stem c
 **Keywords extracted:** Chichinadze, Tkemaladze, Gerontol, Centrosomal, hypothesis
 **Top candidates:**
@@ -583,14 +583,14 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 76. PMID 36583780 in `CDATA/docs/AUBREY_MEETING_2026-04-18/AUBREY_MEETING_2026-04-18.md`
-**Your context:**  (2005–2024):**  | # | Citation | Focus | |---|----------|-------| | 1 | Tkemaladze J. *Front Pharmacol.* 2024; PMID: 38510429 | Glycative/oxidative stress | | 2 | Tkemaladze J. *Mol Biol Rep.* 2023; PMID: 36583780 | **CDATA review** | | 3 | Chichina
+**Your context:** (2005–2024):** | # | Citation | Focus | |---|----------|-------| | 1 | Tkemaladze J. *Front Pharmacol.* 2024; PMID: 38510429 | Glycative/oxidative stress | | 2 | Tkemaladze J. *Mol Biol Rep.* 2023; PMID: 36583780 | **CDATA review** | | 3 | Chichina
 **Actual (wrong?) paper:** Tkemaladze J 2023 — Reduction, proliferation, and differentiation defects of stem cells over time: a consequence of selective accumulation of old centrioles in the stem c
 **Keywords extracted:** Citation, Focus, Tkemaladze, Front, Pharmacol
 **No candidates found.**
 
 
 ## 77. PMID 36583780 in `CDATA/docs/SHASHVIASHVILI_2026-04-15/LOI_Impetus_v16.md`
-**Your context:** 0 | Chichinadze KN, Tkemaladze DV. *Adv Gerontol.* 2008; PMID: 19432168 | Centrosomal hypothesis (Russian) |  **Key contribution:** Originator of CDATA, published in *Molecular Biology Reports* 2023 (PMID 36583780). Twenty years of continuous work on
+**Your context:** 0 | Chichinadze KN, Tkemaladze DV. *Adv Gerontol.* 2008; PMID: 19432168 | Centrosomal hypothesis (Russian) | **Key contribution:** Originator of CDATA, published in *Molecular Biology Reports* 2023 (PMID 36583780). Twenty years of continuous work on
 **Actual (wrong?) paper:** Tkemaladze J 2023 — Reduction, proliferation, and differentiation defects of stem cells over time: a consequence of selective accumulation of old centrioles in the stem c
 **Keywords extracted:** Chichinadze, Tkemaladze, Gerontol, Centrosomal, hypothesis
 **Top candidates:**
@@ -599,140 +599,140 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 78. PMID 36583780 in `Ontogenesis/CLAUDE.md`
-**Your context:** ge₉₀₋₁₀ выходят за `mean + 2×SD` - **Кластеризация:** радиус 6 месяцев, мин. стабильный период 3 месяца  ## Публикации  При написании статей: 1. Использовать DeepSeek API 2. Включить самоцитирование (PMID 36583780, PMID 20480236, Zenodo CDATA/Ze) 3. 
+**Your context:** ge₉₀₋₁₀ выходят за `mean + 2×SD` - **Кластеризация:** радиус 6 месяцев, мин. стабильный период 3 месяца ## Публикации При написании статей: 1. Использовать DeepSeek API 2. Включить самоцитирование (PMID 36583780, PMID 20480236, Zenodo CDATA/Ze) 3. 
 **Actual (wrong?) paper:** Tkemaladze J 2023 — Reduction, proliferation, and differentiation defects of stem cells over time: a consequence of selective accumulation of old centrioles in the stem c
 **Keywords extracted:** mean, DeepSeek, Zenodo, CDATA, Calibri
 **No candidates found.**
 
 
 ## 79. PMID 36583780 in `Ontogenesis/LINKS.md`
-**Your context:** # Ontogenesis — LINKS  ---  ## Self-Citation (for publications from this project)  | Resource | URL / ID | |----------|---------| | PMID 36583780 — Tkemaladze J. *Mol Biol Rep* 2023 | https://pubmed.ncbi.nlm.nih.gov/36583780/ | | PMID 20480236 —
+**Your context:** # Ontogenesis — LINKS --- ## Self-Citation (for publications from this project) | Resource | URL / ID | |----------|---------| | PMID 36583780 — Tkemaladze J. *Mol Biol Rep* 2023 | https://pubmed.ncbi.nlm.nih.gov/36583780/ | | PMID 20480236 —
 **Actual (wrong?) paper:** Tkemaladze J 2023 — Reduction, proliferation, and differentiation defects of stem cells over time: a consequence of selective accumulation of old centrioles in the stem c
 **Keywords extracted:** Ontogenesis, LINKS, Self-Citation, publications, project
 **No candidates found.**
 
 
 ## 80. PMID 36583780 in `Ontogenesis/CONCEPT.md`
-**Your context:** mulation»* 3. **Клиническая** (IF 5+): *«Integration of ontogenetic trajectories into integrative medicine clinical decision support: AIM × Ontogenesis»*  **Self-citations (обязательно включить):** - PMID 36583780 (Tkemaladze 2023, Mol Biol Reports) 
+**Your context:** mulation»* 3. **Клиническая** (IF 5+): *«Integration of ontogenetic trajectories into integrative medicine clinical decision support: AIM × Ontogenesis»* **Self-citations (обязательно включить):** - PMID 36583780 (Tkemaladze 2023, Mol Biol Reports) 
 **Actual (wrong?) paper:** Tkemaladze J 2023 — Reduction, proliferation, and differentiation defects of stem cells over time: a consequence of selective accumulation of old centrioles in the stem c
 **Keywords extracted:** mulation, Integration, ontogenetic, trajectories, integrative
 **No candidates found.**
 
 
 ## 81. PMID 36583780 in `Ontogenesis/docs/REFERENCE_AUDIT_Ontogenesis.md`
-**Your context:** # Reference Audit — Ontogenesis Generated: 2026-04-19T15:18:00.203675 Total mismatches flagged: **21**  ---   ## 1. PMID 36583780 — LOW_SCORE **File:** `CLAUDE.md` **Your context:** ge₉₀₋₁₀ выходят за `mean + 2×SD` - **Кластериза
+**Your context:** # Reference Audit — Ontogenesis Generated: 2026-04-19T15:18:00.203675 Total mismatches flagged: **21** --- ## 1. PMID 36583780 — LOW_SCORE **File:** `CLAUDE.md` **Your context:** ge₉₀₋₁₀ выходят за `mean + 2×SD` - **Кластериза
 **Actual (wrong?) paper:** Tkemaladze J 2023 — Reduction, proliferation, and differentiation defects of stem cells over time: a consequence of selective accumulation of old centrioles in the stem c
 **Keywords extracted:** Reference, Audit, Ontogenesis, Generated, Total
 **No candidates found.**
 
 
 ## 82. PMID 36583780 in `Ontogenesis/docs/REFERENCE_AUDIT_Ontogenesis.md`
-**Your context:** ge₉₀₋₁₀ выходят за `mean + 2×SD` - **Кластеризация:** радиус 6 месяцев, мин. стабильный период 3 месяца  ## Публикации  При написании статей: 1. Использовать DeepSeek API 2. Включить самоцитирование (PMID 36583780, PMID 20480236, Zenodo CDATA/Ze) 3. 
+**Your context:** ge₉₀₋₁₀ выходят за `mean + 2×SD` - **Кластеризация:** радиус 6 месяцев, мин. стабильный период 3 месяца ## Публикации При написании статей: 1. Использовать DeepSeek API 2. Включить самоцитирование (PMID 36583780, PMID 20480236, Zenodo CDATA/Ze) 3. 
 **Actual (wrong?) paper:** Tkemaladze J 2023 — Reduction, proliferation, and differentiation defects of stem cells over time: a consequence of selective accumulation of old centrioles in the stem c
 **Keywords extracted:** mean, DeepSeek, Zenodo, CDATA, Calibri
 **No candidates found.**
 
 
 ## 83. PMID 36583780 in `Ontogenesis/docs/REFERENCE_AUDIT_Ontogenesis.md`
-**Your context:** 2. PMID 36583780 — LOW_SCORE **File:** `LINKS.md` **Your context:** # Ontogenesis — LINKS  ---  ## Self-Citation (for publications from this project)  | Resource | URL / ID | |----------|---------| | PMID 36583780 — Tkemaladze J. *Mol Biol Rep* 2023 
+**Your context:** 2. PMID 36583780 — LOW_SCORE **File:** `LINKS.md` **Your context:** # Ontogenesis — LINKS --- ## Self-Citation (for publications from this project) | Resource | URL / ID | |----------|---------| | PMID 36583780 — Tkemaladze J. *Mol Biol Rep* 2023 
 **Actual (wrong?) paper:** Tkemaladze J 2023 — Reduction, proliferation, and differentiation defects of stem cells over time: a consequence of selective accumulation of old centrioles in the stem c
 **Keywords extracted:** SCORE, File, LINKS, context, Ontogenesis
 **No candidates found.**
 
 
 ## 84. PMID 36583780 in `Ontogenesis/docs/REFERENCE_AUDIT_Ontogenesis.md`
-**Your context:** mulation»* 3. **Клиническая** (IF 5+): *«Integration of ontogenetic trajectories into integrative medicine clinical decision support: AIM × Ontogenesis»*  **Self-citations (обязательно включить):** - PMID 36583780 (Tkemaladze 2023, Mol Biol Reports) 
+**Your context:** mulation»* 3. **Клиническая** (IF 5+): *«Integration of ontogenetic trajectories into integrative medicine clinical decision support: AIM × Ontogenesis»* **Self-citations (обязательно включить):** - PMID 36583780 (Tkemaladze 2023, Mol Biol Reports) 
 **Actual (wrong?) paper:** Tkemaladze J 2023 — Reduction, proliferation, and differentiation defects of stem cells over time: a consequence of selective accumulation of old centrioles in the stem c
 **Keywords extracted:** mulation, Integration, ontogenetic, trajectories, integrative
 **No candidates found.**
 
 
 ## 85. PMID 36583780 in `Ontogenesis/docs/REFERENCE_AUDIT_Ontogenesis.md`
-**Your context:** our context:**  за `mean + 2×SD` - **Кластеризация:** радиус 6 месяцев, мин. стабильный период 3 месяца  ## Публикации  При написании статей: 1. Использовать DeepSeek API 2. Включить самоцитирование (PMID 36583780, PMID 20480236, Zenodo CDATA/Ze) 3. 
+**Your context:** our context:** за `mean + 2×SD` - **Кластеризация:** радиус 6 месяцев, мин. стабильный период 3 месяца ## Публикации При написании статей: 1. Использовать DeepSeek API 2. Включить самоцитирование (PMID 36583780, PMID 20480236, Zenodo CDATA/Ze) 3. 
 **Actual (wrong?) paper:** Tkemaladze J 2023 — Reduction, proliferation, and differentiation defects of stem cells over time: a consequence of selective accumulation of old centrioles in the stem c
 **Keywords extracted:** context, mean, DeepSeek, Zenodo, CDATA
 **No candidates found.**
 
 
 ## 86. PMID 36583780 in `Ontogenesis/docs/REFERENCE_AUDIT_Ontogenesis.md`
-**Your context:**  search for proper PMID.   ## 5. PMID 20480236 — LOW_SCORE **File:** `LINKS.md` **Your context:**  Self-Citation (for publications from this project)  | Resource | URL / ID | |----------|---------| | PMID 36583780 — Tkemaladze J. *Mol Biol Rep* 2023 
+**Your context:** search for proper PMID. ## 5. PMID 20480236 — LOW_SCORE **File:** `LINKS.md` **Your context:** Self-Citation (for publications from this project) | Resource | URL / ID | |----------|---------| | PMID 36583780 — Tkemaladze J. *Mol Biol Rep* 2023 
 **Actual (wrong?) paper:** Tkemaladze J 2023 — Reduction, proliferation, and differentiation defects of stem cells over time: a consequence of selective accumulation of old centrioles in the stem c
 **Keywords extracted:** search, proper, SCORE, File, LINKS
 **No candidates found.**
 
 
 ## 87. PMID 36583780 in `Ontogenesis/docs/REFERENCE_AUDIT_Ontogenesis.md`
-**Your context:**  LOW_SCORE **File:** `CONCEPT.md` **Your context:**  of ontogenetic trajectories into integrative medicine clinical decision support: AIM × Ontogenesis»*  **Self-citations (обязательно включить):** - PMID 36583780 (Tkemaladze 2023, Mol Biol Reports) 
+**Your context:** LOW_SCORE **File:** `CONCEPT.md` **Your context:** of ontogenetic trajectories into integrative medicine clinical decision support: AIM × Ontogenesis»* **Self-citations (обязательно включить):** - PMID 36583780 (Tkemaladze 2023, Mol Biol Reports) 
 **Actual (wrong?) paper:** Tkemaladze J 2023 — Reduction, proliferation, and differentiation defects of stem cells over time: a consequence of selective accumulation of old centrioles in the stem c
 **Keywords extracted:** SCORE, File, CONCEPT, context, ontogenetic
 **No candidates found.**
 
 
 ## 88. PMID 36583780 in `BioSense/README.md`
-**Your context:** itation  Tkemaladze, J. (2026). *Ze cheating index (χ_Ze) as a group-level index of neurodynamic aging: Experimental EEG validation across the human lifespan.* [Manuscript under review]  Also cite: - PMID 36583780 — Tkemaladze J. *Mol Biol Reports* 2
+**Your context:** itation Tkemaladze, J. (2026). *Ze cheating index (χ_Ze) as a group-level index of neurodynamic aging: Experimental EEG validation across the human lifespan.* [Manuscript under review] Also cite: - PMID 36583780 — Tkemaladze J. *Mol Biol Reports* 2
 **Actual (wrong?) paper:** Tkemaladze J 2023 — Reduction, proliferation, and differentiation defects of stem cells over time: a consequence of selective accumulation of old centrioles in the stem c
 **Keywords extracted:** itation, Tkemaladze, cheating, index, group-level
 **No candidates found.**
 
 
 ## 89. PMID 36583780 in `BioSense/docs/REFERENCE_AUDIT_BioSense.md`
-**Your context:** # Reference Audit — BioSense Generated: 2026-04-19T15:17:57.434908 Total mismatches flagged: **2**  ---   ## 1. PMID 36583780 — LOW_SCORE **File:** `README.md` **Your context:** itation  Tkemaladze, J. (2026). *Ze cheating in
+**Your context:** # Reference Audit — BioSense Generated: 2026-04-19T15:17:57.434908 Total mismatches flagged: **2** --- ## 1. PMID 36583780 — LOW_SCORE **File:** `README.md` **Your context:** itation Tkemaladze, J. (2026). *Ze cheating in
 **Actual (wrong?) paper:** Tkemaladze J 2023 — Reduction, proliferation, and differentiation defects of stem cells over time: a consequence of selective accumulation of old centrioles in the stem c
 **Keywords extracted:** Reference, Audit, BioSense, Generated, Total
 **No candidates found.**
 
 
 ## 90. PMID 36583780 in `BioSense/docs/REFERENCE_AUDIT_BioSense.md`
-**Your context:** itation  Tkemaladze, J. (2026). *Ze cheating index (χ_Ze) as a group-level index of neurodynamic aging: Experimental EEG validation across the human lifespan.* [Manuscript under review]  Also cite: - PMID 36583780 — Tkemaladze J. *Mol Biol Reports* 2
+**Your context:** itation Tkemaladze, J. (2026). *Ze cheating index (χ_Ze) as a group-level index of neurodynamic aging: Experimental EEG validation across the human lifespan.* [Manuscript under review] Also cite: - PMID 36583780 — Tkemaladze J. *Mol Biol Reports* 2
 **Actual (wrong?) paper:** Tkemaladze J 2023 — Reduction, proliferation, and differentiation defects of stem cells over time: a consequence of selective accumulation of old centrioles in the stem c
 **Keywords extracted:** itation, Tkemaladze, cheating, index, group-level
 **No candidates found.**
 
 
 ## 91. PMID 36583780 in `BioSense/docs/REFERENCE_AUDIT_BioSense.md`
-**Your context:** 236 — LOW_SCORE **File:** `README.md` **Your context:** ) as a group-level index of neurodynamic aging: Experimental EEG validation across the human lifespan.* [Manuscript under review]  Also cite: - PMID 36583780 — Tkemaladze J. *Mol Biol Reports* 2
+**Your context:** 236 — LOW_SCORE **File:** `README.md` **Your context:** ) as a group-level index of neurodynamic aging: Experimental EEG validation across the human lifespan.* [Manuscript under review] Also cite: - PMID 36583780 — Tkemaladze J. *Mol Biol Reports* 2
 **Actual (wrong?) paper:** Tkemaladze J 2023 — Reduction, proliferation, and differentiation defects of stem cells over time: a consequence of selective accumulation of old centrioles in the stem c
 **Keywords extracted:** SCORE, File, README, context, group-level
 **No candidates found.**
 
 
 ## 92. PMID 25678901 in `CDATA/README.md`
-**Your context:** CAI@80, Damage@100, Telomere@100, Epigenetic Age@100 (with delta vs control)  ### Biological Constraints in GUI Simulation  - Stem cell **telomere length does not decrease** (constitutive telomerase, PMID: 25678901) - **ROS** saturates at 2.2× baseli
+**Your context:** CAI@80, Damage@100, Telomere@100, Epigenetic Age@100 (with delta vs control) ### Biological Constraints in GUI Simulation - Stem cell **telomere length does not decrease** (constitutive telomerase, PMID: 25678901) - **ROS** saturates at 2.2× baseli
 **Actual (wrong?) paper:** Zhu HC 2015 — Efficacy and safety of individually tailored antiplatelet therapy in patients with acute coronary syndrome after coronary stenting: a single center, r
 **Keywords extracted:** Damage, Telomere, Epigenetic, delta, control
 **No candidates found.**
 
 
 ## 93. PMID 25678901 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** s in the stem cells?* - Author: Tkemaladze J (2023) - Journal: Mol Biol Rep - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 15. PMID 25678901 — LOW_SCORE **File:** `README.md` **
+**Your context:** s in the stem cells?* - Author: Tkemaladze J (2023) - Journal: Mol Biol Rep - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 15. PMID 25678901 — LOW_SCORE **File:** `README.md` **
 **Actual (wrong?) paper:** Zhu HC 2015 — Efficacy and safety of individually tailored antiplatelet therapy in patients with acute coronary syndrome after coronary stenting: a single center, r
 **Keywords extracted:** stem, cells, Author, Tkemaladze, Journal
 **No candidates found.**
 
 
 ## 94. PMID 25678901 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** CAI@80, Damage@100, Telomere@100, Epigenetic Age@100 (with delta vs control)  ### Biological Constraints in GUI Simulation  - Stem cell **telomere length does not decrease** (constitutive telomerase, PMID: 25678901) - **ROS** saturates at 2.2× baseli
+**Your context:** CAI@80, Damage@100, Telomere@100, Epigenetic Age@100 (with delta vs control) ### Biological Constraints in GUI Simulation - Stem cell **telomere length does not decrease** (constitutive telomerase, PMID: 25678901) - **ROS** saturates at 2.2× baseli
 **Actual (wrong?) paper:** Zhu HC 2015 — Efficacy and safety of individually tailored antiplatelet therapy in patients with acute coronary syndrome after coronary stenting: a single center, r
 **Keywords extracted:** Damage, Telomere, Epigenetic, delta, control
 **No candidates found.**
 
 
 ## 95. PMID 25678901 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** per PMID.   ## 16. PMID 35012345 — LOW_SCORE **File:** `README.md` **Your context:** logical Constraints in GUI Simulation  - Stem cell **telomere length does not decrease** (constitutive telomerase, PMID: 25678901) - **ROS** saturates at 2.2× baseli
+**Your context:** per PMID. ## 16. PMID 35012345 — LOW_SCORE **File:** `README.md` **Your context:** logical Constraints in GUI Simulation - Stem cell **telomere length does not decrease** (constitutive telomerase, PMID: 25678901) - **ROS** saturates at 2.2× baseli
 **Actual (wrong?) paper:** Zhu HC 2015 — Efficacy and safety of individually tailored antiplatelet therapy in patients with acute coronary syndrome after coronary stenting: a single center, r
 **Keywords extracted:** SCORE, File, README, context, logical
 **No candidates found.**
 
 
 ## 96. PMID 25678901 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** o - Match score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 17. PMID 24138928 — LOW_SCORE **File:** `README.md` **Your context:** merase, PMID: 25678901) - **ROS** saturates at 2.2× baseli
+**Your context:** o - Match score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 17. PMID 24138928 — LOW_SCORE **File:** `README.md` **Your context:** merase, PMID: 25678901) - **ROS** saturates at 2.2× baseli
 **Actual (wrong?) paper:** Zhu HC 2015 — Efficacy and safety of individually tailored antiplatelet therapy in patients with acute coronary syndrome after coronary stenting: a single center, r
 **Keywords extracted:** Match, score, keyword, overlap, Action
 **No candidates found.**
 
 
 ## 97. PMID 35012345 in `CDATA/README.md`
-**Your context:** logical Constraints in GUI Simulation  - Stem cell **telomere length does not decrease** (constitutive telomerase, PMID: 25678901) - **ROS** saturates at 2.2× baseline in deep old age (max_ros = 2.2, PMID: 35012345) - **Epigenetic age acceleration** 
+**Your context:** logical Constraints in GUI Simulation - Stem cell **telomere length does not decrease** (constitutive telomerase, PMID: 25678901) - **ROS** saturates at 2.2× baseline in deep old age (max_ros = 2.2, PMID: 35012345) - **Epigenetic age acceleration** 
 **Actual (wrong?) paper:** Chen Z 2022 — Bacillus subtilis Histidine Kinase KinC Activates Biofilm Formation by Controlling Heterogeneity of Single-Cell Responses.
 **Keywords extracted:** logical, Constraints, Simulation, Stem, cell
 **Top candidates:**
@@ -741,7 +741,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 98. PMID 35012345 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** logical Constraints in GUI Simulation  - Stem cell **telomere length does not decrease** (constitutive telomerase, PMID: 25678901) - **ROS** saturates at 2.2× baseline in deep old age (max_ros = 2.2, PMID: 35012345) **Actual PubMed record:** - Title:
+**Your context:** logical Constraints in GUI Simulation - Stem cell **telomere length does not decrease** (constitutive telomerase, PMID: 25678901) - **ROS** saturates at 2.2× baseline in deep old age (max_ros = 2.2, PMID: 35012345) **Actual PubMed record:** - Title:
 **Actual (wrong?) paper:** Chen Z 2022 — Bacillus subtilis Histidine Kinase KinC Activates Biofilm Formation by Controlling Heterogeneity of Single-Cell Responses.
 **Keywords extracted:** logical, Constraints, Simulation, Stem, cell
 **Top candidates:**
@@ -750,7 +750,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 99. PMID 35012345 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** d, feasibility study.* - Author: Zhu HC (2015) - Journal: J Geriatr Cardiol - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 16. PMID 35012345 — LOW_SCORE **File:** `README.md` **
+**Your context:** d, feasibility study.* - Author: Zhu HC (2015) - Journal: J Geriatr Cardiol - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 16. PMID 35012345 — LOW_SCORE **File:** `README.md` **
 **Actual (wrong?) paper:** Chen Z 2022 — Bacillus subtilis Histidine Kinase KinC Activates Biofilm Formation by Controlling Heterogeneity of Single-Cell Responses.
 **Keywords extracted:** feasibility, study, Author, Journal, Geriatr
 **Top candidates:**
@@ -760,7 +760,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 100. PMID 35012345 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** logical Constraints in GUI Simulation  - Stem cell **telomere length does not decrease** (constitutive telomerase, PMID: 25678901) - **ROS** saturates at 2.2× baseline in deep old age (max_ros = 2.2, PMID: 35012345) - **Epigenetic age acceleration** 
+**Your context:** logical Constraints in GUI Simulation - Stem cell **telomere length does not decrease** (constitutive telomerase, PMID: 25678901) - **ROS** saturates at 2.2× baseline in deep old age (max_ros = 2.2, PMID: 35012345) - **Epigenetic age acceleration** 
 **Actual (wrong?) paper:** Chen Z 2022 — Bacillus subtilis Histidine Kinase KinC Activates Biofilm Formation by Controlling Heterogeneity of Single-Cell Responses.
 **Keywords extracted:** logical, Constraints, Simulation, Stem, cell
 **Top candidates:**
@@ -769,7 +769,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 101. PMID 35012345 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** if not, search for proper PMID.   ## 17. PMID 24138928 — LOW_SCORE **File:** `README.md` **Your context:** merase, PMID: 25678901) - **ROS** saturates at 2.2× baseline in deep old age (max_ros = 2.2, PMID: 35012345) - **Epigenetic age acceleration** 
+**Your context:** if not, search for proper PMID. ## 17. PMID 24138928 — LOW_SCORE **File:** `README.md` **Your context:** merase, PMID: 25678901) - **ROS** saturates at 2.2× baseline in deep old age (max_ros = 2.2, PMID: 35012345) - **Epigenetic age acceleration** 
 **Actual (wrong?) paper:** Chen Z 2022 — Bacillus subtilis Histidine Kinase KinC Activates Biofilm Formation by Controlling Heterogeneity of Single-Cell Responses.
 **Keywords extracted:** search, proper, SCORE, File, README
 **No candidates found.**
@@ -790,7 +790,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 104. PMID 24138928 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** ogeneity of Single-Cell Responses.* - Author: Chen Z (2022) - Journal: mBio - Match score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 17. PMID 24138928 — LOW_SCORE **File:** `README.md` **
+**Your context:** ogeneity of Single-Cell Responses.* - Author: Chen Z (2022) - Journal: mBio - Match score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 17. PMID 24138928 — LOW_SCORE **File:** `README.md` **
 **Actual (wrong?) paper:** Horvath S 2013 — DNA methylation age of human tissues and cell types.
 **Keywords extracted:** ogeneity, Single-Cell, Responses, Author, Chen
 **No candidates found.**
@@ -825,14 +825,14 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 109. PMID 25651178 in `CDATA/README.md`
-**Your context:** osome amplification, PCM disruption, microtubule nucleation). D_max=15 explicit.  ### Round 7 Fixes (2026-03-28)  All critical corrections from peer review applied: - Exponential `mito_shield` decay (PMID: 25651178) - NK cell decay corrected: 50% eff
+**Your context:** osome amplification, PCM disruption, microtubule nucleation). D_max=15 explicit. ### Round 7 Fixes (2026-03-28) All critical corrections from peer review applied: - Exponential `mito_shield` decay (PMID: 25651178) - NK cell decay corrected: 50% eff
 **Actual (wrong?) paper:** Baskin KK 2015 — Muscle as a "mediator" of systemic metabolism.
 **Keywords extracted:** osome, amplification, disruption, microtubule, nucleation
 **No candidates found.**
 
 
 ## 110. PMID 25651178 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:**  tissues and cell types.* - Author: Horvath S (2013) - Journal: Genome Biol - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 19. PMID 25651178 — LOW_SCORE **File:** `README.md` **
+**Your context:** tissues and cell types.* - Author: Horvath S (2013) - Journal: Genome Biol - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 19. PMID 25651178 — LOW_SCORE **File:** `README.md` **
 **Actual (wrong?) paper:** Baskin KK 2015 — Muscle as a "mediator" of systemic metabolism.
 **Keywords extracted:** tissues, cell, types, Author, Horvath
 **Top candidates:**
@@ -842,21 +842,21 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 111. PMID 25651178 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** osome amplification, PCM disruption, microtubule nucleation). D_max=15 explicit.  ### Round 7 Fixes (2026-03-28)  All critical corrections from peer review applied: - Exponential `mito_shield` decay (PMID: 25651178) - NK cell decay corrected: 50% eff
+**Your context:** osome amplification, PCM disruption, microtubule nucleation). D_max=15 explicit. ### Round 7 Fixes (2026-03-28) All critical corrections from peer review applied: - Exponential `mito_shield` decay (PMID: 25651178) - NK cell decay corrected: 50% eff
 **Actual (wrong?) paper:** Baskin KK 2015 — Muscle as a "mediator" of systemic metabolism.
 **Keywords extracted:** osome, amplification, disruption, microtubule, nucleation
 **No candidates found.**
 
 
 ## 112. PMID 25651178 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** 0. PMID 12803352 — LOW_SCORE **File:** `README.md` **Your context:** 5 explicit.  ### Round 7 Fixes (2026-03-28)  All critical corrections from peer review applied: - Exponential `mito_shield` decay (PMID: 25651178) - NK cell decay corrected: 50% eff
+**Your context:** 0. PMID 12803352 — LOW_SCORE **File:** `README.md` **Your context:** 5 explicit. ### Round 7 Fixes (2026-03-28) All critical corrections from peer review applied: - Exponential `mito_shield` decay (PMID: 25651178) - NK cell decay corrected: 50% eff
 **Actual (wrong?) paper:** Baskin KK 2015 — Muscle as a "mediator" of systemic metabolism.
 **Keywords extracted:** SCORE, File, README, context, explicit
 **No candidates found.**
 
 
 ## 113. PMID 25651178 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:**  verify if citation is correct; if not, search for proper PMID.   ## 21. PMID 28792876 — LOW_SCORE **File:** `README.md` **Your context:** from peer review applied: - Exponential `mito_shield` decay (PMID: 25651178) - NK cell decay corrected: 50% eff
+**Your context:** verify if citation is correct; if not, search for proper PMID. ## 21. PMID 28792876 — LOW_SCORE **File:** `README.md` **Your context:** from peer review applied: - Exponential `mito_shield` decay (PMID: 25651178) - NK cell decay corrected: 50% eff
 **Actual (wrong?) paper:** Baskin KK 2015 — Muscle as a "mediator" of systemic metabolism.
 **Keywords extracted:** verify, citation, correct, search, proper
 **Top candidates:**
@@ -864,21 +864,21 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 114. PMID 12803352 in `CDATA/README.md`
-**Your context:** 5 explicit.  ### Round 7 Fixes (2026-03-28)  All critical corrections from peer review applied: - Exponential `mito_shield` decay (PMID: 25651178) - NK cell decay corrected: 50% efficiency at age 70 (PMID: 12803352) - CHIP VAF at 70 yr calibrated to 
+**Your context:** 5 explicit. ### Round 7 Fixes (2026-03-28) All critical corrections from peer review applied: - Exponential `mito_shield` decay (PMID: 25651178) - NK cell decay corrected: 50% efficiency at age 70 (PMID: 12803352) - CHIP VAF at 70 yr calibrated to 
 **Actual (wrong?) paper:** Margolis SA 2003 — Patient satisfaction with primary health care services in the United Arab Emirates.
 **Keywords extracted:** explicit, Round, Fixes, critical, corrections
 **No candidates found.**
 
 
 ## 115. PMID 12803352 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** 5 explicit.  ### Round 7 Fixes (2026-03-28)  All critical corrections from peer review applied: - Exponential `mito_shield` decay (PMID: 25651178) - NK cell decay corrected: 50% efficiency at age 70 (PMID: 12803352) - CHIP VAF at 7 **Actual PubMed re
+**Your context:** 5 explicit. ### Round 7 Fixes (2026-03-28) All critical corrections from peer review applied: - Exponential `mito_shield` decay (PMID: 25651178) - NK cell decay corrected: 50% efficiency at age 70 (PMID: 12803352) - CHIP VAF at 7 **Actual PubMed re
 **Actual (wrong?) paper:** Margolis SA 2003 — Patient satisfaction with primary health care services in the United Arab Emirates.
 **Keywords extracted:** explicit, Round, Fixes, critical, corrections
 **No candidates found.**
 
 
 ## 116. PMID 12803352 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** " of systemic metabolism.* - Author: Baskin KK (2015) - Journal: Cell Metab - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 20. PMID 12803352 — LOW_SCORE **File:** `README.md` **
+**Your context:** " of systemic metabolism.* - Author: Baskin KK (2015) - Journal: Cell Metab - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 20. PMID 12803352 — LOW_SCORE **File:** `README.md` **
 **Actual (wrong?) paper:** Margolis SA 2003 — Patient satisfaction with primary health care services in the United Arab Emirates.
 **Keywords extracted:** systemic, metabolism, Author, Baskin, Journal
 **Top candidates:**
@@ -888,7 +888,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 117. PMID 12803352 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** 5 explicit.  ### Round 7 Fixes (2026-03-28)  All critical corrections from peer review applied: - Exponential `mito_shield` decay (PMID: 25651178) - NK cell decay corrected: 50% efficiency at age 70 (PMID: 12803352) - CHIP VAF at 70 yr calibrated to 
+**Your context:** 5 explicit. ### Round 7 Fixes (2026-03-28) All critical corrections from peer review applied: - Exponential `mito_shield` decay (PMID: 25651178) - NK cell decay corrected: 50% efficiency at age 70 (PMID: 12803352) - CHIP VAF at 70 yr calibrated to 
 **Actual (wrong?) paper:** Margolis SA 2003 — Patient satisfaction with primary health care services in the United Arab Emirates.
 **Keywords extracted:** explicit, Round, Fixes, critical, corrections
 **No candidates found.**
@@ -910,7 +910,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 120. PMID 12803352 in `Ontogenesis/docs/REFERENCE_AUDIT_Ontogenesis.md`
-**Your context:** l changes in girls.* - Author: Marshall WA (1969) - Journal: Arch Dis Child - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 20. PMID 12803352 — LOW_SCORE **File:** `KNOWLEDGE.md`
+**Your context:** l changes in girls.* - Author: Marshall WA (1969) - Journal: Arch Dis Child - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 20. PMID 12803352 — LOW_SCORE **File:** `KNOWLEDGE.md`
 **Actual (wrong?) paper:** Margolis SA 2003 — Patient satisfaction with primary health care services in the United Arab Emirates.
 **Keywords extracted:** changes, girls, Author, Marshall, Journal
 **Top candidates:**
@@ -928,7 +928,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 122. PMID 12803352 in `Ontogenesis/docs/REFERENCE_AUDIT_Ontogenesis.md`
-**Your context:** for proper PMID.   ## 21. PMID 28792876 — LOW_SCORE **File:** `KNOWLEDGE.md` **Your context:** pacity ~7±2 | Miller 1956 (classic); developmental norms WISC-V | | NK cell efficiency at age 70 = 50% | PMID 12803352 (relevant for regen boundary) | | CH
+**Your context:** for proper PMID. ## 21. PMID 28792876 — LOW_SCORE **File:** `KNOWLEDGE.md` **Your context:** pacity ~7±2 | Miller 1956 (classic); developmental norms WISC-V | | NK cell efficiency at age 70 = 50% | PMID 12803352 (relevant for regen boundary) | | CH
 **Actual (wrong?) paper:** Margolis SA 2003 — Patient satisfaction with primary health care services in the United Arab Emirates.
 **Keywords extracted:** proper, SCORE, File, KNOWLEDGE, context
 **Top candidates:**
@@ -943,7 +943,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 124. PMID 28792876 in `CDATA/LINKS.md`
-**Your context:** 22 (npj Regen Med) | 36581635 |  ---  ## Калибровочные датасеты | Данные | Источник | |--------|----------| | MCAI траектории | Rockwood / Franceschi 2000 (PMID 10818156) | | CHIP VAF | Jaiswal 2017 (PMID 28792876) | | Telomere length | Lansdorp 2005
+**Your context:** 22 (npj Regen Med) | 36581635 | --- ## Калибровочные датасеты | Данные | Источник | |--------|----------| | MCAI траектории | Rockwood / Franceschi 2000 (PMID 10818156) | | CHIP VAF | Jaiswal 2017 (PMID 28792876) | | Telomere length | Lansdorp 2005
 **Actual (wrong?) paper:** Shi H 2017 — NAD Deficiency, Congenital Malformations, and Niacin Supplementation.
 **Keywords extracted:** Regen, Rockwood, Franceschi, Jaiswal, Telomere
 **No candidates found.**
@@ -1007,7 +1007,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 133. PMID 28792876 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** b Emirates.* - Author: Margolis SA (2003) - Journal: Int J Qual Health Care - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 21. PMID 28792876 — LOW_SCORE **File:** `README.md` **
+**Your context:** b Emirates.* - Author: Margolis SA (2003) - Journal: Int J Qual Health Care - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 21. PMID 28792876 — LOW_SCORE **File:** `README.md` **
 **Actual (wrong?) paper:** Shi H 2017 — NAD Deficiency, Congenital Malformations, and Niacin Supplementation.
 **Keywords extracted:** Emirates, Author, Margolis, Journal, Qual
 **Top candidates:**
@@ -1022,7 +1022,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 135. PMID 28792876 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** 22 (npj Regen Med) | 36581635 |  ---  ## Калибровочные датасеты | Данные | Источник | |--------|----------| | MCAI траектории | Rockwood / Franceschi 2000 (PMID 10818156) | | CHIP VAF | Jaiswal 2017 (PMID 28792876) | | Telomere length | Lansdorp 2005
+**Your context:** 22 (npj Regen Med) | 36581635 | --- ## Калибровочные датасеты | Данные | Источник | |--------|----------| | MCAI траектории | Rockwood / Franceschi 2000 (PMID 10818156) | | CHIP VAF | Jaiswal 2017 (PMID 28792876) | | Telomere length | Lansdorp 2005
 **Actual (wrong?) paper:** Shi H 2017 — NAD Deficiency, Congenital Malformations, and Niacin Supplementation.
 **Keywords extracted:** Regen, Rockwood, Franceschi, Jaiswal, Telomere
 **No candidates found.**
@@ -1043,7 +1043,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 138. PMID 28792876 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** :** verify if citation is correct; if not, search for proper PMID.   ## 25. PMID 28792876 — LOW_SCORE **File:** `CONCEPT.md` **Your context:** | **CHIP** | DNMT3A_fitness | 0.15 | Normal(0.15,0.05) | PMID: 28792876 (Jaiswal 2017; DNMT3A clone advanta
+**Your context:** :** verify if citation is correct; if not, search for proper PMID. ## 25. PMID 28792876 — LOW_SCORE **File:** `CONCEPT.md` **Your context:** | **CHIP** | DNMT3A_fitness | 0.15 | Normal(0.15,0.05) | PMID: 28792876 (Jaiswal 2017; DNMT3A clone advanta
 **Actual (wrong?) paper:** Shi H 2017 — NAD Deficiency, Congenital Malformations, and Niacin Supplementation.
 **Keywords extracted:** verify, citation, correct, search, proper
 **Top candidates:**
@@ -1073,7 +1073,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 142. PMID 28792876 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** erify if citation is correct; if not, search for proper PMID.   ## 27. PMID 28792876 — LOW_SCORE **File:** `CONCEPT.md` **Your context:** ID: 28792876) | | | TET2_fitness | 0.12 | Normal(0.12,0.04) | PMID: 28792876 (Jaiswal 2017; TET2 slightly lower 
+**Your context:** erify if citation is correct; if not, search for proper PMID. ## 27. PMID 28792876 — LOW_SCORE **File:** `CONCEPT.md` **Your context:** ID: 28792876) | | | TET2_fitness | 0.12 | Normal(0.12,0.04) | PMID: 28792876 (Jaiswal 2017; TET2 slightly lower 
 **Actual (wrong?) paper:** Shi H 2017 — NAD Deficiency, Congenital Malformations, and Niacin Supplementation.
 **Keywords extracted:** erify, citation, correct, search, proper
 **Top candidates:**
@@ -1097,7 +1097,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 145. PMID 28792876 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** 22 (npj Regen Med) | 36581635 |  ---  ## Калибровочные датасеты | Данные | Источник | |--------|----------| | MCAI траектории | Rockwood / Franceschi 2000 (PMID 10818156) | | CHIP VAF | Jaiswal 2017 (PMID 28792876) | | Telomere length | Lansdorp 2005
+**Your context:** 22 (npj Regen Med) | 36581635 | --- ## Калибровочные датасеты | Данные | Источник | |--------|----------| | MCAI траектории | Rockwood / Franceschi 2000 (PMID 10818156) | | CHIP VAF | Jaiswal 2017 (PMID 28792876) | | Telomere length | Lansdorp 2005
 **Actual (wrong?) paper:** Shi H 2017 — NAD Deficiency, Congenital Malformations, and Niacin Supplementation.
 **Keywords extracted:** Regen, Rockwood, Franceschi, Jaiswal, Telomere
 **No candidates found.**
@@ -1118,7 +1118,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 148. PMID 28792876 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** tch score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 93. PMID 28886385 — LOW_SCORE **File:** `CONCEPT.md` **Your context:** aiswal 2017 (PMID: 28792876) | | **Фиксированные** | mtor_activ
+**Your context:** tch score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 93. PMID 28886385 — LOW_SCORE **File:** `CONCEPT.md` **Your context:** aiswal 2017 (PMID: 28792876) | | **Фиксированные** | mtor_activ
 **Actual (wrong?) paper:** Shi H 2017 — NAD Deficiency, Congenital Malformations, and Niacin Supplementation.
 **Keywords extracted:** score, keyword, overlap, Action, needed
 **No candidates found.**
@@ -1139,7 +1139,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 151. PMID 28792876 in `Ontogenesis/docs/REFERENCE_AUDIT_Ontogenesis.md`
-**Your context:** b Emirates.* - Author: Margolis SA (2003) - Journal: Int J Qual Health Care - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 21. PMID 28792876 — LOW_SCORE **File:** `KNOWLEDGE.md`
+**Your context:** b Emirates.* - Author: Margolis SA (2003) - Journal: Int J Qual Health Care - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 21. PMID 28792876 — LOW_SCORE **File:** `KNOWLEDGE.md`
 **Actual (wrong?) paper:** Shi H 2017 — NAD Deficiency, Congenital Malformations, and Niacin Supplementation.
 **Keywords extracted:** Emirates, Author, Margolis, Journal, Qual
 **Top candidates:**
@@ -1147,14 +1147,14 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 152. PMID 16990891 in `CDATA/MEMORY.md`
-**Your context:** алидацией на реальных данных. Изъято из всей документации с 2026-04-13. **Правильные цифры:** R²(MCAI)=0.745, R²(CHIP)=0.611, R²(Telo)=0.465 (in-sample, реальные данные).  ### Morrison & Kimble 2006 (PMID 16990891) — УДАЛЁН как ссылка (2026-04-14) Сс
+**Your context:** алидацией на реальных данных. Изъято из всей документации с 2026-04-13. **Правильные цифры:** R²(MCAI)=0.745, R²(CHIP)=0.611, R²(Telo)=0.465 (in-sample, реальные данные). ### Morrison & Kimble 2006 (PMID 16990891) — УДАЛЁН как ссылка (2026-04-14) Сс
 **Actual (wrong?) paper:** Gibson RL 2006 — Dental implantology education: a survey of opinion and experience of 106 general dental practitioners.
 **Keywords extracted:** Telo, in-sample, Morrison, Kimble, elegans
 **No candidates found.**
 
 
 ## 153. PMID 16990891 in `CDATA/CONCEPT.md`
-**Your context:** я на активную теломеразу   [Sudo et al. 2000, PMID 11001867; Beerman et al. 2010, PMID 20833377; Yahata et al. 2011, PMID 21478189]   ⚠️ Примечание: ранее ошибочно цитировался Morrison & Kimble 2006 (PMID 16990891 — C. elegans/Drosophila, не HSC); ис
+**Your context:** я на активную теломеразу [Sudo et al. 2000, PMID 11001867; Beerman et al. 2010, PMID 20833377; Yahata et al. 2011, PMID 21478189] ⚠️ Примечание: ранее ошибочно цитировался Morrison & Kimble 2006 (PMID 16990891 — C. elegans/Drosophila, не HSC); ис
 **Actual (wrong?) paper:** Gibson RL 2006 — Dental implantology education: a survey of opinion and experience of 106 general dental practitioners.
 **Keywords extracted:** Sudo, Beerman, Yahata, Morrison, Kimble
 **No candidates found.**
@@ -1168,21 +1168,21 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 155. PMID 16990891 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** and Niacin Supplementation.* - Author: Shi H (2017) - Journal: N Engl J Med - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 29. PMID 16990891 — LOW_SCORE **File:** `MEMORY.md` **
+**Your context:** and Niacin Supplementation.* - Author: Shi H (2017) - Journal: N Engl J Med - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 29. PMID 16990891 — LOW_SCORE **File:** `MEMORY.md` **
 **Actual (wrong?) paper:** Gibson RL 2006 — Dental implantology education: a survey of opinion and experience of 106 general dental practitioners.
 **Keywords extracted:** Niacin, Supplementation, Author, Journal, Engl
 **No candidates found.**
 
 
 ## 156. PMID 16990891 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** алидацией на реальных данных. Изъято из всей документации с 2026-04-13. **Правильные цифры:** R²(MCAI)=0.745, R²(CHIP)=0.611, R²(Telo)=0.465 (in-sample, реальные данные).  ### Morrison & Kimble 2006 (PMID 16990891) — УДАЛЁН как ссылка (2026-04-14) Сс
+**Your context:** алидацией на реальных данных. Изъято из всей документации с 2026-04-13. **Правильные цифры:** R²(MCAI)=0.745, R²(CHIP)=0.611, R²(Telo)=0.465 (in-sample, реальные данные). ### Morrison & Kimble 2006 (PMID 16990891) — УДАЛЁН как ссылка (2026-04-14) Сс
 **Actual (wrong?) paper:** Gibson RL 2006 — Dental implantology education: a survey of opinion and experience of 106 general dental practitioners.
 **Keywords extracted:** Telo, in-sample, Morrison, Kimble, elegans
 **No candidates found.**
 
 
 ## 157. PMID 16990891 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** я на активную теломеразу   [Sudo et al. 2000, PMID 11001867; Beerman et al. 2010, PMID 20833377; Yahata et al. 2011, PMID 21478189]   ⚠️ Примечание: ранее ошибочно цитировался Morrison & Kimble 2006 (PMID 16990891 — C. elegans/Drosophila, не HSC); ис
+**Your context:** я на активную теломеразу [Sudo et al. 2000, PMID 11001867; Beerman et al. 2010, PMID 20833377; Yahata et al. 2011, PMID 21478189] ⚠️ Примечание: ранее ошибочно цитировался Morrison & Kimble 2006 (PMID 16990891 — C. elegans/Drosophila, не HSC); ис
 **Actual (wrong?) paper:** Gibson RL 2006 — Dental implantology education: a survey of opinion and experience of 106 general dental practitioners.
 **Keywords extracted:** Sudo, Beerman, Yahata, Morrison, Kimble
 **No candidates found.**
@@ -1196,7 +1196,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 159. PMID 16990891 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** eeded:** verify if citation is correct; if not, search for proper PMID.   ## 32. PMID 11001867 — LOW_SCORE **File:** `MEMORY.md` **Your context:** mple, реальные данные).  ### Morrison & Kimble 2006 (PMID 16990891) — УДАЛЁН как ссылка (2026-04-14) Сс
+**Your context:** eeded:** verify if citation is correct; if not, search for proper PMID. ## 32. PMID 11001867 — LOW_SCORE **File:** `MEMORY.md` **Your context:** mple, реальные данные). ### Morrison & Kimble 2006 (PMID 16990891) — УДАЛЁН как ссылка (2026-04-14) Сс
 **Actual (wrong?) paper:** Gibson RL 2006 — Dental implantology education: a survey of opinion and experience of 106 general dental practitioners.
 **Keywords extracted:** eeded, verify, citation, correct, search
 **Top candidates:**
@@ -1206,84 +1206,84 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 160. PMID 16990891 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** : 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 35. PMID 20833377 — LOW_SCORE **File:** `MEMORY.md` **Your context:** orrison & Kimble 2006 (PMID 16990891) — УДАЛЁН как ссылка (2026-04-14) Сс
+**Your context:** : 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 35. PMID 20833377 — LOW_SCORE **File:** `MEMORY.md` **Your context:** orrison & Kimble 2006 (PMID 16990891) — УДАЛЁН как ссылка (2026-04-14) Сс
 **Actual (wrong?) paper:** Gibson RL 2006 — Dental implantology education: a survey of opinion and experience of 106 general dental practitioners.
 **Keywords extracted:** keyword, overlap, Action, needed, verify
 **No candidates found.**
 
 
 ## 161. PMID 16990891 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** я на активную теломеразу   [Sudo et al. 2000, PMID 11001867; Beerman et al. 2010, PMID 20833377; Yahata et al. 2011, PMID 21478189]   ⚠️ Примечание: ранее ошибочно цитировался Morrison & Kimble 2006 (PMID 16990891 — C **Actual PubMed record:** - Titl
+**Your context:** я на активную теломеразу [Sudo et al. 2000, PMID 11001867; Beerman et al. 2010, PMID 20833377; Yahata et al. 2011, PMID 21478189] ⚠️ Примечание: ранее ошибочно цитировался Morrison & Kimble 2006 (PMID 16990891 — C **Actual PubMed record:** - Titl
 **Actual (wrong?) paper:** Gibson RL 2006 — Dental implantology education: a survey of opinion and experience of 106 general dental practitioners.
 **Keywords extracted:** Sudo, Beerman, Yahata, Morrison, Kimble
 **No candidates found.**
 
 
 ## 162. PMID 11001867 in `CDATA/MEMORY.md`
-**Your context:** mple, реальные данные).  ### Morrison & Kimble 2006 (PMID 16990891) — УДАЛЁН как ссылка (2026-04-14) Ссылка была некорректной: C. elegans / Drosophila, не HSC. Исправлено в v4.7. Заменено: Sudo 2000 (PMID 11001867), Beerman 2010 (PMID 20833377), Yaha
+**Your context:** mple, реальные данные). ### Morrison & Kimble 2006 (PMID 16990891) — УДАЛЁН как ссылка (2026-04-14) Ссылка была некорректной: C. elegans / Drosophila, не HSC. Исправлено в v4.7. Заменено: Sudo 2000 (PMID 11001867), Beerman 2010 (PMID 20833377), Yaha
 **Actual (wrong?) paper:** Fernandes D 2000 — Thrombin-stimulated DNA synthesis in human cultured airway smooth muscle occurs independently of products of cyclo-oxygenase or 5-lipoxygenase.
 **Keywords extracted:** mple, Morrison, Kimble, elegans, Drosophila
 **No candidates found.**
 
 
 ## 163. PMID 11001867 in `CDATA/CONCEPT.md`
-**Your context:** TERT в условиях 2% O₂ достигают предела ~200 PD   [Peters-Hall 2020, DOI:10.1096/fj.201901415R]   Самообновление HSC снижается с возрастом in vivo несмотря на активную теломеразу   [Sudo et al. 2000, PMID 11001867; Beerman et al. 2010, PMID 20833377;
+**Your context:** TERT в условиях 2% O₂ достигают предела ~200 PD [Peters-Hall 2020, DOI:10.1096/fj.201901415R] Самообновление HSC снижается с возрастом in vivo несмотря на активную теломеразу [Sudo et al. 2000, PMID 11001867; Beerman et al. 2010, PMID 20833377;
 **Actual (wrong?) paper:** Fernandes D 2000 — Thrombin-stimulated DNA synthesis in human cultured airway smooth muscle occurs independently of products of cyclo-oxygenase or 5-lipoxygenase.
 **Keywords extracted:** Peters-Hall, vivo, Sudo, Beerman, Yahata
 **No candidates found.**
 
 
 ## 164. PMID 11001867 in `CDATA/CONCEPT.md`
-**Your context:**  Хейфлика. Однако они достигают его — расчётный эквивалент ~200 делений (Shay & Wright 2000 — *in vitro* для соматических клеток; снижение самообновляющихся HSC с возрастом у мышей: Sudo et al. 2000, PMID 11001867; Beerman et al. 2010, PMID 20833377;
+**Your context:** Хейфлика. Однако они достигают его — расчётный эквивалент ~200 делений (Shay & Wright 2000 — *in vitro* для соматических клеток; снижение самообновляющихся HSC с возрастом у мышей: Sudo et al. 2000, PMID 11001867; Beerman et al. 2010, PMID 20833377;
 **Actual (wrong?) paper:** Fernandes D 2000 — Thrombin-stimulated DNA synthesis in human cultured airway smooth muscle occurs independently of products of cyclo-oxygenase or 5-lipoxygenase.
 **Keywords extracted:** Shay, Wright, vitro, Sudo, Beerman
 **No candidates found.**
 
 
 ## 165. PMID 11001867 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** tion needed:** verify if citation is correct; if not, search for proper PMID.   ## 30. PMID 16990891 — LOW_SCORE **File:** `CONCEPT.md` **Your context:** я на активную теломеразу   [Sudo et al. 2000, PMID 11001867; Beerman et al. 2010, PMID 20833377;
+**Your context:** tion needed:** verify if citation is correct; if not, search for proper PMID. ## 30. PMID 16990891 — LOW_SCORE **File:** `CONCEPT.md` **Your context:** я на активную теломеразу [Sudo et al. 2000, PMID 11001867; Beerman et al. 2010, PMID 20833377;
 **Actual (wrong?) paper:** Fernandes D 2000 — Thrombin-stimulated DNA synthesis in human cultured airway smooth muscle occurs independently of products of cyclo-oxygenase or 5-lipoxygenase.
 **Keywords extracted:** tion, needed, verify, citation, correct
 **No candidates found.**
 
 
 ## 166. PMID 11001867 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** eral dental practitioners.* - Author: Gibson RL (2006) - Journal: Br Dent J - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 32. PMID 11001867 — LOW_SCORE **File:** `MEMORY.md` **
+**Your context:** eral dental practitioners.* - Author: Gibson RL (2006) - Journal: Br Dent J - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 32. PMID 11001867 — LOW_SCORE **File:** `MEMORY.md` **
 **Actual (wrong?) paper:** Fernandes D 2000 — Thrombin-stimulated DNA synthesis in human cultured airway smooth muscle occurs independently of products of cyclo-oxygenase or 5-lipoxygenase.
 **Keywords extracted:** eral, dental, practitioners, Author, Gibson
 **No candidates found.**
 
 
 ## 167. PMID 11001867 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** mple, реальные данные).  ### Morrison & Kimble 2006 (PMID 16990891) — УДАЛЁН как ссылка (2026-04-14) Ссылка была некорректной: C. elegans / Drosophila, не HSC. Исправлено в v4.7. Заменено: Sudo 2000 (PMID 11001867), Beerman 2010 (PMID 20833377), Yaha
+**Your context:** mple, реальные данные). ### Morrison & Kimble 2006 (PMID 16990891) — УДАЛЁН как ссылка (2026-04-14) Ссылка была некорректной: C. elegans / Drosophila, не HSC. Исправлено в v4.7. Заменено: Sudo 2000 (PMID 11001867), Beerman 2010 (PMID 20833377), Yaha
 **Actual (wrong?) paper:** Fernandes D 2000 — Thrombin-stimulated DNA synthesis in human cultured airway smooth muscle occurs independently of products of cyclo-oxygenase or 5-lipoxygenase.
 **Keywords extracted:** mple, Morrison, Kimble, elegans, Drosophila
 **No candidates found.**
 
 
 ## 168. PMID 11001867 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** -lipoxygenase.* - Author: Fernandes D (2000) - Journal: Pulm Pharmacol Ther - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 33. PMID 11001867 — LOW_SCORE **File:** `CONCEPT.md` *
+**Your context:** -lipoxygenase.* - Author: Fernandes D (2000) - Journal: Pulm Pharmacol Ther - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 33. PMID 11001867 — LOW_SCORE **File:** `CONCEPT.md` *
 **Actual (wrong?) paper:** Fernandes D 2000 — Thrombin-stimulated DNA synthesis in human cultured airway smooth muscle occurs independently of products of cyclo-oxygenase or 5-lipoxygenase.
 **Keywords extracted:** lipoxygenase, Author, Fernandes, Journal, Pulm
 **No candidates found.**
 
 
 ## 169. PMID 11001867 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** TERT в условиях 2% O₂ достигают предела ~200 PD   [Peters-Hall 2020, DOI:10.1096/fj.201901415R]   Самообновление HSC снижается с возрастом in vivo несмотря на активную теломеразу   [Sudo et al. 2000, PMID 11001867; Beerman et al. 2010, PMID 20833377;
+**Your context:** TERT в условиях 2% O₂ достигают предела ~200 PD [Peters-Hall 2020, DOI:10.1096/fj.201901415R] Самообновление HSC снижается с возрастом in vivo несмотря на активную теломеразу [Sudo et al. 2000, PMID 11001867; Beerman et al. 2010, PMID 20833377;
 **Actual (wrong?) paper:** Fernandes D 2000 — Thrombin-stimulated DNA synthesis in human cultured airway smooth muscle occurs independently of products of cyclo-oxygenase or 5-lipoxygenase.
 **Keywords extracted:** Peters-Hall, vivo, Sudo, Beerman, Yahata
 **No candidates found.**
 
 
 ## 170. PMID 11001867 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** -lipoxygenase.* - Author: Fernandes D (2000) - Journal: Pulm Pharmacol Ther - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 34. PMID 11001867 — LOW_SCORE **File:** `CONCEPT.md` *
+**Your context:** -lipoxygenase.* - Author: Fernandes D (2000) - Journal: Pulm Pharmacol Ther - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 34. PMID 11001867 — LOW_SCORE **File:** `CONCEPT.md` *
 **Actual (wrong?) paper:** Fernandes D 2000 — Thrombin-stimulated DNA synthesis in human cultured airway smooth muscle occurs independently of products of cyclo-oxygenase or 5-lipoxygenase.
 **Keywords extracted:** lipoxygenase, Author, Fernandes, Journal, Pulm
 **No candidates found.**
 
 
 ## 171. PMID 11001867 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:**  Хейфлика. Однако они достигают его — расчётный эквивалент ~200 делений (Shay & Wright 2000 — *in vitro* для соматических клеток; снижение самообновляющихся HSC с возрастом у мышей: Sudo et al. 2000, PMID 11001867; Beerman et al. 2010, PMID 20833377;
+**Your context:** Хейфлика. Однако они достигают его — расчётный эквивалент ~200 делений (Shay & Wright 2000 — *in vitro* для соматических клеток; снижение самообновляющихся HSC с возрастом у мышей: Sudo et al. 2000, PMID 11001867; Beerman et al. 2010, PMID 20833377;
 **Actual (wrong?) paper:** Fernandes D 2000 — Thrombin-stimulated DNA synthesis in human cultured airway smooth muscle occurs independently of products of cyclo-oxygenase or 5-lipoxygenase.
 **Keywords extracted:** Shay, Wright, vitro, Sudo, Beerman
 **No candidates found.**
@@ -1297,7 +1297,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 173. PMID 11001867 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** e:** `CONCEPT.md` **Your context:** ела ~200 PD   [Peters-Hall 2020, DOI:10.1096/fj.201901415R]   Самообновление HSC снижается с возрастом in vivo несмотря на активную теломеразу   [Sudo et al. 2000, PMID 11001867; Beerman et al. 2010, PMID 20833377;
+**Your context:** e:** `CONCEPT.md` **Your context:** ела ~200 PD [Peters-Hall 2020, DOI:10.1096/fj.201901415R] Самообновление HSC снижается с возрастом in vivo несмотря на активную теломеразу [Sudo et al. 2000, PMID 11001867; Beerman et al. 2010, PMID 20833377;
 **Actual (wrong?) paper:** Fernandes D 2000 — Thrombin-stimulated DNA synthesis in human cultured airway smooth muscle occurs independently of products of cyclo-oxygenase or 5-lipoxygenase.
 **Keywords extracted:** CONCEPT, context, Peters-Hall, vivo, Sudo
 **No candidates found.**
@@ -1318,28 +1318,28 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 176. PMID 11001867 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** 39. PMID 21478189 — LOW_SCORE **File:** `CONCEPT.md` **Your context:** I:10.1096/fj.201901415R]   Самообновление HSC снижается с возрастом in vivo несмотря на активную теломеразу   [Sudo et al. 2000, PMID 11001867; Beerman et al. 2010, PMID 20833377;
+**Your context:** 39. PMID 21478189 — LOW_SCORE **File:** `CONCEPT.md` **Your context:** I:10.1096/fj.201901415R] Самообновление HSC снижается с возрастом in vivo несмотря на активную теломеразу [Sudo et al. 2000, PMID 11001867; Beerman et al. 2010, PMID 20833377;
 **Actual (wrong?) paper:** Fernandes D 2000 — Thrombin-stimulated DNA synthesis in human cultured airway smooth muscle occurs independently of products of cyclo-oxygenase or 5-lipoxygenase.
 **Keywords extracted:** SCORE, File, CONCEPT, context, vivo
 **No candidates found.**
 
 
 ## 177. PMID 11001867 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:**  if not, search for proper PMID.   ## 40. PMID 21478189 — LOW_SCORE **File:** `CONCEPT.md` **Your context:** соматических клеток; снижение самообновляющихся HSC с возрастом у мышей: Sudo et al. 2000, PMID 11001867; Beerman et al. 2010, PMID 20833377;
+**Your context:** if not, search for proper PMID. ## 40. PMID 21478189 — LOW_SCORE **File:** `CONCEPT.md` **Your context:** соматических клеток; снижение самообновляющихся HSC с возрастом у мышей: Sudo et al. 2000, PMID 11001867; Beerman et al. 2010, PMID 20833377;
 **Actual (wrong?) paper:** Fernandes D 2000 — Thrombin-stimulated DNA synthesis in human cultured airway smooth muscle occurs independently of products of cyclo-oxygenase or 5-lipoxygenase.
 **Keywords extracted:** search, proper, SCORE, File, CONCEPT
 **No candidates found.**
 
 
 ## 178. PMID 20833377 in `CDATA/MEMORY.md`
-**Your context:** orrison & Kimble 2006 (PMID 16990891) — УДАЛЁН как ссылка (2026-04-14) Ссылка была некорректной: C. elegans / Drosophila, не HSC. Исправлено в v4.7. Заменено: Sudo 2000 (PMID 11001867), Beerman 2010 (PMID 20833377), Yahata 2011 (PMID 21478189).  ### 
+**Your context:** orrison & Kimble 2006 (PMID 16990891) — УДАЛЁН как ссылка (2026-04-14) Ссылка была некорректной: C. elegans / Drosophila, не HSC. Исправлено в v4.7. Заменено: Sudo 2000 (PMID 11001867), Beerman 2010 (PMID 20833377), Yahata 2011 (PMID 21478189). ### 
 **Actual (wrong?) paper:** Day PM 2010 — In vivo mechanisms of vaccine-induced protection against HPV infection.
 **Keywords extracted:** orrison, Kimble, elegans, Drosophila, Sudo
 **No candidates found.**
 
 
 ## 179. PMID 20833377 in `CDATA/CONCEPT.md`
-**Your context:** ела ~200 PD   [Peters-Hall 2020, DOI:10.1096/fj.201901415R]   Самообновление HSC снижается с возрастом in vivo несмотря на активную теломеразу   [Sudo et al. 2000, PMID 11001867; Beerman et al. 2010, PMID 20833377; Yahata et al. 2011, PMID 21478189] 
+**Your context:** ела ~200 PD [Peters-Hall 2020, DOI:10.1096/fj.201901415R] Самообновление HSC снижается с возрастом in vivo несмотря на активную теломеразу [Sudo et al. 2000, PMID 11001867; Beerman et al. 2010, PMID 20833377; Yahata et al. 2011, PMID 21478189] 
 **Actual (wrong?) paper:** Day PM 2010 — In vivo mechanisms of vaccine-induced protection against HPV infection.
 **Keywords extracted:** Peters-Hall, vivo, Sudo, Beerman, Yahata
 **No candidates found.**
@@ -1353,21 +1353,21 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 181. PMID 20833377 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:**  correct; if not, search for proper PMID.   ## 30. PMID 16990891 — LOW_SCORE **File:** `CONCEPT.md` **Your context:** я на активную теломеразу   [Sudo et al. 2000, PMID 11001867; Beerman et al. 2010, PMID 20833377; Yahata et al. 2011, PMID 21478189] 
+**Your context:** correct; if not, search for proper PMID. ## 30. PMID 16990891 — LOW_SCORE **File:** `CONCEPT.md` **Your context:** я на активную теломеразу [Sudo et al. 2000, PMID 11001867; Beerman et al. 2010, PMID 20833377; Yahata et al. 2011, PMID 21478189] 
 **Actual (wrong?) paper:** Day PM 2010 — In vivo mechanisms of vaccine-induced protection against HPV infection.
 **Keywords extracted:** correct, search, proper, SCORE, File
 **No candidates found.**
 
 
 ## 182. PMID 20833377 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** orrison & Kimble 2006 (PMID 16990891) — УДАЛЁН как ссылка (2026-04-14) Ссылка была некорректной: C. elegans / Drosophila, не HSC. Исправлено в v4.7. Заменено: Sudo 2000 (PMID 11001867), Beerman 2010 (PMID 20833377), Yahata 2011 (PMID 21478189).  ### 
+**Your context:** orrison & Kimble 2006 (PMID 16990891) — УДАЛЁН как ссылка (2026-04-14) Ссылка была некорректной: C. elegans / Drosophila, не HSC. Исправлено в v4.7. Заменено: Sudo 2000 (PMID 11001867), Beerman 2010 (PMID 20833377), Yahata 2011 (PMID 21478189). ### 
 **Actual (wrong?) paper:** Day PM 2010 — In vivo mechanisms of vaccine-induced protection against HPV infection.
 **Keywords extracted:** orrison, Kimble, elegans, Drosophila, Sudo
 **No candidates found.**
 
 
 ## 183. PMID 20833377 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** ела ~200 PD   [Peters-Hall 2020, DOI:10.1096/fj.201901415R]   Самообновление HSC снижается с возрастом in vivo несмотря на активную теломеразу   [Sudo et al. 2000, PMID 11001867; Beerman et al. 2010, PMID 20833377; Yahata et al. 2011, PMID 21478189] 
+**Your context:** ела ~200 PD [Peters-Hall 2020, DOI:10.1096/fj.201901415R] Самообновление HSC снижается с возрастом in vivo несмотря на активную теломеразу [Sudo et al. 2000, PMID 11001867; Beerman et al. 2010, PMID 20833377; Yahata et al. 2011, PMID 21478189] 
 **Actual (wrong?) paper:** Day PM 2010 — In vivo mechanisms of vaccine-induced protection against HPV infection.
 **Keywords extracted:** Peters-Hall, vivo, Sudo, Beerman, Yahata
 **No candidates found.**
@@ -1381,21 +1381,21 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 185. PMID 20833377 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** -lipoxygenase.* - Author: Fernandes D (2000) - Journal: Pulm Pharmacol Ther - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 35. PMID 20833377 — LOW_SCORE **File:** `MEMORY.md` **
+**Your context:** -lipoxygenase.* - Author: Fernandes D (2000) - Journal: Pulm Pharmacol Ther - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 35. PMID 20833377 — LOW_SCORE **File:** `MEMORY.md` **
 **Actual (wrong?) paper:** Day PM 2010 — In vivo mechanisms of vaccine-induced protection against HPV infection.
 **Keywords extracted:** lipoxygenase, Author, Fernandes, Journal, Pulm
 **No candidates found.**
 
 
 ## 186. PMID 20833377 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** orrison & Kimble 2006 (PMID 16990891) — УДАЛЁН как ссылка (2026-04-14) Ссылка была некорректной: C. elegans / Drosophila, не HSC. Исправлено в v4.7. Заменено: Sudo 2000 (PMID 11001867), Beerman 2010 (PMID 20833377), Yahata 2011 (PMID 21478189).  ### 
+**Your context:** orrison & Kimble 2006 (PMID 16990891) — УДАЛЁН как ссылка (2026-04-14) Ссылка была некорректной: C. elegans / Drosophila, не HSC. Исправлено в v4.7. Заменено: Sudo 2000 (PMID 11001867), Beerman 2010 (PMID 20833377), Yahata 2011 (PMID 21478189). ### 
 **Actual (wrong?) paper:** Day PM 2010 — In vivo mechanisms of vaccine-induced protection against HPV infection.
 **Keywords extracted:** orrison, Kimble, elegans, Drosophila, Sudo
 **No candidates found.**
 
 
 ## 187. PMID 20833377 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** ела ~200 PD   [Peters-Hall 2020, DOI:10.1096/fj.201901415R]   Самообновление HSC снижается с возрастом in vivo несмотря на активную теломеразу   [Sudo et al. 2000, PMID 11001867; Beerman et al. 2010, PMID 20833377; Yahata et al. 2011, PMID 21478189] 
+**Your context:** ела ~200 PD [Peters-Hall 2020, DOI:10.1096/fj.201901415R] Самообновление HSC снижается с возрастом in vivo несмотря на активную теломеразу [Sudo et al. 2000, PMID 11001867; Beerman et al. 2010, PMID 20833377; Yahata et al. 2011, PMID 21478189] 
 **Actual (wrong?) paper:** Day PM 2010 — In vivo mechanisms of vaccine-induced protection against HPV infection.
 **Keywords extracted:** Peters-Hall, vivo, Sudo, Beerman, Yahata
 **No candidates found.**
@@ -1409,14 +1409,14 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 189. PMID 20833377 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** MEMORY.md` **Your context:** 6990891) — УДАЛЁН как ссылка (2026-04-14) Ссылка была некорректной: C. elegans / Drosophila, не HSC. Исправлено в v4.7. Заменено: Sudo 2000 (PMID 11001867), Beerman 2010 (PMID 20833377), Yahata 2011 (PMID 21478189).  ### 
+**Your context:** MEMORY.md` **Your context:** 6990891) — УДАЛЁН как ссылка (2026-04-14) Ссылка была некорректной: C. elegans / Drosophila, не HSC. Исправлено в v4.7. Заменено: Sudo 2000 (PMID 11001867), Beerman 2010 (PMID 20833377), Yahata 2011 (PMID 21478189). ### 
 **Actual (wrong?) paper:** Day PM 2010 — In vivo mechanisms of vaccine-induced protection against HPV infection.
 **Keywords extracted:** MEMORY, context, elegans, Drosophila, Sudo
 **No candidates found.**
 
 
 ## 190. PMID 20833377 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** :** `CONCEPT.md` **Your context:** I:10.1096/fj.201901415R]   Самообновление HSC снижается с возрастом in vivo несмотря на активную теломеразу   [Sudo et al. 2000, PMID 11001867; Beerman et al. 2010, PMID 20833377; Yahata et al. 2011, PMID 21478189] 
+**Your context:** :** `CONCEPT.md` **Your context:** I:10.1096/fj.201901415R] Самообновление HSC снижается с возрастом in vivo несмотря на активную теломеразу [Sudo et al. 2000, PMID 11001867; Beerman et al. 2010, PMID 20833377; Yahata et al. 2011, PMID 21478189] 
 **Actual (wrong?) paper:** Day PM 2010 — In vivo mechanisms of vaccine-induced protection against HPV infection.
 **Keywords extracted:** CONCEPT, context, vivo, Sudo, Beerman
 **No candidates found.**
@@ -1430,14 +1430,14 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 192. PMID 21478189 in `CDATA/MEMORY.md`
-**Your context:** 6990891) — УДАЛЁН как ссылка (2026-04-14) Ссылка была некорректной: C. elegans / Drosophila, не HSC. Исправлено в v4.7. Заменено: Sudo 2000 (PMID 11001867), Beerman 2010 (PMID 20833377), Yahata 2011 (PMID 21478189).  ### Три аксиомы — LOCKED (2026-04
+**Your context:** 6990891) — УДАЛЁН как ссылка (2026-04-14) Ссылка была некорректной: C. elegans / Drosophila, не HSC. Исправлено в v4.7. Заменено: Sudo 2000 (PMID 11001867), Beerman 2010 (PMID 20833377), Yahata 2011 (PMID 21478189). ### Три аксиомы — LOCKED (2026-04
 **Actual (wrong?) paper:** Takeuchi T 2011 — Baseline tumour necrosis factor alpha levels predict the necessity for dose escalation of infliximab therapy in patients with rheumatoid arthritis.
 **Keywords extracted:** elegans, Drosophila, Sudo, Beerman, Yahata
 **No candidates found.**
 
 
 ## 193. PMID 21478189 in `CDATA/CONCEPT.md`
-**Your context:** I:10.1096/fj.201901415R]   Самообновление HSC снижается с возрастом in vivo несмотря на активную теломеразу   [Sudo et al. 2000, PMID 11001867; Beerman et al. 2010, PMID 20833377; Yahata et al. 2011, PMID 21478189]   ⚠️ Примечание: ранее ошибочно цит
+**Your context:** I:10.1096/fj.201901415R] Самообновление HSC снижается с возрастом in vivo несмотря на активную теломеразу [Sudo et al. 2000, PMID 11001867; Beerman et al. 2010, PMID 20833377; Yahata et al. 2011, PMID 21478189] ⚠️ Примечание: ранее ошибочно цит
 **Actual (wrong?) paper:** Takeuchi T 2011 — Baseline tumour necrosis factor alpha levels predict the necessity for dose escalation of infliximab therapy in patients with rheumatoid arthritis.
 **Keywords extracted:** vivo, Sudo, Beerman, Yahata, Morrison
 **No candidates found.**
@@ -1451,35 +1451,35 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 195. PMID 21478189 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:**  PMID.   ## 30. PMID 16990891 — LOW_SCORE **File:** `CONCEPT.md` **Your context:** я на активную теломеразу   [Sudo et al. 2000, PMID 11001867; Beerman et al. 2010, PMID 20833377; Yahata et al. 2011, PMID 21478189]   ⚠️ Примечание: ранее ошибочно цит
+**Your context:** PMID. ## 30. PMID 16990891 — LOW_SCORE **File:** `CONCEPT.md` **Your context:** я на активную теломеразу [Sudo et al. 2000, PMID 11001867; Beerman et al. 2010, PMID 20833377; Yahata et al. 2011, PMID 21478189] ⚠️ Примечание: ранее ошибочно цит
 **Actual (wrong?) paper:** Takeuchi T 2011 — Baseline tumour necrosis factor alpha levels predict the necessity for dose escalation of infliximab therapy in patients with rheumatoid arthritis.
 **Keywords extracted:** SCORE, File, CONCEPT, context, Sudo
 **No candidates found.**
 
 
 ## 196. PMID 21478189 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** 6990891) — УДАЛЁН как ссылка (2026-04-14) Ссылка была некорректной: C. elegans / Drosophila, не HSC. Исправлено в v4.7. Заменено: Sudo 2000 (PMID 11001867), Beerman 2010 (PMID 20833377), Yahata 2011 (PMID 21478189).  ### Три аксиомы — LOCKED **Actual
+**Your context:** 6990891) — УДАЛЁН как ссылка (2026-04-14) Ссылка была некорректной: C. elegans / Drosophila, не HSC. Исправлено в v4.7. Заменено: Sudo 2000 (PMID 11001867), Beerman 2010 (PMID 20833377), Yahata 2011 (PMID 21478189). ### Три аксиомы — LOCKED **Actual
 **Actual (wrong?) paper:** Takeuchi T 2011 — Baseline tumour necrosis factor alpha levels predict the necessity for dose escalation of infliximab therapy in patients with rheumatoid arthritis.
 **Keywords extracted:** elegans, Drosophila, Sudo, Beerman, Yahata
 **No candidates found.**
 
 
 ## 197. PMID 21478189 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** I:10.1096/fj.201901415R]   Самообновление HSC снижается с возрастом in vivo несмотря на активную теломеразу   [Sudo et al. 2000, PMID 11001867; Beerman et al. 2010, PMID 20833377; Yahata et al. 2011, PMID 21478189]   ⚠️ Примечани **Actual PubMed reco
+**Your context:** I:10.1096/fj.201901415R] Самообновление HSC снижается с возрастом in vivo несмотря на активную теломеразу [Sudo et al. 2000, PMID 11001867; Beerman et al. 2010, PMID 20833377; Yahata et al. 2011, PMID 21478189] ⚠️ Примечани **Actual PubMed reco
 **Actual (wrong?) paper:** Takeuchi T 2011 — Baseline tumour necrosis factor alpha levels predict the necessity for dose escalation of infliximab therapy in patients with rheumatoid arthritis.
 **Keywords extracted:** vivo, Sudo, Beerman, Yahata, Actual
 **No candidates found.**
 
 
 ## 198. PMID 21478189 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** 6990891) — УДАЛЁН как ссылка (2026-04-14) Ссылка была некорректной: C. elegans / Drosophila, не HSC. Исправлено в v4.7. Заменено: Sudo 2000 (PMID 11001867), Beerman 2010 (PMID 20833377), Yahata 2011 (PMID 21478189).  ### Три аксиомы — LOCKED (2026-04
+**Your context:** 6990891) — УДАЛЁН как ссылка (2026-04-14) Ссылка была некорректной: C. elegans / Drosophila, не HSC. Исправлено в v4.7. Заменено: Sudo 2000 (PMID 11001867), Beerman 2010 (PMID 20833377), Yahata 2011 (PMID 21478189). ### Три аксиомы — LOCKED (2026-04
 **Actual (wrong?) paper:** Takeuchi T 2011 — Baseline tumour necrosis factor alpha levels predict the necessity for dose escalation of infliximab therapy in patients with rheumatoid arthritis.
 **Keywords extracted:** elegans, Drosophila, Sudo, Beerman, Yahata
 **No candidates found.**
 
 
 ## 199. PMID 21478189 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** I:10.1096/fj.201901415R]   Самообновление HSC снижается с возрастом in vivo несмотря на активную теломеразу   [Sudo et al. 2000, PMID 11001867; Beerman et al. 2010, PMID 20833377; Yahata et al. 2011, PMID 21478189]   ⚠️ Примечание: ранее ошибочно цит
+**Your context:** I:10.1096/fj.201901415R] Самообновление HSC снижается с возрастом in vivo несмотря на активную теломеразу [Sudo et al. 2000, PMID 11001867; Beerman et al. 2010, PMID 20833377; Yahata et al. 2011, PMID 21478189] ⚠️ Примечание: ранее ошибочно цит
 **Actual (wrong?) paper:** Takeuchi T 2011 — Baseline tumour necrosis factor alpha levels predict the necessity for dose escalation of infliximab therapy in patients with rheumatoid arthritis.
 **Keywords extracted:** vivo, Sudo, Beerman, Yahata, Morris
 **No candidates found.**
@@ -1493,7 +1493,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 201. PMID 21478189 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** gainst HPV infection.* - Author: Day PM (2010) - Journal: Cell Host Microbe - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 38. PMID 21478189 — LOW_SCORE **File:** `MEMORY.md` **
+**Your context:** gainst HPV infection.* - Author: Day PM (2010) - Journal: Cell Host Microbe - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 38. PMID 21478189 — LOW_SCORE **File:** `MEMORY.md` **
 **Actual (wrong?) paper:** Takeuchi T 2011 — Baseline tumour necrosis factor alpha levels predict the necessity for dose escalation of infliximab therapy in patients with rheumatoid arthritis.
 **Keywords extracted:** gainst, infection, Author, Journal, Cell
 **Top candidates:**
@@ -1501,14 +1501,14 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 202. PMID 21478189 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** 6990891) — УДАЛЁН как ссылка (2026-04-14) Ссылка была некорректной: C. elegans / Drosophila, не HSC. Исправлено в v4.7. Заменено: Sudo 2000 (PMID 11001867), Beerman 2010 (PMID 20833377), Yahata 2011 (PMID 21478189).  ### Три аксиомы — LOCKED (2026-04
+**Your context:** 6990891) — УДАЛЁН как ссылка (2026-04-14) Ссылка была некорректной: C. elegans / Drosophila, не HSC. Исправлено в v4.7. Заменено: Sudo 2000 (PMID 11001867), Beerman 2010 (PMID 20833377), Yahata 2011 (PMID 21478189). ### Три аксиомы — LOCKED (2026-04
 **Actual (wrong?) paper:** Takeuchi T 2011 — Baseline tumour necrosis factor alpha levels predict the necessity for dose escalation of infliximab therapy in patients with rheumatoid arthritis.
 **Keywords extracted:** elegans, Drosophila, Sudo, Beerman, Yahata
 **No candidates found.**
 
 
 ## 203. PMID 21478189 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** I:10.1096/fj.201901415R]   Самообновление HSC снижается с возрастом in vivo несмотря на активную теломеразу   [Sudo et al. 2000, PMID 11001867; Beerman et al. 2010, PMID 20833377; Yahata et al. 2011, PMID 21478189]   ⚠️ Примечание: ранее ошибочно цит
+**Your context:** I:10.1096/fj.201901415R] Самообновление HSC снижается с возрастом in vivo несмотря на активную теломеразу [Sudo et al. 2000, PMID 11001867; Beerman et al. 2010, PMID 20833377; Yahata et al. 2011, PMID 21478189] ⚠️ Примечание: ранее ошибочно цит
 **Actual (wrong?) paper:** Takeuchi T 2011 — Baseline tumour necrosis factor alpha levels predict the necessity for dose escalation of infliximab therapy in patients with rheumatoid arthritis.
 **Keywords extracted:** vivo, Sudo, Beerman, Yahata, Morrison
 **No candidates found.**
@@ -1522,7 +1522,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 205. PMID 10818156 in `CDATA/LINKS.md`
-**Your context:** ins 2022 (CASIN HSC) | 36581635 | | Leins 2022 (npj Regen Med) | 36581635 |  ---  ## Калибровочные датасеты | Данные | Источник | |--------|----------| | MCAI траектории | Rockwood / Franceschi 2000 (PMID 10818156) | | CHIP VAF | Jaiswal 2017 (PMID 2
+**Your context:** ins 2022 (CASIN HSC) | 36581635 | | Leins 2022 (npj Regen Med) | 36581635 | --- ## Калибровочные датасеты | Данные | Источник | |--------|----------| | MCAI траектории | Rockwood / Franceschi 2000 (PMID 10818156) | | CHIP VAF | Jaiswal 2017 (PMID 2
 **Actual (wrong?) paper:** Barth AL 2000 — Upregulation of cAMP response element-mediated gene expression during experience-dependent plasticity in adult neocortex.
 **Keywords extracted:** CASIN, Leins, Regen, Rockwood, Franceschi
 **No candidates found.**
@@ -1546,7 +1546,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 208. PMID 10818156 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** CORE **File:** `LINKS.md` **Your context:** 22 (npj Regen Med) | 36581635 |  ---  ## Калибровочные датасеты | Данные | Источник | |--------|----------| | MCAI траектории | Rockwood / Franceschi 2000 (PMID 10818156) | | CHIP VAF | Jaiswal 2017 (PMID 2
+**Your context:** CORE **File:** `LINKS.md` **Your context:** 22 (npj Regen Med) | 36581635 | --- ## Калибровочные датасеты | Данные | Источник | |--------|----------| | MCAI траектории | Rockwood / Franceschi 2000 (PMID 10818156) | | CHIP VAF | Jaiswal 2017 (PMID 2
 **Actual (wrong?) paper:** Barth AL 2000 — Upregulation of cAMP response element-mediated gene expression during experience-dependent plasticity in adult neocortex.
 **Keywords extracted:** File, LINKS, context, Regen, Rockwood
 **No candidates found.**
@@ -1560,7 +1560,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 210. PMID 10818156 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** rheumatoid arthritis.* - Author: Takeuchi T (2011) - Journal: Ann Rheum Dis - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 41. PMID 10818156 — LOW_SCORE **File:** `LINKS.md` **Y
+**Your context:** rheumatoid arthritis.* - Author: Takeuchi T (2011) - Journal: Ann Rheum Dis - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 41. PMID 10818156 — LOW_SCORE **File:** `LINKS.md` **Y
 **Actual (wrong?) paper:** Barth AL 2000 — Upregulation of cAMP response element-mediated gene expression during experience-dependent plasticity in adult neocortex.
 **Keywords extracted:** rheumatoid, arthritis, Author, Takeuchi, Journal
 **Top candidates:**
@@ -1570,7 +1570,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 211. PMID 10818156 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** ins 2022 (CASIN HSC) | 36581635 | | Leins 2022 (npj Regen Med) | 36581635 |  ---  ## Калибровочные датасеты | Данные | Источник | |--------|----------| | MCAI траектории | Rockwood / Franceschi 2000 (PMID 10818156) | | CHIP VAF | Jaiswal 2017 (PMID 2
+**Your context:** ins 2022 (CASIN HSC) | 36581635 | | Leins 2022 (npj Regen Med) | 36581635 | --- ## Калибровочные датасеты | Данные | Источник | |--------|----------| | MCAI траектории | Rockwood / Franceschi 2000 (PMID 10818156) | | CHIP VAF | Jaiswal 2017 (PMID 2
 **Actual (wrong?) paper:** Barth AL 2000 — Upregulation of cAMP response element-mediated gene expression during experience-dependent plasticity in adult neocortex.
 **Keywords extracted:** CASIN, Leins, Regen, Rockwood, Franceschi
 **No candidates found.**
@@ -1594,7 +1594,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 214. PMID 10818156 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** s correct; if not, search for proper PMID.   ## 103. PMID 23746838 — LOW_SCORE **File:** `CONCEPT.md` **Your context:**  loss irreversible) ⚠️ | | **SASP** | stim_threshold | 0.3 | Uniform(0.2,0.4) | PMID: 10818156 (Franceschi 2000; low-level inflamm
+**Your context:** s correct; if not, search for proper PMID. ## 103. PMID 23746838 — LOW_SCORE **File:** `CONCEPT.md` **Your context:** loss irreversible) ⚠️ | | **SASP** | stim_threshold | 0.3 | Uniform(0.2,0.4) | PMID: 10818156 (Franceschi 2000; low-level inflamm
 **Actual (wrong?) paper:** Barth AL 2000 — Upregulation of cAMP response element-mediated gene expression during experience-dependent plasticity in adult neocortex.
 **Keywords extracted:** correct, search, proper, SCORE, File
 **No candidates found.**
@@ -1625,14 +1625,14 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 218. PMID 18322178 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** нет.** Все данные — публично доступные биомаркерные траектории из опубликованных когортных исследований (NHANES; Jaiswal 2017 PMID 28792876; Horvath 2013 PMID 24138928; Shay & Wright 2000; Dultz 2008 PMID 18322178). Этическое  **Actual PubMed record:
+**Your context:** нет.** Все данные — публично доступные биомаркерные траектории из опубликованных когортных исследований (NHANES; Jaiswal 2017 PMID 28792876; Horvath 2013 PMID 24138928; Shay & Wright 2000; Dultz 2008 PMID 18322178). Этическое **Actual PubMed record:
 **Actual (wrong?) paper:** Forsbach A 2008 — Identification of RNA sequence motifs stimulating sequence-specific TLR8-dependent immune responses.
 **Keywords extracted:** NHANES, Jaiswal, Horvath, Shay, Wright
 **No candidates found.**
 
 
 ## 219. PMID 18322178 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** ticity in adult neocortex.* - Author: Barth AL (2000) - Journal: J Neurosci - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 44. PMID 18322178 — LOW_SCORE **File:** `CONCEPT.md` *
+**Your context:** ticity in adult neocortex.* - Author: Barth AL (2000) - Journal: J Neurosci - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 44. PMID 18322178 — LOW_SCORE **File:** `CONCEPT.md` *
 **Actual (wrong?) paper:** Forsbach A 2008 — Identification of RNA sequence motifs stimulating sequence-specific TLR8-dependent immune responses.
 **Keywords extracted:** ticity, adult, neocortex, Author, Barth
 **No candidates found.**
@@ -1661,28 +1661,28 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 223. PMID 32755011 in `CDATA/CONCEPT.md`
-**Your context:** ая молекулярный механизм** этого hallmark (TTLL6-poly-Glu → ¬R накопление → misorientation).  **🆕 CASIN → ПРОДЛЕНИЕ ЖИЗНИ (Bradford Hill Experiment — косвенное):** - Florian et al. 2020 (*Aging Cell* PMID 32755011): 4 дня CASIN (CDC42-ингибитор) в 75
+**Your context:** ая молекулярный механизм** этого hallmark (TTLL6-poly-Glu → ¬R накопление → misorientation). **🆕 CASIN → ПРОДЛЕНИЕ ЖИЗНИ (Bradford Hill Experiment — косвенное):** - Florian et al. 2020 (*Aging Cell* PMID 32755011): 4 дня CASIN (CDC42-ингибитор) в 75
 **Actual (wrong?) paper:** Florian MC 2020 — Inhibition of Cdc42 activity extends lifespan and decreases circulating inflammatory cytokines in aged female C57BL/6 mice.
 **Keywords extracted:** hallmark, poly-Glu, misorientation, CASIN, Bradford
 **No candidates found.**
 
 
 ## 224. PMID 32755011 in `CDATA/CONCEPT.md`
-**Your context:** 35-STED) → восстановление CFE. Timeline: Month 24–36. Budget: ~€180K.    - **🆕 CASIN — прямое доказательство продления жизни (2020/2022):**      - **Florian et al. 2020** (*Aging Cell* 19(8): e13208. PMID: 32755011): Системное введение CASIN 75-недел
+**Your context:** 35-STED) → восстановление CFE. Timeline: Month 24–36. Budget: ~€180K. - **🆕 CASIN — прямое доказательство продления жизни (2020/2022):** - **Florian et al. 2020** (*Aging Cell* 19(8): e13208. PMID: 32755011): Системное введение CASIN 75-недел
 **Actual (wrong?) paper:** Florian MC 2020 — Inhibition of Cdc42 activity extends lifespan and decreases circulating inflammatory cytokines in aged female C57BL/6 mice.
 **Keywords extracted:** Timeline, Month, Budget, CASIN, Florian
 **No candidates found.**
 
 
 ## 225. PMID 32755011 in `CDATA/KNOWLEDGE.md`
-**Your context:**  **+34%**; максимальная **+28±5%** (2019) - CDATA-интерпретация: **SC_pool × fraction_young ∝ lifespan_gain**. Неполный rescue (72% старых остаётся) → объясняет частичность эффекта  ### Florian 2020 (PMID 32755011) - CASIN (Cdc42-ингибитор) 4 дня → в
+**Your context:** **+34%**; максимальная **+28±5%** (2019) - CDATA-интерпретация: **SC_pool × fraction_young ∝ lifespan_gain**. Неполный rescue (72% старых остаётся) → объясняет частичность эффекта ### Florian 2020 (PMID 32755011) - CASIN (Cdc42-ингибитор) 4 дня → в
 **Actual (wrong?) paper:** Florian MC 2020 — Inhibition of Cdc42 activity extends lifespan and decreases circulating inflammatory cytokines in aged female C57BL/6 mice.
 **Keywords extracted:** CDATA-, pool, fraction, young, lifespan
 **No candidates found.**
 
 
 ## 226. PMID 32755011 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** pendent immune responses.* - Author: Forsbach A (2008) - Journal: J Immunol - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 46. PMID 32755011 — LOW_SCORE **File:** `CONCEPT.md` *
+**Your context:** pendent immune responses.* - Author: Forsbach A (2008) - Journal: J Immunol - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 46. PMID 32755011 — LOW_SCORE **File:** `CONCEPT.md` *
 **Actual (wrong?) paper:** Florian MC 2020 — Inhibition of Cdc42 activity extends lifespan and decreases circulating inflammatory cytokines in aged female C57BL/6 mice.
 **Keywords extracted:** pendent, immune, responses, Author, Forsbach
 **No candidates found.**
@@ -1696,21 +1696,21 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 228. PMID 32755011 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** ая молекулярный механизм** этого hallmark (TTLL6-poly-Glu → ¬R накопление → misorientation).  **🆕 CASIN → ПРОДЛЕНИЕ ЖИЗНИ (Bradford Hill Experiment — косвенное):** - Florian et al. 2020 (*Aging Cell* PMID 32755011): 4 дня CASIN (CDC42-ингибитор) в 75
+**Your context:** ая молекулярный механизм** этого hallmark (TTLL6-poly-Glu → ¬R накопление → misorientation). **🆕 CASIN → ПРОДЛЕНИЕ ЖИЗНИ (Bradford Hill Experiment — косвенное):** - Florian et al. 2020 (*Aging Cell* PMID 32755011): 4 дня CASIN (CDC42-ингибитор) в 75
 **Actual (wrong?) paper:** Florian MC 2020 — Inhibition of Cdc42 activity extends lifespan and decreases circulating inflammatory cytokines in aged female C57BL/6 mice.
 **Keywords extracted:** hallmark, poly-Glu, misorientation, CASIN, Bradford
 **No candidates found.**
 
 
 ## 229. PMID 32755011 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** 35-STED) → восстановление CFE. Timeline: Month 24–36. Budget: ~€180K.    - **🆕 CASIN — прямое доказательство продления жизни (2020/2022):**      - **Florian et al. 2020** (*Aging Cell* 19(8): e13208. PMID: 32755011): Системное введение CASIN 75-недел
+**Your context:** 35-STED) → восстановление CFE. Timeline: Month 24–36. Budget: ~€180K. - **🆕 CASIN — прямое доказательство продления жизни (2020/2022):** - **Florian et al. 2020** (*Aging Cell* 19(8): e13208. PMID: 32755011): Системное введение CASIN 75-недел
 **Actual (wrong?) paper:** Florian MC 2020 — Inhibition of Cdc42 activity extends lifespan and decreases circulating inflammatory cytokines in aged female C57BL/6 mice.
 **Keywords extracted:** Timeline, Month, Budget, CASIN, Florian
 **No candidates found.**
 
 
 ## 230. PMID 32755011 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:**  **+34%**; максимальная **+28±5%** (2019) - CDATA-интерпретация: **SC_pool × fraction_young ∝ lifespan_gain**. Неполный rescue (72% старых остаётся) → объясняет частичность эффекта  ### Florian 2020 (PMID 32755011) - CASIN (Cdc42-ингибитор) 4 дня → в
+**Your context:** **+34%**; максимальная **+28±5%** (2019) - CDATA-интерпретация: **SC_pool × fraction_young ∝ lifespan_gain**. Неполный rescue (72% старых остаётся) → объясняет частичность эффекта ### Florian 2020 (PMID 32755011) - CASIN (Cdc42-ингибитор) 4 дня → в
 **Actual (wrong?) paper:** Florian MC 2020 — Inhibition of Cdc42 activity extends lifespan and decreases circulating inflammatory cytokines in aged female C57BL/6 mice.
 **Keywords extracted:** CDATA-, pool, fraction, young, lifespan
 **No candidates found.**
@@ -1724,7 +1724,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 232. PMID 24065130 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** ged female C57BL/6 mice.* - Author: Florian MC (2020) - Journal: Aging Cell - Match score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 50. PMID 24065130 — LOW_SCORE **File:** `KNOWLEDGE.md`
+**Your context:** ged female C57BL/6 mice.* - Author: Florian MC (2020) - Journal: Aging Cell - Match score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 50. PMID 24065130 — LOW_SCORE **File:** `KNOWLEDGE.md`
 **Actual (wrong?) paper:** Zempel H 2013 — Amyloid-β oligomers induce synaptic damage via Tau-dependent microtubule severing by TTLL6 and spastin.
 **Keywords extracted:** female, mice, Author, Florian, Journal
 **Top candidates:**
@@ -1741,7 +1741,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 234. PMID 32665677 in `CDATA/CONCEPT.md`
-**Your context:**  | **Центриоль (материнская)** | ⏳ **Предсказано; косвенная поддержка** — полиглутамилирование/ацетилирование α-тубулина нарастают с возрастом в постмитотических тканях (Janke & Magiera 2020 [обзор], PMID 32665677; Tsekrekou et al. 2024, PMID 3952865
+**Your context:** | **Центриоль (материнская)** | ⏳ **Предсказано; косвенная поддержка** — полиглутамилирование/ацетилирование α-тубулина нарастают с возрастом в постмитотических тканях (Janke & Magiera 2020 [обзор], PMID 32665677; Tsekrekou et al. 2024, PMID 3952865
 **Actual (wrong?) paper:** Vivanti AJ 2020 — Transplacental transmission of SARS-CoV-2 infection.
 **Keywords extracted:** Janke, Magiera, Tsekrekou, Bobinnec, poly-Glu
 **No candidates found.**
@@ -1755,14 +1755,14 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 236. PMID 32665677 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** ted control of HIV infection.* - Author: Kosmrlj A (2010) - Journal: Nature - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 59. PMID 32665677 — LOW_SCORE **File:** `CONCEPT.md` *
+**Your context:** ted control of HIV infection.* - Author: Kosmrlj A (2010) - Journal: Nature - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 59. PMID 32665677 — LOW_SCORE **File:** `CONCEPT.md` *
 **Actual (wrong?) paper:** Vivanti AJ 2020 — Transplacental transmission of SARS-CoV-2 infection.
 **Keywords extracted:** control, infection, Author, Kosmrlj, Journal
 **No candidates found.**
 
 
 ## 237. PMID 32665677 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:**  | **Центриоль (материнская)** | ⏳ **Предсказано; косвенная поддержка** — полиглутамилирование/ацетилирование α-тубулина нарастают с возрастом в постмитотических тканях (Janke & Magiera 2020 [обзор], PMID 32665677; Tsekrekou et al. 2024, PMID 3952865
+**Your context:** | **Центриоль (материнская)** | ⏳ **Предсказано; косвенная поддержка** — полиглутамилирование/ацетилирование α-тубулина нарастают с возрастом в постмитотических тканях (Janke & Magiera 2020 [обзор], PMID 32665677; Tsekrekou et al. 2024, PMID 3952865
 **Actual (wrong?) paper:** Vivanti AJ 2020 — Transplacental transmission of SARS-CoV-2 infection.
 **Keywords extracted:** Janke, Magiera, Tsekrekou, Bobinnec, Actual
 **No candidates found.**
@@ -1804,7 +1804,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 243. PMID 39528655 in `CDATA/CONCEPT.md`
-**Your context:** гружённая материнская центриоль является необратимо накапливающимся субстратом повреждения.  **PTM-токсичность и терапевтические мишени через CCP1/AGBL5 (v4.6):** Tsekrekou et al. 2024 (EMBO Journal, PMID 39528655) — дефицит CCP5/CCP1 деглутамилазы →
+**Your context:** гружённая материнская центриоль является необратимо накапливающимся субстратом повреждения. **PTM-токсичность и терапевтические мишени через CCP1/AGBL5 (v4.6):** Tsekrekou et al. 2024 (EMBO Journal, PMID 39528655) — дефицит CCP5/CCP1 деглутамилазы →
 **Actual (wrong?) paper:** Mercey O 2024 — Glutamylation imbalance impairs the molecular architecture of the photoreceptor cilium.
 **Keywords extracted:** Tsekrekou, Journal
 **Top candidates:**
@@ -1814,7 +1814,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 244. PMID 39528655 in `CDATA/CONCEPT.md`
-**Your context:** кол) 2. **Ферментативное обращение центриолярных PTM** — молекулярные мишени подтверждены экспериментально (v4.6):    - **CCP1/AGBL5** и **CCP5/AGBL5** (деглутамилазы): Tsekrekou et al. 2024 (EMBO J, PMID 39528655) — AGBL5/CCP5-дефицит → гиперглутами
+**Your context:** кол) 2. **Ферментативное обращение центриолярных PTM** — молекулярные мишени подтверждены экспериментально (v4.6): - **CCP1/AGBL5** и **CCP5/AGBL5** (деглутамилазы): Tsekrekou et al. 2024 (EMBO J, PMID 39528655) — AGBL5/CCP5-дефицит → гиперглутами
 **Actual (wrong?) paper:** Mercey O 2024 — Glutamylation imbalance impairs the molecular architecture of the photoreceptor cilium.
 **Keywords extracted:** Tsekrekou
 **Top candidates:**
@@ -1838,7 +1838,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 247. PMID 39528655 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** of SARS-CoV-2 infection.* - Author: Vivanti AJ (2020) - Journal: Nat Commun - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 61. PMID 39528655 — LOW_SCORE **File:** `CONCEPT.md` *
+**Your context:** of SARS-CoV-2 infection.* - Author: Vivanti AJ (2020) - Journal: Nat Commun - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 61. PMID 39528655 — LOW_SCORE **File:** `CONCEPT.md` *
 **Actual (wrong?) paper:** Mercey O 2024 — Glutamylation imbalance impairs the molecular architecture of the photoreceptor cilium.
 **Keywords extracted:** SARS-CoV-, infection, Author, Vivanti, Journal
 **Top candidates:**
@@ -1862,21 +1862,21 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 250. PMID 39528655 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** гружённая материнская центриоль является необратимо накапливающимся субстратом повреждения.  **PTM-токсичность и терапевтические мишени через CCP1/AGBL5 (v4.6):** Tsekrekou et al. 2024 (EMBO Journal, PMID 39528655) — дефицит CCP5/CCP1 деглутамилазы →
+**Your context:** гружённая материнская центриоль является необратимо накапливающимся субстратом повреждения. **PTM-токсичность и терапевтические мишени через CCP1/AGBL5 (v4.6):** Tsekrekou et al. 2024 (EMBO Journal, PMID 39528655) — дефицит CCP5/CCP1 деглутамилазы →
 **Actual (wrong?) paper:** Mercey O 2024 — Glutamylation imbalance impairs the molecular architecture of the photoreceptor cilium.
 **Keywords extracted:** Tsekrekou, Journal, Actual
 **No candidates found.**
 
 
 ## 251. PMID 39528655 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** кол) 2. **Ферментативное обращение центриолярных PTM** — молекулярные мишени подтверждены экспериментально (v4.6):    - **CCP1/AGBL5** и **CCP5/AGBL5** (деглутамилазы): Tsekrekou et al. 2024 (EMBO J, PMID 39528655) — AGBL5/CCP5-дефицит → гиперглутами
+**Your context:** кол) 2. **Ферментативное обращение центриолярных PTM** — молекулярные мишени подтверждены экспериментально (v4.6): - **CCP1/AGBL5** и **CCP5/AGBL5** (деглутамилазы): Tsekrekou et al. 2024 (EMBO J, PMID 39528655) — AGBL5/CCP5-дефицит → гиперглутами
 **Actual (wrong?) paper:** Mercey O 2024 — Glutamylation imbalance impairs the molecular architecture of the photoreceptor cilium.
 **Keywords extracted:** Tsekrekou, Actual
 **No candidates found.**
 
 
 ## 252. PMID 39528655 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:**  activity directly controls cilia length and SC differentiation.  ### Required change  ```rust /// CCP1 deglutamylase module /// Source: Pan et al. 2025, DOI 10.1159/000543411; Tsekrekou et al. 2024, PMID 39528655  /// CCP1 activity as function of ce
+**Your context:** activity directly controls cilia length and SC differentiation. ### Required change ```rust /// CCP1 deglutamylase module /// Source: Pan et al. 2025, DOI 10.1159/000543411; Tsekrekou et al. 2024, PMID 39528655 /// CCP1 activity as function of ce
 **Actual (wrong?) paper:** Mercey O 2024 — Glutamylation imbalance impairs the molecular architecture of the photoreceptor cilium.
 **Keywords extracted:** activity, directly, controls, cilia, length
 **Top candidates:**
@@ -1886,7 +1886,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 253. PMID 39528655 in `CDATA/docs/CODE_CHANGES_NEEDED.md`
-**Your context:**  activity directly controls cilia length and SC differentiation.  ### Required change  ```rust /// CCP1 deglutamylase module /// Source: Pan et al. 2025, DOI 10.1159/000543411; Tsekrekou et al. 2024, PMID 39528655  /// CCP1 activity as function of ce
+**Your context:** activity directly controls cilia length and SC differentiation. ### Required change ```rust /// CCP1 deglutamylase module /// Source: Pan et al. 2025, DOI 10.1159/000543411; Tsekrekou et al. 2024, PMID 39528655 /// CCP1 activity as function of ce
 **Actual (wrong?) paper:** Mercey O 2024 — Glutamylation imbalance impairs the molecular architecture of the photoreceptor cilium.
 **Keywords extracted:** activity, directly, controls, cilia, length
 **Top candidates:**
@@ -1911,7 +1911,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 256. PMID 39764850 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** e of the photoreceptor cilium.* - Author: Mercey O (2024) - Journal: EMBO J - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 66. PMID 39764850 — LOW_SCORE **File:** `CONCEPT.md` *
+**Your context:** e of the photoreceptor cilium.* - Author: Mercey O (2024) - Journal: EMBO J - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 66. PMID 39764850 — LOW_SCORE **File:** `CONCEPT.md` *
 **Actual (wrong?) paper:** Barandun N 2025 — Targeted localization of the mother centrosome in CD8(+) T cells undergoing asymmetric cell division promotes memory formation.
 **Keywords extracted:** photoreceptor, cilium, Author, Mercey, Journal
 **Top candidates:**
@@ -1945,7 +1945,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 260. PMID 19837038 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** promotes memory formation.* - Author: Barandun N (2025) - Journal: Cell Rep - Match score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 68. PMID 19837038 — LOW_SCORE **File:** `CONCEPT.md` *
+**Your context:** promotes memory formation.* - Author: Barandun N (2025) - Journal: Cell Rep - Match score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 68. PMID 19837038 — LOW_SCORE **File:** `CONCEPT.md` *
 **Actual (wrong?) paper:** Korkut C 2009 — Trans-synaptic transmission of vesicular Wnt signals through Evi/Wntless.
 **Keywords extracted:** promotes, memory, formation, Author, Barandun
 **Top candidates:**
@@ -1970,7 +1970,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 263. PMID 15541860 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** Wnt signals through Evi/Wntless.* - Author: Korkut C (2009) - Journal: Cell - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 69. PMID 15541860 — LOW_SCORE **File:** `CONCEPT.md` *
+**Your context:** Wnt signals through Evi/Wntless.* - Author: Korkut C (2009) - Journal: Cell - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 69. PMID 15541860 — LOW_SCORE **File:** `CONCEPT.md` *
 **Actual (wrong?) paper:** Smrkolj S 2004 — Evaluation of causes of increased incidence of cervical cancer in Slovenia.
 **Keywords extracted:** signals, through, Wntless, Author, Korkut
 **No candidates found.**
@@ -1994,7 +1994,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 266. PMID 16237840 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** ia.* - Author: Smrkolj S (2004) - Journal: Eur J Obstet Gynecol Reprod Biol - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 70. PMID 16237840 — LOW_SCORE **File:** `CONCEPT.md` *
+**Your context:** ia.* - Author: Smrkolj S (2004) - Journal: Eur J Obstet Gynecol Reprod Biol - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 70. PMID 16237840 — LOW_SCORE **File:** `CONCEPT.md` *
 **Actual (wrong?) paper:** Blackman S 2005 — Animal rights extremism crosses the Atlantic.
 **Keywords extracted:** Author, Smrkolj, Journal, Obstet, Gynecol
 **Top candidates:**
@@ -2011,14 +2011,14 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 268. PMID 14631055 in `CDATA/CONCEPT.md`
-**Your context:**  напрямую на самообновление | ✅ Митофагия, MitoQ | **Модулятор, не часы** (нет C2) | | **Ламины A/C** | ✅ Накапливаются с возрастом (progerin); HGPS-мутация → преждевременное старение (Eriksson 2003, PMID 14631055) | ❌ Ламины разбираются в митозе и п
+**Your context:** напрямую на самообновление | ✅ Митофагия, MitoQ | **Модулятор, не часы** (нет C2) | | **Ламины A/C** | ✅ Накапливаются с возрастом (progerin); HGPS-мутация → преждевременное старение (Eriksson 2003, PMID 14631055) | ❌ Ламины разбираются в митозе и п
 **Actual (wrong?) paper:** Goodacre SW 2003 — Clinical predictors of acute coronary syndromes in patients with undifferentiated chest pain.
 **Keywords extracted:** MitoQ, progerin, HGPS-, Eriksson, dilution-driven
 **No candidates found.**
 
 
 ## 269. PMID 14631055 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** s the Atlantic.* - Author: Blackman S (2005) - Journal: Nat Rev Drug Discov - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 71. PMID 14631055 — LOW_SCORE **File:** `CONCEPT.md` *
+**Your context:** s the Atlantic.* - Author: Blackman S (2005) - Journal: Nat Rev Drug Discov - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 71. PMID 14631055 — LOW_SCORE **File:** `CONCEPT.md` *
 **Actual (wrong?) paper:** Goodacre SW 2003 — Clinical predictors of acute coronary syndromes in patients with undifferentiated chest pain.
 **Keywords extracted:** Atlantic, Author, Blackman, Journal, Drug
 **Top candidates:**
@@ -2026,14 +2026,14 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 270. PMID 14631055 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:**  напрямую на самообновление | ✅ Митофагия, MitoQ | **Модулятор, не часы** (нет C2) | | **Ламины A/C** | ✅ Накапливаются с возрастом (progerin); HGPS-мутация → преждевременное старение (Eriksson 2003, PMID 14631055) | ❌ Ламины разбираются в митозе и п
+**Your context:** напрямую на самообновление | ✅ Митофагия, MitoQ | **Модулятор, не часы** (нет C2) | | **Ламины A/C** | ✅ Накапливаются с возрастом (progerin); HGPS-мутация → преждевременное старение (Eriksson 2003, PMID 14631055) | ❌ Ламины разбираются в митозе и п
 **Actual (wrong?) paper:** Goodacre SW 2003 — Clinical predictors of acute coronary syndromes in patients with undifferentiated chest pain.
 **Keywords extracted:** MitoQ, progerin, HGPS-, Eriksson, diluti
 **No candidates found.**
 
 
 ## 271. PMID 39266565 in `CDATA/CONCEPT.md`
-**Your context:** ения → добавление новых остатков Glu → ускорение следующего цикла → кумулятивное, необратимое накопление ∝ числу делений.  **🆕 GT335+ → СЕНЕСЦЕНЦИЯ (Phan 2024, sinc-MT):** Phan et al. 2024 (Nat Comms PMID 39266565) — полиглутамилированные sinc-MTs (G
+**Your context:** ения → добавление новых остатков Glu → ускорение следующего цикла → кумулятивное, необратимое накопление ∝ числу делений. **🆕 GT335+ → СЕНЕСЦЕНЦИЯ (Phan 2024, sinc-MT):** Phan et al. 2024 (Nat Comms PMID 39266565) — полиглутамилированные sinc-MTs (G
 **Actual (wrong?) paper:** Robichaud JH 2024 — Transiently formed nucleus-to-cilium microtubule arrays mediate senescence initiation in a KIFC3-dependent manner.
 **Keywords extracted:** Phan, sinc-MT, Comms, sinc-MTs, PML-NB
 **No candidates found.**
@@ -2054,7 +2054,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 274. PMID 39266565 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** h undifferentiated chest pain.* - Author: Goodacre SW (2003) - Journal: QJM - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 72. PMID 39266565 — LOW_SCORE **File:** `CONCEPT.md` *
+**Your context:** h undifferentiated chest pain.* - Author: Goodacre SW (2003) - Journal: QJM - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 72. PMID 39266565 — LOW_SCORE **File:** `CONCEPT.md` *
 **Actual (wrong?) paper:** Robichaud JH 2024 — Transiently formed nucleus-to-cilium microtubule arrays mediate senescence initiation in a KIFC3-dependent manner.
 **Keywords extracted:** undifferentiated, chest, pain, Author, Goodacre
 **Top candidates:**
@@ -2063,7 +2063,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 275. PMID 39266565 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** ения → добавление новых остатков Glu → ускорение следующего цикла → кумулятивное, необратимое накопление ∝ числу делений.  **🆕 GT335+ → СЕНЕСЦЕНЦИЯ (Phan 2024, sinc-MT):** Phan et al. 2024 (Nat Comms PMID 39266565) — полиглутамилированные sinc-MTs (G
+**Your context:** ения → добавление новых остатков Glu → ускорение следующего цикла → кумулятивное, необратимое накопление ∝ числу делений. **🆕 GT335+ → СЕНЕСЦЕНЦИЯ (Phan 2024, sinc-MT):** Phan et al. 2024 (Nat Comms PMID 39266565) — полиглутамилированные sinc-MTs (G
 **Actual (wrong?) paper:** Robichaud JH 2024 — Transiently formed nucleus-to-cilium microtubule arrays mediate senescence initiation in a KIFC3-dependent manner.
 **Keywords extracted:** Phan, sinc-MT, Comms, sinc-MTs, PML-NB
 **No candidates found.**
@@ -2105,7 +2105,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 281. PMID 37552892 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** ntiation.* - Author: Sebastian S (2009) - Journal: Proc Natl Acad Sci U S A - Match score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 78. PMID 37552892 — LOW_SCORE **File:** `CONCEPT.md` *
+**Your context:** ntiation.* - Author: Sebastian S (2009) - Journal: Proc Natl Acad Sci U S A - Match score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 78. PMID 37552892 — LOW_SCORE **File:** `CONCEPT.md` *
 **Actual (wrong?) paper:** Yamashita YM 2023 — Asymmetric Stem Cell Division and Germline Immortality.
 **Keywords extracted:** ntiation, Author, Sebastian, Journal, Proc
 **No candidates found.**
@@ -2133,7 +2133,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 285. PMID 40257113 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** mline Immortality.* - Author: Yamashita YM (2023) - Journal: Annu Rev Genet - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 80. PMID 40257113 — LOW_SCORE **File:** `CONCEPT.md` *
+**Your context:** mline Immortality.* - Author: Yamashita YM (2023) - Journal: Annu Rev Genet - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 80. PMID 40257113 — LOW_SCORE **File:** `CONCEPT.md` *
 **Actual (wrong?) paper:** Hamzah M 2025 — PLK4: Master Regulator of Centriole Duplication and Its Therapeutic Potential.
 **Keywords extracted:** mline, Immortality, Author, Yamashita, Journal
 **No candidates found.**
@@ -2147,14 +2147,14 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 287. PMID 22019940 in `CDATA/CONCEPT.md`
-**Your context:** опрос количественно.  **Мета-анализ литературы (v4.7, 2026-04-13):**  | Источник | Наблюдение | Интерпретация CDATA | |----------|-----------|---------------------| | Lapasset et al. 2011 (Genes Dev, PMID 22019940) | Сенесцентные и центенарные фиброб
+**Your context:** опрос количественно. **Мета-анализ литературы (v4.7, 2026-04-13):** | Источник | Наблюдение | Интерпретация CDATA | |----------|-----------|---------------------| | Lapasset et al. 2011 (Genes Dev, PMID 22019940) | Сенесцентные и центенарные фиброб
 **Actual (wrong?) paper:** Mandraju R 2011 — Topoisomerase IIβ associates with Ku70 and PARP-1 during double strand break repair of DNA in neurons.
 **Keywords extracted:** CDATA, Lapasset, Genes, iPSC
 **No candidates found.**
 
 
 ## 288. PMID 22019940 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** tic Potential.* - Author: Hamzah M (2025) - Journal: Cytoskeleton (Hoboken) - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 81. PMID 22019940 — LOW_SCORE **File:** `CONCEPT.md` *
+**Your context:** tic Potential.* - Author: Hamzah M (2025) - Journal: Cytoskeleton (Hoboken) - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 81. PMID 22019940 — LOW_SCORE **File:** `CONCEPT.md` *
 **Actual (wrong?) paper:** Mandraju R 2011 — Topoisomerase IIβ associates with Ku70 and PARP-1 during double strand break repair of DNA in neurons.
 **Keywords extracted:** Potential, Author, Hamzah, Journal, Cytoskeleton
 **Top candidates:**
@@ -2162,7 +2162,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 289. PMID 22019940 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** опрос количественно.  **Мета-анализ литературы (v4.7, 2026-04-13):**  | Источник | Наблюдение | Интерпретация CDATA | |----------|-----------|---------------------| | Lapasset et al. 2011 (Genes Dev, PMID 22019940) | Сенесцентные и центенарные фиброб
+**Your context:** опрос количественно. **Мета-анализ литературы (v4.7, 2026-04-13):** | Источник | Наблюдение | Интерпретация CDATA | |----------|-----------|---------------------| | Lapasset et al. 2011 (Genes Dev, PMID 22019940) | Сенесцентные и центенарные фиброб
 **Actual (wrong?) paper:** Mandraju R 2011 — Topoisomerase IIβ associates with Ku70 and PARP-1 during double strand break repair of DNA in neurons.
 **Keywords extracted:** CDATA, Lapasset, Genes, Actual
 **No candidates found.**
@@ -2179,7 +2179,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 291. PMID 27984723 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** NA in neurons.* - Author: Mandraju R (2011) - Journal: Arch Biochem Biophys - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 82. PMID 27984723 — LOW_SCORE **File:** `CONCEPT.md` *
+**Your context:** NA in neurons.* - Author: Mandraju R (2011) - Journal: Arch Biochem Biophys - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 82. PMID 27984723 — LOW_SCORE **File:** `CONCEPT.md` *
 **Actual (wrong?) paper:** Ocampo A 2016 — In Vivo Amelioration of Age-Associated Hallmarks by Partial Reprogramming.
 **Keywords extracted:** neurons, Author, Mandraju, Journal, Arch
 **No candidates found.**
@@ -2200,7 +2200,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 294. PMID 36544058 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** lmarks by Partial Reprogramming.* - Author: Ocampo A (2016) - Journal: Cell - Match score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 83. PMID 36544058 — LOW_SCORE **File:** `CONCEPT.md` *
+**Your context:** lmarks by Partial Reprogramming.* - Author: Ocampo A (2016) - Journal: Cell - Match score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 83. PMID 36544058 — LOW_SCORE **File:** `CONCEPT.md` *
 **Actual (wrong?) paper:** Zheng Y 2023 — Annexin A1 (Ac2-26)-dependent Fpr2 receptor alleviates sepsis-induced acute kidney injury by inhibiting inflammation and apoptosis in vivo and in vitr
 **Keywords extracted:** lmarks, Partial, Reprogramming, Author, Ocampo
 **No candidates found.**
@@ -2221,7 +2221,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 297. PMID 33191915 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** osis in vivo and in vitro.* - Author: Zheng Y (2023) - Journal: Inflamm Res - Match score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 84. PMID 33191915 — LOW_SCORE **File:** `CONCEPT.md` *
+**Your context:** osis in vivo and in vitro.* - Author: Zheng Y (2023) - Journal: Inflamm Res - Match score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 84. PMID 33191915 — LOW_SCORE **File:** `CONCEPT.md` *
 **Actual (wrong?) paper:** Jensen IJ 2020 — Sepsis impedes EAE disease development and diminishes autoantigen-specific naive CD4 T cells.
 **Keywords extracted:** osis, vivo, vitro, Author, Zheng
 **No candidates found.**
@@ -2245,7 +2245,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 300. PMID 20182448 in `CDATA/CONCEPT.md`
-**Your context:**  0.12 | Fixed | PMID: 16168009 (Balaban et al. 2005; нормированное значение ROS в молодых HSC) | | **Защита** | Π₀ | 0.87 | Beta(8, 2) | MCMC calibrated (NUTS, free parameter; prior from Kenyon 2010, PMID: 20182448) | | | τ_protection | 24.3 | Gamma(
+**Your context:** 0.12 | Fixed | PMID: 16168009 (Balaban et al. 2005; нормированное значение ROS в молодых HSC) | | **Защита** | Π₀ | 0.87 | Beta(8, 2) | MCMC calibrated (NUTS, free parameter; prior from Kenyon 2010, PMID: 20182448) | | | τ_protection | 24.3 | Gamma(
 **Actual (wrong?) paper:** Ogawa A 2010 — The differential role of L-selectin and ICAM-1 in Th1-type and Th2-type contact hypersensitivity.
 **Keywords extracted:** Fixed, Balaban, Beta, calibrated, free
 **No candidates found.**
@@ -2262,14 +2262,14 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 302. PMID 20182448 in `CDATA/CONCEPT.md`
-**Your context:** ет. Posterior SD / prior SD = 0.38 (хорошо идентифицируется данными).   - **Π₀** выбран свободным: начальная PCM-ёмкость в молодом возрасте не измерена прямо ни для одной ткани. Prior из Kenyon 2010 (PMID: 20182448) широкий; данные сужают posterior д
+**Your context:** ет. Posterior SD / prior SD = 0.38 (хорошо идентифицируется данными). - **Π₀** выбран свободным: начальная PCM-ёмкость в молодом возрасте не измерена прямо ни для одной ткани. Prior из Kenyon 2010 (PMID: 20182448) широкий; данные сужают posterior д
 **Actual (wrong?) paper:** Ogawa A 2010 — The differential role of L-selectin and ICAM-1 in Th1-type and Th2-type contact hypersensitivity.
 **Keywords extracted:** Posterior, prior, Kenyon, Beta
 **No candidates found.**
 
 
 ## 303. PMID 20182448 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:**  17395836 — LOW_SCORE **File:** `CONCEPT.md` **Your context:** hored to FOXO decline kinetics) | | | Π_baseline | 0.10 | Fixed | Expert prior; residual protection floor consistent with aged HSC data (PMID: 20182448) | | **Асимметрия** | P₀ | 0.94 | B
+**Your context:** 17395836 — LOW_SCORE **File:** `CONCEPT.md` **Your context:** hored to FOXO decline kinetics) | | | Π_baseline | 0.10 | Fixed | Expert prior; residual protection floor consistent with aged HSC data (PMID: 20182448) | | **Асимметрия** | P₀ | 0.94 | B
 **Actual (wrong?) paper:** Ogawa A 2010 — The differential role of L-selectin and ICAM-1 in Th1-type and Th2-type contact hypersensitivity.
 **Keywords extracted:** SCORE, File, CONCEPT, context, hored
 **Top candidates:**
@@ -2279,14 +2279,14 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 304. PMID 20182448 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** ct; if not, search for proper PMID.   ## 76. PMID 19264965 — LOW_SCORE **File:** `CONCEPT.md` **Your context:** | 0.10 | Fixed | Expert prior; residual protection floor consistent with aged HSC data (PMID: 20182448) | | **Асимметрия** | P₀ | 0.94 | B
+**Your context:** ct; if not, search for proper PMID. ## 76. PMID 19264965 — LOW_SCORE **File:** `CONCEPT.md` **Your context:** | 0.10 | Fixed | Expert prior; residual protection floor consistent with aged HSC data (PMID: 20182448) | | **Асимметрия** | P₀ | 0.94 | B
 **Actual (wrong?) paper:** Ogawa A 2010 — The differential role of L-selectin and ICAM-1 in Th1-type and Th2-type contact hypersensitivity.
 **Keywords extracted:** search, proper, SCORE, File, CONCEPT
 **No candidates found.**
 
 
 ## 305. PMID 20182448 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** en-specific naive CD4 T cells.* - Author: Jensen IJ (2020) - Journal: Elife - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 85. PMID 20182448 — LOW_SCORE **File:** `CONCEPT.md` *
+**Your context:** en-specific naive CD4 T cells.* - Author: Jensen IJ (2020) - Journal: Elife - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 85. PMID 20182448 — LOW_SCORE **File:** `CONCEPT.md` *
 **Actual (wrong?) paper:** Ogawa A 2010 — The differential role of L-selectin and ICAM-1 in Th1-type and Th2-type contact hypersensitivity.
 **Keywords extracted:** en-specific, naive, cells, Author, Jensen
 **No candidates found.**
@@ -2300,7 +2300,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 307. PMID 20182448 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** ct hypersensitivity.* - Author: Ogawa A (2010) - Journal: J Invest Dermatol - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 86. PMID 20182448 — LOW_SCORE **File:** `CONCEPT.md` *
+**Your context:** ct hypersensitivity.* - Author: Ogawa A (2010) - Journal: J Invest Dermatol - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 86. PMID 20182448 — LOW_SCORE **File:** `CONCEPT.md` *
 **Actual (wrong?) paper:** Ogawa A 2010 — The differential role of L-selectin and ICAM-1 in Th1-type and Th2-type contact hypersensitivity.
 **Keywords extracted:** hypersensitivity, Author, Ogawa, Journal, Invest
 **Top candidates:**
@@ -2310,14 +2310,14 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 308. PMID 20182448 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:**  0.12 | Fixed | PMID: 16168009 (Balaban et al. 2005; нормированное значение ROS в молодых HSC) | | **Защита** | Π₀ | 0.87 | Beta(8, 2) | MCMC calibrated (NUTS, free parameter; prior from Kenyon 2010, PMID: 20182448) | | | τ_protection | 24.3 | Gamma(
+**Your context:** 0.12 | Fixed | PMID: 16168009 (Balaban et al. 2005; нормированное значение ROS в молодых HSC) | | **Защита** | Π₀ | 0.87 | Beta(8, 2) | MCMC calibrated (NUTS, free parameter; prior from Kenyon 2010, PMID: 20182448) | | | τ_protection | 24.3 | Gamma(
 **Actual (wrong?) paper:** Ogawa A 2010 — The differential role of L-selectin and ICAM-1 in Th1-type and Th2-type contact hypersensitivity.
 **Keywords extracted:** Fixed, Balaban, Beta, calibrated, free
 **No candidates found.**
 
 
 ## 309. PMID 20182448 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** ct hypersensitivity.* - Author: Ogawa A (2010) - Journal: J Invest Dermatol - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 87. PMID 20182448 — LOW_SCORE **File:** `CONCEPT.md` *
+**Your context:** ct hypersensitivity.* - Author: Ogawa A (2010) - Journal: J Invest Dermatol - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 87. PMID 20182448 — LOW_SCORE **File:** `CONCEPT.md` *
 **Actual (wrong?) paper:** Ogawa A 2010 — The differential role of L-selectin and ICAM-1 in Th1-type and Th2-type contact hypersensitivity.
 **Keywords extracted:** hypersensitivity, Author, Ogawa, Journal, Invest
 **Top candidates:**
@@ -2337,7 +2337,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 311. PMID 20182448 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** ct hypersensitivity.* - Author: Ogawa A (2010) - Journal: J Invest Dermatol - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 88. PMID 20182448 — LOW_SCORE **File:** `CONCEPT.md` *
+**Your context:** ct hypersensitivity.* - Author: Ogawa A (2010) - Journal: J Invest Dermatol - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 88. PMID 20182448 — LOW_SCORE **File:** `CONCEPT.md` *
 **Actual (wrong?) paper:** Ogawa A 2010 — The differential role of L-selectin and ICAM-1 in Th1-type and Th2-type contact hypersensitivity.
 **Keywords extracted:** hypersensitivity, Author, Ogawa, Journal, Invest
 **Top candidates:**
@@ -2347,7 +2347,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 312. PMID 20182448 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** ет. Posterior SD / prior SD = 0.38 (хорошо идентифицируется данными).   - **Π₀** выбран свободным: начальная PCM-ёмкость в молодом возрасте не измерена прямо ни для одной ткани. Prior из Kenyon 2010 (PMID: 20182448) широкий; данные сужают posterior д
+**Your context:** ет. Posterior SD / prior SD = 0.38 (хорошо идентифицируется данными). - **Π₀** выбран свободным: начальная PCM-ёмкость в молодом возрасте не измерена прямо ни для одной ткани. Prior из Kenyon 2010 (PMID: 20182448) широкий; данные сужают posterior д
 **Actual (wrong?) paper:** Ogawa A 2010 — The differential role of L-selectin and ICAM-1 in Th1-type and Th2-type contact hypersensitivity.
 **Keywords extracted:** Posterior, prior, Kenyon, Beta, Actual
 **No candidates found.**
@@ -2361,7 +2361,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 314. PMID 17218264 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** ct hypersensitivity.* - Author: Ogawa A (2010) - Journal: J Invest Dermatol - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 89. PMID 17218264 — LOW_SCORE **File:** `CONCEPT.md` *
+**Your context:** ct hypersensitivity.* - Author: Ogawa A (2010) - Journal: J Invest Dermatol - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 89. PMID 17218264 — LOW_SCORE **File:** `CONCEPT.md` *
 **Actual (wrong?) paper:** Shen J 2007 — Selective activation of cognate SNAREpins by Sec1/Munc18 proteins.
 **Keywords extracted:** hypersensitivity, Author, Ogawa, Journal, Invest
 **Top candidates:**
@@ -2385,7 +2385,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 317. PMID 9875985 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** SNAREpins by Sec1/Munc18 proteins.* - Author: Shen J (2007) - Journal: Cell - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 90. PMID 9875985 — LOW_SCORE **File:** `CONCEPT.md` **
+**Your context:** SNAREpins by Sec1/Munc18 proteins.* - Author: Shen J (2007) - Journal: Cell - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 90. PMID 9875985 — LOW_SCORE **File:** `CONCEPT.md` **
 **Actual (wrong?) paper:** Fitzharris TP 1998 — Survey of gross anatomy courses in the United States and Canada.
 **Keywords extracted:** SNAREpins, Munc, proteins, Author, Shen
 **No candidates found.**
@@ -2399,21 +2399,21 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 319. PMID 21778236 in `CDATA/CONCEPT.md`
-**Your context:** стратегия CDATA — деглутамилазы CCP1/AGBL5 — снижает D(t), не воздействуя на Aurora A, и поэтому **не несёт риска CIN**. - Накопление дефектов γ-TuRC → снижение нуклеации микротрубочек (Kollman 2011, PMID 21778236)  **Важное уточнение:** Π(t) ≠ «ремо
+**Your context:** стратегия CDATA — деглутамилазы CCP1/AGBL5 — снижает D(t), не воздействуя на Aurora A, и поэтому **не несёт риска CIN**. - Накопление дефектов γ-TuRC → снижение нуклеации микротрубочек (Kollman 2011, PMID 21778236) **Важное уточнение:** Π(t) ≠ «ремо
 **Actual (wrong?) paper:** Chen S 2011 — Histone deacetylase (HDAC) activity is critical for embryonic kidney gene expression, growth, and differentiation.
 **Keywords extracted:** CDATA, Aurora, TuRC, Kollman, CDATA-
 **No candidates found.**
 
 
 ## 320. PMID 21778236 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** ited States and Canada.* - Author: Fitzharris TP (1998) - Journal: Anat Rec - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 91. PMID 21778236 — LOW_SCORE **File:** `CONCEPT.md` *
+**Your context:** ited States and Canada.* - Author: Fitzharris TP (1998) - Journal: Anat Rec - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 91. PMID 21778236 — LOW_SCORE **File:** `CONCEPT.md` *
 **Actual (wrong?) paper:** Chen S 2011 — Histone deacetylase (HDAC) activity is critical for embryonic kidney gene expression, growth, and differentiation.
 **Keywords extracted:** ited, States, Canada, Author, Fitzharris
 **No candidates found.**
 
 
 ## 321. PMID 21778236 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** стратегия CDATA — деглутамилазы CCP1/AGBL5 — снижает D(t), не воздействуя на Aurora A, и поэтому **не несёт риска CIN**. - Накопление дефектов γ-TuRC → снижение нуклеации микротрубочек (Kollman 2011, PMID 21778236)  **Важное уточнение:** Π(t) ≠ «ремо
+**Your context:** стратегия CDATA — деглутамилазы CCP1/AGBL5 — снижает D(t), не воздействуя на Aurora A, и поэтому **не несёт риска CIN**. - Накопление дефектов γ-TuRC → снижение нуклеации микротрубочек (Kollman 2011, PMID 21778236) **Важное уточнение:** Π(t) ≠ «ремо
 **Actual (wrong?) paper:** Chen S 2011 — Histone deacetylase (HDAC) activity is critical for embryonic kidney gene expression, growth, and differentiation.
 **Keywords extracted:** CDATA, Aurora, TuRC, Kollman, CDATA-
 **No candidates found.**
@@ -2437,7 +2437,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 324. PMID 28886385 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** rowth, and differentiation.* - Author: Chen S (2011) - Journal: J Biol Chem - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 92. PMID 28886385 — LOW_SCORE **File:** `CONCEPT.md` *
+**Your context:** rowth, and differentiation.* - Author: Chen S (2011) - Journal: J Biol Chem - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 92. PMID 28886385 — LOW_SCORE **File:** `CONCEPT.md` *
 **Actual (wrong?) paper:** Antebi YE 2017 — Combinatorial Signal Perception in the BMP Pathway.
 **Keywords extracted:** rowth, differentiation, Author, Chen, Journal
 **No candidates found.**
@@ -2480,7 +2480,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 330. PMID 11075706 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:**  Perception in the BMP Pathway.* - Author: Antebi YE (2017) - Journal: Cell - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 94. PMID 11075706 — LOW_SCORE **File:** `CONCEPT.md` *
+**Your context:** Perception in the BMP Pathway.* - Author: Antebi YE (2017) - Journal: Cell - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 94. PMID 11075706 — LOW_SCORE **File:** `CONCEPT.md` *
 **Actual (wrong?) paper:** Purvis A 2000 — Predicting extinction risk in declining species.
 **Keywords extracted:** Perception, Pathway, Author, Antebi, Journal
 **No candidates found.**
@@ -2502,7 +2502,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 333. PMID 11075706 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** , search for proper PMID.   ## 96. PMID 16168009 — LOW_SCORE **File:** `CONCEPT.md` **Your context:** 082 | Normal(0.008, 0.002) | PMID: 36583780 (Tkemaladze 2023) | | | Hayflick_limit | 50 | Fixed | PMID: 11075706 (Shay & Wright 2000, primary dermal
+**Your context:** , search for proper PMID. ## 96. PMID 16168009 — LOW_SCORE **File:** `CONCEPT.md` **Your context:** 082 | Normal(0.008, 0.002) | PMID: 36583780 (Tkemaladze 2023) | | | Hayflick_limit | 50 | Fixed | PMID: 11075706 (Shay & Wright 2000, primary dermal
 **Actual (wrong?) paper:** Purvis A 2000 — Predicting extinction risk in declining species.
 **Keywords extracted:** search, proper, SCORE, File, CONCEPT
 **No candidates found.**
@@ -2516,14 +2516,14 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 335. PMID 16168009 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:**  score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 86. PMID 20182448 — LOW_SCORE **File:** `CONCEPT.md` **Your context:**  0.12 | Fixed | PMID: 16168009 (Balaban et al. 2005; нормированное
+**Your context:** score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 86. PMID 20182448 — LOW_SCORE **File:** `CONCEPT.md` **Your context:** 0.12 | Fixed | PMID: 16168009 (Balaban et al. 2005; нормированное
 **Actual (wrong?) paper:** Badawi JK 2005 — Relaxant effects of beta-adrenergic agonists on porcine and human detrusor muscle.
 **Keywords extracted:** score, keyword, overlap, Action, needed
 **No candidates found.**
 
 
 ## 336. PMID 16168009 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** k in declining species.* - Author: Purvis A (2000) - Journal: Proc Biol Sci - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 96. PMID 16168009 — LOW_SCORE **File:** `CONCEPT.md` *
+**Your context:** k in declining species.* - Author: Purvis A (2000) - Journal: Proc Biol Sci - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 96. PMID 16168009 — LOW_SCORE **File:** `CONCEPT.md` *
 **Actual (wrong?) paper:** Badawi JK 2005 — Relaxant effects of beta-adrenergic agonists on porcine and human detrusor muscle.
 **Keywords extracted:** declining, species, Author, Purvis, Journal
 **Top candidates:**
@@ -2557,14 +2557,14 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 340. PMID 21474673 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:**  0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 95. PMID 11075706 — LOW_SCORE **File:** `CONCEPT.md` **Your context:** m MCMC (low tolerance; PMID: 21474673 supports low division redundancy) |
+**Your context:** 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 95. PMID 11075706 — LOW_SCORE **File:** `CONCEPT.md` **Your context:** m MCMC (low tolerance; PMID: 21474673 supports low division redundancy) |
 **Actual (wrong?) paper:** Velaithan R 2011 — The small GTPase Rac1 is a novel binding partner of Bcl-2 and stabilizes its antiapoptotic activity.
 **Keywords extracted:** keyword, overlap, Action, needed, verify
 **No candidates found.**
 
 
 ## 341. PMID 21474673 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:**  detrusor muscle.* - Author: Badawi JK (2005) - Journal: Acta Physiol Scand - Match score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 97. PMID 21474673 — LOW_SCORE **File:** `CONCEPT.md` *
+**Your context:** detrusor muscle.* - Author: Badawi JK (2005) - Journal: Acta Physiol Scand - Match score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 97. PMID 21474673 — LOW_SCORE **File:** `CONCEPT.md` *
 **Actual (wrong?) paper:** Velaithan R 2011 — The small GTPase Rac1 is a novel binding partner of Bcl-2 and stabilizes its antiapoptotic activity.
 **Keywords extracted:** detrusor, muscle, Author, Badawi, Journal
 **No candidates found.**
@@ -2588,7 +2588,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 344. PMID 21474673 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:**   ## 99. PMID 27041501 — LOW_SCORE **File:** `CONCEPT.md` **Your context:**  to 1.0); relative β calibrated to ISC, Muscle, Neural | | | HSC_τ | 0.3 | Beta(3, 7) | Estimated from MCMC (low tolerance; PMID: 21474673 supports low division redundancy) |
+**Your context:** ## 99. PMID 27041501 — LOW_SCORE **File:** `CONCEPT.md` **Your context:** to 1.0); relative β calibrated to ISC, Muscle, Neural | | | HSC_τ | 0.3 | Beta(3, 7) | Estimated from MCMC (low tolerance; PMID: 21474673 supports low division redundancy) |
 **Actual (wrong?) paper:** Velaithan R 2011 — The small GTPase Rac1 is a novel binding partner of Bcl-2 and stabilizes its antiapoptotic activity.
 **Keywords extracted:** SCORE, File, CONCEPT, context, relative
 **Top candidates:**
@@ -2596,35 +2596,35 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 345. PMID 27041501 in `CDATA/CONCEPT.md`
-**Your context:**  to 1.0); relative β calibrated to ISC, Muscle, Neural | | | HSC_τ | 0.3 | Beta(3, 7) | Estimated from MCMC (low tolerance; PMID: 21474673 supports low division redundancy) | | | ISC_ν | 70 | Fixed | PMID: 27041501 (Tetteh et al. 2016; ~1 division/da
+**Your context:** to 1.0); relative β calibrated to ISC, Muscle, Neural | | | HSC_τ | 0.3 | Beta(3, 7) | Estimated from MCMC (low tolerance; PMID: 21474673 supports low division redundancy) | | | ISC_ν | 70 | Fixed | PMID: 27041501 (Tetteh et al. 2016; ~1 division/da
 **Actual (wrong?) paper:** Takeishi A 2016 — Receptor-type Guanylyl Cyclases Confer Thermosensory Responses in C. elegans.
 **Keywords extracted:** relative, calibrated, Muscle, Neural, Beta
 **No candidates found.**
 
 
 ## 346. PMID 27041501 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:**  search for proper PMID.   ## 95. PMID 11075706 — LOW_SCORE **File:** `CONCEPT.md` **Your context:** m MCMC (low tolerance; PMID: 21474673 supports low division redundancy) | | | ISC_ν | 70 | Fixed | PMID: 27041501 (Tetteh et al. 2016; ~1 division/da
+**Your context:** search for proper PMID. ## 95. PMID 11075706 — LOW_SCORE **File:** `CONCEPT.md` **Your context:** m MCMC (low tolerance; PMID: 21474673 supports low division redundancy) | | | ISC_ν | 70 | Fixed | PMID: 27041501 (Tetteh et al. 2016; ~1 division/da
 **Actual (wrong?) paper:** Takeishi A 2016 — Receptor-type Guanylyl Cyclases Confer Thermosensory Responses in C. elegans.
 **Keywords extracted:** search, proper, SCORE, File, CONCEPT
 **No candidates found.**
 
 
 ## 347. PMID 27041501 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:**  to 1.0); relative β calibrated to ISC, Muscle, Neural | | | HSC_τ | 0.3 | Beta(3, 7) | Estimated from MCMC (low tolerance; PMID: 21474673 supports low division redundancy) | | | ISC_ν | 70 | Fixed | PMID: 27041501 (Tetteh e **Actual PubMed record:**
+**Your context:** to 1.0); relative β calibrated to ISC, Muscle, Neural | | | HSC_τ | 0.3 | Beta(3, 7) | Estimated from MCMC (low tolerance; PMID: 21474673 supports low division redundancy) | | | ISC_ν | 70 | Fixed | PMID: 27041501 (Tetteh e **Actual PubMed record:**
 **Actual (wrong?) paper:** Takeishi A 2016 — Receptor-type Guanylyl Cyclases Confer Thermosensory Responses in C. elegans.
 **Keywords extracted:** relative, calibrated, Muscle, Neural, Beta
 **No candidates found.**
 
 
 ## 348. PMID 27041501 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:**  its antiapoptotic activity.* - Author: Velaithan R (2011) - Journal: Blood - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 99. PMID 27041501 — LOW_SCORE **File:** `CONCEPT.md` *
+**Your context:** its antiapoptotic activity.* - Author: Velaithan R (2011) - Journal: Blood - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 99. PMID 27041501 — LOW_SCORE **File:** `CONCEPT.md` *
 **Actual (wrong?) paper:** Takeishi A 2016 — Receptor-type Guanylyl Cyclases Confer Thermosensory Responses in C. elegans.
 **Keywords extracted:** antiapoptotic, activity, Author, Velaithan, Journal
 **No candidates found.**
 
 
 ## 349. PMID 27041501 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:**  to 1.0); relative β calibrated to ISC, Muscle, Neural | | | HSC_τ | 0.3 | Beta(3, 7) | Estimated from MCMC (low tolerance; PMID: 21474673 supports low division redundancy) | | | ISC_ν | 70 | Fixed | PMID: 27041501 (Tetteh et al. 2016; ~1 division/da
+**Your context:** to 1.0); relative β calibrated to ISC, Muscle, Neural | | | HSC_τ | 0.3 | Beta(3, 7) | Estimated from MCMC (low tolerance; PMID: 21474673 supports low division redundancy) | | | ISC_ν | 70 | Fixed | PMID: 27041501 (Tetteh et al. 2016; ~1 division/da
 **Actual (wrong?) paper:** Takeishi A 2016 — Receptor-type Guanylyl Cyclases Confer Thermosensory Responses in C. elegans.
 **Keywords extracted:** relative, calibrated, Muscle, Neural, Beta
 **No candidates found.**
@@ -2638,7 +2638,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 351. PMID 18356530 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** ry Responses in C. elegans.* - Author: Takeishi A (2016) - Journal: Neuron - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 100. PMID 18356530 — LOW_SCORE **File:** `CONCEPT.md` *
+**Your context:** ry Responses in C. elegans.* - Author: Takeishi A (2016) - Journal: Neuron - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 100. PMID 18356530 — LOW_SCORE **File:** `CONCEPT.md` *
 **Actual (wrong?) paper:** Dunn EW 2008 — Spending money on others promotes happiness.
 **Keywords extracted:** Responses, elegans, Author, Takeishi, Journal
 **No candidates found.**
@@ -2660,14 +2660,14 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 354. PMID 16407887 in `CDATA/CONCEPT.md`
-**Your context:**  | | | Neural_ν | 2 | Fixed | PMID: 16407887 (Bhardwaj et al. 2006; hippocampal neurogenesis ~2/year in adult) | | | Neural_β | 1.5 | Fixed | Estimated (neural stem cells most sensitive; supported by PMID: 16407887) | | | Neural_τ | 0.2 | Beta(2, 8) 
+**Your context:** | | | Neural_ν | 2 | Fixed | PMID: 16407887 (Bhardwaj et al. 2006; hippocampal neurogenesis ~2/year in adult) | | | Neural_β | 1.5 | Fixed | Estimated (neural stem cells most sensitive; supported by PMID: 16407887) | | | Neural_τ | 0.2 | Beta(2, 8) 
 **Actual (wrong?) paper:** McFarlane PA 2006 — The impact of home nocturnal hemodialysis on end-stage renal disease therapies: a decision analysis.
 **Keywords extracted:** Neural, Fixed, Bhardwaj, hippocampal, neurogenesis
 **No candidates found.**
 
 
 ## 355. PMID 16407887 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:**  overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 42. PMID 10818156 — LOW_SCORE **File:** `CONCEPT.md` **Your context:** lls most sensitive; supported by PMID: 16407887) | | | Neural_τ | 0.2 | Beta(2, 8) 
+**Your context:** overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 42. PMID 10818156 — LOW_SCORE **File:** `CONCEPT.md` **Your context:** lls most sensitive; supported by PMID: 16407887) | | | Neural_τ | 0.2 | Beta(2, 8) 
 **Actual (wrong?) paper:** McFarlane PA 2006 — The impact of home nocturnal hemodialysis on end-stage renal disease therapies: a decision analysis.
 **Keywords extracted:** overlap, Action, needed, verify, citation
 **Top candidates:**
@@ -2675,7 +2675,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 356. PMID 16407887 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** on others promotes happiness.* - Author: Dunn EW (2008) - Journal: Science - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 101. PMID 16407887 — LOW_SCORE **File:** `CONCEPT.md` *
+**Your context:** on others promotes happiness.* - Author: Dunn EW (2008) - Journal: Science - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 101. PMID 16407887 — LOW_SCORE **File:** `CONCEPT.md` *
 **Actual (wrong?) paper:** McFarlane PA 2006 — The impact of home nocturnal hemodialysis on end-stage renal disease therapies: a decision analysis.
 **Keywords extracted:** others, promotes, happiness, Author, Dunn
 **Top candidates:**
@@ -2691,7 +2691,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 358. PMID 16407887 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** rd overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 102. PMID 16407887 — LOW_SCORE **File:** `CONCEPT.md` **Your context:**  | | | Neural_ν | 2 | Fixed | PMID: 16407887 (Bhardwaj et al. 2006; hippocampal 
+**Your context:** rd overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 102. PMID 16407887 — LOW_SCORE **File:** `CONCEPT.md` **Your context:** | | | Neural_ν | 2 | Fixed | PMID: 16407887 (Bhardwaj et al. 2006; hippocampal 
 **Actual (wrong?) paper:** McFarlane PA 2006 — The impact of home nocturnal hemodialysis on end-stage renal disease therapies: a decision analysis.
 **Keywords extracted:** overlap, Action, needed, verify, citation
 **Top candidates:**
@@ -2699,21 +2699,21 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 359. PMID 16407887 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:**  | | | Neural_ν | 2 | Fixed | PMID: 16407887 (Bhardwaj et al. 2006; hippocampal neurogenesis ~2/year in adult) | | | Neural_β | 1.5 | Fixed | Estimated (neural stem cells most sensitive; supported by PMID: 16407887) | | | Neural_τ | 0.2 | Beta(2, 8) 
+**Your context:** | | | Neural_ν | 2 | Fixed | PMID: 16407887 (Bhardwaj et al. 2006; hippocampal neurogenesis ~2/year in adult) | | | Neural_β | 1.5 | Fixed | Estimated (neural stem cells most sensitive; supported by PMID: 16407887) | | | Neural_τ | 0.2 | Beta(2, 8) 
 **Actual (wrong?) paper:** McFarlane PA 2006 — The impact of home nocturnal hemodialysis on end-stage renal disease therapies: a decision analysis.
 **Keywords extracted:** Neural, Fixed, Bhardwaj, hippocampal, neurogenesis
 **No candidates found.**
 
 
 ## 360. PMID 23746838 in `CDATA/CONCEPT.md`
-**Your context:**  loss irreversible) ⚠️ | | **SASP** | stim_threshold | 0.3 | Uniform(0.2,0.4) | PMID: 10818156 (Franceschi 2000; low-level inflammaging is protective) | | | inhib_threshold | 0.8 | Uniform(0.6,1.0) | PMID: 23746838 (Campisi 2013; high SASP = patholog
+**Your context:** loss irreversible) ⚠️ | | **SASP** | stim_threshold | 0.3 | Uniform(0.2,0.4) | PMID: 10818156 (Franceschi 2000; low-level inflammaging is protective) | | | inhib_threshold | 0.8 | Uniform(0.6,1.0) | PMID: 23746838 (Campisi 2013; high SASP = patholog
 **Actual (wrong?) paper:** López-Otín C 2013 — The hallmarks of aging.
 **Keywords extracted:** loss, irreversible, stim, threshold, Uniform
 **No candidates found.**
 
 
 ## 361. PMID 23746838 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:**  a decision analysis.* - Author: McFarlane PA (2006) - Journal: Kidney Int - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 103. PMID 23746838 — LOW_SCORE **File:** `CONCEPT.md` *
+**Your context:** a decision analysis.* - Author: McFarlane PA (2006) - Journal: Kidney Int - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 103. PMID 23746838 — LOW_SCORE **File:** `CONCEPT.md` *
 **Actual (wrong?) paper:** López-Otín C 2013 — The hallmarks of aging.
 **Keywords extracted:** decision, analysis, Author, McFarlane, Journal
 **Top candidates:**
@@ -2723,7 +2723,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 362. PMID 23746838 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:**  loss irreversible) ⚠️ | | **SASP** | stim_threshold | 0.3 | Uniform(0.2,0.4) | PMID: 10818156 (Franceschi 2000; low-level inflammaging is protective) | | | inhib_threshold | 0.8 | Uniform(0.6,1.0) | PMID: 23746838 (Campisi 2013; high SASP = patholog
+**Your context:** loss irreversible) ⚠️ | | **SASP** | stim_threshold | 0.3 | Uniform(0.2,0.4) | PMID: 10818156 (Franceschi 2000; low-level inflammaging is protective) | | | inhib_threshold | 0.8 | Uniform(0.6,1.0) | PMID: 23746838 (Campisi 2013; high SASP = patholog
 **Actual (wrong?) paper:** López-Otín C 2013 — The hallmarks of aging.
 **Keywords extracted:** loss, irreversible, stim, threshold, Uniform
 **No candidates found.**
@@ -2744,14 +2744,14 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 365. PMID 19587680 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** correct; if not, search for proper PMID.   ## 93. PMID 28886385 — LOW_SCORE **File:** `CONCEPT.md` **Your context:** aiswal 2017 (PMID: 28792876) | | **Фиксированные** | mtor_activity | 0.7 | Fixed | PMID: 19587680 (Harrison et al. 2009; basal mTOR a
+**Your context:** correct; if not, search for proper PMID. ## 93. PMID 28886385 — LOW_SCORE **File:** `CONCEPT.md` **Your context:** aiswal 2017 (PMID: 28792876) | | **Фиксированные** | mtor_activity | 0.7 | Fixed | PMID: 19587680 (Harrison et al. 2009; basal mTOR a
 **Actual (wrong?) paper:** Harrison DE 2009 — Rapamycin fed late in life extends lifespan in genetically heterogeneous mice.
 **Keywords extracted:** correct, search, proper, SCORE, File
 **No candidates found.**
 
 
 ## 366. PMID 19587680 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** e: *The hallmarks of aging.* - Author: López-Otín C (2013) - Journal: Cell - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 104. PMID 19587680 — LOW_SCORE **File:** `CONCEPT.md` *
+**Your context:** e: *The hallmarks of aging.* - Author: López-Otín C (2013) - Journal: Cell - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 104. PMID 19587680 — LOW_SCORE **File:** `CONCEPT.md` *
 **Actual (wrong?) paper:** Harrison DE 2009 — Rapamycin fed late in life extends lifespan in genetically heterogeneous mice.
 **Keywords extracted:** hallmarks, aging, Author, pez-Ot, Journal
 **Top candidates:**
@@ -2775,7 +2775,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 369. PMID 21654799 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** ically heterogeneous mice.* - Author: Harrison DE (2009) - Journal: Nature - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 105. PMID 21654799 — LOW_SCORE **File:** `CONCEPT.md` *
+**Your context:** ically heterogeneous mice.* - Author: Harrison DE (2009) - Journal: Nature - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 105. PMID 21654799 — LOW_SCORE **File:** `CONCEPT.md` *
 **Actual (wrong?) paper:** Dupont S 2011 — Role of YAP/TAZ in mechanotransduction.
 **Keywords extracted:** ically, heterogeneous, mice, Author, Harrison
 **No candidates found.**
@@ -2789,35 +2789,35 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 371. PMID 18558651 in `CDATA/CONCEPT.md`
-**Your context:** аса, $0)**  **Запланированный анализ (in silico, NHANES публичные данные):** ```python # NHANES III Public Use Files (CDC): возраст, 15 клинических биомаркеров # Rockwood FI: 40-item FI (Searle 2008, PMID 18558651) # Шаг 1: Вычислить MCAI-компоненты 
+**Your context:** аса, $0)** **Запланированный анализ (in silico, NHANES публичные данные):** ```python # NHANES III Public Use Files (CDC): возраст, 15 клинических биомаркеров # Rockwood FI: 40-item FI (Searle 2008, PMID 18558651) # Шаг 1: Вычислить MCAI-компоненты 
 **Actual (wrong?) paper:** Hu F 2008 — Identification of Clb2 residues required for Swe1 regulation of Clb2-Cdc28 in Saccharomyces cerevisiae.
 **Keywords extracted:** silico, NHANES, python, Public, Files
 **No candidates found.**
 
 
 ## 372. PMID 18558651 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** P/TAZ in mechanotransduction.* - Author: Dupont S (2011) - Journal: Nature - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 106. PMID 18558651 — LOW_SCORE **File:** `CONCEPT.md` *
+**Your context:** P/TAZ in mechanotransduction.* - Author: Dupont S (2011) - Journal: Nature - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 106. PMID 18558651 — LOW_SCORE **File:** `CONCEPT.md` *
 **Actual (wrong?) paper:** Hu F 2008 — Identification of Clb2 residues required for Swe1 regulation of Clb2-Cdc28 in Saccharomyces cerevisiae.
 **Keywords extracted:** mechanotransduction, Author, Dupont, Journal, Nature
 **No candidates found.**
 
 
 ## 373. PMID 18558651 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** аса, $0)**  **Запланированный анализ (in silico, NHANES публичные данные):** ```python # NHANES III Public Use Files (CDC): возраст, 15 клинических биомаркеров # Rockwood FI: 40-item FI (Searle 2008, PMID 18558651) # Шаг 1: Вычислить MCAI-компоненты 
+**Your context:** аса, $0)** **Запланированный анализ (in silico, NHANES публичные данные):** ```python # NHANES III Public Use Files (CDC): возраст, 15 клинических биомаркеров # Rockwood FI: 40-item FI (Searle 2008, PMID 18558651) # Шаг 1: Вычислить MCAI-компоненты 
 **Actual (wrong?) paper:** Hu F 2008 — Identification of Clb2 residues required for Swe1 regulation of Clb2-Cdc28 in Saccharomyces cerevisiae.
 **Keywords extracted:** silico, NHANES, python, Public, Files
 **No candidates found.**
 
 
 ## 374. PMID 34546229 in `CDATA/CONCEPT.md`
-**Your context:** нимо. Эти теории не являются количественными предсказательными моделями.  ### B. Сравнение с клиническими эпигенетическими часами (критически важно для грантов)  | Метрика | CDATA v4.3 | DunedinPACE (PMID 34546229) | PhenoAge (PMID 29786094) | GrimAg
+**Your context:** нимо. Эти теории не являются количественными предсказательными моделями. ### B. Сравнение с клиническими эпигенетическими часами (критически важно для грантов) | Метрика | CDATA v4.3 | DunedinPACE (PMID 34546229) | PhenoAge (PMID 29786094) | GrimAg
 **Actual (wrong?) paper:** Fan F 2021 — Synthesis and application of smart gel material modified silica microspheres for pH-responsive hydrophilicity in liquid chromatography.
 **Keywords extracted:** CDATA, DunedinPACE, PhenoAge, GrimAge
 **No candidates found.**
 
 
 ## 375. PMID 34546229 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** 28 in Saccharomyces cerevisiae.* - Author: Hu F (2008) - Journal: Genetics - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 107. PMID 34546229 — LOW_SCORE **File:** `CONCEPT.md` *
+**Your context:** 28 in Saccharomyces cerevisiae.* - Author: Hu F (2008) - Journal: Genetics - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 107. PMID 34546229 — LOW_SCORE **File:** `CONCEPT.md` *
 **Actual (wrong?) paper:** Fan F 2021 — Synthesis and application of smart gel material modified silica microspheres for pH-responsive hydrophilicity in liquid chromatography.
 **Keywords extracted:** Saccharomyces, cerevisiae, Author, Journal, Genetics
 **Top candidates:**
@@ -2827,84 +2827,84 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 376. PMID 34546229 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** нимо. Эти теории не являются количественными предсказательными моделями.  ### B. Сравнение с клиническими эпигенетическими часами (критически важно для грантов)  | Метрика | CDATA v4.3 | DunedinPACE (PMID 34546229) | PhenoAge (PMID 29786094) | GrimAg
+**Your context:** нимо. Эти теории не являются количественными предсказательными моделями. ### B. Сравнение с клиническими эпигенетическими часами (критически важно для грантов) | Метрика | CDATA v4.3 | DunedinPACE (PMID 34546229) | PhenoAge (PMID 29786094) | GrimAg
 **Actual (wrong?) paper:** Fan F 2021 — Synthesis and application of smart gel material modified silica microspheres for pH-responsive hydrophilicity in liquid chromatography.
 **Keywords extracted:** CDATA, DunedinPACE, PhenoAge, GrimAge, Actual
 **No candidates found.**
 
 
 ## 377. PMID 34546229 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** CEPT.md` **Your context:** я количественными предсказательными моделями.  ### B. Сравнение с клиническими эпигенетическими часами (критически важно для грантов)  | Метрика | CDATA v4.3 | DunedinPACE (PMID 34546229) | PhenoAge (PMID 29786094) | GrimAg
+**Your context:** CEPT.md` **Your context:** я количественными предсказательными моделями. ### B. Сравнение с клиническими эпигенетическими часами (критически важно для грантов) | Метрика | CDATA v4.3 | DunedinPACE (PMID 34546229) | PhenoAge (PMID 29786094) | GrimAg
 **Actual (wrong?) paper:** Fan F 2021 — Synthesis and application of smart gel material modified silica microspheres for pH-responsive hydrophilicity in liquid chromatography.
 **Keywords extracted:** context, CDATA, DunedinPACE, PhenoAge, GrimAge
 **No candidates found.**
 
 
 ## 378. PMID 34546229 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** — LOW_SCORE **File:** `CONCEPT.md` **Your context:** ательными моделями.  ### B. Сравнение с клиническими эпигенетическими часами (критически важно для грантов)  | Метрика | CDATA v4.3 | DunedinPACE (PMID 34546229) | PhenoAge (PMID 29786094) | GrimAg
+**Your context:** — LOW_SCORE **File:** `CONCEPT.md` **Your context:** ательными моделями. ### B. Сравнение с клиническими эпигенетическими часами (критически важно для грантов) | Метрика | CDATA v4.3 | DunedinPACE (PMID 34546229) | PhenoAge (PMID 29786094) | GrimAg
 **Actual (wrong?) paper:** Fan F 2021 — Synthesis and application of smart gel material modified silica microspheres for pH-responsive hydrophilicity in liquid chromatography.
 **Keywords extracted:** SCORE, File, CONCEPT, context, CDATA
 **No candidates found.**
 
 
 ## 379. PMID 29786094 in `CDATA/CONCEPT.md`
-**Your context:** я количественными предсказательными моделями.  ### B. Сравнение с клиническими эпигенетическими часами (критически важно для грантов)  | Метрика | CDATA v4.3 | DunedinPACE (PMID 34546229) | PhenoAge (PMID 29786094) | GrimAge (PMID 31451800) | |------
+**Your context:** я количественными предсказательными моделями. ### B. Сравнение с клиническими эпигенетическими часами (критически важно для грантов) | Метрика | CDATA v4.3 | DunedinPACE (PMID 34546229) | PhenoAge (PMID 29786094) | GrimAge (PMID 31451800) | |------
 **Actual (wrong?) paper:** Wei B 2018 — A protein activity assay to measure global transcription factor activity reveals determinants of chromatin accessibility.
 **Keywords extracted:** CDATA, DunedinPACE, PhenoAge, GrimAge
 **No candidates found.**
 
 
 ## 380. PMID 29786094 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** я количественными предсказательными моделями.  ### B. Сравнение с клиническими эпигенетическими часами (критически важно для грантов)  | Метрика | CDATA v4.3 | DunedinPACE (PMID 34546229) | PhenoAge (PMID 29786094) | GrimAge (PMID 31451800) | |------
+**Your context:** я количественными предсказательными моделями. ### B. Сравнение с клиническими эпигенетическими часами (критически важно для грантов) | Метрика | CDATA v4.3 | DunedinPACE (PMID 34546229) | PhenoAge (PMID 29786094) | GrimAge (PMID 31451800) | |------
 **Actual (wrong?) paper:** Wei B 2018 — A protein activity assay to measure global transcription factor activity reveals determinants of chromatin accessibility.
 **Keywords extracted:** CDATA, DunedinPACE, PhenoAge, GrimAge, Actual
 **No candidates found.**
 
 
 ## 381. PMID 29786094 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** icity in liquid chromatography.* - Author: Fan F (2021) - Journal: Analyst - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 108. PMID 29786094 — LOW_SCORE **File:** `CONCEPT.md` *
+**Your context:** icity in liquid chromatography.* - Author: Fan F (2021) - Journal: Analyst - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 108. PMID 29786094 — LOW_SCORE **File:** `CONCEPT.md` *
 **Actual (wrong?) paper:** Wei B 2018 — A protein activity assay to measure global transcription factor activity reveals determinants of chromatin accessibility.
 **Keywords extracted:** icity, liquid, chromatography, Author, Journal
 **No candidates found.**
 
 
 ## 382. PMID 29786094 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** я количественными предсказательными моделями.  ### B. Сравнение с клиническими эпигенетическими часами (критически важно для грантов)  | Метрика | CDATA v4.3 | DunedinPACE (PMID 34546229) | PhenoAge (PMID 29786094) | GrimAge (PMID 31451800) | |------
+**Your context:** я количественными предсказательными моделями. ### B. Сравнение с клиническими эпигенетическими часами (критически важно для грантов) | Метрика | CDATA v4.3 | DunedinPACE (PMID 34546229) | PhenoAge (PMID 29786094) | GrimAge (PMID 31451800) | |------
 **Actual (wrong?) paper:** Wei B 2018 — A protein activity assay to measure global transcription factor activity reveals determinants of chromatin accessibility.
 **Keywords extracted:** CDATA, DunedinPACE, PhenoAge, GrimAge, Actual
 **No candidates found.**
 
 
 ## 383. PMID 29786094 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** EPT.md` **Your context:** ательными моделями.  ### B. Сравнение с клиническими эпигенетическими часами (критически важно для грантов)  | Метрика | CDATA v4.3 | DunedinPACE (PMID 34546229) | PhenoAge (PMID 29786094) | GrimAge (PMID 31451800) | |------
+**Your context:** EPT.md` **Your context:** ательными моделями. ### B. Сравнение с клиническими эпигенетическими часами (критически важно для грантов) | Метрика | CDATA v4.3 | DunedinPACE (PMID 34546229) | PhenoAge (PMID 29786094) | GrimAge (PMID 31451800) | |------
 **Actual (wrong?) paper:** Wei B 2018 — A protein activity assay to measure global transcription factor activity reveals determinants of chromatin accessibility.
 **Keywords extracted:** context, CDATA, DunedinPACE, PhenoAge, GrimAge
 **No candidates found.**
 
 
 ## 384. PMID 31451800 in `CDATA/CONCEPT.md`
-**Your context:** ательными моделями.  ### B. Сравнение с клиническими эпигенетическими часами (критически важно для грантов)  | Метрика | CDATA v4.3 | DunedinPACE (PMID 34546229) | PhenoAge (PMID 29786094) | GrimAge (PMID 31451800) | |---------|------------|---------
+**Your context:** ательными моделями. ### B. Сравнение с клиническими эпигенетическими часами (критически важно для грантов) | Метрика | CDATA v4.3 | DunedinPACE (PMID 34546229) | PhenoAge (PMID 29786094) | GrimAge (PMID 31451800) | |---------|------------|---------
 **Actual (wrong?) paper:** Ibrahim AGE 2019 — Augmenting canonical Wnt signalling in therapeutically inert cells converts them into therapeutically potent exosome factories.
 **Keywords extracted:** CDATA, DunedinPACE, PhenoAge, GrimAge
 **No candidates found.**
 
 
 ## 385. PMID 31451800 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** ательными моделями.  ### B. Сравнение с клиническими эпигенетическими часами (критически важно для грантов)  | Метрика | CDATA v4.3 | DunedinPACE (PMID 34546229) | PhenoAge (PMID 29786094) | GrimAge (PMID 31451800) | |---------|------------|------ **
+**Your context:** ательными моделями. ### B. Сравнение с клиническими эпигенетическими часами (критически важно для грантов) | Метрика | CDATA v4.3 | DunedinPACE (PMID 34546229) | PhenoAge (PMID 29786094) | GrimAge (PMID 31451800) | |---------|------------|------ **
 **Actual (wrong?) paper:** Ibrahim AGE 2019 — Augmenting canonical Wnt signalling in therapeutically inert cells converts them into therapeutically potent exosome factories.
 **Keywords extracted:** CDATA, DunedinPACE, PhenoAge, GrimAge, Actual
 **No candidates found.**
 
 
 ## 386. PMID 31451800 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** ательными моделями.  ### B. Сравнение с клиническими эпигенетическими часами (критически важно для грантов)  | Метрика | CDATA v4.3 | DunedinPACE (PMID 34546229) | PhenoAge (PMID 29786094) | GrimAge (PMID 31451800) | |---------|------------|---------
+**Your context:** ательными моделями. ### B. Сравнение с клиническими эпигенетическими часами (критически важно для грантов) | Метрика | CDATA v4.3 | DunedinPACE (PMID 34546229) | PhenoAge (PMID 29786094) | GrimAge (PMID 31451800) | |---------|------------|---------
 **Actual (wrong?) paper:** Ibrahim AGE 2019 — Augmenting canonical Wnt signalling in therapeutically inert cells converts them into therapeutically potent exosome factories.
 **Keywords extracted:** CDATA, DunedinPACE, PhenoAge, GrimAge, Actual
 **No candidates found.**
 
 
 ## 387. PMID 31451800 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** chromatin accessibility.* - Author: Wei B (2018) - Journal: Nat Biotechnol - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 109. PMID 31451800 — LOW_SCORE **File:** `CONCEPT.md` *
+**Your context:** chromatin accessibility.* - Author: Wei B (2018) - Journal: Nat Biotechnol - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 109. PMID 31451800 — LOW_SCORE **File:** `CONCEPT.md` *
 **Actual (wrong?) paper:** Ibrahim AGE 2019 — Augmenting canonical Wnt signalling in therapeutically inert cells converts them into therapeutically potent exosome factories.
 **Keywords extracted:** chromatin, accessibility, Author, Journal, Biotechnol
 **Top candidates:**
@@ -2914,14 +2914,14 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 388. PMID 31451800 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** ательными моделями.  ### B. Сравнение с клиническими эпигенетическими часами (критически важно для грантов)  | Метрика | CDATA v4.3 | DunedinPACE (PMID 34546229) | PhenoAge (PMID 29786094) | GrimAge (PMID 31451800) | |---------|------------|---------
+**Your context:** ательными моделями. ### B. Сравнение с клиническими эпигенетическими часами (критически важно для грантов) | Метрика | CDATA v4.3 | DunedinPACE (PMID 34546229) | PhenoAge (PMID 29786094) | GrimAge (PMID 31451800) | |---------|------------|---------
 **Actual (wrong?) paper:** Ibrahim AGE 2019 — Augmenting canonical Wnt signalling in therapeutically inert cells converts them into therapeutically potent exosome factories.
 **Keywords extracted:** CDATA, DunedinPACE, PhenoAge, GrimAge, Actual
 **No candidates found.**
 
 
 ## 389. PMID 22357619 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** n needed:** verify if citation is correct; if not, search for proper PMID.   ## 110. PMID 22129202 — LOW_SCORE **File:** `CONCEPT.md` **Your context:** sorientation → G2 arrest | Ак. 2 (цилия→G1/S) | PMID 22357619 | | **Мышь (мышца)** | Старые MDSC: 
+**Your context:** n needed:** verify if citation is correct; if not, search for proper PMID. ## 110. PMID 22129202 — LOW_SCORE **File:** `CONCEPT.md` **Your context:** sorientation → G2 arrest | Ак. 2 (цилия→G1/S) | PMID 22357619 | | **Мышь (мышца)** | Старые MDSC: 
 **Actual (wrong?) paper:** Roth TM 2012 — Centrosome misorientation mediates slowing of the cell cycle under limited nutrient conditions in Drosophila male germline stem cells.
 **Keywords extracted:** needed, verify, citation, correct, search
 **Top candidates:**
@@ -2953,7 +2953,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 393. PMID 22129202 in `CDATA/KNOWLEDGE.md`
-**Your context:** D 22129202) | ✅ Прямое | | Hh-сигналинг поддерживает G1→S переход | Mui 2019 (Nat Commun) | ✅ |  ---  ## БЛОК 2: Multi-Organism Transplantation Evidence (добавлено v5.0)  ### Лавасани (Lavasani 2012, PMID 22129202) - Молодые MDSC → системная транспла
+**Your context:** D 22129202) | ✅ Прямое | | Hh-сигналинг поддерживает G1→S переход | Mui 2019 (Nat Commun) | ✅ | --- ## БЛОК 2: Multi-Organism Transplantation Evidence (добавлено v5.0) ### Лавасани (Lavasani 2012, PMID 22129202) - Молодые MDSC → системная транспла
 **Actual (wrong?) paper:** Lawal TO 2012 — In vitro susceptibility of Mycobacterium tuberculosis to extracts of Eucalyptus camaldulensis and Eucalyptus torelliana and isolated compounds.
 **Keywords extracted:** Commun, Multi-Organism, Transplantation, Evidence, Lavasani
 **No candidates found.**
@@ -2967,7 +2967,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 395. PMID 22129202 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** exosome factories.* - Author: Ibrahim AGE (2019) - Journal: Nat Biomed Eng - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 110. PMID 22129202 — LOW_SCORE **File:** `CONCEPT.md` *
+**Your context:** exosome factories.* - Author: Ibrahim AGE (2019) - Journal: Nat Biomed Eng - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 110. PMID 22129202 — LOW_SCORE **File:** `CONCEPT.md` *
 **Actual (wrong?) paper:** Lawal TO 2012 — In vitro susceptibility of Mycobacterium tuberculosis to extracts of Eucalyptus camaldulensis and Eucalyptus torelliana and isolated compounds.
 **Keywords extracted:** exosome, factories, Author, Ibrahim, Journal
 **No candidates found.**
@@ -2998,7 +2998,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 399. PMID 22129202 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** D 22129202) | ✅ Прямое | | Hh-сигналинг поддерживает G1→S переход | Mui 2019 (Nat Commun) | ✅ |  ---  ## БЛОК 2: Multi-Organism Transplantation Evidence (добавлено v5.0)  ### Лавасани (Lavasani 2012, PMID 22129202) - Молодые MDSC → системная транспла
+**Your context:** D 22129202) | ✅ Прямое | | Hh-сигналинг поддерживает G1→S переход | Mui 2019 (Nat Commun) | ✅ | --- ## БЛОК 2: Multi-Organism Transplantation Evidence (добавлено v5.0) ### Лавасани (Lavasani 2012, PMID 22129202) - Молодые MDSC → системная транспла
 **Actual (wrong?) paper:** Lawal TO 2012 — In vitro susceptibility of Mycobacterium tuberculosis to extracts of Eucalyptus camaldulensis and Eucalyptus torelliana and isolated compounds.
 **Keywords extracted:** Commun, Multi-Organism, Transplantation, Evidence, Lavasani
 **No candidates found.**
@@ -3012,14 +3012,14 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 401. PMID 22129202 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** 743633. 7.  Zhu, Y. et al. Phase I/II RCT of young UC-MSCs in aging. *Lancet Healthy Longev*. 2024. PMID 38679727. 8.  Lavasani, M. et al. Young MDSCs reverse progeroid aging. *Cell Stem Cell*. 2012. PMID 22129202. 9.  Wilson, A. et al. Hematopoietic
+**Your context:** 743633. 7. Zhu, Y. et al. Phase I/II RCT of young UC-MSCs in aging. *Lancet Healthy Longev*. 2024. PMID 38679727. 8. Lavasani, M. et al. Young MDSCs reverse progeroid aging. *Cell Stem Cell*. 2012. PMID 22129202. 9. Wilson, A. et al. Hematopoietic
 **Actual (wrong?) paper:** Lawal TO 2012 — In vitro susceptibility of Mycobacterium tuberculosis to extracts of Eucalyptus camaldulensis and Eucalyptus torelliana and isolated compounds.
 **Keywords extracted:** Phase, young, UC-MSCs, aging, Lancet
 **No candidates found.**
 
 
 ## 402. PMID 22129202 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:**  score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 128. PMID 22215083 — LOW_SCORE **File:** `KNOWLEDGE.md` **Your context:** vasani 2012, PMID 22129202) - Молодые MDSC → системная транспла
+**Your context:** score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 128. PMID 22215083 — LOW_SCORE **File:** `KNOWLEDGE.md` **Your context:** vasani 2012, PMID 22129202) - Молодые MDSC → системная транспла
 **Actual (wrong?) paper:** Lawal TO 2012 — In vitro susceptibility of Mycobacterium tuberculosis to extracts of Eucalyptus camaldulensis and Eucalyptus torelliana and isolated compounds.
 **Keywords extracted:** score, keyword, overlap, Action, needed
 **No candidates found.**
@@ -3033,21 +3033,21 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 404. PMID 22129202 in `CDATA/docs/AUBREY_MEETING_2026-04-18/LOI_Impetus_v22.md`
-**Your context:** 743633. 7.  Zhu, Y. et al. Phase I/II RCT of young UC-MSCs in aging. *Lancet Healthy Longev*. 2024. PMID 38679727. 8.  Lavasani, M. et al. Young MDSCs reverse progeroid aging. *Cell Stem Cell*. 2012. PMID 22129202. 9.  Wilson, A. et al. Hematopoietic
+**Your context:** 743633. 7. Zhu, Y. et al. Phase I/II RCT of young UC-MSCs in aging. *Lancet Healthy Longev*. 2024. PMID 38679727. 8. Lavasani, M. et al. Young MDSCs reverse progeroid aging. *Cell Stem Cell*. 2012. PMID 22129202. 9. Wilson, A. et al. Hematopoietic
 **Actual (wrong?) paper:** Lawal TO 2012 — In vitro susceptibility of Mycobacterium tuberculosis to extracts of Eucalyptus camaldulensis and Eucalyptus torelliana and isolated compounds.
 **Keywords extracted:** Phase, young, UC-MSCs, aging, Lancet
 **No candidates found.**
 
 
 ## 405. PMID 23967009 in `CDATA/KNOWLEDGE.md`
-**Your context:** вки старых клеток** (паракринный, не контактный) - CDATA-интерпретация: паракринный Hh/Wnt от молодых клеток → временная компенсация дефектной цилии старых → Relapse Prediction P11  ### Kovina (2013, PMID 23967009; 2019, PMC6473025) - Young BM (1.5 м
+**Your context:** вки старых клеток** (паракринный, не контактный) - CDATA-интерпретация: паракринный Hh/Wnt от молодых клеток → временная компенсация дефектной цилии старых → Relapse Prediction P11 ### Kovina (2013, PMID 23967009; 2019, PMC6473025) - Young BM (1.5 м
 **Actual (wrong?) paper:** Kovina MV 2013 — Effect on lifespan of high yield non-myeloablating transplantation of bone marrow from young to old mice.
 **Keywords extracted:** CDATA-, Relapse, Prediction, Kovina, Young
 **No candidates found.**
 
 
 ## 406. PMID 23967009 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** a and isolated compounds.* - Author: Lawal TO (2012) - Journal: Pharm Biol - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 116. PMID 23967009 — LOW_SCORE **File:** `KNOWLEDGE.md`
+**Your context:** a and isolated compounds.* - Author: Lawal TO (2012) - Journal: Pharm Biol - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 116. PMID 23967009 — LOW_SCORE **File:** `KNOWLEDGE.md`
 **Actual (wrong?) paper:** Kovina MV 2013 — Effect on lifespan of high yield non-myeloablating transplantation of bone marrow from young to old mice.
 **Keywords extracted:** isolated, compounds, Author, Lawal, Journal
 **Top candidates:**
@@ -3057,35 +3057,35 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 407. PMID 23967009 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** вки старых клеток** (паракринный, не контактный) - CDATA-интерпретация: паракринный Hh/Wnt от молодых клеток → временная компенсация дефектной цилии старых → Relapse Prediction P11  ### Kovina (2013, PMID 23967009; 2019, PMC6473025) - Young BM (1.5 м
+**Your context:** вки старых клеток** (паракринный, не контактный) - CDATA-интерпретация: паракринный Hh/Wnt от молодых клеток → временная компенсация дефектной цилии старых → Relapse Prediction P11 ### Kovina (2013, PMID 23967009; 2019, PMC6473025) - Young BM (1.5 м
 **Actual (wrong?) paper:** Kovina MV 2013 — Effect on lifespan of high yield non-myeloablating transplantation of bone marrow from young to old mice.
 **Keywords extracted:** CDATA-, Relapse, Prediction, Kovina, Young
 **No candidates found.**
 
 
 ## 408. PMID 36581635 in `CDATA/KNOWLEDGE.md`
-**Your context:** битор) 4 дня → восстановление **центросомной полярности** → продление жизни у мышей - CDATA: наиболее прямое существующее доказательство (upstream от PTM через полярность центросомы)  ### Leins 2022 (PMID 36581635) - CASIN in vivo → aged HSC: изменен
+**Your context:** битор) 4 дня → восстановление **центросомной полярности** → продление жизни у мышей - CDATA: наиболее прямое существующее доказательство (upstream от PTM через полярность центросомы) ### Leins 2022 (PMID 36581635) - CASIN in vivo → aged HSC: изменен
 **Actual (wrong?) paper:** Montserrat-Vazquez S 2022 — Transplanting rejuvenated blood stem cells extends lifespan of aged immunocompromised mice.
 **Keywords extracted:** CDATA, upstream, Leins, CASIN, vivo
 **No candidates found.**
 
 
 ## 409. PMID 36581635 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** from young to old mice.* - Author: Kovina MV (2013) - Journal: Front Genet - Match score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 117. PMID 36581635 — LOW_SCORE **File:** `KNOWLEDGE.md`
+**Your context:** from young to old mice.* - Author: Kovina MV (2013) - Journal: Front Genet - Match score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 117. PMID 36581635 — LOW_SCORE **File:** `KNOWLEDGE.md`
 **Actual (wrong?) paper:** Montserrat-Vazquez S 2022 — Transplanting rejuvenated blood stem cells extends lifespan of aged immunocompromised mice.
 **Keywords extracted:** young, mice, Author, Kovina, Journal
 **No candidates found.**
 
 
 ## 410. PMID 36581635 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** битор) 4 дня → восстановление **центросомной полярности** → продление жизни у мышей - CDATA: наиболее прямое существующее доказательство (upstream от PTM через полярность центросомы)  ### Leins 2022 (PMID 36581635) - CASIN in vivo → aged HSC: изменен
+**Your context:** битор) 4 дня → восстановление **центросомной полярности** → продление жизни у мышей - CDATA: наиболее прямое существующее доказательство (upstream от PTM через полярность центросомы) ### Leins 2022 (PMID 36581635) - CASIN in vivo → aged HSC: изменен
 **Actual (wrong?) paper:** Montserrat-Vazquez S 2022 — Transplanting rejuvenated blood stem cells extends lifespan of aged immunocompromised mice.
 **Keywords extracted:** CDATA, upstream, Leins, CASIN, vivo
 **No candidates found.**
 
 
 ## 411. PMID 36581635 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 118. PMID 39743633 — LOW_SCORE **File:** `CONCEPT.md` **Your context:** ла | Ак. 2+3: polarity → niche → renewal | PMID 36581635 | | **Мышь (кровь)** | **CD150low** 
+**Your context:** Action needed:** verify if citation is correct; if not, search for proper PMID. ## 118. PMID 39743633 — LOW_SCORE **File:** `CONCEPT.md` **Your context:** ла | Ак. 2+3: polarity → niche → renewal | PMID 36581635 | | **Мышь (кровь)** | **CD150low** 
 **Actual (wrong?) paper:** Montserrat-Vazquez S 2022 — Transplanting rejuvenated blood stem cells extends lifespan of aged immunocompromised mice.
 **Keywords extracted:** Action, needed, verify, citation, correct
 **No candidates found.**
@@ -3100,14 +3100,14 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 413. PMID 39743633 in `CDATA/KNOWLEDGE.md`
-**Your context:** бработанных HSC → lifespan + healthspan + мышечная сила - CDATA: CASIN восстанавливает полярность (downstream механизм); CCP1 устранит PTM (upstream = более эффективный)  ### CD150low HSC (Shen 2025, PMID 39743633) - Субпопуляция старых HSC с CD150lo
+**Your context:** бработанных HSC → lifespan + healthspan + мышечная сила - CDATA: CASIN восстанавливает полярность (downstream механизм); CCP1 устранит PTM (upstream = более эффективный) ### CD150low HSC (Shen 2025, PMID 39743633) - Субпопуляция старых HSC с CD150lo
 **Actual (wrong?) paper:** Wang Y 2025 — Reducing functionally defective old HSCs alleviates aging-related phenotypes in old recipient mice.
 **Keywords extracted:** lifespan, healthspan, CDATA, CASIN, downstream
 **No candidates found.**
 
 
 ## 414. PMID 39743633 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** ised mice.* - Author: Montserrat-Vazquez S (2022) - Journal: NPJ Regen Med - Match score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 118. PMID 39743633 — LOW_SCORE **File:** `CONCEPT.md` *
+**Your context:** ised mice.* - Author: Montserrat-Vazquez S (2022) - Journal: NPJ Regen Med - Match score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 118. PMID 39743633 — LOW_SCORE **File:** `CONCEPT.md` *
 **Actual (wrong?) paper:** Wang Y 2025 — Reducing functionally defective old HSCs alleviates aging-related phenotypes in old recipient mice.
 **Keywords extracted:** ised, mice, Author, Montserrat-Vazquez, Journal
 **No candidates found.**
@@ -3122,7 +3122,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 416. PMID 39743633 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** бработанных HSC → lifespan + healthspan + мышечная сила - CDATA: CASIN восстанавливает полярность (downstream механизм); CCP1 устранит PTM (upstream = более эффективный)  ### CD150low HSC (Shen 2025, PMID 39743633) - Субпопуляция старых HSC с CD150lo
+**Your context:** бработанных HSC → lifespan + healthspan + мышечная сила - CDATA: CASIN восстанавливает полярность (downstream механизм); CCP1 устранит PTM (upstream = более эффективный) ### CD150low HSC (Shen 2025, PMID 39743633) - Субпопуляция старых HSC с CD150lo
 **Actual (wrong?) paper:** Wang Y 2025 — Reducing functionally defective old HSCs alleviates aging-related phenotypes in old recipient mice.
 **Keywords extracted:** lifespan, healthspan, CDATA, CASIN, downstream
 **No candidates found.**
@@ -3139,7 +3139,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 418. PMID 28901234 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** otypes in old recipient mice.* - Author: Wang Y (2025) - Journal: Cell Res - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 120. PMID 28901234 — LOW_SCORE **File:** `CONCEPT.md` *
+**Your context:** otypes in old recipient mice.* - Author: Wang Y (2025) - Journal: Cell Res - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 120. PMID 28901234 — LOW_SCORE **File:** `CONCEPT.md` *
 **Actual (wrong?) paper:** Nichay NR 2017 — Risk Factors For Unfavorable Outcomes After Bidirectional Cavopulmonary Anastomosis.
 **Keywords extracted:** otypes, recipient, mice, Author, Wang
 **No candidates found.**
@@ -3156,21 +3156,21 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 420. PMID 28901234 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** atch score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 121. PMID 36708707 — LOW_SCORE **File:** `CONCEPT.md` **Your context:** : 111-121. PMID: 28901234 3. **Horvath S.** (2013). DNA methy
+**Your context:** atch score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 121. PMID 36708707 — LOW_SCORE **File:** `CONCEPT.md` **Your context:** : 111-121. PMID: 28901234 3. **Horvath S.** (2013). DNA methy
 **Actual (wrong?) paper:** Nichay NR 2017 — Risk Factors For Unfavorable Outcomes After Bidirectional Cavopulmonary Anastomosis.
 **Keywords extracted:** atch, score, keyword, overlap, Action
 **No candidates found.**
 
 
 ## 421. PMID 36708707 in `CDATA/CONCEPT.md`
-**Your context:** : 111-121. PMID: 28901234 3. **Horvath S.** (2013). DNA methylation age. *Genome Biology* 14(10): R115. PMID: 24138928 4. **Lopez-Otin C., et al.** (2023). Hallmarks of aging. *Cell* 186(2): 243-278. PMID: 36708707  **Новые ключевые 2024–2026 (добавл
+**Your context:** : 111-121. PMID: 28901234 3. **Horvath S.** (2013). DNA methylation age. *Genome Biology* 14(10): R115. PMID: 24138928 4. **Lopez-Otin C., et al.** (2023). Hallmarks of aging. *Cell* 186(2): 243-278. PMID: 36708707 **Новые ключевые 2024–2026 (добавл
 **Actual (wrong?) paper:** Berendzen KM 2023 — Oxytocin receptor is not required for social attachment in prairie voles.
 **Keywords extracted:** Horvath, methylation, Genome, Biology, Lopez-Otin
 **No candidates found.**
 
 
 ## 422. PMID 36708707 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:**  - Author: Nichay NR (2017) - Journal: World J Pediatr Congenit Heart Surg - Match score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 121. PMID 36708707 — LOW_SCORE **File:** `CONCEPT.md` *
+**Your context:** - Author: Nichay NR (2017) - Journal: World J Pediatr Congenit Heart Surg - Match score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 121. PMID 36708707 — LOW_SCORE **File:** `CONCEPT.md` *
 **Actual (wrong?) paper:** Berendzen KM 2023 — Oxytocin receptor is not required for social attachment in prairie voles.
 **Keywords extracted:** Author, Nichay, Journal, World, Pediatr
 **Top candidates:**
@@ -3178,7 +3178,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 423. PMID 36708707 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** : 111-121. PMID: 28901234 3. **Horvath S.** (2013). DNA methylation age. *Genome Biology* 14(10): R115. PMID: 24138928 4. **Lopez-Otin C., et al.** (2023). Hallmarks of aging. *Cell* 186(2): 243-278. PMID: 36708707  **Новые ключевые 2024–2026 (добавл
+**Your context:** : 111-121. PMID: 28901234 3. **Horvath S.** (2013). DNA methylation age. *Genome Biology* 14(10): R115. PMID: 24138928 4. **Lopez-Otin C., et al.** (2023). Hallmarks of aging. *Cell* 186(2): 243-278. PMID: 36708707 **Новые ключевые 2024–2026 (добавл
 **Actual (wrong?) paper:** Berendzen KM 2023 — Oxytocin receptor is not required for social attachment in prairie voles.
 **Keywords extracted:** Horvath, methylation, Genome, Biology, Lopez-Otin
 **No candidates found.**
@@ -3199,7 +3199,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 426. PMID 39349846 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** achment in prairie voles.* - Author: Berendzen KM (2023) - Journal: Neuron - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 122. PMID 39349846 — LOW_SCORE **File:** `KNOWLEDGE.md`
+**Your context:** achment in prairie voles.* - Author: Berendzen KM (2023) - Journal: Neuron - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 122. PMID 39349846 — LOW_SCORE **File:** `KNOWLEDGE.md`
 **Actual (wrong?) paper:** Kravec M 2024 — Carboxy-terminal polyglutamylation regulates signaling and phase separation of the Dishevelled protein.
 **Keywords extracted:** achment, prairie, voles, Author, Berendzen
 **Top candidates:**
@@ -3214,14 +3214,14 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 428. PMID 11067876 in `CDATA/KNOWLEDGE.md`
-**Your context:**  | |------|----------|----------| | HSC с hTERT в гипоксии (2% O₂) достигают ~200 PD | Peters-Hall 2020 | ✅ In vitro прямое | | HSC самообновление снижается с возрастом in vivo у мышей | Sudo 2000 (**PMID 11067876**, J Exp Med; previously mis-cited a
+**Your context:** | |------|----------|----------| | HSC с hTERT в гипоксии (2% O₂) достигают ~200 PD | Peters-Hall 2020 | ✅ In vitro прямое | | HSC самообновление снижается с возрастом in vivo у мышей | Sudo 2000 (**PMID 11067876**, J Exp Med; previously mis-cited a
 **Actual (wrong?) paper:** Sudo K 2000 — Age-associated characteristics of murine hematopoietic stem cells.
 **Keywords extracted:** hTERT, Peters-Hall, vitro, vivo, Sudo
 **No candidates found.**
 
 
 ## 429. PMID 11067876 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** n of the Dishevelled protein.* - Author: Kravec M (2024) - Journal: EMBO J - Match score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 123. PMID 11067876 — LOW_SCORE **File:** `KNOWLEDGE.md`
+**Your context:** n of the Dishevelled protein.* - Author: Kravec M (2024) - Journal: EMBO J - Match score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 123. PMID 11067876 — LOW_SCORE **File:** `KNOWLEDGE.md`
 **Actual (wrong?) paper:** Sudo K 2000 — Age-associated characteristics of murine hematopoietic stem cells.
 **Keywords extracted:** Dishevelled, protein, Author, Kravec, Journal
 **Top candidates:**
@@ -3231,7 +3231,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 430. PMID 11067876 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:**  | |------|----------|----------| | HSC с hTERT в гипоксии (2% O₂) достигают ~200 PD | Peters-Hall 2020 | ✅ In vitro прямое | | HSC самообновление снижается с возрастом in vivo у мышей | Sudo 2000 (**PMID 11067876**, J Exp Med; previously mis-cited a
+**Your context:** | |------|----------|----------| | HSC с hTERT в гипоксии (2% O₂) достигают ~200 PD | Peters-Hall 2020 | ✅ In vitro прямое | | HSC самообновление снижается с возрастом in vivo у мышей | Sudo 2000 (**PMID 11067876**, J Exp Med; previously mis-cited a
 **Actual (wrong?) paper:** Sudo K 2000 — Age-associated characteristics of murine hematopoietic stem cells.
 **Keywords extracted:** hTERT, Peters-Hall, vitro, vivo, Sudo
 **No candidates found.**
@@ -3266,28 +3266,28 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 435. PMID 12669037 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** снение  Если теломераза только capping (не длина), то какой-то ДРУГОЙ счётчик лимитирует деление. **CDATA предлагает: этот счётчик — polyGlu на центриоли**.  Parallel с HSC: - Allsopp 2003 *Nat Med* (PMID 12669037): TERT overexpression в HSC замедляе
+**Your context:** снение Если теломераза только capping (не длина), то какой-то ДРУГОЙ счётчик лимитирует деление. **CDATA предлагает: этот счётчик — polyGlu на центриоли**. Parallel с HSC: - Allsopp 2003 *Nat Med* (PMID 12669037): TERT overexpression в HSC замедляе
 **Actual (wrong?) paper:** Allsopp RC 2003 — Effect of TERT over-expression on the long-term transplantation capacity of hematopoietic stem cells.
 **Keywords extracted:** capping, CDATA, polyGlu, Parallel, Allsopp
 **No candidates found.**
 
 
 ## 436. PMID 12669037 in `CDATA/docs/CDATA_explains_fibroblast_limits.md`
-**Your context:** снение  Если теломераза только capping (не длина), то какой-то ДРУГОЙ счётчик лимитирует деление. **CDATA предлагает: этот счётчик — polyGlu на центриоли**.  Parallel с HSC: - Allsopp 2003 *Nat Med* (PMID 12669037): TERT overexpression в HSC замедляе
+**Your context:** снение Если теломераза только capping (не длина), то какой-то ДРУГОЙ счётчик лимитирует деление. **CDATA предлагает: этот счётчик — polyGlu на центриоли**. Parallel с HSC: - Allsopp 2003 *Nat Med* (PMID 12669037): TERT overexpression в HSC замедляе
 **Actual (wrong?) paper:** Allsopp RC 2003 — Effect of TERT over-expression on the long-term transplantation capacity of hematopoietic stem cells.
 **Keywords extracted:** capping, CDATA, polyGlu, Parallel, Allsopp
 **No candidates found.**
 
 
 ## 437. PMID 17255513 in `CDATA/KNOWLEDGE.md`
-**Your context:** нички → PTM → дефектный Hh/Wnt  | Факт | Источник | Качество | |------|----------|----------| | Материнская центриоль наследуется стволевой дочерью (Drosophila GSC, ~95%) | Yamashita 2007 (Science, **PMID 17255513**) — verified 2026-04-19 (previously
+**Your context:** нички → PTM → дефектный Hh/Wnt | Факт | Источник | Качество | |------|----------|----------| | Материнская центриоль наследуется стволевой дочерью (Drosophila GSC, ~95%) | Yamashita 2007 (Science, **PMID 17255513**) — verified 2026-04-19 (previously
 **Actual (wrong?) paper:** Yamashita YM 2007 — Asymmetric inheritance of mother versus daughter centrosome in stem cell division.
 **Keywords extracted:** Drosophila, Yamashita, Science, verified, previously
 **No candidates found.**
 
 
 ## 438. PMID 17255513 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:**  hematopoietic stem cells.* - Author: Allsopp RC (2003) - Journal: Nat Med - Match score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 127. PMID 17255513 — LOW_SCORE **File:** `KNOWLEDGE.md`
+**Your context:** hematopoietic stem cells.* - Author: Allsopp RC (2003) - Journal: Nat Med - Match score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 127. PMID 17255513 — LOW_SCORE **File:** `KNOWLEDGE.md`
 **Actual (wrong?) paper:** Yamashita YM 2007 — Asymmetric inheritance of mother versus daughter centrosome in stem cell division.
 **Keywords extracted:** hematopoietic, stem, cells, Author, Allsopp
 **Top candidates:**
@@ -3295,7 +3295,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 439. PMID 17255513 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** нички → PTM → дефектный Hh/Wnt  | Факт | Источник | Качество | |------|----------|----------| | Материнская центриоль наследуется стволевой дочерью (Drosophila GSC, ~95%) | Yamashita 2007 (Science, **PMID 17255513**) — verified 2026-04-19 (previously
+**Your context:** нички → PTM → дефектный Hh/Wnt | Факт | Источник | Качество | |------|----------|----------| | Материнская центриоль наследуется стволевой дочерью (Drosophila GSC, ~95%) | Yamashita 2007 (Science, **PMID 17255513**) — verified 2026-04-19 (previously
 **Actual (wrong?) paper:** Yamashita YM 2007 — Asymmetric inheritance of mother versus daughter centrosome in stem cell division.
 **Keywords extracted:** Drosophila, Yamashita, Science, verified, previously
 **No candidates found.**
@@ -3309,7 +3309,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 441. PMID 22215083 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** D.   ## 114. PMID 22129202 — LOW_SCORE **File:** `KNOWLEDGE.md` **Your context:** ые мыши (ERCC1−/Δ) - Результат: продление жизни, задержка 75% симптомов старения - **Reference: Lavasani et al. 2012 (PMID 22215083, Nat Commun 3:608) — verified 2026-0
+**Your context:** D. ## 114. PMID 22129202 — LOW_SCORE **File:** `KNOWLEDGE.md` **Your context:** ые мыши (ERCC1−/Δ) - Результат: продление жизни, задержка 75% симптомов старения - **Reference: Lavasani et al. 2012 (PMID 22215083, Nat Commun 3:608) — verified 2026-0
 **Actual (wrong?) paper:** Lavasani M 2012 — Muscle-derived stem/progenitor cell dysfunction limits healthspan and lifespan in a murine progeria model.
 **Keywords extracted:** SCORE, File, KNOWLEDGE, context, Reference
 **Top candidates:**
@@ -3326,14 +3326,14 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 443. PMID 21286664 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 9. PMID 36583780 — LOW_SCORE **File:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** ерифицирован | PMID 21286664 | | 20 | Paridaen et al. 2013 | ✅ Ве
+**Your context:** Action needed:** verify if citation is correct; if not, search for proper PMID. ## 9. PMID 36583780 — LOW_SCORE **File:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** ерифицирован | PMID 21286664 | | 20 | Paridaen et al. 2013 | ✅ Ве
 **Actual (wrong?) paper:** Okamura K 2011 — Possible involvement of loss of imprinting in immortalization of human fibroblasts.
 **Keywords extracted:** Action, needed, verify, citation, correct
 **No candidates found.**
 
 
 ## 444. PMID 21286664 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** h for proper PMID.   ## 137. PMID 15308640 — LOW_SCORE **File:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** ицирован | PMID 14743210 | | 19 | Okamura et al. 2011 | ✅ Верифицирован | PMID 21286664 | | 20 | Paridaen et al. 2013 | ✅ Ве
+**Your context:** h for proper PMID. ## 137. PMID 15308640 — LOW_SCORE **File:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** ицирован | PMID 14743210 | | 19 | Okamura et al. 2011 | ✅ Верифицирован | PMID 21286664 | | 20 | Paridaen et al. 2013 | ✅ Ве
 **Actual (wrong?) paper:** Okamura K 2011 — Possible involvement of loss of imprinting in immortalization of human fibroblasts.
 **Keywords extracted:** proper, SCORE, File, docs, CDATA
 **No candidates found.**
@@ -3368,21 +3368,21 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 449. PMID 24120134 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** or proper PMID.   ## 9. PMID 36583780 — LOW_SCORE **File:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** ерифицирован | PMID 21286664 | | 20 | Paridaen et al. 2013 | ✅ Верифицирован | PMID 24120134 | | 21 | Taylor et al. 2004 | ✅ Вери
+**Your context:** or proper PMID. ## 9. PMID 36583780 — LOW_SCORE **File:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** ерифицирован | PMID 21286664 | | 20 | Paridaen et al. 2013 | ✅ Верифицирован | PMID 24120134 | | 21 | Taylor et al. 2004 | ✅ Вери
 **Actual (wrong?) paper:** Paridaen JT 2013 — Asymmetric inheritance of centrosome-associated primary cilium membrane directs ciliogenesis after cell division.
 **Keywords extracted:** proper, SCORE, File, docs, CDATA
 **No candidates found.**
 
 
 ## 450. PMID 24120134 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:**  `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** ицирован | PMID 14743210 | | 19 | Okamura et al. 2011 | ✅ Верифицирован | PMID 21286664 | | 20 | Paridaen et al. 2013 | ✅ Верифицирован | PMID 24120134 | | 21 | Taylor et al. 2004 | ✅ Вери
+**Your context:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** ицирован | PMID 14743210 | | 19 | Okamura et al. 2011 | ✅ Верифицирован | PMID 21286664 | | 20 | Paridaen et al. 2013 | ✅ Верифицирован | PMID 24120134 | | 21 | Taylor et al. 2004 | ✅ Вери
 **Actual (wrong?) paper:** Paridaen JT 2013 — Asymmetric inheritance of centrosome-associated primary cilium membrane directs ciliogenesis after cell division.
 **Keywords extracted:** docs, CDATA, Fibroblasts, REVIEW, context
 **No candidates found.**
 
 
 ## 451. PMID 24120134 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** on needed:** verify if citation is correct; if not, search for proper PMID.   ## 141. PMID 10022923 — LOW_SCORE **File:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:**  Верифицирован | PMID 24120134 | | 21 | Taylor et al. 2004 | ✅ Вери
+**Your context:** on needed:** verify if citation is correct; if not, search for proper PMID. ## 141. PMID 10022923 — LOW_SCORE **File:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** Верифицирован | PMID 24120134 | | 21 | Taylor et al. 2004 | ✅ Вери
 **Actual (wrong?) paper:** Paridaen JT 2013 — Asymmetric inheritance of centrosome-associated primary cilium membrane directs ciliogenesis after cell division.
 **Keywords extracted:** needed, verify, citation, correct, search
 **Top candidates:**
@@ -3397,7 +3397,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 453. PMID 24120134 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** n of human fibroblasts.* - Author: Okamura K (2011) - Journal: Int J Oncol - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 150. PMID 24120134 — LOW_SCORE **File:** `docs/CDATA_Fi
+**Your context:** n of human fibroblasts.* - Author: Okamura K (2011) - Journal: Int J Oncol - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 150. PMID 24120134 — LOW_SCORE **File:** `docs/CDATA_Fi
 **Actual (wrong?) paper:** Paridaen JT 2013 — Asymmetric inheritance of centrosome-associated primary cilium membrane directs ciliogenesis after cell division.
 **Keywords extracted:** human, fibroblasts, Author, Okamura, Journal
 **Top candidates:**
@@ -3428,7 +3428,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 457. PMID 15308640 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:**  needed:** verify if citation is correct; if not, search for proper PMID.   ## 132. PMID 19829375 — LOW_SCORE **File:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:**  ✅ Верифицирован | PMID 15308640 | | 22 | Tkemaladze 2023 | ✅ Верифиц
+**Your context:** needed:** verify if citation is correct; if not, search for proper PMID. ## 132. PMID 19829375 — LOW_SCORE **File:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** ✅ Верифицирован | PMID 15308640 | | 22 | Tkemaladze 2023 | ✅ Верифиц
 **Actual (wrong?) paper:** Taylor LM 2004 — Inactivation of p16INK4a, with retention of pRB and p53/p21cip1 function, in human MRC5 fibroblasts that overcome a telomere-independent crisis during
 **Keywords extracted:** needed, verify, citation, correct, search
 **Top candidates:**
@@ -3443,7 +3443,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 459. PMID 15308640 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:**  proper PMID.   ## 141. PMID 10022923 — LOW_SCORE **File:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:**  Верифицирован | PMID 24120134 | | 21 | Taylor et al. 2004 | ✅ Верифицирован | PMID 15308640 | | 22 | Tkemaladze 2023 | ✅ Верифиц
+**Your context:** proper PMID. ## 141. PMID 10022923 — LOW_SCORE **File:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** Верифицирован | PMID 24120134 | | 21 | Taylor et al. 2004 | ✅ Верифицирован | PMID 15308640 | | 22 | Tkemaladze 2023 | ✅ Верифиц
 **Actual (wrong?) paper:** Taylor LM 2004 — Inactivation of p16INK4a, with retention of pRB and p53/p21cip1 function, in human MRC5 fibroblasts that overcome a telomere-independent crisis during
 **Keywords extracted:** proper, SCORE, File, docs, CDATA
 **No candidates found.**
@@ -3464,21 +3464,21 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 462. PMID 10022923 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:**  Верифицирован | PMID 24120134 | | 21 | Taylor et al. 2004 | ✅ Верифицирован | PMID 15308640 | | 22 | Tkemaladze 2023 | ✅ Верифицирован | PMID 36583780 | | 23 | Vaziri et al. 1999 | ✅ Верифицирован | PMID 10022923 | | 24 | Wang et al. 200 **Actual Pu
+**Your context:** Верифицирован | PMID 24120134 | | 21 | Taylor et al. 2004 | ✅ Верифицирован | PMID 15308640 | | 22 | Tkemaladze 2023 | ✅ Верифицирован | PMID 36583780 | | 23 | Vaziri et al. 1999 | ✅ Верифицирован | PMID 10022923 | | 24 | Wang et al. 200 **Actual Pu
 **Actual (wrong?) paper:** Vaziri H 1999 — Analysis of genomic integrity and p53-dependent G1 checkpoint in telomerase-induced extended-life-span human fibroblasts.
 **Keywords extracted:** Taylor, Tkemaladze, Vaziri, Wang, Actual
 **No candidates found.**
 
 
 ## 463. PMID 10022923 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:**  ✅ Верифицирован | PMID 15308640 | | 22 | Tkemaladze 2023 | ✅ Верифицирован | PMID 36583780 | | 23 | Vaziri et al. 1999 | ✅ Верифицирован | PMID 10022923 | | 24 | Wang et al. 2009 | ✅ Верифи
+**Your context:** docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** ✅ Верифицирован | PMID 15308640 | | 22 | Tkemaladze 2023 | ✅ Верифицирован | PMID 36583780 | | 23 | Vaziri et al. 1999 | ✅ Верифицирован | PMID 10022923 | | 24 | Wang et al. 2009 | ✅ Верифи
 **Actual (wrong?) paper:** Vaziri H 1999 — Analysis of genomic integrity and p53-dependent G1 checkpoint in telomerase-induced extended-life-span human fibroblasts.
 **Keywords extracted:** docs, CDATA, Fibroblasts, REVIEW, context
 **No candidates found.**
 
 
 ## 464. PMID 10022923 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** eeded:** verify if citation is correct; if not, search for proper PMID.   ## 135. PMID 10097104 — LOW_SCORE **File:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:**  | ✅ Верифицирован | PMID 10022923 | | 24 | Wang et al. 2009 | ✅ Верифи
+**Your context:** eeded:** verify if citation is correct; if not, search for proper PMID. ## 135. PMID 10097104 — LOW_SCORE **File:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** | ✅ Верифицирован | PMID 10022923 | | 24 | Wang et al. 2009 | ✅ Верифи
 **Actual (wrong?) paper:** Vaziri H 1999 — Analysis of genomic integrity and p53-dependent G1 checkpoint in telomerase-induced extended-life-span human fibroblasts.
 **Keywords extracted:** eeded, verify, citation, correct, search
 **Top candidates:**
@@ -3488,28 +3488,28 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 465. PMID 10022923 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:**  Верифицирован | PMID 24120134 | | 21 | Taylor et al. 2004 | ✅ Верифицирован | PMID 15308640 | | 22 | Tkemaladze 2023 | ✅ Верифицирован | PMID 36583780 | | 23 | Vaziri et al. 1999 | ✅ Верифицирован | PMID 10022923 | | 24 | Wang et al. 2009 | ✅ Верифи
+**Your context:** Верифицирован | PMID 24120134 | | 21 | Taylor et al. 2004 | ✅ Верифицирован | PMID 15308640 | | 22 | Tkemaladze 2023 | ✅ Верифицирован | PMID 36583780 | | 23 | Vaziri et al. 1999 | ✅ Верифицирован | PMID 10022923 | | 24 | Wang et al. 2009 | ✅ Верифи
 **Actual (wrong?) paper:** Vaziri H 1999 — Analysis of genomic integrity and p53-dependent G1 checkpoint in telomerase-induced extended-life-span human fibroblasts.
 **Keywords extracted:** Taylor, Tkemaladze, Vaziri, Wang, Yang
 **No candidates found.**
 
 
 ## 466. PMID 10022923 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** proper PMID.   ## 151. PMID 10473565 — LOW_SCORE **File:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** ✅ Верифицирован | PMID 36583780 | | 23 | Vaziri et al. 1999 | ✅ Верифицирован | PMID 10022923 | | 24 | Wang et al. 2009 | ✅ Верифи
+**Your context:** proper PMID. ## 151. PMID 10473565 — LOW_SCORE **File:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** ✅ Верифицирован | PMID 36583780 | | 23 | Vaziri et al. 1999 | ✅ Верифицирован | PMID 10022923 | | 24 | Wang et al. 2009 | ✅ Верифи
 **Actual (wrong?) paper:** Vaziri H 1999 — Analysis of genomic integrity and p53-dependent G1 checkpoint in telomerase-induced extended-life-span human fibroblasts.
 **Keywords extracted:** proper, SCORE, File, docs, CDATA
 **No candidates found.**
 
 
 ## 467. PMID 10022923 in `CDATA/docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md`
-**Your context:**  Верифицирован | PMID 24120134 | | 21 | Taylor et al. 2004 | ✅ Верифицирован | PMID 15308640 | | 22 | Tkemaladze 2023 | ✅ Верифицирован | PMID 36583780 | | 23 | Vaziri et al. 1999 | ✅ Верифицирован | PMID 10022923 | | 24 | Wang et al. 2009 | ✅ Верифи
+**Your context:** Верифицирован | PMID 24120134 | | 21 | Taylor et al. 2004 | ✅ Верифицирован | PMID 15308640 | | 22 | Tkemaladze 2023 | ✅ Верифицирован | PMID 36583780 | | 23 | Vaziri et al. 1999 | ✅ Верифицирован | PMID 10022923 | | 24 | Wang et al. 2009 | ✅ Верифи
 **Actual (wrong?) paper:** Vaziri H 1999 — Analysis of genomic integrity and p53-dependent G1 checkpoint in telomerase-induced extended-life-span human fibroblasts.
 **Keywords extracted:** Taylor, Tkemaladze, Vaziri, Wang, Yang
 **No candidates found.**
 
 
 ## 468. PMID 30012547 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:**  murine progeria model.* - Author: Lavasani M (2012) - Journal: Nat Commun - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 129. PMID 30012547 — LOW_SCORE **File:** `docs/BHCA_v2_
+**Your context:** murine progeria model.* - Author: Lavasani M (2012) - Journal: Nat Commun - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 129. PMID 30012547 — LOW_SCORE **File:** `docs/BHCA_v2_
 **Actual (wrong?) paper:** Lambert JD 2018 — Web-Based Intervention Using Behavioral Activation and Physical Activity for Adults With Depression (The eMotion Study): Pilot Randomized Controlled T
 **Keywords extracted:** murine, progeria, model, Author, Lavasani
 **Top candidates:**
@@ -3519,14 +3519,14 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 469. PMID 30012547 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** несколько неточностей, подрывающих доверие к анализу.     *   **Leins et al. 2022 (Blood 140:964):** Согласно данным рецензента, эта ссылка **не верифицирована**. Существует Leins et al. 2018 (Blood, PMID 30012547). Автор должен проверить и исправить
+**Your context:** несколько неточностей, подрывающих доверие к анализу. * **Leins et al. 2022 (Blood 140:964):** Согласно данным рецензента, эта ссылка **не верифицирована**. Существует Leins et al. 2018 (Blood, PMID 30012547). Автор должен проверить и исправить
 **Actual (wrong?) paper:** Lambert JD 2018 — Web-Based Intervention Using Behavioral Activation and Physical Activity for Adults With Depression (The eMotion Study): Pilot Randomized Controlled T
 **Keywords extracted:** Leins, Blood, Actual
 **No candidates found.**
 
 
 ## 470. PMID 30012547 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** ify if citation is correct; if not, search for proper PMID.   ## 130. PMID 19150847 — LOW_SCORE **File:** `docs/BHCA_v2_peer_review_RU_2026-04-16.md` **Your context:** твует Leins et al. 2018 (Blood, PMID 30012547). Автор должен проверить и исправить
+**Your context:** ify if citation is correct; if not, search for proper PMID. ## 130. PMID 19150847 — LOW_SCORE **File:** `docs/BHCA_v2_peer_review_RU_2026-04-16.md` **Your context:** твует Leins et al. 2018 (Blood, PMID 30012547). Автор должен проверить и исправить
 **Actual (wrong?) paper:** Lambert JD 2018 — Web-Based Intervention Using Behavioral Activation and Physical Activity for Adults With Depression (The eMotion Study): Pilot Randomized Controlled T
 **Keywords extracted:** citation, correct, search, proper, SCORE
 **Top candidates:**
@@ -3534,7 +3534,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 471. PMID 30012547 in `CDATA/docs/BHCA_v2_peer_review_RU_2026-04-16.md`
-**Your context:** несколько неточностей, подрывающих доверие к анализу.     *   **Leins et al. 2022 (Blood 140:964):** Согласно данным рецензента, эта ссылка **не верифицирована**. Существует Leins et al. 2018 (Blood, PMID 30012547). Автор должен проверить и исправить
+**Your context:** несколько неточностей, подрывающих доверие к анализу. * **Leins et al. 2022 (Blood 140:964):** Согласно данным рецензента, эта ссылка **не верифицирована**. Существует Leins et al. 2018 (Blood, PMID 30012547). Автор должен проверить и исправить
 **Actual (wrong?) paper:** Lambert JD 2018 — Web-Based Intervention Using Behavioral Activation and Physical Activity for Adults With Depression (The eMotion Study): Pilot Randomized Controlled T
 **Keywords extracted:** Leins, Blood
 **Top candidates:**
@@ -3544,21 +3544,21 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 472. PMID 19150847 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** ntrolled Trial.* - Author: Lambert JD (2018) - Journal: J Med Internet Res - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 130. PMID 19150847 — LOW_SCORE **File:** `docs/BHCA_v2_
+**Your context:** ntrolled Trial.* - Author: Lambert JD (2018) - Journal: J Med Internet Res - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 130. PMID 19150847 — LOW_SCORE **File:** `docs/BHCA_v2_
 **Actual (wrong?) paper:** Islam SM 2009 — Draxin, a repulsive guidance protein for spinal cord and forebrain commissures.
 **Keywords extracted:** ntrolled, Trial, Author, Lambert, Journal
 **No candidates found.**
 
 
 ## 473. PMID 19150847 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** твует Leins et al. 2018 (Blood, PMID 30012547). Автор должен проверить и исправить цитирование. Упоминание несуществующей или неточной ссылки в научной статье неприемлемо.     *   **Wang et al. 2009 (PMID 19150847):** Данные рецензента указывают, что
+**Your context:** твует Leins et al. 2018 (Blood, PMID 30012547). Автор должен проверить и исправить цитирование. Упоминание несуществующей или неточной ссылки в научной статье неприемлемо. * **Wang et al. 2009 (PMID 19150847):** Данные рецензента указывают, что
 **Actual (wrong?) paper:** Islam SM 2009 — Draxin, a repulsive guidance protein for spinal cord and forebrain commissures.
 **Keywords extracted:** Leins, Blood, Wang, Actual
 **No candidates found.**
 
 
 ## 474. PMID 19150847 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** eeded:** verify if citation is correct; if not, search for proper PMID.   ## 131. PMID 19829375 — LOW_SCORE **File:** `docs/BHCA_v2_peer_review_RU_2026-04-16.md` **Your context:** **Wang et al. 2009 (PMID 19150847):** Данные рецензента указывают, что
+**Your context:** eeded:** verify if citation is correct; if not, search for proper PMID. ## 131. PMID 19829375 — LOW_SCORE **File:** `docs/BHCA_v2_peer_review_RU_2026-04-16.md` **Your context:** **Wang et al. 2009 (PMID 19150847):** Данные рецензента указывают, что
 **Actual (wrong?) paper:** Islam SM 2009 — Draxin, a repulsive guidance protein for spinal cord and forebrain commissures.
 **Keywords extracted:** eeded, verify, citation, correct, search
 **Top candidates:**
@@ -3568,7 +3568,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 475. PMID 19150847 in `CDATA/docs/BHCA_v2_peer_review_RU_2026-04-16.md`
-**Your context:** твует Leins et al. 2018 (Blood, PMID 30012547). Автор должен проверить и исправить цитирование. Упоминание несуществующей или неточной ссылки в научной статье неприемлемо.     *   **Wang et al. 2009 (PMID 19150847):** Данные рецензента указывают, что
+**Your context:** твует Leins et al. 2018 (Blood, PMID 30012547). Автор должен проверить и исправить цитирование. Упоминание несуществующей или неточной ссылки в научной статье неприемлемо. * **Wang et al. 2009 (PMID 19150847):** Данные рецензента указывают, что
 **Actual (wrong?) paper:** Islam SM 2009 — Draxin, a repulsive guidance protein for spinal cord and forebrain commissures.
 **Keywords extracted:** Leins, Blood, Wang
 **Top candidates:**
@@ -3576,7 +3576,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 476. PMID 19829375 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** d and forebrain commissures.* - Author: Islam SM (2009) - Journal: Science - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 131. PMID 19829375 — LOW_SCORE **File:** `docs/BHCA_v2_
+**Your context:** d and forebrain commissures.* - Author: Islam SM (2009) - Journal: Science - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 131. PMID 19829375 — LOW_SCORE **File:** `docs/BHCA_v2_
 **Actual (wrong?) paper:** Wang X 2009 — Asymmetric centrosome inheritance maintains neural progenitors in the neocortex.
 **Keywords extracted:** forebrain, commissures, Author, Islam, Journal
 **Top candidates:**
@@ -3592,21 +3592,21 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 478. PMID 19829375 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:**  ✅ Верифицирован | PMID 15308640 | | 22 | Tkemaladze 2023 | ✅ Верифицирован | PMID 36583780 | | 23 | Vaziri et al. 1999 | ✅ Верифицирован | PMID 10022923 | | 24 | Wang et al. 2009 | ✅ Верифицирован | PMID 19829375 | | 25 | Yang et al. 1999 | ✅ Верифи
+**Your context:** ✅ Верифицирован | PMID 15308640 | | 22 | Tkemaladze 2023 | ✅ Верифицирован | PMID 36583780 | | 23 | Vaziri et al. 1999 | ✅ Верифицирован | PMID 10022923 | | 24 | Wang et al. 2009 | ✅ Верифицирован | PMID 19829375 | | 25 | Yang et al. 1999 | ✅ Верифи
 **Actual (wrong?) paper:** Wang X 2009 — Asymmetric centrosome inheritance maintains neural progenitors in the neocortex.
 **Keywords extracted:** Tkemaladze, Vaziri, Wang, Yang, Actual
 **No candidates found.**
 
 
 ## 479. PMID 19829375 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** roper PMID.   ## 135. PMID 10097104 — LOW_SCORE **File:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:**  | ✅ Верифицирован | PMID 10022923 | | 24 | Wang et al. 2009 | ✅ Верифицирован | PMID 19829375 | | 25 | Yang et al. 1999 | ✅ Верифи
+**Your context:** roper PMID. ## 135. PMID 10097104 — LOW_SCORE **File:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** | ✅ Верифицирован | PMID 10022923 | | 24 | Wang et al. 2009 | ✅ Верифицирован | PMID 19829375 | | 25 | Yang et al. 1999 | ✅ Верифи
 **Actual (wrong?) paper:** Wang X 2009 — Asymmetric centrosome inheritance maintains neural progenitors in the neocortex.
 **Keywords extracted:** roper, SCORE, File, docs, CDATA
 **No candidates found.**
 
 
 ## 480. PMID 19829375 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:**  ✅ Верифицирован | PMID 15308640 | | 22 | Tkemaladze 2023 | ✅ Верифицирован | PMID 36583780 | | 23 | Vaziri et al. 1999 | ✅ Верифицирован | PMID 10022923 | | 24 | Wang et al. 2009 | ✅ Верифицирован | PMID 19829375 | | 25 | Yang et al. 1999  **Actual 
+**Your context:** ✅ Верифицирован | PMID 15308640 | | 22 | Tkemaladze 2023 | ✅ Верифицирован | PMID 36583780 | | 23 | Vaziri et al. 1999 | ✅ Верифицирован | PMID 10022923 | | 24 | Wang et al. 2009 | ✅ Верифицирован | PMID 19829375 | | 25 | Yang et al. 1999 **Actual 
 **Actual (wrong?) paper:** Wang X 2009 — Asymmetric centrosome inheritance maintains neural progenitors in the neocortex.
 **Keywords extracted:** Tkemaladze, Vaziri, Wang, Yang, Actual
 **No candidates found.**
@@ -3630,7 +3630,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 483. PMID 19829375 in `CDATA/docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md`
-**Your context:**  ✅ Верифицирован | PMID 15308640 | | 22 | Tkemaladze 2023 | ✅ Верифицирован | PMID 36583780 | | 23 | Vaziri et al. 1999 | ✅ Верифицирован | PMID 10022923 | | 24 | Wang et al. 2009 | ✅ Верифицирован | PMID 19829375 | | 25 | Yang et al. 1999 | ✅ Верифи
+**Your context:** ✅ Верифицирован | PMID 15308640 | | 22 | Tkemaladze 2023 | ✅ Верифицирован | PMID 36583780 | | 23 | Vaziri et al. 1999 | ✅ Верифицирован | PMID 10022923 | | 24 | Wang et al. 2009 | ✅ Верифицирован | PMID 19829375 | | 25 | Yang et al. 1999 | ✅ Верифи
 **Actual (wrong?) paper:** Wang X 2009 — Asymmetric centrosome inheritance maintains neural progenitors in the neocortex.
 **Keywords extracted:** Tkemaladze, Vaziri, Wang, Yang
 **No candidates found.**
@@ -3644,7 +3644,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 485. PMID 10473565 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** ocs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:**  | ✅ Верифицирован | PMID 10022923 | | 24 | Wang et al. 2009 | ✅ Верифицирован | PMID 19829375 | | 25 | Yang et al. 1999 | ✅ Верифицирован | PMID 10473565 | | 26 | Zhu et al. 1999 | ✅ Верифиц
+**Your context:** ocs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** | ✅ Верифицирован | PMID 10022923 | | 24 | Wang et al. 2009 | ✅ Верифицирован | PMID 19829375 | | 25 | Yang et al. 1999 | ✅ Верифицирован | PMID 10473565 | | 26 | Zhu et al. 1999 | ✅ Верифиц
 **Actual (wrong?) paper:** Yang J 1999 — Human endothelial cell life extension by telomerase expression.
 **Keywords extracted:** CDATA, Fibroblasts, REVIEW, context, Wang
 **No candidates found.**
@@ -3665,7 +3665,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 488. PMID 10964501 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** l progenitors in the neocortex.* - Author: Wang X (2009) - Journal: Nature - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 133. PMID 10964501 — LOW_SCORE **File:** `docs/CDATA_Fi
+**Your context:** l progenitors in the neocortex.* - Author: Wang X (2009) - Journal: Nature - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 133. PMID 10964501 — LOW_SCORE **File:** `docs/CDATA_Fi
 **Actual (wrong?) paper:** MacKenzie KL 2000 — Mass cultured human fibroblasts overexpressing hTERT encounter a growth crisis following an extended period of proliferation.
 **Keywords extracted:** progenitors, neocortex, Author, Wang, Journal
 **Top candidates:**
@@ -3682,14 +3682,14 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 490. PMID 10964501 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** tation is correct; if not, search for proper PMID.   ## 139. PMID 12927806 — LOW_SCORE **File:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** MacKenzie et al. 2000 | ✅ Верифицирован | PMID 10964501 | | 16 | **Magiera et al., 2025** | 
+**Your context:** tation is correct; if not, search for proper PMID. ## 139. PMID 12927806 — LOW_SCORE **File:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** MacKenzie et al. 2000 | ✅ Верифицирован | PMID 10964501 | | 16 | **Magiera et al., 2025** | 
 **Actual (wrong?) paper:** MacKenzie KL 2000 — Mass cultured human fibroblasts overexpressing hTERT encounter a growth crisis following an extended period of proliferation.
 **Keywords extracted:** tation, correct, search, proper, SCORE
 **No candidates found.**
 
 
 ## 491. PMID 10964501 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** фицирован | PMID 23064640 | | 13 | Kimura et al. 2010 | ✅ Верифицирован | PMID 20519502 | | 14 | Kiyono et al. 1998 | ✅ Верифицирован | PMID 9817205 | | 15 | MacKenzie et al. 2000 | ✅ Верифицирован | PMID 10964501 | | 16 | **Magiera et  **Actual PubM
+**Your context:** фицирован | PMID 23064640 | | 13 | Kimura et al. 2010 | ✅ Верифицирован | PMID 20519502 | | 14 | Kiyono et al. 1998 | ✅ Верифицирован | PMID 9817205 | | 15 | MacKenzie et al. 2000 | ✅ Верифицирован | PMID 10964501 | | 16 | **Magiera et **Actual PubM
 **Actual (wrong?) paper:** MacKenzie KL 2000 — Mass cultured human fibroblasts overexpressing hTERT encounter a growth crisis following an extended period of proliferation.
 **Keywords extracted:** Kimura, Kiyono, MacKenzie, Magiera, Actual
 **No candidates found.**
@@ -3703,21 +3703,21 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 493. PMID 23064640 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** *Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 133. PMID 10964501 — LOW_SCORE **File:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** фицирован | PMID 23064640 | | 13 | Kimura et al. 2010 | ✅ Вери
+**Your context:** *Action needed:** verify if citation is correct; if not, search for proper PMID. ## 133. PMID 10964501 — LOW_SCORE **File:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** фицирован | PMID 23064640 | | 13 | Kimura et al. 2010 | ✅ Вери
 **Actual (wrong?) paper:** Izumi H 2012 — Evidence of asymmetric cell division and centrosome inheritance in human neuroblastoma cells.
 **Keywords extracted:** Action, needed, verify, citation, correct
 **No candidates found.**
 
 
 ## 494. PMID 23064640 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** рифицирован | PMID 14585357 | | 10 | Evans et al. 2003 | ✅ Верифицирован | PMID 12941806 | | 11 | Franco et al. 2001 | ✅ Верифицирован | PMID 11461114 | | 12 | Izumi & Kaneko 2012 | ✅ Верифицирован | PMID 23064640 | | 13 | Kimura et al.  **Actual Pub
+**Your context:** рифицирован | PMID 14585357 | | 10 | Evans et al. 2003 | ✅ Верифицирован | PMID 12941806 | | 11 | Franco et al. 2001 | ✅ Верифицирован | PMID 11461114 | | 12 | Izumi & Kaneko 2012 | ✅ Верифицирован | PMID 23064640 | | 13 | Kimura et al. **Actual Pub
 **Actual (wrong?) paper:** Izumi H 2012 — Evidence of asymmetric cell division and centrosome inheritance in human neuroblastoma cells.
 **Keywords extracted:** Evans, Franco, Izumi, Kaneko, Kimura
 **No candidates found.**
 
 
 ## 495. PMID 23064640 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** cs of glioma development.* - Author: Evans RJ (2003) - Journal: Cancer Res - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 145. PMID 23064640 — LOW_SCORE **File:** `docs/CDATA_Fi
+**Your context:** cs of glioma development.* - Author: Evans RJ (2003) - Journal: Cancer Res - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 145. PMID 23064640 — LOW_SCORE **File:** `docs/CDATA_Fi
 **Actual (wrong?) paper:** Izumi H 2012 — Evidence of asymmetric cell division and centrosome inheritance in human neuroblastoma cells.
 **Keywords extracted:** glioma, development, Author, Evans, Journal
 **Top candidates:**
@@ -3734,14 +3734,14 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 497. PMID 23064640 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:**  `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** ифицирован | PMID 12941806 | | 11 | Franco et al. 2001 | ✅ Верифицирован | PMID 11461114 | | 12 | Izumi & Kaneko 2012 | ✅ Верифицирован | PMID 23064640 | | 13 | Kimura et al. 2010 | ✅ Вери
+**Your context:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** ифицирован | PMID 12941806 | | 11 | Franco et al. 2001 | ✅ Верифицирован | PMID 11461114 | | 12 | Izumi & Kaneko 2012 | ✅ Верифицирован | PMID 23064640 | | 13 | Kimura et al. 2010 | ✅ Вери
 **Actual (wrong?) paper:** Izumi H 2012 — Evidence of asymmetric cell division and centrosome inheritance in human neuroblastoma cells.
 **Keywords extracted:** docs, CDATA, Fibroblasts, REVIEW, context
 **No candidates found.**
 
 
 ## 498. PMID 23064640 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:**  for proper PMID.   ## 147. PMID 9817205 — LOW_SCORE **File:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** ифицирован | PMID 11461114 | | 12 | Izumi & Kaneko 2012 | ✅ Верифицирован | PMID 23064640 | | 13 | Kimura et al. 2010 | ✅ Вери
+**Your context:** for proper PMID. ## 147. PMID 9817205 — LOW_SCORE **File:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** ифицирован | PMID 11461114 | | 12 | Izumi & Kaneko 2012 | ✅ Верифицирован | PMID 23064640 | | 13 | Kimura et al. 2010 | ✅ Вери
 **Actual (wrong?) paper:** Izumi H 2012 — Evidence of asymmetric cell division and centrosome inheritance in human neuroblastoma cells.
 **Keywords extracted:** proper, SCORE, File, docs, CDATA
 **No candidates found.**
@@ -3755,7 +3755,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 500. PMID 20519502 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** h for proper PMID.   ## 133. PMID 10964501 — LOW_SCORE **File:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** фицирован | PMID 23064640 | | 13 | Kimura et al. 2010 | ✅ Верифицирован | PMID 20519502 | | 14 | Kiyono et al. 1998 | ✅ Вери
+**Your context:** h for proper PMID. ## 133. PMID 10964501 — LOW_SCORE **File:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** фицирован | PMID 23064640 | | 13 | Kimura et al. 2010 | ✅ Верифицирован | PMID 20519502 | | 14 | Kiyono et al. 1998 | ✅ Вери
 **Actual (wrong?) paper:** Kimura Y 2010 — Identification of tubulin deglutamylase among Caenorhabditis elegans and mammalian cytosolic carboxypeptidases (CCPs).
 **Keywords extracted:** proper, SCORE, File, docs, CDATA
 **No candidates found.**
@@ -3769,7 +3769,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 502. PMID 20519502 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** stoma cells.* - Author: Izumi H (2012) - Journal: Proc Natl Acad Sci U S A - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 146. PMID 20519502 — LOW_SCORE **File:** `docs/CDATA_Fi
+**Your context:** stoma cells.* - Author: Izumi H (2012) - Journal: Proc Natl Acad Sci U S A - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 146. PMID 20519502 — LOW_SCORE **File:** `docs/CDATA_Fi
 **Actual (wrong?) paper:** Kimura Y 2010 — Identification of tubulin deglutamylase among Caenorhabditis elegans and mammalian cytosolic carboxypeptidases (CCPs).
 **Keywords extracted:** stoma, cells, Author, Izumi, Journal
 **No candidates found.**
@@ -3783,7 +3783,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 504. PMID 20519502 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:**  `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** ифицирован | PMID 11461114 | | 12 | Izumi & Kaneko 2012 | ✅ Верифицирован | PMID 23064640 | | 13 | Kimura et al. 2010 | ✅ Верифицирован | PMID 20519502 | | 14 | Kiyono et al. 1998 | ✅ Вери
+**Your context:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** ифицирован | PMID 11461114 | | 12 | Izumi & Kaneko 2012 | ✅ Верифицирован | PMID 23064640 | | 13 | Kimura et al. 2010 | ✅ Верифицирован | PMID 20519502 | | 14 | Kiyono et al. 1998 | ✅ Вери
 **Actual (wrong?) paper:** Kimura Y 2010 — Identification of tubulin deglutamylase among Caenorhabditis elegans and mammalian cytosolic carboxypeptidases (CCPs).
 **Keywords extracted:** docs, CDATA, Fibroblasts, REVIEW, context
 **No candidates found.**
@@ -3811,7 +3811,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 508. PMID 9817205 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** arboxypeptidases (CCPs).* - Author: Kimura Y (2010) - Journal: J Biol Chem - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 147. PMID 9817205 — LOW_SCORE **File:** `docs/CDATA_Fib
+**Your context:** arboxypeptidases (CCPs).* - Author: Kimura Y (2010) - Journal: J Biol Chem - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 147. PMID 9817205 — LOW_SCORE **File:** `docs/CDATA_Fib
 **Actual (wrong?) paper:** Kiyono T 1998 — Both Rb/p16INK4a inactivation and telomerase activity are required to immortalize human epithelial cells.
 **Keywords extracted:** arboxypeptidases, CCPs, Author, Kimura, Journal
 **Top candidates:**
@@ -3833,7 +3833,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 511. PMID 10097104 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** d of proliferation.* - Author: MacKenzie KL (2000) - Journal: Exp Cell Res - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 134. PMID 10097104 — LOW_SCORE **File:** `docs/CDATA_ex
+**Your context:** d of proliferation.* - Author: MacKenzie KL (2000) - Journal: Exp Cell Res - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 134. PMID 10097104 — LOW_SCORE **File:** `docs/CDATA_ex
 **Actual (wrong?) paper:** Zhu J 1999 — Telomerase extends the lifespan of virus-transformed human cells without net telomere lengthening.
 **Keywords extracted:** proliferation, Author, MacKenzie, Journal, Cell
 **Top candidates:**
@@ -3843,14 +3843,14 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 512. PMID 10097104 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** , а не сам mechanism) - Почему разные типы клеток по-разному чувствительны (эпителиальные более зависимы от ciliar signaling чем фибробласты)  ---  ## 3. Теломераза как "cap" без удлинения (Zhu 1999, PMID 10097104) = Allsopp parallel  ### Что показал
+**Your context:** , а не сам mechanism) - Почему разные типы клеток по-разному чувствительны (эпителиальные более зависимы от ciliar signaling чем фибробласты) --- ## 3. Теломераза как "cap" без удлинения (Zhu 1999, PMID 10097104) = Allsopp parallel ### Что показал
 **Actual (wrong?) paper:** Zhu J 1999 — Telomerase extends the lifespan of virus-transformed human cells without net telomere lengthening.
 **Keywords extracted:** mechanism, ciliar, signaling, Allsopp, parallel
 **No candidates found.**
 
 
 ## 513. PMID 10097104 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** e lengthening.* - Author: Zhu J (1999) - Journal: Proc Natl Acad Sci U S A - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 135. PMID 10097104 — LOW_SCORE **File:** `docs/CDATA_Fi
+**Your context:** e lengthening.* - Author: Zhu J (1999) - Journal: Proc Natl Acad Sci U S A - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 135. PMID 10097104 — LOW_SCORE **File:** `docs/CDATA_Fi
 **Actual (wrong?) paper:** Zhu J 1999 — Telomerase extends the lifespan of virus-transformed human cells without net telomere lengthening.
 **Keywords extracted:** lengthening, Author, Journal, Proc, Natl
 **Top candidates:**
@@ -3860,7 +3860,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 514. PMID 10097104 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:**  | ✅ Верифицирован | PMID 10022923 | | 24 | Wang et al. 2009 | ✅ Верифицирован | PMID 19829375 | | 25 | Yang et al. 1999 | ✅ Верифицирован | PMID 10473565 | | 26 | Zhu et al. 1999 | ✅ Верифицирован | PMID 10097104 |  ### 1.2 🔴 КРИТИЧЕСКИЙ ДЕФЕКТ: Фал
+**Your context:** | ✅ Верифицирован | PMID 10022923 | | 24 | Wang et al. 2009 | ✅ Верифицирован | PMID 19829375 | | 25 | Yang et al. 1999 | ✅ Верифицирован | PMID 10473565 | | 26 | Zhu et al. 1999 | ✅ Верифицирован | PMID 10097104 | ### 1.2 🔴 КРИТИЧЕСКИЙ ДЕФЕКТ: Фал
 **Actual (wrong?) paper:** Zhu J 1999 — Telomerase extends the lifespan of virus-transformed human cells without net telomere lengthening.
 **Keywords extracted:** Wang, Yang, Actual
 **Top candidates:**
@@ -3870,14 +3870,14 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 515. PMID 10097104 in `CDATA/docs/CDATA_explains_fibroblast_limits.md`
-**Your context:** , а не сам mechanism) - Почему разные типы клеток по-разному чувствительны (эпителиальные более зависимы от ciliar signaling чем фибробласты)  ---  ## 3. Теломераза как "cap" без удлинения (Zhu 1999, PMID 10097104) = Allsopp parallel  ### Что показал
+**Your context:** , а не сам mechanism) - Почему разные типы клеток по-разному чувствительны (эпителиальные более зависимы от ciliar signaling чем фибробласты) --- ## 3. Теломераза как "cap" без удлинения (Zhu 1999, PMID 10097104) = Allsopp parallel ### Что показал
 **Actual (wrong?) paper:** Zhu J 1999 — Telomerase extends the lifespan of virus-transformed human cells without net telomere lengthening.
 **Keywords extracted:** mechanism, ciliar, signaling, Allsopp, parallel
 **No candidates found.**
 
 
 ## 516. PMID 10097104 in `CDATA/docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md`
-**Your context:**  | ✅ Верифицирован | PMID 10022923 | | 24 | Wang et al. 2009 | ✅ Верифицирован | PMID 19829375 | | 25 | Yang et al. 1999 | ✅ Верифицирован | PMID 10473565 | | 26 | Zhu et al. 1999 | ✅ Верифицирован | PMID 10097104 |  ### 1.2 🔴 КРИТИЧЕСКИЙ ДЕФЕКТ: Фал
+**Your context:** | ✅ Верифицирован | PMID 10022923 | | 24 | Wang et al. 2009 | ✅ Верифицирован | PMID 19829375 | | 25 | Yang et al. 1999 | ✅ Верифицирован | PMID 10473565 | | 26 | Zhu et al. 1999 | ✅ Верифицирован | PMID 10097104 | ### 1.2 🔴 КРИТИЧЕСКИЙ ДЕФЕКТ: Фал
 **Actual (wrong?) paper:** Zhu J 1999 — Telomerase extends the lifespan of virus-transformed human cells without net telomere lengthening.
 **Keywords extracted:** Wang, Yang
 **Top candidates:**
@@ -3887,7 +3887,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 517. PMID 9454332 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** e lengthening.* - Author: Zhu J (1999) - Journal: Proc Natl Acad Sci U S A - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 136. PMID 9454332 — LOW_SCORE **File:** `docs/CDATA_Fib
+**Your context:** e lengthening.* - Author: Zhu J (1999) - Journal: Proc Natl Acad Sci U S A - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 136. PMID 9454332 — LOW_SCORE **File:** `docs/CDATA_Fib
 **Actual (wrong?) paper:** Bodnar AG 1998 — Extension of life-span by introduction of telomerase into normal human cells.
 **Keywords extracted:** lengthening, Author, Journal, Proc, Natl
 **Top candidates:**
@@ -3911,7 +3911,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 520. PMID 9454332 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** ion needed:** verify if citation is correct; if not, search for proper PMID.   ## 140. PMID 11461114 — LOW_SCORE **File:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** Верифицирован | PMID 9454332 | | 9 | Drayton et al. 2003 | ✅ Вериф
+**Your context:** ion needed:** verify if citation is correct; if not, search for proper PMID. ## 140. PMID 11461114 — LOW_SCORE **File:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** Верифицирован | PMID 9454332 | | 9 | Drayton et al. 2003 | ✅ Вериф
 **Actual (wrong?) paper:** Bodnar AG 1998 — Extension of life-span by introduction of telomerase into normal human cells.
 **Keywords extracted:** needed, verify, citation, correct, search
 **Top candidates:**
@@ -3926,7 +3926,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 522. PMID 9454332 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** r proper PMID.   ## 144. PMID 12941806 — LOW_SCORE **File:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** рованы | PMID 9852152, 9519903 | | 8 | Bodnar et al. 1998 | ✅ Верифицирован | PMID 9454332 | | 9 | Drayton et al. 2003 | ✅ Вериф
+**Your context:** r proper PMID. ## 144. PMID 12941806 — LOW_SCORE **File:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** рованы | PMID 9852152, 9519903 | | 8 | Bodnar et al. 1998 | ✅ Верифицирован | PMID 9454332 | | 9 | Drayton et al. 2003 | ✅ Вериф
 **Actual (wrong?) paper:** Bodnar AG 1998 — Extension of life-span by introduction of telomerase into normal human cells.
 **Keywords extracted:** proper, SCORE, File, docs, CDATA
 **No candidates found.**
@@ -3940,7 +3940,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 524. PMID 12912919 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** rect; if not, search for proper PMID.   ## 136. PMID 9454332 — LOW_SCORE **File:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** 9037 | | 5 | Beauséjour et al. 2003 | ✅ Верифицирован | PMID 12912919 | | 6, 7 | Bobinnec et al. 1998a, 19
+**Your context:** rect; if not, search for proper PMID. ## 136. PMID 9454332 — LOW_SCORE **File:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** 9037 | | 5 | Beauséjour et al. 2003 | ✅ Верифицирован | PMID 12912919 | | 6, 7 | Bobinnec et al. 1998a, 19
 **Actual (wrong?) paper:** Beauséjour CM 2003 — Reversal of human cellular senescence: roles of the p53 and p16 pathways.
 **Keywords extracted:** rect, search, proper, SCORE, File
 **No candidates found.**
@@ -3975,7 +3975,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 529. PMID 9852152 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** earch for proper PMID.   ## 138. PMID 14585357 — LOW_SCORE **File:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** 12912919 | | 6, 7 | Bobinnec et al. 1998a, 1998b | ✅ Верифицированы | PMID 9852152, 9519903 | | 8 | Bodnar et al. 1998 |
+**Your context:** earch for proper PMID. ## 138. PMID 14585357 — LOW_SCORE **File:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** 12912919 | | 6, 7 | Bobinnec et al. 1998a, 1998b | ✅ Верифицированы | PMID 9852152, 9519903 | | 8 | Bodnar et al. 1998 |
 **Actual (wrong?) paper:** Bobinnec Y 1998 — Centriole disassembly in vivo and its effect on centrosome structure and function in vertebrate cells.
 **Keywords extracted:** earch, proper, SCORE, File, docs
 **No candidates found.**
@@ -3989,7 +3989,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 531. PMID 9852152 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** he p53 and p16 pathways.* - Author: Beauséjour CM (2003) - Journal: EMBO J - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 143. PMID 9852152 — LOW_SCORE **File:** `docs/CDATA_Fib
+**Your context:** he p53 and p16 pathways.* - Author: Beauséjour CM (2003) - Journal: EMBO J - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 143. PMID 9852152 — LOW_SCORE **File:** `docs/CDATA_Fib
 **Actual (wrong?) paper:** Bobinnec Y 1998 — Centriole disassembly in vivo and its effect on centrosome structure and function in vertebrate cells.
 **Keywords extracted:** pathways, Author, Beaus, jour, Journal
 **No candidates found.**
@@ -4003,7 +4003,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 533. PMID 9852152 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** p **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 144. PMID 12941806 — LOW_SCORE **File:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** рованы | PMID 9852152, 9519903 | | 8 | Bodnar et al. 1998 |
+**Your context:** p **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 144. PMID 12941806 — LOW_SCORE **File:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** рованы | PMID 9852152, 9519903 | | 8 | Bodnar et al. 1998 |
 **Actual (wrong?) paper:** Bobinnec Y 1998 — Centriole disassembly in vivo and its effect on centrosome structure and function in vertebrate cells.
 **Keywords extracted:** Action, needed, verify, citation, correct
 **No candidates found.**
@@ -4024,7 +4024,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 536. PMID 14585357 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** during immortalization.* - Author: Taylor LM (2004) - Journal: J Biol Chem - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 138. PMID 14585357 — LOW_SCORE **File:** `docs/CDATA_Fi
+**Your context:** during immortalization.* - Author: Taylor LM (2004) - Journal: J Biol Chem - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 138. PMID 14585357 — LOW_SCORE **File:** `docs/CDATA_Fi
 **Actual (wrong?) paper:** Drayton S 2003 — Tumor suppressor p16INK4a determines sensitivity of human cells to transformation by cooperating cellular oncogenes.
 **Keywords extracted:** during, immortalization, Author, Taylor, Journal
 **Top candidates:**
@@ -4041,7 +4041,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 538. PMID 14585357 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** or proper PMID.   ## 140. PMID 11461114 — LOW_SCORE **File:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** Верифицирован | PMID 9454332 | | 9 | Drayton et al. 2003 | ✅ Верифицирован | PMID 14585357 | | 10 | Evans et al. 2003 | ✅ Вериф
+**Your context:** or proper PMID. ## 140. PMID 11461114 — LOW_SCORE **File:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** Верифицирован | PMID 9454332 | | 9 | Drayton et al. 2003 | ✅ Верифицирован | PMID 14585357 | | 10 | Evans et al. 2003 | ✅ Вериф
 **Actual (wrong?) paper:** Drayton S 2003 — Tumor suppressor p16INK4a determines sensitivity of human cells to transformation by cooperating cellular oncogenes.
 **Keywords extracted:** proper, SCORE, File, docs, CDATA
 **No candidates found.**
@@ -4055,7 +4055,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 540. PMID 14585357 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** ction needed:** verify if citation is correct; if not, search for proper PMID.   ## 145. PMID 23064640 — LOW_SCORE **File:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** рифицирован | PMID 14585357 | | 10 | Evans et al. 2003 | ✅ Вериф
+**Your context:** ction needed:** verify if citation is correct; if not, search for proper PMID. ## 145. PMID 23064640 — LOW_SCORE **File:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** рифицирован | PMID 14585357 | | 10 | Evans et al. 2003 | ✅ Вериф
 **Actual (wrong?) paper:** Drayton S 2003 — Tumor suppressor p16INK4a determines sensitivity of human cells to transformation by cooperating cellular oncogenes.
 **Keywords extracted:** ction, needed, verify, citation, correct
 **No candidates found.**
@@ -4069,7 +4069,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 542. PMID 14743210 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 137. PMID 15308640 — LOW_SCORE **File:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** ицирован | PMID 14743210 | | 19 | Okamura et al. 2011 | ✅ Вер
+**Your context:** **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 137. PMID 15308640 — LOW_SCORE **File:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** ицирован | PMID 14743210 | | 19 | Okamura et al. 2011 | ✅ Вер
 **Actual (wrong?) paper:** Noble JR 2004 — Alterations in the p16(INK4a) and p53 tumor suppressor genes of hTERT-immortalized human fibroblasts.
 **Keywords extracted:** Action, needed, verify, citation, correct
 **No candidates found.**
@@ -4097,7 +4097,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 546. PMID 14743210 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** ch for proper PMID.   ## 150. PMID 24120134 — LOW_SCORE **File:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** фицирован | PMID 12927806 | | 18 | Noble et al. 2004 | ✅ Верифицирован | PMID 14743210 | | 19 | Okamura et al. 2011 | ✅ Вер
+**Your context:** ch for proper PMID. ## 150. PMID 24120134 — LOW_SCORE **File:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** фицирован | PMID 12927806 | | 18 | Noble et al. 2004 | ✅ Верифицирован | PMID 14743210 | | 19 | Okamura et al. 2011 | ✅ Вер
 **Actual (wrong?) paper:** Noble JR 2004 — Alterations in the p16(INK4a) and p53 tumor suppressor genes of hTERT-immortalized human fibroblasts.
 **Keywords extracted:** proper, SCORE, File, docs, CDATA
 **No candidates found.**
@@ -4118,14 +4118,14 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 549. PMID 12941806 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:**  `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** Верифицирован | PMID 9454332 | | 9 | Drayton et al. 2003 | ✅ Верифицирован | PMID 14585357 | | 10 | Evans et al. 2003 | ✅ Верифицирован | PMID 12941806 | | 11 | Franco et al. 2001 | ✅ Вери
+**Your context:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** Верифицирован | PMID 9454332 | | 9 | Drayton et al. 2003 | ✅ Верифицирован | PMID 14585357 | | 10 | Evans et al. 2003 | ✅ Верифицирован | PMID 12941806 | | 11 | Franco et al. 2001 | ✅ Вери
 **Actual (wrong?) paper:** Evans RJ 2003 — A P53-dependent, telomere-independent proliferative life span barrier in human astrocytes consistent with the molecular genetics of glioma development
 **Keywords extracted:** docs, CDATA, Fibroblasts, REVIEW, context
 **No candidates found.**
 
 
 ## 550. PMID 12941806 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** n in vertebrate cells.* - Author: Bobinnec Y (1998) - Journal: J Cell Biol - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 144. PMID 12941806 — LOW_SCORE **File:** `docs/CDATA_Fi
+**Your context:** n in vertebrate cells.* - Author: Bobinnec Y (1998) - Journal: J Cell Biol - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 144. PMID 12941806 — LOW_SCORE **File:** `docs/CDATA_Fi
 **Actual (wrong?) paper:** Evans RJ 2003 — A P53-dependent, telomere-independent proliferative life span barrier in human astrocytes consistent with the molecular genetics of glioma development
 **Keywords extracted:** vertebrate, cells, Author, Bobinnec, Journal
 **No candidates found.**
@@ -4139,14 +4139,14 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 552. PMID 12941806 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:**  for proper PMID.   ## 145. PMID 23064640 — LOW_SCORE **File:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** рифицирован | PMID 14585357 | | 10 | Evans et al. 2003 | ✅ Верифицирован | PMID 12941806 | | 11 | Franco et al. 2001 | ✅ Вери
+**Your context:** for proper PMID. ## 145. PMID 23064640 — LOW_SCORE **File:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** рифицирован | PMID 14585357 | | 10 | Evans et al. 2003 | ✅ Верифицирован | PMID 12941806 | | 11 | Franco et al. 2001 | ✅ Вери
 **Actual (wrong?) paper:** Evans RJ 2003 — A P53-dependent, telomere-independent proliferative life span barrier in human astrocytes consistent with the molecular genetics of glioma development
 **Keywords extracted:** proper, SCORE, File, docs, CDATA
 **No candidates found.**
 
 
 ## 553. PMID 12941806 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 146. PMID 20519502 — LOW_SCORE **File:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** ифицирован | PMID 12941806 | | 11 | Franco et al. 2001 | ✅ Вери
+**Your context:** Action needed:** verify if citation is correct; if not, search for proper PMID. ## 146. PMID 20519502 — LOW_SCORE **File:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** ифицирован | PMID 12941806 | | 11 | Franco et al. 2001 | ✅ Вери
 **Actual (wrong?) paper:** Evans RJ 2003 — A P53-dependent, telomere-independent proliferative life span barrier in human astrocytes consistent with the molecular genetics of glioma development
 **Keywords extracted:** Action, needed, verify, citation, correct
 **No candidates found.**
@@ -4160,7 +4160,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 555. PMID 12927806 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** ing cellular oncogenes.* - Author: Drayton S (2003) - Journal: Cancer Cell - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 139. PMID 12927806 — LOW_SCORE **File:** `docs/CDATA_Fi
+**Your context:** ing cellular oncogenes.* - Author: Drayton S (2003) - Journal: Cancer Cell - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 139. PMID 12927806 — LOW_SCORE **File:** `docs/CDATA_Fi
 **Actual (wrong?) paper:** Mondello C 2003 — Karyotype instability and anchorage-independent growth in telomerase-immortalized fibroblasts from two centenarian individuals.
 **Keywords extracted:** cellular, oncogenes, Author, Drayton, Journal
 **No candidates found.**
@@ -4181,14 +4181,14 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 558. PMID 12927806 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** for proper PMID.   ## 149. PMID 21286664 — LOW_SCORE **File:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** вует; журнал не совпадает | | 17 | Mondello et al. 2003 | ✅ Верифицирован | PMID 12927806 | | 18 | Noble et al. 2004 | ✅ Вериф
+**Your context:** for proper PMID. ## 149. PMID 21286664 — LOW_SCORE **File:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** вует; журнал не совпадает | | 17 | Mondello et al. 2003 | ✅ Верифицирован | PMID 12927806 | | 18 | Noble et al. 2004 | ✅ Вериф
 **Actual (wrong?) paper:** Mondello C 2003 — Karyotype instability and anchorage-independent growth in telomerase-immortalized fibroblasts from two centenarian individuals.
 **Keywords extracted:** proper, SCORE, File, docs, CDATA
 **No candidates found.**
 
 
 ## 559. PMID 12927806 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** *Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 150. PMID 24120134 — LOW_SCORE **File:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** фицирован | PMID 12927806 | | 18 | Noble et al. 2004 | ✅ Вериф
+**Your context:** *Action needed:** verify if citation is correct; if not, search for proper PMID. ## 150. PMID 24120134 — LOW_SCORE **File:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** фицирован | PMID 12927806 | | 18 | Noble et al. 2004 | ✅ Вериф
 **Actual (wrong?) paper:** Mondello C 2003 — Karyotype instability and anchorage-independent growth in telomerase-immortalized fibroblasts from two centenarian individuals.
 **Keywords extracted:** Action, needed, verify, citation, correct
 **No candidates found.**
@@ -4202,7 +4202,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 561. PMID 11461114 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** iduals.* - Author: Mondello C (2003) - Journal: Biochem Biophys Res Commun - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 140. PMID 11461114 — LOW_SCORE **File:** `docs/CDATA_Fi
+**Your context:** iduals.* - Author: Mondello C (2003) - Journal: Biochem Biophys Res Commun - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 140. PMID 11461114 — LOW_SCORE **File:** `docs/CDATA_Fi
 **Actual (wrong?) paper:** Franco S 2001 — Clonal variation in phenotype and life span of human embryonic fibroblasts (MRC-5) transduced with the catalytic component of telomerase (hTERT).
 **Keywords extracted:** iduals, Author, Mondello, Journal, Biochem
 **No candidates found.**
@@ -4216,7 +4216,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 563. PMID 11461114 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** Верифицирован | PMID 9454332 | | 9 | Drayton et al. 2003 | ✅ Верифицирован | PMID 14585357 | | 10 | Evans et al. 2003 | ✅ Верифицирован | PMID 12941806 | | 11 | Franco et al. 2001 | ✅ Верифицирован | PMID 11461114 | | 12 | Izumi & Kaneko  **Actual Pu
+**Your context:** Верифицирован | PMID 9454332 | | 9 | Drayton et al. 2003 | ✅ Верифицирован | PMID 14585357 | | 10 | Evans et al. 2003 | ✅ Верифицирован | PMID 12941806 | | 11 | Franco et al. 2001 | ✅ Верифицирован | PMID 11461114 | | 12 | Izumi & Kaneko **Actual Pu
 **Actual (wrong?) paper:** Franco S 2001 — Clonal variation in phenotype and life span of human embryonic fibroblasts (MRC-5) transduced with the catalytic component of telomerase (hTERT).
 **Keywords extracted:** Drayton, Evans, Franco, Izumi, Kaneko
 **No candidates found.**
@@ -4230,14 +4230,14 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 565. PMID 11461114 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:**  for proper PMID.   ## 146. PMID 20519502 — LOW_SCORE **File:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** ифицирован | PMID 12941806 | | 11 | Franco et al. 2001 | ✅ Верифицирован | PMID 11461114 | | 12 | Izumi & Kaneko 2012 | ✅ Вер
+**Your context:** for proper PMID. ## 146. PMID 20519502 — LOW_SCORE **File:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** ифицирован | PMID 12941806 | | 11 | Franco et al. 2001 | ✅ Верифицирован | PMID 11461114 | | 12 | Izumi & Kaneko 2012 | ✅ Вер
 **Actual (wrong?) paper:** Franco S 2001 — Clonal variation in phenotype and life span of human embryonic fibroblasts (MRC-5) transduced with the catalytic component of telomerase (hTERT).
 **Keywords extracted:** proper, SCORE, File, docs, CDATA
 **No candidates found.**
 
 
 ## 566. PMID 11461114 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** *Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 147. PMID 9817205 — LOW_SCORE **File:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** ифицирован | PMID 11461114 | | 12 | Izumi & Kaneko 2012 | ✅ Вер
+**Your context:** *Action needed:** verify if citation is correct; if not, search for proper PMID. ## 147. PMID 9817205 — LOW_SCORE **File:** `docs/CDATA_Fibroblasts_PEER_REVIEW_RU.md` **Your context:** ифицирован | PMID 11461114 | | 12 | Izumi & Kaneko 2012 | ✅ Вер
 **Actual (wrong?) paper:** Franco S 2001 — Clonal variation in phenotype and life span of human embryonic fibroblasts (MRC-5) transduced with the catalytic component of telomerase (hTERT).
 **Keywords extracted:** Action, needed, verify, citation, correct
 **No candidates found.**
@@ -4251,7 +4251,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 568. PMID 40989022 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:**  by telomerase expression.* - Author: Yang J (1999) - Journal: J Biol Chem - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 152. PMID 40989022 — LOW_SCORE **File:** `docs/CDATA_Fi
+**Your context:** by telomerase expression.* - Author: Yang J (1999) - Journal: J Biol Chem - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 152. PMID 40989022 — LOW_SCORE **File:** `docs/CDATA_Fi
 **Actual (wrong?) paper:** Le Bail R 2025 — Ccp1 depletion disrupts network integration of hippocampal parvalbumin interneurons.
 **Keywords extracted:** telomerase, expression, Author, Yang, Journal
 **Top candidates:**
@@ -4275,7 +4275,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 571. PMID 21074048 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:**  parvalbumin interneurons.* - Author: Le Bail R (2025) - Journal: iScience - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 153. PMID 21074048 — LOW_SCORE **File:** `docs/CDATA_Fi
+**Your context:** parvalbumin interneurons.* - Author: Le Bail R (2025) - Journal: iScience - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 153. PMID 21074048 — LOW_SCORE **File:** `docs/CDATA_Fi
 **Actual (wrong?) paper:** Rogowski K 2010 — A family of protein-deglutamylating enzymes associated with neurodegeneration.
 **Keywords extracted:** parvalbumin, interneurons, Author, Bail, Journal
 **Top candidates:**
@@ -4297,7 +4297,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 574. PMID 38553459 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** iated with neurodegeneration.* - Author: Rogowski K (2010) - Journal: Cell - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 154. PMID 38553459 — LOW_SCORE **File:** `docs/literatu
+**Your context:** iated with neurodegeneration.* - Author: Rogowski K (2010) - Journal: Cell - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 154. PMID 38553459 — LOW_SCORE **File:** `docs/literatu
 **Actual (wrong?) paper:** Hosea R 2024 — The two sides of chromosomal instability: drivers and brakes in cancer.
 **Keywords extracted:** iated, neurodegeneration, Author, Rogowski, Journal
 **No candidates found.**
@@ -4314,7 +4314,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 576. PMID 38553459 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:**  cancer.* - Author: Hosea R (2024) - Journal: Signal Transduct Target Ther - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 155. PMID 38553459 — LOW_SCORE **File:** `docs/literatu
+**Your context:** cancer.* - Author: Hosea R (2024) - Journal: Signal Transduct Target Ther - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 155. PMID 38553459 — LOW_SCORE **File:** `docs/literatu
 **Actual (wrong?) paper:** Hosea R 2024 — The two sides of chromosomal instability: drivers and brakes in cancer.
 **Keywords extracted:** cancer, Author, Hosea, Journal, Signal
 **Top candidates:**
@@ -4354,7 +4354,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 580. PMID 29863874 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:**  cancer.* - Author: Hosea R (2024) - Journal: Signal Transduct Target Ther - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 156. PMID 29863874 — LOW_SCORE **File:** `docs/literatu
+**Your context:** cancer.* - Author: Hosea R (2024) - Journal: Signal Transduct Target Ther - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 156. PMID 29863874 — LOW_SCORE **File:** `docs/literatu
 **Actual (wrong?) paper:** Schillinger J 2018 — HTRA1-Dependent Cell Cycle Proteomics.
 **Keywords extracted:** cancer, Author, Hosea, Journal, Signal
 **Top candidates:**
@@ -4384,7 +4384,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 583. PMID 7054835 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** ycle Proteomics.* - Author: Schillinger J (2018) - Journal: J Proteome Res - Match score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 158. PMID 7054835 — LOW_SCORE **File:** `docs/AUBREY_ME
+**Your context:** ycle Proteomics.* - Author: Schillinger J (2018) - Journal: J Proteome Res - Match score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 158. PMID 7054835 — LOW_SCORE **File:** `docs/AUBREY_ME
 **Actual (wrong?) paper:** Grant EG 1982 — Sonographic findings in four cases of hemangiopericytoma. Correlation with computed tomographic, angiographic, and pathologic findings.
 **Keywords extracted:** ycle, Proteomics, Author, Schillinger, Journal
 **No candidates found.**
@@ -4414,7 +4414,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 587. PMID 12750476 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:** , and pathologic findings.* - Author: Grant EG (1982) - Journal: Radiology - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 159. PMID 12750476 — LOW_SCORE **File:** `docs/AUBREY_M
+**Your context:** , and pathologic findings.* - Author: Grant EG (1982) - Journal: Radiology - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 159. PMID 12750476 — LOW_SCORE **File:** `docs/AUBREY_M
 **Actual (wrong?) paper:** Tarrio R 2003 — A new Drosophila spliceosomal intron position is common in plants.
 **Keywords extracted:** pathologic, findings, Author, Grant, Journal
 **Top candidates:**
@@ -4440,7 +4440,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 590. PMID 22684578 in `CDATA/docs/REFERENCE_AUDIT_CDATA.md`
-**Your context:**  in plants.* - Author: Tarrio R (2003) - Journal: Proc Natl Acad Sci U S A - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 160. PMID 22684578 — LOW_SCORE **File:** `docs/AUBREY_M
+**Your context:** in plants.* - Author: Tarrio R (2003) - Journal: Proc Natl Acad Sci U S A - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 160. PMID 22684578 — LOW_SCORE **File:** `docs/AUBREY_M
 **Actual (wrong?) paper:** Chichinadze K 2013 — RNA in centrosomes: structure and possible functions.
 **Keywords extracted:** plants, Author, Tarrio, Journal, Proc
 **No candidates found.**
@@ -4489,98 +4489,98 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 597. PMID 20480236 in `Ontogenesis/CLAUDE.md`
-**Your context:**  за `mean + 2×SD` - **Кластеризация:** радиус 6 месяцев, мин. стабильный период 3 месяца  ## Публикации  При написании статей: 1. Использовать DeepSeek API 2. Включить самоцитирование (PMID 36583780, PMID 20480236, Zenodo CDATA/Ze) 3. Формат DOCX: Ca
+**Your context:** за `mean + 2×SD` - **Кластеризация:** радиус 6 месяцев, мин. стабильный период 3 месяца ## Публикации При написании статей: 1. Использовать DeepSeek API 2. Включить самоцитирование (PMID 36583780, PMID 20480236, Zenodo CDATA/Ze) 3. Формат DOCX: Ca
 **Actual (wrong?) paper:** Lezhava T 2011 — Gerontology research in Georgia.
 **Keywords extracted:** mean, DeepSeek, Zenodo, CDATA, Calibri
 **No candidates found.**
 
 
 ## 598. PMID 20480236 in `Ontogenesis/LINKS.md`
-**Your context:**  Self-Citation (for publications from this project)  | Resource | URL / ID | |----------|---------| | PMID 36583780 — Tkemaladze J. *Mol Biol Rep* 2023 | https://pubmed.ncbi.nlm.nih.gov/36583780/ | | PMID 20480236 — Lezhava T. et al. *Biogerontology*
+**Your context:** Self-Citation (for publications from this project) | Resource | URL / ID | |----------|---------| | PMID 36583780 — Tkemaladze J. *Mol Biol Rep* 2023 | https://pubmed.ncbi.nlm.nih.gov/36583780/ | | PMID 20480236 — Lezhava T. et al. *Biogerontology*
 **Actual (wrong?) paper:** Lezhava T 2011 — Gerontology research in Georgia.
 **Keywords extracted:** Self-Citation, publications, project, Resource, Tkemaladze
 **No candidates found.**
 
 
 ## 599. PMID 20480236 in `Ontogenesis/CONCEPT.md`
-**Your context:**  of ontogenetic trajectories into integrative medicine clinical decision support: AIM × Ontogenesis»*  **Self-citations (обязательно включить):** - PMID 36583780 (Tkemaladze 2023, Mol Biol Reports) - PMID 20480236 (Lezhava et al. 2011, Biogerontology
+**Your context:** of ontogenetic trajectories into integrative medicine clinical decision support: AIM × Ontogenesis»* **Self-citations (обязательно включить):** - PMID 36583780 (Tkemaladze 2023, Mol Biol Reports) - PMID 20480236 (Lezhava et al. 2011, Biogerontology
 **Actual (wrong?) paper:** Lezhava T 2011 — Gerontology research in Georgia.
 **Keywords extracted:** ontogenetic, trajectories, integrative, medicine, clinical
 **No candidates found.**
 
 
 ## 600. PMID 20480236 in `Ontogenesis/docs/REFERENCE_AUDIT_Ontogenesis.md`
-**Your context:**  за `mean + 2×SD` - **Кластеризация:** радиус 6 месяцев, мин. стабильный период 3 месяца  ## Публикации  При написании статей: 1. Использовать DeepSeek API 2. Включить самоцитирование (PMID 36583780, PMID 20480236, Zenodo CDATA/Ze) 3. Формат DOCX: Ca
+**Your context:** за `mean + 2×SD` - **Кластеризация:** радиус 6 месяцев, мин. стабильный период 3 месяца ## Публикации При написании статей: 1. Использовать DeepSeek API 2. Включить самоцитирование (PMID 36583780, PMID 20480236, Zenodo CDATA/Ze) 3. Формат DOCX: Ca
 **Actual (wrong?) paper:** Lezhava T 2011 — Gerontology research in Georgia.
 **Keywords extracted:** mean, DeepSeek, Zenodo, CDATA, Calibri
 **No candidates found.**
 
 
 ## 601. PMID 20480236 in `Ontogenesis/docs/REFERENCE_AUDIT_Ontogenesis.md`
-**Your context:**  Self-Citation (for publications from this project)  | Resource | URL / ID | |----------|---------| | PMID 36583780 — Tkemaladze J. *Mol Biol Rep* 2023 | https://pubmed.ncbi.nlm.nih.gov/36583780/ | | PMID 20480236 — **Actual PubMed record:** - Title:
+**Your context:** Self-Citation (for publications from this project) | Resource | URL / ID | |----------|---------| | PMID 36583780 — Tkemaladze J. *Mol Biol Rep* 2023 | https://pubmed.ncbi.nlm.nih.gov/36583780/ | | PMID 20480236 — **Actual PubMed record:** - Title:
 **Actual (wrong?) paper:** Lezhava T 2011 — Gerontology research in Georgia.
 **Keywords extracted:** Self-Citation, publications, project, Resource, Tkemaladze
 **No candidates found.**
 
 
 ## 602. PMID 20480236 in `Ontogenesis/docs/REFERENCE_AUDIT_Ontogenesis.md`
-**Your context:**  of ontogenetic trajectories into integrative medicine clinical decision support: AIM × Ontogenesis»*  **Self-citations (обязательно включить):** - PMID 36583780 (Tkemaladze 2023, Mol Biol Reports) - PMID 20480236 (Lezhava et al. 2011, Biogerontolo *
+**Your context:** of ontogenetic trajectories into integrative medicine clinical decision support: AIM × Ontogenesis»* **Self-citations (обязательно включить):** - PMID 36583780 (Tkemaladze 2023, Mol Biol Reports) - PMID 20480236 (Lezhava et al. 2011, Biogerontolo *
 **Actual (wrong?) paper:** Lezhava T 2011 — Gerontology research in Georgia.
 **Keywords extracted:** ontogenetic, trajectories, integrative, medicine, clinical
 **No candidates found.**
 
 
 ## 603. PMID 20480236 in `Ontogenesis/docs/REFERENCE_AUDIT_Ontogenesis.md`
-**Your context:** es in the stem cells?* - Author: Tkemaladze J (2023) - Journal: Mol Biol Rep - Match score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 4. PMID 20480236 — LOW_SCORE **File:** `CLAUDE.md` **
+**Your context:** es in the stem cells?* - Author: Tkemaladze J (2023) - Journal: Mol Biol Rep - Match score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 4. PMID 20480236 — LOW_SCORE **File:** `CLAUDE.md` **
 **Actual (wrong?) paper:** Lezhava T 2011 — Gerontology research in Georgia.
 **Keywords extracted:** stem, cells, Author, Tkemaladze, Journal
 **No candidates found.**
 
 
 ## 604. PMID 20480236 in `Ontogenesis/docs/REFERENCE_AUDIT_Ontogenesis.md`
-**Your context:**  за `mean + 2×SD` - **Кластеризация:** радиус 6 месяцев, мин. стабильный период 3 месяца  ## Публикации  При написании статей: 1. Использовать DeepSeek API 2. Включить самоцитирование (PMID 36583780, PMID 20480236, Zenodo CDATA/Ze) 3. Формат DOCX: Ca
+**Your context:** за `mean + 2×SD` - **Кластеризация:** радиус 6 месяцев, мин. стабильный период 3 месяца ## Публикации При написании статей: 1. Использовать DeepSeek API 2. Включить самоцитирование (PMID 36583780, PMID 20480236, Zenodo CDATA/Ze) 3. Формат DOCX: Ca
 **Actual (wrong?) paper:** Lezhava T 2011 — Gerontology research in Georgia.
 **Keywords extracted:** mean, DeepSeek, Zenodo, CDATA, Calibri
 **No candidates found.**
 
 
 ## 605. PMID 20480236 in `Ontogenesis/docs/REFERENCE_AUDIT_Ontogenesis.md`
-**Your context:**  Self-Citation (for publications from this project)  | Resource | URL / ID | |----------|---------| | PMID 36583780 — Tkemaladze J. *Mol Biol Rep* 2023 | https://pubmed.ncbi.nlm.nih.gov/36583780/ | | PMID 20480236 — Lezhava T. et al. *Biogerontology*
+**Your context:** Self-Citation (for publications from this project) | Resource | URL / ID | |----------|---------| | PMID 36583780 — Tkemaladze J. *Mol Biol Rep* 2023 | https://pubmed.ncbi.nlm.nih.gov/36583780/ | | PMID 20480236 — Lezhava T. et al. *Biogerontology*
 **Actual (wrong?) paper:** Lezhava T 2011 — Gerontology research in Georgia.
 **Keywords extracted:** Self-Citation, publications, project, Resource, Tkemaladze
 **No candidates found.**
 
 
 ## 606. PMID 20480236 in `Ontogenesis/docs/REFERENCE_AUDIT_Ontogenesis.md`
-**Your context:**  of ontogenetic trajectories into integrative medicine clinical decision support: AIM × Ontogenesis»*  **Self-citations (обязательно включить):** - PMID 36583780 (Tkemaladze 2023, Mol Biol Reports) - PMID 20480236 (Lezhava et al. 2011, Biogerontology
+**Your context:** of ontogenetic trajectories into integrative medicine clinical decision support: AIM × Ontogenesis»* **Self-citations (обязательно включить):** - PMID 36583780 (Tkemaladze 2023, Mol Biol Reports) - PMID 20480236 (Lezhava et al. 2011, Biogerontology
 **Actual (wrong?) paper:** Lezhava T 2011 — Gerontology research in Georgia.
 **Keywords extracted:** ontogenetic, trajectories, integrative, medicine, clinical
 **No candidates found.**
 
 
 ## 607. PMID 20480236 in `BioSense/README.md`
-**Your context:** ) as a group-level index of neurodynamic aging: Experimental EEG validation across the human lifespan.* [Manuscript under review]  Also cite: - PMID 36583780 — Tkemaladze J. *Mol Biol Reports* 2023 - PMID 20480236 — Lezhava T. et al. *Biogerontology*
+**Your context:** ) as a group-level index of neurodynamic aging: Experimental EEG validation across the human lifespan.* [Manuscript under review] Also cite: - PMID 36583780 — Tkemaladze J. *Mol Biol Reports* 2023 - PMID 20480236 — Lezhava T. et al. *Biogerontology*
 **Actual (wrong?) paper:** Lezhava T 2011 — Gerontology research in Georgia.
 **Keywords extracted:** group-level, index, neurodynamic, aging, Experimental
 **No candidates found.**
 
 
 ## 608. PMID 20480236 in `BioSense/docs/REFERENCE_AUDIT_BioSense.md`
-**Your context:** ) as a group-level index of neurodynamic aging: Experimental EEG validation across the human lifespan.* [Manuscript under review]  Also cite: - PMID 36583780 — Tkemaladze J. *Mol Biol Reports* 2023 - PMID 20480236 — Lezhava T. et al. *Biogeront **Act
+**Your context:** ) as a group-level index of neurodynamic aging: Experimental EEG validation across the human lifespan.* [Manuscript under review] Also cite: - PMID 36583780 — Tkemaladze J. *Mol Biol Reports* 2023 - PMID 20480236 — Lezhava T. et al. *Biogeront **Act
 **Actual (wrong?) paper:** Lezhava T 2011 — Gerontology research in Georgia.
 **Keywords extracted:** group-level, index, neurodynamic, aging, Experimental
 **No candidates found.**
 
 
 ## 609. PMID 20480236 in `BioSense/docs/REFERENCE_AUDIT_BioSense.md`
-**Your context:** es in the stem cells?* - Author: Tkemaladze J (2023) - Journal: Mol Biol Rep - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 2. PMID 20480236 — LOW_SCORE **File:** `README.md` **
+**Your context:** es in the stem cells?* - Author: Tkemaladze J (2023) - Journal: Mol Biol Rep - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 2. PMID 20480236 — LOW_SCORE **File:** `README.md` **
 **Actual (wrong?) paper:** Lezhava T 2011 — Gerontology research in Georgia.
 **Keywords extracted:** stem, cells, Author, Tkemaladze, Journal
 **No candidates found.**
 
 
 ## 610. PMID 40690657 in `FCLC/docs/REFERENCE_AUDIT_FCLC.md`
-**Your context:** # Reference Audit — FCLC Generated: 2026-04-19T15:17:59.009013 Total mismatches flagged: **17**  ---   ## 1. PMID 40690657 — LOW_SCORE **File:** `docs/literature_daily/PUBMED_FCLC_2026-04-19.md` **Your context:** d managem
+**Your context:** # Reference Audit — FCLC Generated: 2026-04-19T15:17:59.009013 Total mismatches flagged: **17** --- ## 1. PMID 40690657 — LOW_SCORE **File:** `docs/literature_daily/PUBMED_FCLC_2026-04-19.md` **Your context:** d managem
 **Actual (wrong?) paper:** Tahir N 2025 — Federated Learning-Based Model for Predicting Mortality: Systematic Review and Meta-Analysis.
 **Keywords extracted:** Reference, Audit, Generated, Total, mismatches
 **Top candidates:**
@@ -4608,7 +4608,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 613. PMID 40417552 in `FCLC/docs/REFERENCE_AUDIT_FCLC.md`
-**Your context:** w and Meta-Analysis.* - Author: Tahir N (2025) - Journal: J Med Internet Res - Match score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 2. PMID 40417552 — LOW_SCORE **File:** `docs/literatu
+**Your context:** w and Meta-Analysis.* - Author: Tahir N (2025) - Journal: J Med Internet Res - Match score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 2. PMID 40417552 — LOW_SCORE **File:** `docs/literatu
 **Actual (wrong?) paper:** Tang G 2024 — Federated Diabetes Prediction in Canadian Adults Using Real-world Cross-Province Primary Care Data.
 **Keywords extracted:** Meta-Analysis, Author, Tahir, Journal, Internet
 **Top candidates:**
@@ -4636,7 +4636,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 616. PMID 41464111 in `FCLC/docs/REFERENCE_AUDIT_FCLC.md`
-**Your context:** e Primary Care Data.* - Author: Tang G (2024) - Journal: AMIA Annu Symp Proc - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 3. PMID 41464111 — LOW_SCORE **File:** `docs/literatu
+**Your context:** e Primary Care Data.* - Author: Tang G (2024) - Journal: AMIA Annu Symp Proc - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 3. PMID 41464111 — LOW_SCORE **File:** `docs/literatu
 **Actual (wrong?) paper:** Sathi TA 2025 — Explainable Federated Learning for Multi-Class Heart Disease Diagnosis via ECG Fiducial Features.
 **Keywords extracted:** Primary, Care, Data, Author, Tang
 **Top candidates:**
@@ -4660,7 +4660,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 619. PMID 38658283 in `FCLC/docs/REFERENCE_AUDIT_FCLC.md`
-**Your context:** Fiducial Features.* - Author: Sathi TA (2025) - Journal: Diagnostics (Basel) - Match score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 4. PMID 38658283 — LOW_SCORE **File:** `docs/literatu
+**Your context:** Fiducial Features.* - Author: Sathi TA (2025) - Journal: Diagnostics (Basel) - Match score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 4. PMID 38658283 — LOW_SCORE **File:** `docs/literatu
 **Actual (wrong?) paper:** Ong JCL 2024 — Ethical and regulatory challenges of large language models in medicine.
 **Keywords extracted:** Fiducial, Features, Author, Sathi, Journal
 **Top candidates:**
@@ -4668,35 +4668,35 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 620. PMID 38658283 in `FCLC/docs/REFERENCE_AUDIT_FCLC.md`
-**Your context:** gence (AI) offers solutions through advanced information systems capable of identifying, analyzing, a..._  ### Query: `differential privacy medical AI 2024`  **15 results** (sorted by relevance)  - **PMID 38658283** · Ong J, Chang S, William W, Butte
+**Your context:** gence (AI) offers solutions through advanced information systems capable of identifying, analyzing, a..._ ### Query: `differential privacy medical AI 2024` **15 results** (sorted by relevance) - **PMID 38658283** · Ong J, Chang S, William W, Butte
 **Actual (wrong?) paper:** Ong JCL 2024 — Ethical and regulatory challenges of large language models in medicine.
 **Keywords extracted:** gence, offers, solutions, through, advanced
 **No candidates found.**
 
 
 ## 621. PMID 38658283 in `FCLC/docs/REFERENCE_AUDIT_FCLC.md`
-**Your context:** l+privacy+2024+2025&retmax=15&retmode=json&tool=CDATA_audit_2026&email=jaba%40longevity.ge&sort=relevance  ### Query: `differential privacy medical AI 2024`  **15 results** (sorted by relevance)  - **PMID 38658283** · Ong J, Chang S, William W, Butte
+**Your context:** l+privacy+2024+2025&retmax=15&retmode=json&tool=CDATA_audit_2026&email=jaba%40longevity.ge&sort=relevance ### Query: `differential privacy medical AI 2024` **15 results** (sorted by relevance) - **PMID 38658283** · Ong J, Chang S, William W, Butte
 **Actual (wrong?) paper:** Ong JCL 2024 — Ethical and regulatory challenges of large language models in medicine.
 **Keywords extracted:** privacy, retmax, retmode, json, tool
 **No candidates found.**
 
 
 ## 622. PMID 38658283 in `FCLC/docs/literature_daily/PUBMED_FCLC_2026-04-19.md`
-**Your context:** gence (AI) offers solutions through advanced information systems capable of identifying, analyzing, a..._  ### Query: `differential privacy medical AI 2024`  **15 results** (sorted by relevance)  - **PMID 38658283** · Ong J, Chang S, William W, Butte
+**Your context:** gence (AI) offers solutions through advanced information systems capable of identifying, analyzing, a..._ ### Query: `differential privacy medical AI 2024` **15 results** (sorted by relevance) - **PMID 38658283** · Ong J, Chang S, William W, Butte
 **Actual (wrong?) paper:** Ong JCL 2024 — Ethical and regulatory challenges of large language models in medicine.
 **Keywords extracted:** gence, offers, solutions, through, advanced
 **No candidates found.**
 
 
 ## 623. PMID 38658283 in `FCLC/docs/literature_daily/PUBMED_FCLC_2026-04-18.md`
-**Your context:** l+privacy+2024+2025&retmax=15&retmode=json&tool=CDATA_audit_2026&email=jaba%40longevity.ge&sort=relevance  ### Query: `differential privacy medical AI 2024`  **15 results** (sorted by relevance)  - **PMID 38658283** · Ong J, Chang S, William W, Butte
+**Your context:** l+privacy+2024+2025&retmax=15&retmode=json&tool=CDATA_audit_2026&email=jaba%40longevity.ge&sort=relevance ### Query: `differential privacy medical AI 2024` **15 results** (sorted by relevance) - **PMID 38658283** · Ong J, Chang S, William W, Butte
 **Actual (wrong?) paper:** Ong JCL 2024 — Ethical and regulatory challenges of large language models in medicine.
 **Keywords extracted:** privacy, retmax, retmode, json, tool
 **No candidates found.**
 
 
 ## 624. PMID 38905988 in `FCLC/docs/REFERENCE_AUDIT_FCLC.md`
-**Your context:** models in medicine.* - Author: Ong JCL (2024) - Journal: Lancet Digit Health - Match score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 6. PMID 38905988 — LOW_SCORE **File:** `docs/literatu
+**Your context:** models in medicine.* - Author: Ong JCL (2024) - Journal: Lancet Digit Health - Match score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 6. PMID 38905988 — LOW_SCORE **File:** `docs/literatu
 **Actual (wrong?) paper:** Ferdowsi M 2024 — Responsible AI for cardiovascular disease detection: Towards a privacy-preserving and interpretable model.
 **Keywords extracted:** models, medicine, Author, Journal, Lancet
 **Top candidates:**
@@ -4706,7 +4706,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 625. PMID 38905988 in `FCLC/docs/REFERENCE_AUDIT_FCLC.md`
-**Your context:**  (IoMT) has increased. Due to the enhanced interconnectedness of IoMT devices, their susceptibility to cyber-attacks has proportionally escalated. Motivated by the promising potential of AI-r..._ - **PMID 38905988** · Ferdowsi M, Hasan M, Habib W (20
+**Your context:** (IoMT) has increased. Due to the enhanced interconnectedness of IoMT devices, their susceptibility to cyber-attacks has proportionally escalated. Motivated by the promising potential of AI-r..._ - **PMID 38905988** · Ferdowsi M, Hasan M, Habib W (20
 **Actual (wrong?) paper:** Ferdowsi M 2024 — Responsible AI for cardiovascular disease detection: Towards a privacy-preserving and interpretable model.
 **Keywords extracted:** IoMT, increased, enhanced, interconnectedness, devices
 **Top candidates:**
@@ -4714,14 +4714,14 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 626. PMID 38905988 in `FCLC/docs/REFERENCE_AUDIT_FCLC.md`
-**Your context:** odel.* - Author: Ferdowsi M (2024) - Journal: Comput Methods Programs Biomed - Match score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 7. PMID 38905988 — LOW_SCORE **File:** `docs/literatu
+**Your context:** odel.* - Author: Ferdowsi M (2024) - Journal: Comput Methods Programs Biomed - Match score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 7. PMID 38905988 — LOW_SCORE **File:** `docs/literatu
 **Actual (wrong?) paper:** Ferdowsi M 2024 — Responsible AI for cardiovascular disease detection: Towards a privacy-preserving and interpretable model.
 **Keywords extracted:** odel, Author, Ferdowsi, Journal, Comput
 **No candidates found.**
 
 
 ## 627. PMID 38905988 in `FCLC/docs/REFERENCE_AUDIT_FCLC.md`
-**Your context:**  (IoMT) has increased. Due to the enhanced interconnectedness of IoMT devices, their susceptibility to cyber-attacks has proportionally escalated. Motivated by the promising potential of AI-r..._ - **PMID 38905988** · Ferdowsi M, Hasan M, Habib W (20
+**Your context:** (IoMT) has increased. Due to the enhanced interconnectedness of IoMT devices, their susceptibility to cyber-attacks has proportionally escalated. Motivated by the promising potential of AI-r..._ - **PMID 38905988** · Ferdowsi M, Hasan M, Habib W (20
 **Actual (wrong?) paper:** Ferdowsi M 2024 — Responsible AI for cardiovascular disease detection: Towards a privacy-preserving and interpretable model.
 **Keywords extracted:** IoMT, increased, enhanced, interconnectedness, devices
 **Top candidates:**
@@ -4729,7 +4729,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 628. PMID 38905988 in `FCLC/docs/literature_daily/PUBMED_FCLC_2026-04-19.md`
-**Your context:**  (IoMT) has increased. Due to the enhanced interconnectedness of IoMT devices, their susceptibility to cyber-attacks has proportionally escalated. Motivated by the promising potential of AI-r..._ - **PMID 38905988** · Ferdowsi M, Hasan M, Habib W (20
+**Your context:** (IoMT) has increased. Due to the enhanced interconnectedness of IoMT devices, their susceptibility to cyber-attacks has proportionally escalated. Motivated by the promising potential of AI-r..._ - **PMID 38905988** · Ferdowsi M, Hasan M, Habib W (20
 **Actual (wrong?) paper:** Ferdowsi M 2024 — Responsible AI for cardiovascular disease detection: Towards a privacy-preserving and interpretable model.
 **Keywords extracted:** IoMT, increased, enhanced, interconnectedness, devices
 **Top candidates:**
@@ -4737,7 +4737,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 629. PMID 38905988 in `FCLC/docs/literature_daily/PUBMED_FCLC_2026-04-18.md`
-**Your context:**  (IoMT) has increased. Due to the enhanced interconnectedness of IoMT devices, their susceptibility to cyber-attacks has proportionally escalated. Motivated by the promising potential of AI-r..._ - **PMID 38905988** · Ferdowsi M, Hasan M, Habib W (20
+**Your context:** (IoMT) has increased. Due to the enhanced interconnectedness of IoMT devices, their susceptibility to cyber-attacks has proportionally escalated. Motivated by the promising potential of AI-r..._ - **PMID 38905988** · Ferdowsi M, Hasan M, Habib W (20
 **Actual (wrong?) paper:** Ferdowsi M 2024 — Responsible AI for cardiovascular disease detection: Towards a privacy-preserving and interpretable model.
 **Keywords extracted:** IoMT, increased, enhanced, interconnectedness, devices
 **Top candidates:**
@@ -4745,7 +4745,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 630. PMID 39518681 in `FCLC/docs/REFERENCE_AUDIT_FCLC.md`
-**Your context:** odel.* - Author: Ferdowsi M (2024) - Journal: Comput Methods Programs Biomed - Match score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 8. PMID 39518681 — LOW_SCORE **File:** `docs/literatu
+**Your context:** odel.* - Author: Ferdowsi M (2024) - Journal: Comput Methods Programs Biomed - Match score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 8. PMID 39518681 — LOW_SCORE **File:** `docs/literatu
 **Actual (wrong?) paper:** Leon M 2024 — Harnessing the Power of ChatGPT in Cardiovascular Medicine: Innovations, Challenges, and Future Directions.
 **Keywords extracted:** odel, Author, Ferdowsi, Journal, Comput
 **No candidates found.**
@@ -4788,7 +4788,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 635. PMID 39728077 in `FCLC/docs/REFERENCE_AUDIT_FCLC.md`
-**Your context:** nges, and Future Directions.* - Author: Leon M (2024) - Journal: J Clin Med - Match score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 10. PMID 39728077 — LOW_SCORE **File:** `docs/literatu
+**Your context:** nges, and Future Directions.* - Author: Leon M (2024) - Journal: J Clin Med - Match score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 10. PMID 39728077 — LOW_SCORE **File:** `docs/literatu
 **Actual (wrong?) paper:** Sabaner MC 2024 — Opportunities and Challenges of Chatbots in Ophthalmology: A Narrative Review.
 **Keywords extracted:** nges, Future, Directions, Author, Leon
 **No candidates found.**
@@ -4835,7 +4835,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 640. PMID 38486100 in `FCLC/docs/REFERENCE_AUDIT_FCLC.md`
-**Your context:** ogy: A Narrative Review.* - Author: Sabaner MC (2024) - Journal: J Pers Med - Match score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 12. PMID 38486100 — LOW_SCORE **File:** `docs/literatu
+**Your context:** ogy: A Narrative Review.* - Author: Sabaner MC (2024) - Journal: J Pers Med - Match score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 12. PMID 38486100 — LOW_SCORE **File:** `docs/literatu
 **Actual (wrong?) paper:** Tayebi Arasteh S 2024 — Preserving fairness and diagnostic accuracy in private large-scale AI models for medical imaging.
 **Keywords extracted:** Narrative, Review, Author, Sabaner, Journal
 **Top candidates:**
@@ -4853,7 +4853,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 642. PMID 38486100 in `FCLC/docs/REFERENCE_AUDIT_FCLC.md`
-**Your context:** al imaging.* - Author: Tayebi Arasteh S (2024) - Journal: Commun Med (Lond) - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 13. PMID 38486100 — LOW_SCORE **File:** `docs/literatu
+**Your context:** al imaging.* - Author: Tayebi Arasteh S (2024) - Journal: Commun Med (Lond) - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 13. PMID 38486100 — LOW_SCORE **File:** `docs/literatu
 **Actual (wrong?) paper:** Tayebi Arasteh S 2024 — Preserving fairness and diagnostic accuracy in private large-scale AI models for medical imaging.
 **Keywords extracted:** imaging, Author, Tayebi, Arasteh, Journal
 **Top candidates:**
@@ -4893,7 +4893,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 646. PMID 38103204 in `FCLC/docs/REFERENCE_AUDIT_FCLC.md`
-**Your context:** al imaging.* - Author: Tayebi Arasteh S (2024) - Journal: Commun Med (Lond) - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 14. PMID 38103204 — LOW_SCORE **File:** `docs/literatu
+**Your context:** al imaging.* - Author: Tayebi Arasteh S (2024) - Journal: Commun Med (Lond) - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 14. PMID 38103204 — LOW_SCORE **File:** `docs/literatu
 **Actual (wrong?) paper:** Naik K 2024 — Current Status and Future Directions: The Application of Artificial Intelligence/Machine Learning for Precision Medicine.
 **Keywords extracted:** imaging, Author, Tayebi, Arasteh, Journal
 **Top candidates:**
@@ -4943,7 +4943,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 651. PMID 39233693 in `FCLC/docs/REFERENCE_AUDIT_FCLC.md`
-**Your context:** Precision Medicine.* - Author: Naik K (2024) - Journal: Clin Pharmacol Ther - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 16. PMID 39233693 — LOW_SCORE **File:** `docs/literatu
+**Your context:** Precision Medicine.* - Author: Naik K (2024) - Journal: Clin Pharmacol Ther - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 16. PMID 39233693 — LOW_SCORE **File:** `docs/literatu
 **Actual (wrong?) paper:** Stripelis D 2024 — A federated learning architecture for secure and private neuroimaging analysis.
 **Keywords extracted:** Precision, Medicine, Author, Naik, Journal
 **Top candidates:**
@@ -4993,7 +4993,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 656. PMID 10394081 in `Ontogenesis/CONCEPT.md`
-**Your context:** нским устройством. Все симуляции строятся на агрегированных, анонимизированных и синтетических данных.  ---  ## §2. Теоретическая основа  ### §2.1. Etagenesis — зонтичная концепция  По Frolkis (1999, PMID 10394081, DOI 10.1159/000022092):  > *«Etagen
+**Your context:** нским устройством. Все симуляции строятся на агрегированных, анонимизированных и синтетических данных. --- ## §2. Теоретическая основа ### §2.1. Etagenesis — зонтичная концепция По Frolkis (1999, PMID 10394081, DOI 10.1159/000022092): > *«Etagen
 **Actual (wrong?) paper:** Frolkis VV 1999 — Aging, antiaging, ontogenesis and periods of age development.
 **Keywords extracted:** Etagenesis, Frolkis, age-associated, development, organism
 **Top candidates:**
@@ -5001,49 +5001,49 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 657. PMID 10394081 in `Ontogenesis/docs/PEER_REVIEW_v4.2_ACCEPTED.md`
-**Your context:** # PEER REVIEW — Ontogenesis v4.2 **Статус: ПРИНЯТО** **Дата: 2026-04-16** **Уровень: IF 5–8 / кандидатский минимум**  Верифицированные источники: - Frolkis 1999: PMID 10394081, DOI 10.1159/000022092 - DOSI 2021: PMID 34035236, DOI 10.1038/s41467-021-
+**Your context:** # PEER REVIEW — Ontogenesis v4.2 **Статус: ПРИНЯТО** **Дата: 2026-04-16** **Уровень: IF 5–8 / кандидатский минимум** Верифицированные источники: - Frolkis 1999: PMID 10394081, DOI 10.1159/000022092 - DOSI 2021: PMID 34035236, DOI 10.1038/s41467-021-
 **Actual (wrong?) paper:** Frolkis VV 1999 — Aging, antiaging, ontogenesis and periods of age development.
 **Keywords extracted:** REVIEW, Ontogenesis, Frolkis, Kievit
 **No candidates found.**
 
 
 ## 658. PMID 10394081 in `Ontogenesis/docs/REFERENCE_AUDIT_Ontogenesis.md`
-**Your context:** y research in Georgia.* - Author: Lezhava T (2011) - Journal: Biogerontology - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 7. PMID 10394081 — LOW_SCORE **File:** `CONCEPT.md` *
+**Your context:** y research in Georgia.* - Author: Lezhava T (2011) - Journal: Biogerontology - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 7. PMID 10394081 — LOW_SCORE **File:** `CONCEPT.md` *
 **Actual (wrong?) paper:** Frolkis VV 1999 — Aging, antiaging, ontogenesis and periods of age development.
 **Keywords extracted:** research, Georgia, Author, Lezhava, Journal
 **No candidates found.**
 
 
 ## 659. PMID 10394081 in `Ontogenesis/docs/REFERENCE_AUDIT_Ontogenesis.md`
-**Your context:** нским устройством. Все симуляции строятся на агрегированных, анонимизированных и синтетических данных.  ---  ## §2. Теоретическая основа  ### §2.1. Etagenesis — зонтичная концепция  По Frolkis (1999, PMID 10394081, DOI 10.1159/000022092):  > *«Etagen
+**Your context:** нским устройством. Все симуляции строятся на агрегированных, анонимизированных и синтетических данных. --- ## §2. Теоретическая основа ### §2.1. Etagenesis — зонтичная концепция По Frolkis (1999, PMID 10394081, DOI 10.1159/000022092): > *«Etagen
 **Actual (wrong?) paper:** Frolkis VV 1999 — Aging, antiaging, ontogenesis and periods of age development.
 **Keywords extracted:** Etagenesis, Frolkis, age-associated, development, organi
 **No candidates found.**
 
 
 ## 660. PMID 10394081 in `Ontogenesis/docs/REFERENCE_AUDIT_Ontogenesis.md`
-**Your context:** W_v4.2_ACCEPTED.md` **Your context:** # PEER REVIEW — Ontogenesis v4.2 **Статус: ПРИНЯТО** **Дата: 2026-04-16** **Уровень: IF 5–8 / кандидатский минимум**  Верифицированные источники: - Frolkis 1999: PMID 10394081, DOI 10.1159/000022092 - DOSI 2021: 
+**Your context:** W_v4.2_ACCEPTED.md` **Your context:** # PEER REVIEW — Ontogenesis v4.2 **Статус: ПРИНЯТО** **Дата: 2026-04-16** **Уровень: IF 5–8 / кандидатский минимум** Верифицированные источники: - Frolkis 1999: PMID 10394081, DOI 10.1159/000022092 - DOSI 2021: 
 **Actual (wrong?) paper:** Frolkis VV 1999 — Aging, antiaging, ontogenesis and periods of age development.
 **Keywords extracted:** ACCEPTED, context, REVIEW, Ontogenesis, Frolkis
 **No candidates found.**
 
 
 ## 661. PMID 10394081 in `Ontogenesis/docs/REFERENCE_AUDIT_Ontogenesis.md`
-**Your context:** s/PEER_REVIEW_v4.2_ACCEPTED.md` **Your context:** W — Ontogenesis v4.2 **Статус: ПРИНЯТО** **Дата: 2026-04-16** **Уровень: IF 5–8 / кандидатский минимум**  Верифицированные источники: - Frolkis 1999: PMID 10394081, DOI 10.1159/000022092 - DOSI 2021: 
+**Your context:** s/PEER_REVIEW_v4.2_ACCEPTED.md` **Your context:** W — Ontogenesis v4.2 **Статус: ПРИНЯТО** **Дата: 2026-04-16** **Уровень: IF 5–8 / кандидатский минимум** Верифицированные источники: - Frolkis 1999: PMID 10394081, DOI 10.1159/000022092 - DOSI 2021: 
 **Actual (wrong?) paper:** Frolkis VV 1999 — Aging, antiaging, ontogenesis and periods of age development.
 **Keywords extracted:** REVIEW, ACCEPTED, context, Ontogenesis, Frolkis
 **No candidates found.**
 
 
 ## 662. PMID 10394081 in `Ontogenesis/docs/REFERENCE_AUDIT_Ontogenesis.md`
-**Your context:** roper PMID.   ## 13. PMID 29325701 — LOW_SCORE **File:** `docs/PEER_REVIEW_v4.2_ACCEPTED.md` **Your context:**  **Уровень: IF 5–8 / кандидатский минимум**  Верифицированные источники: - Frolkis 1999: PMID 10394081, DOI 10.1159/000022092 - DOSI 2021: 
+**Your context:** roper PMID. ## 13. PMID 29325701 — LOW_SCORE **File:** `docs/PEER_REVIEW_v4.2_ACCEPTED.md` **Your context:** **Уровень: IF 5–8 / кандидатский минимум** Верифицированные источники: - Frolkis 1999: PMID 10394081, DOI 10.1159/000022092 - DOSI 2021: 
 **Actual (wrong?) paper:** Frolkis VV 1999 — Aging, antiaging, ontogenesis and periods of age development.
 **Keywords extracted:** roper, SCORE, File, docs, REVIEW
 **No candidates found.**
 
 
 ## 663. PMID 13905658 in `Ontogenesis/CONCEPT.md`
-**Your context:**  лет обоснована несколькими независимыми методами:  | Метод | Предел | Источник | |-------|--------|---------| | Клеточная биология (предел Хайфлика) | ~120 лет (теорет.) | Hayflick & Moorhead, 1961, PMID 13905658 | | Демография (возраст смерти старе
+**Your context:** лет обоснована несколькими независимыми методами: | Метод | Предел | Источник | |-------|--------|---------| | Клеточная биология (предел Хайфлика) | ~120 лет (теорет.) | Hayflick & Moorhead, 1961, PMID 13905658 | | Демография (возраст смерти старе
 **Actual (wrong?) paper:** HAYFLICK L 1961 — The serial cultivation of human diploid cell strains.
 **Keywords extracted:** Hayflick, Moorhead, Dong, Nature
 **No candidates found.**
@@ -5057,14 +5057,14 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 665. PMID 13905658 in `Ontogenesis/docs/REFERENCE_AUDIT_Ontogenesis.md`
-**Your context:** iods of age development.* - Author: Frolkis VV (1999) - Journal: Gerontology - Match score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 9. PMID 13905658 — LOW_SCORE **File:** `CONCEPT.md` *
+**Your context:** iods of age development.* - Author: Frolkis VV (1999) - Journal: Gerontology - Match score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 9. PMID 13905658 — LOW_SCORE **File:** `CONCEPT.md` *
 **Actual (wrong?) paper:** HAYFLICK L 1961 — The serial cultivation of human diploid cell strains.
 **Keywords extracted:** iods, development, Author, Frolkis, Journal
 **No candidates found.**
 
 
 ## 666. PMID 13905658 in `Ontogenesis/docs/REFERENCE_AUDIT_Ontogenesis.md`
-**Your context:**  лет обоснована несколькими независимыми методами:  | Метод | Предел | Источник | |-------|--------|---------| | Клеточная биология (предел Хайфлика) | ~120 лет (теорет.) | Hayflick & Moorhead, 1961, PMID 13905658 | | Демография (возраст смерти старе
+**Your context:** лет обоснована несколькими независимыми методами: | Метод | Предел | Источник | |-------|--------|---------| | Клеточная биология (предел Хайфлика) | ~120 лет (теорет.) | Hayflick & Moorhead, 1961, PMID 13905658 | | Демография (возраст смерти старе
 **Actual (wrong?) paper:** HAYFLICK L 1961 — The serial cultivation of human diploid cell strains.
 **Keywords extracted:** Hayflick, Moorhead, Dong, Nature, Actual
 **No candidates found.**
@@ -5092,21 +5092,21 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 670. PMID 34035236 in `Ontogenesis/docs/PEER_REVIEW_v4.2_ACCEPTED.md`
-**Your context:** W — Ontogenesis v4.2 **Статус: ПРИНЯТО** **Дата: 2026-04-16** **Уровень: IF 5–8 / кандидатский минимум**  Верифицированные источники: - Frolkis 1999: PMID 10394081, DOI 10.1159/000022092 - DOSI 2021: PMID 34035236, DOI 10.1038/s41467-021-23014-1 - Ki
+**Your context:** W — Ontogenesis v4.2 **Статус: ПРИНЯТО** **Дата: 2026-04-16** **Уровень: IF 5–8 / кандидатский минимум** Верифицированные источники: - Frolkis 1999: PMID 10394081, DOI 10.1159/000022092 - DOSI 2021: PMID 34035236, DOI 10.1038/s41467-021-23014-1 - Ki
 **Actual (wrong?) paper:** Pyrkov TV 2021 — Longitudinal analysis of blood markers reveals progressive loss of resilience and predicts human lifespan limit.
 **Keywords extracted:** Ontogenesis, Frolkis, Kievit, Briti
 **No candidates found.**
 
 
 ## 671. PMID 34035236 in `Ontogenesis/docs/REFERENCE_AUDIT_Ontogenesis.md`
-**Your context:** W — Ontogenesis v4.2 **Статус: ПРИНЯТО** **Дата: 2026-04-16** **Уровень: IF 5–8 / кандидатский минимум**  Верифицированные источники: - Frolkis 1999: PMID 10394081, DOI 10.1159/000022092 - DOSI 2021: PMID 34035236, DOI 10.1038/s41467-021-23014-1 - Ki
+**Your context:** W — Ontogenesis v4.2 **Статус: ПРИНЯТО** **Дата: 2026-04-16** **Уровень: IF 5–8 / кандидатский минимум** Верифицированные источники: - Frolkis 1999: PMID 10394081, DOI 10.1159/000022092 - DOSI 2021: PMID 34035236, DOI 10.1038/s41467-021-23014-1 - Ki
 **Actual (wrong?) paper:** Pyrkov TV 2021 — Longitudinal analysis of blood markers reveals progressive loss of resilience and predicts human lifespan limit.
 **Keywords extracted:** Ontogenesis, Frolkis, Kievit, Actual, PubMed
 **No candidates found.**
 
 
 ## 672. PMID 34035236 in `Ontogenesis/docs/REFERENCE_AUDIT_Ontogenesis.md`
-**Your context:**  diploid cell strains.* - Author: HAYFLICK L (1961) - Journal: Exp Cell Res - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 11. PMID 34035236 — LOW_SCORE **File:** `CONCEPT.md` *
+**Your context:** diploid cell strains.* - Author: HAYFLICK L (1961) - Journal: Exp Cell Res - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 11. PMID 34035236 — LOW_SCORE **File:** `CONCEPT.md` *
 **Actual (wrong?) paper:** Pyrkov TV 2021 — Longitudinal analysis of blood markers reveals progressive loss of resilience and predicts human lifespan limit.
 **Keywords extracted:** diploid, cell, strains, Author, HAYFLICK
 **No candidates found.**
@@ -5120,21 +5120,21 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 674. PMID 34035236 in `Ontogenesis/docs/REFERENCE_AUDIT_Ontogenesis.md`
-**Your context:** W — Ontogenesis v4.2 **Статус: ПРИНЯТО** **Дата: 2026-04-16** **Уровень: IF 5–8 / кандидатский минимум**  Верифицированные источники: - Frolkis 1999: PMID 10394081, DOI 10.1159/000022092 - DOSI 2021: PMID 34035236, DOI 10.1038/s41467-021-23014-1 - Ki
+**Your context:** W — Ontogenesis v4.2 **Статус: ПРИНЯТО** **Дата: 2026-04-16** **Уровень: IF 5–8 / кандидатский минимум** Верифицированные источники: - Frolkis 1999: PMID 10394081, DOI 10.1159/000022092 - DOSI 2021: PMID 34035236, DOI 10.1038/s41467-021-23014-1 - Ki
 **Actual (wrong?) paper:** Pyrkov TV 2021 — Longitudinal analysis of blood markers reveals progressive loss of resilience and predicts human lifespan limit.
 **Keywords extracted:** Ontogenesis, Frolkis, Kievit, Actual
 **No candidates found.**
 
 
 ## 675. PMID 34035236 in `Ontogenesis/docs/REFERENCE_AUDIT_Ontogenesis.md`
-**Your context:** ile:** `docs/PEER_REVIEW_v4.2_ACCEPTED.md` **Your context:**  **Уровень: IF 5–8 / кандидатский минимум**  Верифицированные источники: - Frolkis 1999: PMID 10394081, DOI 10.1159/000022092 - DOSI 2021: PMID 34035236, DOI 10.1038/s41467-021-23014-1 - Ki
+**Your context:** ile:** `docs/PEER_REVIEW_v4.2_ACCEPTED.md` **Your context:** **Уровень: IF 5–8 / кандидатский минимум** Верифицированные источники: - Frolkis 1999: PMID 10394081, DOI 10.1159/000022092 - DOSI 2021: PMID 34035236, DOI 10.1038/s41467-021-23014-1 - Ki
 **Actual (wrong?) paper:** Pyrkov TV 2021 — Longitudinal analysis of blood markers reveals progressive loss of resilience and predicts human lifespan limit.
 **Keywords extracted:** docs, REVIEW, ACCEPTED, context, Frolkis
 **No candidates found.**
 
 
 ## 676. PMID 34035236 in `Ontogenesis/docs/REFERENCE_AUDIT_Ontogenesis.md`
-**Your context:** eeded:** verify if citation is correct; if not, search for proper PMID.   ## 15. PMID 1612465 — LOW_SCORE **File:** `docs/PEER_REVIEW_v4.2_ACCEPTED.md` **Your context:** 0.1159/000022092 - DOSI 2021: PMID 34035236, DOI 10.1038/s41467-021-23014-1 - Ki
+**Your context:** eeded:** verify if citation is correct; if not, search for proper PMID. ## 15. PMID 1612465 — LOW_SCORE **File:** `docs/PEER_REVIEW_v4.2_ACCEPTED.md` **Your context:** 0.1159/000022092 - DOSI 2021: PMID 34035236, DOI 10.1038/s41467-021-23014-1 - Ki
 **Actual (wrong?) paper:** Pyrkov TV 2021 — Longitudinal analysis of blood markers reveals progressive loss of resilience and predicts human lifespan limit.
 **Keywords extracted:** eeded, verify, citation, correct, search
 **Top candidates:**
@@ -5144,14 +5144,14 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 677. PMID 29325701 in `Ontogenesis/docs/PEER_REVIEW_v4.2_ACCEPTED.md`
-**Your context:**  **Уровень: IF 5–8 / кандидатский минимум**  Верифицированные источники: - Frolkis 1999: PMID 10394081, DOI 10.1159/000022092 - DOSI 2021: PMID 34035236, DOI 10.1038/s41467-021-23014-1 - Kievit 2018: PMID 29325701, DOI 10.1016/j.dcn.2017.11.007 - Bri
+**Your context:** **Уровень: IF 5–8 / кандидатский минимум** Верифицированные источники: - Frolkis 1999: PMID 10394081, DOI 10.1159/000022092 - DOSI 2021: PMID 34035236, DOI 10.1038/s41467-021-23014-1 - Kievit 2018: PMID 29325701, DOI 10.1016/j.dcn.2017.11.007 - Bri
 **Actual (wrong?) paper:** Kievit RA 2018 — Developmental cognitive neuroscience using latent change score models: A tutorial and applications.
 **Keywords extracted:** Frolkis, Kievit, British, Cohorts, dyaf
 **No candidates found.**
 
 
 ## 678. PMID 29325701 in `Ontogenesis/docs/REFERENCE_AUDIT_Ontogenesis.md`
-**Your context:** verify if citation is correct; if not, search for proper PMID.   ## 10. PMID 13905658 — LOW_SCORE **File:** `docs/PEER_REVIEW_v4.2_ACCEPTED.md` **Your context:** 038/s41467-021-23014-1 - Kievit 2018: PMID 29325701, DOI 10.1016/j.dcn.2017.11.007 - Bri
+**Your context:** verify if citation is correct; if not, search for proper PMID. ## 10. PMID 13905658 — LOW_SCORE **File:** `docs/PEER_REVIEW_v4.2_ACCEPTED.md` **Your context:** 038/s41467-021-23014-1 - Kievit 2018: PMID 29325701, DOI 10.1016/j.dcn.2017.11.007 - Bri
 **Actual (wrong?) paper:** Kievit RA 2018 — Developmental cognitive neuroscience using latent change score models: A tutorial and applications.
 **Keywords extracted:** verify, citation, correct, search, proper
 **Top candidates:**
@@ -5159,28 +5159,28 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 679. PMID 29325701 in `Ontogenesis/docs/REFERENCE_AUDIT_Ontogenesis.md`
-**Your context:**  **Уровень: IF 5–8 / кандидатский минимум**  Верифицированные источники: - Frolkis 1999: PMID 10394081, DOI 10.1159/000022092 - DOSI 2021: PMID 34035236, DOI 10.1038/s41467-021-23014-1 - Kievit 2018: PMID 29325701, DOI 10.1016/j.dcn.2017.1 **Actual P
+**Your context:** **Уровень: IF 5–8 / кандидатский минимум** Верифицированные источники: - Frolkis 1999: PMID 10394081, DOI 10.1159/000022092 - DOSI 2021: PMID 34035236, DOI 10.1038/s41467-021-23014-1 - Kievit 2018: PMID 29325701, DOI 10.1016/j.dcn.2017.1 **Actual P
 **Actual (wrong?) paper:** Kievit RA 2018 — Developmental cognitive neuroscience using latent change score models: A tutorial and applications.
 **Keywords extracted:** Frolkis, Kievit, Actual, PubMed, record
 **No candidates found.**
 
 
 ## 680. PMID 29325701 in `Ontogenesis/docs/REFERENCE_AUDIT_Ontogenesis.md`
-**Your context:**  **Уровень: IF 5–8 / кандидатский минимум**  Верифицированные источники: - Frolkis 1999: PMID 10394081, DOI 10.1159/000022092 - DOSI 2021: PMID 34035236, DOI 10.1038/s41467-021-23014-1 - Kievit 2018: PMID 29325701, DOI 10.1016/j.dcn.2017.11.007 - Bri
+**Your context:** **Уровень: IF 5–8 / кандидатский минимум** Верифицированные источники: - Frolkis 1999: PMID 10394081, DOI 10.1159/000022092 - DOSI 2021: PMID 34035236, DOI 10.1038/s41467-021-23014-1 - Kievit 2018: PMID 29325701, DOI 10.1016/j.dcn.2017.11.007 - Bri
 **Actual (wrong?) paper:** Kievit RA 2018 — Developmental cognitive neuroscience using latent change score models: A tutorial and applications.
 **Keywords extracted:** Frolkis, Kievit, British, Cohorts, dyaf
 **No candidates found.**
 
 
 ## 681. PMID 29325701 in `Ontogenesis/docs/REFERENCE_AUDIT_Ontogenesis.md`
-**Your context:** oper PMID.   ## 15. PMID 1612465 — LOW_SCORE **File:** `docs/PEER_REVIEW_v4.2_ACCEPTED.md` **Your context:** 0.1159/000022092 - DOSI 2021: PMID 34035236, DOI 10.1038/s41467-021-23014-1 - Kievit 2018: PMID 29325701, DOI 10.1016/j.dcn.2017.11.007 - Bri
+**Your context:** oper PMID. ## 15. PMID 1612465 — LOW_SCORE **File:** `docs/PEER_REVIEW_v4.2_ACCEPTED.md` **Your context:** 0.1159/000022092 - DOSI 2021: PMID 34035236, DOI 10.1038/s41467-021-23014-1 - Kievit 2018: PMID 29325701, DOI 10.1016/j.dcn.2017.11.007 - Bri
 **Actual (wrong?) paper:** Kievit RA 2018 — Developmental cognitive neuroscience using latent change score models: A tutorial and applications.
 **Keywords extracted:** oper, SCORE, File, docs, REVIEW
 **No candidates found.**
 
 
 ## 682. PMID 1612465 in `Ontogenesis/CONCEPT.md`
-**Your context:** мое снижение функции. LCS-модель применяется для прогноза скорости накопления фиброза на основе baseline параметров пациента.  ---  ## §6. Синдромы старения (модуль Gerontogenesis)  По Frolkis (1992, PMID 1612465): старение классифицируется по скорос
+**Your context:** мое снижение функции. LCS-модель применяется для прогноза скорости накопления фиброза на основе baseline параметров пациента. --- ## §6. Синдромы старения (модуль Gerontogenesis) По Frolkis (1992, PMID 1612465): старение классифицируется по скорос
 **Actual (wrong?) paper:** Frolkis VV 1992 — Syndromes of aging.
 **Keywords extracted:** baseline, Gerontogenesis, Frolkis
 **No candidates found.**
@@ -5201,14 +5201,14 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 685. PMID 1612465 in `Ontogenesis/docs/REFERENCE_AUDIT_Ontogenesis.md`
-**Your context:**  and applications.* - Author: Kievit RA (2018) - Journal: Dev Cogn Neurosci - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 14. PMID 1612465 — LOW_SCORE **File:** `CONCEPT.md` **
+**Your context:** and applications.* - Author: Kievit RA (2018) - Journal: Dev Cogn Neurosci - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 14. PMID 1612465 — LOW_SCORE **File:** `CONCEPT.md` **
 **Actual (wrong?) paper:** Frolkis VV 1992 — Syndromes of aging.
 **Keywords extracted:** applications, Author, Kievit, Journal, Cogn
 **No candidates found.**
 
 
 ## 686. PMID 1612465 in `Ontogenesis/docs/REFERENCE_AUDIT_Ontogenesis.md`
-**Your context:** мое снижение функции. LCS-модель применяется для прогноза скорости накопления фиброза на основе baseline параметров пациента.  ---  ## §6. Синдромы старения (модуль Gerontogenesis)  По Frolkis (1992, PMID 1612465): старение классифицируется по скорос
+**Your context:** мое снижение функции. LCS-модель применяется для прогноза скорости накопления фиброза на основе baseline параметров пациента. --- ## §6. Синдромы старения (модуль Gerontogenesis) По Frolkis (1992, PMID 1612465): старение классифицируется по скорос
 **Actual (wrong?) paper:** Frolkis VV 1992 — Syndromes of aging.
 **Keywords extracted:** baseline, Gerontogenesis, Frolkis, Actual
 **No candidates found.**
@@ -5222,49 +5222,49 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 688. PMID 18971494 in `Ontogenesis/KNOWLEDGE.md`
-**Your context:** ary = 25 yr | All parameters hand-off at 25 yr |  ---  ## 10. Key Validated Facts with Sources  | Fact | Source | |------|--------| | Brain reaches 80% adult volume by age 3 | Knickmeyer et al. 2008, PMID 18971494 | | Prefrontal cortex myelination co
+**Your context:** ary = 25 yr | All parameters hand-off at 25 yr | --- ## 10. Key Validated Facts with Sources | Fact | Source | |------|--------| | Brain reaches 80% adult volume by age 3 | Knickmeyer et al. 2008, PMID 18971494 | | Prefrontal cortex myelination co
 **Actual (wrong?) paper:** Kelly CP 2008 — Clostridium difficile--more difficult than ever.
 **Keywords extracted:** parameters, hand-off, Validated, Facts, Sources
 **No candidates found.**
 
 
 ## 689. PMID 18971494 in `Ontogenesis/docs/REFERENCE_AUDIT_Ontogenesis.md`
-**Your context:** e: *Syndromes of aging.* - Author: Frolkis VV (1992) - Journal: Gerontology - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 16. PMID 18971494 — LOW_SCORE **File:** `KNOWLEDGE.md`
+**Your context:** e: *Syndromes of aging.* - Author: Frolkis VV (1992) - Journal: Gerontology - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 16. PMID 18971494 — LOW_SCORE **File:** `KNOWLEDGE.md`
 **Actual (wrong?) paper:** Kelly CP 2008 — Clostridium difficile--more difficult than ever.
 **Keywords extracted:** Syndromes, aging, Author, Frolkis, Journal
 **No candidates found.**
 
 
 ## 690. PMID 18971494 in `Ontogenesis/docs/REFERENCE_AUDIT_Ontogenesis.md`
-**Your context:** ary = 25 yr | All parameters hand-off at 25 yr |  ---  ## 10. Key Validated Facts with Sources  | Fact | Source | |------|--------| | Brain reaches 80% adult volume by age 3 | Knickmeyer et al. 2008, PMID 18971494 | | Prefrontal cortex myelination co
+**Your context:** ary = 25 yr | All parameters hand-off at 25 yr | --- ## 10. Key Validated Facts with Sources | Fact | Source | |------|--------| | Brain reaches 80% adult volume by age 3 | Knickmeyer et al. 2008, PMID 18971494 | | Prefrontal cortex myelination co
 **Actual (wrong?) paper:** Kelly CP 2008 — Clostridium difficile--more difficult than ever.
 **Keywords extracted:** parameters, hand-off, Validated, Facts, Sources
 **No candidates found.**
 
 
 ## 691. PMID 18971494 in `Ontogenesis/docs/REFERENCE_AUDIT_Ontogenesis.md`
-**Your context:** oper PMID.   ## 17. PMID 22306083 — LOW_SCORE **File:** `KNOWLEDGE.md` **Your context:** urces  | Fact | Source | |------|--------| | Brain reaches 80% adult volume by age 3 | Knickmeyer et al. 2008, PMID 18971494 | | Prefrontal cortex myelination co
+**Your context:** oper PMID. ## 17. PMID 22306083 — LOW_SCORE **File:** `KNOWLEDGE.md` **Your context:** urces | Fact | Source | |------|--------| | Brain reaches 80% adult volume by age 3 | Knickmeyer et al. 2008, PMID 18971494 | | Prefrontal cortex myelination co
 **Actual (wrong?) paper:** Kelly CP 2008 — Clostridium difficile--more difficult than ever.
 **Keywords extracted:** oper, SCORE, File, KNOWLEDGE, context
 **No candidates found.**
 
 
 ## 692. PMID 18971494 in `Ontogenesis/docs/REFERENCE_AUDIT_Ontogenesis.md`
-**Your context:** tion needed:** verify if citation is correct; if not, search for proper PMID.   ## 18. PMID 9262477 — LOW_SCORE **File:** `KNOWLEDGE.md` **Your context:** lt volume by age 3 | Knickmeyer et al. 2008, PMID 18971494 | | Prefrontal cortex myelination co
+**Your context:** tion needed:** verify if citation is correct; if not, search for proper PMID. ## 18. PMID 9262477 — LOW_SCORE **File:** `KNOWLEDGE.md` **Your context:** lt volume by age 3 | Knickmeyer et al. 2008, PMID 18971494 | | Prefrontal cortex myelination co
 **Actual (wrong?) paper:** Kelly CP 2008 — Clostridium difficile--more difficult than ever.
 **Keywords extracted:** tion, needed, verify, citation, correct
 **No candidates found.**
 
 
 ## 693. PMID 22306083 in `Ontogenesis/KNOWLEDGE.md`
-**Your context:** urces  | Fact | Source | |------|--------| | Brain reaches 80% adult volume by age 3 | Knickmeyer et al. 2008, PMID 18971494 | | Prefrontal cortex myelination completes ~24–25 yr | Lebel et al. 2012, PMID 22306083 | | IGF-1 peak at Tanner III–IV | Ju
+**Your context:** urces | Fact | Source | |------|--------| | Brain reaches 80% adult volume by age 3 | Knickmeyer et al. 2008, PMID 18971494 | | Prefrontal cortex myelination completes ~24–25 yr | Lebel et al. 2012, PMID 22306083 | | IGF-1 peak at Tanner III–IV | Ju
 **Actual (wrong?) paper:** Chimento A 2012 — 17β-Estradiol activates GPER- and ESR1-dependent pathways inducing apoptosis in GC-2 cells, a mouse spermatocyte-derived cell line.
 **Keywords extracted:** urces, Fact, Source, Brain, reaches
 **No candidates found.**
 
 
 ## 694. PMID 22306083 in `Ontogenesis/docs/REFERENCE_AUDIT_Ontogenesis.md`
-**Your context:** ore difficult than ever.* - Author: Kelly CP (2008) - Journal: N Engl J Med - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 17. PMID 22306083 — LOW_SCORE **File:** `KNOWLEDGE.md`
+**Your context:** ore difficult than ever.* - Author: Kelly CP (2008) - Journal: N Engl J Med - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 17. PMID 22306083 — LOW_SCORE **File:** `KNOWLEDGE.md`
 **Actual (wrong?) paper:** Chimento A 2012 — 17β-Estradiol activates GPER- and ESR1-dependent pathways inducing apoptosis in GC-2 cells, a mouse spermatocyte-derived cell line.
 **Keywords extracted:** difficult, ever, Author, Kelly, Journal
 **Top candidates:**
@@ -5273,7 +5273,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 695. PMID 22306083 in `Ontogenesis/docs/REFERENCE_AUDIT_Ontogenesis.md`
-**Your context:** urces  | Fact | Source | |------|--------| | Brain reaches 80% adult volume by age 3 | Knickmeyer et al. 2008, PMID 18971494 | | Prefrontal cortex myelination completes ~24–25 yr | Lebel et al. 2012, PMID 22306083 | | IGF-1 peak at Tanner III–IV | Ju
+**Your context:** urces | Fact | Source | |------|--------| | Brain reaches 80% adult volume by age 3 | Knickmeyer et al. 2008, PMID 18971494 | | Prefrontal cortex myelination completes ~24–25 yr | Lebel et al. 2012, PMID 22306083 | | IGF-1 peak at Tanner III–IV | Ju
 **Actual (wrong?) paper:** Chimento A 2012 — 17β-Estradiol activates GPER- and ESR1-dependent pathways inducing apoptosis in GC-2 cells, a mouse spermatocyte-derived cell line.
 **Keywords extracted:** urces, Fact, Source, Brain, reaches
 **No candidates found.**
@@ -5287,7 +5287,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 697. PMID 22306083 in `Ontogenesis/docs/REFERENCE_AUDIT_Ontogenesis.md`
-**Your context:** if citation is correct; if not, search for proper PMID.   ## 19. PMID 5785179 — LOW_SCORE **File:** `KNOWLEDGE.md` **Your context:** rontal cortex myelination completes ~24–25 yr | Lebel et al. 2012, PMID 22306083 | | IGF-1 peak at Tanner III–IV | Ju
+**Your context:** if citation is correct; if not, search for proper PMID. ## 19. PMID 5785179 — LOW_SCORE **File:** `KNOWLEDGE.md` **Your context:** rontal cortex myelination completes ~24–25 yr | Lebel et al. 2012, PMID 22306083 | | IGF-1 peak at Tanner III–IV | Ju
 **Actual (wrong?) paper:** Chimento A 2012 — 17β-Estradiol activates GPER- and ESR1-dependent pathways inducing apoptosis in GC-2 cells, a mouse spermatocyte-derived cell line.
 **Keywords extracted:** citation, correct, search, proper, SCORE
 **Top candidates:**
@@ -5311,7 +5311,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 700. PMID 9262477 in `Ontogenesis/docs/REFERENCE_AUDIT_Ontogenesis.md`
-**Your context:** ived cell line.* - Author: Chimento A (2012) - Journal: Mol Cell Endocrinol - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 18. PMID 9262477 — LOW_SCORE **File:** `KNOWLEDGE.md` 
+**Your context:** ived cell line.* - Author: Chimento A (2012) - Journal: Mol Cell Endocrinol - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 18. PMID 9262477 — LOW_SCORE **File:** `KNOWLEDGE.md` 
 **Actual (wrong?) paper:** Beltramo M 1997 — Functional role of high-affinity anandamide transport, as revealed by selective inhibition.
 **Keywords extracted:** ived, cell, line, Author, Chimento
 **No candidates found.**
@@ -5347,7 +5347,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 705. PMID 5785179 in `Ontogenesis/docs/REFERENCE_AUDIT_Ontogenesis.md`
-**Your context:** ed by selective inhibition.* - Author: Beltramo M (1997) - Journal: Science - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 19. PMID 5785179 — LOW_SCORE **File:** `KNOWLEDGE.md` 
+**Your context:** ed by selective inhibition.* - Author: Beltramo M (1997) - Journal: Science - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 19. PMID 5785179 — LOW_SCORE **File:** `KNOWLEDGE.md` 
 **Actual (wrong?) paper:** Marshall WA 1969 — Variations in pattern of pubertal changes in girls.
 **Keywords extracted:** selective, inhibition, Author, Beltramo, Journal
 **No candidates found.**
@@ -5361,28 +5361,28 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 707. PMID 5785179 in `Ontogenesis/docs/REFERENCE_AUDIT_Ontogenesis.md`
-**Your context:** rify if citation is correct; if not, search for proper PMID.   ## 20. PMID 12803352 — LOW_SCORE **File:** `KNOWLEDGE.md` **Your context:** 262477 | | Tanner staging standard | Marshall & Tanner 1969, PMID 5785179 | | Working memory capacity ~7±2 | Mi
+**Your context:** rify if citation is correct; if not, search for proper PMID. ## 20. PMID 12803352 — LOW_SCORE **File:** `KNOWLEDGE.md` **Your context:** 262477 | | Tanner staging standard | Marshall & Tanner 1969, PMID 5785179 | | Working memory capacity ~7±2 | Mi
 **Actual (wrong?) paper:** Marshall WA 1969 — Variations in pattern of pubertal changes in girls.
 **Keywords extracted:** rify, citation, correct, search, proper
 **No candidates found.**
 
 
 ## 708. PMID 223060 in `Ontogenesis/docs/REFERENCE_AUDIT_Ontogenesis.md`
-**Your context:** urces  | Fact | Source | |------|--------| | Brain reaches 80% adult volume by age 3 | Knickmeyer et al. 2008, PMID 18971494 | | Prefrontal cortex myelination completes ~24–25 yr | Lebel et al. 2012, PMID 223060 **Actual PubMed record:** - Title: *Cl
+**Your context:** urces | Fact | Source | |------|--------| | Brain reaches 80% adult volume by age 3 | Knickmeyer et al. 2008, PMID 18971494 | | Prefrontal cortex myelination completes ~24–25 yr | Lebel et al. 2012, PMID 223060 **Actual PubMed record:** - Title: *Cl
 **Actual (wrong?) paper:** Robinson WE 1979 — GTP hydrolysis in intact rod outer segments and the transmitter cycle in visual excitation.
 **Keywords extracted:** urces, Fact, Source, Brain, reaches
 **No candidates found.**
 
 
 ## 709. PMID 12482986 in `HAP/LINKS.md`
-**Your context:** Horizon*, 2(4). 2026.  ## Ключевые литературные источники  - FXR в ЦНС: Huang F. et al. (2019). *Nat Commun*. DOI: 10.1038/s41467-019-09849-7 - TGR5 в мозге: Kawamata Y. et al. (2003). *J Biol Chem*. PMID 12482986 - Bile acids & mood: Kirwan P. et al
+**Your context:** Horizon*, 2(4). 2026. ## Ключевые литературные источники - FXR в ЦНС: Huang F. et al. (2019). *Nat Commun*. DOI: 10.1038/s41467-019-09849-7 - TGR5 в мозге: Kawamata Y. et al. (2003). *J Biol Chem*. PMID 12482986 - Bile acids & mood: Kirwan P. et al
 **Actual (wrong?) paper:** Reeves WM 2003 — Activator-independent functions of the yeast mediator sin4 complex in preinitiation complex formation and transcription reinitiation.
 **Keywords extracted:** Horizon, Huang, Commun, Kawamata, Biol
 **No candidates found.**
 
 
 ## 710. PMID 12482986 in `HAP/docs/REFERENCE_AUDIT_HAP.md`
-**Your context:** # Reference Audit — HAP Generated: 2026-04-19T15:18:02.257291 Total mismatches flagged: **6**  ---   ## 1. PMID 12482986 — LOW_SCORE **File:** `LINKS.md` **Your context:** Horizon*, 2(4). 2026.  ## Ключевые литературные 
+**Your context:** # Reference Audit — HAP Generated: 2026-04-19T15:18:02.257291 Total mismatches flagged: **6** --- ## 1. PMID 12482986 — LOW_SCORE **File:** `LINKS.md` **Your context:** Horizon*, 2(4). 2026. ## Ключевые литературные 
 **Actual (wrong?) paper:** Reeves WM 2003 — Activator-independent functions of the yeast mediator sin4 complex in preinitiation complex formation and transcription reinitiation.
 **Keywords extracted:** Reference, Audit, Generated, Total, mismatches
 **Top candidates:**
@@ -5390,49 +5390,49 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 711. PMID 12482986 in `HAP/docs/REFERENCE_AUDIT_HAP.md`
-**Your context:** Horizon*, 2(4). 2026.  ## Ключевые литературные источники  - FXR в ЦНС: Huang F. et al. (2019). *Nat Commun*. DOI: 10.1038/s41467-019-09849-7 - TGR5 в мозге: Kawamata Y. et al. (2003). *J Biol Chem*. PMID 12482986 - Bile acids & mood: Kirwan P. et al
+**Your context:** Horizon*, 2(4). 2026. ## Ключевые литературные источники - FXR в ЦНС: Huang F. et al. (2019). *Nat Commun*. DOI: 10.1038/s41467-019-09849-7 - TGR5 в мозге: Kawamata Y. et al. (2003). *J Biol Chem*. PMID 12482986 - Bile acids & mood: Kirwan P. et al
 **Actual (wrong?) paper:** Reeves WM 2003 — Activator-independent functions of the yeast mediator sin4 complex in preinitiation complex formation and transcription reinitiation.
 **Keywords extracted:** Horizon, Huang, Commun, Kawamata, Biol
 **No candidates found.**
 
 
 ## 712. PMID 25657204 in `HAP/LINKS.md`
-**Your context:** 016/j.cmet.2015.07.004 - Bradford-Hill criteria: Hill A.B. (1965). *Proc R Soc Med*.  ## Планария (CDATA overlap)  - Planaria no liver, yet behavioral responses: Inoue T. et al. (2015). *J Exp Biol*. PMID 25657204 
+**Your context:** 016/j.cmet.2015.07.004 - Bradford-Hill criteria: Hill A.B. (1965). *Proc R Soc Med*. ## Планария (CDATA overlap) - Planaria no liver, yet behavioral responses: Inoue T. et al. (2015). *J Exp Biol*. PMID 25657204 
 **Actual (wrong?) paper:** Pohl NU 2015 — Effects of signal features and background noise on distance cue discrimination by a songbird.
 **Keywords extracted:** cmet, Bradford-Hill, criteria, Hill, Proc
 **No candidates found.**
 
 
 ## 713. PMID 25657204 in `HAP/docs/REFERENCE_AUDIT_HAP.md`
-**Your context:** scription reinitiation.* - Author: Reeves WM (2003) - Journal: Mol Cell Biol - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 2. PMID 25657204 — LOW_SCORE **File:** `LINKS.md` **Y
+**Your context:** scription reinitiation.* - Author: Reeves WM (2003) - Journal: Mol Cell Biol - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 2. PMID 25657204 — LOW_SCORE **File:** `LINKS.md` **Y
 **Actual (wrong?) paper:** Pohl NU 2015 — Effects of signal features and background noise on distance cue discrimination by a songbird.
 **Keywords extracted:** scription, reinitiation, Author, Reeves, Journal
 **No candidates found.**
 
 
 ## 714. PMID 27409075 in `HAP/docs/REFERENCE_AUDIT_HAP.md`
-**Your context:** iscrimination by a songbird.* - Author: Pohl NU (2015) - Journal: J Exp Biol - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 3. PMID 27409075 — LOW_SCORE **File:** `docs/literatu
+**Your context:** iscrimination by a songbird.* - Author: Pohl NU (2015) - Journal: J Exp Biol - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 3. PMID 27409075 — LOW_SCORE **File:** `docs/literatu
 **Actual (wrong?) paper:** Tomás CC 2016 — Proceedings of the 3rd IPLeiria's International Health Congress : Leiria, Portugal. 6-7 May 2016.
 **Keywords extracted:** iscrimination, songbird, Author, Pohl, Journal
 **No candidates found.**
 
 
 ## 715. PMID 27409075 in `HAP/docs/REFERENCE_AUDIT_HAP.md`
-**Your context:** ective+emotion+liver+2024&retmax=15&retmode=json&tool=CDATA_audit_2026&email=jaba%40longevity.ge&sort=relevance  ### Query: `liver aging emotion regulation`  **11 results** (sorted by relevance)  - **PMID 27409075** · Tomás C, Oliveira E, Sousa D, Ub
+**Your context:** ective+emotion+liver+2024&retmax=15&retmode=json&tool=CDATA_audit_2026&email=jaba%40longevity.ge&sort=relevance ### Query: `liver aging emotion regulation` **11 results** (sorted by relevance) - **PMID 27409075** · Tomás C, Oliveira E, Sousa D, Ub
 **Actual (wrong?) paper:** Tomás CC 2016 — Proceedings of the 3rd IPLeiria's International Health Congress : Leiria, Portugal. 6-7 May 2016.
 **Keywords extracted:** ective, emotion, liver, retmax, retmode
 **No candidates found.**
 
 
 ## 716. PMID 27409075 in `HAP/docs/literature_daily/PUBMED_HAP_2026-04-18.md`
-**Your context:** ective+emotion+liver+2024&retmax=15&retmode=json&tool=CDATA_audit_2026&email=jaba%40longevity.ge&sort=relevance  ### Query: `liver aging emotion regulation`  **11 results** (sorted by relevance)  - **PMID 27409075** · Tomás C, Oliveira E, Sousa D, Ub
+**Your context:** ective+emotion+liver+2024&retmax=15&retmode=json&tool=CDATA_audit_2026&email=jaba%40longevity.ge&sort=relevance ### Query: `liver aging emotion regulation` **11 results** (sorted by relevance) - **PMID 27409075** · Tomás C, Oliveira E, Sousa D, Ub
 **Actual (wrong?) paper:** Tomás CC 2016 — Proceedings of the 3rd IPLeiria's International Health Congress : Leiria, Portugal. 6-7 May 2016.
 **Keywords extracted:** ective, emotion, liver, retmax, retmode
 **No candidates found.**
 
 
 ## 717. PMID 35931049 in `HAP/docs/REFERENCE_AUDIT_HAP.md`
-**Your context:** gal. 6-7 May 2016.* - Author: Tomás CC (2016) - Journal: BMC Health Serv Res - Match score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 4. PMID 35931049 — LOW_SCORE **File:** `docs/literatu
+**Your context:** gal. 6-7 May 2016.* - Author: Tomás CC (2016) - Journal: BMC Health Serv Res - Match score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 4. PMID 35931049 — LOW_SCORE **File:** `docs/literatu
 **Actual (wrong?) paper:** Ramdas S 2022 — A multi-layer functional genomic analysis to understand noncoding genetic variation in lipids.
 **Keywords extracted:** Author, Journal, Health, Serv, Match
 **Top candidates:**
@@ -5456,7 +5456,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 720. PMID 30388399 in `HAP/docs/REFERENCE_AUDIT_HAP.md`
-**Your context:** ic variation in lipids.* - Author: Ramdas S (2022) - Journal: Am J Hum Genet - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 5. PMID 30388399 — LOW_SCORE **File:** `docs/literatu
+**Your context:** ic variation in lipids.* - Author: Ramdas S (2022) - Journal: Am J Hum Genet - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 5. PMID 30388399 — LOW_SCORE **File:** `docs/literatu
 **Actual (wrong?) paper:** Ligthart S 2018 — Genome Analyses of >200,000 Individuals Identify 58 Loci for Chronic Inflammation and Highlight Pathways that Link Inflammation and Complex Disorders.
 **Keywords extracted:** variation, lipids, Author, Ramdas, Journal
 **Top candidates:**
@@ -5479,7 +5479,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 723. PMID 32808644 in `HAP/docs/REFERENCE_AUDIT_HAP.md`
-**Your context:** nd Complex Disorders.* - Author: Ligthart S (2018) - Journal: Am J Hum Genet - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 6. PMID 32808644 — LOW_SCORE **File:** `docs/literatu
+**Your context:** nd Complex Disorders.* - Author: Ligthart S (2018) - Journal: Am J Hum Genet - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 6. PMID 32808644 — LOW_SCORE **File:** `docs/literatu
 **Actual (wrong?) paper:** Fan SZ 2021 — Nervous System Deletion of Mammalian INDY in Mice Mimics Dietary Restriction-Induced Memory Enhancement.
 **Keywords extracted:** Complex, Disorders, Author, Ligthart, Journal
 **Top candidates:**
@@ -5509,14 +5509,14 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 726. PMID 27330520 in `Ze/CONCEPT.md`
-**Your context:** = 0.05/0.03 ≈ 1.67 (large effect)   N_min ≈ 12 (pair t-test) → слишком мало для ICC-based MCID    Для SEM-based MCID (target ICC≥0.75, SEM≤0.015):   N_ICC ≥ 50 субъектов с 2 визитами (Koo & Mae 2016, PMID 27330520)    Для anchor-based MCID с умеренно
+**Your context:** = 0.05/0.03 ≈ 1.67 (large effect) N_min ≈ 12 (pair t-test) → слишком мало для ICC-based MCID Для SEM-based MCID (target ICC≥0.75, SEM≤0.015): N_ICC ≥ 50 субъектов с 2 визитами (Koo & Mae 2016, PMID 27330520) Для anchor-based MCID с умеренно
 **Actual (wrong?) paper:** Koo TK 2016 — A Guideline of Selecting and Reporting Intraclass Correlation Coefficients for Reliability Research.
 **Keywords extracted:** large, effect, pair, t-test, ICC-based
 **No candidates found.**
 
 
 ## 727. PMID 27330520 in `Ze/docs/REFERENCE_AUDIT_Ze.md`
-**Your context:** # Reference Audit — Ze Generated: 2026-04-19T15:17:56.384949 Total mismatches flagged: **7**  ---   ## 1. PMID 27330520 — LOW_SCORE **File:** `CONCEPT.md` **Your context:** = 0.05/0.03 ≈ 1.67 (large effect)   N_min ≈ 12
+**Your context:** # Reference Audit — Ze Generated: 2026-04-19T15:17:56.384949 Total mismatches flagged: **7** --- ## 1. PMID 27330520 — LOW_SCORE **File:** `CONCEPT.md` **Your context:** = 0.05/0.03 ≈ 1.67 (large effect) N_min ≈ 12
 **Actual (wrong?) paper:** Koo TK 2016 — A Guideline of Selecting and Reporting Intraclass Correlation Coefficients for Reliability Research.
 **Keywords extracted:** Reference, Audit, Generated, Total, mismatches
 **Top candidates:**
@@ -5524,14 +5524,14 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 728. PMID 27330520 in `Ze/docs/REFERENCE_AUDIT_Ze.md`
-**Your context:** = 0.05/0.03 ≈ 1.67 (large effect)   N_min ≈ 12 (pair t-test) → слишком мало для ICC-based MCID    Для SEM-based MCID (target ICC≥0.75, SEM≤0.015):   N_ICC ≥ 50 субъектов с 2 визитами (Koo & Mae 2016, PMID 27330520)    Для anchor-based MCID с умеренно
+**Your context:** = 0.05/0.03 ≈ 1.67 (large effect) N_min ≈ 12 (pair t-test) → слишком мало для ICC-based MCID Для SEM-based MCID (target ICC≥0.75, SEM≤0.015): N_ICC ≥ 50 субъектов с 2 визитами (Koo & Mae 2016, PMID 27330520) Для anchor-based MCID с умеренно
 **Actual (wrong?) paper:** Koo TK 2016 — A Guideline of Selecting and Reporting Intraclass Correlation Coefficients for Reliability Research.
 **Keywords extracted:** large, effect, pair, t-test, ICC-based
 **No candidates found.**
 
 
 ## 729. PMID 37857775 in `Ze/docs/REFERENCE_AUDIT_Ze.md`
-**Your context:**  for Reliability Research.* - Author: Koo TK (2016) - Journal: J Chiropr Med - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 2. PMID 37857775 — LOW_SCORE **File:** `docs/literatu
+**Your context:** for Reliability Research.* - Author: Koo TK (2016) - Journal: J Chiropr Med - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 2. PMID 37857775 — LOW_SCORE **File:** `docs/literatu
 **Actual (wrong?) paper:** Violante IR 2023 — Non-invasive temporal interference electrical stimulation of the human hippocampus.
 **Keywords extracted:** Reliability, Research, Author, Journal, Chiropr
 **Top candidates:**
@@ -5555,7 +5555,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 732. PMID 39449097 in `Ze/docs/REFERENCE_AUDIT_Ze.md`
-**Your context:** the human hippocampus.* - Author: Violante IR (2023) - Journal: Nat Neurosci - Match score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 3. PMID 39449097 — LOW_SCORE **File:** `docs/literatu
+**Your context:** the human hippocampus.* - Author: Violante IR (2023) - Journal: Nat Neurosci - Match score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 3. PMID 39449097 — LOW_SCORE **File:** `docs/literatu
 **Actual (wrong?) paper:** Chetty CA 2024 — EEG biomarkers in Alzheimer's and prodromal Alzheimer's: a comprehensive analysis of spectral and connectivity features.
 **Keywords extracted:** human, hippocampus, Author, Violante, Journal
 **Top candidates:**
@@ -5579,7 +5579,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 735. PMID 38748979 in `Ze/docs/REFERENCE_AUDIT_Ze.md`
-**Your context:** ctivity features.* - Author: Chetty CA (2024) - Journal: Alzheimers Res Ther - Match score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 4. PMID 38748979 — LOW_SCORE **File:** `docs/literatu
+**Your context:** ctivity features.* - Author: Chetty CA (2024) - Journal: Alzheimers Res Ther - Match score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 4. PMID 38748979 — LOW_SCORE **File:** `docs/literatu
 **Actual (wrong?) paper:** Pack AM 2024 — Teratogenesis, Perinatal, and Neurodevelopmental Outcomes After In Utero Exposure to Antiseizure Medication: Practice Guideline From the AAN, AES, and
 **Keywords extracted:** ctivity, features, Author, Chetty, Journal
 **No candidates found.**
@@ -5606,7 +5606,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 738. PMID 27885969 in `Ze/docs/REFERENCE_AUDIT_Ze.md`
-**Your context:**  From the AAN, AES, and SMFM.* - Author: Pack AM (2024) - Journal: Neurology - Match score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 5. PMID 27885969 — LOW_SCORE **File:** `docs/literatu
+**Your context:** From the AAN, AES, and SMFM.* - Author: Pack AM (2024) - Journal: Neurology - Match score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 5. PMID 27885969 — LOW_SCORE **File:** `docs/literatu
 **Actual (wrong?) paper:** Bateman RM 2016 — 36th International Symposium on Intensive Care and Emergency Medicine : Brussels, Belgium. 15-18 March 2016.
 **Keywords extracted:** Author, Pack, Journal, Neurology, Match
 **Top candidates:**
@@ -5616,7 +5616,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 739. PMID 27885969 in `Ze/docs/REFERENCE_AUDIT_Ze.md`
-**Your context:**  of antiseizure medications (ASMs) and folic acid supplementation on the prevalence of major congenital malformations (MCMs), adverse perinatal outcomes, and neurodevelopmental outcomes in ch..._ - **PMID 27885969** · Bateman R, Sharpe M, Jagger J, E
+**Your context:** of antiseizure medications (ASMs) and folic acid supplementation on the prevalence of major congenital malformations (MCMs), adverse perinatal outcomes, and neurodevelopmental outcomes in ch..._ - **PMID 27885969** · Bateman R, Sharpe M, Jagger J, E
 **Actual (wrong?) paper:** Bateman RM 2016 — 36th International Symposium on Intensive Care and Emergency Medicine : Brussels, Belgium. 15-18 March 2016.
 **Keywords extracted:** antiseizure, medications, ASMs, folic, acid
 **Top candidates:**
@@ -5626,7 +5626,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 740. PMID 27885969 in `Ze/docs/literature_daily/PUBMED_Ze_2026-04-19.md`
-**Your context:**  of antiseizure medications (ASMs) and folic acid supplementation on the prevalence of major congenital malformations (MCMs), adverse perinatal outcomes, and neurodevelopmental outcomes in ch..._ - **PMID 27885969** · Bateman R, Sharpe M, Jagger J, E
+**Your context:** of antiseizure medications (ASMs) and folic acid supplementation on the prevalence of major congenital malformations (MCMs), adverse perinatal outcomes, and neurodevelopmental outcomes in ch..._ - **PMID 27885969** · Bateman R, Sharpe M, Jagger J, E
 **Actual (wrong?) paper:** Bateman RM 2016 — 36th International Symposium on Intensive Care and Emergency Medicine : Brussels, Belgium. 15-18 March 2016.
 **Keywords extracted:** antiseizure, medications, ASMs, folic, acid
 **Top candidates:**
@@ -5636,7 +5636,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 741. PMID 36808464 in `Ze/docs/REFERENCE_AUDIT_Ze.md`
-**Your context:** Belgium. 15-18 March 2016.* - Author: Bateman RM (2016) - Journal: Crit Care - Match score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 6. PMID 36808464 — LOW_SCORE **File:** `docs/literatu
+**Your context:** Belgium. 15-18 March 2016.* - Author: Bateman RM (2016) - Journal: Crit Care - Match score: 1 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 6. PMID 36808464 — LOW_SCORE **File:** `docs/literatu
 **Actual (wrong?) paper:** Bayram MB 2023 — Aging-induced alterations in EEG spectral power associated with graded force motor tasks.
 **Keywords extracted:** Belgium, March, Author, Bateman, Journal
 **Top candidates:**
@@ -5658,7 +5658,7 @@ Total candidates: **746** (LOW_SCORE mismatches)
 
 
 ## 744. PMID 40991078 in `Ze/docs/REFERENCE_AUDIT_Ze.md`
-**Your context:** aded force motor tasks.* - Author: Bayram MB (2023) - Journal: Exp Brain Res - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID.   ## 7. PMID 40991078 — LOW_SCORE **File:** `docs/literatu
+**Your context:** aded force motor tasks.* - Author: Bayram MB (2023) - Journal: Exp Brain Res - Match score: 0 keyword overlap **Action needed:** verify if citation is correct; if not, search for proper PMID. ## 7. PMID 40991078 — LOW_SCORE **File:** `docs/literatu
 **Actual (wrong?) paper:** Fernández-Rubio G 2025 — The neurophysiology of healthy and pathological aging: a comprehensive systematic review.
 **Keywords extracted:** aded, force, motor, tasks, Author
 **No candidates found.**

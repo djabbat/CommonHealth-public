@@ -1,0 +1,20 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| Risk | Probability | Impact | Mitigation |\n|------|-------------|--------|------------|\n| Low recruitment rate | Medium | High | Multi-site recruitment, extended enrollment period (TBD months) |\n| High dropout rate (>20%) | Medium | High | Retention strategies: reminders, incentives (TBD), flexible scheduling |\n| LLM API downtime or cost overrun | Medium | Medium | Fallback to rule-based chatbot; budget contingency (TBD%) |\n| Contamination between arms | Low | Medium | Cluster randomisation by site; clear separation of intervention/control workflows |\n| Adverse events from LLM advice | Low | High | DSMB monitoring; stopping rule (AE rate >5%); medical disclaimer in system |\n| Data privacy breach | Low | Very High | Encryption at rest/transit; access control; GDPR-compliant data handling; audit log |\n| σ assumption incorrect (σ > 12) | Medium | High | Sensitivity analysis (σ=8,10,12); adaptive sample size re-estimation at interim (N=100) |"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "- Single-site design limits generalisability to other healthcare systems or populations\n- Self-reported outcomes (PAM-13, MMAS-8, EQ-5D-5L) subject to recall and social desirability bias\n- Co-design process may introduce selection bias (participants more engaged than general population)\n- LLM-based intervention depends on third-party API (e.g., OpenAI, Anthropic); changes in API availability or pricing may affect sustainability\n- No blinding of participants or care providers due to nature of intervention; performance bias possible\n- Follow-up limited to 6 months; long-term effects on activation and clinical outcomes unknown\n- Contamination risk if control participants access similar LLM tools outside the study\n- Assumed standard deviation (σ=10) based on limited prior data; true variability may differ, affecting power"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "- **Lead PI:** TBD (to be confirmed)\n- **Co-Investigators:** TBD (to be confirmed)\n- **Potential partners:**\n  - Insignia Health (PAM-13 licence, patient activation expertise)\n  - Fraunhofer IGD (LLM integration, explainable AI)\n  - TSU (TBD University) — clinical site, recruitment\n  - University of Copenhagen — health economics, EQ-5D-5L analysis\n- **Roles:** Lead PI oversees trial design and execution; Co-Is contribute to specific work packages (e.g., LLM development, statistical analysis, patient engagement); partners provide licences, infrastructure, or recruitment sites.\n- **Status:** Partnership agreements in negotiation; formal letters of support to be obtained before funding submission."
+  }
+]

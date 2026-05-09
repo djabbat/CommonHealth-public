@@ -6,51 +6,51 @@
 
 | Paper | DOI |
 |-------|-----|
-| Ze System Manifesto | 10.65649/3hm9b025 |
-| Unified Axioms of the Ze Vectors Theory | 10.65649/km7eg015 |
-| Mathematical formalism of Ze | 10.65649/kzj86888 |
-| Emergence of the Minkowski Metric from Ze Dynamics | 10.65649/hqm2c554 |
-| Direct Derivation of Time Dilation from Ze Counters | 10.65649/zbv88741 |
-| Falsifiable Predictions of the Ze Framework | 10.65649/ggct1s51 |
-| A Falsification Protocol for Ze Theory | 10.65649/862z0s93 |
-| The Lorentz Group as an Automorphism of Ze Counting | 10.65649/mrs9rn27 |
-| Ze Impedance and the Emergence of the Minkowski Metric | 10.65649/1wy46k36 |
-| The Impedance of Spacetime | 10.65649/ys645s16 |
-| Ze-Syncorda | 10.65649/1394vq40 |
-| Ze-Cosmological Alternatives to the Big Bang | 10.65649/ghcqvf90 |
-| Ze, decoherence, and the quantum eraser | 10.65649/39hf1h41 |
-| The Double-Slit Experiment Is Already Happening in the Brain | 10.65649/nwcw7m47 |
-| Interference is Controlled by Prediction | 10.65649/pt1hx97 |
-| Space and Time as Orthogonal Projections of a Conserved State Vector | 10.65649/vg09zp31 |
-| A Vectorial Axiomatization of Space-Time Unity | 10.65649/t6yawf32 |
-| Space-Time from a Conserved State Vector | 10.65649/jr6h6b33 |
-| From Metric to Vector | 10.65649/4nw8wh34 |
-| Beyond Relativity | 10.65649/7g8vzm52 |
-| Ze and Relational QM | 10.65649/223jgc16 |
-| Ze Systems Generate Entropy to Forge Truth | 10.65649/vgrw2c93 |
-| Ze System Generates Ze System | 10.65649/d6444j71 |
-| Competition Between Ze Systems | 10.65649/carwe547 |
-| Why Ze is not Many-Worlds | 10.65649/fyd9x473 |
-| Sleep as Suspension of Localization | 10.65649/xz8vte24 |
-| Twin Paradox Without Paradox | 10.65649/7ytpx088 |
-| Quantum Behavior as a Consequence of Ze Systems | 10.65649/93qfwv21 |
-| Ze → Twistor → Spin Network | 10.65649/nd2dae94 |
-| Reconstructing Special Relativity from Ze | 10.65649/1sdtpd07 |
+| Ze System Manifesto | |
+| Unified Axioms of the Ze Vectors Theory | |
+| Mathematical formalism of Ze | |
+| Emergence of the Minkowski Metric from Ze Dynamics | |
+| Direct Derivation of Time Dilation from Ze Counters | |
+| Falsifiable Predictions of the Ze Framework | |
+| A Falsification Protocol for Ze Theory | |
+| The Lorentz Group as an Automorphism of Ze Counting | |
+| Ze Impedance and the Emergence of the Minkowski Metric | |
+| The Impedance of Spacetime | |
+| Ze-Syncorda | |
+| Ze-Cosmological Alternatives to the Big Bang | |
+| Ze, decoherence, and the quantum eraser | |
+| The Double-Slit Experiment Is Already Happening in the Brain | |
+| Interference is Controlled by Prediction | |
+| Space and Time as Orthogonal Projections of a Conserved State Vector | |
+| A Vectorial Axiomatization of Space-Time Unity | |
+| Space-Time from a Conserved State Vector | |
+| From Metric to Vector | |
+| Beyond Relativity | |
+| Ze and Relational QM | |
+| Ze Systems Generate Entropy to Forge Truth | |
+| Ze System Generates Ze System | |
+| Competition Between Ze Systems | |
+| Why Ze is not Many-Worlds | |
+| Sleep as Suspension of Localization | |
+| Twin Paradox Without Paradox | |
+| Quantum Behavior as a Consequence of Ze Systems | |
+| Ze → Twistor → Spin Network | |
+| Reconstructing Special Relativity from Ze | |
 | Bayesian Priors Prediction in Ze | (in Materials/20251201) |
 | Bayesian Order in Ze | (in Materials/20251015) |
-| Subatomic Particles with Intrinsic Ze | 10.65649/rr43c231 |
-| Physical Interpretation of Ze | 10.65649/285bj315 |
+| Subatomic Particles with Intrinsic Ze | |
+| Physical Interpretation of Ze | |
 
 ## Zenodo (Scholar-indexed)
 
-- Ze as Observer: https://doi.org/10.5281/zenodo.19174630
+- Ze as Observer: 
 
 ## Priority Self-Citations (always include)
 
 1. PMID 36583780 — https://pubmed.ncbi.nlm.nih.gov/36583780/
 2. PMID 20480236 — https://pubmed.ncbi.nlm.nih.gov/20480236/
-3. Zenodo Ze — https://doi.org/10.5281/zenodo.19174630
-4. Zenodo CDATA — https://doi.org/10.5281/zenodo.19174506
+3. Zenodo Ze — 
+4. Zenodo CDATA — 
 
 ---
 

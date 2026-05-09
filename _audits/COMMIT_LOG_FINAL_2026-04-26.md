@@ -157,8 +157,8 @@ Reasoning: Wave 2 CommonHealth fund-perspective review identified IP gap as stru
 **Choice:** Option G — combination phased approach:
 - **Phase 1 (now → Impetus LOI июль 2026):** Self-manage через Tkemaladze. Impetus scale ($75-150K) достаточно для personal management.
 - **Phase 2 (2026-Q3 → EIC 2027 submission):** Recruit одно из двух:
-  - University partnership (TSU / Ilia State Univ / AgUni Tbilisi) — MoU + 10-25% overhead, доступ к institutional grants office
-  - Lifeboat Foundation fiscal sponsorship через Eric Klien (already на board Annals of Rejuvenation Science с 2026-04-26)
+ - University partnership (TSU / Ilia State Univ / AgUni Tbilisi) — MoU + 10-25% overhead, доступ к institutional grants office
+ - Lifeboat Foundation fiscal sponsorship через Eric Klien (already на board Annals of Rejuvenation Science с 2026-04-26)
 - Trigger to start recruitment: positive Impetus feedback OR confirmed EIC 2027 submission intent
 
 **Action item для Tkemaladze:** в 2026-Q3 (ориентировочно сентябрь):
@@ -175,9 +175,9 @@ Reasoning: Wave 2 CommonHealth fund-perspective review identified IP gap as stru
 **Implementation plan:**
 1. Download Tabula Muris/Sapiens RNA-seq counts data
 2. Define gene panels per counter:
-   - Centriolar: CCP1/AGBL1, AGBL5, TTLL family, Ninein, Cep164
-   - Telomere: TERT, TERC, POT1, TRF1/2, ATM, ATR
-   - MitoROS: SOD1/2, GPX1, CAT, NDUFA-family, OXPHOS markers
+ - Centriolar: CCP1/AGBL1, AGBL5, TTLL family, Ninein, Cep164
+ - Telomere: TERT, TERC, POT1, TRF1/2, ATM, ATR
+ - MitoROS: SOD1/2, GPX1, CAT, NDUFA-family, OXPHOS markers
 3. Ridge regression (sklearn): tissue-counter expression × predicted w_i
 4. Pre-register on OSF before fitting
 5. Output: PARAMETERS.md w_i(tissue) updated с predicted values + 95% CI

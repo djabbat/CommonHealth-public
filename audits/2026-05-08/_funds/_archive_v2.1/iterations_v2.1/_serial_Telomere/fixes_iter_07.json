@@ -1,0 +1,32 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium and Collaboration Plan",
+    "body": "**Placeholder for consortium partners.**\n\nTo ensure deliverability and facilitate large-scale validation, the following types of collaboration are sought:\n\n- **Telomere biology laboratory:** Expertise in single-cell Q-FISH, TRF, and STELA. Potential partner: [Laboratory of Telomere Biology, University X].\n- **Bioinformatics / computational biology group:** For modeling telomere length distributions and Bayesian parameter estimation. Potential partner: [Institute Y, Department of Computational Biology].\n- **Clinical cohort access:** For longitudinal telomere measurement in human cohorts (e.g., blood, skin biopsies). Potential partner: [Clinical Research Center Z, cohort name TBD].\n- **Oxidative stress / redox biology lab:** For controlled stress experiments (paraquat, hypoxia). Potential partner: [Redox Biology Group, University W].\n\nFormal collaboration agreements, data-sharing protocols, and authorship guidelines will be established post-funding. A detailed consortium agreement will be drafted within 6 months of project start."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "insert_after_line",
+    "line_anchor": "## 6. Falsifiability and Risk Assessment",
+    "body": "\n### Unified Risk Matrix\n\n| Risk ID | Risk Description | Probability | Impact | Mitigation / Action |\n|---------|------------------|-------------|--------|---------------------|\n| R1 | τ₂ cannot be reliably estimated from in vitro data | 0.30 (moderate) | High | Use Bayesian model averaging; if inconclusive, switch to in vivo cohort study (see OP-T1) |\n| R2 | α₂ and β₂ are not separable in vivo due to confounding | 0.25 (moderate) | High | Apply longitudinal design with repeated measures; use mixed-effects models to partition variance |\n| R3 | No significant telomere erosion observed under stress (falsification of β₂) | 0.10 (low) | Critical | Reject β₂ contribution; revise CONCEPT.md §2; design alternative stress-sensing mechanism |\n| R4 | Non-linear dynamics require stochastic reformulation | 0.20 (low) | High | Replace β₂·(t/τ₂) with stochastic jump process; update CONCEPT.md §2 |\n| R5 | Lack of reproducibility across laboratories | 0.15 (low) | Medium | Pre-register protocols; use blinded analysis; share cell lines and reagents |\n| R6 | Difficulty transitioning from in vitro to in vivo models | 0.25 (moderate) | High | Develop organoid or ex vivo tissue culture as intermediate step |\n| R7 | Funding or collaboration delays | 0.20 (low) | Medium | Maintain contingency budget; identify backup partners |\n\n**Decision rule:** If any risk with Impact = Critical materializes, initiate Model Update Protocol (see DESIGN.md §5). For High-impact risks, convene consortium review within 30 days."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "insert_after_line",
+    "line_anchor": "## 6. Falsifiability and Risk Assessment",
+    "body": "\n### Sample Size Calculation for All Falsification Conditions\n\n**Condition 1 (α₂ threshold):** Effect size = 10 bp/PD difference, SD = 4 bp/PD (from PMID:24374808). Two-sided t-test, α = 0.05, power = 0.80 → N ≥ 12 independent cell lines per condition.\n\n**Condition 2 (β₂ threshold):** Effect size = 5 bp/year difference, SD = 3 bp/year (estimated from longitudinal cohort data). Two-sided t-test, α = 0.05, power = 0.80 → N ≥ 16 individuals per group.\n\n**Condition 3 (interaction α₂ × β₂):** Effect size = 2 bp/PD per unit stress, SD = 1.5 bp/PD (from pilot data). Two-sided t-test, α = 0.05, power = 0.80 → N ≥ 20 independent samples per condition.\n\n**Condition 4 (nonlinearity):** Effect size = deviation from linearity of 3 bp/PD², SD = 2 bp/PD² (from simulation). Two-sided t-test, α = 0.05, power = 0.80 → N ≥ 15 time points per trajectory.\n\n**Note:** All calculations assume normal distribution and equal variance. If assumptions are violated, non-parametric tests or bootstrapping will be used, and sample sizes may need to be increased by 10–20%."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "insert_after_line",
+    "line_anchor": "## 7. Open Questions and Limitations",
+    "body": "\n### Alternative Models of Telomere Aging\n\nThe current framework assumes that mean telomere length is the primary driver of cellular senescence. However, several alternative models exist:\n\n- **Stochastic Telomere Loss (Steenstrup et al., 2013):** Telomere shortening is not deterministic but occurs via random loss events, leading to a distribution of lengths. The shortest telomere, not the mean, may trigger senescence.\n- **Shortest Telomere as Trigger (Hemann et al., 2001):** Cellular senescence is triggered when a single telomere reaches a critically short length, regardless of the mean.\n- **Telomere Dysfunction-Induced Foci (TIF) Model:** The number of dysfunctional telomeres (marked by TIF) is a better predictor of senescence than length alone.\n\n**Implications for MCOA:** If the shortest telomere model is correct, the counter state D₂ should be redefined as the minimum telomere length in a cell, not the mean. This would require a shift from population-average to single-cell distribution modeling. The current framework acknowledges this limitation (see OP-T1) and proposes experiments to distinguish between models."
+  },
+  {
+    "file": "OPEN_PROBLEMS.md",
+    "action": "insert_after_line",
+    "line_anchor": "**Decision rule:** If outcome 2, 3, or 4 occurs, initiate Model Update Protocol (see DESIGN.md §5).",
+    "body": "\n**Statistical criterion for 'no significant change' (Outcome 4):**\n- **Frequentist:** p > 0.10 from a two-sided t-test comparing slope to zero, AND an equivalence test (TOST) with equivalence bounds of ±2 bp/PD shows p < 0.05 for equivalence.\n- **Bayesian:** Bayes factor (BF01) > 3 in favor of the null model (no slope) over the alternative model (slope ≠ 0).\n\nIf both criteria are met, Outcome 4 is confirmed. If only one criterion is met, the result is considered inconclusive and additional data (N increased by 50%) will be collected."
+  }
+]

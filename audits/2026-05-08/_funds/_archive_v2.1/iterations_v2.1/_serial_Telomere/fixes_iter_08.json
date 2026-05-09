@@ -1,0 +1,32 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Pre-registration Plan",
+    "body": "**Pre-registration:** All primary experimental tests (OP-T1, OP-T2) will be pre-registered on the Open Science Framework (OSF) at [https://osf.io/TBD] before data collection. Planned registration date: 2026-10-01."
+  },
+  {
+    "file": "README.md",
+    "action": "insert_after_line",
+    "line_anchor": "Связи с другими файлами",
+    "body": "\n**Consortium Plan (placeholder):**\n- Telomere biology & Q-FISH measurements: Prof. [Name], Department of [X], University [Y] (letter of intent pending).\n- Computational modeling & MCOA integration: [Your lab/group].\n- In vivo validation (mouse models): Dr. [Name], Institute [Z] (confirmed interest, 2026-04-22)."
+  },
+  {
+    "file": "PARAMETERS.md",
+    "action": "insert_after_line",
+    "line_anchor": "Γ_{2,5}",
+    "body": "\n| Parameter | Value | Uncertainty (CI or SD) | Source |\n|-----------|-------|------------------------|--------|\n| Γ_{2,3} | TBD | TBD (placeholder; to be estimated from perturbation experiments in OP-T3) | TBD |\n| Γ_{2,5} | TBD | TBD (placeholder; to be estimated from perturbation experiments in OP-T3) | TBD |"
+  },
+  {
+    "file": "DESIGN.md",
+    "action": "insert_after_line",
+    "line_anchor": "TelomereCounter.update",
+    "body": "\n```python\nif coupling_inputs and 'ROS_level' in coupling_inputs:\n    beta_eff = self.beta * (1.0 + self.gamma_23 * coupling_inputs['ROS_level'])\n```\nAlso add method `set_tissue_weight(tissue, w)` for flexible calibration."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "insert_after_line",
+    "line_anchor": "Open Questions and Limitations",
+    "body": "\n**7.6 Pre-registration and consortium:** As of 2026-04-22, no formal pre-registration plan has been filed and no consortium agreements have been signed. Both are prerequisites for funding and will be completed by 2026-10-01 and 2026-12-01, respectively."
+  }
+]

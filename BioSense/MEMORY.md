@@ -15,15 +15,15 @@
 ### 2026-03: Proxy method adopted as primary Ze metric for resting EEG
 - **Decision:** Use alpha peak frequency → v_proxy rather than broadband binarization
 - **Rationale:** Resting EEG alpha (~10 Hz) is far from v* (0.45631); broadband Ze gives
-  noisy results. Proxy method is equivalent to standard alpha peak analysis but expresses
-  results in Ze units.
+ noisy results. Proxy method is equivalent to standard alpha peak analysis but expresses
+ results in Ze units.
 - **Limitation:** χ_Ze is a monotonic transformation of f_peak at fixed fs; no independent
-  information beyond alpha peak frequency.
+ information beyond alpha peak frequency.
 
 ### 2026-03: Resting-state EEG identified as low-sensitivity context for Ze
 - **Decision:** Shift focus to task-based EEG (cognitive load) and narrow 25–35 Hz band
 - **Rationale:** At alpha peak (~10 Hz), Δχ_Ze per Hz is tiny (~0.005); for 80% power
-  (d=0.11, LEMON result) need N≈1289/group — not achievable
+ (d=0.11, LEMON result) need N≈1289/group — not achievable
 - **Next target:** n-back / working memory datasets where beta/gamma dominate
 
 ### 2025: ze_eeg_validation/ created as separate git repo
@@ -37,17 +37,17 @@
 
 ### EEG analysis
 1. **ICA preprocessing smooths individual differences** — preprocessed LEMON data showed
-   smaller effects than Dortmund (less preprocessing). Less filtering = more Ze signal.
+ smaller effects than Dortmund (less preprocessing). Less filtering = more Ze signal.
 2. **Cross-spectral matrix (Cuban) gives cleaner f_peak** than PSD on raw EEG —
-   averaging reference + Laplacian improves signal-to-noise.
+ averaging reference + Laplacian improves signal-to-noise.
 3. **EC vs EO transition is the strongest Ze effect** (d≈0.6–1.0) — much larger than
-   young vs old resting state (d≈0.1). Within-subject designs are more powerful.
+ young vs old resting state (d≈0.1). Within-subject designs are more powerful.
 4. **Band-specific Ze in gamma (30–45 Hz) shows correct direction** but needs larger N.
-   Beta/gamma bands are where Ze theory has theoretical advantage.
+ Beta/gamma bands are where Ze theory has theoretical advantage.
 
 ### Statistical
 5. **ANCOVA (sex-adjusted) is necessary** for cross-sectional age comparisons —
-   sex effects on alpha frequency confound Ze group differences.
+ sex effects on alpha frequency confound Ze group differences.
 6. **AUC > 0.7 = acceptable biomarker** — Dortmund AUC=0.715 meets this threshold.
 7. **Quadratic model for lifespan** — inverted-U better than linear (χ_Ze peaks ~36.5 yr).
 

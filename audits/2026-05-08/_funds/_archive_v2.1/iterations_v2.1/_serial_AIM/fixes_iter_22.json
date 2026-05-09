@@ -1,0 +1,38 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "### Numeric thresholds (consolidated)\n- **Primary endpoint:** PAM-13 Δ ≥ 5.4 points (MCID)\n- **Significance level:** α = 0.05 (two-sided) for primary analysis; Bonferroni-adjusted α = 0.025 for each of ≤2 secondary endpoints. No other α thresholds (e.g., p < 0.001) are used.\n- **Power:** 0.80\n- **Sample size:** N ≥ 55 per group (see Sample size calculation)\n- **Stopping rule:** Adverse event rate >5% in intervention arm (any AE, assessed monthly by DSMB)\n- **Interim analysis:** Planned at N=100 (50 per group) for futility only (O'Brien-Fleming boundary, α-spending = 0.005). If conditional power <20%, trial will be stopped for futility.\n- **Primary analysis:** Intention-to-treat (ITT); per-protocol sensitivity analysis as secondary\n- **Consistency note:** All falsifiability thresholds are identical across CONCEPT.md and THEORY.md. Any future updates must be synchronised across both files."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Pre-registration plan",
+    "body": "- **OSF ID:** `osf.io/TBD` (placeholder; to be reserved before enrollment start; reservation date: 2026-08-01; the placeholder will be replaced with the actual URL at that time).\n- **Consistency note:** The set of secondary outcomes listed here (MMAS-8, EQ-5D-5L, hospitalisations) must match exactly the set in THEORY.md. Currently, THEORY.md includes 'physician time per visit' as an additional secondary outcome; this discrepancy must be resolved before pre-registration.\n- **Pre-registration date:** 2026-09-01 (planned; to be confirmed upon OSF reservation)\n- **Registered design:** Two-arm parallel RCT, superiority design\n- **Primary outcome:** PAM-13 change from baseline to 6 months\n- **Secondary outcomes:** MMAS-8, EQ-5D-5L, hospitalisation rate\n- **Analysis plan:** ITT primary, per-protocol sensitivity, Bonferroni correction for secondary endpoints"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Sample size calculation",
+    "body": "### Formula\nn = (Z_α/2 + Z_β)² · 2σ² / δ²\n\n### Parameters\n- **Z_α/2:** 1.96 (α = 0.05, two-sided)\n- **Z_β:** 0.84 (power = 0.80)\n- **σ (pooled SD):** TBD (placeholder; pending confirmation from pilot data or literature; currently assumed 10 based on Hibbard 2005, but this requires verification)\n- **δ (MCID):** 5.4 points (PAM-13)\n\n### Computation\nn = (1.96 + 0.84)² · 2 · σ² / (5.4)²\n\n### Result\n- **Per group:** N ≥ 55 (assuming σ = 10)\n- **Total:** N ≥ 110\n- **Sensitivity analysis:** TBD (placeholder; to be completed once σ is confirmed)\n\n### Note\nThis calculation is a placeholder pending finalisation of σ. The value σ = 10 is used provisionally but requires confirmation from a systematic review or pilot data."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| # | Risk | Probability | Impact | Mitigation |\n|---|---|---|---|---|\n| 1 | Low recruitment rate | Medium | High | Extend recruitment period; add recruitment sites |\n| 2 | High dropout rate (>20%) | Medium | High | Implement retention strategies; per-protocol analysis |\n| 3 | PAM-13 measurement error | Low | Medium | Use validated instrument; train assessors |\n| 4 | Contamination between arms | Low | High | Cluster randomisation by site; monitor fidelity |\n| 5 | Adverse events >5% | Low | High | DSMB monitoring; stopping rule in place |\n| 6 | Data quality issues | Medium | Medium | Double data entry; automated validation checks |\n| 7 | Software malfunction | Low | Medium | Backup systems; rollback plan |"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "- **Sample size:** The calculation relies on a placeholder σ (TBD), which may affect power if the true SD differs.\n- **Generalisability:** Single-country study; results may not apply to other healthcare systems.\n- **Blinding:** Open-label design; potential for performance bias.\n- **Measurement:** PAM-13 is self-reported; subject to recall bias.\n- **Duration:** 6-month follow-up may be insufficient to assess long-term outcomes.\n- **Secondary outcomes:** Multiple comparisons without full correction may inflate Type I error.\n- **Technology dependence:** Results may not generalise to other AI platforms or versions."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "- **Lead PI:** [Name TBD] (placeholder; to be confirmed)\n- **Co-I:** [Name TBD] (placeholder; to be confirmed)\n- **Insignia Health:** PAM-13 licensing and scoring support\n- **Fraunhofer Institute:** AI platform development and integration\n- **TSU (Tbilisi State University):** Clinical site and patient recruitment\n- **Copenhagen University Hospital:** Independent data monitoring and analysis\n- **Role assignment:** Detailed roles and responsibilities to be documented in a separate collaboration agreement."
+  }
+]

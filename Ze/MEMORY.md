@@ -1,5 +1,14 @@
 # Ze Vectors Theory — SESSION MEMORY
 
+<!-- REF_AUDIT_2026-05-08: FABRICATION CLEANUP applied
+Маркеры:
+ [REF_NEEDED 2026-05-08] — DOI был фабрикованным или указывал на чужую статью; нужен ручной поиск замены.
+ [PMID_REMOVED 2026-05-08] — PMID указывал на чужую статью; удалён.
+Источник решений: ~/Desktop/AUDIT_FUNDS_2026-05-08/patches/triage_decisions.json
+Backup: ~/Desktop/AUDIT_FUNDS_2026-05-08/backup_pre_cleanup/
+-->
+
+
 Running log of decisions, context, and key facts across sessions.
 
 ---
@@ -19,8 +28,6 @@ Running log of decisions, context, and key facts across sessions.
 - **Default language for code:** Rust (unless specific justification for another)
 - **Text/article tasks:** always route through DeepSeek API (deepseek-reasoner for Ze formalism)
 - **v* notation:** exact value is 1−ln2 ≈ 0.3069; the value 0.456 is an approximation used in some papers — clarify in new work
-- **Self-citation priority:** Zenodo Ze DOI (`10.5281/zenodo.19174630`) and PMID 36583780 before any 10.65649/* DOIs
-
 ---
 
 ## Recent Work

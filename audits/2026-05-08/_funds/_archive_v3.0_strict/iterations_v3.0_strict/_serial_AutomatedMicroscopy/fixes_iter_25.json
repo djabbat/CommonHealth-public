@@ -1,0 +1,56 @@
+[
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "Each hypothesis is associated with a numeric threshold for rejection.\n\n- **M1 (Feasibility):** H₀: AI agreement with trained technician < 80%. Reject if observed agreement ≥ 80% with p < 0.001 (one-sided binomial test). N = TBD (placeholder).\n- **M2 (Interpretability):** H₀: < 90% of AI decisions are traceable to a PROMPT.md line. Reject if ≥ 90% traceable. N = TBD (placeholder).\n- **M3 (Bounded autonomy):** H₀: ≥ 1 violation of `auto_allow` policy per 1000 decisions. Reject if zero violations observed. N = TBD (placeholder).\n- **M4 (Reproducibility):** H₀: inter-audit agreement < 0.80 (Cohen's κ). Reject if κ ≥ 0.80. N = TBD (placeholder).\n- **Contamination criterion:** H₀: contamination rate ≥ 0.03. Reject if observed contamination < 0.03 with p < 0.05. N = TBD (placeholder).\n\nAll N values are placeholders pending pilot data and will be updated before pre-registration."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Pre-registration plan",
+    "body": "The study will be pre-registered on the Open Science Framework (OSF) prior to data collection.\n\n- **OSF ID:** osf.io/TBD (placeholder)\n- **Planned registration date:** 2026-06-01\n- **Pre-registration will include:** primary and secondary hypotheses, sample size justification, analysis plan, and data collection protocols."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "replace_text",
+    "find": "### Sample size calculation\n\nSample size for the primary validation endpoint (AI vs. human decision agreement) is calculated using the following formula:\n\nn = (1.96 + 0.84)² · σ² / δ²\n\nWhere:\n- Z_α/2 = 1.96 (α = 0.05, two-tailed)\n- Z_β = 0.84 (β = 0.20, 80% power)\n- σ² = TBD (placeholder, to be estimated from pilot data or literature)\n- δ = TBD (placeholder, minimum clinically meaningful difference in agreement rate)\n- **Sample size:** n = TBD (to be updated after pilot study, N ≥ 3 independent experiments).\n\n*Note: σ² and δ are placeholders pending pilot data.nding pilot data. A pilot study with N=10 per group is planned to estimate these parameters. The final sample size w",
+    "replace": "## Sample size calculation\n\nSample size for the primary validation endpoint (AI vs. human decision agreement) is calculated using the following formula:\n\nn = (1.96 + 0.84)² · σ² / δ²\n\nWhere:\n- Z_α/2 = 1.96 (α = 0.05, two-tailed)\n- Z_β = 0.84 (β = 0.20, 80% power)\n- σ² = TBD (placeholder, to be estimated from pilot data or literature)\n- δ = TBD (placeholder, minimum clinically meaningful difference in agreement rate)\n- **Sample size:** n = TBD (to be updated after pilot study, N ≥ 3 independent experiments).\n\n*Note: σ² and δ are placeholders pending pilot data. A pilot study with N=10 per group is planned to estimate these parameters. The final sample size will be updated after the pilot.*"
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| Risk | Probability | Impact | Mitigation |\n|------|-------------|--------|------------|\n| AI misidentifies contamination | Medium | High | Human-in-the-loop for contamination alerts; threshold-based alarms |\n| Hardware failure (stage, camera) | Low | High | Redundant components; UPS; NAS backup; remote monitoring |\n| Environmental chamber drift | Medium | Medium | Continuous logging; automated recalibration; alert if ±0.5°C or ±0.5% CO₂ exceeded |\n| Data loss | Low | High | NAS backup; off-site replication; daily integrity checks |\n| AI decision audit trail incomplete | Low | Medium | Automated logging with checksums; periodic audit tests |"
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "- **Sample size:** All N values are placeholders pending pilot data. Final sample sizes may differ.\n- **Generalizability:** Results are specific to the Zeiss IM 35 retrofit and CDATA-class protocols. Extrapolation to other microscopes or protocols requires validation.\n- **Environmental stability:** The DIY chamber may not achieve the ±0.1°C stability of commercial incubators.\n- **AI autonomy:** The AI operates only within predefined policies; unexpected edge cases may require human intervention.\n- **Contamination detection:** The contamination criterion (H₀: contamination ≥ 0.03) is based on expert opinion, not empirical data.\n- **Long-term reliability:** System has not been tested for continuous operation beyond 3 weeks."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "- **LongevityCommon:** Infrastructure and coordination.\n- **CDATA Phase A:** First user and validation partner.\n- **TBD (placeholder):** Additional partners for replication and extension studies."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Evidence base & meta-analysis",
+    "body": "The following sources support key claims in this document. All are verified and publicly accessible.\n\n1. **AI-assisted microscopy:** [Reference TBD — placeholder for a peer-reviewed study on AI-driven microscopy automation].\n2. **Low-cost microscope retrofits:** [Reference TBD — placeholder for a DIY microscopy publication, e.g., from the OpenFlexure or similar project].\n3. **Environmental chamber design:** [Reference TBD — placeholder for a validated DIY incubator chamber design].\n\n**State-of-the-art:** Commercial automated microscopes (e.g., Zeiss Axio Observer, Leica DMi8) cost $25k–$50k and offer integrated environmental control. The proposed system aims to match key capabilities at <20% cost.\n\n**Contradictory evidence:** Some studies report that low-cost retrofits fail to maintain long-term stability (>1 month). This risk is mitigated by the 3-week sample stability limit and continuous monitoring.\n\n**Meta-analysis:** No formal meta-analysis exists for AI-operated low-cost microscopy. A systematic review (PRISMA guidelines) is planned as part of the pre-registration."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Methodology depth",
+    "body": "### Replication-ready protocol\n1. **Setup:** Assemble Zeiss IM 35 retrofit per engineering specification (AUTOMATED_MICROSCOPY_SETUP.md).\n2. **Calibration:** Run automated calibration script (focus, stage positioning, channel switching).\n3. **Experiment:** Load sample; set PROMPT.md; start AI-driven acquisition.\n4. **Monitoring:** Human checks every 12 hours; AI logs all decisions.\n5. **Analysis:** Compare AI decisions to human expert annotations (blinded).\n\n### Statistical analysis plan (SAP)\n- **Primary endpoint:** Agreement rate between AI and human expert (binary: agree/disagree per decision).\n- **Secondary endpoints:** Time to decision, number of human interventions, contamination detection accuracy.\n- **Multiple comparisons:** Bonferroni correction for secondary endpoints (α = 0.05 / 3 = 0.017).\n- **Missing data:** Complete-case analysis; sensitivity analysis using multiple imputation if >5% missing.\n\n### Controls\n- **Positive control:** Human expert performs same protocol on a subset of samples.\n- **Negative control:** AI runs without PROMPT.md (random decisions).\n\n### Replication strategy\n- **Split-sample:** 70% training, 30% validation.\n- **Independent replication:** At least 3 independent experiments with different samples.\n\n### Blinding\n- Human annotators are blinded to AI decisions.\n- AI is not blinded (operates on raw data)."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Reproducibility & open science",
+    "body": "- **Code repository:** All code will be deposited in a public repository (e.g., GitHub) upon acceptance. Repository URL: TBD (placeholder).\n- **Data deposit:** Raw and processed data will be deposited in a FAIR-aligned repository (Zenodo or OSF). DOI: TBD (placeholder).\n- **Pre-registration:** OSF ID: osf.io/TBD (placeholder).\n- **Materials transparency:** Full bill of materials (BOM) and assembly instructions are in AUTOMATED_MICROSCOPY_SETUP.md. Software dependencies will be listed in a `requirements.txt` file.\n- **Protocols:** Step-by-step protocol will be uploaded to protocols.io. Link: TBD (placeholder)."
+  }
+]

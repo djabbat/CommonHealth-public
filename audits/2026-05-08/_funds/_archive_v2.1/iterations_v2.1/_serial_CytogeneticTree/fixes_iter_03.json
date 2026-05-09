@@ -1,0 +1,38 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "The following numeric thresholds are defined for hypothesis testing. All values are placeholders pending final power analysis and preregistration.\n\n| Hypothesis | Null (H₀) | Alternative (H₁) | Test | α | Power | Effect size | N per arm |\n|------------|-----------|------------------|------|---|-------|-------------|-----------|\n| H1: Old-centriole lineages proliferate less | μ_old = μ_young | μ_old < μ_young | Two-sample t-test (one-tailed) | 0.001 | 0.95 | d = 1.2 | 43 |\n| H2: Asymmetric divisions are enriched in stem-like cells | p_asym_stem = p_asym_diff | p_asym_stem > p_asym_diff | Fisher's exact test | 0.001 | 0.95 | OR = 2.0 | 43 |\n| H3: Centriole age correlates with senescence markers | ρ = 0 | ρ > 0 | Spearman correlation | 0.001 | 0.95 | ρ = 0.5 | 43 |\n\n**Note:** These thresholds supersede any conflicting values elsewhere in the document. All analyses will be preregistered with these exact parameters."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Pre-registration plan",
+    "body": "**OSF ID:** osf.io/TBD\n**Planned registration date:** 2026-07-01\n\n**Pre-registration content (consolidated, single block):**\n- Primary endpoint: proliferation rate (log2 fold change) in old-centriole vs young-centriole lineages\n- Secondary endpoints: proportion of asymmetric divisions, senescence marker intensity\n- Binding falsifiability thresholds: see unified table in §Falsifiability (N=43 per arm, α=0.001, power=0.95, effect size d=1.2)\n- Statistical analysis plan: two-sample t-test, two-tailed, α=0.001, power=0.95\n- Exclusion criteria: cell death, failed RITE labelling, technical artefacts\n- Planned sample size: N=43 per arm (total N=86 lineages)\n- Go/no-go decision criteria: based on unified falsifiability table only (no additional thresholds)\n\n**Amendments:** Any changes to the above will be documented as a versioned amendment on OSF prior to data analysis.\n\n**Linking note:** The pre-registration will contain the binding thresholds from §Falsifiability; no other thresholds will be used for confirmatory analysis."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Sample size calculation",
+    "body": "Sample size is calculated for the primary hypothesis (H1: old-centriole lineages proliferate less) using a two-sample t-test.\n\n**Formula:**\n\\[ n = \\frac{(z_{1-\\alpha/2} + z_{1-\\beta})^2 \\cdot 2\\sigma^2}{\\delta^2} \\]\n\nWhere:\n- \\( z_{1-\\alpha/2} = 1.96 \\) (two-tailed α = 0.05, placeholder; final α = 0.001 will use z = 3.29)\n- \\( z_{1-\\beta} = 0.84 \\) (power = 0.80, placeholder; final power = 0.95 will use z = 1.645)\n- \\( \\sigma^2 = \\text{TBD} \\) (variance of proliferation rate, estimated from pilot data)\n- \\( \\delta = \\text{TBD} \\) (minimum detectable effect size, target d = 1.2)\n\n**Placeholder calculation (α=0.05, power=0.80, d=1.2):**\n\\[ n = \\frac{(1.96 + 0.84)^2 \\cdot 2}{1.2^2} = \\frac{7.84 \\cdot 2}{1.44} \\approx 10.9 \\rightarrow 11 \\text{ per arm} \\]\n\n**Final target (α=0.001, power=0.95, d=1.2):**\n\\[ n = \\frac{(3.29 + 1.645)^2 \\cdot 2}{1.2^2} = \\frac{24.36 \\cdot 2}{1.44} \\approx 33.8 \\rightarrow 34 \\text{ per arm} \\]\n\n**With 20% attrition:** N = 34 / 0.8 ≈ 43 per arm (total N = 86 lineages).\n\n**Note:** These calculations are illustrative. Final values will be determined in the preregistration and may differ based on pilot data."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| # | Risk | Probability | Impact | Mitigation |\n|---|------|-------------|--------|------------|\n| 1 | RITE cassette for centriole labelling fails to produce functional construct | High | Critical | Parallel development of 3 alternative constructs; fallback to commercial anti-centriole antibodies with pulse-chase (lower resolution) |\n| 2 | Centriole age asymmetry not universal across all cell types | Medium | High | Pre-screen 5 cell lines (e.g., HCT116, RPE1, mESCs, human fibroblasts, neural progenitors); focus on those with strongest asymmetry |\n| 3 | Fluorescence signal too weak for reliable tracking | Medium | High | Optimize RITE cassette with stronger promoters; use confocal microscopy with sensitive detectors; consider expansion microscopy |\n| 4 | Cell culture contamination or mycoplasma | Low | Medium | Routine testing (qPCR, Hoechst stain); quarantine protocols; backup frozen stocks |\n| 5 | Computational lineage reconstruction fails due to tracking errors | Medium | High | Manual validation of 10% of tracks; use multiple tracking algorithms; develop ground-truth dataset with synthetic data |\n| 6 | Insufficient funding for full-scale experiment | Low | Critical | Apply for pilot grant (e.g., NIH R21); partner with core facility; reduce scope to 2 cell lines |\n| 7 | Regulatory/IRB issues for human cell lines | Low | Low | Use established cell lines with existing approvals; document provenance |"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "The following limitations are acknowledged:\n\n1. **Centriole asymmetry assumption:** The central premise that centriole age asymmetry is universal across all cell types and divisions remains unproven. If asymmetry is limited to specific stem cell niches, the tree reconstruction will be incomplete.\n\n2. **RITE cassette feasibility:** The RITE-based centriole labelling system has not been experimentally validated. Development may fail or produce unreliable labelling.\n\n3. **In vitro simplification:** All experiments are performed in 2D cell culture, which may not recapitulate in vivo differentiation dynamics, niche interactions, or mechanical cues.\n\n4. **Limited cell types:** The study will focus on a small number of cell lines (TBD), limiting generalizability to primary tissues or rare cell types.\n\n5. **Computational challenges:** Lineage reconstruction from imaging data is non-trivial; tracking errors, photobleaching, and cell migration may reduce accuracy.\n\n6. **No longitudinal in vivo validation:** The tree will be reconstructed from in vitro data; in vivo validation (e.g., lineage tracing in model organisms) is beyond the current scope.\n\n7. **Statistical power for secondary endpoints:** The sample size is optimized for the primary endpoint; secondary analyses (e.g., senescence markers) may be underpowered.\n\n8. **Temporal resolution:** The pulse-chase design provides snapshots at discrete timepoints; continuous dynamics of centriole aging are not captured."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "| Partner | Role | Status |\n|---------|------|--------|\n| Ilya Zheleznov | Principal investigator, experimental design | Confirmed |\n| TBD (cell biology) | RITE cassette construction and validation | Placeholder |\n| TBD (microscopy core) | Confocal imaging support | Placeholder |\n| TBD (computational biology) | Lineage reconstruction algorithm | Placeholder |\n| TBD (statistics) | Power analysis and data analysis | Placeholder |\n| TBD (stem cell biology) | Cell line provision and differentiation protocols | Placeholder |\n\n**Letters of support:** Pending from all TBD partners. Confirmed partner (Ilya Zheleznov) will provide letter upon request."
+  }
+]

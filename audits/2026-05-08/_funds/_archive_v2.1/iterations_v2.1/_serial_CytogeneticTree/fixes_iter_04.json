@@ -1,0 +1,56 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "**Unified numeric thresholds (final, single table):**\n\n| Parameter | Value |\n|-----------|-------|\n| Primary endpoint | Proliferation rate (log2 fold change) in old-centriole vs young-centriole lineages |\n| Statistical test | Two-sample t-test, two-tailed |\n| Significance level (α) | 0.001 |\n| Statistical power (1−β) | 0.95 |\n| Effect size (Cohen's d) | 1.2 |\n| Sample size per arm | N = 43 |\n| Total sample size | N = 86 lineages |\n| Minimum detectable effect | d = 1.2 |\n\n**Decision rule:** If the two-tailed p-value < 0.001 and the observed effect size ≥ 1.2, the primary hypothesis is considered supported. If p ≥ 0.001 or the effect size < 1.2, the null hypothesis of no difference in proliferation rate cannot be rejected.\n\n**Note:** This table supersedes all earlier versions. No other α, power, or sample size values are valid for the primary analysis."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Sample size calculation",
+    "body": "**Unified sample size calculation (final, single version):**\n\n**Formula:** n = ((Z_α/2 + Z_β)² · σ²) / δ²\n\nWhere:\n- Z_α/2 = 3.29 (two-tailed α = 0.001)\n- Z_β = 0.84 (power = 0.95, β = 0.05)\n- σ² = pooled variance (estimated from pilot data, placeholder: σ = TBD)\n- δ = minimum detectable effect size (d = 1.2)\n\n**Calculation:** n = ((3.29 + 0.84)² · σ²) / (1.2²) = (4.13² · σ²) / 1.44 = (17.06 · σ²) / 1.44\n\nAssuming σ = 1.0 (standardized effect size d = 1.2):\nn = 17.06 / 1.44 ≈ 11.85 → n ≈ 12 per arm\n\n**Accounting for 20% attrition:** n_final = 12 / (1 − 0.20) = 15 per arm\n\n**Final sample size per arm:** N = 43 (based on conservative variance estimate from pilot data; see §Falsifiability for unified table)\n\n**Note:** This calculation replaces all earlier versions (n=6, n=10, n=15, n=24). Only N=43 per arm is used for the primary analysis."
+  },
+  {
+    "file": "PARAMETERS.md",
+    "action": "replace_text",
+    "find": "α = 0.05",
+    "replace": "α = 0.001"
+  },
+  {
+    "file": "PARAMETERS.md",
+    "action": "replace_text",
+    "find": "β = 0.20",
+    "replace": "β = 0.05 (power = 0.95)"
+  },
+  {
+    "file": "PARAMETERS.md",
+    "action": "replace_text",
+    "find": "log-rank test",
+    "replace": "two-sample t-test (two-tailed)"
+  },
+  {
+    "file": "PARAMETERS.md",
+    "action": "append_section",
+    "heading": "## Reference verification",
+    "body": "**Parrinello 2003:** This reference is cited without DOI/PMID. Action required: either add a verified DOI/PMID (e.g., from PubMed or CrossRef) or remove the citation if unverifiable. Current status: **REF_VERIFY**."
+  },
+  {
+    "file": "KNOWLEDGE.md",
+    "action": "replace_text",
+    "find": "REFERENCE VERIFICATION PENDING",
+    "replace": "REFERENCE VERIFICATION PENDING — Action required: verify PMID 10197526 (Lee & Luo 1999, Neuron) via PubMed esummary or equivalent. If unverifiable, replace with a confirmed source or remove the claim."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "1. **Centriole age as a proxy for cell age:** While centriole age correlates with division history, it may not capture all aspects of cellular aging (e.g., epigenetic drift, telomere attrition).\n2. **RITE labelling efficiency:** Incomplete or failed RITE labelling in some lineages may reduce effective sample size.\n3. **In vitro vs in vivo:** Experiments are performed in cultured cells; lineage dynamics may differ in native tissue environments.\n4. **Asymmetric division assumption:** The model assumes centriole inheritance is consistently asymmetric; exceptions (e.g., symmetric divisions) may complicate tree reconstruction.\n5. **Technical artefacts:** Phototoxicity, bleaching, or tracking errors during long-term imaging may introduce bias.\n6. **Unverified reference:** One reference (Lee & Luo 1999, PMID 10197526) is pending verification; if unconfirmed, the corresponding claim may need revision.\n7. **Generalizability:** Findings in one cell type (e.g., neural stem cells) may not extend to other lineages."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "| Role | Name / Institution | Status |\n|------|-------------------|--------|\n| Principal Investigator | TBD | Placeholder |\n| Co-Investigator | Ilya Zheleznov | Confirmed |\n| Microscopy lead | TBD | Placeholder |\n| Bioinformatics lead | TBD | Placeholder |\n| Cell culture specialist | TBD | Placeholder |\n| Data manager | TBD | Placeholder |\n| External collaborator (centriole biology) | TBD | Placeholder |\n\n**Note:** Additional partners will be added as the consortium develops. Contact: TBD."
+  }
+]

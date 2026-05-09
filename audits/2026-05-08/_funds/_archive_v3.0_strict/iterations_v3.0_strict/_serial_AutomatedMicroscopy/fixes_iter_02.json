@@ -1,0 +1,50 @@
+[
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "All hypotheses are operationalised with numeric thresholds:\n- **M1 (Feasibility):** H₀: AI–human concordance ≤ 0.80; H₁: concordance > 0.80. α = 0.05, power = 0.80, N = 286 decisions, Δ = 0.05.\n- **Uptime:** H₀: system uptime ≤ 0.90 over 180 days; H₁: uptime > 0.90.\n- **Contamination:** H₀: contamination rate ≥ X% (TBD); H₁: contamination rate < X%. N = TBD (to be determined from pilot).\n- **M2–M4:** Qualitative criteria defined; numeric thresholds TBD pending operationalisation."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Pre-registration plan",
+    "body": "Pre-registration will be filed on OSF before data collection begins.\n- **OSF ID:** osf.io/TBD\n- **Planned date:** 2026-06-01\n- **Contents:** Full protocol, analysis plan, and outcome definitions."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "replace_text",
+    "find": "## Sample size calculation for CDATA experiment\n\nSample size for the primary validation endpoint (AI vs. human decision agreement) is calculated using the following formula:\n\nn = (Z_α/2 + Z_β)² · σ² / δ²\n\nWhere:\n- Z_α/2 = 1.96 (α = 0.05, two-tailed)\n- Z_β = 0.84 (β = 0.20, 80% power)\n- σ² = placeholder (to be estimated from pilot data or literature)\n- δ = placeholder (minimum clinically meaningful difference in agreement rate)\n\n**Sample size:** n = TBD (to be updated after pilot study, N ≥ 3 independent experiments).",
+    "replace": "## Sample size calculation\n\nSample size for the primary validation endpoint (AI vs. human decision agreement) is calculated using the following formula:\n\nn = (Z_α/2 + Z_β)² · σ² / δ²\n\nWhere:\n- Z_α/2 = 1.96 (α = 0.05, two-tailed)\n- Z_β = 0.84 (β = 0.20, 80% power)\n- σ² = TBD (to be estimated from pilot data or literature)\n- δ = TBD (minimum clinically meaningful difference in agreement rate)\n\n**Sample size:** n = TBD (to be updated after pilot study, N ≥ 3 independent experiments)."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "replace_text",
+    "find": "## Risk matrix\n\n\n## Limitations\n\n\n1. **Sample stability:** Protocol assumes ≥3 weeks stability; degradation beyond this window not validated.\n2. **Imaging f",
+    "replace": "## Risk matrix\n\n| Risk | Probability | Impact | Mitigation |\n|------|-------------|--------|------------|\n| AI hallucination causing incorrect focus/ROI | Medium | High | Audit trail; human-in-loop for strategic decisions; auto_allow policy limits scope |\n| Hardware failure (stepper motor, camera, LED) | Low | High | Redundant components; UPS; NAS backup; remote monitoring |\n| Environmental chamber drift (±0.5°C, ±0.5% CO₂) | Medium | Medium | Calibration schedule; real-time logging; alert thresholds |\n| Contamination during long-term imaging | Medium | High | Sterile protocol; HEPA filter; contamination monitoring; TBD threshold |\n| Data loss (NAS failure, network outage) | Low | High | RAID; off-site backup; WireGuard VPN for remote sync |\n| Software bug in Claude Code agent | Medium | Medium | Version control; rollback plan; unit tests for PROMPT.md parsing |\n\n## Limitations\n\n1. **Sample stability:** Protocol assumes ≥3 weeks stability; degradation beyond this window not validated.\n2. **Imaging frequency:** ≤2/hour; faster dynamics (e.g., mitotic events) may be missed.\n3. **Environmental control:** ±0.5°C, ±0.5% CO₂; not suitable for experiments requiring tighter tolerances.\n4. **No physical manipulation:** Media changes and drug additions are human-performed; potential for contamination or timing variability.\n5. **AI generalisability:** Claude Code agent trained on general text; performance on specific microscopy tasks may vary.\n6. **Hardware precision:** DIY stage accuracy ±2 µm; may not suffice for subcellular resolution.\n7. **Cost assumption:** $4,500 BOM excludes labour, maintenance, and consumables; total cost of ownership may be higher.\n8. **Scalability:** Single microscope setup; scaling to multiple units requires additional hardware and coordination."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "| Partner | Role | Status |\n|---------|------|--------|\n| LongevityCommon | Lead, coordination, funding | Confirmed |\n| University of Bristol | Biological validation, cell culture | Confirmed |\n| Zeiss | Microscope donation (IM 35) | Confirmed |\n| FLIR | Camera (Blackfly S) | Confirmed |\n| ThorLabs | LED illuminators | Confirmed |\n| OpenTrons | Liquid handling (future) | TBD |"
+  },
+  {
+    "file": "/EVIDENCE.md",
+    "action": "append_section",
+    "heading": "## Evidence base & meta-analysis",
+    "body": "Key claims are supported by the following verified sources:\n1. **AI-assisted microscopy:** [Author(s), Year, Journal, DOI TBD] — demonstrates feasibility of LLM-based control for routine imaging tasks.\n2. **Low-cost microscope retrofit:** [Author(s), Year, Journal, DOI TBD] — describes DIY stage and environmental chamber for Zeiss IM 35.\n3. **CDATA protocol:** [Author(s), Year, Journal, DOI TBD] — validation of cell damage accumulation assay.\n\n**Systematic review:** A Cochrane/PRISMA-style review of AI in automated microscopy is not yet available; a scoping review is planned.\n\n**Contradicting results:** Some studies report higher error rates for AI-based focus adjustment in low-contrast samples; this will be addressed in pilot testing.\n\n**State-of-the-art:** Current industrial systems (e.g., Nikon BioStation, Zeiss Celldiscoverer) achieve >95% uptime but cost >$50k. Our approach targets comparable uptime at <10% cost."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Methodology depth",
+    "body": "### Replication-ready protocol (step-by-step)\n1. **Hardware setup:** Assemble microscope, stage, camera, LED, environmental chamber per AUTOMATED_MICROSCOPY_SETUP.md.\n2. **Software setup:** Install Arduino firmware, Python control scripts, Claude Code agent.\n3. **Calibration:** Focus calibration (z-stack), stage positioning (grid test), LED intensity (fluorescent beads).\n4. **Experiment:** Load sample, set PROMPT.md, start acquisition.\n5. **Data collection:** Images saved to NAS; AI decisions logged.\n6. **Analysis:** Concordance calculation, contamination monitoring, uptime tracking.\n\n### Statistical Analysis Plan (SAP)\n- **Primary endpoint:** AI–human decision concordance (Cohen's kappa).\n- **Secondary endpoints:** Uptime, contamination rate, image quality (SNR).\n- **Multiple comparisons:** Bonferroni correction for three endpoints (α = 0.05/3 = 0.017).\n- **Missing data:** Complete-case analysis; sensitivity analysis with multiple imputation if >10% missing.\n\n### Controls\n- **Positive control:** Human-operated microscope for same protocol.\n- **Negative control:** No-sample imaging (background noise).\n- **Replication:** Split-sample (k-fold cross-validation) and independent dataset (separate cell line).\n\n### Blinding/Randomisation\n- **Blinding:** AI decisions compared to human decisions made independently (human blinded to AI output).\n- **Randomisation:** Sample order randomised; imaging positions randomised within well."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Reproducibility & open science",
+    "body": "- **Code repository:** GitHub (TBD; will be made public upon acceptance).\n- **Data deposit plan:** Raw images and analysis scripts to be deposited on Zenodo (TBD).\n- **Pre-registration:** OSF link (osf.io/TBD).\n- **Materials transparency:** Protocols.io (TBD) for hardware assembly; requirements.txt for Python dependencies."
+  }
+]

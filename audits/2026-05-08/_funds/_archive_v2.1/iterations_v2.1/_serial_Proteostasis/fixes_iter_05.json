@@ -1,0 +1,38 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "The following quantitative thresholds are defined for falsification:\n- Test 1 (n-linked threshold): N ≥ 100, p < 0.001, Cohen's d ≥ 0.8\n- Test 2 (t-linked threshold): N ≥ 10, power ≥ 0.8, p < 0.01\n- Test 3 (null hypothesis): p > 0.05, N ≥ 30\n- Test 4 (intervention effect): N ≥ 15, p < 0.01, 20% reduction\n\nAll thresholds are placeholders (X, N=TBD) and must be finalized in the pre-registration plan."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Pre-registration plan",
+    "body": "The study will be pre-registered on the Open Science Framework (OSF) with placeholder ID osf.io/TBD. Planned registration date: 2026-09-30. Analysis plan includes primary and secondary endpoints, exclusion criteria, and statistical methods (see Section 4)."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Sample size calculation",
+    "body": "Sample size is calculated using the formula: n = (1.96 + 0.84)² · σ² / δ², where 1.96 is the z-score for α=0.05, 0.84 for β=0.20 (80% power), σ² is the estimated variance, and δ is the minimum detectable effect size. Placeholder values for each parameter (P1–P4) are provided in PARAMETERS.md."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| Risk | Probability | Impact | Mitigation |\n|------|-------------|--------|------------|\n| No threshold observed in cell culture | Medium | High | Refine kinetic model; test alternative cell types |\n| Null correlation between chaperone dilution and aggregation | Medium | High | Re-evaluate n-linked component; consider ROS-driven aggregation |\n| Pharmacological rescue fails to reduce damage load | Low | High | Pre-screen compounds in vitro; use combination therapy |\n| Tissue-specific parameters not measurable | Medium | Medium | Use surrogate markers; cross-validate with animal models |\n| Model overfits to limited data | High | Medium | Pre-register all tests; use cross-validation |\n| Coupling matrix entries remain unquantified | High | Medium | Prioritize empirical measurement of key couplings |\n| Pre-registration not adhered to | Low | High | Enforce protocol; use independent auditor |"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "1. Lack of empirical calibration: All parameters in the kinetic equation for D₅(n, t) (α₅, β₅, τ₅, n₅*) are currently theoretical placeholders. No experimental data exist to validate them.\n2. Tissue-specific heterogeneity: The model assumes uniform behavior across cell types, but proteostasis kinetics likely vary significantly between tissues (e.g., neurons vs. fibroblasts).\n3. Simplified kinetics: The current equation does not account for stochastic fluctuations, feedback loops, or interactions with other aging hallmarks beyond the coupling matrix.\n4. Dependence on external measurements: The model requires quantitative inputs (e.g., chaperone levels, aggregation rates) that are not routinely available for human tissues.\n5. Placeholder thresholds: All falsification thresholds (N, p, effect size) are provisional and must be finalized based on pilot data.\n6. No intervention data: The model's predictions for pharmacological or genetic interventions remain untested."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "- Lead PI: [Placeholder Name], [Placeholder Institution]\n- Proteomics core: [Placeholder Name], [Placeholder Institution]\n- In vivo models: [Placeholder Name], [Placeholder Institution]\n- Cell culture assays: [Placeholder Name], [Placeholder Institution]\n- Clinical samples: [Placeholder Name], [Placeholder Institution]\n- Bioinformatics: [Placeholder Name], [Placeholder Institution]\n- Funding partners: [Placeholder Agency, Grant #TBD]"
+  }
+]

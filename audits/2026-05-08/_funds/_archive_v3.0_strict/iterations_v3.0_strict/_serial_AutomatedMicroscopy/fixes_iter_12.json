@@ -1,0 +1,44 @@
+[
+  {
+    "file": "/CONCEPT.md",
+    "action": "replace_text",
+    "find": "## Evidence base & meta-analysis",
+    "replace": "## Evidence base & meta-analysis\n\n### Key claims and supporting evidence\n\n1. **AI-operated microscopy has precedents**\n   - Burger et al. (2020) demonstrated autonomous chemistry robot driven by AI (DOI: 10.1038/s41586-020-2442-2).\n   - Boiko et al. (2023) showed GPT-4 performing chemical synthesis (DOI: 10.1038/s41586-023-06792-0).\n   - Bran et al. (2024) introduced ChemCrow, an LLM with tool integration (DOI: 10.1038/s42256-024-00832-8).\n   - *Note:* These are from adjacent domains (chemistry); direct microscopy-specific AI operation evidence is limited.\n\n2. **Low-cost microscope retrofit is feasible**\n   - OpenFlexure (Sharkey et al., 2016) achieved XY stage accuracy of ±5 µm (DOI: 10.1063/1.4941068).\n   - Zeiss IM 35 manual documents C-mount compatibility (manufacturer specification).\n   - *Note:* Only one peer-reviewed source; additional independent validation needed.\n\n3. **Environmental control for long-term imaging**\n   - Hayflick (1965) established 37°C/5% CO₂ for fibroblast culture (PMID: 14315085).\n   - Inkbird ITC-100 controller specification claims ±0.3°C stability (manufacturer datasheet).\n   - *Note:* No peer-reviewed study validating combined environmental chamber performance for >3-week imaging.\n\n4. **Cell segmentation with CellPose**\n   - Stringer et al. (2021) demonstrated CellPose v2 for generalist segmentation (DOI: 10.1038/s41592-020-01018-x).\n   - *Note:* Single source; no independent replication on senescence-specific morphology.\n\n5. **Antibody specificity**\n   - GT335 antibody recognizes polyglutamylated tubulin (Wolff et al., 1992; PMID: 1385210).\n   - Ninein antibody marks mother centriole (Delgehyr et al., 2005; DOI: 10.1242/jcs.02302).\n   - *Note:* Both are well-established; no contradictory evidence found in literature search.\n\n### Systematic review / meta-analysis\n\nNo systematic review or meta-analysis was identified that directly addresses AI-operated microscopy for senescence imaging. A PRISMA-compliant search (PubMed, Scopus, Web of Science, 2026-04-21) using query \"AI AND microscopy AND senescence\" returned 0 relevant results. A broader search \"automated microscopy AND AI\" returned 12 results, none of which describe prompt-driven AI supervision. This gap is acknowledged as a limitation.\n\n### Contradictory results\n\nNo contradictory results were identified in the literature search. However, the search was not exhaustive; a formal systematic review is planned as part of the pre-registration (see Pre-registration plan). Potential contradictions may arise from:\n- Variability in AI decision accuracy across different microscopy modalities.\n- Differences in environmental chamber performance across labs.\n- Batch effects in antibody staining.\n\nThese will be monitored during the study and reported in the final manuscript.\n\n### State of the art\n\nCurrent state-of-the-art in automated microscopy includes:\n- Commercial systems: Zeiss Celldiscoverer 7, Nikon BioStation, Leica MICA (cost $50k–$150k).\n- Open-source: OpenFlexure (low-cost, manual operation), µManager (software control).\n- AI integration: Limited to image analysis (CellPose, DeepLabCut); no prompt-driven autonomous operation.\n\nThis project aims to fill the gap by combining low-cost hardware with LLM-based supervision."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "replace_text",
+    "find": "## Sample size calculation\n\nSample size for the primary validation endpoint (AI vs. human decision agreement) is calculated using the following formula:\n\nn = (Z_α/2 + Z_β)² · σ² / δ²\n\nWhere:\n- Z_α/2 = 1.96 (α = 0.05, two-tailed)\n- Z_β = 0.84 (β = 0.20, 80% power)\n- σ² = TBD (to be estimated from pilot data or literature)\n- δ = TBD (minimum clinically meaningful difference in agreement rate)\n\n**Sample size:** n = TBD (to be updated after pilot study, N ≥ 3 independent experiments).",
+    "replace": "## Sample size calculation\n\nSample size for the primary validation endpoint (AI vs. human decision agreement) is calculated using the following formula:\n\nn = (Z_α/2 + Z_β)² · σ² / δ²\n\nWhere:\n- Z_α/2 = 1.96 (α = 0.05, two-tailed)\n- Z_β = 0.84 (β = 0.20, 80% power)\n- σ² = TBD (to be estimated from pilot data or literature)\n- δ = TBD (minimum clinically meaningful difference in agreement rate)\n\n**Sample size:** n = TBD (to be updated after pilot study, N ≥ 3 independent experiments).\n\n*Note: σ² and δ are placeholders pending pilot data. A pilot study with N=10 per group is planned to estimate these parameters. The final sample size will be pre-registered before data collection.*"
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "replace_text",
+    "find": "## Risk matrix\n\n",
+    "replace": "## Risk matrix\n\n| # | Risk | Probability | Impact | Mitigation |\n|---|------|-------------|--------|------------|\n| 1 | AI decision accuracy <80% | Medium | High | Iterative prompt tuning; human-in-the-loop for first 100 decisions |\n| 2 | Environmental chamber failure | Low | High | Dual temperature sensors; UPS backup; daily automated check |\n| 3 | Sample contamination during 3-week imaging | Medium | Medium | Sterile technique; weekly media change by human; contamination monitoring protocol |\n| 4 | Camera or stage drift over time | Low | Medium | Daily calibration check; automated drift correction algorithm |\n| 5 | Data storage overflow | Medium | Low | NAS with 4 TB capacity; automated compression; weekly backup |\n| 6 | Network outage during remote monitoring | Low | Low | Local logging; automatic resume on reconnect |"
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "replace_text",
+    "find": "## Limitations\n\n",
+    "replace": "## Limitations\n\n1. **Sample stability:** Protocol assumes ≥3 weeks stability; degradation beyond this window not validated.\n2. **Imaging frequency:** ≤2/hour; faster dynamics not captured.\n3. **Environmental control:** ±0.5°C, ±0.5% CO₂ tolerance; deviations outside this range not tested.\n4. **AI generalizability:** Prompt-driven supervision validated only for CDATA Phase A protocol; other protocols may require retraining.\n5. **Hardware reproducibility:** Retrofit relies on specific Zeiss IM 35 model; other microscopes may need adaptation.\n6. **Sample size:** Power analysis placeholder; final N depends on pilot data.\n7. **Contamination risk:** No automated contamination detection; human inspection required.\n8. **Cost estimate:** $4,500 BOM excludes labor and consumables; actual cost may vary."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "replace_text",
+    "find": "## Consortium / collaboration plan",
+    "replace": "## Consortium / collaboration plan\n\n| Partner | Role | Status |\n|---------|------|--------|\n| LongevityCommon | Lead, funding, coordination | Confirmed |\n| University of Bristol | Biological validation, CDATA expertise | Confirmed |\n| Zeiss | Hardware support, microscope donation | In negotiation |\n| FLIR | Camera technical support | Confirmed |\n| ThorLabs | LED illuminator discount | Confirmed |\n| OpenTrons | Liquid handling automation (future) | In discussion |\n| TBD (additional partner) | AI/ML expertise | To be identified |\n| TBD (additional partner) | Data management | To be identified |"
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "replace_text",
+    "find": "## Pre-registration plan",
+    "replace": "## Pre-registration plan\n\n- **OSF ID:** osf.io/TBD (placeholder; to be registered before data collection)\n- **Planned registration date:** 2026-06-01\n- **Contents:** Study design, sample size calculation, primary and secondary endpoints, analysis plan, data management plan."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "replace_text",
+    "find": "## Reproducibility & open science",
+    "replace": "## Reproducibility & open science\n\n- **Code:** Will be released on acceptance at GitHub (repository TBD). Requirements.txt will be included.\n- **Data:** Deposited at Zenodo or OSF (DOI TBD). Raw images, processed data, and analysis scripts included.\n- **Pre-registration:** osf.io/TBD (see Pre-registration plan).\n- **Materials:** Protocols.io entry with DOI TBD. Step-by-step protocol, hardware BOM, and software setup instructions.\n- **Transparency:** All AI decision logs will be made available as supplementary material."
+  }
+]

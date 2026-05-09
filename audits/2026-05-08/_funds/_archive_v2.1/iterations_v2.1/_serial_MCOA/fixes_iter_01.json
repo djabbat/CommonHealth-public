@@ -1,0 +1,32 @@
+[
+  {
+    "file": "MCOA/PARAMETERS.md",
+    "action": "replace_text",
+    "find": "**To be measured** (Reference NEEDED: prior PMID 26833090 was fabricated. Suggested replacements: Schultz MB & Sinclair DA *Cell* 2019 PMID 30982602 …)",
+    "body": "**To be measured** (placeholder)"
+  },
+  {
+    "file": "MCOA/EVIDENCE.md",
+    "action": "replace_text",
+    "find": "MSE = -0.093",
+    "body": "R² = -0.093 (model performs worse than baseline mean)"
+  },
+  {
+    "file": "MCOA/EVIDENCE.md",
+    "action": "replace_text",
+    "find": "⚠️ ~~Дисфункция митохондрий…~~ FLAGGED – needs replacement\n❌ DELETED",
+    "body": "❌ DELETED (replacement pending: Schultz & Sinclair *Cell* 2019 PMID 30982602)"
+  },
+  {
+    "file": "MCOA/CONCEPT.md",
+    "action": "replace_text",
+    "find": "<!-- corrected 2026-04-26: prior … fabricated -->",
+    "body": ""
+  },
+  {
+    "file": "MCOA/PARAMETERS.md",
+    "action": "append_section",
+    "heading": "## Timeline for a priori weight prediction",
+    "body": "A systematic workflow for *a priori* weight prediction (RNA-seq + proliferation rate + metabolomics) is outlined in OPEN_PROBLEMS.md (Test 1A) and is expected to be completed by [month/year]."
+  }
+]

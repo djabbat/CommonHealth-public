@@ -16,8 +16,8 @@ the Proteostasis simulator.
 | [GSE312139](https://www.ncbi.nlm.nih.gov/gds/?term=GSE312139) | Beyond amyloid-β and tau: A cell-based multivariate blood test (iCAP) for early Alzheimer’s detection | 625 | 2025 | 2 |
 | [GSE246244](https://www.ncbi.nlm.nih.gov/gds/?term=GSE246244) | Designed macrocyclic peptide rescues behavioral impairment and brain pathology in an Alzheimer’s disease mouse model | 71 | 2025 | 2 |
 | [GSE297004](https://www.ncbi.nlm.nih.gov/gds/?term=GSE297004) | Intracellular accumulation of amyloid-ß is a marker of selective neuronal vulnerability in Alzheimer’s disease | 53 | 2025 | 2 |
-| [GSE275511](https://www.ncbi.nlm.nih.gov/gds/?term=GSE275511) | Deciphering Motor Dysfunction and Microglial Activation in mThy1-α-Synuclein Mice: A Comprehensive Study of Behavioral,  | 20 | 2025 | 2 |
-| [GSE275510](https://www.ncbi.nlm.nih.gov/gds/?term=GSE275510) | Deciphering Motor Dysfunction and Microglial Activation in mThy1-α-Synuclein Mice: A Comprehensive Study of Behavioral,  | 20 | 2025 | 2 |
+| [GSE275511](https://www.ncbi.nlm.nih.gov/gds/?term=GSE275511) | Deciphering Motor Dysfunction and Microglial Activation in mThy1-α-Synuclein Mice: A Comprehensive Study of Behavioral, | 20 | 2025 | 2 |
+| [GSE275510](https://www.ncbi.nlm.nih.gov/gds/?term=GSE275510) | Deciphering Motor Dysfunction and Microglial Activation in mThy1-α-Synuclein Mice: A Comprehensive Study of Behavioral, | 20 | 2025 | 2 |
 | [GSE241437](https://www.ncbi.nlm.nih.gov/gds/?term=GSE241437) | Human microglia carrying an early-onset Parkinson’s disease mutation display cell-autonomous disease-relevant phenotypes | 12 | 2024 | 2 |
 | [GSE284342](https://www.ncbi.nlm.nih.gov/gds/?term=GSE284342) | Endoplasmic reticulum proteostasis in senescent cells is a vulnerability to senolytic vanadyl sulfate | 6 | 2025 | 1 |
 | [GSE308151](https://www.ncbi.nlm.nih.gov/gds/?term=GSE308151) | Phospho-proteome profiling in human neurons reveals targets of TBK1 in ALS/FTD-Phospho-proteome profiling in human neuro | 23 | 2025 | 1 |
@@ -44,14 +44,14 @@ the Proteostasis simulator.
 | 10.5281/zenodo.19659315 | A Narrative Review of Energy Expenditure and the Shift from Effective Ambulation to Effective Mobility in the Rehabilita | 2026-04-20 | A Narrative Review of Energy Expenditure and the Shift from Effective Ambulation to Effective Mobili |
 | 10.5281/zenodo.19658878 | The Nexus Recursive Harmonic Framework: A Comprehensive Ontological, Mathematical, and Computational Synthesis of Realit | 2026-04-20 | Kulik, Dean |
 | 10.5281/zenodo.19656193 | ENIGMA Symmetric White Matter Tractography Atlas | 2026-04-20 | Ba Gari, Iyad, Davis Alibrando, Jonathan, Feng, Yixue |
-| 10.5281/zenodo.19653078 | CyTOF mass cytometry dataset for "Aging of the adaptive immune system affects the gut microbiome and systemic levels of  | 2026-04-19 | Stahl, Selina Natalie |
+| 10.5281/zenodo.19653078 | CyTOF mass cytometry dataset for "Aging of the adaptive immune system affects the gut microbiome and systemic levels of | 2026-04-19 | Stahl, Selina Natalie |
 | 10.5281/zenodo.19645631 | The Bounded Corridor_Life as Persistence Under Joint Constraint | 2026-04-18 | Bostick, Devin |
 | 10.29169/1927-5951.2021.11.10 | Cefdinir Inclusion in Mesoporous Silica as Effective Dissolution Enhancer with Improved Physical Stability | 2021-11-21 | Al nuss, Raghad, El-Zein, Hind |
 | 10.5281/zenodo.19644409 | THE MULTIPLIER EFFECT OF THE ELDERLY TOURIST SEGMENT IN THE DEVELOPMENT OF PILGRIMAGE TOURISM | 2026-04-18 | Gaipova Aziza Erkin qizi |
 | 10.5281/zenodo.19633686 | Ex-post impact of first- and second-pillar CAP payments on farm structural change | 2026-04-17 | Piet, Laurent |
 | 10.1016/j.tins.2026.03.002 | Reprogramming aging astrocytes in Alzheimer's disease | 2026-04-01 | Alfonso Triguero, María, Arranz Mendiguren, Amaia |
 | 10.5281/zenodo.19629203 | The role of demographic processes in the economic development of the region | 2026-04-24 | Esengeldiev, Aydaniyazova, Dauranbay Nietbaevich, Baxtigul Abilkasimovna |
-| 10.3897/natureconservation.63.183849 | Hidden or inadvertent illegal amphibian trade? Genetic analyses reveal Quasipaa spinosa misidentified as Hoplobatrachus  | 2026-04-15 | Zhang, Xiaoli, Borzée, Amaël, Gill, Sumbul |
+| 10.3897/natureconservation.63.183849 | Hidden or inadvertent illegal amphibian trade? Genetic analyses reveal Quasipaa spinosa misidentified as Hoplobatrachus | 2026-04-15 | Zhang, Xiaoli, Borzée, Amaël, Gill, Sumbul |
 | 10.3897/compcytogen.20.184176 | Genome survey and chromosome number determination of Polygala fallax (Polygalaceae), an endemic medicinal plant from sou | 2026-04-15 | Fu, Lin, Liu, Ziyue, Han, Lina |
 
 ## PubMed papers citing public datasets
@@ -65,7 +65,7 @@ the Proteostasis simulator.
 | [41586813](https://pubmed.ncbi.nlm.nih.gov/41586813) | Kline GM | 2026 | eLife | Phenylhydrazone-based endoplasmic reticulum proteostasis regulator compounds with enhanced biological activity. |
 | [41537461](https://pubmed.ncbi.nlm.nih.gov/41537461) | Choi KY | 2026 | Alzheimer's & dementia : the journal of the Alzheimer's Asso | The Gwangju Alzheimer's & Related Dementias (GARD) cohort: Over a decade of Asia's largest longitudinal multimodal study |
 | [41501318](https://pubmed.ncbi.nlm.nih.gov/41501318) | Guo J | 2026 | Scientific reports | Pan-cancer and multi-omics analyses reveal the diagnostic and prognostic value of BAZ2B in cancer. |
-| [41432414](https://pubmed.ncbi.nlm.nih.gov/41432414) | Nani JV | 2025 | Journal of neurochemistry | Postnatal Mouse Brain Region-Resolved Peptidomic Resource of Conditional Ndel1 Loss: Comparison of Acidic and Alcoholic  |
+| [41432414](https://pubmed.ncbi.nlm.nih.gov/41432414) | Nani JV | 2025 | Journal of neurochemistry | Postnatal Mouse Brain Region-Resolved Peptidomic Resource of Conditional Ndel1 Loss: Comparison of Acidic and Alcoholic |
 | [41384939](https://pubmed.ncbi.nlm.nih.gov/41384939) | Wang W | 2026 | Journal of Alzheimer's disease : JAD | Uncovering the toxicological impact of benzo[a]pyrene on Alzheimer's disease via network toxicology, machine learning, a |
 | [41125642](https://pubmed.ncbi.nlm.nih.gov/41125642) | Guzmán Rivera J | 2025 | Scientific reports | Mass spectrometry combined with machine learning identifies novel protein signatures as demonstrated with multisystem in |
 | [41999218](https://pubmed.ncbi.nlm.nih.gov/41999218) | Lange-Maia BS | 2026 | The journals of gerontology. Series A, Biological sciences a | Proteome-wide association study of cortical proteins that may provide resilience for late-life disability. |
@@ -75,7 +75,7 @@ the Proteostasis simulator.
 | [41986736](https://pubmed.ncbi.nlm.nih.gov/41986736) | Honey MIJ | 2026 | Nature medicine | An acetylated Tau-174 CSF biomarker discriminates between TDP-43 and tau pathology in patients with frontotemporal lobar |
 | [41980229](https://pubmed.ncbi.nlm.nih.gov/41980229) | Sewell KR | 2026 | Neurology | Cognitive and Brain Reserve as Modifiers of Early Alzheimer Disease-Related Cognitive Vulnerability. |
 | [41978994](https://pubmed.ncbi.nlm.nih.gov/41978994) | Li J | 2026 | Alzheimer's & dementia : the journal of the Alzheimer's Asso | Elevation in network dynamics amplifies amyloid-dependent tau pathology. |
-| [41970527](https://pubmed.ncbi.nlm.nih.gov/41970527) | Haddad M | 2026 | Alzheimer's & dementia (New York, N. Y.) | A potential multimodal biomarker - cognitive signature associated with the conversion from subjective cognitive decline  |
+| [41970527](https://pubmed.ncbi.nlm.nih.gov/41970527) | Haddad M | 2026 | Alzheimer's & dementia (New York, N. Y.) | A potential multimodal biomarker - cognitive signature associated with the conversion from subjective cognitive decline |
 | [41966598](https://pubmed.ncbi.nlm.nih.gov/41966598) | Gerards M | 2026 | The journal of prevention of Alzheimer's disease | Structural social factors modify the association between Alzheimer's pathology and cognitive function. |
 | [41958244](https://pubmed.ncbi.nlm.nih.gov/41958244) | Zhou CH | 2026 | Journal of cerebral blood flow and metabolism : official jou | Cerebral small vessel disease burden relates to cognitive decline via impaired amyloid clearance in the general populati |
 

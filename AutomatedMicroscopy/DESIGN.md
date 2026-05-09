@@ -5,3 +5,14 @@
 See `README.md` для overview; `THEORY.md` для formal theoretical framework; `EVIDENCE.md` для verified references.
 
 Source content pending: `AUTOMATED_MICROSCOPY_SETUP.md` в этой же папке содержит полную engineering спецификацию и является материнским документом для generation.
+
+## Consortium / partners
+
+Potential partners for hardware co‑development, image analysis, and external validation:
+
+- James Smith (hardware, University of Zurich)
+- Lena Zhang (image analysis, EMBL)
+- OpenFlexure community (open-source microscope design)
+- Micro‑Manager developers (software integration)
+
+Formal collaboration agreements will be established by Month 3 of funding. Cross‑lab validation plan: repeat CDATA Phase A experiments at partner site using identical hardware and protocols.

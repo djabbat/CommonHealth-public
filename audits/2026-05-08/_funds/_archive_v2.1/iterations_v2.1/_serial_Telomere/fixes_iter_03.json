@@ -1,0 +1,38 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "The following quantitative conditions must be met for the telomere shortening counter model to be considered valid:\n- **Condition F1:** The mean telomere length in a proliferating cell population must decrease at a rate consistent with α₂·n + β₂·(t/τ₂) within ±X bp/PD (placeholder X = TBD).\n- **Condition F2:** The Hayflick limit n₂* must be reached within N = TBD population doublings under standard culture conditions (p < 0.001).\n- **Condition F3:** Stress-modulated erosion (β₂ term) must be detectable as a statistically significant increase in erosion rate under oxidative stress (p < 0.01).\n- **Condition F4:** The coupling coefficient Γ₂,₃ (telomere-mitochondrial) must be non-zero (p < 0.05) in at least one tissue type.\nFailure to meet any condition triggers a model revision as per the Model Update Protocol."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Pre-registration plan",
+    "body": "The experimental validation of the telomere shortening counter will be pre-registered on the Open Science Framework (OSF) prior to data collection.\n- **OSF ID:** osf.io/TBD\n- **Planned registration date:** YYYY-MM-DD (placeholder)\n- **Registered content:** Study design, sample size calculation, primary and secondary endpoints, analysis plan, and falsifiability criteria.\n- **Deviations from pre-registration:** Any deviations will be documented with justification in the final report."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Sample size calculation",
+    "body": "Sample size for the primary falsification test (Condition F1) is calculated as follows:\n- **Formula:** n = (Z_α/2 + Z_β)² · σ² / δ²\n- **Parameters:** Z_α/2 = 1.96 (α = 0.05, two-sided), Z_β = 0.84 (β = 0.20, power = 0.80), σ = TBD (expected standard deviation of erosion rate), δ = TBD (minimum detectable effect size).\n- **Result:** n = (1.96 + 0.84)² · σ² / δ² = 7.84 · σ² / δ²\n- **Adjustment:** Final n will be increased by 10% to account for attrition. Specific values for σ and δ will be determined from pilot data or literature (placeholder)."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| Risk | Probability | Impact | Mitigation |\n|------|-------------|--------|------------|\n| 1. Telomere erosion rate is not linear with division number | 0.30 (moderate) | High – model requires reformulation | Pre-register alternative nonlinear models; use Bayesian model comparison |\n| 2. Stress-dependent erosion (β₂) is negligible in vivo | 0.25 (moderate) | Medium – reduces model scope | Design in vivo stress experiments; measure telomere length in tissues with high oxidative load |\n| 3. Coupling with other counters (e.g., MitoROS) is not detectable | 0.20 (low) | Medium – weakens integrative framework | Use multi-omics data to identify indirect correlations; increase sample size |\n| 4. Telomere length distribution is too heterogeneous for population-average model | 0.15 (low) | High – requires single-cell approach | Develop single-cell telomere length measurement protocol; switch to distribution-based model |\n| 5. Experimental artifacts (e.g., culture conditions) confound results | 0.10 (low) | Critical – invalidates data | Use multiple independent cell lines; blind analysis; replicate in different labs |"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "The following limitations are acknowledged:\n1. **Population-average model:** The current D₂ variable represents a tissue-average telomere length, ignoring the distribution of lengths within a cell population. This may mask important heterogeneity (see OP-T1).\n2. **In vitro extrapolation:** Parameters derived from cell culture experiments may not accurately reflect in vivo telomere dynamics due to differences in microenvironment, immune interactions, and tissue architecture.\n3. **Stress quantification:** The stress-dependent erosion term (β₂·t/τ₂) uses a single timescale τ₂, which may not capture the complexity of diverse stress stimuli (oxidative, inflammatory, genotoxic).\n4. **Coupling assumptions:** The Γ matrix entries for telomere-mitochondrial and telomere-epigenetic coupling are based on correlative evidence; causal relationships remain to be established.\n5. **Tissue specificity:** Weighting coefficients w₂(tissue) are currently placeholder values and require empirical determination for each tissue type.\n6. **Non-canonical telomere functions:** The model does not account for non-telomeric roles of TERT (e.g., mitochondrial protection) or ALT (alternative lengthening of telomeres) in cancer cells."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "The following partners are involved in the validation and refinement of the telomere shortening counter:\n- **Lead institution:** [Placeholder Institution Name]\n- **Telomere measurement core:** [Placeholder Lab/Company Name]\n- **Cell culture and stress experiments:** [Placeholder Lab Name]\n- **Bioinformatics and modeling:** [Placeholder Group Name]\n- **Clinical validation:** [Placeholder Hospital/Clinic Name]\n- **Funding agency:** [Placeholder Funding Source]\nContact details and specific roles will be added upon finalization of the consortium agreement."
+  }
+]

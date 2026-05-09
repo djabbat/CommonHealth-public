@@ -49,7 +49,7 @@
 Created `crates/mcoa_compare/`:
 - [x] `mcoa-compare-cdata` binary — replaces `scripts/compare_mcoa_cdata.py` (markdown report без plot)
 - [x] `mcoa-compare-all` binary — replaces `scripts/compare_all.py` (pairwise Δ matrix)
-- [x] `mcoa_compare` lib — `read_csv()`, `delta_stats()`, `compare_mcoa_cdata()`. **3/3 tests pass.**
+- [x] `mcoa_compare` lib — `read_csv`, `delta_stats`, `compare_mcoa_cdata`. **3/3 tests pass.**
 - [x] cargo build --release: success
 - [x] Plot generation вынесен из scope Rust port (можно добавить через `plotters` crate позже)
 - [x] Старые Python скрипты остаются в `scripts/` для cross-validation

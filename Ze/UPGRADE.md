@@ -1,5 +1,14 @@
 # UPGRADE.md — Ze Vectors Theory
 
+<!-- REF_AUDIT_2026-05-08: FABRICATION CLEANUP applied
+Маркеры:
+ [REF_NEEDED 2026-05-08] — DOI был фабрикованным или указывал на чужую статью; нужен ручной поиск замены.
+ [PMID_REMOVED 2026-05-08] — PMID указывал на чужую статью; удалён.
+Источник решений: ~/Desktop/AUDIT_FUNDS_2026-05-08/patches/triage_decisions.json
+Backup: ~/Desktop/AUDIT_FUNDS_2026-05-08/backup_pre_cleanup/
+-->
+
+
 Suggestions for project development from external analysis, literature, and cross-project review.
 
 **Format:**
@@ -27,7 +36,7 @@ Ze теория делает конкретные предсказания, от
 - CDATA Cell-DT — это и есть Ze-симулятор на биологическом уровне
 - N_Hayflick([O₂]) — экспериментально проверяемое Ze-предсказание
 - Следующий шаг: добавить Ze-счётчик (τ_Z) как явную переменную в TissueState
-  τ_Z(n) = τ_Z(0) − n_T_events, где n_T = количество ошибок деления
+ τ_Z(n) = τ_Z(0) − n_T_events, где n_T = количество ошибок деления
 - Показать: CDATA frailty = Ze-энтропия S_Ze = k ln(D/D_max)
 
 **Уровень 2 — Термодинамический Ze (новое)**
@@ -80,7 +89,7 @@ Ze теория делает конкретные предсказания, от
 
 Implement `ze_ecg.py` in `~/Desktop/AIM/`:
 - Input: CSV / EDF / wearable JSON with RR-intervals
-- Output: Ze-metrics per segment — `{v, tau, Z, chi}` as JSON + summary plot
+- Output: Ze-metrics per segment — `{v, tau, Z., chi}` as JSON + summary plot
 - Health reference ranges: v ≈ 0.35–0.45 (normal sinus), v → extremes (arrhythmia)
 - Integration hook: `medical_system.py` imports and stores in `wearable_summary.json`
 
@@ -106,7 +115,7 @@ Real-time Ze-monitoring hook for sklearn classifiers:
 - Compute Ze-stream on prediction sequence (0/1)
 - Drift detection: sudden v shift → distribution shift alert
 - Fairness check: per-subgroup v comparison
-- API: `ZeMonitor(model).fit_hook()` injectable into pipeline
+- API: `ZeMonitor(model).fit_hook` injectable into pipeline
 
 ---
 
@@ -175,8 +184,7 @@ Expand to full list with: prediction text, Ze-equation, experimental method, cur
 **Status:** [ ] proposed
 
 Unified BibTeX bibliography for all Ze papers (42 entries + key cited works).
-Priority DOIs for self-citation: `10.5281/zenodo.19174630` and PMID 36583780 — always cite before 10.65649/* until Scholar indexes longevity.ge.
-
+Priority DOIs for self-citation: `` and — always cite before 10.65649/* until Scholar indexes longevity.ge.
 ---
 
 ## [2026-04-04] Reconcile v* = 0.3069 vs 0.456

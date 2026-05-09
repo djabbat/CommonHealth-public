@@ -11,24 +11,24 @@
 ~/Desktop/LongevityCommon/
 ├── CONCEPT.md · THEORY.md · DESIGN.md (this) · PARAMETERS.md · MAP.md · STATE.md
 ├── EVIDENCE.md · OPEN_PROBLEMS.md · TODO.md · README.md · CLAUDE.md · LICENSE
-├── _archive/v_pre_2026-04-28/    # архив core .md до 2026-04-28
-├── _audits/                       # cross-subproject audit reports
+├── _archive/v_pre_2026-04-28/ # архив core .md до 2026-04-28
+├── _audits/ # cross-subproject audit reports
 ├── docs/
-│   └── EIC_PartB_2026/            # EIC заявка (active grant track)
+│ └── EIC_PartB_2026/ # EIC заявка (active grant track)
 ├── deploy/
-│   └── docker-compose-all.yml     # production stack
-├── server/                        # social-layer Rust API (axum + sqlx)
-├── web/                           # social-layer React+TS PWA
-├── realtime/                      # social-layer Phoenix Channels
+│ └── docker-compose-all.yml # production stack
+├── server/ # social-layer Rust API (axum + sqlx)
+├── web/ # social-layer React+TS PWA
+├── realtime/ # social-layer Phoenix Channels
 │
-├── MCOA/                          # subproject: theoretical
-├── CDATA/                         # subproject: molecular hypothesis
-├── Ze/                            # subproject: math + simulator (regenerated 2026-04-28)
-├── BioSense/                      # subproject: applied + simulator + datasets (regenerated 2026-04-28)
-├── FCLC/                          # subproject: federated infra (server-resident, separate repo)
-├── Telomere/ MitoROS/ EpigeneticDrift/ Proteostasis/  # counter modules
-├── CytogeneticTree/ AutomatedMicroscopy/  # tooling + demos
-└── HAP/ Ontogenesis/              # ❌ TOXIC (failed PMID audits — not in ecosystem v5.6)
+├── MCOA/ # subproject: theoretical
+├── CDATA/ # subproject: molecular hypothesis
+├── Ze/ # subproject: math + simulator (regenerated 2026-04-28)
+├── BioSense/ # subproject: applied + simulator + datasets (regenerated 2026-04-28)
+├── FCLC/ # subproject: federated infra (server-resident, separate repo)
+├── Telomere/ MitoROS/ EpigeneticDrift/ Proteostasis/ # counter modules
+├── CytogeneticTree/ AutomatedMicroscopy/ # tooling + demos
+└── HAP/ Ontogenesis/ # ❌ TOXIC (failed PMID audits — not in ecosystem v5.6)
 ```
 
 ---
@@ -148,13 +148,13 @@ Used by: `server/src/handlers/biosense.rs` → `web/src/pages/Dashboard.tsx`
 
 ```bash
 # Subprojects (backends)
-cd ~/Desktop/LongevityCommon/Ze && ./run.sh         # :4000/:4001
-cd ~/Desktop/LongevityCommon/BioSense && ./run.sh   # :4100/:4101
+cd ~/Desktop/LongevityCommon/Ze && ./run.sh # :4000/:4001
+cd ~/Desktop/LongevityCommon/BioSense && ./run.sh # :4100/:4101
 
 # Social layer
-cd ~/Desktop/LongevityCommon/server && cargo run --release  # :8080
-cd ~/Desktop/LongevityCommon/web && npm run dev             # :5173
-cd ~/Desktop/LongevityCommon/realtime && mix phx.server     # :4500 (after fix)
+cd ~/Desktop/LongevityCommon/server && cargo run --release # :8080
+cd ~/Desktop/LongevityCommon/web && npm run dev # :5173
+cd ~/Desktop/LongevityCommon/realtime && mix phx.server # :4500 (after fix)
 ```
 
 ### §7.2 Production

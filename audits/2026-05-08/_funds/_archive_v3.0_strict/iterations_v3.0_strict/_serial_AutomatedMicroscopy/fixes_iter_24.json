@@ -1,0 +1,56 @@
+[
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "The following numeric thresholds are specified for each prediction:\n- **Concordance (AI vs. human decision agreement):** ≥0.80 (Cohen's kappa or equivalent). Statistical test: one-sided test of proportion, α=0.05, power=0.80.\n- **System uptime:** ≥0.90 over 180 consecutive days of operation. Formal test: observed uptime ≤0.90 after 180 days (placeholder; exact test TBD).\n- **Contamination rate:** ≤0.03 of all wells over 30-day continuous imaging. N = TBD (placeholder; to be determined from pilot data).\n- **Total BOM cost:** ≤$4,500 (descriptive, no formal test).\n- **Environmental stability:** ±0.5°C, ±0.5% CO₂ over 24-hour period. Test: maximum deviation from setpoint.\n\nAll thresholds are pre-specified and will be evaluated after data collection. Any deviation will be reported as a falsification."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Pre-registration plan",
+    "body": "The study will be pre-registered on the Open Science Framework (OSF) prior to data collection. The placeholder ID is `osf.io/automicroscopy_cdata` (to be replaced with a valid OSF ID upon registration). The planned registration date is 2026-06-01. The pre-registration will include the study design, primary and secondary endpoints, sample size calculation, and analysis plan."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Sample size calculation",
+    "body": "Sample size for the primary validation endpoint (AI vs. human decision agreement) is calculated using the following formula:\n\nn = (1.96 + 0.84)² · σ² / δ²\n\nWhere:\n- Z_α/2 = 1.96 (α = 0.05, two-tailed)\n- Z_β = 0.84 (β = 0.20, 80% power)\n- σ² = TBD (placeholder, to be estimated from pilot data or literature)\n- δ = TBD (placeholder, minimum clinically meaningful difference in agreement rate)\n- **Sample size:** n = TBD (to be updated after pilot study, N ≥ 3 independent experiments).\n\n*Note: σ² and δ are placeholders pending pilot data. A pilot study with N=10 per group is planned to estimate these parameters. The final sample size will be determined before pre-registration.*"
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| Risk | Probability | Impact | Mitigation |\n|---|---|---|---|\n| AI model drift over time | Medium | High | Regular recalibration with human validation every 30 days |\n| Hardware failure (stage, camera, LED) | Low | High | Redundant components, UPS, NAS backup |\n| Contamination during long-term imaging | Medium | Medium | Sterile technique, environmental monitoring, automated alerts |\n| Data loss or corruption | Low | High | Daily backups to NAS, off-site replication |\n| Inadequate sample stability | Medium | Medium | Pilot testing, environmental chamber validation |\n| AI misinterpretation of PROMPT.md | Low | Medium | Audit trail, human-in-the-loop for critical decisions |"
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "1. **Generalizability:** The system is validated only for CDATA-class protocols; applicability to other cell types or assays is not yet established.\n2. **Sample stability:** Limited to samples stable for ≥3 weeks; media changes are human-performed, introducing variability.\n3. **AI reliability:** The Claude Code agent may misinterpret ambiguous PROMPT.md instructions; audit trail mitigates but does not eliminate this risk.\n4. **Environmental control:** The DIY chamber may not achieve the precision of commercial incubators; ±0.5°C and ±0.5% CO₂ are targets, not guarantees.\n5. **Cost:** The $4,500 BOM excludes labor, maintenance, and consumables; total cost of ownership may be higher.\n6. **Throughput:** Imaging frequency ≤2/hour limits applicability to fast biological processes.\n7. **No fluid handling:** Media changes and reagent additions are manual, limiting automation.\n8. **Validation scope:** Only concordance with human technicians is tested; clinical or diagnostic validation is not performed."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "| Partner | Role | Status |\n|---|---|---|\n| James Smith | Lead engineer, hardware design | Confirmed |\n| Lena Zhang | AI/software development | Confirmed |\n| OpenFlexure | Stage design consultation | Confirmed |\n| Micro-Manager | Software integration | Confirmed |\n| TBD (additional partner) | Biological validation | To be confirmed |\n| TBD (additional partner) | Data analysis | To be confirmed |"
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Evidence base & meta-analysis",
+    "body": "### Key claims and supporting references\n1. **Low-cost microscope retrofit feasible:** OpenFlexure stage accuracy (Sharkey et al. 2016, DOI: 10.1063/1.4941068) + manufacturer specs. Additional independent references needed: a systematic review of low-cost automated microscopy (e.g., search in PubMed, Web of Science, and IEEE Xplore, date: 2026-04-21, query: \"low-cost automated microscopy\" OR \"open-source microscope\" AND \"validation\"). No systematic review was identified in the initial search; a formal systematic review will be conducted and cited.\n2. **AI-operated microscopy feasible:** Burger et al. 2020 (DOI: 10.1038/s41586-020-2442-2), Boiko et al. 2023 (DOI: 10.1038/s41586-023-06792-0), Bran et al. 2024 (DOI: 10.1038/s42256-024-00832-8). Note: these are from chemistry, not direct microscopy; applicability to bioimaging is inferred.\n3. **Cell segmentation with CellPose:** Stringer et al. 2021 (DOI: 10.1038/s41592-020-01018-x).\n4. **Antibody specificity:** Wolff et al. 1992 (PMID: 1385210), Delgehyr et al. 2005 (DOI: 10.1242/jcs.02302).\n\n### Contradicting results\nNo contradictory results were found in the initial search. A systematic search for negative results (e.g., \"low-cost microscope failure\" OR \"AI microscopy limitations\") will be conducted and reported.\n\n### State of the art\nCurrent state-of-the-art in automated microscopy includes commercial systems (e.g., IncuCyte, Lionheart) and open-source alternatives (e.g., OpenFlexure, µManager). The proposed system aims to bridge the gap between cost and functionality for routine CDATA-class protocols."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Methodology depth",
+    "body": "### Replication-ready protocol (step-by-step)\n1. **Setup:** Assemble hardware per BOM (see DESIGN.md). Calibrate stage, camera, and environmental chamber.\n2. **Sample preparation:** Culture cells per standard protocol (see EVIDENCE.md). Load into multiwell plate.\n3. **Imaging:** Place plate on stage. Set environmental conditions (37°C, 5% CO₂, 90% humidity). Run automated imaging protocol (see PROMPT.md).\n4. **AI supervision:** Claude Code agent monitors focus, ROI selection, channel switching. Logs all decisions.\n5. **Data collection:** Save images to NAS. Backup daily.\n6. **Analysis:** Compare AI decisions to human technician decisions (blinded). Compute concordance.\n\n### Statistical Analysis Plan (SAP)\n- **Primary endpoint:** Concordance (Cohen's kappa) between AI and human decisions.\n- **Secondary endpoints:** Uptime, contamination rate, cost, environmental stability.\n- **Multiple comparisons correction:** Bonferroni correction for secondary endpoints (α=0.05/4=0.0125).\n- **Missing data strategy:** Last observation carried forward (LOCF) for concordance; sensitivity analysis with complete-case analysis.\n\n### Controls\n- **Positive control:** Human technician decisions (gold standard).\n- **Negative control:** Random decisions (simulated).\n\n### Replication strategy\n- **Split-sample:** 70% training, 30% validation.\n- **External replication:** Second partner (TBD) will replicate the experiment independently.\n\n### Blinding/Randomization\n- Evaluators (human technicians) are blinded to AI decisions.\n- Sample order is randomized to avoid batch effects."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Reproducibility & open science",
+    "body": "- **Code availability:** Code will be released on acceptance (placeholder repository: TBD).\n- **Data deposit plan:** Data will be deposited in Zenodo or OSF (placeholder: TBD).\n- **Pre-registration:** OSF ID placeholder: `osf.io/automicroscopy_cdata` (to be replaced with valid ID).\n- **Materials transparency:** Protocols.io link TBD; requirements.txt included in code repository; BOM available in DESIGN.md."
+  }
+]

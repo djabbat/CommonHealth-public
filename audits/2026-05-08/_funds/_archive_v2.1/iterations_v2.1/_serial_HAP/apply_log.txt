@@ -1,0 +1,53 @@
+
+## iter 1
+APPENDED: CONCEPT.md :: ## Falsifiability
+APPENDED: PARAMETERS.md :: ## Pre-registration plan
+APPENDED: CONCEPT.md :: ## Sample size calculation
+SKIP missing/outside-LC: /RISK_MATRIX.md (tried ['/home/oem/Desktop/LongevityCommon/HAP/RISK_MATRIX.md', '/home/oem/Desktop/LongevityCommon/RISK_MATRIX.md', '/home/oem/Desktop/LongevityCommon/RISK_MATRIX.md'])
+APPENDED: README.md :: ## Consortium / partners
+
+## iter 2
+SKIP exists: CONCEPT.md :: ## Falsifiability
+APPENDED: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+APPENDED: CONCEPT.md :: ## Risk matrix
+APPENDED: CONCEPT.md :: ## Limitations
+APPENDED: CONCEPT.md :: ## Consortium / partners
+
+## iter 3
+APPENDED: CONCEPT.md :: ## References
+INSERTED: CONCEPT.md after `## Falsifiability`
+INSERTED: CONCEPT.md after `## Consortium / partners`
+INSERTED: CONCEPT.md after `## Risk matrix`
+APPENDED: PARAMETERS.md :: ## References
+
+## iter 4
+SKIP exists: CONCEPT.md :: ## References
+REPLACED: CONCEPT.md :: α=0.05
+INSERTED: CONCEPT.md after `## Pre-registration plan`
+INSERTED: CONCEPT.md after `## Consortium / partners`
+INSERTED: CONCEPT.md after `## Limitations`
+
+## iter 1
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+
+## iter 3
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners
+
+## iter 4
+SKIP exists: CONCEPT.md :: ## Falsifiability
+SKIP exists: CONCEPT.md :: ## Pre-registration plan
+SKIP exists: CONCEPT.md :: ## Sample size calculation
+SKIP exists: CONCEPT.md :: ## Risk matrix
+SKIP exists: CONCEPT.md :: ## Limitations
+SKIP exists: CONCEPT.md :: ## Consortium / partners

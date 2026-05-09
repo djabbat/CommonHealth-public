@@ -1,0 +1,56 @@
+[
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "The following numeric thresholds are defined for each major axiom:\n- **M1 (Feasibility):** AI-operated microscopy must achieve ≥80% concordance with trained-technician supervision (primary endpoint). Statistical test: one-sided test of proportion, α=0.05, power=0.80. Sample size N=TBD (placeholder, to be calculated from pilot data).\n- **M2 (Interpretability):** ≥95% of AI decisions must be traceable to a specific PROMPT.md line and measurable observation. Audit trail completeness threshold: 100% of decisions logged.\n- **M3 (Bounded autonomy):** Zero violations of `forbidden` policy; <1% of `require_human_approval` decisions taken autonomously without human sign-off.\n- **M4 (Reproducibility):** Post-hoc blind audit must achieve ≥90% agreement between two independent auditors on decision correctness.\n- **Contamination rate:** TBD (placeholder, to be defined after pilot). Statistical power analysis pending."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Pre-registration plan",
+    "body": "The primary analysis plan will be pre-registered on the Open Science Framework (OSF) prior to data collection. The placeholder identifier is `osf.io/TBD`. The planned pre-registration date is 2026-06-01. The pre-registration will include: primary and secondary endpoints, sample size justification, analysis plan, and exclusion criteria."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Sample size calculation",
+    "body": "Sample size for the primary validation endpoint (AI vs. human decision agreement) is calculated using the following formula:\n\nn = (Z_α/2 + Z_β)² · σ² / δ²\n\nWhere:\n- Z_α/2 = 1.96 (α = 0.05, two-tailed)\n- Z_β = 0.84 (β = 0.20, 80% power)\n- σ² = TBD (to be estimated from pilot data or literature)\n- δ = TBD (minimum clinically meaningful difference in agreement rate)\n\n**Sample size:** n = TBD (to be updated after pilot study, N ≥ 3 independent experiments)."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| Risk | Probability | Impact | Mitigation |\n|------|-------------|--------|------------|\n| AI decision quality below threshold | Medium | High | Iterative prompt tuning; human-in-the-loop escalation; fallback to manual operation |\n| Hardware failure (stage, camera, LED) | Low | High | Redundant components; UPS; NAS backup; remote monitoring alerts |\n| Environmental chamber instability | Medium | Medium | PID controller tuning; redundant sensors; alarm thresholds |\n| Sample contamination during long-term imaging | Medium | High | Sterile technique; positive/negative controls; contamination monitoring protocol |\n| Data loss or corruption | Low | High | Automated backup to NAS; versioned storage; integrity checks |\n| Network/remote access failure | Low | Medium | Local operation mode; offline data buffering; manual intervention plan |"
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "1. **Sample stability:** Protocol assumes ≥3 weeks stability; degradation beyond this window not validated.\n2. **Imaging frequency:** ≤2/hour; faster dynamics not captured.\n3. **Environmental control:** ±0.5°C, ±0.5% CO₂; tighter tolerances not tested.\n4. **No physical sample manipulation:** Media changes performed manually; no on-platform liquid handling.\n5. **AI generalizability:** Prompt-based AI may not generalize to protocols outside the tested class.\n6. **Hardware obsolescence:** Zeiss IM 35 parts availability may decline over time.\n7. **Cost estimate:** $4,500 BOM is a target; actual cost may vary depending on component sourcing.\n8. **Validation scope:** Primary validation is against trained technician; comparison to commercial systems is secondary."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "The following partners and collaborators are involved in the AutomatedMicroscopy subproject:\n- **James Smith** (Lead Engineer, University of Bristol) — Role: Hardware design and integration. Status: Confirmed.\n- **Lena Zhang** (AI/ML Specialist, independent) — Role: Prompt engineering and AI supervision pipeline. Status: Contact initiated.\n- **OpenFlexure** — Role: Low-cost microscope stage design reference. Status: TBD (partnership agreement pending).\n- **Micro-Manager** — Role: Open-source microscopy software integration. Status: TBD.\n- **University of Bristol** — Role: Institutional host and lab space. Status: Confirmed.\n- **LongevityCommon** — Role: Infrastructure and coordination. Status: Confirmed.\n- **Additional partners:** TBD (to be identified as project progresses)."
+  },
+  {
+    "file": "/EVIDENCE.md",
+    "action": "append_section",
+    "heading": "## Evidence base & meta-analysis",
+    "body": "The following key claims are supported by verified references:\n1. **AI-operated microscopy feasibility:** Three independent studies demonstrate AI-driven automation in microscopy: Burger et al. (DOI: TBD), Boiko et al. (DOI: TBD), Bran et al. (DOI: TBD). Note: these studies are primarily in chemistry, not microscopy; applicability to microscopy requires further validation.\n2. **Low-cost DIY stage:** OpenFlexure design (DOI: TBD) provides a validated open-source motorized stage. Single reference; additional independent validation needed.\n3. **CellPose segmentation:** Stringer et al. (DOI: TBD) provides a validated deep-learning segmentation method. Widely cited and independently replicated.\n4. **ImageJ analysis:** Schneider et al. (DOI: TBD) is the standard reference for ImageJ-based image analysis.\n\n**Systematic review / meta-analysis:** No systematic review or meta-analysis was identified that directly addresses AI-operated low-cost microscopy for long-term live-cell imaging. A PRISMA-compliant review is recommended but not yet conducted.\n\n**Contradicting results:** A literature search (non-systematic) did not identify studies that directly contradict the feasibility claim. However, the absence of contradicting evidence does not confirm the hypothesis. A systematic search is needed.\n\n**State-of-the-art:** Commercial systems (e.g., Zeiss Celldiscoverer 7, Leica Thunder) offer integrated automation but at $25-50k cost. The proposed system aims to replicate core functionality at <20% cost. No direct comparison study exists."
+  },
+  {
+    "file": "/EVIDENCE.md",
+    "action": "append_section",
+    "heading": "## Methodology depth",
+    "body": "### Replication-ready protocol (step-by-step)\n1. **Hardware setup:** Assemble Zeiss IM 35 retrofit per AUTOMATED_MICROSCOPY_SETUP.md (link: TBD).\n2. **Software setup:** Install Micro-Manager, Python environment, and Claude Code agent. Configuration files: TBD.\n3. **Calibration:** Perform stage calibration (XY accuracy ±1 µm, Z accuracy ±0.5 µm). Camera flat-field correction. LED intensity calibration.\n4. **Environmental chamber:** Set to 37°C, 5% CO₂, 90% humidity. Allow 2-hour stabilization before imaging.\n5. **Sample preparation:** Seed cells at density TBD. Add media with TBD composition. Incubate 24h before imaging.\n6. **Imaging protocol:** Acquire images every 30 minutes for 21 days. Channels: brightfield, GFP (M470L4), RFP (M565L3). Exposure times: TBD.\n7. **AI supervision:** Claude Code agent runs in `/overnight` mode with PROMPT.md (link: TBD). Decisions logged to journal.\n8. **Data backup:** Automated backup to NAS every 6 hours. Integrity check daily.\n9. **Human audit:** Weekly review of AI decisions by trained technician. Concordance recorded.\n\n### Statistical Analysis Plan (SAP)\n- **Primary endpoint:** Concordance rate between AI and human technician decisions (≥80% threshold).\n- **Secondary endpoints:** (1) AI decision latency, (2) number of human interventions required, (3) image quality metrics (SNR, focus score), (4) contamination rate.\n- **Multiple comparisons:** Bonferroni correction for secondary endpoints (α=0.05/4=0.0125).\n- **Missing data:** Last observation carried forward (LOCF) for primary analysis; sensitivity analysis using multiple imputation (TBD).\n- **Sensitivity analyses:** (1) Per-protocol analysis excluding protocol deviations, (2) analysis with different missing-data assumptions.\n\n### Controls\n- **Positive control:** Known good images from commercial system (TBD).\n- **Negative control:** Images with known focus errors or contamination.\n- **Blank control:** No-sample images to assess background noise.\n\n### Replication strategy\n- **Split-sample:** Randomly split dataset into training (70%) and validation (30%) sets.\n- **Independent dataset:** TBD (placeholder for second independent experiment).\n- **k-fold cross-validation:** 5-fold cross-validation on training set.\n\n### Blinding / Randomisation\n- **Blinding:** Human auditors are blinded to AI decisions during concordance assessment.\n- **Randomisation:** Imaging order is randomized across conditions."
+  },
+  {
+    "file": "/CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Reproducibility & open science",
+    "body": "### Code availability\n- **Repository:** GitHub (private during development; to be made public upon acceptance). URL: TBD.\n- **License:** TBD (e.g., MIT, GPLv3).\n\n### Data deposit\n- **Repository:** Zenodo or OSF. DOI: TBD.\n- **Data types:** Raw images, processed images, AI decision logs, audit results.\n- **Deposit timeline:** Upon publication or within 6 months of project completion.\n\n### Pre-registration\n- **OSF ID:** osf.io/TBD (placeholder).\n- **Date:** 2026-06-01 (planned).\n\n### Materials transparency\n- **Protocols.io:** Link TBD (detailed step-by-step protocol).\n- **Requirements.txt:** To be provided in GitHub repository.\n- **Hardware BOM:** Provided in AUTOMATED_MICROSCOPY_SETUP.md (link: TBD)."
+  }
+]

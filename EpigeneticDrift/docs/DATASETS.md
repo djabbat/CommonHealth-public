@@ -11,7 +11,7 @@ the EpigeneticDrift simulator.
 | [GSE310779](https://www.ncbi.nlm.nih.gov/gds/?term=GSE310779) | Investigating epigenetic biomarkers of age, sex, and disease in captive South African cheetahs (Acinonyx jubatus jubatus | 57 | 2025 | 3 |
 | [GSE312123](https://www.ncbi.nlm.nih.gov/gds/?term=GSE312123) | Strong Concordance of DNA Methylation Measures Between Venous and Capillary Blood - Implications for Human Epigenome Stu | 40 | 2026 | 2 |
 | [GSE323385](https://www.ncbi.nlm.nih.gov/gds/?term=GSE323385) | Comparative and integrative analysis of transcriptomic and epigenomic-wide DNA methylation changes in African American p | 120 | 2026 | 2 |
-| [GSE323379](https://www.ncbi.nlm.nih.gov/gds/?term=GSE323379) | Epigenome-Wide DNA Methylation Patterns in Prostate Adenocarcinoma, Benign Hyperplasia, Metastatic Disease, and Related  | 100 | 2026 | 2 |
+| [GSE323379](https://www.ncbi.nlm.nih.gov/gds/?term=GSE323379) | Epigenome-Wide DNA Methylation Patterns in Prostate Adenocarcinoma, Benign Hyperplasia, Metastatic Disease, and Related | 100 | 2026 | 2 |
 | [GSE314735](https://www.ncbi.nlm.nih.gov/gds/?term=GSE314735) | Genome-wide methylation analysis identifies epigenetic differences in human ILC2s from healthy, atopic, and asthmatic yo | 12 | 2026 | 2 |
 | [GSE261739](https://www.ncbi.nlm.nih.gov/gds/?term=GSE261739) | Dioxin, an endocrine disruptor, induces long term effects on DNA methylation in men after in-utero exposure. | 38 | 2026 | 2 |
 | [GSE288652](https://www.ncbi.nlm.nih.gov/gds/?term=GSE288652) | Genome wide DNA methylation of colon low grade and high grade adenoma | 32 | 2025 | 2 |
@@ -24,15 +24,15 @@ the EpigeneticDrift simulator.
 | [GSE305349](https://www.ncbi.nlm.nih.gov/gds/?term=GSE305349) | Epigenetic evolution of IDHwt glioblastomas | 64 | 2026 | 1 |
 | [GSE324619](https://www.ncbi.nlm.nih.gov/gds/?term=GSE324619) | An atlas of genetic effects on the monocyte methylome across European and African populations | 495 | 2026 | 1 |
 | [GSE308071](https://www.ncbi.nlm.nih.gov/gds/?term=GSE308071) | Intracranial mesenchymal tumor, FET-CREB fusion-positive: an integrative analysis of 81 cases | 61 | 2026 | 1 |
-| [GSE303826](https://www.ncbi.nlm.nih.gov/gds/?term=GSE303826) | Identification and validation of liquid biopsy-based methylation biomarkers: a  germ cell tumor subtype-specific study [ | 17 | 2026 | 1 |
-| [GSE303825](https://www.ncbi.nlm.nih.gov/gds/?term=GSE303825) | Identification and validation of liquid biopsy-based methylation biomarkers: a  germ cell tumor subtype-specific study [ | 54 | 2026 | 1 |
-| [GSE303824](https://www.ncbi.nlm.nih.gov/gds/?term=GSE303824) | Identification and validation of liquid biopsy-based methylation biomarkers: a  germ cell tumor subtype-specific study [ | 16 | 2026 | 1 |
+| [GSE303826](https://www.ncbi.nlm.nih.gov/gds/?term=GSE303826) | Identification and validation of liquid biopsy-based methylation biomarkers: a germ cell tumor subtype-specific study [ | 17 | 2026 | 1 |
+| [GSE303825](https://www.ncbi.nlm.nih.gov/gds/?term=GSE303825) | Identification and validation of liquid biopsy-based methylation biomarkers: a germ cell tumor subtype-specific study [ | 54 | 2026 | 1 |
+| [GSE303824](https://www.ncbi.nlm.nih.gov/gds/?term=GSE303824) | Identification and validation of liquid biopsy-based methylation biomarkers: a germ cell tumor subtype-specific study [ | 16 | 2026 | 1 |
 | [GSE303899](https://www.ncbi.nlm.nih.gov/gds/?term=GSE303899) | Unraveling the Epigenetic Landscape of Sarcopenic Obesity: Insights into DNA Methylation Mechanisms from a Pilot Study i | 32 | 2026 | 1 |
 | [GSE295570](https://www.ncbi.nlm.nih.gov/gds/?term=GSE295570) | Development and validation of a 5mC-based prognostic model for lung adenocarcinoma survival: a multicentre, retrospectiv | 292 | 2026 | 1 |
 | [GSE297210](https://www.ncbi.nlm.nih.gov/gds/?term=GSE297210) | DNA methylation profiling in Huntington’s disease reveals disease associated changes in the striatum | 113 | 2026 | 1 |
 | [GSE290136](https://www.ncbi.nlm.nih.gov/gds/?term=GSE290136) | Methylation profiling of BRAF-altered pediatric low-grade gliomas | 87 | 2026 | 1 |
 | [GSE296487](https://www.ncbi.nlm.nih.gov/gds/?term=GSE296487) | Use of DNA methylation profiling as a molecular classification tool: a pediatric population-based study in tumors from c | 182 | 2025 | 1 |
-| [GSE239521](https://www.ncbi.nlm.nih.gov/gds/?term=GSE239521) | Multi-epigenome-wide analyses and meta-analysis of child maltreatment in judicial autopsies and intervened children and  | 123 | 2025 | 1 |
+| [GSE239521](https://www.ncbi.nlm.nih.gov/gds/?term=GSE239521) | Multi-epigenome-wide analyses and meta-analysis of child maltreatment in judicial autopsies and intervened children and | 123 | 2025 | 1 |
 
 ## Zenodo open datasets
 
@@ -40,10 +40,10 @@ the EpigeneticDrift simulator.
 |-----|-------|------|---------|
 | 10.5852/ejt.2026.1048.3255 | A new micro-endemic species of Cyrtodactylus Gray, 1827 (Squamata: Gekkonidae) from the lowlands of Northeast India, wit | 2026-04-14 | Bohra, Sanath Chandra, Deb, Arnab, Thongni, Goldenstar |
 | 10.5281/zenodo.19662600 | Scientific TOE and Riemann Hypothesis | 2026-04-20 | Flis, Alexander Luka |
-| 10.5281/zenodo.19662613 | Robo-Advisors, Algorithmic Trading, And Their Impact On Portfolio Diversification  And Herding Behavior: Evidence From T | 2026-04-20 | B Rinku, Dr. Shivaprasad G |
+| 10.5281/zenodo.19662613 | Robo-Advisors, Algorithmic Trading, And Their Impact On Portfolio Diversification And Herding Behavior: Evidence From T | 2026-04-20 | B Rinku, Dr. Shivaprasad G |
 | 10.5281/zenodo.19662533 | Review And Analysis of Essential Protein Targets of Mycobacterium leprae for Novel Anti-leprosy Drug Development | 2026-04-01 | Vaidik Gupta1, Sumbul Fatma Khan1*, Priyanka Rathod1 and V. S. Babu Agala1 |
 | 10.5281/zenodo.18636026 | Osada z młodszych faz wczesnego średniowiecza w Słotwinie, pow. świdnicki | 2025-12-31 | Rodak, Sylwia, Lisowska, Ewa |
-| 10.5281/zenodo.19441475 | Solving the Unsolvable: A Statistical Analysis  of the Impact of Forensic Science on  Criminal Investigations | 2026-04-06 | Phan, Hieu |
+| 10.5281/zenodo.19441475 | Solving the Unsolvable: A Statistical Analysis of the Impact of Forensic Science on Criminal Investigations | 2026-04-06 | Phan, Hieu |
 | 10.5281/zenodo.19661548 | borenstein-lab/DAP-microbiome: V1.0.2 | 2026-04-20 | talbamberger |
 | 10.5281/zenodo.19661399 | D2.1 Identification of end-user needs, analysis of driving forces and effects of fraud practices for organic and GI food | 2026-04-20 | THEROS project |
 | 10.5281/zenodo.19661062 | Bacteriophage PAK_P3 genome structuration and dynamics during infection of Pseudomonas aeruginosa reveal specific intera | 2026-04-11 | marbouty, martial |

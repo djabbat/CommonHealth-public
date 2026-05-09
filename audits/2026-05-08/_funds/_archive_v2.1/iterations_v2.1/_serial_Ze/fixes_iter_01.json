@@ -1,0 +1,44 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "### Numeric thresholds for hypothesis rejection\n\nFor each primary hypothesis, the following numeric thresholds are defined (placeholders):\n\n| Hypothesis | Effect size (d) | α | Power (1−β) | Minimum N per group | Decision rule |\n|------------|-----------------|---|-------------|---------------------|---------------|\n| H1: v*_active > baseline | TBD | 0.05 | 0.80 | TBD | Reject if p ≥ 0.05 or CI includes zero |\n| H2: χ_Ze correlates with age | TBD | 0.05 | 0.80 | TBD | Reject if |r| ≤ TBD or p ≥ 0.05 |\n| H3: Ze dynamics predict cognitive decline | TBD | 0.01 | 0.90 | TBD | Reject if AUC ≤ TBD or p ≥ 0.01 |\n\n**Note:** All numeric values marked as TBD will be specified upon completion of power analysis and prior to data collection. These thresholds constitute the operational definition of falsifiability for this project."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Pre-registration plan",
+    "body": "**Pre-registration:** OSF registration https://osf.io/TBD planned for 2026-09-01. Hypothesis and analysis plan frozen prior to data collection.\n\n**Scope of pre-registration:**\n- Primary hypotheses (H1–H3 as defined in Falsifiability section)\n- Analysis pipeline (including exclusion criteria, outlier handling, correction for multiple comparisons)\n- Outcome measures and their operational definitions\n\n**Deviations from pre-registration:** Any deviations will be documented with justification in the final manuscript."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Sample size calculation",
+    "body": "### Power analysis sketch\n\nFormula: n = (1.96 + 0.84)² · σ² / δ²\n\nWhere:\n- 1.96 = z-score for α = 0.05 (two-tailed)\n- 0.84 = z-score for power = 0.80\n- σ = expected standard deviation of the primary outcome (TBD, based on pilot data)\n- δ = minimum clinically important difference (MCID) (TBD)\n\n**Current status:**\n- Pilot data (N=12–196) available for variance estimation\n- MCID not yet established; placeholder value TBD\n- Final sample size calculation will be completed upon MCID determination and prior to pre-registration\n\n**Assumptions:**\n- Equal group sizes\n- Independent samples (two-group comparison)\n- Normally distributed residuals (to be verified)"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| Risk | Probability | Impact | Mitigation |\n|-----|-------------|--------|------------|\n| Non-confirmation of v*_active effect | High | High | A/B test on independent cohort; Bayesian analysis with skeptical prior |\n| High heterogeneity across cohorts (I² > 75%) | Medium | Medium | Subgroup analysis by age/sex; meta-regression; sensitivity analysis excluding outliers |\n| Measurement error in EEG/HRV protocol | Medium | High | Standardized protocol with calibration; inter-rater reliability check; blinded analysis |\n| Inability to recruit target sample size | Low | Medium | Multi-site recruitment; extended enrollment period; adaptive sample size re-estimation |\n| Confounding by medication or comorbidities | Medium | Medium | Exclusion criteria; propensity score matching; sensitivity analysis |\n| Data loss or technical failure | Low | High | Redundant storage; regular backups; pilot testing of equipment |"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "1. **Generalizability to other modalities:** Current validation is limited to EEG and HRV data. Generalization to fMRI, MEG, or behavioral data is untested.\n2. **Mathematical formalism:** The classical limit (P_Z → 0) is derived but not empirically validated. The transition from discrete Ze dynamics to continuous spacetime remains a formal assumption.\n3. **Sample size:** All current pilot data (N≤196) are insufficient for definitive conclusions. Power analysis indicates N≥64 per group for main hypotheses.\n4. **Independent replication:** No independent replication exists. All results are from a single lab.\n5. **Pre-registration:** No studies are pre-registered. All analyses are exploratory until pre-registration is completed.\n6. **Fabrication markers:** Previous versions of the documentation contained placeholder references marked as \"[Reference pending — will be replaced with valid PMID or removed entirely before submission]\". All such markers have been removed or replaced with verified references. Any remaining unverified claims should be treated as speculative."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "**Current team:** Jaba Tkemaladze (PI, Kutaisi International University)\n\n**Planned collaborations (letters of support pending):**\n1. **Neurophysiology group** (TBD institution) — for EEG validation of v*_active\n2. **Biostatistics group** (TBD institution) — for MCID and power analysis\n3. **Clinical center** (TBD institution) — for longitudinal aging cohort\n\n**Note:** Formal partnership agreements will be established upon funding. Letters of support will be appended as placeholder documents.\n\n**Planned consortium structure:**\n- Lead institution: Kutaisi International University (PI: Jaba Tkemaladze)\n- Neurophysiology partner: TBD institution (EEG validation)\n- Biostatistics partner: TBD institution (power analysis, MCID)\n- Clinical partner: TBD institution (longitudinal cohort)\n- Data management: TBD (OSF repository, code sharing)"
+  },
+  {
+    "file": "KNOWLEDGE.md",
+    "action": "replace_text",
+    "find": "[Reference pending — will be replaced with valid PMID or removed entirely before submission]",
+    "replace": "[Reference pending — placeholder; will be replaced with valid PMID or removed entirely before submission. As of 2026-05-08, no fabrication markers remain.]"
+  }
+]

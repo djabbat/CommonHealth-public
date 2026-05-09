@@ -1,0 +1,38 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Falsifiability",
+    "body": "**M1 (Feasibility):**\n- H₀: AI-operated microscopy achieves <80% trained-technician supervision quality (concordance) on CDATA-class protocols.\n- H₁: Concordance ≥0.80.\n- Test: Power analysis N=286 paired observations (α=0.05, β=0.20).\n- Threshold: Lower bound of 95% CI for concordance >0.80.\n\n**Uptime:**\n- H₀: System uptime ≤0.90 over 180 consecutive days.\n- H₁: Uptime >0.90.\n- Threshold: Observed uptime >0.90 with 95% confidence.\n\n**Contamination:**\n- H₀: Contamination rate ≥0.03 per 100 imaging hours.\n- H₁: Contamination rate <0.03.\n- Sample size: N = TBD (placeholder pending pilot data).\n- Threshold: Upper bound of 95% CI for contamination rate <0.03.\n\n**Cost:**\n- H₀: Total BOM cost ≥$4,500.\n- H₁: Total BOM cost <$4,500.\n- Threshold: Final BOM cost <$4,500 (verified by receipts)."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Pre-registration plan",
+    "body": "- OSF registration ID: `osf.io/TBD` (placeholder).\n- Planned registration date: 2026-06-01.\n- Contents: Full protocol, analysis plan, power analysis, risk matrix, and falsifiability thresholds.\n- Updates: Any protocol deviations will be documented as versioned amendments."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Sample size calculation",
+    "body": "**CDATA experiment (primary outcome):**\n- Formula: n = (Z_α/2 + Z_β)² · σ² / δ²\n- Assumptions: α=0.05 (two-sided), β=0.20 (power=0.80), Cohen's d=0.75.\n- Z_α/2 = 1.96, Z_β = 0.84.\n- n = (1.96 + 0.84)² · σ² / δ² = 7.84 · σ² / δ².\n- For d=0.75 (σ/δ = 1/0.75): n ≈ 7.84 / 0.5625 ≈ 13.94 → n=14 per group.\n- With design effect DE=1.2: n_adj = 14 × 1.2 = 16.8 → n=17 per group.\n- Final: n=30 per group (conservative, accounting for dropout and technical failures).\n\n**M1 concordance:**\n- N=286 paired observations (fixed, based on precision analysis for 95% CI width ±0.05).\n\n**Contamination rate:**\n- N = TBD (placeholder). Formula: n = (Z_α/2)² · p(1-p) / w², where p=0.03, w=0.015 (half-width)."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| Risk | Probability | Impact | Mitigation |\n|------|-------------|--------|------------|\n| AI agent fails to maintain focus over 3-week time-lapse | Medium | High (data loss) | Redundant autofocus algorithm + human check every 24h |\n| Environmental chamber drifts >±0.5°C | Low | Medium (protocol violation) | Dual temperature sensors + PID control + alarm |\n| Contamination during long-term imaging | Medium | High (experiment abort) | Sterile technique protocol + UV sterilization between runs |\n| Camera sensor degradation from continuous use | Low | Medium (image quality) | Calibration check before each experiment + spare camera |\n| Power outage during unattended overnight run | Medium | High (data loss) | UPS (30 min runtime) + auto-save state + resume script |\n| Network failure preventing remote monitoring | Low | Low (no data loss) | Local logging + NAS backup + retry logic |\n| Zeiss IM 35 mechanical failure (stage, focus) | Low | High (repair delay) | Spare parts kit + maintenance contract with local workshop |"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Limitations",
+    "body": "1. **Generalizability:** Results limited to CDATA-class protocols (sample stability ≥3 weeks, imaging frequency ≤2/hour). Not validated for high-throughput or short-term assays.\n2. **Hardware specificity:** Retrofit based on Zeiss IM 35; compatibility with other microscope models not tested.\n3. **AI model dependency:** Performance tied to Claude Code agent capabilities; changes in underlying model may affect reproducibility.\n4. **Environmental control:** Chamber validated for ±0.5°C, ±0.5% CO₂; tighter tolerances not tested.\n5. **Contamination risk:** No on-platform media changes; human intervention required every 3-7 days, introducing contamination risk.\n6. **Sample size uncertainty:** Contamination rate sample size N = TBD pending pilot data; power analysis for this endpoint incomplete.\n7. **Design effect inconsistency:** DE reported as 1.2 in one location and TBD in another; final value to be determined from pilot data.\n8. **Cost estimate:** $4,500 BOM based on 2025 prices; currency fluctuations and component availability may affect final cost."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "| Partner | Role | Status |\n|---------|------|--------|\n| LongevityCommon (lead) | Project coordination, AI integration, data analysis | Active |\n| University of Bristol — Environmental Chamber | Design and validation of environmental chamber | Contact initiated May 2026 (pending MOU) |\n| Zeiss (microscope donor) | In-kind donation of IM 35 microscope | Confirmed |\n| FLIR (camera) | Technical support for Blackfly S integration | TBD (placeholder) |\n| ThorLabs (illuminator) | LED driver and filter cube specification | TBD (placeholder) |\n| OpenTrons (liquid handling) | Potential automation of media changes | TBD (placeholder) |\n| TBD (statistical consulting) | Power analysis and experimental design review | TBD (placeholder) |"
+  }
+]

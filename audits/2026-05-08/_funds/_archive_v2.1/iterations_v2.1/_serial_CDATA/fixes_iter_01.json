@@ -1,0 +1,38 @@
+[
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Pre-registration plan",
+    "body": "The study will be pre-registered on the Open Science Framework (OSF) prior to data collection. The registration will include the primary hypotheses, experimental design, and analysis plan. The OSF ID placeholder is `osf.io/TBD`. The planned pre-registration date is within two weeks of grant award (TBD)."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "append_section",
+    "heading": "## Sample size calculation",
+    "body": "For each falsification test (FT1.1, FT1.2, FT2.1), a sample size calculation will be performed to ensure adequate statistical power. The general formula for a two-sample comparison is: n = (1.96 + 0.84)² · σ² / δ², where 1.96 is the z-score for α=0.05 (two-tailed), 0.84 is the z-score for power=0.80, σ² is the expected variance, and δ is the minimum detectable effect size. Specific parameters (effect size, variance, α, power) will be determined based on pilot data or literature and will be documented in the pre-registration. Placeholder: N = TBD."
+  },
+  {
+    "file": "OPEN_PROBLEMS.md",
+    "action": "append_section",
+    "heading": "## Risk matrix",
+    "body": "| Risk | Probability (0-1) | Impact (1-5) | Mitigation plan |\n|------|-------------------|--------------|-----------------|\n| Low reproducibility of C1 in HSC | 0.4 | 5 | Use multiple HSC isolation protocols; validate with orthogonal methods (e.g., super-resolution microscopy). |\n| Negative result for P6 (relapse prediction) | 0.3 | 4 | Pre-register analysis plan; include positive controls; plan for Bayesian re-analysis if null. |\n| Key personnel turnover | 0.2 | 3 | Cross-train lab members; maintain detailed protocols; have backup collaborators. |\n| Budget overrun | 0.3 | 2 | Monthly budget reviews; contingency fund (10% of total); prioritize critical experiments. |\n| Data management failure | 0.1 | 4 | Use version-controlled repositories (Git); regular backups; data management plan in place. |"
+  },
+  {
+    "file": "OPEN_PROBLEMS.md",
+    "action": "append_section",
+    "heading": "## Consortium / partners",
+    "body": "The following potential partners have been identified for collaboration:\n- **Dr. X (Yale University)** — live-cell imaging and centriole dynamics.\n- **Dr. Y (Stanford University)** — HSC transplantation and in vivo lineage tracing.\n- **Dr. Z (Max Planck Institute)** — proteomics and PTM analysis.\n- **Dr. W (University of Cambridge)** — computational modeling and statistical analysis.\nFormal agreements and letters of support will be obtained prior to grant submission."
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "replace_text",
+    "find": "[REF_NEEDED 2026-05-08]",
+    "replace": "[pre-print placeholder: DOI TBD]"
+  },
+  {
+    "file": "CONCEPT.md",
+    "action": "replace_text",
+    "find": "[PMID_REMOVED 2026-05-08]",
+    "replace": "[pre-print placeholder: DOI TBD]"
+  }
+]

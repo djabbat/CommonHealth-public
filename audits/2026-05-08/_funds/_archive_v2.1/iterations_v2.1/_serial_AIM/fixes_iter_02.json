@@ -1,0 +1,44 @@
+[
+  {
+    "file": "AIM/CONCEPT.md",
+    "action": "replace_text",
+    "find": "## Falsifiability\n\n- **Primary endpoint:** PAM-13 Δ ≥ 5.4 points (MCID)\n- **Significance level:** α = 0.05 (two-sided) for primary analysis; Bonferroni correction applied only to secondary endpoints (≤2 comparisons) with α = 0.025 for each secondary test. **Harmonisation note:** This threshold supersedes any conflicting values in THEORY.md; the single adopted value is α=0.05 (two-sided) for primary, with Bonferroni-adjusted α=0.025 for secondary endpoints.\n- **Power:** 0.80\n- **Sample size:** N ≥ 55 per group (see Sample size calculation)\n- **Stopping rule:** Adverse event rate >5% in intervention arm (any AE, assessed monthly by DSMB)\n- **Interim analysis:** Planned at N=100 (50 per group) for futility only (O'Brien-Fleming boundary, α-spending = 0.005). If conditional power <20%, trial will be stopped for futility.\n- **Primary analysis:** Intention-to-treat (ITT); per-protocol sensitivity analysis as secondary",
+    "replace": "## Falsifiability\n\n- **Primary endpoint:** PAM-13 Δ ≥ 5.4 points (MCID)\n- **Significance level:** α = 0.05 (two-sided) for primary analysis; Bonferroni correction applied only to secondary endpoints (≤2 comparisons) with α = 0.025 for each secondary test. **Harmonisation note:** This threshold supersedes any conflicting values in THEORY.md; the single adopted value is α=0.05 (two-sided) for primary, with Bonferroni-adjusted α=0.025 for secondary endpoints. No other α thresholds (e.g., p < 0.001) are used.\n- **Power:** 0.80\n- **Sample size:** N ≥ 55 per group (see Sample size calculation)\n- **Stopping rule:** Adverse event rate >5% in intervention arm (any AE, assessed monthly by DSMB)\n- **Interim analysis:** Planned at N=100 (50 per group) for futility only (O'Brien-Fleming boundary, α-spending = 0.005). If conditional power <20%, trial will be stopped for futility.\n- **Primary analysis:** Intention-to-treat (ITT); per-protocol sensitivity analysis as secondary"
+  },
+  {
+    "file": "AIM/THEORY.md",
+    "action": "replace_text",
+    "find": "## Falsifiability",
+    "replace": "## Falsifiability\n\n- **Primary endpoint:** PAM-13 Δ ≥ 5.4 points (MCID)\n- **Significance level:** α = 0.05 (two-sided) for primary analysis; Bonferroni correction applied only to secondary endpoints (≤2 comparisons) with α = 0.025 for each secondary test. **Harmonisation note:** This threshold supersedes any conflicting values in THEORY.md; the single adopted value is α=0.05 (two-sided) for primary, with Bonferroni-adjusted α=0.025 for secondary endpoints. No other α thresholds (e.g., p < 0.001) are used.\n- **Power:** 0.80\n- **Sample size:** N ≥ 55 per group (see Sample size calculation)\n- **Stopping rule:** Adverse event rate >5% in intervention arm (any AE, assessed monthly by DSMB)\n- **Interim analysis:** Planned at N=100 (50 per group) for futility only (O'Brien-Fleming boundary, α-spending = 0.005). If conditional power <20%, trial will be stopped for futility.\n- **Primary analysis:** Intention-to-treat (ITT); per-protocol sensitivity analysis as secondary"
+  },
+  {
+    "file": "AIM/THEORY.md",
+    "action": "replace_text",
+    "find": "n = (1.96 + 0.84)² · σ² / δ²",
+    "replace": "n = (1.96 + 0.84)² · 2σ² / δ²"
+  },
+  {
+    "file": "AIM/THEORY.md",
+    "action": "insert_after_line",
+    "line_anchor": "## Sample size calculation",
+    "body": "\n\n**Test type:** Independent two-sample t-test (two-sided)."
+  },
+  {
+    "file": "AIM/CONCEPT.md",
+    "action": "replace_text",
+    "find": "## Risk matrix",
+    "replace": "## Risk matrix\n\n| # | Risk | Probability | Impact | Mitigation |\n|---|------|-------------|--------|------------|\n| 1 | Low recruitment (N < 132 in 12 months) | Medium | High | Multi-site recruitment (TSU, University of Copenhagen); monthly monitoring; extend enrollment period by 6 months if needed |\n| 2 | LLM hallucination causing patient harm | Low | Critical | Medical oversight by Co-I (MD); real-time LLM output filtering; mandatory disclaimer; adverse event reporting |\n| 3 | Data privacy breach (GDPR non-compliance) | Low | Critical | Pseudonymisation; encrypted storage; annual GDPR audit; data processing agreement with all partners |\n| 4 | PAM-13 license withdrawal by Insignia Health | Low | High | Backup outcome measure (Patient Activation Measure short form); early license negotiation |\n| 5 | Reference integrity failure (e.g., incorrect PMID) | Medium | Medium | Pre-submission reference audit by two independent reviewers; use DOI where available; automated PMID validation |\n| 6 | Dropout rate >20% | Medium | Medium | Retention strategies (reminders, incentives); per-protocol sensitivity analysis; oversample by 20% |\n| 7 | σ estimate off by >20% from pilot | Medium | Medium | Pilot phase (N=20 per group); recalculate sample size; adjust enrollment target if needed"
+  },
+  {
+    "file": "AIM/CONCEPT.md",
+    "action": "replace_text",
+    "find": "## Limitations",
+    "replace": "## Limitations\n\n1. **Single-centre design:** Results may not generalise to other healthcare settings or populations.\n2. **Short follow-up (6 months):** Long-term effects on patient activation and clinical outcomes are not assessed.\n3. **Self-reported outcomes:** PAM-13 and MMAS-8 are subject to social desirability and recall bias.\n4. **Digital literacy confound:** Participants with low digital literacy may have differential engagement with the LLM intervention; not controlled for in current design.\n5. **Hawthorne effect:** Both arms receive attention from study staff; control arm may show higher-than-usual activation.\n6. **Placebo effect of LLM interaction:** Novelty of AI interaction may inflate effect size in intervention arm.\n7. **Sample size based on assumed σ = 10:** If true SD is larger, study may be underpowered; sensitivity analysis planned.\n8. **Reference integrity:** One reference (Hibbard 2004) had incorrect PMID in earlier version; corrected to PMID 15333167. All references will be re-audited before submission."
+  },
+  {
+    "file": "AIM/THEORY.md",
+    "action": "replace_text",
+    "find": "## Limitations",
+    "replace": "## Limitations\n\n1. **Single-centre design:** Results may not generalise to other healthcare settings or populations.\n2. **Short follow-up (6 months):** Long-term effects on patient activation and clinical outcomes are not assessed.\n3. **Self-reported outcomes:** PAM-13 and MMAS-8 are subject to social desirability and recall bias.\n4. **Digital literacy confound:** Participants with low digital literacy may have differential engagement with the LLM intervention; not controlled for in current design.\n5. **Hawthorne effect:** Both arms receive attention from study staff; control arm may show higher-than-usual activation.\n6. **Placebo effect of LLM interaction:** Novelty of AI interaction may inflate effect size in intervention arm.\n7. **Sample size based on assumed σ = 10:** If true SD is larger, study may be underpowered; sensitivity analysis planned.\n8. **Reference integrity:** One reference (Hibbard 2004) had incorrect PMID in earlier version; corrected to PMID 15333167. All references will be re-audited before submission."
+  }
+]
