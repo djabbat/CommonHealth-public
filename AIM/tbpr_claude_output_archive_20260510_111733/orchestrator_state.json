@@ -1,0 +1,113 @@
+{
+  "completed": {
+    "E0": {
+      "project": "E0",
+      "levels": {
+        "concept": {
+          "best_score": 35,
+          "best_agent": "reasoner-high",
+          "goal_reached": false,
+          "skipped": false,
+          "skip_reason": ""
+        }
+      },
+      "any_pass": false
+    }
+  },
+  "best": {
+    "E0/concept": {
+      "score": 35,
+      "agent": "reasoner-high",
+      "fixed_path": "/home/oem/Desktop/LongevityCommon/AIM/tbpr_claude_output/E0/concept/concept_a7_reasoner-high_fixed.md"
+    },
+    "E0/core": {
+      "score": 33,
+      "agent": "flash-high",
+      "fixed_path": "/home/oem/Desktop/LongevityCommon/AIM/tbpr_claude_output/E0/core/a3_flash-high_fixed"
+    }
+  },
+  "attempts": {
+    "E0/concept": [
+      {
+        "agent": "flash-nothink",
+        "score": 21,
+        "review_path": "/home/oem/Desktop/LongevityCommon/AIM/tbpr_claude_output/E0/concept/tbpr_a1_flash-nothink.md",
+        "fixed_path": "/home/oem/Desktop/LongevityCommon/AIM/tbpr_claude_output/E0/concept/concept_a1_flash-nothink_fixed.md"
+      },
+      {
+        "agent": "flash-low",
+        "score": 30,
+        "review_path": "/home/oem/Desktop/LongevityCommon/AIM/tbpr_claude_output/E0/concept/tbpr_a2_flash-low.md",
+        "fixed_path": "/home/oem/Desktop/LongevityCommon/AIM/tbpr_claude_output/E0/concept/concept_a2_flash-low_fixed.md"
+      },
+      {
+        "agent": "flash-high",
+        "score": 29,
+        "review_path": "/home/oem/Desktop/LongevityCommon/AIM/tbpr_claude_output/E0/concept/tbpr_a3_flash-high.md",
+        "fixed_path": "/home/oem/Desktop/LongevityCommon/AIM/tbpr_claude_output/E0/concept/concept_a3_flash-high_fixed.md"
+      },
+      {
+        "agent": "flash-max",
+        "score": 33,
+        "review_path": "/home/oem/Desktop/LongevityCommon/AIM/tbpr_claude_output/E0/concept/tbpr_a4_flash-max.md",
+        "fixed_path": "/home/oem/Desktop/LongevityCommon/AIM/tbpr_claude_output/E0/concept/concept_a4_flash-max_fixed.md"
+      },
+      {
+        "agent": "chat-high",
+        "score": 31,
+        "review_path": "/home/oem/Desktop/LongevityCommon/AIM/tbpr_claude_output/E0/concept/tbpr_a5_chat-high.md",
+        "fixed_path": "/home/oem/Desktop/LongevityCommon/AIM/tbpr_claude_output/E0/concept/concept_a5_chat-high_fixed.md"
+      },
+      {
+        "agent": "reasoner",
+        "score": 31,
+        "review_path": "/home/oem/Desktop/LongevityCommon/AIM/tbpr_claude_output/E0/concept/tbpr_a6_reasoner.md",
+        "fixed_path": "/home/oem/Desktop/LongevityCommon/AIM/tbpr_claude_output/E0/concept/concept_a6_reasoner_fixed.md"
+      },
+      {
+        "agent": "reasoner-high",
+        "score": 35,
+        "review_path": "/home/oem/Desktop/LongevityCommon/AIM/tbpr_claude_output/E0/concept/tbpr_a7_reasoner-high.md",
+        "fixed_path": "/home/oem/Desktop/LongevityCommon/AIM/tbpr_claude_output/E0/concept/concept_a7_reasoner-high_fixed.md"
+      },
+      {
+        "agent": "reasoner-max",
+        "score": 32,
+        "review_path": "/home/oem/Desktop/LongevityCommon/AIM/tbpr_claude_output/E0/concept/tbpr_a8_reasoner-max.md",
+        "fixed_path": "/home/oem/Desktop/LongevityCommon/AIM/tbpr_claude_output/E0/concept/concept_a8_reasoner-max_fixed.md"
+      },
+      {
+        "agent": "pro-nothink",
+        "score": 33,
+        "review_path": "/home/oem/Desktop/LongevityCommon/AIM/tbpr_claude_output/E0/concept/tbpr_a9_pro-nothink.md",
+        "fixed_path": "/home/oem/Desktop/LongevityCommon/AIM/tbpr_claude_output/E0/concept/concept_a9_pro-nothink_fixed.md"
+      }
+    ],
+    "E0/core": [
+      {
+        "agent": "flash-nothink",
+        "score": 21,
+        "review_path": "/home/oem/Desktop/LongevityCommon/AIM/tbpr_claude_output/E0/core/tbpr_a1_flash-nothink.md",
+        "fixed_path": "/home/oem/Desktop/LongevityCommon/AIM/tbpr_claude_output/E0/core/a1_flash-nothink_fixed"
+      },
+      {
+        "agent": "flash-low",
+        "score": 21,
+        "review_path": "/home/oem/Desktop/LongevityCommon/AIM/tbpr_claude_output/E0/core/tbpr_a2_flash-low.md",
+        "fixed_path": "/home/oem/Desktop/LongevityCommon/AIM/tbpr_claude_output/E0/core/a2_flash-low_fixed"
+      },
+      {
+        "agent": "flash-high",
+        "score": 33,
+        "review_path": "/home/oem/Desktop/LongevityCommon/AIM/tbpr_claude_output/E0/core/tbpr_a3_flash-high.md",
+        "fixed_path": "/home/oem/Desktop/LongevityCommon/AIM/tbpr_claude_output/E0/core/a3_flash-high_fixed"
+      },
+      {
+        "agent": "flash-max",
+        "score": 26,
+        "review_path": "/home/oem/Desktop/LongevityCommon/AIM/tbpr_claude_output/E0/core/tbpr_a4_flash-max.md",
+        "fixed_path": "/home/oem/Desktop/LongevityCommon/AIM/tbpr_claude_output/E0/core/a4_flash-max_fixed"
+      }
+    ]
+  }
+}

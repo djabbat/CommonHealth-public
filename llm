@@ -1,0 +1,161 @@
+#!/usr/bin/env python3
+"""
+LLM CLI — универсальная командная строка для всех провайдеров.
+
+Бесплатные: Groq (Llama), Gemini, Ollama (локально)
+Платные:   DeepSeek (дешёвый)
+
+Usage:
+    llm "Какой-то вопрос"                    # авто-выбор (бесплатный)
+    llm "Code a function" -t coding          # по типу задачи
+    llm "Привет" -p groq                     # конкретный провайдер
+    llm -p gemini-free "Фактчек: ..."         # Gemini free
+    llm -p ollama "Приватный вопрос"          # локально
+    llm --reasoner "Сложная проблема"         # DeepSeek reasoner
+    llm --list                               # список провайдеров
+    llm --diagnose                           # проверка доступности
+    llm --chat                               # интерактивный режим
+"""
+
+import sys
+import os
+from pathlib import Path
+
+# Добавляем providers.py в путь
+_HERE = Path(__file__).resolve().parent
+
+# Возможные расположения providers.py
+_PATHS = [
+    _HERE / "Services/tbpr/scripts",          # LongevityCommon/Services/...
+    Path.home() / "Desktop/Services/tbpr/scripts",  # ~/Desktop/Services/...
+    _HERE / "AIM",                                    # LongevityCommon/AIM
+    _HERE,
+]
+
+for p in _PATHS:
+    if p.is_dir():
+        sys.path.insert(0, str(p))
+
+# Пробуем импортировать providers (из tbpr) или llm
+try:
+    from providers import call, list_providers, diagnose
+    HAS_MULTI = True
+except ImportError:
+    try:
+        from llm import ask
+        HAS_MULTI = False
+    except ImportError:
+        print("❌ Ни providers.py ни llm.py не найдены", file=sys.stderr)
+        sys.exit(1)
+
+
+def _interactive(provider=None, task=None, model=None):
+    """Интерактивный режим: одна сессия с историей."""
+    history = []
+    print("🦙 LLM Interactive. Ctrl+D/Ctrl+C для выхода.")
+    print(f"   Провайдер: {provider or 'авто'} | Task: {task or 'auto'}")
+    print()
+    try:
+        while True:
+            prompt = input(">>> ")
+            if not prompt.strip():
+                continue
+
+            # Контекст из истории (последние 3 обмена)
+            context = ""
+            for prev_q, prev_a in history[-3:]:
+                context += f"User: {prev_q}\nAssistant: {prev_a}\n\n"
+            full_prompt = context + prompt if context else prompt
+
+            if HAS_MULTI:
+                text, used = call(full_prompt, provider=provider, task=task, model=model)
+                print(f" [{used}]")
+            else:
+                text = ask(full_prompt, temperature=0.2)
+                print(f" [deepseek]")
+
+            print(text)
+            print()
+            history.append((prompt, text))
+    except (EOFError, KeyboardInterrupt):
+        print("\n👋 Пока!")
+
+
+def main():
+    import argparse
+
+    ap = argparse.ArgumentParser(description="LLM CLI — универсальный интерфейс ко всем провайдерам")
+    ap.add_argument("prompt", nargs="*", help="Вопрос / команда")
+    ap.add_argument("-p", "--provider", help="Провайдер: deepseek, groq, gemini-free, ollama")
+    ap.add_argument("-t", "--task", help="Тип задачи: quick, coding, reasoning, factcheck, draft, review, translate, local")
+    ap.add_argument("-m", "--model", help="Конкретная модель")
+    ap.add_argument("--reasoner", action="store_true", help="DeepSeek reasoner (сложные задачи)")
+    ap.add_argument("--list", action="store_true", help="Список провайдеров")
+    ap.add_argument("--diagnose", action="store_true", help="Проверка доступности")
+    ap.add_argument("--chat", action="store_true", help="Интерактивный режим")
+    ap.add_argument("--temperature", type=float, default=0.2)
+    ap.add_argument("--max-tokens", type=int, default=4096)
+    args = ap.parse_args()
+
+    if args.list:
+        if not HAS_MULTI:
+            print("Только DeepSeek (providers.py не найден)")
+            return
+        providers = list_providers()
+        print("=== Доступные провайдеры ===")
+        for name, info in providers.items():
+            status = "✅" if info.get("configured", True) else "❌"
+            free = "🆓" if info.get("free") else "💰"
+            print(f"  {free} {name:20s} {status} {','.join(info['models'])}")
+        return
+
+    if args.diagnose:
+        if not HAS_MULTI:
+            print("Только DeepSeek (providers.py не найден)")
+            return
+        diag = diagnose()
+        print("=== Диагностика ===")
+        for name, info in diag.items():
+            status = "✅" if info.get("available") else "❌"
+            free = "🆓" if info.get("free") else "💰"
+            models = ",".join(info.get("models", []))
+            err = f" — {info.get('error', '')}" if not info.get("available") else ""
+            print(f"  {status} {free} {name:20s} {models}{err}")
+        return
+
+    prompt = " ".join(args.prompt) if args.prompt else ""
+
+    if args.chat or not prompt:
+        if args.reasoner:
+            provider = "deepseek-reasoner"
+        else:
+            provider = args.provider
+        _interactive(provider=provider, task=args.task, model=args.model)
+        return
+
+    if args.reasoner:
+        provider = "deepseek-reasoner"
+        args.task = None
+    else:
+        provider = args.provider
+
+    if HAS_MULTI:
+        from providers import call as _call
+        text, used = _call(
+            prompt,
+            provider=provider,
+            model=args.model,
+            task=args.task,
+            temperature=args.temperature,
+            max_tokens=args.max_tokens,
+        )
+        print(f"[{used}]")
+    else:
+        text = ask(prompt, temperature=args.temperature, max_tokens=args.max_tokens)
+        print("[deepseek]")
+
+    print(text)
+
+
+if __name__ == "__main__":
+    main()

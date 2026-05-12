@@ -196,9 +196,23 @@
       "dependents": [],
       "key_params": {
         "cell_line": "BJ-hTERT fibroblasts",
-        "pilot_duration": "48h",
-        "molecular_clock": "Cre-ER^T2 / 4-OHT inducible mCherry→GFP",
-        "subprojects": ["AnalysisStack", "ImagingControl", "LiveImagingPipeline"]
+        "phase_a_duration": "6 months",
+        "phase_a_imaging_blocks": "≥9 × 24-72h continuous",
+        "phase_b_duration": "12 months in vivo HSC BMT (Ulm, Geiger)",
+        "molecular_clock": "Cre-ER^T2 / 4-OHT inducible mCherry→GFP RITE",
+        "subprojects": ["Aubrey"],
+        "subprojects_merged_2026_05_12": ["LiveImagingPipeline", "ImagingControl", "AnalysisStack"],
+        "subprojects_archived_at": "experiments/CellLineageTree/_archive/merged-into-Aubrey-2026-05-12/",
+        "platform_name": "ARGUS-LP (AI-Resident Robotic Genealogical Ultra-surveillance for Lineage Purification)",
+        "host_facility": "GLA Abastumani, Georgia (PI's home lab with retrofitted Zeiss IM 35)",
+        "signed_los": {
+          "parrish_strategic": "2026-04-22, BioViva Sciences LLC, non-compensated advisory",
+          "geiger_phase_b": "2026-04-23, Univ. Ulm, €100,000 in vivo BMT subcontract"
+        },
+        "budget_phase_a_eur": 78594,
+        "budget_phase_b_eur": 135600,
+        "budget_combined_eur": 214194,
+        "funder_target": "Longevity Research Foundation / Impetus Grants Program (Strategic Co-PI tier)"
       }
     },
     "fclc": {

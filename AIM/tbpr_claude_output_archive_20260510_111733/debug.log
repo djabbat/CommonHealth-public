@@ -1,0 +1,32 @@
+[2026-05-10 10:36:00] DECISION: providers.py отсутствует — использую fallback в llm.py (прямой DeepSeek API через requests). Не блокер.
+[2026-05-10 10:36:00] DECISION: E0 не имеет THEORY/DESIGN/EVIDENCE — Level 2 (core) будет SKIP; Level 3 (full) собирается из CONCEPT/KNOWLEDGE/MAP/LINKS.
+[2026-05-10 10:36:00] DECISION: Перешёл на кумулятивный режим — каждый следующий агент review-ит fixed-выход предыдущего. Stateless-режим из исходного prompt давал бы идентичный score у всех 9 агентов (review одного и того же оригинала), что бессмысленно. Подтверждено эмпирически: agent1=21/55 → agent2=30/55 на E0/concept.
+[2026-05-10 10:36:00] DECISION: max_tokens=16384 для review и fix; timeout=600s; retries=2 с backoff 5+5s. При 400 от API на reasoning_effort — повторяю без него.
+[2026-05-10 10:36:00] DECISION: Логирование расширено в orchestrator (dlog/ddecision), активируется со следующего запуска. Текущий E0/concept завершит цикл по старой версии, в debug.log попадёт только из ручных вставок.
+[2026-05-10 10:36:30] DECISION: agent 3 (flash-high) дал 29/55 — ниже champion agent 2 (flash-low, 30/55); champion не меняется. Кумулятивный текст для agent 4 = fixed от agent 3 (последний сделанный fix).
+[2026-05-10 10:38:25] DECISION: agent 4 (flash-max) → 33/55, новый champion (был flash-low 30/55). Прогресс: 21→30→29→33. Цель 45 ещё далеко (12 пунктов), осталось 5 агентов.
+[2026-05-10 11:00:37] EVENT=run_start PID=2298497 TARGETS=E0,AutomatedMicroscopy,CellLineageTree,EpigeneticDrift,Proteostasis,Telomere,MitoROS,BioSense,AIM,Ze,MCOA,CDATA LEVELS=concept,core,full ONLY_AGENT=- RESUME=True
+[2026-05-10 11:00:37] EVENT=project_start PROJECT=E0 DIR=/home/oem/Desktop/LongevityCommon/CDATA/experiments/E0 LEVELS=concept,core,full
+[2026-05-10 11:00:37] EVENT=level_resume_skip PROJECT=E0 LEVEL=concept BEST=35/55 BEST_AGENT=reasoner-high
+[2026-05-10 11:00:37] MODEL=deepseek-reasoner EFFORT=- ACTION=review STATUS=start PROJECT=E0 LEVEL=core AGENT=flash-nothink PROMPT_CHARS=8654
+[2026-05-10 11:01:35] MODEL=deepseek-reasoner EFFORT=- ACTION=review STATUS=ok PROJECT=E0 LEVEL=core AGENT=flash-nothink SCORE=21/55 DURATION=57s RESP_CHARS=7641
+[2026-05-10 11:01:35] DECISION: msg="new champion at E0/core: agent 1 (flash-nothink) score 21/55, prev best 0/55 → keep as champion"
+[2026-05-10 11:01:35] MODEL=deepseek-v4-flash EFFORT=- ACTION=fix STATUS=start PROJECT=E0 LEVEL=core AGENT=flash-nothink PROMPT_CHARS=15992
+[2026-05-10 11:03:36] MODEL=deepseek-v4-flash EFFORT=- ACTION=fix STATUS=ok PROJECT=E0 LEVEL=core AGENT=flash-nothink CHARS_IN=7873 CHARS_OUT=21995 DELTA=+14122 DURATION=122s SAVED=a1_flash-nothink_fixed
+[2026-05-10 11:03:36] MODEL=deepseek-reasoner EFFORT=- ACTION=review STATUS=start PROJECT=E0 LEVEL=core AGENT=flash-low PROMPT_CHARS=22776
+[2026-05-10 11:04:57] MODEL=deepseek-reasoner EFFORT=- ACTION=review STATUS=ok PROJECT=E0 LEVEL=core AGENT=flash-low SCORE=21/55 DURATION=81s RESP_CHARS=9427
+[2026-05-10 11:04:57] MODEL=deepseek-v4-flash EFFORT=low ACTION=fix STATUS=start PROJECT=E0 LEVEL=core AGENT=flash-low PROMPT_CHARS=31900
+[2026-05-10 11:07:05] MODEL=deepseek-v4-flash EFFORT=low ACTION=fix STATUS=ok PROJECT=E0 LEVEL=core AGENT=flash-low CHARS_IN=21995 CHARS_OUT=27864 DELTA=+5869 DURATION=128s SAVED=a2_flash-low_fixed
+[2026-05-10 11:07:05] MODEL=deepseek-reasoner EFFORT=- ACTION=review STATUS=start PROJECT=E0 LEVEL=core AGENT=flash-high PROMPT_CHARS=28645
+[2026-05-10 11:08:08] MODEL=deepseek-reasoner EFFORT=- ACTION=review STATUS=ok PROJECT=E0 LEVEL=core AGENT=flash-high SCORE=33/55 DURATION=62s RESP_CHARS=4202
+[2026-05-10 11:08:08] DECISION: msg="new champion at E0/core: agent 3 (flash-high) score 33/55, prev best 21/55 → keep as champion"
+[2026-05-10 11:08:08] MODEL=deepseek-v4-flash EFFORT=high ACTION=fix STATUS=start PROJECT=E0 LEVEL=core AGENT=flash-high PROMPT_CHARS=32544
+[2026-05-10 11:10:50] MODEL=deepseek-v4-flash EFFORT=high ACTION=fix STATUS=ok PROJECT=E0 LEVEL=core AGENT=flash-high CHARS_IN=27864 CHARS_OUT=33201 DELTA=+5337 DURATION=162s SAVED=a3_flash-high_fixed
+[2026-05-10 11:10:50] MODEL=deepseek-reasoner EFFORT=- ACTION=review STATUS=start PROJECT=E0 LEVEL=core AGENT=flash-max PROMPT_CHARS=33982
+[2026-05-10 11:11:40] MODEL=deepseek-reasoner EFFORT=- ACTION=review STATUS=ok PROJECT=E0 LEVEL=core AGENT=flash-max SCORE=26/55 DURATION=50s RESP_CHARS=1307
+[2026-05-10 11:11:40] MODEL=deepseek-v4-flash EFFORT=max ACTION=fix STATUS=start PROJECT=E0 LEVEL=core AGENT=flash-max PROMPT_CHARS=34986
+[2026-05-10 11:16:12] MODEL=deepseek-v4-flash EFFORT=max ACTION=fix STATUS=ok PROJECT=E0 LEVEL=core AGENT=flash-max CHARS_IN=33201 CHARS_OUT=26507 DELTA=-6694 DURATION=272s SAVED=a4_flash-max_fixed
+[2026-05-10 11:16:12] MODEL=deepseek-reasoner EFFORT=- ACTION=review STATUS=start PROJECT=E0 LEVEL=core AGENT=chat-high PROMPT_CHARS=27288
+[2026-05-10 11:16:57] MODEL=deepseek-reasoner EFFORT=- ACTION=review STATUS=ok PROJECT=E0 LEVEL=core AGENT=chat-high SCORE=35/55 DURATION=45s RESP_CHARS=1187
+[2026-05-10 11:16:57] DECISION: msg="new champion at E0/core: agent 5 (chat-high) score 35/55, prev best 33/55 → keep as champion"
+[2026-05-10 11:16:57] MODEL=deepseek-chat EFFORT=high ACTION=fix STATUS=start PROJECT=E0 LEVEL=core AGENT=chat-high PROMPT_CHARS=28172

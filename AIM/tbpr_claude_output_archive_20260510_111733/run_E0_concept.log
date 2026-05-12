@@ -1,0 +1,41 @@
+[2026-05-10 10:32:00] === orchestrator start: targets=['E0'], levels=['concept'], only_agent=None ===
+[2026-05-10 10:32:00] ### PROJECT E0 @ /home/oem/Desktop/LongevityCommon/CDATA/experiments/E0 ###
+[2026-05-10 10:32:00] [E0/concept] start — files: ['CONCEPT.md']
+[2026-05-10 10:32:00] [E0/concept] agent 1/9 = flash-nothink
+[2026-05-10 10:32:49]   review ok (49s, 7002 chars)
+[2026-05-10 10:32:49]   score = 21/55  (best so far 0)
+[2026-05-10 10:33:47]   fix ok (58s, 11409 chars)
+[2026-05-10 10:33:47] [E0/concept] agent 2/9 = flash-low
+[2026-05-10 10:34:36]   review ok (49s, 4422 chars)
+[2026-05-10 10:34:36]   score = 30/55  (best so far 21)
+[2026-05-10 10:35:38]   fix ok (62s, 14253 chars)
+[2026-05-10 10:35:38] [E0/concept] agent 3/9 = flash-high
+[2026-05-10 10:36:24]   review ok (46s, 4274 chars)
+[2026-05-10 10:36:24]   score = 29/55  (best so far 30)
+[2026-05-10 10:37:43]   fix ok (78s, 18743 chars)
+[2026-05-10 10:37:43] [E0/concept] agent 4/9 = flash-max
+[2026-05-10 10:38:18]   review ok (35s, 4885 chars)
+[2026-05-10 10:38:18]   score = 33/55  (best so far 30)
+[2026-05-10 10:40:51]   fix ok (153s, 20822 chars)
+[2026-05-10 10:40:51] [E0/concept] agent 5/9 = chat-high
+[2026-05-10 10:41:31]   review ok (40s, 5494 chars)
+[2026-05-10 10:41:31]   score = 31/55  (best so far 33)
+[2026-05-10 10:43:34]   fix ok (124s, 27811 chars)
+[2026-05-10 10:43:34] [E0/concept] agent 6/9 = reasoner
+[2026-05-10 10:44:42]   review ok (68s, 3954 chars)
+[2026-05-10 10:44:42]   score = 31/55  (best so far 33)
+[2026-05-10 10:46:33]   fix ok (111s, 29496 chars)
+[2026-05-10 10:46:33] [E0/concept] agent 7/9 = reasoner-high
+[2026-05-10 10:47:37]   review ok (64s, 7695 chars)
+[2026-05-10 10:47:37]   score = 35/55  (best so far 33)
+[2026-05-10 10:48:59]   fix ok (82s, 19507 chars)
+[2026-05-10 10:48:59] [E0/concept] agent 8/9 = reasoner-max
+[2026-05-10 10:49:48]   review ok (49s, 5025 chars)
+[2026-05-10 10:49:48]   score = 32/55  (best so far 35)
+[2026-05-10 10:53:01]   fix ok (193s, 22617 chars)
+[2026-05-10 10:53:01] [E0/concept] agent 9/9 = pro-nothink
+[2026-05-10 10:53:50]   review ok (49s, 4743 chars)
+[2026-05-10 10:53:50]   score = 33/55  (best so far 35)
+[2026-05-10 10:59:49]   fix ok (358s, 29359 chars)
+[2026-05-10 10:59:49] [E0/concept] DONE — best 35/55 (reasoner-high); goal=False
+[2026-05-10 10:59:49] === orchestrator done ===

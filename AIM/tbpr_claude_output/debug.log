@@ -1,0 +1,27 @@
+[2026-05-10 11:13:00] DECISION: пользователь сказал 'начни сначала'. Архивирую старый output, добавил ensure_core_files в run_project (вызывается перед core-уровнем). Запускаю --all с нуля.
+[2026-05-10 11:17:34] EVENT=run_start PID=2305637 TARGETS=E0,AutomatedMicroscopy,CellLineageTree,EpigeneticDrift,Proteostasis,Telomere,MitoROS,BioSense,AIM,Ze,MCOA,CDATA LEVELS=concept,core,full ONLY_AGENT=- RESUME=False
+[2026-05-10 11:17:34] EVENT=project_start PROJECT=E0 DIR=/home/oem/Desktop/LongevityCommon/CDATA/experiments/E0 LEVELS=concept,core,full
+[2026-05-10 11:17:34] EVENT=ensure_core_start PROJECT=E0 MISSING=THEORY.md,DESIGN.md,EVIDENCE.md CONCEPT_CHARS=2721
+[2026-05-10 11:18:59] EVENT=ensure_core_ok PROJECT=E0 MISSING=THEORY.md,DESIGN.md,EVIDENCE.md WRITTEN=THEORY.md,DESIGN.md,EVIDENCE.md DURATION=86s
+[2026-05-10 11:18:59] DECISION: msg="ensure_core for E0: generated ['THEORY.md', 'DESIGN.md', 'EVIDENCE.md'] from CONCEPT.md (missing=['THEORY.md', 'DESIGN.md', 'EVIDENCE.md']); files written with AUTO-GENERATED header"
+[2026-05-10 11:18:59] MODEL=deepseek-reasoner EFFORT=- ACTION=review STATUS=start PROJECT=E0 LEVEL=concept AGENT=flash-nothink PROMPT_CHARS=3547
+[2026-05-10 11:19:41] MODEL=deepseek-reasoner EFFORT=- ACTION=review STATUS=ok PROJECT=E0 LEVEL=concept AGENT=flash-nothink SCORE=19/55 DURATION=41s RESP_CHARS=7298
+[2026-05-10 11:19:41] DECISION: msg="new champion at E0/concept: agent 1 (flash-nothink) score 19/55, prev best 0/55 → keep as champion"
+[2026-05-10 11:19:41] MODEL=deepseek-v4-flash EFFORT=- ACTION=fix STATUS=start PROJECT=E0 LEVEL=concept AGENT=flash-nothink PROMPT_CHARS=10319
+[2026-05-10 11:20:47] MODEL=deepseek-v4-flash EFFORT=- ACTION=fix STATUS=ok PROJECT=E0 LEVEL=concept AGENT=flash-nothink CHARS_IN=2750 CHARS_OUT=8555 DELTA=+5805 DURATION=67s SAVED=concept_a1_flash-nothink_fixed.md
+[2026-05-10 11:20:47] MODEL=deepseek-reasoner EFFORT=- ACTION=review STATUS=start PROJECT=E0 LEVEL=concept AGENT=flash-low PROMPT_CHARS=9381
+[2026-05-10 11:21:28] MODEL=deepseek-reasoner EFFORT=- ACTION=review STATUS=ok PROJECT=E0 LEVEL=concept AGENT=flash-low SCORE=28/55 DURATION=41s RESP_CHARS=6027
+[2026-05-10 11:21:28] DECISION: msg="new champion at E0/concept: agent 2 (flash-low) score 28/55, prev best 19/55 → keep as champion"
+[2026-05-10 11:21:28] MODEL=deepseek-v4-flash EFFORT=low ACTION=fix STATUS=start PROJECT=E0 LEVEL=concept AGENT=flash-low PROMPT_CHARS=14882
+[2026-05-10 11:22:44] MODEL=deepseek-v4-flash EFFORT=low ACTION=fix STATUS=ok PROJECT=E0 LEVEL=concept AGENT=flash-low CHARS_IN=8584 CHARS_OUT=12859 DELTA=+4275 DURATION=76s SAVED=concept_a2_flash-low_fixed.md
+[2026-05-10 11:22:44] MODEL=deepseek-reasoner EFFORT=- ACTION=review STATUS=start PROJECT=E0 LEVEL=concept AGENT=flash-high PROMPT_CHARS=13685
+[2026-05-10 11:23:45] MODEL=deepseek-reasoner EFFORT=- ACTION=review STATUS=ok PROJECT=E0 LEVEL=concept AGENT=flash-high SCORE=33/55 DURATION=61s RESP_CHARS=4352
+[2026-05-10 11:23:45] DECISION: msg="new champion at E0/concept: agent 3 (flash-high) score 33/55, prev best 28/55 → keep as champion"
+[2026-05-10 11:23:45] MODEL=deepseek-v4-flash EFFORT=high ACTION=fix STATUS=start PROJECT=E0 LEVEL=concept AGENT=flash-high PROMPT_CHARS=17511
+[2026-05-10 11:25:23] MODEL=deepseek-v4-flash EFFORT=high ACTION=fix STATUS=ok PROJECT=E0 LEVEL=concept AGENT=flash-high CHARS_IN=12888 CHARS_OUT=17107 DELTA=+4219 DURATION=99s SAVED=concept_a3_flash-high_fixed.md
+[2026-05-10 11:25:23] MODEL=deepseek-reasoner EFFORT=- ACTION=review STATUS=start PROJECT=E0 LEVEL=concept AGENT=flash-max PROMPT_CHARS=17933
+[2026-05-10 11:26:16] MODEL=deepseek-reasoner EFFORT=- ACTION=review STATUS=ok PROJECT=E0 LEVEL=concept AGENT=flash-max SCORE=33/55 DURATION=53s RESP_CHARS=5376
+[2026-05-10 11:26:16] MODEL=deepseek-v4-flash EFFORT=max ACTION=fix STATUS=start PROJECT=E0 LEVEL=concept AGENT=flash-max PROMPT_CHARS=22783
+[2026-05-10 11:29:08] MODEL=deepseek-v4-flash EFFORT=max ACTION=fix STATUS=ok PROJECT=E0 LEVEL=concept AGENT=flash-max CHARS_IN=17136 CHARS_OUT=16685 DELTA=-451 DURATION=172s SAVED=concept_a4_flash-max_fixed.md
+[2026-05-10 11:29:08] MODEL=deepseek-reasoner EFFORT=- ACTION=review STATUS=start PROJECT=E0 LEVEL=concept AGENT=chat-high PROMPT_CHARS=17511
+[2026-05-10 11:27:30] DECISION: пользователь сказал "запомни где ты и остановись, потом продолжишь с этого места". Процесс PID 2305637 остановлен через SIGTERM. State сохранён: E0/concept best=33/55 (flash-high), 4/9 агентов done. CHECKPOINT.md записан с двумя вариантами resume. Возобновить — Вариант A (доработать E0/concept agents 5-9) или Вариант B (принять 33/55 и идти дальше). Решение по варианту примет пользователь при следующем запуске.

@@ -105,3 +105,46 @@
 2. **⚠️ Порог с большим разбросом:** `L_critical` варьирует между линиями или экспериментами. Указывает на дополнительные скрытые переменные или шум.
 3. **❌ Отсутствие порога/корреляции:** `L_tissue` не коррелирует со вхождением в сенесценцию. Фальсифицирует простую линейную аддитивную модель для `L_tissue` в данной системе.
 4. **🔀 `L_tissue` достигает `L_critical` до сенесценции:** Предсказывает сенесценцию раньше, чем она происходит. Может указывать на то, что порог стохастичен или требуются дополнительные события.
+
+## Проблема 5: Валидация candidate counter #6 (piRNA) в mammalian non-germline tissue
+
+*Добавлено 2026-05-10 в связи со Stem-Cell-Centric extension manuscript.*
+
+**Описание:** Kraus et al. *Aging Cell* 2026 показали predictive value 9 циркулирующих piRNA для 2-year survival (AUC 0.92, n=1,271 ≥71 лет, Duke-EPESE). Heestand et al. 2025 продемонстрировали в *C. elegans* удвоение lifespan через prg-1/DAF-16. Однако **mammalian non-germline piRNA-биология плохо охарактеризована**, что блокирует включение #6 в canonical counter set.
+
+**Приоритет:** **Средний** (P2). Blocking-issue для канонизации #6.
+
+### Фальсифицируемый тест 5A: Knockdown 9 идентифицированных piRNA в aged mouse model
+
+**Гипотеза:** Антисенс-олигонуклеотиды против 9 piRNA, идентифицированных Kraus et al., при системном введении старым мышам (≥18 мес) увеличат:
+1. survival (primary endpoint, log-rank vs scrambled-AON)
+2. функциональные показатели (frailty index, GTT, grip strength)
+3. снизят GrimAge EAA (mouse-equivalent clock)
+
+**Возможные исходы:**
+1. **✅ ↑survival + ↓EAA + ↑function:** piRNA-counter #6 переходит в canonical set; добавляется в PARAMETERS.md.
+2. **⚠️ ↑survival, но без ↓EAA:** counter #6 действует через damage-shadow-independent путь; пересмотр hierarchical model (THEORY §4.4).
+3. **❌ Нет эффекта:** Kraus 2026 — biomarker, не driver; counter #6 остаётся placeholder без promotion.
+4. **🔀 Tissue-dependent:** требует tissue-specific weighting `w_pi(tissue)` — extends MCOA scope.
+
+## Проблема 6: Operationalisation damage shadow и quantitative dissociation эпигенетического vs структурного омоложения
+
+*Добавлено 2026-05-10 в связи с Damage Shadow systematic review (PROSPERO CRD42026218473).*
+
+**Описание:** Meta-analysis 14 studies n=274 mice показал disconnect между ΔDNAmAge и Δfunction (r=0.09, p=0.44). Hierarchical model (THEORY §4.4) постулирует разделение на 4 уровня: транскриптомика > эпигеномика > структурный damage shadow > системная физиология. Однако **operational measurement** структурного damage shadow не стандартизировано.
+
+**Приоритет:** **Высокий** (P1). Блокирует валидное использование DNAmAge как surrogate endpoint в MCOA-driven trials.
+
+### Фальсифицируемый тест 6A: Composite damage-shadow biomarker
+
+**Гипотеза:** Композитный маркер D_shadow = w_AGE · [pentosidine] + w_mtDNA · heteroplasmy_fraction + w_aggreg · [insoluble_protein] + w_lipo · lipofuscin_AUF — при partial reprogramming **не снижается** статистически значимо, в отличие от ΔDNAmAge.
+
+**Возможные исходы:**
+1. **✅ ΔD_shadow ≈ 0 при ΔDNAmAge < 0:** подтверждает damage shadow как epigenetically-independent counter group; mandates parallel functional + structural endpoints в MCOA trials.
+2. **⚠️ Частичное снижение ΔD_shadow:** некоторые компоненты (например, mtDNA heteroplasmy) ре-сетятся через clonal selection; refine model.
+3. **❌ ΔD_shadow коррелирует с ΔDNAmAge:** опровергает hierarchical model; DNAmAge может быть валидным surrogate для D_shadow.
+4. **🔀 Tissue-specific:** в highly plastic populations (RGC, engram neurons) ΔD_shadow < 0; в systemic — ≈ 0; подтверждает tissue-specific формулировку (Lu 2020 / Berdugo-Vega 2026 reconciliation).
+
+### Связь с Аксиомой M3 (a-priori weights)
+
+D_shadow operationalisation требует *априорных* весов `w_AGE`, `w_mtDNA`, `w_aggreg`, `w_lipo` для каждой ткани. Это расширяет Test 1A (Problem 1) до структурного компонента и должно быть pre-registered одновременно.

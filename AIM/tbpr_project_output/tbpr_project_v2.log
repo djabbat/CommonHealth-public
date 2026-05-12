@@ -1,0 +1,167 @@
+2026-05-10 09:34:29,494 [INFO] 
+============================================================
+2026-05-10 09:34:29,494 [INFO] TBPR v2 — Model Cycling
+2026-05-10 09:34:29,494 [INFO] ============================================================
+2026-05-10 09:34:29,494 [INFO] Champion: deepseek|deepseek-v4-pro × 1 циклов
+2026-05-10 09:34:29,494 [INFO] Моделей в списке: 35
+2026-05-10 09:34:29,494 [INFO] Попыток на модель: 1
+2026-05-10 09:34:29,494 [INFO] Проектов: MCOA
+2026-05-10 09:34:29,494 [INFO] ============================================================
+
+2026-05-10 09:34:29,494 [INFO] 
+############################################################
+2026-05-10 09:34:29,494 [INFO] # ЗАПУСК: MCOA
+2026-05-10 09:34:29,494 [INFO] ############################################################
+2026-05-10 09:34:29,495 [INFO] [MCOA] Started. CONCEPT.md: 16863 chars, 245 lines
+2026-05-10 09:34:29,495 [INFO] 
+[MCOA] ==================================================
+2026-05-10 09:34:29,495 [INFO] [MCOA] CYCLE 1 — deepseek/deepseek-v4-pro
+2026-05-10 09:34:29,495 [INFO] [MCOA] ==================================================
+2026-05-10 09:34:29,495 [INFO] [MCOA] === TBPR-project Cycle v1 [deepseek-v4-pro] ===
+2026-05-10 09:34:49,246 [INFO] 
+============================================================
+2026-05-10 09:34:49,246 [INFO] TBPR v2 — Model Cycling
+2026-05-10 09:34:49,246 [INFO] ============================================================
+2026-05-10 09:34:49,246 [INFO] Champion: deepseek|deepseek-v4-pro × 6 циклов
+2026-05-10 09:34:49,247 [INFO] Моделей в списке: 35
+2026-05-10 09:34:49,247 [INFO] Попыток на модель: 3
+2026-05-10 09:34:49,247 [INFO] Проектов: MCOA
+2026-05-10 09:34:49,247 [INFO] ============================================================
+
+2026-05-10 09:34:49,247 [INFO] 
+############################################################
+2026-05-10 09:34:49,247 [INFO] # ЗАПУСК: MCOA
+2026-05-10 09:34:49,247 [INFO] ############################################################
+2026-05-10 09:34:49,247 [INFO] [MCOA] Started. CONCEPT.md: 16863 chars, 245 lines
+2026-05-10 09:34:49,247 [INFO] 
+[MCOA] ==================================================
+2026-05-10 09:34:49,247 [INFO] [MCOA] CYCLE 1 — deepseek/deepseek-v4-pro
+2026-05-10 09:34:49,247 [INFO] [MCOA] ==================================================
+2026-05-10 09:34:49,247 [INFO] [MCOA] === TBPR-project Cycle v1 [deepseek-v4-pro] ===
+2026-05-10 09:34:55,286 [INFO] 
+============================================================
+2026-05-10 09:34:55,286 [INFO] TBPR v2 — Model Cycling
+2026-05-10 09:34:55,286 [INFO] ============================================================
+2026-05-10 09:34:55,286 [INFO] Champion: deepseek|deepseek-v4-pro × 6 циклов
+2026-05-10 09:34:55,286 [INFO] Моделей в списке: 35
+2026-05-10 09:34:55,286 [INFO] Попыток на модель: 3
+2026-05-10 09:34:55,286 [INFO] Проектов: MCOA
+2026-05-10 09:34:55,286 [INFO] ============================================================
+
+2026-05-10 09:34:55,286 [INFO] 
+############################################################
+2026-05-10 09:34:55,286 [INFO] # ЗАПУСК: MCOA
+2026-05-10 09:34:55,286 [INFO] ############################################################
+2026-05-10 09:34:55,287 [INFO] [MCOA] Started. CONCEPT.md: 16863 chars, 245 lines
+2026-05-10 09:34:55,287 [INFO] 
+[MCOA] ==================================================
+2026-05-10 09:34:55,287 [INFO] [MCOA] CYCLE 1 — deepseek/deepseek-v4-pro
+2026-05-10 09:34:55,287 [INFO] [MCOA] ==================================================
+2026-05-10 09:34:55,287 [INFO] [MCOA] === TBPR-project Cycle v1 [deepseek-v4-pro] ===
+2026-05-10 09:35:42,503 [INFO]   → TBPR Review: /home/oem/Desktop/LongevityCommon/AIM/tbpr_project_output/MCOA/tbpr_cycle_01_review.md
+2026-05-10 09:35:42,505 [INFO] [MCOA]  Scores: R1=36/55; R2=37/55; R3=27/55
+2026-05-10 09:35:42,505 [INFO] [MCOA]  → Combined: 27/55 (49.1%) — UNKNOWN ⭐
+2026-05-10 09:35:42,505 [INFO] [MCOA]  🆕 Лучший результат! Модель: deepseek/deepseek-v4-pro
+2026-05-10 09:35:42,505 [INFO] [MCOA]  Исправляю...
+2026-05-10 09:35:42,505 [INFO] [MCOA] Fixing document based on TBPR review [deepseek-v4-pro]...
+2026-05-10 09:35:53,102 [INFO]   → TBPR Review: /home/oem/Desktop/LongevityCommon/AIM/tbpr_project_output/MCOA/tbpr_cycle_01_review.md
+2026-05-10 09:35:53,104 [INFO] [MCOA]  Scores: R1=36/55; R2=36/55; R3=27/55
+2026-05-10 09:35:53,104 [INFO] [MCOA]  → Combined: 27/55 (49.1%) — UNKNOWN ⭐
+2026-05-10 09:35:53,104 [INFO] [MCOA]  🆕 Лучший результат! Модель: deepseek/deepseek-v4-pro
+2026-05-10 09:35:53,104 [INFO] [MCOA]  Исправляю...
+2026-05-10 09:35:53,104 [INFO] [MCOA] Fixing document based on TBPR review [deepseek-v4-pro]...
+2026-05-10 09:37:15,073 [INFO]   → Fixed CONCEPT: /home/oem/Desktop/LongevityCommon/AIM/tbpr_project_output/MCOA/CONCEPT_v1_fixed.md
+2026-05-10 09:37:15,073 [INFO] 
+[MCOA] ==================================================
+2026-05-10 09:37:15,073 [INFO] [MCOA] CYCLE 2 — deepseek/deepseek-v4-pro
+2026-05-10 09:37:15,073 [INFO] [MCOA] ==================================================
+2026-05-10 09:37:15,073 [INFO] [MCOA]  ⬅ Откат к лучшей версии (v1: 27/55)
+2026-05-10 09:37:15,073 [INFO] [MCOA] === TBPR-project Cycle v2 [deepseek-v4-pro] ===
+2026-05-10 09:38:10,857 [INFO]   → TBPR Review: /home/oem/Desktop/LongevityCommon/AIM/tbpr_project_output/MCOA/tbpr_cycle_02_review.md
+2026-05-10 09:38:10,858 [INFO] [MCOA]  Scores: R1=37/55; R2=28/55; R3=23/55
+2026-05-10 09:38:10,858 [INFO] [MCOA]  → Combined: 23/55 (41.8%) — The concept has intellectual merit but is presented in a way that inflates its immediate impact. For a grant submission, the language should be toned down, the unresolved foundational issues (weights, sample size) addressed with concrete preliminary data, and the budget justified with quotes or prior experience. As a “project concept” for internal review, it is useful; as a public proposal, it needs revision.
+
+---
+
+### Reviewer C (Red Team – counter-arguments, bias)
+
+| # | Criterion | Score (1–5) |
+|---|-----------|-------------|
+| 1 |
+2026-05-10 09:38:10,858 [INFO] [MCOA]  ⬇ Score 23 < best 27. Откат к v1 без фикса.
+2026-05-10 09:38:10,858 [INFO] 
+[MCOA] ==================================================
+2026-05-10 09:38:10,858 [INFO] [MCOA] CYCLE 3 — deepseek/deepseek-v4-pro
+2026-05-10 09:38:10,858 [INFO] [MCOA] ==================================================
+2026-05-10 09:38:10,858 [INFO] [MCOA] === TBPR-project Cycle v3 [deepseek-v4-pro] ===
+2026-05-10 09:38:57,136 [INFO]   → TBPR Review: /home/oem/Desktop/LongevityCommon/AIM/tbpr_project_output/MCOA/tbpr_cycle_03_review.md
+2026-05-10 09:38:57,137 [INFO] [MCOA]  Scores: R1=37/55; R2=29/55; R3=24/55
+2026-05-10 09:38:57,137 [INFO] [MCOA]  → Combined: 24/55 (43.6%) — UNKNOWN
+2026-05-10 09:38:57,137 [INFO] [MCOA]  ⬇ Score 24 < best 27. Откат к v1 без фикса.
+2026-05-10 09:38:57,137 [INFO] 
+[MCOA] ==================================================
+2026-05-10 09:38:57,137 [INFO] [MCOA] CYCLE 4 — deepseek/deepseek-v4-pro
+2026-05-10 09:38:57,138 [INFO] [MCOA] ==================================================
+2026-05-10 09:38:57,138 [INFO] [MCOA] === TBPR-project Cycle v4 [deepseek-v4-pro] ===
+2026-05-10 09:39:02,461 [INFO]   → Fixed CONCEPT: /home/oem/Desktop/LongevityCommon/AIM/tbpr_project_output/MCOA/CONCEPT_v1_fixed.md
+2026-05-10 09:39:02,462 [INFO] 
+[MCOA] ==================================================
+2026-05-10 09:39:02,462 [INFO] [MCOA] CYCLE 2 — deepseek/deepseek-v4-pro
+2026-05-10 09:39:02,462 [INFO] [MCOA] ==================================================
+2026-05-10 09:39:02,463 [INFO] [MCOA]  ⬅ Откат к лучшей версии (v1: 27/55)
+2026-05-10 09:39:02,463 [INFO] [MCOA] === TBPR-project Cycle v2 [deepseek-v4-pro] ===
+2026-05-10 09:39:49,363 [INFO]   → TBPR Review: /home/oem/Desktop/LongevityCommon/AIM/tbpr_project_output/MCOA/tbpr_cycle_02_review.md
+2026-05-10 09:39:49,367 [INFO] [MCOA]  Scores: R1=39/55; R2=28/55; R3=29/55
+2026-05-10 09:39:49,367 [INFO] [MCOA]  → Combined: 28/55 (50.9%) — Major revision required before any implementation. The priority must be to solve Problem 1 (weight prediction) or, failing that, to explicitly adopt equal weights as the null model and test whether the framework outperforms it.
+
+---
+
+### Reviewer B – Fluff/Impact Auditor
+
+| # | Criterion | Score (1–5) |
+|---|-----------|-------------|
+| 1 | Scientific merit / originality | 3 |
+| 2 | Rationale / justification | 2 |
+| 3 | Methodology / approach | 2 |
+| 4 | Feasibility | 2 |
+| 5 | Data / evidence support | 1 |
+| 6 | Clarity / presentation | 4 |
+| 7 | Significance / impact | 3 |
+| 8 | Reproducibility / falsifiability | 4 |
+| 9 | Resources / budget | 2 |
+| 10 | Risk mitigation | 2 |
+| 11 | Innovation | 3 | ⭐
+2026-05-10 09:39:49,367 [INFO] [MCOA]  🆕 Лучший результат! Модель: deepseek/deepseek-v4-pro
+2026-05-10 09:39:49,367 [INFO] [MCOA]  Исправляю...
+2026-05-10 09:39:49,367 [INFO] [MCOA] Fixing document based on TBPR review [deepseek-v4-pro]...
+2026-05-10 09:40:26,166 [INFO]   → TBPR Review: /home/oem/Desktop/LongevityCommon/AIM/tbpr_project_output/MCOA/tbpr_cycle_04_review.md
+2026-05-10 09:40:26,173 [INFO] [MCOA]  Scores: R1=37/55; R2=27/55
+2026-05-10 09:40:26,173 [INFO] [MCOA]  → Combined: 27/55 (49.1%) — UNKNOWN
+2026-05-10 09:40:26,173 [INFO] [MCOA]  ⬇ Score 27 < best 27. Откат к v1 без фикса.
+2026-05-10 09:40:26,173 [INFO] 
+[MCOA] ==================================================
+2026-05-10 09:40:26,174 [INFO] [MCOA] CYCLE 5 — deepseek/deepseek-v4-pro
+2026-05-10 09:40:26,174 [INFO] [MCOA] ==================================================
+2026-05-10 09:40:26,174 [INFO] [MCOA] === TBPR-project Cycle v5 [deepseek-v4-pro] ===
+2026-05-10 09:40:41,187 [INFO]   → Fixed CONCEPT: /home/oem/Desktop/LongevityCommon/AIM/tbpr_project_output/MCOA/CONCEPT_v2_fixed.md
+2026-05-10 09:40:41,187 [INFO] 
+[MCOA] ==================================================
+2026-05-10 09:40:41,188 [INFO] [MCOA] CYCLE 3 — deepseek/deepseek-v4-pro
+2026-05-10 09:40:41,188 [INFO] [MCOA] ==================================================
+2026-05-10 09:40:41,188 [INFO] [MCOA]  ⬅ Откат к лучшей версии (v2: 28/55)
+2026-05-10 09:40:41,188 [INFO] [MCOA] === TBPR-project Cycle v3 [deepseek-v4-pro] ===
+2026-05-10 09:41:19,376 [INFO]   → TBPR Review: /home/oem/Desktop/LongevityCommon/AIM/tbpr_project_output/MCOA/tbpr_cycle_05_review.md
+2026-05-10 09:41:19,376 [INFO] [MCOA]  Scores: R1=45/55; R2=37/55; R3=27/55
+2026-05-10 09:41:19,376 [INFO] [MCOA]  → Combined: 27/55 (49.1%) — UNKNOWN
+2026-05-10 09:41:19,376 [INFO] [MCOA]  ⬇ Score 27 < best 27. Откат к v1 без фикса.
+2026-05-10 09:41:19,376 [INFO] 
+[MCOA] ==================================================
+2026-05-10 09:41:19,376 [INFO] [MCOA] CYCLE 6 — deepseek/deepseek-v4-pro
+2026-05-10 09:41:19,376 [INFO] [MCOA] ==================================================
+2026-05-10 09:41:19,376 [INFO] [MCOA] === TBPR-project Cycle v6 [deepseek-v4-pro] ===
+2026-05-10 09:41:52,192 [INFO]   → TBPR Review: /home/oem/Desktop/LongevityCommon/AIM/tbpr_project_output/MCOA/tbpr_cycle_03_review.md
+2026-05-10 09:41:52,194 [INFO] [MCOA]  Scores: R1=39/55; R2=46/55; R3=43/55
+2026-05-10 09:41:52,194 [INFO] [MCOA]  → Combined: 39/55 (70.9%) — UNKNOWN ⭐
+2026-05-10 09:41:52,194 [INFO] [MCOA]  🆕 Лучший результат! Модель: deepseek/deepseek-v4-pro
+2026-05-10 09:41:52,194 [INFO] [MCOA]  Исправляю...
+2026-05-10 09:41:52,194 [INFO] [MCOA] Fixing document based on TBPR review [deepseek-v4-pro]...

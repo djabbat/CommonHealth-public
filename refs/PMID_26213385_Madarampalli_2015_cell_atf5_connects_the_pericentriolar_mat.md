@@ -1,0 +1,76 @@
+# PMID 26213385 — Madarampalli B 2015
+
+**Title:** ATF5 Connects the Pericentriolar Materials to the Proximal End of the Mother Centriole.
+
+**Journal:** Cell · **Year:** 2015
+
+**Authors (10 total, first 30 shown):**
+- Madarampalli B
+- Yuan Y
+- Liu D
+- Lengel K
+- Xu Y
+- Li G
+- Yang J
+- Liu X
+- Lu Z
+- Liu DX
+
+**DOI:** 10.1016/j.cell.2015.06.055
+
+**PubMed URL:** https://pubmed.ncbi.nlm.nih.gov/26213385/
+
+**Verification stamp:** ✅ NCBI esummary 2026-05-12 — author + journal + year + title fetched live.
+
+---
+
+## Abstract (PubMed efetch)
+
+```
+1. Cell. 2015 Jul 30;162(3):580-92. doi: 10.1016/j.cell.2015.06.055. Epub 2015
+Jul  23.
+
+ATF5 Connects the Pericentriolar Materials to the Proximal End of the Mother 
+Centriole.
+
+Madarampalli B(1), Yuan Y(1), Liu D(1), Lengel K(1), Xu Y(1), Li G(1), Yang 
+J(2), Liu X(3), Lu Z(4), Liu DX(5).
+
+Author information:
+(1)Department of Pharmaceutical Sciences, Washington State University College of 
+Pharmacy, Spokane, WA 99202, USA.
+(2)Department of Pharmacology, Penn State College of Medicine, Hershey, PA 
+17033, USA.
+(3)State Key Laboratory of Cell Biology, Institute of Biochemistry and Cell 
+Biology, Shanghai Institute for Biological Sciences, Chinese Academy of 
+Sciences, Shanghai 200031, China; Xinyuan Institute of Medicine and 
+Biotechnology, College of Life Science, Zhejiang Sci-Tech University, Hangzhou 
+310018, China.
+(4)Brain Tumor Center and Department of Neuro-Oncology, The University of Texas 
+MD Anderson Cancer Center, Houston, TX 77030, USA.
+(5)Department of Pharmaceutical Sciences, Washington State University College of 
+Pharmacy, Spokane, WA 99202, USA. Electronic address: d.liu@wsu.edu.
+
+Comment in
+    Cell Cycle. 2015;14(20):3215-6. doi: 10.1080/15384101.2015.1086202.
+
+Although it is known that the centrioles play instructive roles in 
+pericentriolar material (PCM) assembly and that the PCM is essential for proper 
+centriole formation, the mechanism that governs centriole-PCM interaction is 
+poorly understood. Here, we show that ATF5 forms a characteristic 9-fold 
+symmetrical ring structure in the inner layer of the PCM outfitting the proximal 
+end of the mother centriole. ATF5 controls the centriole-PCM interaction in a 
+cell-cycle- and centriole-age-dependent manner. Interaction of ATF5 with 
+polyglutamylated tubulin (PGT) on the mother centriole and with PCNT in the PCM 
+renders ATF5 as a required molecule in mother centriole-directed PCM 
+accumulation and in PCM-dependent centriole formation. ATF5 depletion blocks PCM 
+accumulation at the centrosome and causes fragmentation of centrioles, leading 
+to the formation of multi-polar mitotic spindles and genomic instability. These 
+data show that ATF5 is an essential structural protein that is required for the 
+interaction between the mother centriole and the PCM.
+
+Copyright © 2015 Elsevier Inc. All rights reserved.
+
+DOI: 10.1016/j.cell.2015.06.055
+PMID: 26213385 [Indexed for MEDLINE]
+```

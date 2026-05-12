@@ -1,0 +1,23 @@
+[2026-05-10 11:00:37] === orchestrator start: targets=['E0', 'AutomatedMicroscopy', 'CellLineageTree', 'EpigeneticDrift', 'Proteostasis', 'Telomere', 'MitoROS', 'BioSense', 'AIM', 'Ze', 'MCOA', 'CDATA'], levels=['concept', 'core', 'full'], only_agent=None ===
+[2026-05-10 11:00:37] ### PROJECT E0 @ /home/oem/Desktop/LongevityCommon/CDATA/experiments/E0 ###
+[2026-05-10 11:00:37] [E0/concept] resume skip — already attempted (best 35/55 by reasoner-high)
+[2026-05-10 11:00:37] [E0/core] start — files: ['PARAMETERS.md']
+[2026-05-10 11:00:37] [E0/core] agent 1/9 = flash-nothink
+[2026-05-10 11:01:35]   review ok (57s, 7641 chars)
+[2026-05-10 11:01:35]   score = 21/55  (best so far 0)
+[2026-05-10 11:03:36]   fix ok (122s, 21995 chars)
+[2026-05-10 11:03:36] [E0/core] agent 2/9 = flash-low
+[2026-05-10 11:04:57]   review ok (81s, 9427 chars)
+[2026-05-10 11:04:57]   score = 21/55  (best so far 21)
+[2026-05-10 11:07:05]   fix ok (128s, 27864 chars)
+[2026-05-10 11:07:05] [E0/core] agent 3/9 = flash-high
+[2026-05-10 11:08:08]   review ok (62s, 4202 chars)
+[2026-05-10 11:08:08]   score = 33/55  (best so far 21)
+[2026-05-10 11:10:50]   fix ok (162s, 33201 chars)
+[2026-05-10 11:10:50] [E0/core] agent 4/9 = flash-max
+[2026-05-10 11:11:40]   review ok (50s, 1307 chars)
+[2026-05-10 11:11:40]   score = 26/55  (best so far 33)
+[2026-05-10 11:16:12]   fix ok (272s, 26507 chars)
+[2026-05-10 11:16:12] [E0/core] agent 5/9 = chat-high
+[2026-05-10 11:16:57]   review ok (45s, 1187 chars)
+[2026-05-10 11:16:57]   score = 35/55  (best so far 33)

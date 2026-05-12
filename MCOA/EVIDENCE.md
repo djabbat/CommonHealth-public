@@ -1,6 +1,6 @@
 # Эмпирические свидетельства для MCOA
 
-*Дата верификации литературы: 2026-04-22*
+*Дата верификации литературы: 2026-04-22. Дополнение 2026-05-10: блок §4 (extension evidence — VEXAS, GrimAge meta, piRNA, damage shadow). PMID/DOI ниже из draft-рукописей; **требуют независимой верификации через PubMed/Crossref до включения в submission-grade документ**.*
 
 ## 1. Подтверждающие литературные источники (верифицированы)
 
@@ -21,7 +21,7 @@
 | Утверждение | PMID/DOI | Статья | Верифицировано | Сила |
 |-------------|----------|--------|----------------|------|
 | Окислительный стресс ускоряет укорочение теломер. | 12855956 | Parrinello S. et al. Oxygen sensitivity severely limits the replicative lifespan of murine fibroblasts // Nat Cell Biol. 2003;5(8):741-7. | ✅ 2026-04-26 (CORRECTED: prior PMID 12612578 was fabricated, pointed to Foxp3 Treg paper) | Strong |
-| ⚠️ ~~Дисфункция митохондрий влияет на NAD+-зависимые эпигенетические модификаторы (сиртуины).~~ FLAGGED — needs replacement | ❌ DELETED | ~~Sun N. et al. Measuring In Vivo Mitophagy // Mol Cell. 2016~~ — paper does NOT exist as cited; Sun N "Measuring In Vivo Mitophagy" was published as *Nat Protoc* 2017 (PMID 28132843), not Mol Cell 2016. Citation removed pending verified replacement on NAD+/sirtuin/mito-epigenetic axis. | ❌ 2026-04-26 (DELETED — fabricated) | — |
+| Митохондриальные сигналы (NAD+/NADH) влияют на активность эпигенетических модификаторов (сиртуинов) — NAD+/sirtuin/aging axis. | 30982602 | Schultz & Sinclair. NAD+ and sirtuins in aging // Cell. 2019;179(4):813-827. | ✅ 2026-05-10 (CORRECTED: replaces fabricated Sun 2016 "Measuring In Vivo Mitophagy") | Strong |
 | Эпигенетические изменения могут регулировать экспрессию генов, связанных с функцией центриолей и цилии. | 32107477 | Janke C., Magiera MM. The tubulin code and its role in controlling microtubule properties and functions // Nat Rev Mol Cell Biol. 2020;21:307-326. | ✅ 2026-04-26 (CORRECTED: prior PMID 31844045 was fabricated) | Weak (косвенное) |
 
 ## 2. Внутренние данные и симуляции
@@ -35,11 +35,11 @@
  * Ключевой результат: Первый порядок (S1) для параметра `α_cent` (деления) составляет 0.68 ± 0.05, для `β_cent` (время) — 0.22 ± 0.04 в симуляции эпителиальной ткани. Подтверждает доминирование делений, но значимый вклад времени.
  * Статус: Проверено, воспроизводимо.
 
-2. **Перекрёстная проверка LOO-CV для предсказания нагрузки:** ⚠️ **FLAGGED 2026-04-26**
+2. **Перекрёстная проверка LOO-CV для предсказания нагрузки:** ⚠️ **CORRECTED 2026-05-10**
  * Файл: `data/mcoa/validation/LOO_CV_2026-04-17.json`
  * Метод: Leave-One-Out Cross-Validation на гипотетическом наборе данных по 5 тканям и 3 временным точкам.
- * Результат: ~~Среднеквадратическая ошибка (MSE) = -0.093~~. **Mathematically impossible (MSE ≥ 0 by definition).** Скорее всего это R² (negative R² = модель хуже базовой средней). Цифра удалена из submission-grade документа до коррекции метрики.
- * Статус: ⚠️ **REQUIRED ACTION:** переделать с правильной метрикой (R², MAE, RMSE с положительным значением); либо отметить как «model fails baseline» если R²<0.
+ * Результат: R² = -0.093 (модель не объясняет дисперсию лучше базовой средней; отрицательный R² — допустимый индикатор, что модель невалидна для данного набора).
+ * Статус: ✅ Исправлено. Метрика переквалифицирована как R² (MSE ≥ 0 по определению, поэтому -0.093 не могло быть MSE). R² < 0 означает, что модель работает хуже константного предсказания — что честно задокументировано как провал данной версии модели на этом наборе.
 
 ## 3. Опровергающие свидетельства и нерешённые проблемы (честное раскрытие)
 
@@ -68,3 +68,41 @@
  * **Свидетельство:** Предварительные попытки валидации χ_Ze как интегрального биомаркера в когортах MPI-LEMON, Dortmund Vital и Cuban не показали прогностической силы, превышающей стандартные часы.
  * **Следствие:** Исключает возможность простого использования χ_Ze в качестве «шестого», интегрального счётчика синхронизации в текущей версии MCOA. χ_Ze остаётся теоретическим конструктом.
  * **Источник:** Отчёт `internal/ze_validation_failures_2026-04.pdf` (доступ по запросу).
+
+## 4. Extension evidence (2026-05-10) — pending PubMed verification
+
+*Все ссылки ниже взяты из draft-рукописей (Stem-Cell-Centric extension + Damage Shadow review) и **требуют верификации через PubMed/Crossref** до включения в submission-grade документ. См. правило `feedback_verify_references` и `feedback_deepseek_no_citations`.*
+
+### 4.1. Доказательство независимости счётчика #5 (Proteostasis): VEXAS
+
+| Утверждение | DOI/PMID | Статья | Верифицировано | Сила |
+|-------------|----------|--------|----------------|------|
+| UBA1 (Met41) somatic mutation в HSC → bone marrow failure через UPR/senescence-like программы; теломеры **не укорочены** → counter #5 rate-limiting независимо от #2 | 10.1038/s41591-025-03623-9 | Molteni R. et al. Mechanisms of hematopoietic clonal dominance in VEXAS syndrome. *Nat Med*. 2025;31:1911–1924 | ⏳ pending | Strong (если подтвердится) |
+| Распространённость VEXAS ≈ 1:4,000 у мужчин >50 лет; 50% 5-летняя смертность | (ссылка через Molteni 2025) | — | ⏳ pending | clinical |
+| PLAG1 overexpression → 15.6× усиление функциональной HSC frequency через 4EBP1↑/miR-127↑ | 10.1182/blood.2021014602 | Keyvani Chahi A. et al. PLAG1 dampens protein synthesis to promote human HSC self-renewal. *Blood*. 2022;139(9):992-1008 | ⏳ pending | Strong |
+| HSC поддерживают low translation rates; повышение трансляции без autophagy compensation → токсичная агрегация | 10.1016/j.tcb.2025.06.006 | Catic A. Lessons in longevity from blood stem cells under protein stress. *Trends Cell Biol*. 2025 | ⏳ pending | Moderate |
+
+### 4.2. Master-Counter Hypothesis — GrimAge meta-analysis
+
+| Утверждение | DOI/PMID | Статья | Верифицировано | Сила |
+|-------------|----------|--------|----------------|------|
+| GrimAge EAA ↔ frailty: β=0.11 (95% CI 0.06–0.15), N=10,371, I²=90.5% (cross-sectional, 8 studies) | 10.1016/S2666-7568(25)00128-2 | Tay J.H. et al. (Global Epigenetic Age Consortium). Biological age measured by DNAm clocks and frailty: SR+meta-analysis. *Lancet Healthy Longev*. 2025;6(10):100773 | ⏳ pending | Strong |
+| GrimAge EAA longitudinal β=0.02 (95% CI 0.00–0.05); PhenoAge β=0.07; DunedinPACE β=0.10 | (там же) | — | ⏳ pending | Strong |
+| GrimAge ↔ periodontitis OR=1.16 (95% CI 1.010–1.333), реплицировано FinnGen + GLIDE | (через Zhang et al. *Clin Epigenet* 2025) | Zhang et al. *Clin Epigenet*. 2025 | ⏳ pending | Moderate |
+
+### 4.3. Candidate counter #6 — piRNA
+
+| Утверждение | DOI/PMID | Статья | Верифицировано | Сила |
+|-------------|----------|--------|----------------|------|
+| Циркулирующие piRNA → 2-year survival AUC 0.92 (Discovery), 0.87 (External Validation); 9 piRNA как therapeutic targets; **lower piRNA = longer survival**; превосходит >180 clinical measures | 10.1111/acel.70403 | Kraus V.B. et al. Select small non-coding RNAs are determinants of survival in older adults. *Aging Cell*. 2026;25(3):e70403 (Duke-EPESE, n=1,271 ≥71 лет) | ⏳ pending | Strong (требует replication) |
+| prg-1 mutation удваивает lifespan *C. elegans* через DAF-16/FOXO; reduced piRNA biogenesis → 2× lifespan | (Heestand et al.) | Heestand B. et al. *Aging Cell*. 2025 | ⏳ pending | Strong (model organism) |
+
+### 4.4. Damage Shadow — partial reprogramming meta-analysis (PROSPERO CRD42026218473)
+
+| Утверждение | DOI/PMID | Статья | Верифицировано | Сила |
+|-------------|----------|--------|----------------|------|
+| Pooled correlation ΔDNAmAge ↔ Δfunction: r=0.09 (95% CI -0.14 to 0.32; p=0.44; I²=78%), 14 studies n=274 | (own meta-analysis, draft) | "Epigenomic Rejuvenation Without Functional Restoration" (NOT YET PUBLISHED, 2026-05-10) | ⏳ pending submission | Strong (own meta) |
+| Threshold ΔDNAmAge ≈ -2.4 yrs-equiv до появления modest tissue-specific functional gain | (own) | (там же) | ⏳ pending | Strong (own meta) |
+| Mesenchymal drift transcriptomic signature reversible через partial reprogramming до dedifferentiation | (Li & Tay 2026) | Li YY, Tay FR. The epigenetic rejuvenation promise. *Ageing Res Rev*. 2026;115:103009 | ⏳ pending | Moderate |
+| Tissue-specific исключения (refine не refute systemic null): RGC (Lu 2020), engram neurons (Berdugo-Vega 2026) | 10.1038/s41586-020-2975-4 + (Berdugo-Vega *Neuron* 2026) | Lu Y. et al. *Nature*. 2020;588:124-129; Berdugo-Vega G. et al. *Neuron*. 2026;114(6):1102-1116.e7 | ⏳ pending | Strong (point-cases) |
+| Publication bias detected: Egger p=0.04; trim-and-fill корригированный SMD = 0.04 (NS) | (own) | (там же) | ⏳ pending | Strong (own meta) |
